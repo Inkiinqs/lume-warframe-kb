@@ -52,3 +52,4 @@ This separation is the core guardrail against turning the project into one giant
 3. Import entity data for items, world content, and activities.
 4. Add relationship records for drops, crafting, compatibility, and synergies.
 5. Layer player data and AI indexes on top.
+2026-04-26T08:06:35Z test bump
