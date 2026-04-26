@@ -1,0 +1,246 @@
+{
+    "id":  "weapon.plasma-sword",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Plasma Sword",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  800,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  20000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/PlasmaSwordBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Ferrite",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Ferrite",
+                                                              "itemCount":  500,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Orokin Cell",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/OrokinCell",
+                                                              "itemCount":  1,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Polymer Bundle",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                                                              "itemCount":  50,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Salvage",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Salvage",
+                                                              "itemCount":  450,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  25,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/PlasmaSword.png?a7944",
+                                   "url":  "https://wiki.warframe.com/w/Plasma_Sword",
+                                   "imageName":  "plasma-sword-1c0e836f2e.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  0.667,
+                                          "crit_chance":  18,
+                                          "crit_mult":  2,
+                                          "status_chance":  18,
+                                          "damage":  {
+                                                         "impact":  34,
+                                                         "slash":  88,
+                                                         "puncture":  12,
+                                                         "electricity":  66
+                                                     },
+                                          "slide":  "200"
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  0.667,
+                                          "crit_chance":  18,
+                                          "crit_mult":  2,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  7,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "electricity":  400
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  0.667,
+                                          "crit_chance":  18,
+                                          "crit_mult":  2,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  8,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "electricity":  600
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  400,
+                      "blockingAngle":  55,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  34,
+                                     "electricity":  66,
+                                     "true":  0,
+                                     "slash":  12,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  88,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  200,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            34,
+                                            12,
+                                            88,
+                                            0,
+                                            0,
+                                            66,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  2.5,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  1000,
+                      "followThrough":  0.60000002,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  600,
+                      "stancePolarity":  "unairu",
+                      "slideAttack":  200,
+                      "windUp":  0.60000002,
+                      "slamRadius":  7,
+                      "slamAttack":  600,
+                      "heavySlamRadius":  8
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Melee/Swords/PlasmaSword/PlasmaLongSword"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "An advanced blade that delivers high-damage attacks. Delivers a high percentage of critical strikes.",
+    "release":  {
+                    "releaseDate":  "2012-12-18",
+                    "introduced":  {
+                                       "date":  "2012-12-18",
+                                       "parent":  "5.0",
+                                       "url":  "https://wiki.warframe.com/w/Closed_Beta_Updates%23Update_5.0",
+                                       "name":  "Update 5.0",
+                                       "aliases":  [
+                                                       "5",
+                                                       "5.0",
+                                                       "Update 5.0"
+                                                   ]
+                                   }
+                },
+    "summary":  "An advanced blade that delivers high-damage attacks. Delivers a high percentage of critical strikes.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.18000001,
+                  "polarities":  [
+                                     null
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  5,
+                  "magazineSize":  null,
+                  "fireRate":  0.66666669,
+                  "critMultiplier":  2,
+                  "totalDamage":  200,
+                  "vaulted":  null,
+                  "masteryReq":  4,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.18000001,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

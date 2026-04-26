@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "overlay-inventory-sync-response.v1",
+  "playerId": "player.demo-account",
+  "status": "preview",
+  "mode": "delta",
+  "note": "Local API returned a merge preview. Send writeMode: \"persistent\" and confirmWrite: true to write inventory.",
+  "recognizedCount": 3,
+  "mergedItems": [
+    {
+      "itemId": "part.saryn-prime-systems",
+      "previousQuantity": 1,
+      "quantity": 1,
+      "lastSeenConfidence": 0.98,
+      "lastSeenRawLabel": "Saryn Prime Systems Blueprint"
+    },
+    {
+      "itemId": "resource.orokin-cell",
+      "previousQuantity": 6,
+      "quantity": 6,
+      "lastSeenConfidence": 0.99,
+      "lastSeenRawLabel": "Orokin Cell"
+    }
+  ],
+  "unknownItems": [
+    {
+      "rawLabel": "Unknown Fuzzy OCR Token",
+      "quantity": 1,
+      "confidence": 0.34
+    }
+  ],
+  "writeRequiredFields": {
+    "writeMode": "persistent",
+    "confirmWrite": true
+  },
+  "nextActions": [
+    "Review unknownItems and map confident OCR labels to canonical IDs.",
+    "Send writeMode: \"persistent\" and confirmWrite: true only when the caller intends to mutate player inventory.",
+    "Rebuild player-aware views after a persistent inventory merge."
+  ]
+}

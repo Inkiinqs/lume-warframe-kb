@@ -1,0 +1,185 @@
+{
+    "description":  "Hybrid air-ground unit, armed with a Tetra rifle and a devastating visor mounted beam weapon.",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-enemies.json"
+                    }
+                ],
+    "name":  "Terra Elite Provisor",
+    "subCategory":  "corpus",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD Enemy.json."
+              ],
+    "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "terra-elite-provisor.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    {
+                                        "location":  "Melee Prowess",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.2529
+                                    },
+                                    {
+                                        "location":  "Point Strike",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.2529
+                                    },
+                                    {
+                                        "location":  "Shredder",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.2529
+                                    },
+                                    {
+                                        "location":  "Infected Clip",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0442
+                                    },
+                                    {
+                                        "location":  "Charged Shell",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0442
+                                    },
+                                    {
+                                        "location":  "Concussion Rounds",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0442
+                                    },
+                                    {
+                                        "location":  "Cleanse Grineer",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0442
+                                    },
+                                    {
+                                        "location":  "Incendiary Coat",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0442
+                                    },
+                                    {
+                                        "location":  "Combustion Beam",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Legendary",
+                                        "chance":  0.0067
+                                    },
+                                    {
+                                        "location":  "Ravage",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Legendary",
+                                        "chance":  0.0067
+                                    },
+                                    {
+                                        "location":  "Handspring",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Legendary",
+                                        "chance":  0.0067
+                                    },
+                                    {
+                                        "location":  "Terra Elite Provisor",
+                                        "type":  "Enemy Mod Tables",
+                                        "chance":  null
+                                    }
+                                ],
+                      "resistances":  [
+                                          {
+                                              "amount":  800,
+                                              "type":  "Shield",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "Impact",
+                                                                    "modifier":  0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Cold",
+                                                                    "modifier":  0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Magnetic",
+                                                                    "modifier":  0
+                                                                },
+                                                                {
+                                                                    "element":  "Puncture",
+                                                                    "modifier":  -0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Radiation",
+                                                                    "modifier":  -0.5
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  0,
+                                              "type":  "Ferrite Armor",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "None",
+                                                                    "modifier":  0
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  600,
+                                              "type":  "Flesh",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "Slash",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Toxin",
+                                                                    "modifier":  0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Viral",
+                                                                    "modifier":  0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Impact",
+                                                                    "modifier":  -0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Gas",
+                                                                    "modifier":  -0.5
+                                                                }
+                                                            ]
+                                          }
+                                      ]
+                  },
+    "aliases":  [
+                    "/Lotus/Types/Enemies/Corpus/Venus/Heavies/VenusFlyingEliteSpacemanAvatarLeader"
+                ],
+    "tags":  [
+                 "enemy",
+                 "corpus"
+             ],
+    "category":  "enemy",
+    "relationships":  [
+
+                      ],
+    "id":  "enemy.terra-elite-provisor",
+    "release":  {
+
+                },
+    "summary":  "Hybrid air-ground unit, armed with a Tetra rifle and a devastating visor mounted beam weapon.",
+    "stats":  {
+                  "armor":  0,
+                  "type":  "Corpus",
+                  "shield":  800,
+                  "health":  600,
+                  "regionBits":  2,
+                  "tradable":  false,
+                  "faction":  "Corpus"
+              }
+}

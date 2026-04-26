@@ -1,0 +1,175 @@
+{
+    "description":  "Corrupted variant of a heavy gunner archetype encountered in Void-aligned activities.",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-enemies.json"
+                    }
+                ],
+    "name":  "Corrupted Heavy Gunner",
+    "subCategory":  "orokin",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD Enemy.json."
+              ],
+    "mechanics":  {
+                      "defenseProfile":  [
+                                             "armor-heavy",
+                                             "mixed-room-anchor"
+                                         ],
+                      "drops":  [
+                                    {
+                                        "location":  "Intruder",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Common",
+                                        "chance":  0.7587999999999999
+                                    },
+                                    {
+                                        "location":  "Spare Parts",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.1106
+                                    },
+                                    {
+                                        "location":  "50 Endo",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.1106
+                                    },
+                                    {
+                                        "location":  "Flailing Branch",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Legendary",
+                                        "chance":  0.0067
+                                    },
+                                    {
+                                        "location":  "Whirlwind",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Legendary",
+                                        "chance":  0.0067
+                                    },
+                                    {
+                                        "location":  "80 Endo",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Legendary",
+                                        "chance":  0.0067
+                                    },
+                                    {
+                                        "location":  "Corrupted Heavy Gunner",
+                                        "type":  "Enemy Mod Tables",
+                                        "chance":  null
+                                    }
+                                ],
+                      "combatRole":  "elite-gunner",
+                      "recommendedDamage":  [
+                                                "status.viral",
+                                                "status.slash",
+                                                "status.heat",
+                                                "status.corrosive"
+                                            ],
+                      "recommendedStatusPlan":  [
+                                                    "Use this enemy as a benchmark for flexible endgame setups.",
+                                                    "Favor generalist armor-handling over narrow faction gimmicks."
+                                                ],
+                      "priorityThreats":  [
+                                              "armor-scaling",
+                                              "mixed-composition-benchmark"
+                                          ],
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "corrupted-heavy-gunner.png",
+                                   "available":  null
+                               },
+                      "resistances":  [
+                                          {
+                                              "amount":  0,
+                                              "type":  "Shield",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "None",
+                                                                    "modifier":  0
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  500,
+                                              "type":  "Ferrite Armor",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "Puncture",
+                                                                    "modifier":  0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Toxin",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Corrosive",
+                                                                    "modifier":  0
+                                                                },
+                                                                {
+                                                                    "element":  "Slash",
+                                                                    "modifier":  -0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Blast",
+                                                                    "modifier":  -0.5
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  700,
+                                              "type":  "Cloned Flesh",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "Slash",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Heat",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Viral",
+                                                                    "modifier":  0
+                                                                },
+                                                                {
+                                                                    "element":  "Impact",
+                                                                    "modifier":  -0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Gas",
+                                                                    "modifier":  -0.75
+                                                                }
+                                                            ]
+                                          }
+                                      ],
+                      "faction":  "faction.corrupted"
+                  },
+    "aliases":  [
+                    "/Lotus/Types/Enemies/Orokin/OrokinHeavyFemaleLeaderAvatar"
+                ],
+    "tags":  [
+                 "enemy",
+                 "orokin"
+             ],
+    "category":  "enemy",
+    "relationships":  [
+
+                      ],
+    "id":  "enemy.corrupted-heavy-gunner",
+    "release":  {
+
+                },
+    "summary":  "Corrupted Heavy Gunner enemy record imported from WFCD static data.",
+    "stats":  {
+                  "armor":  500,
+                  "type":  "Orokin",
+                  "shield":  0,
+                  "health":  700,
+                  "regionBits":  16384,
+                  "tradable":  false,
+                  "faction":  "Orokin"
+              }
+}

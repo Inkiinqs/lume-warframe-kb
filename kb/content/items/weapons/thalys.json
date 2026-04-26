@@ -1,0 +1,244 @@
+{
+    "id":  "weapon.thalys",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Thalys",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  1500,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  20000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/ZarimanHeavyScytheIncarnonBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Entrati Obols",
+                                                              "uniqueName":  "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemA",
+                                                              "itemCount":  1500,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Rune Marrow",
+                                                              "uniqueName":  "/Lotus/Types/Gameplay/Duviri/Resource/DuviriFractalItem",
+                                                              "itemCount":  150,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Silphsela",
+                                                              "uniqueName":  "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemE",
+                                                              "itemCount":  180,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Temporal Dust",
+                                                              "uniqueName":  "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemA",
+                                                              "itemCount":  100,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  25,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  "https://wiki.warframe.com/w/Thalys",
+                                   "imageName":  "thalys-046b42a5ff.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  0.917,
+                                          "crit_chance":  30,
+                                          "crit_mult":  2.2,
+                                          "status_chance":  24,
+                                          "damage":  {
+                                                         "slash":  210,
+                                                         "puncture":  90
+                                                     },
+                                          "slide":  "600"
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  0.917,
+                                          "crit_chance":  30,
+                                          "crit_mult":  2.2,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  8,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "impact":  600
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  0.917,
+                                          "crit_chance":  30,
+                                          "crit_mult":  2.2,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  9,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "blast":  900
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  600,
+                      "blockingAngle":  65,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  90,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  210,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  300,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            0,
+                                            90,
+                                            210,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  2.8,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  5400,
+                      "followThrough":  0.40000001,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  900,
+                      "stancePolarity":  "madurai",
+                      "slideAttack":  600,
+                      "windUp":  1,
+                      "slamRadius":  8,
+                      "slamAttack":  900,
+                      "heavySlamRadius":  9
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Zariman/Melee/HeavyScythe/ZarimanHeavyScythe/ZarimanHeavyScytheWeapon"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "The Thalys played a ceremonial role in the Zariman harvest festival, and was intended to reap the first fruits of Tau. Now twisted from this purpose, it plants Void shards in enemy flesh instead. Each new shard planted causes existing shards to inflict damage on their hosts.",
+    "release":  {
+                    "releaseDate":  "2025-06-25",
+                    "introduced":  {
+                                       "date":  "2025-06-25",
+                                       "parent":  "39.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_39%23Update_39.0",
+                                       "name":  "Update 39.0",
+                                       "aliases":  [
+                                                       "39",
+                                                       "39.0",
+                                                       "Isleweaver"
+                                                   ]
+                                   }
+                },
+    "summary":  "The Thalys played a ceremonial role in the Zariman harvest festival, and was intended to reap the first fruits of Tau. Now twisted from this purpose, it plants Void shards in enemy flesh instead. Each new shard planted causes existing shards to inflict damage on their hosts.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.24000001,
+                  "polarities":  [
+                                     null
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  1,
+                  "magazineSize":  null,
+                  "fireRate":  0.91666669,
+                  "critMultiplier":  2.2,
+                  "totalDamage":  300,
+                  "vaulted":  null,
+                  "masteryReq":  12,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.30000001,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

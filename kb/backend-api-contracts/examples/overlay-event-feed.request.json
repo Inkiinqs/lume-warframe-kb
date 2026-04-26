@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "overlay-event-feed-request.v1",
+  "playerId": "player.demo-account",
+  "capturedAt": "2026-04-11T10:05:00Z",
+  "source": "overlay-ocr",
+  "snapshotType": "event-feed",
+  "mode": "append",
+  "activityId": "activity.cambion-drift",
+  "events": [
+    {
+      "eventId": "event.demo.pickup.orokin-cell.001",
+      "eventType": "pickup",
+      "occurredAt": "2026-04-11T10:03:10Z",
+      "itemId": "resource.orokin-cell",
+      "quantity": 1,
+      "confidence": 0.96,
+      "rawText": "Orokin Cell"
+    },
+    {
+      "eventId": "event.demo.objective.bounty-stage.001",
+      "eventType": "objective-progress",
+      "occurredAt": "2026-04-11T10:04:00Z",
+      "objective": "bounty-stage",
+      "confidence": 0.89,
+      "rawText": "Bounty Stage 2/5",
+      "payload": {
+        "stage": 2,
+        "stageCount": 5
+      }
+    },
+    {
+      "eventId": "event.demo.phase.extraction.001",
+      "eventType": "mission-phase",
+      "occurredAt": "2026-04-11T10:04:45Z",
+      "phase": "extraction-available",
+      "confidence": 0.92,
+      "rawText": "Extraction Available"
+    },
+    {
+      "eventId": "event.demo.state.shieldbreak.001",
+      "eventType": "player-state",
+      "occurredAt": "2026-04-11T10:04:55Z",
+      "severity": "warning",
+      "confidence": 0.81,
+      "rawText": "Shields depleted",
+      "payload": {
+        "state": "shield-break"
+      }
+    }
+  ]
+}

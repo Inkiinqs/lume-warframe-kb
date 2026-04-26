@@ -1,0 +1,284 @@
+{
+    "id":  "weapon.korumm",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Korumm",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  1300,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  20000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/NewWar/ArchonTridentBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Earth/Cetus (Level 50 - 70 Cetus Bounty), Rotation C",
+                                                                                "type":  "Korumm Blueprint",
+                                                                                "chance":  5.45,
+                                                                                "rarity":  "Rare"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Venus/Orb Vallis (Level 50 - 70 Orb Vallis Bounty), Rotation C",
+                                                                                "type":  "Korumm Blueprint",
+                                                                                "chance":  5.45,
+                                                                                "rarity":  "Rare"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Earth/Cetus (Level 50 - 70 Cetus Bounty), Rotation C",
+                                                                                "type":  "Korumm Blueprint",
+                                                                                "chance":  7.5,
+                                                                                "rarity":  "Rare"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Venus/Orb Vallis (Level 50 - 70 Orb Vallis Bounty), Rotation C",
+                                                                                "type":  "Korumm Blueprint",
+                                                                                "chance":  7.5,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Coprite Alloy",
+                                                              "uniqueName":  "/Lotus/Types/Items/Gems/Eidolon/CommonOreBAlloyBItem",
+                                                              "itemCount":  60,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Narmer Isoplast",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/NarmerBountyResource",
+                                                              "itemCount":  16,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Radiant Zodian",
+                                                              "uniqueName":  "/Lotus/Types/Items/Gems/Solaris/SolarisEidolonGemACutItem",
+                                                              "itemCount":  6,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Rubedo",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Rubedo",
+                                                              "itemCount":  3200,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  25,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Korumm.png?96fd2",
+                                   "url":  "https://wiki.warframe.com/w/Korumm",
+                                   "imageName":  "korumm-b9aef456d4.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  1,
+                                          "crit_chance":  24,
+                                          "crit_mult":  2.2,
+                                          "status_chance":  30,
+                                          "damage":  {
+                                                         "impact":  52,
+                                                         "slash":  104,
+                                                         "puncture":  104
+                                                     },
+                                          "slide":  "520"
+                                      },
+                                      {
+                                          "name":  "Tactical Combo Slam Attack",
+                                          "speed":  1,
+                                          "crit_chance":  0,
+                                          "crit_mult":  1,
+                                          "status_chance":  50,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  10,
+                                                          "reduction":  0
+                                                      },
+                                          "damage":  {
+                                                         "electricity":  1040
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  1,
+                                          "crit_chance":  24,
+                                          "crit_mult":  2.2,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  7,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "blast":  520
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  1,
+                                          "crit_chance":  24,
+                                          "crit_mult":  2.2,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  8,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "blast":  780
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  520,
+                      "blockingAngle":  55,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  52,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  104,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  103.99999,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  260,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            52,
+                                            104,
+                                            103.99999,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  2.9000001,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  1560,
+                      "followThrough":  0.60000002,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  780,
+                      "stancePolarity":  "zenurik",
+                      "slideAttack":  520,
+                      "windUp":  0.90000004,
+                      "slamRadius":  7,
+                      "slamAttack":  780,
+                      "heavySlamRadius":  8
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Archon/Melee/Trident/ArchonTridentPlayerWep"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "Archon Boreal’s signature trident. Thrust Korumm into the ground with a Tactical Combo and then rip it out in a shower of electricity.",
+    "release":  {
+                    "releaseDate":  "2021-12-15",
+                    "introduced":  {
+                                       "date":  "2021-12-15",
+                                       "parent":  "31.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_31%23Update_31.0",
+                                       "name":  "Update 31.0",
+                                       "aliases":  [
+                                                       "31",
+                                                       "31.0",
+                                                       "The New War"
+                                                   ]
+                                   }
+                },
+    "summary":  "Archon Boreal’s signature trident. Thrust Korumm into the ground with a Tactical Combo and then rip it out in a shower of electricity.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.30000001,
+                  "polarities":  [
+                                     "madurai"
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  3,
+                  "magazineSize":  null,
+                  "fireRate":  1,
+                  "critMultiplier":  2.2,
+                  "totalDamage":  260,
+                  "vaulted":  null,
+                  "masteryReq":  13,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.23999999,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

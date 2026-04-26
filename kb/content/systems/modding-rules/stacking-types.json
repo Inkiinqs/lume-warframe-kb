@@ -1,0 +1,49 @@
+{
+    "id":  "modding.stacking-types",
+    "name":  "Stacking Types",
+    "category":  "modding_rule",
+    "summary":  "Explains which modifiers stack additively, multiplicatively, or in separate buckets.",
+    "mechanics":  {
+                      "appliesTo":  [
+                                        "mods",
+                                        "buffs",
+                                        "damage-calculation"
+                                    ],
+                      "stacking":  "This record is the canonical source for general stacking categories.",
+                      "duration":  null,
+                      "formula":  "Store exact bucket behavior in sourced updates.",
+                      "specialRules":  [
+                                           "Build generation depends on this record to avoid redundant mod choices."
+                                       ]
+                  },
+    "interactions":  {
+                         "relatedSystems":  [
+                                                "formula.base-damage-stacking"
+                                            ]
+                     },
+    "examples":  [
+
+                 ],
+    "tags":  [
+                 "modding",
+                 "stacking",
+                 "buildcraft"
+             ],
+    "notes":  null,
+    "sources":  [
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Mod"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Damage"
+                    }
+                ],
+    "verification":  {
+                         "trustLevel":  "community-verified",
+                         "sourceFamily":  "warframe-wiki",
+                         "patchSensitive":  true,
+                         "reviewedAt":  "2026-04-10"
+                     }
+}

@@ -1,0 +1,27 @@
+{
+    "id":  "relationship.drop-hystrix-viper-corrupted-crewman",
+    "type":  "wfcd_drop",
+    "from":  "source.corrupted-crewman",
+    "to":  "part.hystrix-viper",
+    "summary":  "Corrupted Crewman can drop Coiling Viper.",
+    "conditions":  {
+
+                   },
+    "values":  {
+                   "location":  "Corrupted Crewman",
+                   "chance":  0.03,
+                   "rarity":  "Legendary",
+                   "rewardType":  "Coiling Viper",
+                   "parentId":  "weapon.hystrix"
+               },
+    "tags":  [
+                 "drop",
+                 "wfcd-generated"
+             ],
+    "sources":  [
+                    {
+                        "type":  "wfcd-generated",
+                        "value":  "drop:weapon.hystrix"
+                    }
+                ]
+}

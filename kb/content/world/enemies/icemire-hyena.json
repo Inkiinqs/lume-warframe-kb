@@ -1,0 +1,191 @@
+{
+    "description":  "Usually found in the Orb Vallis, this Hyena model lobs ice grenades and fires electric bolts.",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-enemies.json"
+                    }
+                ],
+    "name":  "Icemire Hyena",
+    "subCategory":  "corpus",
+    "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "icemire-hyena.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    {
+                                        "location":  "Trick Mag",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Common",
+                                        "chance":  0.5634
+                                    },
+                                    {
+                                        "location":  "Fetch",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.3284
+                                    },
+                                    {
+                                        "location":  "True Steel",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0784
+                                    },
+                                    {
+                                        "location":  "Master Thief",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Legendary",
+                                        "chance":  0.006
+                                    },
+                                    {
+                                        "location":  "Shock Collar",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Legendary",
+                                        "chance":  0.006
+                                    },
+                                    {
+                                        "location":  "Venom Teeth",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Legendary",
+                                        "chance":  0.006
+                                    },
+                                    {
+                                        "location":  "Frost Jaw",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Legendary",
+                                        "chance":  0.006
+                                    },
+                                    {
+                                        "location":  "Flame Gland",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Legendary",
+                                        "chance":  0.006
+                                    },
+                                    {
+                                        "location":  "Icemire Hyena",
+                                        "type":  "Enemy Mod Tables",
+                                        "chance":  null
+                                    }
+                                ],
+                      "resistances":  [
+                                          {
+                                              "amount":  500,
+                                              "type":  "Proto Shield",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "Impact",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Toxin",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Magnetic",
+                                                                    "modifier":  0
+                                                                },
+                                                                {
+                                                                    "element":  "Puncture",
+                                                                    "modifier":  -0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Heat",
+                                                                    "modifier":  -0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Corrosive",
+                                                                    "modifier":  -0.75
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  25,
+                                              "type":  "Alloy Armor",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "Puncture",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Cold",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Radiation",
+                                                                    "modifier":  0
+                                                                },
+                                                                {
+                                                                    "element":  "Slash",
+                                                                    "modifier":  -0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Electricity",
+                                                                    "modifier":  -0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Magnetic",
+                                                                    "modifier":  -0.75
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  800,
+                                              "type":  "Robotic",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "Puncture",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Electricity",
+                                                                    "modifier":  0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Radiation",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Slash",
+                                                                    "modifier":  -0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Toxin",
+                                                                    "modifier":  -0.5
+                                                                }
+                                                            ]
+                                          }
+                                      ]
+                  },
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD Enemy.json."
+              ],
+    "aliases":  [
+                    "/Lotus/Types/Enemies/Corpus/Venus/Heavies/Hyenas/VenusHyenaAstroAvatar"
+                ],
+    "tags":  [
+                 "enemy",
+                 "corpus"
+             ],
+    "category":  "enemy",
+    "relationships":  [
+
+                      ],
+    "id":  "enemy.icemire-hyena",
+    "release":  {
+
+                },
+    "summary":  "Usually found in the Orb Vallis, this Hyena model lobs ice grenades and fires electric bolts.",
+    "stats":  {
+                  "armor":  25,
+                  "type":  "Corpus",
+                  "shield":  500,
+                  "health":  800,
+                  "regionBits":  2,
+                  "tradable":  false,
+                  "faction":  "Corpus"
+              }
+}

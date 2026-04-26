@@ -1,0 +1,249 @@
+{
+    "id":  "weapon.orthos",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Orthos",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  925,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  20000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Alloy Plate",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                                                              "itemCount":  700,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/PolearmBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Duviri/Endless: Tier 6 (Normal)",
+                                                                                "type":  "Orthos Blueprint",
+                                                                                "chance":  1.03,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Ferrite",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Ferrite",
+                                                              "itemCount":  850,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Morphics",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Morphic",
+                                                              "itemCount":  4,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Polymer Bundle",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                                                              "itemCount":  500,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  35,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Orthos.png?86c84",
+                                   "url":  "https://wiki.warframe.com/w/Orthos",
+                                   "imageName":  "orthos-f05ec1cb86.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  0.917,
+                                          "crit_chance":  6,
+                                          "crit_mult":  1.5,
+                                          "status_chance":  18,
+                                          "damage":  {
+                                                         "impact":  27.75,
+                                                         "slash":  129.5,
+                                                         "puncture":  27.75
+                                                     },
+                                          "slide":  "370"
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  0.917,
+                                          "crit_chance":  6,
+                                          "crit_mult":  1.5,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  7,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "blast":  370
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  0.917,
+                                          "crit_chance":  6,
+                                          "crit_mult":  1.5,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  8,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "blast":  555
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  370,
+                      "blockingAngle":  55,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  27.750002,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  27.750002,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  129.5,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  185,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            27.750002,
+                                            27.750002,
+                                            129.5,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  3,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  1110,
+                      "followThrough":  0.60000002,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  555,
+                      "stancePolarity":  "naramon",
+                      "slideAttack":  370,
+                      "windUp":  0.90000004,
+                      "slamRadius":  7,
+                      "slamAttack":  555,
+                      "heavySlamRadius":  8
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Melee/Polearms/PolearmWeapon"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "The Tenno forged Orthos is a rare double bladed polearm. Those who take the time to master it speak of its impressive striking distance and ability to hit multiple targets.",
+    "release":  {
+                    "releaseDate":  "2013-06-07",
+                    "introduced":  {
+                                       "date":  "2013-06-07",
+                                       "parent":  "8.1",
+                                       "url":  "https://wiki.warframe.com/w/Update_8%23Update_8.1",
+                                       "name":  "Update 8.1",
+                                       "aliases":  [
+                                                       "8.1",
+                                                       "8.1.0"
+                                                   ]
+                                   }
+                },
+    "summary":  "The Tenno forged Orthos is a rare double bladed polearm. Those who take the time to master it speak of its impressive striking distance and ability to hit multiple targets.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.18000001,
+                  "polarities":  [
+                                     null
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  3,
+                  "magazineSize":  null,
+                  "fireRate":  0.91666669,
+                  "critMultiplier":  1.5,
+                  "totalDamage":  185,
+                  "vaulted":  null,
+                  "masteryReq":  2,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.059999999,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

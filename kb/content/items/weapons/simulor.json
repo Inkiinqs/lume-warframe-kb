@@ -1,0 +1,244 @@
+{
+    "id":  "weapon.simulor",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Simulor",
+    "subCategory":  "primary-rifle",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD primary static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  null,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  20000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Argon Crystal",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/ArgonCrystal",
+                                                              "itemCount":  1,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/CephPrimaryBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Cephalon Simaris",
+                                                                                "type":  "Simulor Blueprint",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Ferrite",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Ferrite",
+                                                              "itemCount":  1200,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Orokin Cell",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/OrokinCell",
+                                                              "itemCount":  1,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Polymer Bundle",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                                                              "itemCount":  850,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  35,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Simulor.png?aa24a",
+                                   "url":  "https://wiki.warframe.com/w/Simulor",
+                                   "imageName":  "simulor-b5d00441df.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Orb Launch",
+                                          "speed":  3,
+                                          "crit_chance":  12,
+                                          "crit_mult":  2,
+                                          "status_chance":  30,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  80,
+                                          "flight":  80,
+                                          "damage":  {
+
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Orb Merging Damage",
+                                          "speed":  3,
+                                          "crit_chance":  12,
+                                          "crit_mult":  2,
+                                          "status_chance":  30,
+                                          "damage":  {
+                                                         "magnetic":  100
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Orb Explosion",
+                                          "speed":  3,
+                                          "crit_chance":  12,
+                                          "crit_mult":  2,
+                                          "status_chance":  30,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  5,
+                                                          "reduction":  0.6
+                                                      },
+                                          "damage":  {
+                                                         "magnetic":  200
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  null,
+                      "blockingAngle":  null,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  200,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  200,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            200,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Cephalon/Primary/CephPrimary/CephPrimary"
+                ],
+    "tags":  [
+                 "weapon",
+                 "primary"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "Creates miniature gravitational singularities that can be used for scientific study or self-defense.",
+    "release":  {
+                    "releaseDate":  "2015-06-25",
+                    "introduced":  {
+                                       "date":  "2015-06-25",
+                                       "parent":  "16.10",
+                                       "url":  "https://wiki.warframe.com/w/Update_16%23Update_16.10",
+                                       "name":  "Update 16.10",
+                                       "aliases":  [
+                                                       "16.10.0",
+                                                       "16.10"
+                                                   ]
+                                   }
+                },
+    "summary":  "Creates miniature gravitational singularities that can be used for scientific study or self-defense.",
+    "stats":  {
+                  "accuracy":  28.571428,
+                  "statusChance":  0.30000001,
+                  "polarities":  [
+                                     "vazarin",
+                                     "naramon"
+                                 ],
+                  "noise":  "Alarming",
+                  "tradable":  false,
+                  "reloadTime":  3,
+                  "disposition":  4,
+                  "magazineSize":  8,
+                  "fireRate":  3.0000002,
+                  "critMultiplier":  2,
+                  "totalDamage":  200,
+                  "vaulted":  null,
+                  "masteryReq":  5,
+                  "slot":  "primary",
+                  "estimatedVaultDate":  null,
+                  "trigger":  "Active",
+                  "critChance":  0.12,
+                  "weaponClass":  "Rifle",
+                  "masterable":  true,
+                  "multishot":  1,
+                  "vaultDate":  null
+              }
+}

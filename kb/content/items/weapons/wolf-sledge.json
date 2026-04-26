@@ -1,0 +1,309 @@
+{
+    "id":  "weapon.wolf-sledge",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Wolf Sledge",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  1295,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  30000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/ThrowingHammerBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Wolf Of Saturn Six",
+                                                                                "type":  "Wolf Sledge Blueprint",
+                                                                                "chance":  25,
+                                                                                "rarity":  "Uncommon"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Handle",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/ThrowingHammerHandle",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Wolf Of Saturn Six",
+                                                                                "type":  "Wolf Sledge Handle",
+                                                                                "chance":  25,
+                                                                                "rarity":  "Uncommon"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Head",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/ThrowingHammerHead",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Wolf Of Saturn Six",
+                                                                                "type":  "Wolf Sledge Head",
+                                                                                "chance":  25,
+                                                                                "rarity":  "Uncommon"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Motor",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/ThrowingHammerMotor",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Wolf Of Saturn Six",
+                                                                                "type":  "Wolf Sledge Motor",
+                                                                                "chance":  25,
+                                                                                "rarity":  "Uncommon"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Nitain Extract",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Alertium",
+                                                              "itemCount":  5,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  25,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/WolfSledge.png?02419",
+                                   "url":  "https://wiki.warframe.com/w/Wolf_Sledge",
+                                   "imageName":  "wolf-sledge-3534a194eb.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  1,
+                                          "crit_chance":  17,
+                                          "crit_mult":  1.9,
+                                          "status_chance":  33,
+                                          "damage":  {
+                                                         "impact":  132.09,
+                                                         "slash":  119.14,
+                                                         "puncture":  7.77
+                                                     },
+                                          "slide":  "518"
+                                      },
+                                      {
+                                          "name":  "Throw",
+                                          "speed":  1,
+                                          "crit_chance":  19,
+                                          "crit_mult":  2.1,
+                                          "status_chance":  35,
+                                          "charge_time":  0.8,
+                                          "shot_type":  "Thrown",
+                                          "damage":  {
+                                                         "impact":  396.27,
+                                                         "slash":  357.42,
+                                                         "puncture":  23.31
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Throw Bounce Explosion",
+                                          "speed":  1,
+                                          "crit_chance":  19,
+                                          "crit_mult":  2.1,
+                                          "status_chance":  50,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  5,
+                                                          "reduction":  0.4
+                                                      },
+                                          "damage":  {
+                                                         "blast":  777
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Throw Recall Explosion",
+                                          "speed":  1,
+                                          "crit_chance":  19,
+                                          "crit_mult":  2.1,
+                                          "status_chance":  50,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  5,
+                                                          "reduction":  0
+                                                      },
+                                          "damage":  {
+                                                         "blast":  1554
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  1,
+                                          "crit_chance":  17,
+                                          "crit_mult":  1.9,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  9,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "impact":  518
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  1,
+                                          "crit_chance":  17,
+                                          "crit_mult":  1.9,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  10,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "blast":  777
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  518,
+                      "blockingAngle":  50,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  132.09,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  7.77,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  119.14001,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  259,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            132.09,
+                                            7.77,
+                                            119.14001,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  3.0999999,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  1554,
+                      "followThrough":  0.40000001,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  777,
+                      "stancePolarity":  "madurai",
+                      "slideAttack":  518,
+                      "windUp":  1.2,
+                      "slamRadius":  9,
+                      "slamAttack":  777,
+                      "heavySlamRadius":  10
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Melee/Hammer/ThrowingHammer"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "The signature weapon of the only lunatic fearsome enough to bust out of the Saturn Six Max-Pen. Once loosed this formidable throwing hammer always finds its way home.",
+    "release":  {
+                    "releaseDate":  "2019-02-27",
+                    "introduced":  {
+                                       "date":  "2019-02-27",
+                                       "parent":  "24.3",
+                                       "url":  "https://wiki.warframe.com/w/Update_24%23Update_24.3",
+                                       "name":  "Update 24.3",
+                                       "aliases":  [
+                                                       "24.3"
+                                                   ]
+                                   }
+                },
+    "summary":  "The signature weapon of the only lunatic fearsome enough to bust out of the Saturn Six Max-Pen. Once loosed this formidable throwing hammer always finds its way home.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.33000004,
+                  "polarities":  [
+                                     null
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  4,
+                  "magazineSize":  null,
+                  "fireRate":  1,
+                  "critMultiplier":  1.9,
+                  "totalDamage":  259,
+                  "vaulted":  null,
+                  "masteryReq":  7,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.17,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

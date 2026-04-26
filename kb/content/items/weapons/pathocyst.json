@@ -1,0 +1,349 @@
+{
+    "id":  "weapon.pathocyst",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Pathocyst",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  1048,
+                      "crafting":  {
+                                       "buildTime":  86400,
+                                       "buildPrice":  30000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blade",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/InfBoomerangBlade",
+                                                              "itemCount":  2,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Zealoid Prelate",
+                                                                                "type":  "Pathocyst Blade",
+                                                                                "chance":  33.33,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/InfBoomerangBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Zealoid Prelate",
+                                                                                "type":  "Pathocyst Blueprint",
+                                                                                "chance":  33.33,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Neurodes",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Neurode",
+                                                              "itemCount":  5,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Subcortex",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/InfBoomerangDisc",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Zealoid Prelate",
+                                                                                "type":  "Pathocyst Subcortex",
+                                                                                "chance":  33.33,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  25,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Pathocyst.png?a51a6",
+                                   "url":  "https://wiki.warframe.com/w/Pathocyst",
+                                   "imageName":  "pathocyst-7c3a6d4c28.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  0.667,
+                                          "crit_chance":  15,
+                                          "crit_mult":  2.1,
+                                          "status_chance":  30,
+                                          "damage":  {
+                                                         "impact":  57,
+                                                         "slash":  61,
+                                                         "puncture":  55,
+                                                         "viral":  89
+                                                     },
+                                          "slide":  "524"
+                                      },
+                                      {
+                                          "name":  "Throw",
+                                          "speed":  0.667,
+                                          "crit_chance":  17,
+                                          "crit_mult":  2.3,
+                                          "status_chance":  33,
+                                          "shot_type":  "Thrown",
+                                          "shot_speed":  30,
+                                          "flight":  30,
+                                          "damage":  {
+                                                         "impact":  49,
+                                                         "slash":  78,
+                                                         "puncture":  43,
+                                                         "viral":  118
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Throw Bounce Explosion",
+                                          "speed":  0.667,
+                                          "crit_chance":  17,
+                                          "crit_mult":  2.3,
+                                          "status_chance":  33,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  4.9,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "viral":  393
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Throw Recall Explosion",
+                                          "speed":  0.667,
+                                          "crit_chance":  17,
+                                          "crit_mult":  2.3,
+                                          "status_chance":  33,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  4.9,
+                                                          "reduction":  0
+                                                      },
+                                          "damage":  {
+                                                         "viral":  786
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Charged Throw",
+                                          "speed":  0.833,
+                                          "crit_chance":  21,
+                                          "crit_mult":  2.5,
+                                          "status_chance":  35,
+                                          "charge_time":  1.2,
+                                          "shot_type":  "Thrown",
+                                          "shot_speed":  30,
+                                          "flight":  30,
+                                          "damage":  {
+                                                         "impact":  127,
+                                                         "slash":  135,
+                                                         "puncture":  121,
+                                                         "viral":  193
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Charged Throw Bounce Explosion",
+                                          "speed":  0.833,
+                                          "crit_chance":  21,
+                                          "crit_mult":  2.5,
+                                          "status_chance":  35,
+                                          "charge_time":  1.2,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  4.9,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "viral":  786
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Charged Throw Recall Explosion",
+                                          "speed":  0.833,
+                                          "crit_chance":  21,
+                                          "crit_mult":  2.5,
+                                          "status_chance":  35,
+                                          "charge_time":  1.2,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  4.9,
+                                                          "reduction":  0
+                                                      },
+                                          "damage":  {
+                                                         "viral":  1572
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  0.667,
+                                          "crit_chance":  15,
+                                          "crit_mult":  2.1,
+                                          "status_chance":  30,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  5,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "viral":  524
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  0.667,
+                                          "crit_chance":  15,
+                                          "crit_mult":  2.1,
+                                          "status_chance":  30,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  6,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "viral":  786
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  524,
+                      "blockingAngle":  55,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  57,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  55,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  89,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  61,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  262,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            57,
+                                            55,
+                                            61,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            89,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  1.3,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  262,
+                      "followThrough":  0.69999999,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  786,
+                      "stancePolarity":  "naramon",
+                      "slideAttack":  524,
+                      "windUp":  1.2,
+                      "slamRadius":  5,
+                      "slamAttack":  786,
+                      "heavySlamRadius":  6
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Infested/Melee/InfBoomerang/InfBoomerangWeapon"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "Each strike of this infested glaive infects its target with viral pathogens. Occasionally, it discharges the spores of rabid, enemy-seeking maggots, either in-flight or on contact with the enemy.",
+    "release":  {
+                    "releaseDate":  "2019-09-26",
+                    "introduced":  {
+                                       "date":  "2019-09-26",
+                                       "parent":  "25.7",
+                                       "url":  "https://wiki.warframe.com/w/Update_25%23Hotfix_25.7.7",
+                                       "name":  "Hotfix 25.7.7",
+                                       "aliases":  [
+                                                       "25.7.7"
+                                                   ]
+                                   }
+                },
+    "summary":  "Each strike of this infested glaive infects its target with viral pathogens. Occasionally, it discharges the spores of rabid, enemy-seeking maggots, either in-flight or on contact with the enemy.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.30000001,
+                  "polarities":  [
+                                     "madurai",
+                                     "vazarin"
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  5,
+                  "magazineSize":  null,
+                  "fireRate":  0.66666669,
+                  "critMultiplier":  2.0999999,
+                  "totalDamage":  262,
+                  "vaulted":  null,
+                  "masteryReq":  9,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.15000001,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

@@ -1,0 +1,274 @@
+{
+    "id":  "weapon.pennant",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Pennant",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  1000,
+                      "crafting":  {
+                                       "buildTime":  86400,
+                                       "buildPrice":  30000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/TnRailjackGreatKatanaBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Kuva Lich Agor Rok",
+                                                                                "type":  "Pennant Blueprint",
+                                                                                "chance":  5,
+                                                                                "rarity":  "Common"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Blite Captain",
+                                                                                "type":  "Pennant Blueprint",
+                                                                                "chance":  7.31,
+                                                                                "rarity":  "Common"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Glacik Commander",
+                                                                                "type":  "Pennant Blueprint",
+                                                                                "chance":  7.31,
+                                                                                "rarity":  "Common"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Lektro Commander",
+                                                                                "type":  "Pennant Blueprint",
+                                                                                "chance":  7.31,
+                                                                                "rarity":  "Common"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Pyr Captain",
+                                                                                "type":  "Pennant Blueprint",
+                                                                                "chance":  7.31,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Ferrite",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Ferrite",
+                                                              "itemCount":  5300,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Polymer Bundle",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                                                              "itemCount":  1550,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Rubedo",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Rubedo",
+                                                              "itemCount":  2100,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Tellurium",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Tellurium",
+                                                              "itemCount":  2,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  35,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Pennant.png?e55f5",
+                                   "url":  "https://wiki.warframe.com/w/Pennant",
+                                   "imageName":  "pennant-b99390e91a.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  0.917,
+                                          "crit_chance":  32,
+                                          "crit_mult":  2.4,
+                                          "status_chance":  10,
+                                          "damage":  {
+                                                         "impact":  20,
+                                                         "slash":  40,
+                                                         "puncture":  140
+                                                     },
+                                          "slide":  "400"
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  0.917,
+                                          "crit_chance":  32,
+                                          "crit_mult":  2.4,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  7,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "impact":  400
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  0.917,
+                                          "crit_chance":  32,
+                                          "crit_mult":  2.4,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  8,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "blast":  600
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  400,
+                      "blockingAngle":  55,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  20,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  140,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  39.999996,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  200,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            20,
+                                            140,
+                                            39.999996,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  3,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  1200,
+                      "followThrough":  0.69999999,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  600,
+                      "stancePolarity":  "madurai",
+                      "slideAttack":  400,
+                      "windUp":  0.69999999,
+                      "slamRadius":  7,
+                      "slamAttack":  600,
+                      "heavySlamRadius":  8
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Melee/Swords/TnRailjackGreatKatana/TnRailJackGreatKatanaWeapon"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "The steel flag of Old War Railjack crews, the Pennant was invaluable in repelling boarders. With each heavy attack kill the Pennant\u0027s speed of attack increases.",
+    "release":  {
+                    "releaseDate":  "2019-12-13",
+                    "introduced":  {
+                                       "date":  "2019-12-13",
+                                       "parent":  "27.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_27%23Update_27.0",
+                                       "name":  "Update 27.0",
+                                       "aliases":  [
+                                                       "27.0",
+                                                       "27",
+                                                       "Empyrean"
+                                                   ]
+                                   }
+                },
+    "summary":  "The steel flag of Old War Railjack crews, the Pennant was invaluable in repelling boarders. With each heavy attack kill the Pennant\u0027s speed of attack increases.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.10000002,
+                  "polarities":  [
+                                     null
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  3,
+                  "magazineSize":  null,
+                  "fireRate":  0.91666669,
+                  "critMultiplier":  2.4000001,
+                  "totalDamage":  200,
+                  "vaulted":  null,
+                  "masteryReq":  7,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.31999999,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

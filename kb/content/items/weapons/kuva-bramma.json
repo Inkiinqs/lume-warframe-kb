@@ -1,0 +1,228 @@
+{
+    "description":  "This Grineer bow delivers vengeance in the form of clusterbomb-tipped arrows that can be detonated mid-air or on impact. Low quiver capacity, arrows are recovered singly.",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Kuva Bramma",
+    "subCategory":  "primary-bow",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD primary static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  null,
+                      "crafting":  {
+                                       "buildTime":  60,
+                                       "buildPrice":  10000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/KuvaWeapons/KuvaGrnBowBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  0,
+                                       "consumeOnBuild":  true
+                                   },
+                      "damageProfileType":  "aoe-burst",
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/KuvaBramma.png?e3603",
+                                   "url":  "https://wiki.warframe.com/w/Kuva_Bramma",
+                                   "imageName":  "kuva-bramma-71777b6b0f.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Charged Shot",
+                                          "speed":  0.667,
+                                          "crit_chance":  35,
+                                          "crit_mult":  2.1,
+                                          "status_chance":  21,
+                                          "charge_time":  0.4,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  50,
+                                          "flight":  50,
+                                          "damage":  {
+                                                         "impact":  187
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Radial Attack",
+                                          "speed":  0.667,
+                                          "crit_chance":  35,
+                                          "crit_mult":  2.1,
+                                          "status_chance":  21,
+                                          "charge_time":  0.4,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  8.3,
+                                                          "reduction":  0.9
+                                                      },
+                                          "damage":  {
+                                                         "blast":  839
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Cluster Bomb Contact",
+                                          "speed":  1,
+                                          "crit_chance":  35,
+                                          "crit_mult":  2.1,
+                                          "status_chance":  21,
+                                          "charge_time":  0.4,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  30,
+                                          "flight":  30,
+                                          "damage":  {
+                                                         "impact":  49
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Cluster Bomb Explosion",
+                                          "speed":  1,
+                                          "crit_chance":  35,
+                                          "crit_mult":  2.1,
+                                          "status_chance":  21,
+                                          "charge_time":  0.4,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  3.5,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "blast":  57
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  null,
+                      "blockingAngle":  null,
+                      "followThrough":  null,
+                      "damagePerShot":  [
+                                            187,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            839,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "relevantFormulas":  [
+                                               "formula.critical-chance",
+                                               "formula.critical-multiplier",
+                                               "formula.base-damage-stacking"
+                                           ],
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  187,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  1026,
+                                     "toxin":  0,
+                                     "blast":  839,
+                                     "void":  0
+                                 }
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Grineer/Bows/GrnBow/GrnBowWeapon"
+                ],
+    "tags":  [
+                 "weapon",
+                 "primary"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "id":  "weapon.kuva-bramma",
+    "release":  {
+                    "releaseDate":  "2020-02-04",
+                    "introduced":  {
+                                       "date":  "2020-02-04",
+                                       "parent":  "27.1",
+                                       "url":  "https://wiki.warframe.com/w/Update_27%23Update_27.1",
+                                       "name":  "Update 27.1",
+                                       "aliases":  [
+                                                       "27.1",
+                                                       "Kuva Lich Changes"
+                                                   ]
+                                   }
+                },
+    "summary":  "This Grineer bow delivers vengeance in the form of clusterbomb-tipped arrows that can be detonated mid-air or on impact. Low quiver capacity, arrows are recovered singly.",
+    "stats":  {
+                  "accuracy":  16.666666,
+                  "statusChance":  0.20999998,
+                  "polarities":  [
+                                     "madurai"
+                                 ],
+                  "noise":  "Alarming",
+                  "tradable":  false,
+                  "reloadTime":  0.60000002,
+                  "archetype":  "explosive-bow",
+                  "disposition":  1,
+                  "magazineSize":  1,
+                  "fireRate":  0.66666669,
+                  "critMultiplier":  2.0999999,
+                  "totalDamage":  1026,
+                  "vaulted":  null,
+                  "masteryReq":  15,
+                  "slot":  "primary",
+                  "estimatedVaultDate":  null,
+                  "trigger":  "Charge",
+                  "critChance":  0.34999999,
+                  "weaponClass":  "Bow",
+                  "masterable":  true,
+                  "multishot":  1,
+                  "vaultDate":  null
+              }
+}

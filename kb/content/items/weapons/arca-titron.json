@@ -1,0 +1,244 @@
+{
+    "id":  "weapon.arca-titron",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Arca Titron",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  1800,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  20000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Argon Crystal",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/ArgonCrystal",
+                                                              "itemCount":  2,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/CorpusHammerWeaponBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Circuits",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Circuits",
+                                                              "itemCount":  2150,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Gallium",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Gallium",
+                                                              "itemCount":  6,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Polymer Bundle",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                                                              "itemCount":  1200,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  35,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  "https://wiki.warframe.com/w/Arca_Titron",
+                                   "imageName":  "arca-titron-b18e4d9e56.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  0.733,
+                                          "crit_chance":  24,
+                                          "crit_mult":  2,
+                                          "status_chance":  38,
+                                          "damage":  {
+                                                         "impact":  234,
+                                                         "slash":  126
+                                                     },
+                                          "slide":  "720"
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  0.733,
+                                          "crit_chance":  24,
+                                          "crit_mult":  2,
+                                          "status_chance":  38,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  9,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "electricity":  720
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  0.733,
+                                          "crit_chance":  24,
+                                          "crit_mult":  2,
+                                          "status_chance":  38,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  10,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "electricity":  1080
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  720,
+                      "blockingAngle":  50,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  233.99998,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  126.00001,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  360,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            233.99998,
+                                            0,
+                                            126.00001,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  2.5999999,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  2160,
+                      "followThrough":  0.40000001,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  1080,
+                      "stancePolarity":  "madurai",
+                      "slideAttack":  720,
+                      "windUp":  1.2,
+                      "slamRadius":  9,
+                      "slamAttack":  1080,
+                      "heavySlamRadius":  10
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Corpus/Melee/Hammer/CorpusHammerWeapon"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "Each successive kill from this massive electron hammer builds an electron charge that is unleashed on slam attacks.",
+    "release":  {
+                    "releaseDate":  "2017-09-09",
+                    "introduced":  {
+                                       "date":  "2017-09-09",
+                                       "parent":  "21.7",
+                                       "url":  "https://wiki.warframe.com/w/Update_21%23Update_21.7",
+                                       "name":  "Update 21.7",
+                                       "aliases":  [
+                                                       "21.7.0",
+                                                       "21.7"
+                                                   ]
+                                   }
+                },
+    "summary":  "Each successive kill from this massive electron hammer builds an electron charge that is unleashed on slam attacks.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.38,
+                  "polarities":  [
+                                     "madurai",
+                                     "naramon"
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  4,
+                  "magazineSize":  null,
+                  "fireRate":  0.73333335,
+                  "critMultiplier":  2,
+                  "totalDamage":  360,
+                  "vaulted":  null,
+                  "masteryReq":  10,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.23999999,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

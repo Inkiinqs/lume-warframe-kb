@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "warframe-kb/player.schema.json",
+  "title": "Warframe KB Player Record",
+  "type": "object",
+  "required": [
+    "id",
+    "playerId",
+    "category",
+    "updatedAt"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "playerId": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "updatedAt": {
+      "type": "string"
+    },
+    "data": {
+      "type": "object"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "type",
+          "value"
+        ],
+        "properties": {
+          "type": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}

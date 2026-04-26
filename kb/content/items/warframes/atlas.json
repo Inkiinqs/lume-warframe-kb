@@ -1,0 +1,178 @@
+{
+    "id":  "warframe.atlas",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-warframes.json"
+                    }
+                ],
+    "name":  "Atlas",
+    "subCategory":  "standard",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD Warframes.json."
+              ],
+    "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  "https://wiki.warframe.com/w/Atlas",
+                                   "imageName":  "atlas-a39443cc8b.png",
+                                   "available":  true
+                               },
+                      "crafting":  {
+                                       "buildTime":  259200,
+                                       "buildPrice":  30000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/BrawlerBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Cephalon Simaris, Complete The Jordas Precept",
+                                                                                "type":  "Atlas Blueprint",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Chassis",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/BrawlerChassisComponent",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Jordas Golem Assassinate, Rotation C",
+                                                                                "type":  "Atlas Chassis Blueprint",
+                                                                                "chance":  38.72,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Neuroptics",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/BrawlerHelmetComponent",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Jordas Golem Assassinate, Rotation C",
+                                                                                "type":  "Atlas Neuroptics Blueprint",
+                                                                                "chance":  38.72,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Orokin Cell",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/OrokinCell",
+                                                              "itemCount":  1,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Systems",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/BrawlerSystemsComponent",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Jordas Golem Assassinate, Rotation C",
+                                                                                "type":  "Atlas Systems Blueprint",
+                                                                                "chance":  22.56,
+                                                                                "rarity":  "Uncommon"
+                                                                            }
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  50,
+                                       "consumeOnBuild":  true
+                                   },
+                      "exalted":  [
+                                      "/Lotus/Powersuits/Brawler/AtlasPunchWeapon"
+                                  ],
+                      "abilities":  [
+                                        {
+                                            "name":  "Landslide",
+                                            "description":  "Bash enemies with an explosive sliding punch, repeat up to three times for a combo attack. Each hit in the three-punch combo increases the radius of the attack. Energy cost is reduced with each hit of Landslide. Install mods on the Landslide Fists to boost stats.",
+                                            "uniqueName":  "/Lotus/Powersuits/Brawler/Abilities/BrawlerPunchAbility",
+                                            "imageName":  "landslide-ed63c3236d.png"
+                                        },
+                                        {
+                                            "name":  "Tectonics",
+                                            "description":  "Summon a Bulwark rock-wall, activate again to send the rocks crashing toward the enemy. Bulwarks attacked by enemies release an area-of-effect Slash powered by the Health it has lost.",
+                                            "uniqueName":  "/Lotus/Powersuits/Brawler/Abilities/BrawlerBarrierAbility",
+                                            "imageName":  "tectonics-61b0459bc5.png"
+                                        },
+                                        {
+                                            "name":  "Petrify",
+                                            "description":  "Atlas\u0027 hardened gaze will fossilize foes increasing the damage they take, heal Rumblers, and create Petrified Bulwarks. When shattered, petrified enemies drop healing Rubble for Atlas.",
+                                            "uniqueName":  "/Lotus/Powersuits/Brawler/Abilities/BrawlerGazeAbility",
+                                            "imageName":  "petrify-54579cb308.png"
+                                        },
+                                        {
+                                            "name":  "Rumblers",
+                                            "description":  "Summon two elemental stone brawlers to the melee. Summoning petrifies enemies in close proximity to Atlas. When finished, Rumblers collapse into a pile of healing Rubble.",
+                                            "uniqueName":  "/Lotus/Powersuits/Brawler/Abilities/BrawlerSummonAbility",
+                                            "imageName":  "rumblers-9c31ae1ab4.png"
+                                        }
+                                    ],
+                      "passiveDescription":  "Becomes immune to Knockdown effects while on the ground."
+                  },
+    "aliases":  [
+                    "/Lotus/Powersuits/Brawler/Brawler"
+                ],
+    "tags":  [
+                 "warframe",
+                 "base"
+             ],
+    "category":  "warframe",
+    "relationships":  [
+
+                      ],
+    "description":  "Enemies tremble before the brawler with fists as hard as stone. Atlas deals high damage. Command terrestrial elements that form the foundation of any battlefield.",
+    "release":  {
+                    "releaseDate":  "2015-10-01",
+                    "introduced":  {
+                                       "date":  "2015-10-01",
+                                       "parent":  "17.5",
+                                       "url":  "https://wiki.warframe.com/w/Update_17%23Update_17.5",
+                                       "name":  "Update 17.5",
+                                       "aliases":  [
+                                                       "17.5.0",
+                                                       "17.5"
+                                                   ]
+                                   }
+                },
+    "summary":  "Enemies tremble before the brawler with fists as hard as stone. Atlas deals high damage. Command terrestrial elements that form the foundation of any battlefield.",
+    "stats":  {
+                  "shield":  270,
+                  "aura":  "madurai",
+                  "tradable":  false,
+                  "polarities":  [
+                                     "naramon",
+                                     "vazarin",
+                                     "madurai"
+                                 ],
+                  "sprintSpeed":  0.89999998,
+                  "health":  270,
+                  "power":  175,
+                  "vaulted":  null,
+                  "masteryReq":  0,
+                  "estimatedVaultDate":  null,
+                  "stamina":  3,
+                  "masterable":  true,
+                  "vaultDate":  null,
+                  "armor":  475
+              }
+}

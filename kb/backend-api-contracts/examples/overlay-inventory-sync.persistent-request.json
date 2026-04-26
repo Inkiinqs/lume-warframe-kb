@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "overlay-inventory-sync-request.v1",
+  "headers": {
+    "x-warframe-kb-api-key": "dev-local-key",
+    "x-warframe-kb-session-id": "overlay-sync-session",
+    "x-warframe-kb-client-id": "warframe-assistant-overlay"
+  },
+  "body": {
+    "playerId": "player.demo-account",
+    "capturedAt": "2026-04-10T23:40:00Z",
+    "source": "overlay-ocr",
+    "snapshotType": "inventory",
+    "mode": "delta",
+    "writeMode": "persistent",
+    "confirmWrite": true,
+    "recognizedItems": [
+      {
+        "rawLabel": "Saryn Prime Systems Blueprint",
+        "canonicalItemId": "part.saryn-prime-systems",
+        "quantity": 1,
+        "confidence": 0.98
+      }
+    ]
+  }
+}

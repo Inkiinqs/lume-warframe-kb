@@ -1,0 +1,254 @@
+{
+    "id":  "weapon.quanta",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Quanta",
+    "subCategory":  "primary-rifle",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD primary static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  null,
+                      "crafting":  {
+                                       "buildTime":  86400,
+                                       "buildPrice":  25000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Weapons/ClanTech/Energy/CrpShockRifleBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Circuits",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Circuits",
+                                                              "itemCount":  1000,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Fieldron",
+                                                              "uniqueName":  "/Lotus/Types/Items/Research/EnergyComponent",
+                                                              "itemCount":  7,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Forma",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Forma",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Salvage",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Salvage",
+                                                              "itemCount":  7000,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  35,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Quanta.png?1f3f4",
+                                   "url":  "https://wiki.warframe.com/w/Quanta",
+                                   "imageName":  "quanta-be0abe2f6a.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Beam",
+                                          "speed":  12,
+                                          "crit_chance":  16,
+                                          "crit_mult":  2.2,
+                                          "status_chance":  24,
+                                          "shot_type":  "Hit-Scan",
+                                          "damage":  {
+                                                         "electricity":  10
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Cube (direct hit)",
+                                          "speed":  4,
+                                          "crit_chance":  5,
+                                          "crit_mult":  1.5,
+                                          "status_chance":  26,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  25,
+                                          "flight":  25,
+                                          "damage":  {
+                                                         "electricity":  100
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Cube Explosion",
+                                          "speed":  4,
+                                          "crit_chance":  5,
+                                          "crit_mult":  1.5,
+                                          "status_chance":  26,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  0.5,
+                                                          "reduction":  0
+                                                      },
+                                          "damage":  {
+                                                         "blast":  150
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Cube (shot by player)",
+                                          "speed":  4,
+                                          "crit_chance":  5,
+                                          "crit_mult":  1.5,
+                                          "status_chance":  26,
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  6,
+                                                          "reduction":  0
+                                                      },
+                                          "damage":  {
+                                                         "blast":  600
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  null,
+                      "blockingAngle":  null,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  0,
+                                     "electricity":  10,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  10,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            10,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Corpus/LongGuns/CrpShockRifle/CrpShockRifle"
+                ],
+    "tags":  [
+                 "weapon",
+                 "primary"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "This weapon was designed to assist with the excavation of mineral deposits from large asteroids, but has been adapted for military purposes.",
+    "release":  {
+                    "releaseDate":  "2014-07-30",
+                    "introduced":  {
+                                       "date":  "2014-07-30",
+                                       "parent":  "14.1",
+                                       "url":  "https://wiki.warframe.com/w/Update_14%23Update_14.1",
+                                       "name":  "Update 14.1",
+                                       "aliases":  [
+                                                       "14.1",
+                                                       "14.1.0"
+                                                   ]
+                                   }
+                },
+    "summary":  "This weapon was designed to assist with the excavation of mineral deposits from large asteroids, but has been adapted for military purposes.",
+    "stats":  {
+                  "accuracy":  100,
+                  "statusChance":  0.24000001,
+                  "polarities":  [
+                                     "vazarin"
+                                 ],
+                  "noise":  "Alarming",
+                  "tradable":  false,
+                  "reloadTime":  2,
+                  "disposition":  5,
+                  "magazineSize":  60,
+                  "fireRate":  12.000001,
+                  "critMultiplier":  2.2,
+                  "totalDamage":  10,
+                  "vaulted":  null,
+                  "masteryReq":  4,
+                  "slot":  "primary",
+                  "estimatedVaultDate":  null,
+                  "trigger":  "Held",
+                  "critChance":  0.16,
+                  "weaponClass":  "Rifle",
+                  "masterable":  true,
+                  "multishot":  2,
+                  "vaultDate":  null
+              }
+}

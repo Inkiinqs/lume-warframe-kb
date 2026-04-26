@@ -1,0 +1,224 @@
+{
+    "description":  "An ancient weapon designed by the Entrati for use by their Necramechs. Primary fire siphons life essence from the target to fuel a devastating secondary fire. Punishing automatic primary fire and a secondary mode that charges up to unleash a destructive beam of energy with a large explosion at point of impact.",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Mausolon",
+    "subCategory":  "archgun-arch-gun",
+    "mechanics":  {
+                      "heavySlamAttack":  null,
+                      "crafting":  {
+                                       "buildTime":  null,
+                                       "buildPrice":  null,
+                                       "buildQuantity":  null,
+                                       "components":  [
+                                                          {
+                                                              "name":  null,
+                                                              "uniqueName":  null,
+                                                              "itemCount":  null,
+                                                              "type":  null,
+                                                              "tradable":  null,
+                                                              "drops":  [
+                                                                            null
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  null,
+                                       "consumeOnBuild":  null
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Mausolon.png?65300",
+                                   "url":  "https://wiki.warframe.com/w/Mausolon",
+                                   "imageName":  "mausolon-483fb60c57.png",
+                                   "available":  true
+                               },
+                      "followThrough":  null,
+                      "attacks":  [
+                                      {
+                                          "name":  "Auto",
+                                          "speed":  8.33,
+                                          "crit_chance":  30,
+                                          "crit_mult":  2.2,
+                                          "status_chance":  26,
+                                          "shot_type":  "Hit-Scan",
+                                          "falloff":  {
+                                                          "start":  1400,
+                                                          "end":  2800,
+                                                          "reduction":  1
+                                                      },
+                                          "damage":  {
+                                                         "impact":  35,
+                                                         "puncture":  70,
+                                                         "heat":  75
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Auto Radial Attack",
+                                          "speed":  8.33,
+                                          "crit_chance":  30,
+                                          "crit_mult":  2.2,
+                                          "status_chance":  26,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  1.8,
+                                                          "reduction":  0.1
+                                                      },
+                                          "damage":  {
+                                                         "heat":  72
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Charged Shot Laser",
+                                          "speed":  0.5,
+                                          "crit_chance":  50,
+                                          "crit_mult":  3.5,
+                                          "status_chance":  50,
+                                          "charge_time":  0.8,
+                                          "shot_type":  "Hit-Scan",
+                                          "damage":  {
+                                                         "impact":  150,
+                                                         "puncture":  600,
+                                                         "heat":  750
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Charged Shot Explosion",
+                                          "speed":  0.5,
+                                          "crit_chance":  50,
+                                          "crit_mult":  3.5,
+                                          "status_chance":  50,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  8,
+                                                          "reduction":  0.4
+                                                      },
+                                          "damage":  {
+                                                         "heat":  4500
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  null,
+                      "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  24,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  46,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  50,
+                                     "total":  120,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "damagePerShot":  [
+                                            24,
+                                            46,
+                                            0,
+                                            50,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ]
+                  },
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD archgun static data."
+              ],
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchLongGun/ThanoTechLongGun"
+                ],
+    "tags":  [
+                 "weapon",
+                 "archgun"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "id":  "weapon.mausolon",
+    "release":  {
+                    "releaseDate":  "2020-08-25",
+                    "introduced":  {
+                                       "date":  "2020-08-25",
+                                       "parent":  "29.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_29",
+                                       "name":  "Update 29.0",
+                                       "aliases":  [
+                                                       "29",
+                                                       "29.0",
+                                                       "Heart of Deimos"
+                                                   ]
+                                   }
+                },
+    "summary":  "An ancient weapon designed by the Entrati for use by their Necramechs. Primary fire siphons life essence from the target to fuel a devastating secondary fire. Punishing automatic primary fire and a secondary mode that charges up to unleash a destructive beam of energy with a large explosion at point of impact.",
+    "stats":  {
+                  "accuracy":  80,
+                  "noise":  "Alarming",
+                  "polarities":  [
+                                     "madurai"
+                                 ],
+                  "tradable":  false,
+                  "vaulted":  null,
+                  "totalDamage":  120,
+                  "disposition":  1,
+                  "magazineSize":  300,
+                  "fireRate":  8.333334,
+                  "critMultiplier":  2.2,
+                  "reloadTime":  5.5,
+                  "masteryReq":  14,
+                  "statusChance":  0.25999999,
+                  "slot":  "archgun",
+                  "estimatedVaultDate":  null,
+                  "trigger":  "Auto",
+                  "critChance":  0.30000001,
+                  "weaponClass":  "Arch-Gun",
+                  "masterable":  true,
+                  "multishot":  1,
+                  "vaultDate":  null
+              }
+}

@@ -1,0 +1,253 @@
+{
+    "id":  "weapon.evensong",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Evensong",
+    "subCategory":  "primary-bow",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD primary static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  null,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  15000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/TnChoirBowBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Uranus/Brutus (Ascension)",
+                                                                                "type":  "Evensong Blueprint",
+                                                                                "chance":  4.63,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Control Module",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/ControlModule",
+                                                              "itemCount":  10,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Gallium",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Gallium",
+                                                              "itemCount":  20,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Plastids",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Plastids",
+                                                              "itemCount":  1100,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Salvage",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Salvage",
+                                                              "itemCount":  700,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  45,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Evensong.png?f9f28",
+                                   "url":  "https://wiki.warframe.com/w/Evensong",
+                                   "imageName":  "evensong-d10f6a1e78.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Quick Shot",
+                                          "speed":  1,
+                                          "crit_chance":  25,
+                                          "crit_mult":  2.2,
+                                          "status_chance":  38,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  85,
+                                          "flight":  85,
+                                          "damage":  {
+                                                         "slash":  227.5,
+                                                         "puncture":  97.5
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Charged Shot",
+                                          "speed":  1,
+                                          "crit_chance":  25,
+                                          "crit_mult":  2.2,
+                                          "status_chance":  38,
+                                          "charge_time":  1.2,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  100,
+                                          "flight":  100,
+                                          "damage":  {
+                                                         "slash":  350,
+                                                         "puncture":  150
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Charged Radial Attack",
+                                          "speed":  1,
+                                          "crit_chance":  25,
+                                          "crit_mult":  2.2,
+                                          "status_chance":  38,
+                                          "charge_time":  1.2,
+                                          "shot_type":  "Projectile",
+                                          "falloff":  {
+                                                          "start":  0.9,
+                                                          "end":  4,
+                                                          "reduction":  0.7
+                                                      },
+                                          "damage":  {
+                                                         "slash":  105,
+                                                         "puncture":  45
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  null,
+                      "blockingAngle":  null,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  195,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  455,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  650,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            0,
+                                            195,
+                                            455,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Bows/TnChoirBow/TnChoirBow"
+                ],
+    "tags":  [
+                 "weapon",
+                 "primary"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "Counter the dread of battle with a song of praise. Enemies cannot hurt your allies while wounded by Evensong\u0027s arrows. Kills with Evensong empower ally weapons with Multishot.\n\nExperience the true power of Jade\u0027s Ensemble when Evensong, Cantare, and Harmony sing together.",
+    "release":  {
+                    "releaseDate":  "2024-06-18",
+                    "introduced":  {
+                                       "date":  "2024-06-18",
+                                       "parent":  "36.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_36%23Update_36.0",
+                                       "name":  "Update 36.0",
+                                       "aliases":  [
+                                                       "36",
+                                                       "36.0",
+                                                       "Jade Shadows"
+                                                   ]
+                                   }
+                },
+    "summary":  "Counter the dread of battle with a song of praise. Enemies cannot hurt your allies while wounded by Evensong\u0027s arrows. Kills with Evensong empower ally weapons with Multishot.\n\nExperience the true power of Jade\u0027s Ensemble when Evensong, Cantare, and Harmony sing together.",
+    "stats":  {
+                  "accuracy":  16.666666,
+                  "statusChance":  0.38,
+                  "polarities":  [
+                                     "madurai",
+                                     "madurai"
+                                 ],
+                  "noise":  "Silent",
+                  "tradable":  false,
+                  "reloadTime":  0.60000002,
+                  "disposition":  4,
+                  "magazineSize":  1,
+                  "fireRate":  1,
+                  "critMultiplier":  2.2,
+                  "totalDamage":  650,
+                  "vaulted":  null,
+                  "masteryReq":  10,
+                  "slot":  "primary",
+                  "estimatedVaultDate":  null,
+                  "trigger":  "Charge",
+                  "critChance":  0.25,
+                  "weaponClass":  "Bow",
+                  "masterable":  true,
+                  "multishot":  1,
+                  "vaultDate":  null
+              }
+}

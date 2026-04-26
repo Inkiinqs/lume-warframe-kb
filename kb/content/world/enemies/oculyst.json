@@ -1,0 +1,115 @@
+{
+    "description":  "Eyes of the Sentient",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-enemies.json"
+                    }
+                ],
+    "name":  "Oculyst",
+    "subCategory":  "sentient",
+    "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "oculyst.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    null
+                                ],
+                      "resistances":  [
+                                          {
+                                              "amount":  0,
+                                              "type":  "Shield",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "None",
+                                                                    "modifier":  0
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  150,
+                                              "type":  "Ferrite Armor",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "Puncture",
+                                                                    "modifier":  0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Toxin",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Corrosive",
+                                                                    "modifier":  0
+                                                                },
+                                                                {
+                                                                    "element":  "Slash",
+                                                                    "modifier":  -0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Blast",
+                                                                    "modifier":  -0.5
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  300,
+                                              "type":  "Robotic",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "Puncture",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Electricity",
+                                                                    "modifier":  0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Radiation",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Slash",
+                                                                    "modifier":  -0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Toxin",
+                                                                    "modifier":  -0.5
+                                                                }
+                                                            ]
+                                          }
+                                      ]
+                  },
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD Enemy.json."
+              ],
+    "aliases":  [
+                    "/Lotus/Types/Enemies/Sentients/Scouts/ScoutAvatar"
+                ],
+    "tags":  [
+                 "enemy",
+                 "sentient"
+             ],
+    "category":  "enemy",
+    "relationships":  [
+
+                      ],
+    "id":  "enemy.oculyst",
+    "release":  {
+
+                },
+    "summary":  "Eyes of the Sentient",
+    "stats":  {
+                  "armor":  150,
+                  "type":  "Sentient",
+                  "shield":  0,
+                  "health":  300,
+                  "regionBits":  131136,
+                  "tradable":  false,
+                  "faction":  "Sentient"
+              }
+}

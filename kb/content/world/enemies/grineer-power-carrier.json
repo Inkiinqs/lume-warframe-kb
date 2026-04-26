@@ -1,0 +1,161 @@
+{
+    "description":  "Energy Transport Unit",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-enemies.json"
+                    }
+                ],
+    "name":  "Grineer Power Carrier",
+    "subCategory":  "grineer",
+    "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "grineer-power-carrier.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    {
+                                        "location":  "Reach",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.2529
+                                    },
+                                    {
+                                        "location":  "Ammo Drum",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.2529
+                                    },
+                                    {
+                                        "location":  "15 Endo",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.2529
+                                    },
+                                    {
+                                        "location":  "Fury",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0737
+                                    },
+                                    {
+                                        "location":  "No Return",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0737
+                                    },
+                                    {
+                                        "location":  "Reaping Spiral",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0737
+                                    },
+                                    {
+                                        "location":  "80 Endo",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0201
+                                    },
+                                    {
+                                        "location":  "Grineer Power Carrier",
+                                        "type":  "Enemy Mod Tables",
+                                        "chance":  null
+                                    }
+                                ],
+                      "resistances":  [
+                                          {
+                                              "amount":  0,
+                                              "type":  "Shield",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "None",
+                                                                    "modifier":  0
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  100,
+                                              "type":  "Ferrite Armor",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "Puncture",
+                                                                    "modifier":  0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Toxin",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Corrosive",
+                                                                    "modifier":  0
+                                                                },
+                                                                {
+                                                                    "element":  "Slash",
+                                                                    "modifier":  -0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Blast",
+                                                                    "modifier":  -0.5
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  650,
+                                              "type":  "Cloned Flesh",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "Slash",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Heat",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Viral",
+                                                                    "modifier":  0
+                                                                },
+                                                                {
+                                                                    "element":  "Impact",
+                                                                    "modifier":  -0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Gas",
+                                                                    "modifier":  -0.75
+                                                                }
+                                                            ]
+                                          }
+                                      ]
+                  },
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD Enemy.json."
+              ],
+    "aliases":  [
+                    "/Lotus/Types/Enemies/Grineer/AIWeek/Avatars/CarrierRifleLancerAvatar"
+                ],
+    "tags":  [
+                 "enemy",
+                 "grineer"
+             ],
+    "category":  "enemy",
+    "relationships":  [
+
+                      ],
+    "id":  "enemy.grineer-power-carrier",
+    "release":  {
+
+                },
+    "summary":  "Energy Transport Unit",
+    "stats":  {
+                  "armor":  100,
+                  "type":  "Grineer",
+                  "shield":  0,
+                  "health":  650,
+                  "regionBits":  4,
+                  "tradable":  false,
+                  "faction":  "Grineer"
+              }
+}

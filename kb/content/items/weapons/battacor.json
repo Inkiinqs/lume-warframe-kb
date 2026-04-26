@@ -1,0 +1,242 @@
+{
+    "id":  "weapon.battacor",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Battacor",
+    "subCategory":  "primary-rifle",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD primary static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  null,
+                      "crafting":  {
+                                       "buildTime":  86400,
+                                       "buildPrice":  25000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/CrpSentExperimentRifleBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Fieldron",
+                                                              "uniqueName":  "/Lotus/Types/Items/Research/EnergyComponent",
+                                                              "itemCount":  10,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Heart Noctrul",
+                                                              "uniqueName":  "/Lotus/Types/Items/Gems/Solaris/SolarisCommonGemBCutItem",
+                                                              "itemCount":  25,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Tepa Nodule",
+                                                              "uniqueName":  "/Lotus/Types/Gameplay/Venus/Resources/VenusTreeItem",
+                                                              "itemCount":  40,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Tromyzon Entroplasma",
+                                                              "uniqueName":  "/Lotus/Types/Items/Fish/Solaris/FishParts/OrokinFishEntroplasmaItem",
+                                                              "itemCount":  20,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  35,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Battacor.png?8b844",
+                                   "url":  "https://wiki.warframe.com/w/Battacor",
+                                   "imageName":  "battacor-d2bf15dcde.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  2.5,
+                                          "crit_chance":  32,
+                                          "crit_mult":  2.4,
+                                          "status_chance":  18,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  120,
+                                          "flight":  120,
+                                          "damage":  {
+                                                         "puncture":  24,
+                                                         "magnetic":  42
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Secondary Fire",
+                                          "speed":  5,
+                                          "crit_chance":  34,
+                                          "crit_mult":  3,
+                                          "status_chance":  8,
+                                          "charge_time":  0.4,
+                                          "shot_type":  "Hit-Scan",
+                                          "damage":  {
+                                                         "radiation":  208
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Secondary Fire AoE",
+                                          "speed":  5,
+                                          "crit_chance":  34,
+                                          "crit_mult":  3,
+                                          "status_chance":  50,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  3.4,
+                                                          "reduction":  0.4
+                                                      },
+                                          "damage":  {
+                                                         "radiation":  208
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  null,
+                      "blockingAngle":  null,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  24,
+                                     "magnetic":  42,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  66,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            0,
+                                            24,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            42,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Corpus/LongGuns/CrpSentExperimentRifle/CrpSentExperimentRifle"
+                ],
+    "tags":  [
+                 "weapon",
+                 "primary"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "A weapon that builds charge the more it kills. Hit capacity then release for an obliterating discharge of power.",
+    "release":  {
+                    "releaseDate":  "2018-11-08",
+                    "introduced":  {
+                                       "date":  "2018-11-08",
+                                       "parent":  "24.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_24%23Update_24.0",
+                                       "name":  "Update 24.0",
+                                       "aliases":  [
+                                                       "24",
+                                                       "24.0",
+                                                       "Fortuna"
+                                                   ]
+                                   }
+                },
+    "summary":  "A weapon that builds charge the more it kills. Hit capacity then release for an obliterating discharge of power.",
+    "stats":  {
+                  "accuracy":  25,
+                  "statusChance":  0.18000001,
+                  "polarities":  [
+                                     null
+                                 ],
+                  "noise":  "Alarming",
+                  "tradable":  false,
+                  "reloadTime":  2,
+                  "disposition":  3,
+                  "magazineSize":  60,
+                  "fireRate":  3.571429,
+                  "critMultiplier":  2.4000001,
+                  "totalDamage":  66,
+                  "vaulted":  null,
+                  "masteryReq":  10,
+                  "slot":  "primary",
+                  "estimatedVaultDate":  null,
+                  "trigger":  "Auto Burst",
+                  "critChance":  0.31999999,
+                  "weaponClass":  "Rifle",
+                  "masterable":  true,
+                  "multishot":  1,
+                  "vaultDate":  null
+              }
+}

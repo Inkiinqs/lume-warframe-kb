@@ -1,0 +1,49 @@
+{
+  "id": "enemy.grineer-heavy-gunner",
+  "name": "Grineer Heavy Gunner",
+  "category": "enemy",
+  "summary": "A classic armored Grineer elite unit used as a benchmark target for damage testing and build evaluation.",
+  "description": "High-armor Grineer gunner archetype commonly used as a representative armored target.",
+  "stats": {},
+  "mechanics": {
+    "faction": "faction.grineer",
+    "combatRole": "elite-gunner",
+    "defenseProfile": [
+      "armor-heavy",
+      "health-heavy"
+    ],
+    "priorityThreats": [
+      "sustained-fire",
+      "armor-scaling"
+    ],
+    "recommendedDamage": [
+      "status.corrosive",
+      "status.heat",
+      "status.slash",
+      "status.viral"
+    ],
+    "recommendedStatusPlan": [
+      "Treat this unit as an armor benchmark.",
+      "Favor armor strip, armor bypass, or viral plus slash style setups."
+    ]
+  },
+  "relationships": [
+    "faction.grineer",
+    "damage.armor-interactions"
+  ],
+  "release": {},
+  "tags": [
+    "enemy",
+    "grineer",
+    "armor"
+  ],
+  "notes": [
+    "This enemy is meant to anchor practical anti-armor recommendations and benchmark testing guidance."
+  ],
+  "sources": [
+    {
+      "type": "wiki",
+      "value": "https://warframe.fandom.com/wiki/Heavy_Gunner"
+    }
+  ]
+}

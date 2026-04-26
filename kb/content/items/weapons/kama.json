@@ -1,0 +1,246 @@
+{
+    "id":  "weapon.kama",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Kama",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  360,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  20000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/SingleKamaBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Circuits",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Circuits",
+                                                              "itemCount":  900,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Ferrite",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Ferrite",
+                                                              "itemCount":  1200,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Neural Sensors",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                                                              "itemCount":  5,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Polymer Bundle",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                                                              "itemCount":  1200,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  25,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Kama.png?1f972",
+                                   "url":  "https://wiki.warframe.com/w/Kama",
+                                   "imageName":  "kama-357d6bfd57.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  1.17,
+                                          "crit_chance":  12,
+                                          "crit_mult":  1.8,
+                                          "status_chance":  10,
+                                          "damage":  {
+                                                         "impact":  13.5,
+                                                         "slash":  63,
+                                                         "puncture":  13.5
+                                                     },
+                                          "slide":  "180"
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  1.17,
+                                          "crit_chance":  12,
+                                          "crit_mult":  1.8,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  8,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "impact":  180
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  1.17,
+                                          "crit_chance":  12,
+                                          "crit_mult":  1.8,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  9,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "blast":  270
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  180,
+                      "blockingAngle":  55,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  13.500001,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  13.500001,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  63,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  90,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            13.500001,
+                                            13.500001,
+                                            63,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  2.4000001,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  540,
+                      "followThrough":  0.69999999,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  270,
+                      "stancePolarity":  "zenurik",
+                      "slideAttack":  180,
+                      "windUp":  0.69999999,
+                      "slamRadius":  8,
+                      "slamAttack":  270,
+                      "heavySlamRadius":  9
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Melee/DualKamas/SingleKama"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "The Kama is a Tenno style hatchet, capable of making short work of any foe.",
+    "release":  {
+                    "releaseDate":  "2013-09-13",
+                    "introduced":  {
+                                       "date":  "2013-09-13",
+                                       "parent":  "10.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_10%23Update_10.0",
+                                       "name":  "Update 10.0",
+                                       "aliases":  [
+                                                       "Update 10",
+                                                       "10",
+                                                       "10.0"
+                                                   ]
+                                   }
+                },
+    "summary":  "The Kama is a Tenno style hatchet, capable of making short work of any foe.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.10000002,
+                  "polarities":  [
+                                     "madurai",
+                                     "madurai"
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  5,
+                  "magazineSize":  null,
+                  "fireRate":  1.1666667,
+                  "critMultiplier":  1.8,
+                  "totalDamage":  90,
+                  "vaulted":  null,
+                  "masteryReq":  1,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.12,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

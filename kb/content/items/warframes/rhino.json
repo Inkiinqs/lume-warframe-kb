@@ -1,0 +1,182 @@
+{
+    "description":  "Rhino packs a punch. He boasts high survivability and crowd control. The wise would do well to stand clear when he charges.",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-warframes.json"
+                    }
+                ],
+    "name":  "Rhino",
+    "subCategory":  "standard",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD Warframes.json."
+              ],
+    "mechanics":  {
+                      "scalesWith":  [
+                                         "ability.strength-scaling",
+                                         "ability.duration-scaling"
+                                     ],
+                      "crafting":  {
+                                       "buildTime":  86400,
+                                       "buildPrice":  25000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/RhinoBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Chassis",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/RhinoChassisComponent",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Venus/Fossa (Assassination)",
+                                                                                "type":  "Rhino Chassis Blueprint",
+                                                                                "chance":  38.72,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Neurodes",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Neurode",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Neuroptics",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/RhinoHelmetComponent",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Venus/Fossa (Assassination)",
+                                                                                "type":  "Rhino Neuroptics Blueprint",
+                                                                                "chance":  38.72,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Systems",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/RhinoSystemsComponent",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Venus/Fossa (Assassination)",
+                                                                                "type":  "Rhino Systems Blueprint",
+                                                                                "chance":  22.56,
+                                                                                "rarity":  "Uncommon"
+                                                                            }
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  50,
+                                       "consumeOnBuild":  true
+                                   },
+                      "abilities":  [
+                                        {
+                                            "name":  "Rhino Charge",
+                                            "description":  "Rhino charges towards a target, clobbering any in his path and goring his victim.",
+                                            "uniqueName":  "/Lotus/Powersuits/Rhino/Abilities/RhinoChargeAbility",
+                                            "imageName":  "rhino-charge-5c6b26d1fa.png"
+                                        },
+                                        {
+                                            "name":  "Iron Skin",
+                                            "description":  "Rhino hardens his skin, insulating himself from all damage and gaining Overguard.",
+                                            "uniqueName":  "/Lotus/Powersuits/Rhino/Abilities/IronSkinAbility",
+                                            "imageName":  "iron-skin-93b0a7d522.png"
+                                        },
+                                        {
+                                            "name":  "Roar",
+                                            "description":  "Grants all nearby Warframes increased damage for a short duration.",
+                                            "uniqueName":  "/Lotus/Powersuits/Rhino/Abilities/RhinoRoarAbility",
+                                            "imageName":  "roar-e206197372.png"
+                                        },
+                                        {
+                                            "name":  "Rhino Stomp",
+                                            "description":  "Rhino stomps with force sufficient to disrupt time, tumbling enemies around him in stasis.",
+                                            "uniqueName":  "/Lotus/Powersuits/Rhino/Abilities/RhinoStompAbility",
+                                            "imageName":  "rhino-stomp-d4a0d726d1.png"
+                                        }
+                                    ],
+                      "exalted":  [
+                                      null
+                                  ],
+                      "passiveType":  "heavy landing shockwave",
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  "https://wiki.warframe.com/w/Rhino",
+                                   "imageName":  "rhino-87af2466b6.png",
+                                   "available":  true
+                               },
+                      "passiveDescription":  "Emit a shockwave dealing |DAMAGE| damage after landing from a great height."
+                  },
+    "aliases":  [
+                    "/Lotus/Powersuits/Rhino/Rhino"
+                ],
+    "tags":  [
+                 "warframe",
+                 "base"
+             ],
+    "category":  "warframe",
+    "relationships":  [
+
+                      ],
+    "id":  "warframe.rhino",
+    "release":  {
+                    "releaseDate":  "2012-10-25",
+                    "introduced":  {
+                                       "date":  "2012-10-25",
+                                       "parent":  "0.0",
+                                       "url":  "https://wiki.warframe.com/w/Closed_Beta_Updates%23Vanilla",
+                                       "name":  "Vanilla",
+                                       "aliases":  [
+                                                       "0",
+                                                       "0.0"
+                                                   ]
+                                   }
+                },
+    "summary":  "Rhino packs a punch. He boasts high survivability and crowd control. The wise would do well to stand clear when he charges.",
+    "stats":  {
+                  "shield":  455,
+                  "aura":  "madurai",
+                  "tradable":  false,
+                  "polarities":  [
+                                     "vazarin",
+                                     "vazarin"
+                                 ],
+                  "sprintSpeed":  0.94999999,
+                  "health":  270,
+                  "power":  100,
+                  "vaulted":  null,
+                  "masteryReq":  0,
+                  "estimatedVaultDate":  null,
+                  "stamina":  3,
+                  "masterable":  true,
+                  "vaultDate":  null,
+                  "role":  [
+                               "tank",
+                               "buffer",
+                               "starter-friendly"
+                           ],
+                  "armor":  240
+              }
+}

@@ -1,0 +1,244 @@
+{
+    "id":  "weapon.gazal-machete",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Gazal Machete",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  712,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  20000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Alloy Plate",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                                                              "itemCount":  1900,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Argon Crystal",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/ArgonCrystal",
+                                                              "itemCount":  2,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/DjinnMacheteBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Plastids",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Plastids",
+                                                              "itemCount":  1400,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Salvage",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Salvage",
+                                                              "itemCount":  2600,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  35,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/GazalMachete.png?f75b4",
+                                   "url":  "https://wiki.warframe.com/w/Gazal_Machete",
+                                   "imageName":  "gazal-machete-212e91edaa.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  1,
+                                          "crit_chance":  10,
+                                          "crit_mult":  2,
+                                          "status_chance":  30,
+                                          "damage":  {
+                                                         "impact":  17.8,
+                                                         "slash":  133.5,
+                                                         "puncture":  26.7
+                                                     },
+                                          "slide":  "356"
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  1,
+                                          "crit_chance":  10,
+                                          "crit_mult":  2,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  8,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "impact":  356
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  1,
+                                          "crit_chance":  10,
+                                          "crit_mult":  2,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  9,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "blast":  534
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  356,
+                      "blockingAngle":  55,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  17.800001,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  26.700001,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  133.5,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  178,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            17.800001,
+                                            26.700001,
+                                            133.5,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  2.5999999,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  1068,
+                      "followThrough":  0.69999999,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  534,
+                      "stancePolarity":  "zenurik",
+                      "slideAttack":  356,
+                      "windUp":  0.69999999,
+                      "slamRadius":  8,
+                      "slamAttack":  534,
+                      "heavySlamRadius":  9
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Melee/PersianMachete/DjinnMachete"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "Each kill with this swooping blade adds bonus damage to the Djinn Sentinel’s next Fatal Attraction ability. In turn, Fatal Attraction bestows the weapon with a period of \u003cDT_CORROSIVE_COLOR\u003eCorrosive Damage.",
+    "release":  {
+                    "releaseDate":  "2016-10-05",
+                    "introduced":  {
+                                       "date":  "2016-10-05",
+                                       "parent":  "18.18",
+                                       "url":  "https://wiki.warframe.com/w/Update_19%23Update%3A_The_Vacuum_Within",
+                                       "name":  "Update: The Vacuum Within",
+                                       "aliases":  [
+                                                       "The Vacuum Within",
+                                                       "TVW"
+                                                   ]
+                                   }
+                },
+    "summary":  "Each kill with this swooping blade adds bonus damage to the Djinn Sentinel’s next Fatal Attraction ability. In turn, Fatal Attraction bestows the weapon with a period of \u003cDT_CORROSIVE_COLOR\u003eCorrosive Damage.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.30000001,
+                  "polarities":  [
+                                     "madurai"
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  5,
+                  "magazineSize":  null,
+                  "fireRate":  1,
+                  "critMultiplier":  2,
+                  "totalDamage":  178,
+                  "vaulted":  null,
+                  "masteryReq":  5,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.1,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

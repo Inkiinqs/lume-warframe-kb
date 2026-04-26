@@ -1,0 +1,50 @@
+{
+    "id":  "formula.base-damage-stacking",
+    "name":  "Base Damage Stacking",
+    "category":  "combat_formula",
+    "summary":  "Explains how base-damage bonuses combine before other multipliers are applied.",
+    "mechanics":  {
+                      "appliesTo":  [
+                                        "weapons",
+                                        "mods",
+                                        "buffs"
+                                    ],
+                      "stacking":  "Track additive and multiplicative groupings in sourced updates.",
+                      "duration":  null,
+                      "formula":  "Store the exact stacking model in validated updates.",
+                      "specialRules":  [
+                                           "This record is a key dependency for build recommendation logic."
+                                       ]
+                  },
+    "interactions":  {
+                         "relatedSystems":  [
+                                                "modding.stacking-types",
+                                                "modding.faction-damage"
+                                            ]
+                     },
+    "examples":  [
+
+                 ],
+    "tags":  [
+                 "formula",
+                 "damage",
+                 "stacking"
+             ],
+    "notes":  null,
+    "sources":  [
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Mod"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Damage"
+                    }
+                ],
+    "verification":  {
+                         "trustLevel":  "community-verified",
+                         "sourceFamily":  "warframe-wiki",
+                         "patchSensitive":  true,
+                         "reviewedAt":  "2026-04-10"
+                     }
+}

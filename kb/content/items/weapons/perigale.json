@@ -1,0 +1,261 @@
+{
+    "id":  "weapon.perigale",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Perigale",
+    "subCategory":  "primary-sniper",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD primary static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  null,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  20000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Barrel",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/TnQuadSniperRifleBarrel",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Lua/Circulus (Survival), Rotation B",
+                                                                                "type":  "Perigale Barrel",
+                                                                                "chance":  10.16,
+                                                                                "rarity":  "Uncommon"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Lua/Yuvarium (Survival), Rotation B",
+                                                                                "type":  "Perigale Barrel",
+                                                                                "chance":  6,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/TnQuadSniperRifleBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Lua/Circulus (Survival), Rotation A",
+                                                                                "type":  "Perigale Blueprint",
+                                                                                "chance":  11.28,
+                                                                                "rarity":  "Uncommon"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Lua/Yuvarium (Survival), Rotation A",
+                                                                                "type":  "Perigale Blueprint",
+                                                                                "chance":  7.52,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Lua Thrax Plasm",
+                                                              "uniqueName":  "/Lotus/Types/Gameplay/Zariman/Resources/EclipseVoidWraithItem",
+                                                              "itemCount":  50,
+                                                              "type":  null,
+                                                              "tradable":  true,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Receiver",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/TnQuadSniperRifleReceiver",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Lua/Circulus (Survival), Rotation B",
+                                                                                "type":  "Perigale Receiver",
+                                                                                "chance":  10.16,
+                                                                                "rarity":  "Uncommon"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Lua/Yuvarium (Survival), Rotation B",
+                                                                                "type":  "Perigale Receiver",
+                                                                                "chance":  6,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Stock",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/TnQuadSniperRifleStock",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Lua/Circulus (Survival), Rotation B",
+                                                                                "type":  "Perigale Stock",
+                                                                                "chance":  10.16,
+                                                                                "rarity":  "Uncommon"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Lua/Yuvarium (Survival), Rotation B",
+                                                                                "type":  "Perigale Stock",
+                                                                                "chance":  6,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  50,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Perigale.png?bded2",
+                                   "url":  "https://wiki.warframe.com/w/Perigale",
+                                   "imageName":  "perigale-ea7219b8d0.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  2,
+                                          "crit_chance":  28,
+                                          "crit_mult":  2.6,
+                                          "status_chance":  16,
+                                          "shot_type":  "Hit-Scan",
+                                          "falloff":  {
+                                                          "start":  300,
+                                                          "end":  600,
+                                                          "reduction":  0.2
+                                                      },
+                                          "damage":  {
+                                                         "impact":  20.64,
+                                                         "slash":  55.04,
+                                                         "puncture":  96.32
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  null,
+                      "blockingAngle":  null,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  20.639999,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  96.32,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  55.039997,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  172,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            20.639999,
+                                            96.32,
+                                            55.039997,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/LongGuns/TnQuadSniper/TnQuadSniper"
+                ],
+    "tags":  [
+                 "weapon",
+                 "primary"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "Like a breath of wind, shots fired by this multi-barrel sniper are felt but never seen by its targets. Headshots in quick succession increase the Perigale’s ammo efficiency. When the Perigale is wielded by Voruna, its ammo pool increases.",
+    "release":  {
+                    "releaseDate":  "2022-11-30",
+                    "introduced":  {
+                                       "date":  "2022-11-30",
+                                       "parent":  "32.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_32%23Update_32.2",
+                                       "name":  "Update 32.2",
+                                       "aliases":  [
+                                                       "32.2"
+                                                   ]
+                                   }
+                },
+    "summary":  "Like a breath of wind, shots fired by this multi-barrel sniper are felt but never seen by its targets. Headshots in quick succession increase the Perigale’s ammo efficiency. When the Perigale is wielded by Voruna, its ammo pool increases.",
+    "stats":  {
+                  "accuracy":  833.33331,
+                  "statusChance":  0.15999997,
+                  "polarities":  [
+                                     "madurai",
+                                     "madurai"
+                                 ],
+                  "noise":  "Alarming",
+                  "tradable":  false,
+                  "reloadTime":  3,
+                  "disposition":  4,
+                  "magazineSize":  12,
+                  "fireRate":  6.0606065,
+                  "critMultiplier":  2.5999999,
+                  "totalDamage":  172,
+                  "vaulted":  null,
+                  "masteryReq":  8,
+                  "slot":  "primary",
+                  "estimatedVaultDate":  null,
+                  "trigger":  "Burst",
+                  "critChance":  0.28,
+                  "weaponClass":  "Sniper",
+                  "masterable":  true,
+                  "multishot":  1,
+                  "vaultDate":  null
+              }
+}

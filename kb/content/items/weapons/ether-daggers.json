@@ -1,0 +1,254 @@
+{
+    "id":  "weapon.ether-daggers",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Ether Daggers",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  896,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  20000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/DualEtherDaggerBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Cephalon Simaris, Unlock through Stolen Dreams",
+                                                                                "type":  "Ether Daggers Blueprint",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Operational Supply, Collaborator",
+                                                                                "type":  "Ether Daggers Blueprint",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Ferrite",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Ferrite",
+                                                              "itemCount":  600,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Morphics",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Morphic",
+                                                              "itemCount":  5,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Nano Spores",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Nanospores",
+                                                              "itemCount":  1200,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Polymer Bundle",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                                                              "itemCount":  600,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  35,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/EtherDaggers.png?70d49",
+                                   "url":  "https://wiki.warframe.com/w/Ether_Daggers",
+                                   "imageName":  "ether-daggers-a10b7f667c.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  0.833,
+                                          "crit_chance":  10,
+                                          "crit_mult":  1.8,
+                                          "status_chance":  30,
+                                          "damage":  {
+                                                         "impact":  33.6,
+                                                         "slash":  156.8,
+                                                         "puncture":  33.6
+                                                     },
+                                          "slide":  "448"
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  0.833,
+                                          "crit_chance":  10,
+                                          "crit_mult":  1.8,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  6,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "impact":  448
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  0.833,
+                                          "crit_chance":  10,
+                                          "crit_mult":  1.8,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  7,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "blast":  672
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  448,
+                      "blockingAngle":  50,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  33.600002,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  33.600002,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  156.8,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  224,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            33.600002,
+                                            33.600002,
+                                            156.8,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  1.75,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  448,
+                      "followThrough":  0.80000001,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  672,
+                      "stancePolarity":  "zenurik",
+                      "slideAttack":  448,
+                      "windUp":  0.5,
+                      "slamRadius":  6,
+                      "slamAttack":  448,
+                      "heavySlamRadius":  7
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Melee/DualDagger/DualEtherDagger"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "A shorter version of the Ether blade that allows for a more focused attack on a single target.",
+    "release":  {
+                    "releaseDate":  "2013-04-12",
+                    "introduced":  {
+                                       "date":  "2013-04-12",
+                                       "parent":  "7.7",
+                                       "url":  "https://wiki.warframe.com/w/Update_7%23Hotfix_7.7.3",
+                                       "name":  "Hotfix 7.7.3",
+                                       "aliases":  [
+                                                       "7.7.3"
+                                                   ]
+                                   }
+                },
+    "summary":  "A shorter version of the Ether blade that allows for a more focused attack on a single target.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.30000001,
+                  "polarities":  [
+                                     "vazarin"
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  5,
+                  "magazineSize":  null,
+                  "fireRate":  0.83333337,
+                  "critMultiplier":  1.8,
+                  "totalDamage":  224,
+                  "vaulted":  null,
+                  "masteryReq":  6,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.1,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

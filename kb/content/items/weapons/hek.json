@@ -1,0 +1,223 @@
+{
+    "description":  "The Hek is a powerful shotgun that fires its shots with a tight spread, making it efficient at medium range as long as its strong recoil is properly managed.",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Hek",
+    "subCategory":  "primary-shotgun",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD primary static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  null,
+                      "crafting":  {
+                                       "buildTime":  86400,
+                                       "buildPrice":  25000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/QuadShotgunBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Circuits",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Circuits",
+                                                              "itemCount":  900,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Neurodes",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Neurode",
+                                                              "itemCount":  5,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Rubedo",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Rubedo",
+                                                              "itemCount":  1000,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Salvage",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Salvage",
+                                                              "itemCount":  1200,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  25,
+                                       "consumeOnBuild":  true
+                                   },
+                      "damageProfileType":  "pellet-burst",
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Hek.png?6e042",
+                                   "url":  "https://wiki.warframe.com/w/Hek",
+                                   "imageName":  "hek-2b2c31c1f4.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  2.17,
+                                          "crit_chance":  10,
+                                          "crit_mult":  2,
+                                          "status_chance":  10.7,
+                                          "shot_type":  "Hit-Scan",
+                                          "falloff":  {
+                                                          "start":  10,
+                                                          "end":  20,
+                                                          "reduction":  0.8
+                                                      },
+                                          "damage":  {
+                                                         "impact":  11.25,
+                                                         "slash":  15,
+                                                         "puncture":  48.75
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  null,
+                      "blockingAngle":  null,
+                      "followThrough":  null,
+                      "damagePerShot":  [
+                                            11.25,
+                                            48.75,
+                                            15.000004,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "relevantFormulas":  [
+                                               "formula.multishot",
+                                               "formula.critical-chance",
+                                               "formula.status-chance"
+                                           ],
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  11.25,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  48.75,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  15.000004,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  75,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Shotgun/QuadShotgun"
+                ],
+    "tags":  [
+                 "weapon",
+                 "primary"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "id":  "weapon.hek",
+    "release":  {
+                    "releaseDate":  "2013-01-04",
+                    "introduced":  {
+                                       "date":  "2013-01-04",
+                                       "parent":  "5.0",
+                                       "url":  "https://wiki.warframe.com/w/Closed_Beta_Updates%23Update_5.2",
+                                       "name":  "Update 5.2",
+                                       "aliases":  [
+                                                       "5.2"
+                                                   ]
+                                   }
+                },
+    "summary":  "The Hek is a powerful shotgun that fires its shots with a tight spread, making it efficient at medium range as long as its strong recoil is properly managed.",
+    "stats":  {
+                  "accuracy":  9.090909,
+                  "statusChance":  0.10714287,
+                  "polarities":  [
+                                     null
+                                 ],
+                  "noise":  "Alarming",
+                  "tradable":  false,
+                  "reloadTime":  2,
+                  "archetype":  "pellet-shotgun",
+                  "disposition":  4,
+                  "magazineSize":  4,
+                  "fireRate":  2.1666667,
+                  "critMultiplier":  2,
+                  "totalDamage":  75,
+                  "vaulted":  null,
+                  "masteryReq":  4,
+                  "slot":  "primary",
+                  "estimatedVaultDate":  null,
+                  "trigger":  "Semi",
+                  "critChance":  0.1,
+                  "weaponClass":  "Shotgun",
+                  "masterable":  true,
+                  "multishot":  7,
+                  "vaultDate":  null
+              }
+}

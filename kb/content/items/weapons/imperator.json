@@ -1,0 +1,226 @@
+{
+    "description":  "A long range rifle capable of firing in space, the Imperator\u0027s versatility makes it an ideal weapon for space combat.",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Imperator",
+    "subCategory":  "archgun-arch-gun",
+    "mechanics":  {
+                      "heavySlamAttack":  null,
+                      "crafting":  {
+                                       "buildTime":  86400,
+                                       "buildPrice":  25000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/ImperatorBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Cephalon Simaris, Complete The Archwing (Quest)",
+                                                                                "type":  "Imperator Blueprint",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Circuits",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Circuits",
+                                                              "itemCount":  300,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Ferrite",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Ferrite",
+                                                              "itemCount":  1500,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Morphics",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Morphic",
+                                                              "itemCount":  2,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Polymer Bundle",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                                                              "itemCount":  150,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  35,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Imperator.png?3a6f3",
+                                   "url":  "https://wiki.warframe.com/w/Imperator",
+                                   "imageName":  "imperator-06651a85cb.png",
+                                   "available":  true
+                               },
+                      "followThrough":  null,
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  16.7,
+                                          "crit_chance":  24,
+                                          "crit_mult":  2,
+                                          "status_chance":  12,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  220,
+                                          "flight":  220,
+                                          "falloff":  {
+                                                          "start":  1500,
+                                                          "end":  3000,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "impact":  20,
+                                                         "slash":  12.5,
+                                                         "puncture":  17.5
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  null,
+                      "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  20,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  17.5,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  12.5,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  50,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "damagePerShot":  [
+                                            20,
+                                            17.5,
+                                            12.5,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ]
+                  },
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD archgun static data."
+              ],
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Archwing/Primary/FoldingMachineGun/ArchMachineGun"
+                ],
+    "tags":  [
+                 "weapon",
+                 "archgun"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "id":  "weapon.imperator",
+    "release":  {
+                    "releaseDate":  "2014-10-24",
+                    "introduced":  {
+                                       "date":  "2014-10-24",
+                                       "parent":  "15.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_15%23Update_15.0",
+                                       "name":  "Update 15.0",
+                                       "aliases":  [
+                                                       "15.0",
+                                                       "15",
+                                                       "Archwing",
+                                                       "Update 15"
+                                                   ]
+                                   }
+                },
+    "summary":  "A long range rifle capable of firing in space, the Imperator\u0027s versatility makes it an ideal weapon for space combat.",
+    "stats":  {
+                  "accuracy":  50,
+                  "noise":  "Alarming",
+                  "polarities":  [
+                                     "madurai"
+                                 ],
+                  "tradable":  false,
+                  "vaulted":  null,
+                  "totalDamage":  50,
+                  "disposition":  3,
+                  "magazineSize":  200,
+                  "fireRate":  16.666668,
+                  "critMultiplier":  2,
+                  "reloadTime":  4.25,
+                  "masteryReq":  0,
+                  "statusChance":  0.12,
+                  "slot":  "archgun",
+                  "estimatedVaultDate":  null,
+                  "trigger":  "Auto",
+                  "critChance":  0.23999999,
+                  "weaponClass":  "Arch-Gun",
+                  "masterable":  true,
+                  "multishot":  1,
+                  "vaultDate":  null
+              }
+}

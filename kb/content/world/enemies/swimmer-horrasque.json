@@ -1,0 +1,115 @@
+{
+    "description":  "Found near bodies of water the Horrasque subsists primarily upon fish. This hideous creature is terrible to behold, but will not attack unless provoked. When it does its roar will shake the bowels of even the most steadfast trapper.",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-enemies.json"
+                    }
+                ],
+    "name":  "Swimmer Horrasque",
+    "subCategory":  "predator",
+    "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "swimmer-horrasque.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    null
+                                ],
+                      "resistances":  [
+                                          {
+                                              "amount":  0,
+                                              "type":  "Shield",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "None",
+                                                                    "modifier":  0
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  50,
+                                              "type":  "Ferrite Armor",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "Puncture",
+                                                                    "modifier":  0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Toxin",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Corrosive",
+                                                                    "modifier":  0
+                                                                },
+                                                                {
+                                                                    "element":  "Slash",
+                                                                    "modifier":  -0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Blast",
+                                                                    "modifier":  -0.5
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  22,
+                                              "type":  "Flesh",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "Slash",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Toxin",
+                                                                    "modifier":  0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Viral",
+                                                                    "modifier":  0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Impact",
+                                                                    "modifier":  -0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Gas",
+                                                                    "modifier":  -0.5
+                                                                }
+                                                            ]
+                                          }
+                                      ]
+                  },
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD Enemy.json."
+              ],
+    "aliases":  [
+                    "/Lotus/Types/NeutralCreatures/Conservation/SnowPredator/UncommonSnowPredatorAvatar"
+                ],
+    "tags":  [
+                 "enemy",
+                 "predator"
+             ],
+    "category":  "enemy",
+    "relationships":  [
+
+                      ],
+    "id":  "enemy.swimmer-horrasque",
+    "release":  {
+
+                },
+    "summary":  "Found near bodies of water the Horrasque subsists primarily upon fish. This hideous creature is terrible to behold, but will not attack unless provoked. When it does its roar will shake the bowels of even the most steadfast trapper.",
+    "stats":  {
+                  "armor":  50,
+                  "type":  "Predator",
+                  "shield":  0,
+                  "health":  22,
+                  "regionBits":  0,
+                  "tradable":  false,
+                  "faction":  "Predator"
+              }
+}

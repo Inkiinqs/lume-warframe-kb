@@ -1,0 +1,218 @@
+{
+    "id":  "weapon.tenet-ferrox",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Tenet Ferrox",
+    "subCategory":  "primary-rifle",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD primary static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  null,
+                      "crafting":  {
+                                       "buildTime":  60,
+                                       "buildPrice":  10000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/LawyerWeapons/CrpBEFerroxBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  0,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/TenetFerrox.png?170fa",
+                                   "url":  "https://wiki.warframe.com/w/Tenet_Ferrox",
+                                   "imageName":  "tenet-ferrox-011ccea0e2.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Charged Shot",
+                                          "speed":  2.67,
+                                          "crit_chance":  34,
+                                          "crit_mult":  3,
+                                          "status_chance":  26,
+                                          "charge_time":  0.4,
+                                          "shot_type":  "Hit-Scan",
+                                          "damage":  {
+                                                         "impact":  20,
+                                                         "slash":  40,
+                                                         "puncture":  140
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Radial Attack",
+                                          "speed":  2.67,
+                                          "crit_chance":  34,
+                                          "crit_mult":  3,
+                                          "status_chance":  26,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  4,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "impact":  6,
+                                                         "slash":  12,
+                                                         "puncture":  42
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Spear Throw",
+                                          "speed":  1,
+                                          "crit_chance":  4,
+                                          "crit_mult":  2,
+                                          "status_chance":  40,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  90,
+                                          "flight":  90,
+                                          "damage":  {
+                                                         "impact":  35,
+                                                         "slash":  10,
+                                                         "puncture":  5
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Attraction Field",
+                                          "speed":  0.5,
+                                          "crit_chance":  4,
+                                          "crit_mult":  2,
+                                          "status_chance":  50,
+                                          "shot_type":  "AoE",
+                                          "damage":  {
+                                                         "electricity":  150
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  null,
+                      "blockingAngle":  null,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  20,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  140,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  39.999996,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  200,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            20,
+                                            140,
+                                            39.999996,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Corpus/BoardExec/Primary/CrpBEFerrox/CrpBEFerrox"
+                ],
+    "tags":  [
+                 "weapon",
+                 "primary"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "The expert engineers in Parvos Granum’s division have optimized the Ferrox’s lethal power.",
+    "release":  {
+                    "releaseDate":  "2022-11-30",
+                    "introduced":  {
+                                       "date":  "2022-11-30",
+                                       "parent":  "32.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_32%23Update_32.2",
+                                       "name":  "Update 32.2",
+                                       "aliases":  [
+                                                       "32.2"
+                                                   ]
+                                   }
+                },
+    "summary":  "The expert engineers in Parvos Granum’s division have optimized the Ferrox’s lethal power.",
+    "stats":  {
+                  "accuracy":  16.666666,
+                  "statusChance":  0.25999999,
+                  "polarities":  [
+                                     "madurai",
+                                     "madurai",
+                                     "vazarin"
+                                 ],
+                  "noise":  "Alarming",
+                  "tradable":  false,
+                  "reloadTime":  1.8,
+                  "disposition":  4,
+                  "magazineSize":  20,
+                  "fireRate":  2.6666667,
+                  "critMultiplier":  3,
+                  "totalDamage":  200,
+                  "vaulted":  null,
+                  "masteryReq":  16,
+                  "slot":  "primary",
+                  "estimatedVaultDate":  null,
+                  "trigger":  "Charge",
+                  "critChance":  0.34,
+                  "weaponClass":  "Rifle",
+                  "masterable":  true,
+                  "multishot":  1,
+                  "vaultDate":  null
+              }
+}

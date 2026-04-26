@@ -1,0 +1,173 @@
+{
+    "id":  "warframe.valkyr",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-warframes.json"
+                    }
+                ],
+    "name":  "Valkyr",
+    "subCategory":  "standard",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD Warframes.json."
+              ],
+    "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  "https://wiki.warframe.com/w/Valkyr",
+                                   "imageName":  "valkyr-c1f7e5d2ab.png",
+                                   "available":  true
+                               },
+                      "crafting":  {
+                                       "buildTime":  259200,
+                                       "buildPrice":  25000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/BerserkerBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Chassis",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/BerserkerChassisComponent",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Jupiter/Themisto (Assassination)",
+                                                                                "type":  "Valkyr Chassis Blueprint",
+                                                                                "chance":  38.72,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Neuroptics",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/BerserkerHelmetComponent",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Jupiter/Themisto (Assassination)",
+                                                                                "type":  "Valkyr Neuroptics Blueprint",
+                                                                                "chance":  38.72,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Orokin Cell",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/OrokinCell",
+                                                              "itemCount":  1,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Systems",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/BerserkerSystemsComponent",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Jupiter/Themisto (Assassination)",
+                                                                                "type":  "Valkyr Systems Blueprint",
+                                                                                "chance":  22.56,
+                                                                                "rarity":  "Uncommon"
+                                                                            }
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  50,
+                                       "consumeOnBuild":  true
+                                   },
+                      "exalted":  [
+                                      "/Lotus/Powersuits/Berserker/BerserkerMelee"
+                                  ],
+                      "abilities":  [
+                                        {
+                                            "name":  "Rip Line",
+                                            "description":  "Valkyr hurls forth a hook and pulls herself to whatever it hits. If it hits an enemy, nearby foes are pulled in as she unleashes a coordinated Melee attack.",
+                                            "uniqueName":  "/Lotus/Powersuits/Berserker/Abilities/GrappleHookAbility",
+                                            "imageName":  "rip-line-a6bd17dcf6.png"
+                                        },
+                                        {
+                                            "name":  "Warcry",
+                                            "description":  "Valkyr lets out a rallying cry that bolsters Armor and Attack Speed for allies while in \u003cAFFINITY_SHARE\u003eAffinity Range.",
+                                            "uniqueName":  "/Lotus/Powersuits/Berserker/Abilities/BerserkerScreamAbility",
+                                            "imageName":  "warcry-2f9fea6829.png"
+                                        },
+                                        {
+                                            "name":  "Paralysis",
+                                            "description":  "Unleash a damaging blast, slowing its victims while increasing their Melee Damage Vulnerability.",
+                                            "uniqueName":  "/Lotus/Powersuits/Berserker/Abilities/ShieldBashAbility",
+                                            "imageName":  "paralysis-0ca0da2bc3.png"
+                                        },
+                                        {
+                                            "name":  "Hysteria",
+                                            "description":  "Valkyr bares her deadly claws, unleashing devastating attacks that also heal her. Valkyr becomes immune to Status Effects and her Armor bonus from Warcry is multiplied while using the claws.",
+                                            "uniqueName":  "/Lotus/Powersuits/Berserker/Abilities/LastStandAbility",
+                                            "imageName":  "hysteria-0bd8fbbdc7.png"
+                                        }
+                                    ],
+                      "passiveDescription":  "Valkyr accumulates Rage when hitting or killing enemies with melee weapons, increasing her Melee Damage up to |PERCENT|%. Taking fatal damage when the Rage meter is above |CONSUME|% consumes the meter, preventing death and granting |DURATION|s of invulnerability."
+                  },
+    "aliases":  [
+                    "/Lotus/Powersuits/Berserker/Berserker"
+                ],
+    "tags":  [
+                 "warframe",
+                 "base"
+             ],
+    "category":  "warframe",
+    "relationships":  [
+
+                      ],
+    "description":  "Valkyr was modified into a highly motivated and fearsome killer. She is adept at dealing damage and surviving. Her battle cry strikes terror into all who hear it.",
+    "release":  {
+                    "releaseDate":  "2013-11-20",
+                    "introduced":  {
+                                       "date":  "2013-11-20",
+                                       "parent":  "11.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_11%23Update_11.0",
+                                       "name":  "Update 11.0",
+                                       "aliases":  [
+                                                       "11",
+                                                       "11.0",
+                                                       "Update 11"
+                                                   ]
+                                   }
+                },
+    "summary":  "Valkyr was modified into a highly motivated and fearsome killer. She is adept at dealing damage and surviving. Her battle cry strikes terror into all who hear it.",
+    "stats":  {
+                  "shield":  135,
+                  "aura":  "madurai",
+                  "tradable":  false,
+                  "polarities":  [
+                                     "madurai",
+                                     "madurai"
+                                 ],
+                  "sprintSpeed":  1.1,
+                  "health":  650,
+                  "power":  100,
+                  "vaulted":  null,
+                  "masteryReq":  0,
+                  "estimatedVaultDate":  null,
+                  "stamina":  3,
+                  "masterable":  true,
+                  "vaultDate":  null,
+                  "armor":  855
+              }
+}

@@ -1,0 +1,248 @@
+{
+    "id":  "weapon.gram",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Gram",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  800,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  30000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Alloy Plate",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                                                              "itemCount":  80,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/GreatSwordBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Duviri/Endless: Tier 6 (Normal)",
+                                                                                "type":  "Gram Blueprint",
+                                                                                "chance":  1.03,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Gallium",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Gallium",
+                                                              "itemCount":  3,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Rubedo",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Rubedo",
+                                                              "itemCount":  300,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Salvage",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Salvage",
+                                                              "itemCount":  750,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  30,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Gram.png?ff14e",
+                                   "url":  "https://wiki.warframe.com/w/Gram",
+                                   "imageName":  "gram-65f8494f8b.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  0.95,
+                                          "crit_chance":  15,
+                                          "crit_mult":  2,
+                                          "status_chance":  15,
+                                          "damage":  {
+                                                         "impact":  24,
+                                                         "slash":  112,
+                                                         "puncture":  24
+                                                     },
+                                          "slide":  "320"
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  0.95,
+                                          "crit_chance":  15,
+                                          "crit_mult":  2,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  8,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "impact":  320
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  0.95,
+                                          "crit_chance":  15,
+                                          "crit_mult":  2,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  9,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "blast":  480
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  320,
+                      "blockingAngle":  55,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  24,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  24,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  112,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  160,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            24,
+                                            24,
+                                            112,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  2.8,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  960,
+                      "followThrough":  0.60000002,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  480,
+                      "stancePolarity":  "madurai",
+                      "slideAttack":  320,
+                      "windUp":  1.1,
+                      "slamRadius":  8,
+                      "slamAttack":  480,
+                      "heavySlamRadius":  9
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Melee/GreatSword/GreatSword"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "The heavy two-handed sword known as Gram requires great strength to wield, but it is notorious for its splitting power. Can hit multiple targets with each strike.",
+    "release":  {
+                    "releaseDate":  "2013-02-08",
+                    "introduced":  {
+                                       "date":  "2013-02-08",
+                                       "parent":  "6.0",
+                                       "url":  "https://wiki.warframe.com/w/Closed_Beta_Updates%23Update_6.2",
+                                       "name":  "Update 6.2",
+                                       "aliases":  [
+                                                       "6.2"
+                                                   ]
+                                   }
+                },
+    "summary":  "The heavy two-handed sword known as Gram requires great strength to wield, but it is notorious for its splitting power. Can hit multiple targets with each strike.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.14999998,
+                  "polarities":  [
+                                     null
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  5,
+                  "magazineSize":  null,
+                  "fireRate":  0.95000005,
+                  "critMultiplier":  2,
+                  "totalDamage":  160,
+                  "vaulted":  null,
+                  "masteryReq":  2,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.15000001,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

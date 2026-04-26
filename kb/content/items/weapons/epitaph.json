@@ -1,0 +1,289 @@
+{
+    "id":  "weapon.epitaph",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Epitaph",
+    "subCategory":  "secondary-pistol",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD secondary static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  null,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  15000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Barrel",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/WraithSidearmBarrel",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  true,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Void Storm (Earth)",
+                                                                                "type":  "Epitaph Barrel",
+                                                                                "chance":  10,
+                                                                                "rarity":  "Uncommon"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Void Storm (Venus)",
+                                                                                "type":  "Epitaph Barrel",
+                                                                                "chance":  10,
+                                                                                "rarity":  "Uncommon"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Void Storm (Saturn)",
+                                                                                "type":  "Epitaph Barrel",
+                                                                                "chance":  9.52,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WraithSidearmBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  true,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Void Storm (Earth)",
+                                                                                "type":  "Epitaph Blueprint",
+                                                                                "chance":  10,
+                                                                                "rarity":  "Uncommon"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Void Storm (Venus)",
+                                                                                "type":  "Epitaph Blueprint",
+                                                                                "chance":  10,
+                                                                                "rarity":  "Uncommon"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Void Storm (Saturn)",
+                                                                                "type":  "Epitaph Blueprint",
+                                                                                "chance":  9.52,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Orokin Cell",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/OrokinCell",
+                                                              "itemCount":  7,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Receiver",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/WraithSidearmReceiver",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  true,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Void Storm (Earth)",
+                                                                                "type":  "Epitaph Receiver",
+                                                                                "chance":  10,
+                                                                                "rarity":  "Uncommon"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Void Storm (Venus)",
+                                                                                "type":  "Epitaph Receiver",
+                                                                                "chance":  10,
+                                                                                "rarity":  "Uncommon"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Void Storm (Saturn)",
+                                                                                "type":  "Epitaph Receiver",
+                                                                                "chance":  9.52,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  35,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Epitaph.png?77a9d",
+                                   "url":  "https://wiki.warframe.com/w/Epitaph",
+                                   "imageName":  "epitaph-b49e30b4ec.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Charged Shot",
+                                          "speed":  1.5,
+                                          "crit_chance":  48,
+                                          "crit_mult":  2.6,
+                                          "status_chance":  4,
+                                          "charge_time":  0.4,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  200,
+                                          "flight":  200,
+                                          "damage":  {
+                                                         "impact":  120,
+                                                         "slash":  135,
+                                                         "puncture":  45
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Uncharged Direct Hit",
+                                          "speed":  1.5,
+                                          "crit_chance":  2,
+                                          "crit_mult":  1.2,
+                                          "status_chance":  50,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  50,
+                                          "flight":  50,
+                                          "damage":  {
+                                                         "impact":  40,
+                                                         "slash":  30,
+                                                         "puncture":  30
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Uncharged AoE",
+                                          "speed":  1.5,
+                                          "crit_chance":  2,
+                                          "crit_mult":  1.2,
+                                          "status_chance":  50,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  8,
+                                                          "reduction":  0.8
+                                                      },
+                                          "damage":  {
+                                                         "blast":  20
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  null,
+                      "blockingAngle":  null,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  120,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  45,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  135,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  300,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            120,
+                                            45,
+                                            135,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Pistols/TnWraitheSidearm/TnWraitheSidearmWeapon"
+                ],
+    "tags":  [
+                 "weapon",
+                 "secondary"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "Sevagoth\u0027s wrist-mounted sidearm fires a chilling slow-moving slab, guaranteed to slow enemies for easier marksmanship. Charge the shot to fire a punishing high-velocity, high critical chance slab that punches through barriers. Deals additional headshot damage in Sevagoth\u0027s hands.",
+    "release":  {
+                    "releaseDate":  "2021-04-13",
+                    "introduced":  {
+                                       "date":  "2021-04-13",
+                                       "parent":  "30.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_30",
+                                       "name":  "Update 30.0",
+                                       "aliases":  [
+                                                       "30",
+                                                       "30.0",
+                                                       "Call of the Tempestarii"
+                                                   ]
+                                   }
+                },
+    "summary":  "Sevagoth\u0027s wrist-mounted sidearm fires a chilling slow-moving slab, guaranteed to slow enemies for easier marksmanship. Charge the shot to fire a punishing high-velocity, high critical chance slab that punches through barriers. Deals additional headshot damage in Sevagoth\u0027s hands.",
+    "stats":  {
+                  "accuracy":  80,
+                  "statusChance":  0.040000021,
+                  "polarities":  [
+                                     "madurai",
+                                     "madurai"
+                                 ],
+                  "noise":  "Alarming",
+                  "tradable":  true,
+                  "reloadTime":  0.60000002,
+                  "disposition":  1,
+                  "magazineSize":  1,
+                  "fireRate":  1.5000001,
+                  "critMultiplier":  1.2,
+                  "totalDamage":  300,
+                  "vaulted":  null,
+                  "masteryReq":  8,
+                  "slot":  "secondary",
+                  "estimatedVaultDate":  null,
+                  "trigger":  "Charge",
+                  "critChance":  0.02,
+                  "weaponClass":  "Pistol",
+                  "masterable":  true,
+                  "multishot":  1,
+                  "vaultDate":  null
+              }
+}

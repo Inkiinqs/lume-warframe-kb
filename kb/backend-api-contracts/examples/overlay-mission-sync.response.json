@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "overlay-mission-sync-response.v1",
+  "playerId": "player.demo-account",
+  "status": "preview",
+  "mode": "snapshot",
+  "note": "Local API returned a mission context merge preview. Send writeMode: \"persistent\" and confirmWrite: true to write player session mission state.",
+  "mission": {
+    "capturedAt": "2026-04-11T09:45:00Z",
+    "source": "overlay-ocr",
+    "snapshotType": "mission",
+    "activityId": "activity.cambion-drift",
+    "activityName": "Cambion Drift",
+    "nodeName": "Cambion Drift",
+    "locationId": "location.deimos",
+    "factionId": "faction.infested",
+    "missionType": "open-world",
+    "objective": "bounty",
+    "difficultyLevel": 35,
+    "steelPath": false,
+    "arbitration": false,
+    "fissure": null,
+    "modifiers": [
+      "infested-open-world"
+    ],
+    "squad": {
+      "size": 1,
+      "privacy": "solo"
+    },
+    "timers": {
+      "elapsedSeconds": 420
+    },
+    "recognizedText": [
+      "Cambion Drift",
+      "Infested"
+    ]
+  },
+  "activityRecord": {
+    "path": "content/activities/open-worlds/cambion-drift.json",
+    "id": "activity.cambion-drift",
+    "name": "Cambion Drift",
+    "tags": [
+      "activity",
+      "open-world",
+      "deimos"
+    ],
+    "relationships": [
+      "location.deimos",
+      "faction.infested",
+      "enemy.ancient-healer"
+    ]
+  },
+  "records": {
+    "session": "player/sessions/demo-account-session-latest.json"
+  },
+  "changes": {
+    "currentMissionChanged": true,
+    "recentActivityAdded": false,
+    "activityRecognized": true
+  },
+  "writeRequiredFields": {
+    "writeMode": "persistent",
+    "confirmWrite": true
+  },
+  "nextActions": [
+    "Review activityId, faction, objective, and modifiers before writing.",
+    "Send writeMode: \"persistent\" and confirmWrite: true only when the caller intends to mutate player session state.",
+    "Use mission context with loadout state to bias assistant recommendations."
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "overlay-event-feed-response.v1",
+  "playerId": "player.demo-account",
+  "status": "preview",
+  "mode": "append",
+  "note": "Local API returned an event-feed append preview. Send writeMode: \"persistent\" and confirmWrite: true to append events to player session history.",
+  "acceptedEvents": [
+    {
+      "eventId": "event.demo.pickup.orokin-cell.001",
+      "eventType": "pickup",
+      "occurredAt": "2026-04-11T10:03:10Z",
+      "source": "overlay-ocr",
+      "confidence": 0.96,
+      "activityId": "activity.cambion-drift",
+      "itemId": "resource.orokin-cell",
+      "quantity": 1,
+      "objective": null,
+      "phase": null,
+      "severity": null,
+      "rawText": "Orokin Cell",
+      "payload": {}
+    },
+    {
+      "eventId": "event.demo.objective.bounty-stage.001",
+      "eventType": "objective-progress",
+      "occurredAt": "2026-04-11T10:04:00Z",
+      "source": "overlay-ocr",
+      "confidence": 0.89,
+      "activityId": "activity.cambion-drift",
+      "itemId": null,
+      "quantity": null,
+      "objective": "bounty-stage",
+      "phase": null,
+      "severity": null,
+      "rawText": "Bounty Stage 2/5",
+      "payload": {
+        "stage": 2,
+        "stageCount": 5
+      }
+    },
+    {
+      "eventId": "event.demo.phase.extraction.001",
+      "eventType": "mission-phase",
+      "occurredAt": "2026-04-11T10:04:45Z",
+      "source": "overlay-ocr",
+      "confidence": 0.92,
+      "activityId": "activity.cambion-drift",
+      "itemId": null,
+      "quantity": null,
+      "objective": null,
+      "phase": "extraction-available",
+      "severity": null,
+      "rawText": "Extraction Available",
+      "payload": {}
+    },
+    {
+      "eventId": "event.demo.state.shieldbreak.001",
+      "eventType": "player-state",
+      "occurredAt": "2026-04-11T10:04:55Z",
+      "source": "overlay-ocr",
+      "confidence": 0.81,
+      "activityId": "activity.cambion-drift",
+      "itemId": null,
+      "quantity": null,
+      "objective": null,
+      "phase": null,
+      "severity": "warning",
+      "rawText": "Shields depleted",
+      "payload": {
+        "state": "shield-break"
+      }
+    }
+  ],
+  "eventSummary": {
+    "total": 4,
+    "byType": {
+      "pickup": 1,
+      "objective-progress": 1,
+      "mission-phase": 1,
+      "player-state": 1
+    }
+  },
+  "sessionEventLimit": 200,
+  "records": {
+    "session": "player/sessions/demo-account-session-latest.json"
+  },
+  "changes": {
+    "acceptedEventCount": 4,
+    "sessionEventCountAfterMerge": 4,
+    "recentDropsChanged": true
+  },
+  "writeRequiredFields": {
+    "writeMode": "persistent",
+    "confirmWrite": true
+  },
+  "nextActions": [
+    "Review event types, item IDs, objective progress, and OCR confidence before writing.",
+    "Send writeMode: \"persistent\" and confirmWrite: true only when the caller intends to append session event history.",
+    "Use event-feed history to drive live overlay assistant suggestions."
+  ]
+}

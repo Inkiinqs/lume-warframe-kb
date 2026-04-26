@@ -1,0 +1,60 @@
+{
+    "id":  "status.impact",
+    "name":  "Impact",
+    "category":  "status_effect",
+    "summary":  "Impact status applies a crowd-control oriented physical proc.",
+    "mechanics":  {
+                      "appliesTo":  [
+                                        "target-state"
+                                    ],
+                      "stacking":  "Track exact stack behavior from source-backed updates.",
+                      "duration":  "Timed effect on the target.",
+                      "formula":  null,
+                      "specialRules":  [
+                                           "Treat this as a utility-focused physical status record."
+                                       ]
+                  },
+    "interactions":  {
+                         "synergies":  [
+
+                                       ],
+                         "affectedBy":  [
+                                            "formula.status-chance"
+                                        ],
+                         "counteredBy":  [
+
+                                         ]
+                     },
+    "examples":  [
+
+                 ],
+    "tags":  [
+                 "status",
+                 "physical",
+                 "crowd-control"
+             ],
+    "notes":  [
+                  "Keep detailed proc behavior patch-sensitive and source-backed.",
+                  "Impact proc behavior should stay isolated from armor and health amplification logic when generating AI build reasoning."
+              ],
+    "sources":  [
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Status_Effect"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Damage"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Damage/Impact_Damage"
+                    }
+                ],
+    "verification":  {
+                         "trustLevel":  "community-verified",
+                         "sourceFamily":  "warframe-wiki",
+                         "patchSensitive":  true,
+                         "reviewedAt":  "2026-04-10"
+                     }
+}

@@ -1,0 +1,172 @@
+{
+    "id":  "warframe.gauss",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-warframes.json"
+                    }
+                ],
+    "name":  "Gauss",
+    "subCategory":  "standard",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD Warframes.json."
+              ],
+    "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  "https://wiki.warframe.com/w/Gauss",
+                                   "imageName":  "gauss-8060019853.png",
+                                   "available":  true
+                               },
+                      "crafting":  {
+                                       "buildTime":  259200,
+                                       "buildPrice":  25000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/GaussBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Chassis",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/GaussChassisComponent",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Sedna/Kappa (Disruption), Rotation C",
+                                                                                "type":  "Gauss Chassis Blueprint",
+                                                                                "chance":  7.84,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Neuroptics",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/GaussHelmetComponent",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Sedna/Kappa (Disruption), Rotation C",
+                                                                                "type":  "Gauss Neuroptics Blueprint",
+                                                                                "chance":  7.84,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Orokin Cell",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/OrokinCell",
+                                                              "itemCount":  3,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Systems",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/GaussSystemsComponent",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Sedna/Kappa (Disruption), Rotation C",
+                                                                                "type":  "Gauss Systems Blueprint",
+                                                                                "chance":  7.84,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  50,
+                                       "consumeOnBuild":  true
+                                   },
+                      "exalted":  [
+                                      null
+                                  ],
+                      "abilities":  [
+                                        {
+                                            "name":  "Mach Rush",
+                                            "description":  "Burst into a hyper-sprint bowling over enemies and charging the battery. Crashing into solid objects generates a powerful shockwave. Hold to rush continuously.",
+                                            "uniqueName":  "/Lotus/Powersuits/Runner/Abilities/RunnerRushAbility",
+                                            "imageName":  "mach-rush-02264a0e1b.png"
+                                        },
+                                        {
+                                            "name":  "Kinetic Plating",
+                                            "description":  "Generate armor plating that converts a portion of absorbed Kinetic Damage (Physical, \u003cDT_FIRE_COLOR\u003eHeat, \u003cDT_FREEZE_COLOR\u003eCold, and \u003cDT_EXPLOSION_COLOR\u003eBlast) into Energy. Also protects Gauss from being staggered or knocked down. Damage Resistance is relative to the battery level.",
+                                            "uniqueName":  "/Lotus/Powersuits/Runner/Abilities/RunnerPlatingAbility",
+                                            "imageName":  "kinetic-plating-93369b60df.png"
+                                        },
+                                        {
+                                            "name":  "Thermal Sunder",
+                                            "description":  "Siphon kinetic energy from the area, charging the battery and inflicting \u003cDT_FREEZE_COLOR\u003eCold Status on nearby enemies. Hold reverses the process, draining the battery and inflicting \u003cDT_FIRE_COLOR\u003eHeat Status on nearby enemies.",
+                                            "uniqueName":  "/Lotus/Powersuits/Runner/Abilities/RunnerTransferAbility",
+                                            "imageName":  "thermal-sunder-4a94cbd4d2.png"
+                                        },
+                                        {
+                                            "name":  "Redline",
+                                            "description":  "Push Gauss\u0027 battery beyond the redline, supercharging his Abilities and setting Fire Rate, Attack Speed, Reload Speed, and Casting Speed into overdrive. When past the redline, bolts of arcing electricity dance periodically from Gauss, exploding en masse when the ability is deactivated.",
+                                            "uniqueName":  "/Lotus/Powersuits/Runner/Abilities/RunnerRedlineAbility",
+                                            "imageName":  "redline-8b6aa919a6.png"
+                                        }
+                                    ],
+                      "passiveDescription":  "Moving generates an electrical current that fills Gauss\u0027 battery. Shields recharge up to |SPEED|% faster while the Recharge Delay is up to |DELAY|% shorter, based on the battery level."
+                  },
+    "aliases":  [
+                    "/Lotus/Powersuits/Runner/Runner"
+                ],
+    "tags":  [
+                 "warframe",
+                 "base"
+             ],
+    "category":  "warframe",
+    "relationships":  [
+
+                      ],
+    "description":  "Take charge with the Saint of Altra. Gauss is fast, deals high damage, and has strong survivability. Movement charges his powerful battery, so never stop moving.",
+    "release":  {
+                    "releaseDate":  "2019-08-29",
+                    "introduced":  {
+                                       "date":  "2019-08-29",
+                                       "parent":  "25.7",
+                                       "url":  "https://wiki.warframe.com/w/Update_25%23Update_25.7",
+                                       "name":  "Update 25.7",
+                                       "aliases":  [
+                                                       "25.7",
+                                                       "Saint of Altra"
+                                                   ]
+                                   }
+                },
+    "summary":  "Take charge with the Saint of Altra. Gauss is fast, deals high damage, and has strong survivability. Movement charges his powerful battery, so never stop moving.",
+    "stats":  {
+                  "shield":  455,
+                  "aura":  "naramon",
+                  "tradable":  false,
+                  "polarities":  [
+                                     "madurai",
+                                     "vazarin"
+                                 ],
+                  "sprintSpeed":  1.4,
+                  "health":  270,
+                  "power":  175,
+                  "vaulted":  null,
+                  "masteryReq":  0,
+                  "estimatedVaultDate":  null,
+                  "stamina":  3,
+                  "masterable":  true,
+                  "vaultDate":  null,
+                  "armor":  185
+              }
+}

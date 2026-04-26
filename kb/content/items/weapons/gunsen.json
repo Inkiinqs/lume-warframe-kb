@@ -1,0 +1,247 @@
+{
+    "id":  "weapon.gunsen",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Gunsen",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  160,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  20000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WarfanBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Nano Spores",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Nanospores",
+                                                              "itemCount":  19750,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Oxium",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/OxiumAlloy",
+                                                              "itemCount":  200,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Plastids",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Plastids",
+                                                              "itemCount":  1150,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Tellurium",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Tellurium",
+                                                              "itemCount":  3,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  25,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Gunsen.png?31e8a",
+                                   "url":  "https://wiki.warframe.com/w/Gunsen",
+                                   "imageName":  "gunsen-dea3aaced2.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  1.17,
+                                          "crit_chance":  16,
+                                          "crit_mult":  2,
+                                          "status_chance":  28,
+                                          "damage":  {
+                                                         "impact":  12.8,
+                                                         "slash":  128,
+                                                         "puncture":  19.2
+                                                     },
+                                          "slide":  "160"
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  1.17,
+                                          "crit_chance":  16,
+                                          "crit_mult":  2,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  5,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "impact":  320
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  1.17,
+                                          "crit_chance":  16,
+                                          "crit_mult":  2,
+                                          "status_chance":  28,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  6,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "blast":  480
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  320,
+                      "blockingAngle":  55,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  12.799999,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  19.199999,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  128,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  160,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            12.799999,
+                                            19.199999,
+                                            128,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  1.7,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  640,
+                      "followThrough":  0.69999999,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  480,
+                      "stancePolarity":  "naramon",
+                      "slideAttack":  160,
+                      "windUp":  0.5,
+                      "slamRadius":  5,
+                      "slamAttack":  320,
+                      "heavySlamRadius":  6
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Melee/Warfan/WarfanWeapon"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "Lacerate attackers with two razor sharp warfans.",
+    "release":  {
+                    "releaseDate":  "2017-10-12",
+                    "introduced":  {
+                                       "date":  "2017-10-12",
+                                       "parent":  "22.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_22%23Update_22.0",
+                                       "name":  "Update 22.0",
+                                       "aliases":  [
+                                                       "Update 22",
+                                                       "22.0",
+                                                       "22",
+                                                       "Plains of Eidolon",
+                                                       "PoE"
+                                                   ]
+                                   }
+                },
+    "summary":  "Lacerate attackers with two razor sharp warfans.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.27999997,
+                  "polarities":  [
+                                     "madurai"
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  5,
+                  "magazineSize":  null,
+                  "fireRate":  1.1666667,
+                  "critMultiplier":  2,
+                  "totalDamage":  160,
+                  "vaulted":  null,
+                  "masteryReq":  8,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.16,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

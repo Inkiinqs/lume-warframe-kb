@@ -1,0 +1,282 @@
+{
+    "id":  "weapon.edun",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Edun",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  1100,
+                      "crafting":  {
+                                       "buildTime":  86400,
+                                       "buildPrice":  30000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/DaxDuviriPolearmBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Connla Sprout",
+                                                              "uniqueName":  "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemC",
+                                                              "itemCount":  40,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Nacreous Pebble",
+                                                              "uniqueName":  "/Lotus/Types/Gameplay/Duviri/Resource/Fish/GenericDuviriFishPartAItem",
+                                                              "itemCount":  50,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Rune Marrow",
+                                                              "uniqueName":  "/Lotus/Types/Gameplay/Duviri/Resource/DuviriFractalItem",
+                                                              "itemCount":  30,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Tasoma Extract",
+                                                              "uniqueName":  "/Lotus/Types/Gameplay/Duviri/Resource/DuviriMushroomItem",
+                                                              "itemCount":  30,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  35,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Edun.png?09a1a",
+                                   "url":  "https://wiki.warframe.com/w/Edun",
+                                   "imageName":  "edun-2204da8ba8.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  1,
+                                          "crit_chance":  34,
+                                          "crit_mult":  2.6,
+                                          "status_chance":  20,
+                                          "damage":  {
+                                                         "impact":  44,
+                                                         "slash":  110,
+                                                         "puncture":  66
+                                                     },
+                                          "slide":  "440",
+                                          "slam":  {
+                                                       "damage":  "440.00",
+                                                       "radial":  {
+                                                                      "damage":  "0.00",
+                                                                      "radius":  7
+                                                                  }
+                                                   }
+                                      },
+                                      {
+                                          "name":  "Polearm Throw",
+                                          "speed":  1,
+                                          "crit_chance":  30,
+                                          "crit_mult":  2.6,
+                                          "status_chance":  20,
+                                          "shot_type":  "Projectile",
+                                          "damage":  {
+                                                         "impact":  144,
+                                                         "slash":  144,
+                                                         "puncture":  192
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Polearm Explosion",
+                                          "speed":  1,
+                                          "crit_chance":  30,
+                                          "crit_mult":  2.6,
+                                          "status_chance":  20,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  4,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "blast":  400
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  1,
+                                          "crit_chance":  34,
+                                          "crit_mult":  2.6,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  7,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "impact":  440
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  1,
+                                          "crit_chance":  34,
+                                          "crit_mult":  2.6,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  8,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "blast":  660
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  440,
+                      "blockingAngle":  55,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  44,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  66,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  110,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  220,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            44,
+                                            66,
+                                            110,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  3,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  880,
+                      "followThrough":  0.60000002,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  660,
+                      "stancePolarity":  "zenurik",
+                      "slideAttack":  440,
+                      "windUp":  1,
+                      "slamRadius":  7,
+                      "slamAttack":  660,
+                      "heavySlamRadius":  9
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Melee/Polearms/DaxDuviriPolearm/DaxDuviriPolearmWeapon"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "Edun befits a dextrous warrior. Heavy Attack to throw Edun. Edun explodes after it is embedded in an enemy.",
+    "release":  {
+                    "releaseDate":  "2023-04-26",
+                    "introduced":  {
+                                       "date":  "2023-04-26",
+                                       "parent":  "33.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_33%23Update_33.0",
+                                       "name":  "Update 33.0",
+                                       "aliases":  [
+                                                       "33",
+                                                       "33.0"
+                                                   ]
+                                   }
+                },
+    "summary":  "Edun befits a dextrous warrior. Heavy Attack to throw Edun. Edun explodes after it is embedded in an enemy.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.19999999,
+                  "polarities":  [
+                                     "madurai",
+                                     "madurai",
+                                     "madurai"
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  3,
+                  "magazineSize":  null,
+                  "fireRate":  1,
+                  "critMultiplier":  2.5999999,
+                  "totalDamage":  220,
+                  "vaulted":  null,
+                  "masteryReq":  0,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.34,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

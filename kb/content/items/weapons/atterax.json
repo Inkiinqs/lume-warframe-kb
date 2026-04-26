@@ -1,0 +1,244 @@
+{
+    "id":  "weapon.atterax",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Atterax",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  451,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  20000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Argon Crystal",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/ArgonCrystal",
+                                                              "itemCount":  2,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/GrineerWhipBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Polymer Bundle",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                                                              "itemCount":  800,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Rubedo",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Rubedo",
+                                                              "itemCount":  200,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Salvage",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Salvage",
+                                                              "itemCount":  1500,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  35,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  "https://wiki.warframe.com/w/Atterax",
+                                   "imageName":  "atterax-a78c2ad927.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  0.917,
+                                          "crit_chance":  25,
+                                          "crit_mult":  3,
+                                          "status_chance":  20,
+                                          "damage":  {
+                                                         "impact":  6.45,
+                                                         "slash":  116.1,
+                                                         "puncture":  6.45
+                                                     },
+                                          "slide":  "258"
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  0.917,
+                                          "crit_chance":  25,
+                                          "crit_mult":  3,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  5,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "slash":  258
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  0.917,
+                                          "crit_chance":  25,
+                                          "crit_mult":  3,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  6,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "blast":  387
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  258,
+                      "blockingAngle":  45,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  6.4500003,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  6.4500003,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  116.1,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  129,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            6.4500003,
+                                            6.4500003,
+                                            116.1,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  2.4963856,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  581,
+                      "followThrough":  0.5,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  387,
+                      "stancePolarity":  "vazarin",
+                      "slideAttack":  258,
+                      "windUp":  0.40000001,
+                      "slamRadius":  5,
+                      "slamAttack":  387,
+                      "heavySlamRadius":  6
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Grineer/Melee/GrineerWhip/GrineerWhip"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "A multi-bladed whip that is adept at flaying skin from bone. In extreme cases, disobedient Grineer are sentenced to death by Atterax.",
+    "release":  {
+                    "releaseDate":  "2014-09-17",
+                    "introduced":  {
+                                       "date":  "2014-09-17",
+                                       "parent":  "14.7",
+                                       "url":  "https://wiki.warframe.com/w/Update_14%23Update_14.7",
+                                       "name":  "Update 14.7",
+                                       "aliases":  [
+                                                       "14.7.0",
+                                                       "14.7"
+                                                   ]
+                                   }
+                },
+    "summary":  "A multi-bladed whip that is adept at flaying skin from bone. In extreme cases, disobedient Grineer are sentenced to death by Atterax.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.19999999,
+                  "polarities":  [
+                                     null
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  4,
+                  "magazineSize":  null,
+                  "fireRate":  0.91666669,
+                  "critMultiplier":  3,
+                  "totalDamage":  129,
+                  "vaulted":  null,
+                  "masteryReq":  5,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.25,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

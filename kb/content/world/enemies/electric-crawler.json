@@ -1,0 +1,135 @@
+{
+    "description":  "Shocks nearby enemies with a bio-electrical attack",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-enemies.json"
+                    }
+                ],
+    "name":  "Electric Crawler",
+    "subCategory":  "infestation",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD Enemy.json."
+              ],
+    "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "electric-crawler.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    {
+                                        "location":  "Rupture",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Common",
+                                        "chance":  0.7587999999999999
+                                    },
+                                    {
+                                        "location":  "Sure Shot",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0553
+                                    },
+                                    {
+                                        "location":  "Contagious Spread",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0553
+                                    },
+                                    {
+                                        "location":  "Serration",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0553
+                                    },
+                                    {
+                                        "location":  "50 Endo",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0553
+                                    },
+                                    {
+                                        "location":  "80 Endo",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0201
+                                    },
+                                    {
+                                        "location":  "Electric Crawler",
+                                        "type":  "Enemy Mod Tables",
+                                        "chance":  null
+                                    }
+                                ],
+                      "resistances":  [
+                                          {
+                                              "amount":  0,
+                                              "type":  "Shield",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "None",
+                                                                    "modifier":  0
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  0,
+                                              "type":  "Ferrite Armor",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "None",
+                                                                    "modifier":  0
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  50,
+                                              "type":  "Infested Flesh",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "Slash",
+                                                                    "modifier":  0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Heat",
+                                                                    "modifier":  0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Gas",
+                                                                    "modifier":  0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Cold",
+                                                                    "modifier":  -0.75
+                                                                }
+                                                            ]
+                                          }
+                                      ]
+                  },
+    "aliases":  [
+                    "/Lotus/Types/Enemies/Infested/AiWeek/Crawlers/LightningAvatarLeader"
+                ],
+    "tags":  [
+                 "enemy",
+                 "infestation"
+             ],
+    "category":  "enemy",
+    "relationships":  [
+
+                      ],
+    "id":  "enemy.electric-crawler",
+    "release":  {
+
+                },
+    "summary":  "Shocks nearby enemies with a bio-electrical attack",
+    "stats":  {
+                  "armor":  0,
+                  "type":  "Infestation",
+                  "shield":  0,
+                  "health":  50,
+                  "regionBits":  106489,
+                  "tradable":  false,
+                  "faction":  "Infestation"
+              }
+}

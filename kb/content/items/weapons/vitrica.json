@@ -1,0 +1,268 @@
+{
+    "id":  "weapon.vitrica",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Vitrica",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  1665,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  20000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/NWOrokinSwordBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Cephalon Simaris, Defeat the Glassmaker",
+                                                                                "type":  "Vitrica Blueprint",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Orokin Cell",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/OrokinCell",
+                                                              "itemCount":  15,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Oxium",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/OxiumAlloy",
+                                                              "itemCount":  925,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Purified Heciphron",
+                                                              "uniqueName":  "/Lotus/Types/Items/Gems/Deimos/DeimosUncommonGemACutItem",
+                                                              "itemCount":  10,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Tempered Bapholite",
+                                                              "uniqueName":  "/Lotus/Types/Items/Gems/Deimos/DeimosCommonOreBAlloyItem",
+                                                              "itemCount":  60,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  25,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Vitrica.png?54002",
+                                   "url":  "https://wiki.warframe.com/w/Vitrica",
+                                   "imageName":  "vitrica-d0a2b456bd.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  0.833,
+                                          "crit_chance":  23,
+                                          "crit_mult":  2.3,
+                                          "status_chance":  33,
+                                          "damage":  {
+                                                         "impact":  99.9,
+                                                         "slash":  133.2,
+                                                         "puncture":  99.9
+                                                     },
+                                          "slide":  "666"
+                                      },
+                                      {
+                                          "name":  "Glass Explosion",
+                                          "speed":  0.833,
+                                          "crit_chance":  23,
+                                          "crit_mult":  2.3,
+                                          "status_chance":  33,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  6,
+                                                          "reduction":  0.9
+                                                      },
+                                          "damage":  {
+                                                         "impact":  299.7,
+                                                         "slash":  399.6,
+                                                         "puncture":  299.7
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  0.833,
+                                          "crit_chance":  23,
+                                          "crit_mult":  2.3,
+                                          "status_chance":  50,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  4,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "impact":  666
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  0.833,
+                                          "crit_chance":  23,
+                                          "crit_mult":  2.3,
+                                          "status_chance":  50,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  4,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "impact":  999
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  666,
+                      "blockingAngle":  60,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  99.900002,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  99.900002,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  133.2,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  333,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            99.900002,
+                                            99.900002,
+                                            133.2,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  2.9000001,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  1998,
+                      "followThrough":  0.60000002,
+                      "comboDuration":  10,
+                      "heavySlamRadialDamage":  999,
+                      "stancePolarity":  "vazarin",
+                      "slideAttack":  666,
+                      "windUp":  1.1,
+                      "slamRadius":  4,
+                      "slamAttack":  999,
+                      "heavySlamRadius":  4
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Melee/Swords/NWIIIOrokinSword/NWOrokinSword"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "The sword the fabled Orokin executioner Nihil used to glass the condemned. Swing while Aim Gliding to glass enemies. A Ground Slam will smash nearby glassed foes, while sending forward a narrow shockwave to shatter distant ones. A Heavy Slam sends forth a wider shockwave with greater force.",
+    "release":  {
+                    "releaseDate":  "2020-10-27",
+                    "introduced":  {
+                                       "date":  "2020-10-27",
+                                       "parent":  "29.3",
+                                       "url":  "https://wiki.warframe.com/w/Update_29%23Update_29.3",
+                                       "name":  "Update 29.3",
+                                       "aliases":  [
+                                                       "29.3",
+                                                       "29.3.0"
+                                                   ]
+                                   }
+                },
+    "summary":  "The sword the fabled Orokin executioner Nihil used to glass the condemned. Swing while Aim Gliding to glass enemies. A Ground Slam will smash nearby glassed foes, while sending forward a narrow shockwave to shatter distant ones. A Heavy Slam sends forth a wider shockwave with greater force.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.33000004,
+                  "polarities":  [
+                                     "madurai",
+                                     "madurai"
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  3,
+                  "magazineSize":  null,
+                  "fireRate":  0.83333337,
+                  "critMultiplier":  2.3,
+                  "totalDamage":  333,
+                  "vaulted":  null,
+                  "masteryReq":  13,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.23,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "faction.grineer",
+  "name": "Grineer",
+  "category": "faction",
+  "summary": "The Grineer are a militarized cloning empire known for armor-heavy units and brute-force pressure.",
+  "description": "Major hostile faction centered around clone soldiery, industry, and expansionist control.",
+  "stats": {},
+  "mechanics": {
+    "commonTraits": [
+      "armor-heavy",
+      "ballistic-pressure",
+      "elite-heavy-units"
+    ],
+    "defenseLayers": [
+      "armor",
+      "health"
+    ],
+    "recommendedDamage": [
+      "status.corrosive",
+      "status.heat",
+      "status.slash",
+      "status.viral"
+    ],
+    "recommendedStatusPlan": [
+      "Strip or bypass armor first.",
+      "Use viral plus slash or heat follow-up for sustained health pressure."
+    ],
+    "cautions": [
+      "Pure raw damage without armor handling falls off hard against elite Grineer.",
+      "Heavy units skew survivability benchmarks upward."
+    ]
+  },
+  "relationships": [
+    "enemy.grineer-heavy-gunner",
+    "location.earth"
+  ],
+  "release": {},
+  "tags": [
+    "faction",
+    "grineer",
+    "armor"
+  ],
+  "notes": [
+    "Faction-level combat tendencies should stay high-level here while exact defense rules live in system and enemy records.",
+    "This record is intended to drive matchup guidance rather than exact numeric damage calculations."
+  ],
+  "sources": [
+    {
+      "type": "wiki",
+      "value": "https://warframe.fandom.com/wiki/Grineer"
+    }
+  ]
+}

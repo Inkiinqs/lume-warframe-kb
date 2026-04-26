@@ -1,0 +1,58 @@
+{
+    "generatedAt":  "2026-04-11T10:36:22Z",
+    "schemaVersion":  "assistant-query-response.v1",
+    "query":  "what damage should I bring against Corpus",
+    "routing":  {
+                    "intent":  "build.recommendation.for-faction",
+                    "score":  15,
+                    "reasons":  [
+                                    "build/loadout language with faction entity",
+                                    "faction damage/status planning language"
+                                ],
+                    "primaryView":  "ai/materialized-views/faction-combat-profiles.view.json",
+                    "fallbackViews":  [
+                                          "ai/materialized-views/player-combat-recommendations.view.json",
+                                          "ai/materialized-views/combat-mod-profiles.view.json",
+                                          "ai/search-docs/records.search.json"
+                                      ]
+                },
+    "responseType":  "faction.combat-profile",
+    "payload":  {
+                    "faction":  {
+                                    "id":  "faction.corpus",
+                                    "name":  "Corpus",
+                                    "slug":  "corpus"
+                                },
+                    "profile":  {
+                                    "name":  "Corpus",
+                                    "commonTraits":  [
+                                                         "shield-heavy",
+                                                         "robotics",
+                                                         "specialist-units"
+                                                     ],
+                                    "defenseLayers":  [
+                                                          "shields",
+                                                          "robotics"
+                                                      ],
+                                    "recommendedDamage":  [
+                                                              "status.magnetic",
+                                                              "status.toxin",
+                                                              "status.electric"
+                                                          ],
+                                    "recommendedStatusPlan":  [
+                                                                  "Break shields fast, then pressure health directly with toxin when possible.",
+                                                                  "Bring answers to Nullifier bubbles and proxy-heavy rooms."
+                                                              ],
+                                    "cautions":  [
+                                                     "Shield-focused enemies can waste slow ramp builds.",
+                                                     "Specialist units interrupt ability-heavy setups."
+                                                 ],
+                                    "benchmarkEnemies":  [
+                                                             "enemy.corpus-nullifier-crewman"
+                                                         ]
+                                }
+                },
+    "sources":  [
+                    "ai/materialized-views/faction-combat-profiles.view.json"
+                ]
+}

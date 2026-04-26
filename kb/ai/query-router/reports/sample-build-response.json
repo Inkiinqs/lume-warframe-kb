@@ -1,0 +1,243 @@
+{
+    "generatedAt":  "2026-04-11T10:36:18Z",
+    "schemaVersion":  "assistant-query-response.v1",
+    "query":  "make me a Rhino build for Murmur",
+    "routing":  {
+                    "intent":  "build.recommendation.for-enemy",
+                    "score":  13,
+                    "reasons":  [
+                                    "build/loadout language with target, frame, or weapon entity"
+                                ],
+                    "primaryView":  "ai/materialized-views/assistant-build-contracts.view.json",
+                    "fallbackViews":  [
+                                          "ai/materialized-views/player-build-skeletons.view.json",
+                                          "ai/materialized-views/player-combat-recommendations.view.json",
+                                          "ai/materialized-views/enemy-matchups.view.json",
+                                          "ai/search-docs/records.search.json"
+                                      ]
+                },
+    "responseType":  "build.recommendation",
+    "payload":  {
+                    "target":  {
+                                   "id":  "enemy.murmur-anomaly-host",
+                                   "name":  "Murmur Anomaly Host",
+                                   "factionId":  "faction.murmur",
+                                   "recommendedDamage":  [
+                                                             "status.viral",
+                                                             "status.heat",
+                                                             "status.slash"
+                                                         ]
+                               },
+                    "recommendedBuild":  {
+                                             "buildId":  "enemy.murmur-anomaly-host.warframe.rhino.weapon.acceltra",
+                                             "confidence":  "starter",
+                                             "score":  12,
+                                             "queryAliases":  [
+                                                                  "build for Murmur Anomaly Host",
+                                                                  "counter Murmur Anomaly Host",
+                                                                  "Rhino Acceltra vs Murmur Anomaly Host",
+                                                                  "Rhino build for Murmur Anomaly Host"
+                                                              ],
+                                             "summary":  "Rhino with Acceltra for Murmur Anomaly Host",
+                                             "frame":  {
+                                                           "id":  "warframe.rhino",
+                                                           "name":  "Rhino",
+                                                           "roles":  [
+                                                                         "tank",
+                                                                         "buffer",
+                                                                         "starter-friendly"
+                                                                     ],
+                                                           "desiredModRoles":  [
+                                                                                   "ability-duration",
+                                                                                   "ability-strength",
+                                                                                   "survival-armor",
+                                                                                   "survival-health"
+                                                                               ],
+                                                           "ownedModsToSlot":  [
+
+                                                                               ],
+                                                           "missingModsToChase":  [
+                                                                                      {
+                                                                                          "id":  "mod.intensify",
+                                                                                          "name":  "Intensify",
+                                                                                          "roles":  [
+                                                                                                        "ability-strength"
+                                                                                                    ],
+                                                                                          "score":  4,
+                                                                                          "rankScore":  14,
+                                                                                          "reasons":  [
+                                                                                                          "Covers desired frame role: ability-strength"
+                                                                                                      ]
+                                                                                      },
+                                                                                      {
+                                                                                          "id":  "mod.vitality",
+                                                                                          "name":  "Vitality",
+                                                                                          "roles":  [
+                                                                                                        "survival-health"
+                                                                                                    ],
+                                                                                          "score":  4,
+                                                                                          "rankScore":  14,
+                                                                                          "reasons":  [
+                                                                                                          "Covers desired frame role: survival-health"
+                                                                                                      ]
+                                                                                      },
+                                                                                      {
+                                                                                          "id":  "mod.continuity",
+                                                                                          "name":  "Continuity",
+                                                                                          "roles":  [
+                                                                                                        "ability-duration"
+                                                                                                    ],
+                                                                                          "score":  4,
+                                                                                          "rankScore":  13,
+                                                                                          "reasons":  [
+                                                                                                          "Covers desired frame role: ability-duration"
+                                                                                                      ]
+                                                                                      },
+                                                                                      {
+                                                                                          "id":  "mod.steel-fiber",
+                                                                                          "name":  "Steel Fiber",
+                                                                                          "roles":  [
+                                                                                                        "survival-armor"
+                                                                                                    ],
+                                                                                          "score":  4,
+                                                                                          "rankScore":  13,
+                                                                                          "reasons":  [
+                                                                                                          "Covers desired frame role: survival-armor"
+                                                                                                      ]
+                                                                                      },
+                                                                                      {
+                                                                                          "id":  "mod.umbral-fiber",
+                                                                                          "name":  "Umbral Fiber",
+                                                                                          "roles":  [
+                                                                                                        "survival-armor"
+                                                                                                    ],
+                                                                                          "score":  4,
+                                                                                          "rankScore":  11,
+                                                                                          "reasons":  [
+                                                                                                          "Covers desired frame role: survival-armor"
+                                                                                                      ]
+                                                                                      },
+                                                                                      {
+                                                                                          "id":  "mod.umbral-intensify",
+                                                                                          "name":  "Umbral Intensify",
+                                                                                          "roles":  [
+                                                                                                        "ability-strength"
+                                                                                                    ],
+                                                                                          "score":  4,
+                                                                                          "rankScore":  11,
+                                                                                          "reasons":  [
+                                                                                                          "Covers desired frame role: ability-strength"
+                                                                                                      ]
+                                                                                      },
+                                                                                      {
+                                                                                          "id":  "mod.umbral-vitality",
+                                                                                          "name":  "Umbral Vitality",
+                                                                                          "roles":  [
+                                                                                                        "survival-health"
+                                                                                                    ],
+                                                                                          "score":  4,
+                                                                                          "rankScore":  11,
+                                                                                          "reasons":  [
+                                                                                                          "Covers desired frame role: survival-health"
+                                                                                                      ]
+                                                                                      },
+                                                                                      {
+                                                                                          "id":  "mod.amar-s-hatred",
+                                                                                          "name":  "Amar\u0027s Hatred",
+                                                                                          "roles":  [
+                                                                                                        "ability-strength",
+                                                                                                        "survival-armor"
+                                                                                                    ],
+                                                                                          "score":  8,
+                                                                                          "rankScore":  8,
+                                                                                          "reasons":  [
+                                                                                                          "Covers desired frame role: ability-strength",
+                                                                                                          "Covers desired frame role: survival-armor"
+                                                                                                      ]
+                                                                                      }
+                                                                                  ],
+                                                           "reasons":  [
+                                                                           "Tank profile is safe for high-pressure or benchmark targets.",
+                                                                           "Buffing role can amplify weapon-focused matchup plans.",
+                                                                           "Ability strength scaling is relevant for durable frame/buff setups."
+                                                                       ]
+                                                       },
+                                             "weapon":  {
+                                                            "id":  "weapon.acceltra",
+                                                            "name":  "Acceltra",
+                                                            "slot":  "primary",
+                                                            "weaponClass":  "Rifle",
+                                                            "archetypes":  [
+                                                                               "crit",
+                                                                               "rapid-fire"
+                                                                           ],
+                                                            "ownedModsToSlot":  [
+                                                                                    {
+                                                                                        "id":  "mod.serration",
+                                                                                        "name":  "Serration",
+                                                                                        "roles":  [
+                                                                                                      "damage"
+                                                                                                  ],
+                                                                                        "statuses":  [
+
+                                                                                                     ]
+                                                                                    }
+                                                                                ],
+                                                            "missingModsToChase":  [
+                                                                                       {
+                                                                                           "id":  "mod.hunter-munitions",
+                                                                                           "name":  "Hunter Munitions",
+                                                                                           "roles":  [
+                                                                                                         "crit",
+                                                                                                         "elemental"
+                                                                                                     ],
+                                                                                           "statuses":  [
+                                                                                                            "slash"
+                                                                                                        ],
+                                                                                           "score":  7,
+                                                                                           "reasons":  [
+                                                                                                           "Supports slash matchup plan",
+                                                                                                           "Crit synergy can feed slash-style recommendations"
+                                                                                                       ]
+                                                                                       },
+                                                                                       {
+                                                                                           "id":  "mod.biotic-rounds",
+                                                                                           "name":  "Biotic Rounds",
+                                                                                           "roles":  [
+                                                                                                         "damage",
+                                                                                                         "elemental",
+                                                                                                         "status"
+                                                                                                     ],
+                                                                                           "statuses":  [
+                                                                                                            "magnetic",
+                                                                                                            "viral"
+                                                                                                        ],
+                                                                                           "score":  5,
+                                                                                           "reasons":  [
+                                                                                                           "Supports viral matchup plan"
+                                                                                                       ]
+                                                                                       }
+                                                                                   ],
+                                                            "reasons":  [
+                                                                            "Crit profile can support slash-focused matchup plans."
+                                                                        ]
+                                                        },
+                                             "matchupPlan":  [
+                                                                 "Use endgame-grade generalist damage and be prepared to adapt to encounter mechanics.",
+                                                                 "Do not assume faction weakness alone solves this target."
+                                                             ],
+                                             "caveats":  [
+                                                             "Skeleton output is a backend starter plan, not a final optimized mod configuration.",
+                                                             "Capacity, polarities, arcanes, rivens, and exact enemy level are not applied yet."
+                                                         ]
+                                         },
+                    "responseGuidance":  {
+                                             "contractRule":  "Use buildRequests entries as the primary assistant response source for build questions.",
+                                             "disclaimer":  "Generated builds are starter skeletons. Capacity, polarities, arcanes, rivens, helminth, shards, and exact enemy level are intentionally outside this contract.",
+                                             "fallbackRule":  "If no buildRequest matches the player query, fall back to combatRecommendations and missingTargets."
+                                         }
+                },
+    "sources":  [
+                    "ai/materialized-views/assistant-build-contracts.view.json"
+                ]
+}

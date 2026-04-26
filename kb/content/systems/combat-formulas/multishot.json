@@ -1,0 +1,49 @@
+{
+    "id":  "formula.multishot",
+    "name":  "Multishot",
+    "category":  "combat_formula",
+    "summary":  "Explains how multishot increases projectile or pellet output and affects proc opportunities.",
+    "mechanics":  {
+                      "appliesTo":  [
+                                        "weapons",
+                                        "projectiles",
+                                        "status-generation"
+                                    ],
+                      "stacking":  "Modified by multishot-affecting effects.",
+                      "duration":  null,
+                      "formula":  "Store the exact extra-shot behavior in sourced updates.",
+                      "specialRules":  [
+                                           "Multishot affects both hit volume and status reliability, so it should be a first-class formula record."
+                                       ]
+                  },
+    "interactions":  {
+                         "relatedSystems":  [
+                                                "formula.status-chance"
+                                            ]
+                     },
+    "examples":  [
+
+                 ],
+    "tags":  [
+                 "formula",
+                 "multishot",
+                 "combat"
+             ],
+    "notes":  null,
+    "sources":  [
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Mod"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Multishot"
+                    }
+                ],
+    "verification":  {
+                         "trustLevel":  "community-verified",
+                         "sourceFamily":  "warframe-wiki",
+                         "patchSensitive":  true,
+                         "reviewedAt":  "2026-04-10"
+                     }
+}

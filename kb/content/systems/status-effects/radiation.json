@@ -1,0 +1,58 @@
+{
+    "id":  "status.radiation",
+    "name":  "Radiation",
+    "category":  "status_effect",
+    "summary":  "Radiation status applies a confusion or hostility-shifting crowd-control effect.",
+    "mechanics":  {
+                      "appliesTo":  [
+                                        "target-allegiance",
+                                        "target-state"
+                                    ],
+                      "stacking":  "Track exact confusion and stack rules from validated sources.",
+                      "duration":  "Timed control effect.",
+                      "formula":  null,
+                      "specialRules":  [
+                                           "Often considered for control, survivability, or disruption."
+                                       ]
+                  },
+    "interactions":  {
+                         "synergies":  [
+
+                                       ],
+                         "affectedBy":  [
+                                            "formula.status-chance"
+                                        ],
+                         "counteredBy":  [
+
+                                         ]
+                     },
+    "examples":  [
+
+                 ],
+    "tags":  [
+                 "status",
+                 "combined",
+                 "control"
+             ],
+    "notes":  "Treat exact target-behavior specifics as patch-sensitive.",
+    "sources":  [
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Status_Effect"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Damage"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Damage/Radiation_Damage"
+                    }
+                ],
+    "verification":  {
+                         "trustLevel":  "community-verified",
+                         "sourceFamily":  "warframe-wiki",
+                         "patchSensitive":  true,
+                         "reviewedAt":  "2026-04-10"
+                     }
+}

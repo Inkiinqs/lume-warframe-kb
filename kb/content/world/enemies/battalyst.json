@@ -1,0 +1,185 @@
+{
+    "description":  "Representative Sentient unit used to anchor high-threat adaptive enemy knowledge.",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-enemies.json"
+                    }
+                ],
+    "name":  "Battalyst",
+    "mechanics":  {
+                      "defenseProfile":  [
+                                             "adaptive-threat"
+                                         ],
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "battalyst.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    {
+                                        "location":  "Broad Eye",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.3056
+                                    },
+                                    {
+                                        "location":  "Overview",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.3056
+                                    },
+                                    {
+                                        "location":  "Air Recon",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.3056
+                                    },
+                                    {
+                                        "location":  "Lock And Load",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0167
+                                    },
+                                    {
+                                        "location":  "Strafing Slide",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0167
+                                    },
+                                    {
+                                        "location":  "Gun Glide",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0167
+                                    },
+                                    {
+                                        "location":  "Eject Magazine",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0167
+                                    },
+                                    {
+                                        "location":  "Tactical Reload",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0167
+                                    },
+                                    {
+                                        "location":  "Battalyst",
+                                        "type":  "Enemy Mod Tables",
+                                        "chance":  null
+                                    }
+                                ],
+                      "combatRole":  "advanced-combatant",
+                      "recommendedStatusPlan":  [
+                                                    "Avoid over-specializing around one static damage profile.",
+                                                    "Use high burst and flexible follow-up damage to stay ahead of adaptation."
+                                                ],
+                      "priorityThreats":  [
+                                              "adaptation-pressure",
+                                              "mobility"
+                                          ],
+                      "recommendedDamage":  [
+                                                "status.heat",
+                                                "status.slash",
+                                                "status.toxin"
+                                            ],
+                      "resistances":  [
+                                          {
+                                              "amount":  0,
+                                              "type":  "Shield",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "None",
+                                                                    "modifier":  0
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  250,
+                                              "type":  "Ferrite Armor",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "Puncture",
+                                                                    "modifier":  0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Toxin",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Corrosive",
+                                                                    "modifier":  0
+                                                                },
+                                                                {
+                                                                    "element":  "Slash",
+                                                                    "modifier":  -0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Blast",
+                                                                    "modifier":  -0.5
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  1150,
+                                              "type":  "Robotic",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "Puncture",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Electricity",
+                                                                    "modifier":  0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Radiation",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Slash",
+                                                                    "modifier":  -0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Toxin",
+                                                                    "modifier":  -0.5
+                                                                }
+                                                            ]
+                                          }
+                                      ],
+                      "faction":  "faction.sentient"
+                  },
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD Enemy.json."
+              ],
+    "aliases":  [
+                    "/Lotus/Types/Enemies/Sentients/Troopers/SentientTrooperAvatar"
+                ],
+    "tags":  [
+                 "enemy",
+                 "sentient"
+             ],
+    "category":  "enemy",
+    "relationships":  [
+
+                      ],
+    "id":  "enemy.battalyst",
+    "subCategory":  "sentient",
+    "release":  {
+
+                },
+    "summary":  "Battalyst enemy record imported from WFCD static data.",
+    "stats":  {
+                  "armor":  250,
+                  "type":  "Sentient",
+                  "shield":  0,
+                  "health":  1150,
+                  "regionBits":  131072,
+                  "tradable":  false,
+                  "faction":  "Sentient"
+              }
+}

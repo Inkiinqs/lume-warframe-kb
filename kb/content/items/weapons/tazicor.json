@@ -1,0 +1,216 @@
+{
+    "description":  "Releases a burst of static electricity that can jump between foes, incapacitating them.",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Tazicor",
+    "subCategory":  "companion-companion-weapon",
+    "mechanics":  {
+                      "heavySlamAttack":  null,
+                      "crafting":  {
+                                       "buildTime":  86400,
+                                       "buildPrice":  50000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/SentinelTazronWeaponBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Solaris United (Legs), Old Mate",
+                                                                                "type":  "Tazicor Blueprint",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Esher Devar",
+                                                              "uniqueName":  "/Lotus/Types/Items/Gems/Eidolon/CommonGemBCutAItem",
+                                                              "itemCount":  10,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Longwinder Lathe Coagulant",
+                                                              "uniqueName":  "/Lotus/Types/Items/Fish/Solaris/FishParts/SolarisFishLatheCoogulantItem",
+                                                              "itemCount":  5,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Recaster Neural Relay",
+                                                              "uniqueName":  "/Lotus/Types/Items/Fish/Solaris/FishParts/SolarisFishNeuralRelayItem",
+                                                              "itemCount":  10,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Smooth Phasmin",
+                                                              "uniqueName":  "/Lotus/Types/Items/Gems/Solaris/SolarisCommonGemACutItem",
+                                                              "itemCount":  10,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  25,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Tazicor.png?bdd16",
+                                   "url":  "https://wiki.warframe.com/w/Tazicor",
+                                   "imageName":  "tazicor-07ebe56d23.png",
+                                   "available":  true
+                               },
+                      "followThrough":  null,
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  12,
+                                          "crit_chance":  5,
+                                          "crit_mult":  1.5,
+                                          "status_chance":  25,
+                                          "shot_type":  "Hit-Scan",
+                                          "damage":  {
+                                                         "electricity":  5
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  null,
+                      "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  0,
+                                     "electricity":  5,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  5,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "sentinel":  true,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "damagePerShot":  [
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            5,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ]
+                  },
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD companion static data."
+              ],
+    "aliases":  [
+                    "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/TazronWeapon"
+                ],
+    "tags":  [
+                 "weapon",
+                 "companion"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "id":  "weapon.tazicor",
+    "release":  {
+                    "releaseDate":  "2018-11-08",
+                    "introduced":  {
+                                       "date":  "2018-11-08",
+                                       "parent":  "24.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_24%23Update_24.0",
+                                       "name":  "Update 24.0",
+                                       "aliases":  [
+                                                       "24",
+                                                       "24.0",
+                                                       "Fortuna"
+                                                   ]
+                                   }
+                },
+    "summary":  "Releases a burst of static electricity that can jump between foes, incapacitating them.",
+    "stats":  {
+                  "accuracy":  100,
+                  "noise":  "Alarming",
+                  "polarities":  [
+                                     null
+                                 ],
+                  "tradable":  false,
+                  "vaulted":  null,
+                  "totalDamage":  5,
+                  "disposition":  3,
+                  "magazineSize":  40,
+                  "fireRate":  12.000001,
+                  "critMultiplier":  1.5,
+                  "reloadTime":  2,
+                  "masteryReq":  3,
+                  "statusChance":  0.25,
+                  "slot":  "companion",
+                  "estimatedVaultDate":  null,
+                  "trigger":  "Held",
+                  "critChance":  0.050000001,
+                  "weaponClass":  "Companion Weapon",
+                  "masterable":  true,
+                  "multishot":  1,
+                  "vaultDate":  null
+              }
+}

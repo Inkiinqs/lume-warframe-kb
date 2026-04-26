@@ -1,0 +1,264 @@
+{
+    "id":  "weapon.quellor",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Quellor",
+    "subCategory":  "primary-rifle",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD primary static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  null,
+                      "crafting":  {
+                                       "buildTime":  86400,
+                                       "buildPrice":  30000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Alloy Plate",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                                                              "itemCount":  15350,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/RailjackRifleGunBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Kuva Lich Agor Rok",
+                                                                                "type":  "Quellor Blueprint",
+                                                                                "chance":  5,
+                                                                                "rarity":  "Common"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Blite Captain",
+                                                                                "type":  "Quellor Blueprint",
+                                                                                "chance":  7.31,
+                                                                                "rarity":  "Common"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Glacik Commander",
+                                                                                "type":  "Quellor Blueprint",
+                                                                                "chance":  7.31,
+                                                                                "rarity":  "Common"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Lektro Commander",
+                                                                                "type":  "Quellor Blueprint",
+                                                                                "chance":  7.31,
+                                                                                "rarity":  "Common"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Pyr Captain",
+                                                                                "type":  "Quellor Blueprint",
+                                                                                "chance":  7.31,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Circuits",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Circuits",
+                                                              "itemCount":  3600,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Rubedo",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Rubedo",
+                                                              "itemCount":  6250,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Tellurium",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Tellurium",
+                                                              "itemCount":  4,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  35,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Quellor.png?8f996",
+                                   "url":  "https://wiki.warframe.com/w/Quellor",
+                                   "imageName":  "quellor-18785323c2.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Auto",
+                                          "speed":  6,
+                                          "crit_chance":  12,
+                                          "crit_mult":  1.6,
+                                          "status_chance":  38,
+                                          "shot_type":  "Hit-Scan",
+                                          "damage":  {
+                                                         "impact":  8,
+                                                         "slash":  12,
+                                                         "puncture":  22,
+                                                         "cold":  16
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Alt-Fire",
+                                          "speed":  1,
+                                          "crit_chance":  40,
+                                          "crit_mult":  2.2,
+                                          "status_chance":  10,
+                                          "charge_time":  1.2,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  200,
+                                          "flight":  200,
+                                          "falloff":  {
+                                                          "start":  9,
+                                                          "end":  18,
+                                                          "reduction":  0.6657
+                                                      },
+                                          "damage":  {
+                                                         "impact":  600,
+                                                         "cold":  800
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  null,
+                      "blockingAngle":  null,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  8,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  22,
+                                     "magnetic":  0,
+                                     "cold":  16,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  12,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  58,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            8,
+                                            22,
+                                            12,
+                                            0,
+                                            16,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/LongGuns/TnRailjackRifle/RailjackRifleGun"
+                ],
+    "tags":  [
+                 "weapon",
+                 "primary"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "The Quellor was standard-issue to Dax Railjack crews of the Old War, dating back to the earliest, pre-Sigma craft. A rapid-fire assault rifle with a hefty magazine-size, the Quellor is an all-round workhorse. Also capable of large, short-range cryo-blasts.",
+    "release":  {
+                    "releaseDate":  "2019-12-13",
+                    "introduced":  {
+                                       "date":  "2019-12-13",
+                                       "parent":  "27.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_27%23Update_27.0",
+                                       "name":  "Update 27.0",
+                                       "aliases":  [
+                                                       "27.0",
+                                                       "27",
+                                                       "Empyrean"
+                                                   ]
+                                   }
+                },
+    "summary":  "The Quellor was standard-issue to Dax Railjack crews of the Old War, dating back to the earliest, pre-Sigma craft. A rapid-fire assault rifle with a hefty magazine-size, the Quellor is an all-round workhorse. Also capable of large, short-range cryo-blasts.",
+    "stats":  {
+                  "accuracy":  33.333332,
+                  "statusChance":  0.38,
+                  "polarities":  [
+                                     "madurai",
+                                     "madurai"
+                                 ],
+                  "noise":  "Alarming",
+                  "tradable":  false,
+                  "reloadTime":  4,
+                  "disposition":  4,
+                  "magazineSize":  300,
+                  "fireRate":  6.0000005,
+                  "critMultiplier":  1.6,
+                  "totalDamage":  58,
+                  "vaulted":  null,
+                  "masteryReq":  12,
+                  "slot":  "primary",
+                  "estimatedVaultDate":  null,
+                  "trigger":  "Auto",
+                  "critChance":  0.12,
+                  "weaponClass":  "Rifle",
+                  "masterable":  true,
+                  "multishot":  1,
+                  "vaultDate":  null
+              }
+}

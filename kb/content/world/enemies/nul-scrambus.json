@@ -1,0 +1,143 @@
+{
+    "description":  "Disrupts Buff and Debuff powers",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-enemies.json"
+                    }
+                ],
+    "name":  "Nul Scrambus",
+    "subCategory":  "corpus",
+    "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "nul-scrambus.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    {
+                                        "location":  "Gaia\u0027s Tragedy",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.25
+                                    },
+                                    {
+                                        "location":  "Combustion Beam",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.25
+                                    },
+                                    {
+                                        "location":  "Vulpine Mask",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.25
+                                    },
+                                    {
+                                        "location":  "80 Endo",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.25
+                                    },
+                                    {
+                                        "location":  "Nul Scrambus",
+                                        "type":  "Enemy Mod Tables",
+                                        "chance":  null
+                                    }
+                                ],
+                      "resistances":  [
+                                          {
+                                              "amount":  400,
+                                              "type":  "Shield",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "Impact",
+                                                                    "modifier":  0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Cold",
+                                                                    "modifier":  0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Magnetic",
+                                                                    "modifier":  0
+                                                                },
+                                                                {
+                                                                    "element":  "Puncture",
+                                                                    "modifier":  -0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Radiation",
+                                                                    "modifier":  -0.5
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  0,
+                                              "type":  "Ferrite Armor",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "None",
+                                                                    "modifier":  0
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  1100,
+                                              "type":  "Flesh",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "Slash",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Toxin",
+                                                                    "modifier":  0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Viral",
+                                                                    "modifier":  0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Impact",
+                                                                    "modifier":  -0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Gas",
+                                                                    "modifier":  -0.5
+                                                                }
+                                                            ]
+                                          }
+                                      ]
+                  },
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD Enemy.json."
+              ],
+    "aliases":  [
+                    "/Lotus/Types/Enemies/Corpus/Spaceman/ModularSpacemanAvatarSkatingShield"
+                ],
+    "tags":  [
+                 "enemy",
+                 "corpus"
+             ],
+    "category":  "enemy",
+    "relationships":  [
+
+                      ],
+    "id":  "enemy.nul-scrambus",
+    "release":  {
+
+                },
+    "summary":  "Disrupts Buff and Debuff powers",
+    "stats":  {
+                  "armor":  0,
+                  "type":  "Corpus",
+                  "shield":  400,
+                  "health":  1100,
+                  "regionBits":  37250,
+                  "tradable":  false,
+                  "faction":  "Corpus"
+              }
+}

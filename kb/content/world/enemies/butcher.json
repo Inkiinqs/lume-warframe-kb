@@ -1,0 +1,179 @@
+{
+    "description":  "Blade attacks cause Critical Damage",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-enemies.json"
+                    }
+                ],
+    "name":  "Butcher",
+    "subCategory":  "grineer",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD Enemy.json."
+              ],
+    "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "butcher.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    {
+                                        "location":  "Point Strike",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.18969999999999998
+                                    },
+                                    {
+                                        "location":  "Pressure Point",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.18969999999999998
+                                    },
+                                    {
+                                        "location":  "Fast Hands",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.18969999999999998
+                                    },
+                                    {
+                                        "location":  "15 Endo",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.18969999999999998
+                                    },
+                                    {
+                                        "location":  "Smite Grineer",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0553
+                                    },
+                                    {
+                                        "location":  "Reflex Coil",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0553
+                                    },
+                                    {
+                                        "location":  "50 Endo",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0553
+                                    },
+                                    {
+                                        "location":  "North Wind",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0553
+                                    },
+                                    {
+                                        "location":  "Flow",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0101
+                                    },
+                                    {
+                                        "location":  "80 Endo",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0101
+                                    },
+                                    {
+                                        "location":  "Butcher",
+                                        "type":  "Enemy Mod Tables",
+                                        "chance":  null
+                                    }
+                                ],
+                      "resistances":  [
+                                          {
+                                              "amount":  0,
+                                              "type":  "Shield",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "None",
+                                                                    "modifier":  0
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  5,
+                                              "type":  "Ferrite Armor",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "Puncture",
+                                                                    "modifier":  0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Toxin",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Corrosive",
+                                                                    "modifier":  0
+                                                                },
+                                                                {
+                                                                    "element":  "Slash",
+                                                                    "modifier":  -0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Blast",
+                                                                    "modifier":  -0.5
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  50,
+                                              "type":  "Cloned Flesh",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "Slash",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Heat",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Viral",
+                                                                    "modifier":  0
+                                                                },
+                                                                {
+                                                                    "element":  "Impact",
+                                                                    "modifier":  -0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Gas",
+                                                                    "modifier":  -0.75
+                                                                }
+                                                            ]
+                                          }
+                                      ]
+                  },
+    "aliases":  [
+                    "/Lotus/Types/Enemies/Grineer/AIWeek/Avatars/BladeSawmanAvatarLeader"
+                ],
+    "tags":  [
+                 "enemy",
+                 "grineer"
+             ],
+    "category":  "enemy",
+    "relationships":  [
+
+                      ],
+    "id":  "enemy.butcher",
+    "release":  {
+
+                },
+    "summary":  "Blade attacks cause Critical Damage",
+    "stats":  {
+                  "armor":  5,
+                  "type":  "Grineer",
+                  "shield":  0,
+                  "health":  50,
+                  "regionBits":  264749,
+                  "tradable":  false,
+                  "faction":  "Grineer"
+              }
+}

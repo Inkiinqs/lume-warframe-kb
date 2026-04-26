@@ -1,0 +1,209 @@
+{
+    "id":  "weapon.rumblejack",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Rumblejack",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  1200,
+                      "crafting":  {
+                                       "buildTime":  null,
+                                       "buildPrice":  null,
+                                       "buildQuantity":  null,
+                                       "components":  [
+                                                          {
+                                                              "name":  null,
+                                                              "uniqueName":  null,
+                                                              "itemCount":  null,
+                                                              "type":  null,
+                                                              "tradable":  null,
+                                                              "drops":  [
+                                                                            null
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  null,
+                                       "consumeOnBuild":  null
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Rumblejack.png?867de",
+                                   "url":  "https://wiki.warframe.com/w/Rumblejack",
+                                   "imageName":  "rumblejack-35af025562.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  0.67,
+                                          "crit_chance":  13,
+                                          "crit_mult":  1.8,
+                                          "status_chance":  40,
+                                          "damage":  {
+                                                         "impact":  120,
+                                                         "electricity":  180
+                                                     },
+                                          "slide":  "600"
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  0.667,
+                                          "crit_chance":  14,
+                                          "crit_mult":  1.8,
+                                          "status_chance":  40,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  4,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "electricity":  600
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  0.667,
+                                          "crit_chance":  14,
+                                          "crit_mult":  1.8,
+                                          "status_chance":  40,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  6,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "electricity":  900
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  600,
+                      "blockingAngle":  45,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  120,
+                                     "electricity":  180,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  300,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            120,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            180,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  1.8,
+                      "drops":  [
+                                    {
+                                        "location":  "Cephalon Simaris, Complete The New War",
+                                        "type":  "Rumblejack",
+                                        "chance":  100,
+                                        "rarity":  "Common"
+                                    }
+                                ],
+                      "heavyAttackDamage":  600,
+                      "followThrough":  0.89999998,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  900,
+                      "stancePolarity":  "madurai",
+                      "slideAttack":  600,
+                      "windUp":  0.40000001,
+                      "slamRadius":  4,
+                      "slamAttack":  600,
+                      "heavySlamRadius":  6
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Operator/Melee/DrifterTazer/DrifterTazerPlayerWep"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "An electrified jolter for quick melee takedowns, assembled from scavenged scrap. Ideal for use on unsuspecting opponents.",
+    "release":  {
+                    "releaseDate":  "2021-12-15",
+                    "introduced":  {
+                                       "date":  "2021-12-15",
+                                       "parent":  "31.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_31%23Update_31.0",
+                                       "name":  "Update 31.0",
+                                       "aliases":  [
+                                                       "31",
+                                                       "31.0",
+                                                       "The New War"
+                                                   ]
+                                   }
+                },
+    "summary":  "An electrified jolter for quick melee takedowns, assembled from scavenged scrap. Ideal for use on unsuspecting opponents.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.39999998,
+                  "polarities":  [
+                                     null
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  4,
+                  "magazineSize":  null,
+                  "fireRate":  0.66666669,
+                  "critMultiplier":  1.8,
+                  "totalDamage":  300,
+                  "vaulted":  null,
+                  "masteryReq":  8,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.14,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

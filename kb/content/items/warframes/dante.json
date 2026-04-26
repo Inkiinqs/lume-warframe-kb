@@ -1,0 +1,176 @@
+{
+    "id":  "warframe.dante",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-warframes.json"
+                    }
+                ],
+    "name":  "Dante",
+    "subCategory":  "standard",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD Warframes.json."
+              ],
+    "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  "https://wiki.warframe.com/w/Dante",
+                                   "imageName":  "dante-43d70fb91a.png",
+                                   "available":  true
+                               },
+                      "crafting":  {
+                                       "buildTime":  259200,
+                                       "buildPrice":  25000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/PagemasterBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Deimos/Armatus (Disruption), Rotation C",
+                                                                                "type":  "Dante Blueprint",
+                                                                                "chance":  7.5,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Chassis",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/PagemasterChassisComponent",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Deimos/Armatus (Disruption), Rotation C",
+                                                                                "type":  "Dante Chassis Blueprint",
+                                                                                "chance":  5,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Neuroptics",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/PagemasterHelmetComponent",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Deimos/Armatus (Disruption), Rotation C",
+                                                                                "type":  "Dante Neuroptics Blueprint",
+                                                                                "chance":  5,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Orokin Cell",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/OrokinCell",
+                                                              "itemCount":  3,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Systems",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/PagemasterSystemsComponent",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Deimos/Armatus (Disruption), Rotation C",
+                                                                                "type":  "Dante Systems Blueprint",
+                                                                                "chance":  5,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  50,
+                                       "consumeOnBuild":  true
+                                   },
+                      "exalted":  [
+                                      "/Lotus/Powersuits/Pagemaster/ExaltedBook"
+                                  ],
+                      "abilities":  [
+                                        {
+                                            "name":  "Noctua",
+                                            "description":  "Open Noctua, Dante’s Exalted Tome, and unleash a tale of woe upon his enemies.",
+                                            "uniqueName":  "/Lotus/Powersuits/Pagemaster/Abilities/PagemasterBookAbility",
+                                            "imageName":  "noctua-86747772dc.png"
+                                        },
+                                        {
+                                            "name":  "Light Verse",
+                                            "description":  "Dante\u0027s vitalizing composition grants him and his allies Overguard and increases their Health.",
+                                            "uniqueName":  "/Lotus/Powersuits/Pagemaster/Abilities/PagemasterLifeAbility",
+                                            "imageName":  "light-verse-bdf2c6640a.png"
+                                        },
+                                        {
+                                            "name":  "Dark Verse",
+                                            "description":  "Dante\u0027s composition draws blood from nearby enemies, inflicting \u003cDT_SLASH_COLOR\u003eSlash Damage upon them.",
+                                            "uniqueName":  "/Lotus/Powersuits/Pagemaster/Abilities/PagemasterDeathAbility",
+                                            "imageName":  "dark-verse-0f7af216a6.png"
+                                        },
+                                        {
+                                            "name":  "Final Verse",
+                                            "description":  "Dante must compose two other Verses before his Final Verse.\n\nTRIUMPH: Two Light Verses cast in succession invigorate allies with a buff that increases Health and grants Overguard. Kills and assists briefly regenerate Overguard.\u003cbr\u003eDante must compose two other Verses before his Final Verse.\n\nTRAGEDY: Two Dark Verses cast in succession attack enemies. Damage Over Time from \u003cDT_SLASH_COLOR\u003eSlash, \u003cDT_FIRE_COLOR\u003eHeat and \u003cDT_POISON_COLOR\u003eToxin Status Effects accumulates in a single blast.\u003cbr\u003eDante must compose two other Verses before his Final Verse.\n\nWORDWARDEN: A Light Verse followed by a Dark Verse supports allies with copies of Noctua. Noctua copies synchronize their attacks with their designated ally’s attacks.\u003cbr\u003eDante must compose two other Verses before his Final Verse.\n\nPAGEFLIGHT: A Dark Verse followed by a Light Verse summons Paragrimms that swoop at enemies, making them vulnerable to Status Chance and Status Damage, as well as drawing enemy attacks away from allies.",
+                                            "uniqueName":  "/Lotus/Powersuits/Pagemaster/Abilities/PagemasterFinalChapterAbility",
+                                            "imageName":  "final-verse-0341555d56.png"
+                                        }
+                                    ],
+                      "passiveDescription":  "Noctua scans targets, recording information for your Codex. Status Chance increases by |CHANCE|% on fully scanned targets."
+                  },
+    "aliases":  [
+                    "/Lotus/Powersuits/Pagemaster/Pagemaster"
+                ],
+    "tags":  [
+                 "warframe",
+                 "base"
+             ],
+    "category":  "warframe",
+    "relationships":  [
+
+                      ],
+    "description":  "Seeker of knowledge. Keeper of history. Daring researcher of Leverian lore. Dante composes arcane tales to support allies and devastate enemies.",
+    "release":  {
+                    "releaseDate":  "2024-03-27",
+                    "introduced":  {
+                                       "date":  "2024-03-27",
+                                       "parent":  "35.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_35%23Update_35.5",
+                                       "name":  "Update 35.5",
+                                       "aliases":  [
+                                                       "35.5"
+                                                   ]
+                                   }
+                },
+    "summary":  "Seeker of knowledge. Keeper of history. Daring researcher of Leverian lore. Dante composes arcane tales to support allies and devastate enemies.",
+    "stats":  {
+                  "shield":  150,
+                  "aura":  "aura",
+                  "tradable":  false,
+                  "polarities":  [
+                                     "madurai",
+                                     "naramon"
+                                 ],
+                  "sprintSpeed":  1.15,
+                  "health":  300,
+                  "power":  200,
+                  "vaulted":  null,
+                  "masteryReq":  0,
+                  "estimatedVaultDate":  null,
+                  "stamina":  3,
+                  "masterable":  true,
+                  "vaultDate":  null,
+                  "armor":  145
+              }
+}

@@ -1,0 +1,147 @@
+{
+    "description":  "Summons Turrets and Ospreys",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-enemies.json"
+                    }
+                ],
+    "name":  "Lynx",
+    "subCategory":  "corpus",
+    "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "lynx.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    {
+                                        "location":  "Organ Shatter",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Common",
+                                        "chance":  0.37939999999999996
+                                    },
+                                    {
+                                        "location":  "15 Endo",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Common",
+                                        "chance":  0.37939999999999996
+                                    },
+                                    {
+                                        "location":  "Stormbringer",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.2211
+                                    },
+                                    {
+                                        "location":  "80 Endo",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0201
+                                    },
+                                    {
+                                        "location":  "Lynx",
+                                        "type":  "Enemy Mod Tables",
+                                        "chance":  null
+                                    }
+                                ],
+                      "resistances":  [
+                                          {
+                                              "amount":  0,
+                                              "type":  "Proto Shield",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "None",
+                                                                    "modifier":  0
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  150,
+                                              "type":  "Alloy Armor",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "Puncture",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Cold",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Radiation",
+                                                                    "modifier":  0
+                                                                },
+                                                                {
+                                                                    "element":  "Slash",
+                                                                    "modifier":  -0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Electricity",
+                                                                    "modifier":  -0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Magnetic",
+                                                                    "modifier":  -0.75
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  1000,
+                                              "type":  "Robotic",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "Puncture",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Electricity",
+                                                                    "modifier":  0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Radiation",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Slash",
+                                                                    "modifier":  -0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Toxin",
+                                                                    "modifier":  -0.5
+                                                                }
+                                                            ]
+                                          }
+                                      ]
+                  },
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD Enemy.json."
+              ],
+    "aliases":  [
+                    "/Lotus/Types/Enemies/Corpus/QuadRobot/MiniBoss/QuadRobotMiniBossAvatar"
+                ],
+    "tags":  [
+                 "enemy",
+                 "corpus"
+             ],
+    "category":  "enemy",
+    "relationships":  [
+
+                      ],
+    "id":  "enemy.lynx",
+    "release":  {
+
+                },
+    "summary":  "Summons Turrets and Ospreys",
+    "stats":  {
+                  "armor":  150,
+                  "type":  "Corpus",
+                  "shield":  0,
+                  "health":  1000,
+                  "regionBits":  16384,
+                  "tradable":  false,
+                  "faction":  "Corpus"
+              }
+}

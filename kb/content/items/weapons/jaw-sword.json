@@ -1,0 +1,245 @@
+{
+    "id":  "weapon.jaw-sword",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Jaw Sword",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  480,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  15000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/JawBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Ferrite",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Ferrite",
+                                                              "itemCount":  500,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Morphics",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Morphic",
+                                                              "itemCount":  1,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Polymer Bundle",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                                                              "itemCount":  75,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Rubedo",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Rubedo",
+                                                              "itemCount":  300,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  25,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/JawSword.png?82748",
+                                   "url":  "https://wiki.warframe.com/w/Jaw_Sword",
+                                   "imageName":  "jaw-sword-89eacb7922.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  0.917,
+                                          "crit_chance":  8,
+                                          "crit_mult":  1.5,
+                                          "status_chance":  16,
+                                          "damage":  {
+                                                         "impact":  6,
+                                                         "slash":  90,
+                                                         "puncture":  24
+                                                     },
+                                          "slide":  "120"
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  0.917,
+                                          "crit_chance":  8,
+                                          "crit_mult":  1.5,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  7,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "impact":  240
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  0.917,
+                                          "crit_chance":  8,
+                                          "crit_mult":  1.5,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  8,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "blast":  360
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  240,
+                      "blockingAngle":  55,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  6,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  24,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  90,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  120,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            6,
+                                            24,
+                                            90,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  2.5,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  600,
+                      "followThrough":  0.60000002,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  360,
+                      "stancePolarity":  "unairu",
+                      "slideAttack":  120,
+                      "windUp":  0.60000002,
+                      "slamRadius":  7,
+                      "slamAttack":  360,
+                      "heavySlamRadius":  8
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Melee/Swords/JawSword/JawLongSword"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "A blade with a serrated edge that delivers strong quick attacks.",
+    "release":  {
+                    "releaseDate":  "2012-12-18",
+                    "introduced":  {
+                                       "date":  "2012-12-18",
+                                       "parent":  "5.0",
+                                       "url":  "https://wiki.warframe.com/w/Closed_Beta_Updates%23Update_5.0",
+                                       "name":  "Update 5.0",
+                                       "aliases":  [
+                                                       "5",
+                                                       "5.0",
+                                                       "Update 5.0"
+                                                   ]
+                                   }
+                },
+    "summary":  "A blade with a serrated edge that delivers strong quick attacks.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.15999997,
+                  "polarities":  [
+                                     "madurai"
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  5,
+                  "magazineSize":  null,
+                  "fireRate":  0.91666669,
+                  "critMultiplier":  1.5,
+                  "totalDamage":  120,
+                  "vaulted":  null,
+                  "masteryReq":  0,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.079999998,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

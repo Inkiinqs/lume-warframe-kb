@@ -1,0 +1,249 @@
+{
+    "id":  "weapon.hirudo",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Hirudo",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  520,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  30000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/InfestedKogakeBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Kogake",
+                                                              "uniqueName":  "/Lotus/Weapons/Tenno/Melee/BrassKnuckles/BrassKnuckles",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Duviri/Endless: Tier 6 (Normal)",
+                                                                                "type":  "Kogake Blueprint",
+                                                                                "chance":  1.03,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Nano Spores",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Nanospores",
+                                                              "itemCount":  4600,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Nitain Extract",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Alertium",
+                                                              "itemCount":  3,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Plastids",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Plastids",
+                                                              "itemCount":  1100,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  35,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Hirudo.png?b7b83",
+                                   "url":  "https://wiki.warframe.com/w/Hirudo",
+                                   "imageName":  "hirudo-d7675353e1.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  1,
+                                          "crit_chance":  30,
+                                          "crit_mult":  3,
+                                          "status_chance":  11,
+                                          "damage":  {
+                                                         "impact":  19.5,
+                                                         "slash":  6.5,
+                                                         "puncture":  104
+                                                     },
+                                          "slide":  "260"
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  1,
+                                          "crit_chance":  30,
+                                          "crit_mult":  3,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  7,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "impact":  260
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  1,
+                                          "crit_chance":  30,
+                                          "crit_mult":  3,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  8,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "blast":  390
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  260,
+                      "blockingAngle":  50,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  19.5,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  104,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  6.4999938,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  130,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            19.5,
+                                            104,
+                                            6.4999938,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  1.25,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  845,
+                      "followThrough":  0.89999998,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  390,
+                      "stancePolarity":  "naramon",
+                      "slideAttack":  260,
+                      "windUp":  0.5,
+                      "slamRadius":  7,
+                      "slamAttack":  390,
+                      "heavySlamRadius":  8
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Infested/Melee/InfWFAccompanyingSparring/InfestedKogake"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "Rip into the enemy with fists of razor sharp cartilage. Steals health with each critical hit.",
+    "release":  {
+                    "releaseDate":  "2016-12-22",
+                    "introduced":  {
+                                       "date":  "2016-12-22",
+                                       "parent":  "19.5",
+                                       "url":  "https://wiki.warframe.com/w/Update_19%23Update_19.5",
+                                       "name":  "Update 19.5",
+                                       "aliases":  [
+                                                       "19.5.0",
+                                                       "19.5"
+                                                   ]
+                                   }
+                },
+    "summary":  "Rip into the enemy with fists of razor sharp cartilage. Steals health with each critical hit.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.11000001,
+                  "polarities":  [
+                                     "madurai"
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  4,
+                  "magazineSize":  null,
+                  "fireRate":  1,
+                  "critMultiplier":  3,
+                  "totalDamage":  130,
+                  "vaulted":  null,
+                  "masteryReq":  7,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.30000001,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

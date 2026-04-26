@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "warframe-kb/overlay-sync.schema.json",
+  "title": "Warframe KB Overlay Sync Snapshot",
+  "type": "object",
+  "required": [
+    "id",
+    "playerId",
+    "capturedAt",
+    "source",
+    "snapshotType",
+    "payload"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "playerId": {
+      "type": "string"
+    },
+    "capturedAt": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "snapshotType": {
+      "type": "string"
+    },
+    "payload": {
+      "type": "object"
+    },
+    "metadata": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

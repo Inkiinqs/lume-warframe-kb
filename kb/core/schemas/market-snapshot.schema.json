@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "warframe-kb/market-snapshot.schema.json",
+  "title": "Warframe KB Market Snapshot",
+  "type": "object",
+  "required": [
+    "id",
+    "source",
+    "capturedAt",
+    "marketItemId",
+    "payload"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "capturedAt": {
+      "type": "string"
+    },
+    "marketItemId": {
+      "type": "string"
+    },
+    "canonicalItemId": {
+      "type": "string"
+    },
+    "snapshotType": {
+      "type": "string"
+    },
+    "payload": {
+      "type": "object"
+    },
+    "metadata": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,233 @@
+{
+    "id":  "weapon.sonicor",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Sonicor",
+    "subCategory":  "secondary-pistol",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD secondary static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  null,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  20000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Alloy Plate",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                                                              "itemCount":  6500,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Argon Crystal",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/ArgonCrystal",
+                                                              "itemCount":  2,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/CrpAirPistolArrayBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Duviri/Endless: Tier 6 (Normal)",
+                                                                                "type":  "Sonicor Blueprint",
+                                                                                "chance":  1.03,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Oxium",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/OxiumAlloy",
+                                                              "itemCount":  600,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Plastids",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Plastids",
+                                                              "itemCount":  2600,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  35,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Sonicor.png?ee6d0",
+                                   "url":  "https://wiki.warframe.com/w/Sonicor",
+                                   "imageName":  "sonicor-9245ce743a.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Projectile Impact",
+                                          "speed":  1.25,
+                                          "crit_chance":  0,
+                                          "crit_mult":  1,
+                                          "status_chance":  0,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  80,
+                                          "flight":  80,
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  20,
+                                                          "reduction":  0.8333
+                                                      },
+                                          "damage":  {
+                                                         "impact":  150
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Explosion",
+                                          "speed":  1.25,
+                                          "crit_chance":  10,
+                                          "crit_mult":  2,
+                                          "status_chance":  25,
+                                          "shot_type":  "AoE",
+                                          "damage":  {
+                                                         "impact":  50
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  null,
+                      "blockingAngle":  null,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  50,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  50,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            50,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Corpus/Pistols/CrpAirPistol/CrpAirPistolArray"
+                ],
+    "tags":  [
+                 "weapon",
+                 "secondary"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "Blasts targets with a massive wave of sonic energy. Results reported to be: \u0027Very Satisfying\u0027.",
+    "release":  {
+                    "releaseDate":  "2015-10-01",
+                    "introduced":  {
+                                       "date":  "2015-10-01",
+                                       "parent":  "17.5",
+                                       "url":  "https://wiki.warframe.com/w/Update_17%23Update_17.5",
+                                       "name":  "Update 17.5",
+                                       "aliases":  [
+                                                       "17.5.0",
+                                                       "17.5"
+                                                   ]
+                                   }
+                },
+    "summary":  "Blasts targets with a massive wave of sonic energy. Results reported to be: \u0027Very Satisfying\u0027.",
+    "stats":  {
+                  "accuracy":  100,
+                  "statusChance":  0,
+                  "polarities":  [
+                                     "vazarin"
+                                 ],
+                  "noise":  "Alarming",
+                  "tradable":  false,
+                  "reloadTime":  3,
+                  "disposition":  4,
+                  "magazineSize":  15,
+                  "fireRate":  1.2500001,
+                  "critMultiplier":  2,
+                  "totalDamage":  50,
+                  "vaulted":  null,
+                  "masteryReq":  2,
+                  "slot":  "secondary",
+                  "estimatedVaultDate":  null,
+                  "trigger":  "Semi",
+                  "critChance":  0.1,
+                  "weaponClass":  "Pistol",
+                  "masterable":  true,
+                  "multishot":  1,
+                  "vaultDate":  null
+              }
+}

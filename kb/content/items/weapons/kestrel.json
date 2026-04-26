@@ -1,0 +1,347 @@
+{
+    "id":  "weapon.kestrel",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Kestrel",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  336,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  15000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/BoomerangBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Duviri/Endless: Tier 6 (Normal)",
+                                                                                "type":  "Kestrel Blueprint",
+                                                                                "chance":  1.03,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Ferrite",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Ferrite",
+                                                              "itemCount":  4800,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Morphics",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Morphic",
+                                                              "itemCount":  8,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Nano Spores",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Nanospores",
+                                                              "itemCount":  5000,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Salvage",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Salvage",
+                                                              "itemCount":  4000,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  35,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Kestrel.png?d398c",
+                                   "url":  "https://wiki.warframe.com/w/Kestrel",
+                                   "imageName":  "kestrel-983bafcc46.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  1.08,
+                                          "crit_chance":  10,
+                                          "crit_mult":  2,
+                                          "status_chance":  10,
+                                          "damage":  {
+                                                         "impact":  58.8,
+                                                         "slash":  12.6,
+                                                         "puncture":  12.6
+                                                     },
+                                          "slide":  "168"
+                                      },
+                                      {
+                                          "name":  "Throw",
+                                          "speed":  1.08,
+                                          "crit_chance":  12,
+                                          "crit_mult":  2.1,
+                                          "status_chance":  12,
+                                          "shot_type":  "Thrown",
+                                          "shot_speed":  30,
+                                          "flight":  30,
+                                          "damage":  {
+                                                         "impact":  73.6,
+                                                         "slash":  9.2,
+                                                         "puncture":  9.2
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Throw Bounce Explosion",
+                                          "speed":  1.08,
+                                          "crit_chance":  12,
+                                          "crit_mult":  2.1,
+                                          "status_chance":  12,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  3.6,
+                                                          "reduction":  0.4
+                                                      },
+                                          "damage":  {
+                                                         "blast":  126
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Throw Recall Explosion",
+                                          "speed":  1.08,
+                                          "crit_chance":  12,
+                                          "crit_mult":  2.1,
+                                          "status_chance":  12,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  3.6,
+                                                          "reduction":  0
+                                                      },
+                                          "damage":  {
+                                                         "blast":  252
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Charged Throw",
+                                          "speed":  0.833,
+                                          "crit_chance":  14,
+                                          "crit_mult":  2.2,
+                                          "status_chance":  14,
+                                          "charge_time":  1.2,
+                                          "shot_type":  "Thrown",
+                                          "shot_speed":  40,
+                                          "flight":  40,
+                                          "damage":  {
+                                                         "impact":  147.2,
+                                                         "slash":  18.4,
+                                                         "puncture":  18.4
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Charged Throw Bounce Explosion",
+                                          "speed":  0.833,
+                                          "crit_chance":  14,
+                                          "crit_mult":  2.2,
+                                          "status_chance":  14,
+                                          "charge_time":  1.2,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  4,
+                                                          "reduction":  0.4
+                                                      },
+                                          "damage":  {
+                                                         "blast":  252
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Charged Throw Recall Explosion",
+                                          "speed":  0.833,
+                                          "crit_chance":  14,
+                                          "crit_mult":  2.2,
+                                          "status_chance":  14,
+                                          "charge_time":  1.2,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  4,
+                                                          "reduction":  0
+                                                      },
+                                          "damage":  {
+                                                         "blast":  504
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  1.08,
+                                          "crit_chance":  10,
+                                          "crit_mult":  2,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  5,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "magnetic":  168
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  1.08,
+                                          "crit_chance":  10,
+                                          "crit_mult":  2,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  6,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "magnetic":  252
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  168,
+                      "blockingAngle":  55,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  58.799999,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  12.6,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  12.599998,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  84,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            58.799999,
+                                            12.6,
+                                            12.599998,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  1.2,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  84,
+                      "followThrough":  0.69999999,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  252,
+                      "stancePolarity":  "naramon",
+                      "slideAttack":  168,
+                      "windUp":  1.2,
+                      "slamRadius":  5,
+                      "slamAttack":  252,
+                      "heavySlamRadius":  6
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Melee/Glaives/Boomerang/BoomerangWeapon"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "The Kestrel boomerang is a heavy throwing weapon that can knock down enemies at a distance.",
+    "release":  {
+                    "releaseDate":  "2013-06-07",
+                    "introduced":  {
+                                       "date":  "2013-06-07",
+                                       "parent":  "8.1",
+                                       "url":  "https://wiki.warframe.com/w/Update_8%23Update_8.1",
+                                       "name":  "Update 8.1",
+                                       "aliases":  [
+                                                       "8.1",
+                                                       "8.1.0"
+                                                   ]
+                                   }
+                },
+    "summary":  "The Kestrel boomerang is a heavy throwing weapon that can knock down enemies at a distance.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.10000002,
+                  "polarities":  [
+                                     "madurai",
+                                     "naramon"
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  5,
+                  "magazineSize":  null,
+                  "fireRate":  1.0833334,
+                  "critMultiplier":  2,
+                  "totalDamage":  84,
+                  "vaulted":  null,
+                  "masteryReq":  0,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.1,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

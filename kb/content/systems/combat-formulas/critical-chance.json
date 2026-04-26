@@ -1,0 +1,49 @@
+{
+    "id":  "formula.critical-chance",
+    "name":  "Critical Chance",
+    "category":  "combat_formula",
+    "summary":  "Explains how critical chance is derived and modified for attacks.",
+    "mechanics":  {
+                      "appliesTo":  [
+                                        "weapons",
+                                        "mods",
+                                        "buffs"
+                                    ],
+                      "stacking":  "Modified by relevant crit-affecting effects.",
+                      "duration":  null,
+                      "formula":  "Store the exact crit chance formula and tier behavior in sourced updates.",
+                      "specialRules":  [
+                                           "Critical tiering and overflow behavior should be documented here rather than in every weapon file."
+                                       ]
+                  },
+    "interactions":  {
+                         "relatedSystems":  [
+                                                "formula.critical-multiplier"
+                                            ]
+                     },
+    "examples":  [
+
+                 ],
+    "tags":  [
+                 "formula",
+                 "critical",
+                 "combat"
+             ],
+    "notes":  null,
+    "sources":  [
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Mod"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Critical_Hit"
+                    }
+                ],
+    "verification":  {
+                         "trustLevel":  "community-verified",
+                         "sourceFamily":  "warframe-wiki",
+                         "patchSensitive":  true,
+                         "reviewedAt":  "2026-04-10"
+                     }
+}

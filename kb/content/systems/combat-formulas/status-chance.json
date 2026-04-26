@@ -1,0 +1,50 @@
+{
+    "id":  "formula.status-chance",
+    "name":  "Status Chance",
+    "category":  "combat_formula",
+    "summary":  "Explains how status chance contributes to proc application and weighting.",
+    "mechanics":  {
+                      "appliesTo":  [
+                                        "weapons",
+                                        "multishot",
+                                        "damage-weighting"
+                                    ],
+                      "stacking":  "Modified by relevant mods, buffs, and weapon state.",
+                      "duration":  null,
+                      "formula":  "Store the exact formula and patch notes when sourced.",
+                      "specialRules":  [
+                                           "Proc weighting belongs beside this formula, not inside individual weapon files."
+                                       ]
+                  },
+    "interactions":  {
+                         "relatedSystems":  [
+                                                "status.slash",
+                                                "status.viral"
+                                            ]
+                     },
+    "examples":  [
+                     "Used by the AI when judging whether a build can reliably prime targets."
+                 ],
+    "tags":  [
+                 "formula",
+                 "status",
+                 "combat"
+             ],
+    "notes":  "Keep weapon-independent formula logic here and let weapons expose only their stats.",
+    "sources":  [
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Mod"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Status_Chance"
+                    }
+                ],
+    "verification":  {
+                         "trustLevel":  "community-verified",
+                         "sourceFamily":  "warframe-wiki",
+                         "patchSensitive":  true,
+                         "reviewedAt":  "2026-04-10"
+                     }
+}

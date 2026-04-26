@@ -1,0 +1,178 @@
+{
+    "id":  "warframe.protea",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-warframes.json"
+                    }
+                ],
+    "name":  "Protea",
+    "subCategory":  "standard",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD Warframes.json."
+              ],
+    "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  "https://wiki.warframe.com/w/Protea",
+                                   "imageName":  "protea-69a74795e8.png",
+                                   "available":  true
+                               },
+                      "crafting":  {
+                                       "buildTime":  259200,
+                                       "buildPrice":  25000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/ProteaBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Cephalon Simaris, Complete The Deadlock Protocol",
+                                                                                "type":  "Protea Blueprint",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Chassis",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/ProteaChassisComponent",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Extended Granum Void, Rotation C",
+                                                                                "type":  "Protea Chassis Blueprint",
+                                                                                "chance":  11.11,
+                                                                                "rarity":  "Uncommon"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Neuroptics",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/ProteaHelmetComponent",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Granum Void, Rotation C",
+                                                                                "type":  "Protea Neuroptics Blueprint",
+                                                                                "chance":  11.11,
+                                                                                "rarity":  "Uncommon"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Orokin Cell",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/OrokinCell",
+                                                              "itemCount":  3,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Systems",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/ProteaSystemsComponent",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Nightmare Granum Void, Rotation C",
+                                                                                "type":  "Protea Systems Blueprint",
+                                                                                "chance":  11.11,
+                                                                                "rarity":  "Uncommon"
+                                                                            }
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  50,
+                                       "consumeOnBuild":  true
+                                   },
+                      "exalted":  [
+                                      null
+                                  ],
+                      "abilities":  [
+                                        {
+                                            "name":  "Grenade Fan",
+                                            "description":  "Throw out grenades in an arc.\n\n(TAP) SHRAPNEL VORTEX\nCreates a slashing, staggering swirl of shrapnel.\n\n(HOLD) SHIELD SATELLITES\nProtea reconfigures Grenades to work as overcharging shield generators, protecting her, her allies and companions. When Shields break, a Satellite is destroyed to double minimum Shield Gate invincibility time.",
+                                            "uniqueName":  "/Lotus/Powersuits/Odalisk/Abilities/OdaliskFanAbility",
+                                            "imageName":  "grenade-fan-dd0207f34a.png"
+                                        },
+                                        {
+                                            "name":  "Blaze Artillery",
+                                            "description":  "Deploys an artillery unit to blast plasma charges at enemies it faces. Each enemy hit increases the power of subsequent plasma attacks.",
+                                            "uniqueName":  "/Lotus/Powersuits/Odalisk/Abilities/OdaliskBFGAbility",
+                                            "imageName":  "blaze-artillery-b1dc61c173.png"
+                                        },
+                                        {
+                                            "name":  "Dispensary",
+                                            "description":  "Deploys a device that generates 3 pickups after a short delay: empowered health orb, universal ammo pack and energy orb.",
+                                            "uniqueName":  "/Lotus/Powersuits/Odalisk/Abilities/OdaliskDispensaryAbility",
+                                            "imageName":  "dispensary-c2d0958247.png"
+                                        },
+                                        {
+                                            "name":  "Temporal Anchor",
+                                            "description":  "Drops a Temporal Anchor which, after a short duration, Protea rewinds to trigger a temporal implosion. Implosion damage increases based on damage dealt between anchor drop and rewind. Everything lost or expended in that time is returned.\nDying while Anchor is active rewinds Protea to the anchor, saving her. Protea is knocked down and the anchor vanishes.",
+                                            "uniqueName":  "/Lotus/Powersuits/Odalisk/Abilities/OdaliskAnchorAbility",
+                                            "imageName":  "temporal-anchor-a2f995b5bd.png"
+                                        }
+                                    ],
+                      "passiveDescription":  "Every |CASTS|th Power Cast is granted +|STRENGTH|% Ability Strength."
+                  },
+    "aliases":  [
+                    "/Lotus/Powersuits/Odalisk/Odalisk"
+                ],
+    "tags":  [
+                 "warframe",
+                 "base"
+             ],
+    "category":  "warframe",
+    "relationships":  [
+
+                      ],
+    "description":  "Protea knows all about protection. Her vast arsenal inflicts damage and provides ally support. She can even manipulate time itself.",
+    "release":  {
+                    "releaseDate":  "2020-06-11",
+                    "introduced":  {
+                                       "date":  "2020-06-11",
+                                       "parent":  "28.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_28%23Update_28.0",
+                                       "name":  "Update 28.0",
+                                       "aliases":  [
+                                                       "28.0",
+                                                       "28",
+                                                       "The Deadlock Protocol"
+                                                   ]
+                                   }
+                },
+    "summary":  "Protea knows all about protection. Her vast arsenal inflicts damage and provides ally support. She can even manipulate time itself.",
+    "stats":  {
+                  "shield":  455,
+                  "aura":  "aura",
+                  "tradable":  false,
+                  "polarities":  [
+                                     "madurai",
+                                     "naramon"
+                                 ],
+                  "sprintSpeed":  1.2,
+                  "health":  270,
+                  "power":  175,
+                  "vaulted":  null,
+                  "masteryReq":  0,
+                  "estimatedVaultDate":  null,
+                  "stamina":  3,
+                  "masterable":  true,
+                  "vaultDate":  null,
+                  "armor":  135
+              }
+}

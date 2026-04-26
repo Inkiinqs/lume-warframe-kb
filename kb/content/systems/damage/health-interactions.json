@@ -1,0 +1,53 @@
+{
+    "id":  "damage.health-interactions",
+    "name":  "Health Interactions",
+    "category":  "damage_rule",
+    "summary":  "Defines how damage and status effects interact with health as a target layer.",
+    "mechanics":  {
+                      "appliesTo":  [
+                                        "health",
+                                        "damage-types",
+                                        "status-effects"
+                                    ],
+                      "stacking":  null,
+                      "duration":  null,
+                      "formula":  "Store exact health-multiplier and vulnerability details in sourced updates.",
+                      "specialRules":  [
+                                           "Use this record when reasoning about direct health pressure and health amplification.",
+                                           "Health-focused plans commonly pair amplification effects with damage-over-time or armor-bypass strategies."
+                                       ]
+                  },
+    "interactions":  {
+                         "relatedSystems":  [
+                                                "status.viral",
+                                                "status.slash",
+                                                "status.toxin"
+                                            ]
+                     },
+    "examples":  [
+                     "Used by the AI when selecting anti-health damage strategies.",
+                     "Supports recommendations like viral plus slash when the target plan is to pressure health directly."
+                 ],
+    "tags":  [
+                 "damage",
+                 "health",
+                 "combat"
+             ],
+    "notes":  null,
+    "sources":  [
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Damage"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Health"
+                    }
+                ],
+    "verification":  {
+                         "trustLevel":  "community-verified",
+                         "sourceFamily":  "warframe-wiki",
+                         "patchSensitive":  true,
+                         "reviewedAt":  "2026-04-10"
+                     }
+}

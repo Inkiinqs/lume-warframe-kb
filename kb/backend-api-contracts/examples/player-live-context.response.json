@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "player-live-context-response.v1",
+  "playerId": "player.demo-account",
+  "sourceView": "ai/materialized-views/assistant-live-context.view.json",
+  "transport": {
+    "pollAfterMs": 1000
+  },
+  "context": {
+    "schemaVersion": "assistant-live-context.view.v1",
+    "playerId": "player.demo-account",
+    "session": {
+      "currentGoalItemId": "warframe.saryn-prime",
+      "recentActivityIds": [
+        "activity.pluto-fenton-s-field",
+        "activity.cambion-drift"
+      ],
+      "recentDropsSeen": [
+        "part.ash-chassis",
+        "resource.plastids"
+      ]
+    },
+    "currentMission": null,
+    "currentLoadout": null,
+    "recentOverlayEvents": [],
+    "inventoryContext": {
+      "ownedItemCount": 10
+    },
+    "combatContext": {
+      "activeFactionId": null
+    },
+    "assistantHints": [
+      "No current mission snapshot is stored yet; ask the overlay/app to send /overlay/mission-sync for stronger live guidance.",
+      "No current loadout snapshot is stored yet; ask the overlay/app to send /overlay/loadout-sync for build-aware guidance.",
+      "No rolling overlay events are stored yet; event-feed ingestion is ready for live OCR/gameplay events."
+    ]
+  }
+}

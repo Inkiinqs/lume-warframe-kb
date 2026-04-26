@@ -1,0 +1,58 @@
+{
+    "id":  "status.puncture",
+    "name":  "Puncture",
+    "category":  "status_effect",
+    "summary":  "Puncture status applies a physical debuff-oriented proc.",
+    "mechanics":  {
+                      "appliesTo":  [
+                                        "target-damage-output",
+                                        "target-state"
+                                    ],
+                      "stacking":  "Track exact debuff behavior from validated sources.",
+                      "duration":  "Timed effect on the target.",
+                      "formula":  null,
+                      "specialRules":  [
+                                           "Treat this as a mitigation or debuff utility record."
+                                       ]
+                  },
+    "interactions":  {
+                         "synergies":  [
+
+                                       ],
+                         "affectedBy":  [
+                                            "formula.status-chance"
+                                        ],
+                         "counteredBy":  [
+
+                                         ]
+                     },
+    "examples":  [
+
+                 ],
+    "tags":  [
+                 "status",
+                 "physical",
+                 "debuff"
+             ],
+    "notes":  "Keep specific patch-era values out of this starter scaffold until sourced.",
+    "sources":  [
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Status_Effect"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Damage"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Damage/Puncture_Damage"
+                    }
+                ],
+    "verification":  {
+                         "trustLevel":  "community-verified",
+                         "sourceFamily":  "warframe-wiki",
+                         "patchSensitive":  true,
+                         "reviewedAt":  "2026-04-10"
+                     }
+}

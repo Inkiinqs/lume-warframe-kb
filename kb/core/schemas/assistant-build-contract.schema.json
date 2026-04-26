@@ -1,0 +1,194 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "warframe-kb/assistant-build-contract.schema.json",
+  "title": "Warframe KB Assistant Build Contract",
+  "type": "object",
+  "required": [
+    "generatedAt",
+    "schemaVersion",
+    "playerId",
+    "supportedIntents",
+    "responseGuidance",
+    "playerContext",
+    "buildRequests",
+    "fallbackViews"
+  ],
+  "properties": {
+    "generatedAt": {
+      "type": "string"
+    },
+    "schemaVersion": {
+      "const": "assistant-build-contract.v1"
+    },
+    "playerId": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "supportedIntents": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "responseGuidance": {
+      "type": "object",
+      "required": [
+        "contractRule",
+        "disclaimer",
+        "fallbackRule"
+      ],
+      "properties": {
+        "contractRule": {
+          "type": "string"
+        },
+        "disclaimer": {
+          "type": "string"
+        },
+        "fallbackRule": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "playerContext": {
+      "type": "object",
+      "required": [
+        "ownedItemCount",
+        "ownedWarframes",
+        "ownedWeapons",
+        "ownedMods"
+      ],
+      "properties": {
+        "ownedItemCount": {
+          "type": "integer"
+        },
+        "ownedWarframes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "ownedWeapons": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "ownedMods": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "buildRequests": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "target",
+          "recommendedBuilds"
+        ],
+        "properties": {
+          "target": {
+            "type": "object",
+            "required": [
+              "id",
+              "name",
+              "factionId",
+              "recommendedDamage"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "factionId": {
+                "type": "string"
+              },
+              "recommendedDamage": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "additionalProperties": true
+          },
+          "recommendedBuilds": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "buildId",
+                "confidence",
+                "score",
+                "summary",
+                "frame",
+                "weapon",
+                "matchupPlan",
+                "caveats"
+              ],
+              "properties": {
+                "buildId": {
+                  "type": "string"
+                },
+                "confidence": {
+                  "type": "string"
+                },
+                "score": {
+                  "type": "integer"
+                },
+                "queryAliases": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "summary": {
+                  "type": "string"
+                },
+                "frame": {
+                  "type": "object"
+                },
+                "weapon": {
+                  "type": "object"
+                },
+                "matchupPlan": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "caveats": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "additionalProperties": true
+            }
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "fallbackViews": {
+      "type": "object"
+    },
+    "inventoryAdvice": {
+      "type": "object"
+    },
+    "combatAdvice": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

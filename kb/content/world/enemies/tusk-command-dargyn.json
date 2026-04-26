@@ -1,0 +1,155 @@
+{
+    "description":  "Armed with a high-velocity rapid-fire cannon, this armored skiff tears up targets and terrain alike.",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-enemies.json"
+                    }
+                ],
+    "name":  "Tusk Command Dargyn",
+    "subCategory":  "grineer",
+    "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "tusk-command-dargyn.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    {
+                                        "location":  "Sudden Impact",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.2529
+                                    },
+                                    {
+                                        "location":  "Extend",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.2529
+                                    },
+                                    {
+                                        "location":  "15 Endo",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.2529
+                                    },
+                                    {
+                                        "location":  "Rubedo-Lined Barrel",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.1106
+                                    },
+                                    {
+                                        "location":  "50 Endo",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.1106
+                                    },
+                                    {
+                                        "location":  "System Reroute",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0201
+                                    },
+                                    {
+                                        "location":  "Tusk Command Dargyn",
+                                        "type":  "Enemy Mod Tables",
+                                        "chance":  null
+                                    }
+                                ],
+                      "resistances":  [
+                                          {
+                                              "amount":  0,
+                                              "type":  "Shield",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "None",
+                                                                    "modifier":  0
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  125,
+                                              "type":  "Ferrite Armor",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "Puncture",
+                                                                    "modifier":  0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Toxin",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Corrosive",
+                                                                    "modifier":  0
+                                                                },
+                                                                {
+                                                                    "element":  "Slash",
+                                                                    "modifier":  -0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Blast",
+                                                                    "modifier":  -0.5
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  800,
+                                              "type":  "Cloned Flesh",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "Slash",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Heat",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Viral",
+                                                                    "modifier":  0
+                                                                },
+                                                                {
+                                                                    "element":  "Impact",
+                                                                    "modifier":  -0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Gas",
+                                                                    "modifier":  -0.75
+                                                                }
+                                                            ]
+                                          }
+                                      ]
+                  },
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD Enemy.json."
+              ],
+    "aliases":  [
+                    "/Lotus/Types/Enemies/Grineer/Eidolon/Vip/Avatars/EidolonVipSkiffAvatar"
+                ],
+    "tags":  [
+                 "enemy",
+                 "grineer"
+             ],
+    "category":  "enemy",
+    "relationships":  [
+
+                      ],
+    "id":  "enemy.tusk-command-dargyn",
+    "release":  {
+
+                },
+    "summary":  "Armed with a high-velocity rapid-fire cannon, this armored skiff tears up targets and terrain alike.",
+    "stats":  {
+                  "armor":  125,
+                  "type":  "Grineer",
+                  "shield":  0,
+                  "health":  800,
+                  "regionBits":  4,
+                  "tradable":  false,
+                  "faction":  "Grineer"
+              }
+}

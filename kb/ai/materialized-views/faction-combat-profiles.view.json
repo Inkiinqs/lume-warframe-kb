@@ -1,0 +1,176 @@
+{
+    "generatedAt":  "2026-04-19T08:57:01Z",
+    "description":  "High-level combat guidance by faction for build and matchup reasoning.",
+    "factions":  {
+                     "faction.corpus":  {
+                                            "name":  "Corpus",
+                                            "commonTraits":  [
+                                                                 "shield-heavy",
+                                                                 "robotics",
+                                                                 "specialist-units"
+                                                             ],
+                                            "defenseLayers":  [
+                                                                  "shields",
+                                                                  "robotics"
+                                                              ],
+                                            "recommendedDamage":  [
+                                                                      "status.magnetic",
+                                                                      "status.toxin",
+                                                                      "status.electric"
+                                                                  ],
+                                            "recommendedStatusPlan":  [
+                                                                          "Break shields fast, then pressure health directly with toxin when possible.",
+                                                                          "Bring answers to Nullifier bubbles and proxy-heavy rooms."
+                                                                      ],
+                                            "cautions":  [
+                                                             "Shield-focused enemies can waste slow ramp builds.",
+                                                             "Specialist units interrupt ability-heavy setups."
+                                                         ],
+                                            "benchmarkEnemies":  [
+                                                                     "enemy.corpus-nullifier-crewman"
+                                                                 ]
+                                        },
+                     "faction.murmur":  {
+                                            "name":  "Murmur",
+                                            "commonTraits":  [
+                                                                 "endgame-pressure",
+                                                                 "anomalous-units",
+                                                                 "special-defenses"
+                                                             ],
+                                            "defenseLayers":  [
+                                                                  "endgame-durability",
+                                                                  "special-mechanics"
+                                                              ],
+                                            "recommendedDamage":  [
+                                                                      "status.viral",
+                                                                      "status.heat",
+                                                                      "status.slash"
+                                                                  ],
+                                            "recommendedStatusPlan":  [
+                                                                          "Bring endgame-grade generalist damage with room for disruption handling.",
+                                                                          "Expect encounter-specific mechanics to matter as much as faction matchups."
+                                                                      ],
+                                            "cautions":  [
+                                                             "Murmur content is mechanic-heavy enough that generic faction advice is only a starting point.",
+                                                             "Encounter scripting can matter as much as raw damage matchup quality in this faction\u0027s content."
+                                                         ],
+                                            "benchmarkEnemies":  [
+                                                                     "enemy.murmur-anomaly-host"
+                                                                 ]
+                                        },
+                     "faction.grineer":  {
+                                             "name":  "Grineer",
+                                             "commonTraits":  [
+                                                                  "armor-heavy",
+                                                                  "ballistic-pressure",
+                                                                  "elite-heavy-units"
+                                                              ],
+                                             "defenseLayers":  [
+                                                                   "armor",
+                                                                   "health"
+                                                               ],
+                                             "recommendedDamage":  [
+                                                                       "status.corrosive",
+                                                                       "status.heat",
+                                                                       "status.slash",
+                                                                       "status.viral"
+                                                                   ],
+                                             "recommendedStatusPlan":  [
+                                                                           "Strip or bypass armor first.",
+                                                                           "Use viral plus slash or heat follow-up for sustained health pressure."
+                                                                       ],
+                                             "cautions":  [
+                                                              "Pure raw damage without armor handling falls off hard against elite Grineer.",
+                                                              "Heavy units skew survivability benchmarks upward."
+                                                          ],
+                                             "benchmarkEnemies":  [
+                                                                      "enemy.grineer-heavy-gunner"
+                                                                  ]
+                                         },
+                     "faction.corrupted":  {
+                                               "name":  "Corrupted",
+                                               "commonTraits":  [
+                                                                    "mixed-unit-roster",
+                                                                    "void-presence",
+                                                                    "elite-defense-pressure"
+                                                                ],
+                                               "defenseLayers":  [
+                                                                     "mixed"
+                                                                 ],
+                                               "recommendedDamage":  [
+                                                                         "status.viral",
+                                                                         "status.slash",
+                                                                         "status.heat",
+                                                                         "status.radiation"
+                                                                     ],
+                                               "recommendedStatusPlan":  [
+                                                                             "Favor flexible generalist builds because corrupted compositions mix defense types.",
+                                                                             "Use benchmark targets like Corrupted Heavy Gunner to test armor handling."
+                                                                         ],
+                                               "cautions":  [
+                                                                "Specialized anti-shield or anti-armor setups can underperform against mixed rooms.",
+                                                                "Void-aligned mixed rosters reward flexible all-rounder builds over narrow counters."
+                                                            ],
+                                               "benchmarkEnemies":  [
+                                                                        "enemy.corrupted-heavy-gunner"
+                                                                    ]
+                                           },
+                     "faction.sentient":  {
+                                              "name":  "Sentient",
+                                              "commonTraits":  [
+                                                                   "adaptation",
+                                                                   "high-threat",
+                                                                   "advanced-mobility"
+                                                               ],
+                                              "defenseLayers":  [
+                                                                    "adaptation",
+                                                                    "durability"
+                                                                ],
+                                              "recommendedDamage":  [
+                                                                        "status.heat",
+                                                                        "status.slash",
+                                                                        "status.toxin"
+                                                                    ],
+                                              "recommendedStatusPlan":  [
+                                                                            "Avoid relying on one repeating damage profile when adaptation behavior is in play.",
+                                                                            "Burst windows and varied damage sources are safer than slow single-note ramps."
+                                                                        ],
+                                              "cautions":  [
+                                                               "Adaptation-style pressure can punish repetitive elemental planning.",
+                                                               "Sentient encounters often demand mobility and target switching, not just DPS."
+                                                           ],
+                                              "benchmarkEnemies":  [
+                                                                       "enemy.battalyst"
+                                                                   ]
+                                          },
+                     "faction.infested":  {
+                                              "name":  "Infested",
+                                              "commonTraits":  [
+                                                                   "swarm-pressure",
+                                                                   "organic-targets",
+                                                                   "support-auras"
+                                                               ],
+                                              "defenseLayers":  [
+                                                                    "health",
+                                                                    "swarm-density"
+                                                                ],
+                                              "recommendedDamage":  [
+                                                                        "status.gas",
+                                                                        "status.heat",
+                                                                        "status.slash",
+                                                                        "status.viral"
+                                                                    ],
+                                              "recommendedStatusPlan":  [
+                                                                            "Prioritize area denial and status spread against clustered targets.",
+                                                                            "Delete support aura units before focusing bulk swarm damage."
+                                                                        ],
+                                              "cautions":  [
+                                                               "Swarm pressure punishes reload-heavy and narrow single-target setups.",
+                                                               "Support units can distort normal time-to-kill expectations."
+                                                           ],
+                                              "benchmarkEnemies":  [
+                                                                       "enemy.ancient-healer"
+                                                                   ]
+                                          }
+                 }
+}

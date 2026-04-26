@@ -1,0 +1,58 @@
+{
+    "id":  "status.gas",
+    "name":  "Gas",
+    "category":  "status_effect",
+    "summary":  "Gas status applies an area-oriented poison cloud or damage field effect.",
+    "mechanics":  {
+                      "appliesTo":  [
+                                        "health",
+                                        "area-of-effect"
+                                    ],
+                      "stacking":  "Track exact cloud and overlap rules from validated sources.",
+                      "duration":  "Timed area damage behavior.",
+                      "formula":  "See damage-over-time or area-damage records when added.",
+                      "specialRules":  [
+                                           "Useful when evaluating grouped-enemy pressure."
+                                       ]
+                  },
+    "interactions":  {
+                         "synergies":  [
+
+                                       ],
+                         "affectedBy":  [
+                                            "damage.damage-over-time"
+                                        ],
+                         "counteredBy":  [
+
+                                         ]
+                     },
+    "examples":  [
+
+                 ],
+    "tags":  [
+                 "status",
+                 "combined",
+                 "area-damage"
+             ],
+    "notes":  "Exact cloud scaling should be treated as source-backed data.",
+    "sources":  [
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Status_Effect"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Damage"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Damage/Gas_Damage"
+                    }
+                ],
+    "verification":  {
+                         "trustLevel":  "community-verified",
+                         "sourceFamily":  "warframe-wiki",
+                         "patchSensitive":  true,
+                         "reviewedAt":  "2026-04-10"
+                     }
+}

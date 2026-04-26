@@ -1,0 +1,60 @@
+{
+    "id":  "status.viral",
+    "name":  "Viral",
+    "category":  "status_effect",
+    "summary":  "Viral status amplifies damage dealt to health for affected targets.",
+    "mechanics":  {
+                      "appliesTo":  [
+                                        "health"
+                                    ],
+                      "stacking":  "Stacking rules should be tracked explicitly from source updates.",
+                      "duration":  "Timed debuff on the target.",
+                      "formula":  "See the dedicated status and health interaction formula records.",
+                      "specialRules":  [
+                                           "Frequently paired with health-damaging status setups."
+                                       ]
+                  },
+    "interactions":  {
+                         "synergies":  [
+                                           "status.slash"
+                                       ],
+                         "affectedBy":  [
+                                            "damage.health-interactions"
+                                        ],
+                         "counteredBy":  [
+
+                                         ]
+                     },
+    "examples":  [
+                     "Often used to improve effective health damage pressure."
+                 ],
+    "tags":  [
+                 "status",
+                 "elemental",
+                 "health"
+             ],
+    "notes":  [
+                  "The exact stacking values should be treated as patch-sensitive data.",
+                  "Viral scaling is one of the highest-impact patch-sensitive mechanics for AI build advice and should remain explicitly source-backed."
+              ],
+    "sources":  [
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Status_Effect"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Damage"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Damage/Viral_Damage"
+                    }
+                ],
+    "verification":  {
+                         "trustLevel":  "community-verified",
+                         "sourceFamily":  "warframe-wiki",
+                         "patchSensitive":  true,
+                         "reviewedAt":  "2026-04-10"
+                     }
+}

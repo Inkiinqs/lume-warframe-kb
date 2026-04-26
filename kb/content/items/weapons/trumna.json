@@ -1,0 +1,274 @@
+{
+    "id":  "weapon.trumna",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Trumna",
+    "subCategory":  "primary-rifle",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD primary static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  null,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  20000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Barrel",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/ThanotechRifleBarrel",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Entrati (Father), Associate",
+                                                                                "type":  "Trumna Barrel Blueprint",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/ThanotechRifleBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Entrati (Father), Associate",
+                                                                                "type":  "Trumna Blueprint",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Receiver",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/ThanotechRifleReceiver",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Entrati (Father), Associate",
+                                                                                "type":  "Trumna Receiver Blueprint",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Seriglass Shard",
+                                                              "uniqueName":  "/Lotus/Types/Items/Deimos/SeriglassShard",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Stock",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/ThanotechRifleStock",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Entrati (Father), Associate",
+                                                                                "type":  "Trumna Stock Blueprint",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  25,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Trumna.png?13adf",
+                                   "url":  "https://wiki.warframe.com/w/Trumna",
+                                   "imageName":  "trumna-ed20f6dae6.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Auto",
+                                          "speed":  4.67,
+                                          "crit_chance":  24,
+                                          "crit_mult":  2.2,
+                                          "status_chance":  30,
+                                          "shot_type":  "Hit-Scan",
+                                          "damage":  {
+                                                         "impact":  29,
+                                                         "heat":  53
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Auto AoE",
+                                          "speed":  4.67,
+                                          "crit_chance":  24,
+                                          "crit_mult":  2.2,
+                                          "status_chance":  30,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  1.6,
+                                                          "reduction":  0.15
+                                                      },
+                                          "damage":  {
+                                                         "heat":  50
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Grenade Impact",
+                                          "speed":  1.33,
+                                          "crit_chance":  38,
+                                          "crit_mult":  2.4,
+                                          "status_chance":  50,
+                                          "damage":  {
+                                                         "impact":  100
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Grenade Bounce AoE",
+                                          "speed":  1.33,
+                                          "crit_chance":  38,
+                                          "crit_mult":  2.4,
+                                          "status_chance":  50,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  6,
+                                                          "reduction":  0.4
+                                                      },
+                                          "damage":  {
+                                                         "heat":  1000
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  null,
+                      "blockingAngle":  null,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  29,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  53,
+                                     "total":  82,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            29,
+                                            0,
+                                            0,
+                                            53,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Thanotech/ThanoRifle/ThanotechRifle"
+                ],
+    "tags":  [
+                 "weapon",
+                 "primary"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "An ancient weapon designed by the Entrati. Primary fire siphons life essence from the target to fuel a devastating secondary fire. A heavy, oversized automatic rifle with withering fire that delivers rapid heat damage. Secondary fire unleashes an arcing projectile that ricochets off surfaces and enemies, exploding on every impact.",
+    "release":  {
+                    "releaseDate":  "2020-08-25",
+                    "introduced":  {
+                                       "date":  "2020-08-25",
+                                       "parent":  "29.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_29",
+                                       "name":  "Update 29.0",
+                                       "aliases":  [
+                                                       "29",
+                                                       "29.0",
+                                                       "Heart of Deimos"
+                                                   ]
+                                   }
+                },
+    "summary":  "An ancient weapon designed by the Entrati. Primary fire siphons life essence from the target to fuel a devastating secondary fire. A heavy, oversized automatic rifle with withering fire that delivers rapid heat damage. Secondary fire unleashes an arcing projectile that ricochets off surfaces and enemies, exploding on every impact.",
+    "stats":  {
+                  "accuracy":  200,
+                  "statusChance":  0.30000001,
+                  "polarities":  [
+                                     null
+                                 ],
+                  "noise":  "Alarming",
+                  "tradable":  false,
+                  "reloadTime":  5,
+                  "disposition":  2,
+                  "magazineSize":  200,
+                  "fireRate":  4.666667,
+                  "critMultiplier":  2.2,
+                  "totalDamage":  82,
+                  "vaulted":  null,
+                  "masteryReq":  13,
+                  "slot":  "primary",
+                  "estimatedVaultDate":  null,
+                  "trigger":  "Auto",
+                  "critChance":  0.23999999,
+                  "weaponClass":  "Rifle",
+                  "masterable":  true,
+                  "multishot":  1,
+                  "vaultDate":  null
+              }
+}

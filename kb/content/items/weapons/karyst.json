@@ -1,0 +1,245 @@
+{
+    "id":  "weapon.karyst",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Karyst",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  1092,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  20000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Argon Crystal",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/ArgonCrystal",
+                                                              "itemCount":  1,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/TennoKrisBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Oxium",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/OxiumAlloy",
+                                                              "itemCount":  100,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Polymer Bundle",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                                                              "itemCount":  800,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Salvage",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Salvage",
+                                                              "itemCount":  1500,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  25,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Karyst.png?02c04",
+                                   "url":  "https://wiki.warframe.com/w/Karyst",
+                                   "imageName":  "karyst-cad187990c.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  0.75,
+                                          "crit_chance":  10,
+                                          "crit_mult":  2,
+                                          "status_chance":  26,
+                                          "damage":  {
+                                                         "impact":  30,
+                                                         "slash":  72,
+                                                         "puncture":  84,
+                                                         "toxin":  87
+                                                     },
+                                          "slide":  "546"
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  0.75,
+                                          "crit_chance":  10,
+                                          "crit_mult":  2,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  5,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "impact":  546
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  0.75,
+                                          "crit_chance":  10,
+                                          "crit_mult":  2,
+                                          "status_chance":  26,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  6,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "toxin":  819
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  546,
+                      "blockingAngle":  45,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  30,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  84,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  72.000008,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  273,
+                                     "toxin":  87,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            30,
+                                            84,
+                                            72.000008,
+                                            0,
+                                            0,
+                                            0,
+                                            87,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  1.75,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  546,
+                      "followThrough":  0.89999998,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  819,
+                      "stancePolarity":  "madurai",
+                      "slideAttack":  546,
+                      "windUp":  0.40000001,
+                      "slamRadius":  5,
+                      "slamAttack":  546,
+                      "heavySlamRadius":  6
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Melee/Swords/KrisDagger/KrisDagger"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "Once the blade weapon of choice for an exclusive order of Tenno assassins, the Karyst dagger grew to become a symbol of honor and duty for all Tenno.",
+    "release":  {
+                    "releaseDate":  "2014-08-13",
+                    "introduced":  {
+                                       "date":  "2014-08-13",
+                                       "parent":  "14.2",
+                                       "url":  "https://wiki.warframe.com/w/Update_14%23Update_14.2",
+                                       "name":  "Update 14.2",
+                                       "aliases":  [
+                                                       "14.2.0",
+                                                       "14.2"
+                                                   ]
+                                   }
+                },
+    "summary":  "Once the blade weapon of choice for an exclusive order of Tenno assassins, the Karyst dagger grew to become a symbol of honor and duty for all Tenno.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.25999999,
+                  "polarities":  [
+                                     "naramon"
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  5,
+                  "magazineSize":  null,
+                  "fireRate":  0.75000006,
+                  "critMultiplier":  2,
+                  "totalDamage":  273,
+                  "vaulted":  null,
+                  "masteryReq":  6,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.1,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

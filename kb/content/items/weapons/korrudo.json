@@ -1,0 +1,267 @@
+{
+    "id":  "weapon.korrudo",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Korrudo",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  772,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  30000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Auroxium Alloy",
+                                                              "uniqueName":  "/Lotus/Types/Items/Gems/Eidolon/RareOreAAlloyAItem",
+                                                              "itemCount":  25,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/GrnSpiderSparringBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Narmer Thumper Doma",
+                                                                                "type":  "Korrudo Blueprint",
+                                                                                "chance":  10,
+                                                                                "rarity":  "Common"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Tusk Thumper Doma",
+                                                                                "type":  "Korrudo Blueprint",
+                                                                                "chance":  10,
+                                                                                "rarity":  "Common"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Narmer Thumper Bull",
+                                                                                "type":  "Korrudo Blueprint",
+                                                                                "chance":  5,
+                                                                                "rarity":  "Common"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Tusk Thumper Bull",
+                                                                                "type":  "Korrudo Blueprint",
+                                                                                "chance":  5,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Breath Of The Eidolon",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Eidolonium",
+                                                              "itemCount":  5,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Esher Devar",
+                                                              "uniqueName":  "/Lotus/Types/Items/Gems/Eidolon/CommonGemBCutAItem",
+                                                              "itemCount":  15,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Mawfish Bones",
+                                                              "uniqueName":  "/Lotus/Types/Items/Fish/Eidolon/FishParts/DayCommonFishAPartItem",
+                                                              "itemCount":  20,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  30,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Korrudo.png?ab27b",
+                                   "url":  "https://wiki.warframe.com/w/Korrudo",
+                                   "imageName":  "korrudo-a4cef6c307.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  0.833,
+                                          "crit_chance":  31,
+                                          "crit_mult":  2.5,
+                                          "status_chance":  9,
+                                          "damage":  {
+                                                         "impact":  110.01,
+                                                         "slash":  77.2,
+                                                         "puncture":  5.79
+                                                     },
+                                          "slide":  "386"
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  0.833,
+                                          "crit_chance":  31,
+                                          "crit_mult":  2.5,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  7,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "impact":  386
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  0.833,
+                                          "crit_chance":  31,
+                                          "crit_mult":  2.5,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  8,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "blast":  579
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  386,
+                      "blockingAngle":  50,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  110.01,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  5.79,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  77.200005,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  193,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            110.01,
+                                            5.79,
+                                            77.200005,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  1.25,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  2065,
+                      "followThrough":  0.89999998,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  579,
+                      "stancePolarity":  "naramon",
+                      "slideAttack":  386,
+                      "windUp":  0.5,
+                      "slamRadius":  7,
+                      "slamAttack":  579,
+                      "heavySlamRadius":  8
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Grineer/Melee/GrnSparring/GrnSpiderSparring/GrnSpiderSparring"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "When they go high, go low. Powerful pneumatic grips and toecaps amplify every blow. Four ways to deal twice the pain.",
+    "release":  {
+                    "releaseDate":  "2019-04-04",
+                    "introduced":  {
+                                       "date":  "2019-04-04",
+                                       "parent":  "24.6",
+                                       "url":  "https://wiki.warframe.com/w/Update_24%23Update_24.6",
+                                       "name":  "Update 24.6",
+                                       "aliases":  [
+                                                       "24.6",
+                                                       "24.6.0"
+                                                   ]
+                                   }
+                },
+    "summary":  "When they go high, go low. Powerful pneumatic grips and toecaps amplify every blow. Four ways to deal twice the pain.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.090000033,
+                  "polarities":  [
+                                     "madurai"
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  5,
+                  "magazineSize":  null,
+                  "fireRate":  0.83333337,
+                  "critMultiplier":  2.5,
+                  "totalDamage":  193,
+                  "vaulted":  null,
+                  "masteryReq":  9,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.31,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

@@ -1,0 +1,191 @@
+{
+    "id":  "warframe.nekros",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-warframes.json"
+                    }
+                ],
+    "name":  "Nekros",
+    "subCategory":  "standard",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD Warframes.json."
+              ],
+    "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  "https://wiki.warframe.com/w/Nekros",
+                                   "imageName":  "nekros-61cb2c9f69.png",
+                                   "available":  true
+                               },
+                      "crafting":  {
+                                       "buildTime":  259200,
+                                       "buildPrice":  25000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/NecroBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Chassis",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/NecroChassisComponent",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Deimos/Magnacidium (Assassination)",
+                                                                                "type":  "Nekros Chassis Blueprint",
+                                                                                "chance":  33.33,
+                                                                                "rarity":  "Common"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Orokin Derelict Assassinate, Rotation C",
+                                                                                "type":  "Nekros Chassis Blueprint",
+                                                                                "chance":  33.33,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Neuroptics",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/NecroHelmetComponent",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Deimos/Magnacidium (Assassination)",
+                                                                                "type":  "Nekros Neuroptics Blueprint",
+                                                                                "chance":  33.33,
+                                                                                "rarity":  "Common"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Orokin Derelict Assassinate, Rotation C",
+                                                                                "type":  "Nekros Neuroptics Blueprint",
+                                                                                "chance":  33.33,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Orokin Cell",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/OrokinCell",
+                                                              "itemCount":  3,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Systems",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/NecroSystemsComponent",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Deimos/Magnacidium (Assassination)",
+                                                                                "type":  "Nekros Systems Blueprint",
+                                                                                "chance":  33.33,
+                                                                                "rarity":  "Common"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Orokin Derelict Assassinate, Rotation C",
+                                                                                "type":  "Nekros Systems Blueprint",
+                                                                                "chance":  33.33,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  50,
+                                       "consumeOnBuild":  true
+                                   },
+                      "exalted":  [
+                                      null
+                                  ],
+                      "abilities":  [
+                                        {
+                                            "name":  "Soul Punch",
+                                            "description":  "A blow so powerful, it turns the enemy\u0027s very soul into a deadly projectile, damaging all in its path. Enemies that survive the blow are Marked for Harvest and become one of Nekros\u0027 Shadows of the Dead if killed while marked.",
+                                            "uniqueName":  "/Lotus/Powersuits/Necro/Abilities/SoulPunchAbility",
+                                            "imageName":  "soul-punch-8d5363ed33.png"
+                                        },
+                                        {
+                                            "name":  "Terrify",
+                                            "description":  "Cast fear into the hearts of nearby enemies, causing them to run away in terror.",
+                                            "uniqueName":  "/Lotus/Powersuits/Necro/Abilities/TerrorTotemAbility",
+                                            "imageName":  "terrify-12dd88e9cb.png"
+                                        },
+                                        {
+                                            "name":  "Desecrate",
+                                            "description":  "Forces fallen enemies around you to drop additional loot.",
+                                            "uniqueName":  "/Lotus/Powersuits/Necro/Abilities/SearchTheDeadAbility",
+                                            "imageName":  "desecrate-416bd8f073.png"
+                                        },
+                                        {
+                                            "name":  "Shadows Of The Dead",
+                                            "description":  "Summon shadow versions of vanquished enemies to fight alongside you for a short period.",
+                                            "uniqueName":  "/Lotus/Powersuits/Necro/Abilities/CloneTheDeadAbility",
+                                            "imageName":  "shadows-of-the-dead-afd05dd8c9.png"
+                                        }
+                                    ],
+                      "passiveDescription":  "Restore |HEALTH| Health with every enemy death within |RADIUS|m."
+                  },
+    "aliases":  [
+                    "/Lotus/Powersuits/Necro/Necro"
+                ],
+    "tags":  [
+                 "warframe",
+                 "base"
+             ],
+    "category":  "warframe",
+    "relationships":  [
+
+                      ],
+    "description":  "There is a reaper whose name is Nekros. He provides deathly crowd control. Erstwhile enemies become allies when Nekros calls up recruits from the dead.",
+    "release":  {
+                    "releaseDate":  "2013-09-13",
+                    "introduced":  {
+                                       "date":  "2013-09-13",
+                                       "parent":  "10.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_10%23Update_10.0",
+                                       "name":  "Update 10.0",
+                                       "aliases":  [
+                                                       "Update 10",
+                                                       "10",
+                                                       "10.0"
+                                                   ]
+                                   }
+                },
+    "summary":  "There is a reaper whose name is Nekros. He provides deathly crowd control. Erstwhile enemies become allies when Nekros calls up recruits from the dead.",
+    "stats":  {
+                  "shield":  235,
+                  "aura":  null,
+                  "tradable":  false,
+                  "polarities":  [
+                                     "vazarin",
+                                     "madurai"
+                                 ],
+                  "sprintSpeed":  1.1,
+                  "health":  270,
+                  "power":  100,
+                  "vaulted":  null,
+                  "masteryReq":  0,
+                  "estimatedVaultDate":  null,
+                  "stamina":  3,
+                  "masterable":  true,
+                  "vaultDate":  null,
+                  "armor":  105
+              }
+}

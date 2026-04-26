@@ -1,0 +1,244 @@
+{
+    "id":  "weapon.scoliac",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Scoliac",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  525,
+                      "crafting":  {
+                                       "buildTime":  86400,
+                                       "buildPrice":  30000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Weapons/ClanTech/Bio/InfestedWhipWeaponBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Forma",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Forma",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Mutagen Mass",
+                                                              "uniqueName":  "/Lotus/Types/Items/Research/BioComponent",
+                                                              "itemCount":  4,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Nano Spores",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Nanospores",
+                                                              "itemCount":  15000,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Plastids",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Plastids",
+                                                              "itemCount":  1200,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  35,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Scoliac.png?857e0",
+                                   "url":  "https://wiki.warframe.com/w/Scoliac",
+                                   "imageName":  "scoliac-a565f241e7.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  1.25,
+                                          "crit_chance":  13,
+                                          "crit_mult":  1.5,
+                                          "status_chance":  29,
+                                          "damage":  {
+                                                         "impact":  22.5,
+                                                         "slash":  105,
+                                                         "puncture":  22.5
+                                                     },
+                                          "slide":  "300"
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  1.25,
+                                          "crit_chance":  13,
+                                          "crit_mult":  1.5,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  5,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "toxin":  300
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  1.25,
+                                          "crit_chance":  13,
+                                          "crit_mult":  1.5,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  6,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "toxin":  450
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  300,
+                      "blockingAngle":  45,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  22.5,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  22.5,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  105,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  150,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            22.5,
+                                            22.5,
+                                            105,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  2.4963856,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  675,
+                      "followThrough":  0.5,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  450,
+                      "stancePolarity":  "zenurik",
+                      "slideAttack":  300,
+                      "windUp":  0.40000001,
+                      "slamRadius":  5,
+                      "slamAttack":  450,
+                      "heavySlamRadius":  6
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Infested/Melee/Whip/InfestedWhip/InfestedWhipWeapon"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "The Scoliac Whip is a nasty parasitic growth of sinew and bone that can inflict heart stopping \u003cDT_POISON_COLOR\u003eToxin Damage with attacks.",
+    "release":  {
+                    "releaseDate":  "2013-12-19",
+                    "introduced":  {
+                                       "date":  "2013-12-19",
+                                       "parent":  "11.5",
+                                       "url":  "https://wiki.warframe.com/w/Update_11%23Update_11.5",
+                                       "name":  "Update 11.5",
+                                       "aliases":  [
+                                                       "11.5.0",
+                                                       "11.5"
+                                                   ]
+                                   }
+                },
+    "summary":  "The Scoliac Whip is a nasty parasitic growth of sinew and bone that can inflict heart stopping \u003cDT_POISON_COLOR\u003eToxin Damage with attacks.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.28999996,
+                  "polarities":  [
+                                     "madurai"
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  4,
+                  "magazineSize":  null,
+                  "fireRate":  1.2500001,
+                  "critMultiplier":  1.5,
+                  "totalDamage":  150,
+                  "vaulted":  null,
+                  "masteryReq":  6,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.13,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

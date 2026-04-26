@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "warframe-kb/assistant-query-response.schema.json",
+  "title": "Warframe KB Assistant Query Response",
+  "type": "object",
+  "required": [
+    "generatedAt",
+    "schemaVersion",
+    "query",
+    "routing",
+    "responseType",
+    "payload",
+    "sources"
+  ],
+  "properties": {
+    "generatedAt": {
+      "type": "string"
+    },
+    "schemaVersion": {
+      "const": "assistant-query-response.v1"
+    },
+    "query": {
+      "type": "string"
+    },
+    "routing": {
+      "type": "object",
+      "required": [
+        "intent",
+        "score",
+        "reasons",
+        "primaryView",
+        "fallbackViews"
+      ],
+      "properties": {
+        "intent": {
+          "type": "string"
+        },
+        "score": {
+          "type": "integer"
+        },
+        "reasons": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "primaryView": {
+          "type": "string"
+        },
+        "fallbackViews": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "responseType": {
+      "type": "string",
+      "enum": [
+        "build.recommendation",
+        "faction.combat-profile",
+        "inventory.gap-analysis",
+        "farm.next-target",
+        "market.summary",
+        "search.lookup"
+      ]
+    },
+    "payload": {
+      "type": "object"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

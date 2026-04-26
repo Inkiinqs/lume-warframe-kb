@@ -1,0 +1,243 @@
+{
+    "id":  "weapon.amphis",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Amphis",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  520,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  30000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Alloy Plate",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                                                              "itemCount":  600,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/GrnStaffBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Circuits",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Circuits",
+                                                              "itemCount":  600,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Neurodes",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Neurode",
+                                                              "itemCount":  2,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Salvage",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Salvage",
+                                                              "itemCount":  500,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  35,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  "https://wiki.warframe.com/w/Amphis",
+                                   "imageName":  "amphis-6b69bc1995.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  1.25,
+                                          "crit_chance":  13,
+                                          "crit_mult":  1.7,
+                                          "status_chance":  21,
+                                          "damage":  {
+                                                         "impact":  91,
+                                                         "slash":  19.5,
+                                                         "puncture":  19.5
+                                                     },
+                                          "slide":  "130"
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  1.25,
+                                          "crit_chance":  13,
+                                          "crit_mult":  1.7,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  6,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "electricity":  260
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  1.25,
+                                          "crit_chance":  24,
+                                          "crit_mult":  2,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  7,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "electricity":  378
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  260,
+                      "blockingAngle":  60,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  91,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  19.5,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  19.499996,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  130,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            91,
+                                            19.5,
+                                            19.499996,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  3,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  650,
+                      "followThrough":  0.5,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  390,
+                      "stancePolarity":  "madurai",
+                      "slideAttack":  130,
+                      "windUp":  0.5,
+                      "slamRadius":  6,
+                      "slamAttack":  390,
+                      "heavySlamRadius":  7
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Melee/Staff/GrnStaff"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "Fashioned with Grineer materials and balanced for marine infantry use, the Amphis is a traditional staff weapon that has received a monstrous makeover that enables shock damage on jump attacks. Connects with multiple enemies with each strike.",
+    "release":  {
+                    "releaseDate":  "2013-02-22",
+                    "introduced":  {
+                                       "date":  "2013-02-22",
+                                       "parent":  "6.0",
+                                       "url":  "https://wiki.warframe.com/w/Closed_Beta_Updates%23Update_6.5",
+                                       "name":  "Update 6.5",
+                                       "aliases":  [
+                                                       "6.5"
+                                                   ]
+                                   }
+                },
+    "summary":  "Fashioned with Grineer materials and balanced for marine infantry use, the Amphis is a traditional staff weapon that has received a monstrous makeover that enables shock damage on jump attacks. Connects with multiple enemies with each strike.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.20999998,
+                  "polarities":  [
+                                     "naramon"
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  5,
+                  "magazineSize":  null,
+                  "fireRate":  1.2500001,
+                  "critMultiplier":  1.7,
+                  "totalDamage":  130,
+                  "vaulted":  null,
+                  "masteryReq":  5,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.13,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

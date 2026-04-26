@@ -1,0 +1,149 @@
+{
+    "description":  "Heavy melee that applies damage reduction buff to allies.",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-enemies.json"
+                    }
+                ],
+    "name":  "Corrupted Ancient",
+    "subCategory":  "orokin",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD Enemy.json."
+              ],
+    "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "corrupted-ancient.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    {
+                                        "location":  "Reflection",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Common",
+                                        "chance":  0.37939999999999996
+                                    },
+                                    {
+                                        "location":  "15 Endo",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Common",
+                                        "chance":  0.37939999999999996
+                                    },
+                                    {
+                                        "location":  "Clashing Forest",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0737
+                                    },
+                                    {
+                                        "location":  "Maglev",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0737
+                                    },
+                                    {
+                                        "location":  "50 Endo",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0737
+                                    },
+                                    {
+                                        "location":  "Berserker",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0101
+                                    },
+                                    {
+                                        "location":  "Quick Thinking",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0101
+                                    },
+                                    {
+                                        "location":  "Corrupted Ancient",
+                                        "type":  "Enemy Mod Tables",
+                                        "chance":  null
+                                    }
+                                ],
+                      "resistances":  [
+                                          {
+                                              "amount":  0,
+                                              "type":  "Shield",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "None",
+                                                                    "modifier":  0
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  0,
+                                              "type":  "Ferrite Armor",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "None",
+                                                                    "modifier":  0
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  400,
+                                              "type":  "Fossilized",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "Slash",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Blast",
+                                                                    "modifier":  0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Corrosive",
+                                                                    "modifier":  0
+                                                                },
+                                                                {
+                                                                    "element":  "Cold",
+                                                                    "modifier":  -0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Toxin",
+                                                                    "modifier":  -0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Radiation",
+                                                                    "modifier":  0
+                                                                }
+                                                            ]
+                                          }
+                                      ]
+                  },
+    "aliases":  [
+                    "/Lotus/Types/Enemies/Orokin/OrokinHealingAncientLeaderAvatar"
+                ],
+    "tags":  [
+                 "enemy",
+                 "orokin"
+             ],
+    "category":  "enemy",
+    "relationships":  [
+
+                      ],
+    "id":  "enemy.corrupted-ancient",
+    "release":  {
+
+                },
+    "summary":  "Heavy melee that applies damage reduction buff to allies.",
+    "stats":  {
+                  "armor":  0,
+                  "type":  "Orokin",
+                  "shield":  0,
+                  "health":  400,
+                  "regionBits":  147456,
+                  "tradable":  false,
+                  "faction":  "Orokin"
+              }
+}

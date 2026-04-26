@@ -1,0 +1,161 @@
+{
+    "description":  "Heavy melee that applies damage reduction buff to allies.",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-enemies.json"
+                    }
+                ],
+    "name":  "Ancient Healer",
+    "subCategory":  "infestation",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD Enemy.json."
+              ],
+    "mechanics":  {
+                      "defenseProfile":  [
+                                             "support-aura"
+                                         ],
+                      "drops":  [
+                                    {
+                                        "location":  "Flame Repellent",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.2529
+                                    },
+                                    {
+                                        "location":  "15 Endo",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.2529
+                                    },
+                                    {
+                                        "location":  "Lightning Rod",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.2529
+                                    },
+                                    {
+                                        "location":  "50 Endo",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.2211
+                                    },
+                                    {
+                                        "location":  "Seeker",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0101
+                                    },
+                                    {
+                                        "location":  "80 Endo",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0101
+                                    },
+                                    {
+                                        "location":  "Ancient Healer",
+                                        "type":  "Enemy Mod Tables",
+                                        "chance":  null
+                                    }
+                                ],
+                      "combatRole":  "support",
+                      "recommendedDamage":  [
+                                                "status.heat",
+                                                "status.gas",
+                                                "status.slash"
+                                            ],
+                      "recommendedStatusPlan":  [
+                                                    "Delete this target early when it is empowering a crowd.",
+                                                    "Area damage and spread effects are especially valuable in Infested packs."
+                                                ],
+                      "priorityThreats":  [
+                                              "ally-damage-reduction",
+                                              "swarm-support"
+                                          ],
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "ancient-healer.png",
+                                   "available":  null
+                               },
+                      "resistances":  [
+                                          {
+                                              "amount":  0,
+                                              "type":  "Shield",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "None",
+                                                                    "modifier":  0
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  0,
+                                              "type":  "Ferrite Armor",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "None",
+                                                                    "modifier":  0
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  400,
+                                              "type":  "Fossilized",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "Slash",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Blast",
+                                                                    "modifier":  0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Corrosive",
+                                                                    "modifier":  0
+                                                                },
+                                                                {
+                                                                    "element":  "Cold",
+                                                                    "modifier":  -0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Toxin",
+                                                                    "modifier":  -0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Radiation",
+                                                                    "modifier":  0
+                                                                }
+                                                            ]
+                                          }
+                                      ],
+                      "faction":  "faction.infested"
+                  },
+    "aliases":  [
+                    "/Lotus/Types/Enemies/Infested/AiWeek/Ancients/HealingAncientAvatarLeader"
+                ],
+    "tags":  [
+                 "enemy",
+                 "infestation"
+             ],
+    "category":  "enemy",
+    "relationships":  [
+
+                      ],
+    "id":  "enemy.ancient-healer",
+    "release":  {
+
+                },
+    "summary":  "Heavy melee that applies damage reduction buff to allies.",
+    "stats":  {
+                  "armor":  0,
+                  "type":  "Infestation",
+                  "shield":  0,
+                  "health":  400,
+                  "regionBits":  106495,
+                  "tradable":  false,
+                  "faction":  "Infestation"
+              }
+}

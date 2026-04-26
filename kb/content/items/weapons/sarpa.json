@@ -1,0 +1,268 @@
+{
+    "id":  "weapon.sarpa",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Sarpa",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  480,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  20000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Akstiletto",
+                                                              "uniqueName":  "/Lotus/Weapons/Tenno/Pistols/TennoUzi/TennoUzi",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Conclave, Typhoon",
+                                                                                "type":  "Akstiletto Conclave Skin",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/TnoGunbladeAutomaticBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Control Module",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/ControlModule",
+                                                              "itemCount":  2,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Cryotic",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Cryotic",
+                                                              "itemCount":  3300,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Plastids",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Plastids",
+                                                              "itemCount":  1000,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  35,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Sarpa.png?5a43c",
+                                   "url":  "https://wiki.warframe.com/w/Sarpa",
+                                   "imageName":  "sarpa-59e780991b.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  1,
+                                          "crit_chance":  14,
+                                          "crit_mult":  2,
+                                          "status_chance":  28,
+                                          "damage":  {
+                                                         "impact":  16,
+                                                         "slash":  112,
+                                                         "puncture":  32
+                                                     },
+                                          "slide":  "320"
+                                      },
+                                      {
+                                          "name":  "Ranged Attack",
+                                          "speed":  3.33,
+                                          "crit_chance":  14,
+                                          "crit_mult":  2,
+                                          "status_chance":  28,
+                                          "charge_time":  0.3,
+                                          "shot_type":  "Hit-Scan",
+                                          "falloff":  {
+                                                          "start":  20,
+                                                          "end":  40,
+                                                          "reduction":  0.8571
+                                                      },
+                                          "damage":  {
+                                                         "impact":  3.5,
+                                                         "slash":  21,
+                                                         "puncture":  10.5
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  1,
+                                          "crit_chance":  14,
+                                          "crit_mult":  2,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  5,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "impact":  320
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  1,
+                                          "crit_chance":  14,
+                                          "crit_mult":  2,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  6,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "blast":  480
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  320,
+                      "blockingAngle":  45,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  16,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  32,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  112,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  160,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            16,
+                                            32,
+                                            112,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  2,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  600,
+                      "followThrough":  0.5,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  480,
+                      "stancePolarity":  "madurai",
+                      "slideAttack":  320,
+                      "windUp":  0.30000001,
+                      "slamRadius":  5,
+                      "slamAttack":  480,
+                      "heavySlamRadius":  6
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Melee/Gunblade/GunbladeAutomatic/TnoGunbladeAutomatic"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "Makes sweeping cuts punctuated by bursts of heavy gunfire.",
+    "release":  {
+                    "releaseDate":  "2016-08-19",
+                    "introduced":  {
+                                       "date":  "2016-08-19",
+                                       "parent":  "18.17",
+                                       "url":  "https://wiki.warframe.com/w/Update_19%23Update%3A_The_Silver_Grove",
+                                       "name":  "Update: The Silver Grove",
+                                       "aliases":  [
+                                                       "The Silver Grove",
+                                                       "TSG"
+                                                   ]
+                                   }
+                },
+    "summary":  "Makes sweeping cuts punctuated by bursts of heavy gunfire.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.27999997,
+                  "polarities":  [
+                                     "vazarin"
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  4,
+                  "magazineSize":  null,
+                  "fireRate":  1,
+                  "critMultiplier":  2,
+                  "totalDamage":  160,
+                  "vaulted":  null,
+                  "masteryReq":  8,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.14,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

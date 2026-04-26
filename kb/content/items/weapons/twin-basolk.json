@@ -1,0 +1,240 @@
+{
+    "id":  "weapon.twin-basolk",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Twin Basolk",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  840,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  30000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Atomos",
+                                                              "uniqueName":  "/Lotus/Weapons/Grineer/Pistols/HeatGun/GrnHeatGun",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/GrnDualFireAxeBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Control Module",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/ControlModule",
+                                                              "itemCount":  2,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Dual Zoren",
+                                                              "uniqueName":  "/Lotus/Weapons/Tenno/Melee/Axe/DualAxeWeapon",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Duviri/Endless: Tier 6 (Normal)",
+                                                                                "type":  "Dual Zoren Blueprint",
+                                                                                "chance":  1.03,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  35,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  "https://wiki.warframe.com/w/Twin_Basolk",
+                                   "imageName":  "twin-basolk-f27c8536d2.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  1,
+                                          "crit_chance":  5,
+                                          "crit_mult":  2,
+                                          "status_chance":  40,
+                                          "damage":  {
+                                                         "impact":  55,
+                                                         "slash":  55,
+                                                         "puncture":  15,
+                                                         "heat":  85
+                                                     },
+                                          "slide":  "420"
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  1,
+                                          "crit_chance":  5,
+                                          "crit_mult":  2,
+                                          "status_chance":  40,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  8,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "heat":  420
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  1,
+                                          "crit_chance":  5,
+                                          "crit_mult":  2,
+                                          "status_chance":  40,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  9,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "heat":  630
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  420,
+                      "blockingAngle":  60,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  55.000004,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  15.000001,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  55.000004,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  85,
+                                     "total":  210.00002,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            55.000004,
+                                            15.000001,
+                                            55.000004,
+                                            85,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  2.4000001,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  840,
+                      "followThrough":  0.5,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  630,
+                      "stancePolarity":  "zenurik",
+                      "slideAttack":  420,
+                      "windUp":  0.69999999,
+                      "slamRadius":  8,
+                      "slamAttack":  420,
+                      "heavySlamRadius":  9
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Grineer/Melee/GrnDualFireAxe/GrnDualFireAxe"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "These nasty, little hatchets slice through steel as if it were flesh.",
+    "release":  {
+                    "releaseDate":  "2015-10-21",
+                    "introduced":  {
+                                       "date":  "2015-10-21",
+                                       "parent":  "17.8",
+                                       "url":  "https://wiki.warframe.com/w/Update_17%23Update_17.8",
+                                       "name":  "Update 17.8",
+                                       "aliases":  [
+                                                       "17.8.0",
+                                                       "17.8"
+                                                   ]
+                                   }
+                },
+    "summary":  "These nasty, little hatchets slice through steel as if it were flesh.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.39999998,
+                  "polarities":  [
+                                     "madurai"
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  4,
+                  "magazineSize":  null,
+                  "fireRate":  1,
+                  "critMultiplier":  2,
+                  "totalDamage":  210.00002,
+                  "vaulted":  null,
+                  "masteryReq":  7,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.050000001,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

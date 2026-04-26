@@ -1,0 +1,246 @@
+{
+    "id":  "weapon.dual-ichor",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Dual Ichor",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  488,
+                      "crafting":  {
+                                       "buildTime":  86400,
+                                       "buildPrice":  30000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Weapons/ClanTech/Bio/InfestedDualAxesBioWeaponBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Circuits",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Circuits",
+                                                              "itemCount":  1200,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Forma",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Forma",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Mutagen Mass",
+                                                              "uniqueName":  "/Lotus/Types/Items/Research/BioComponent",
+                                                              "itemCount":  4,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Salvage",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Salvage",
+                                                              "itemCount":  15000,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  35,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/DualIchor.png?caea1",
+                                   "url":  "https://wiki.warframe.com/w/Dual_Ichor",
+                                   "imageName":  "dual-ichor-5c17bf66ce.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  1.08,
+                                          "crit_chance":  25,
+                                          "crit_mult":  3,
+                                          "status_chance":  15,
+                                          "damage":  {
+                                                         "impact":  19,
+                                                         "slash":  45,
+                                                         "puncture":  11,
+                                                         "toxin":  47
+                                                     },
+                                          "slide":  "244"
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  1.08,
+                                          "crit_chance":  25,
+                                          "crit_mult":  3,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  8,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "impact":  244
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  1.08,
+                                          "crit_chance":  25,
+                                          "crit_mult":  3,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  9,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "blast":  366
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  244,
+                      "blockingAngle":  60,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  19,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  11,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  45,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  122,
+                                     "toxin":  47,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            19,
+                                            11,
+                                            45,
+                                            0,
+                                            0,
+                                            0,
+                                            47,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  2.3,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  488,
+                      "followThrough":  0.5,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  366,
+                      "stancePolarity":  "zenurik",
+                      "slideAttack":  244,
+                      "windUp":  0.69999999,
+                      "slamRadius":  8,
+                      "slamAttack":  244,
+                      "heavySlamRadius":  9
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Melee/Axe/DualInfestedAxesWeapon"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "The fast and brutal Dual Ichor axes will quickly tear through enemies with a high probability of inflicting Critical Damage.",
+    "release":  {
+                    "releaseDate":  "2013-09-13",
+                    "introduced":  {
+                                       "date":  "2013-09-13",
+                                       "parent":  "10.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_10%23Update_10.0",
+                                       "name":  "Update 10.0",
+                                       "aliases":  [
+                                                       "Update 10",
+                                                       "10",
+                                                       "10.0"
+                                                   ]
+                                   }
+                },
+    "summary":  "The fast and brutal Dual Ichor axes will quickly tear through enemies with a high probability of inflicting Critical Damage.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.14999998,
+                  "polarities":  [
+                                     "vazarin"
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  4,
+                  "magazineSize":  null,
+                  "fireRate":  1.0833334,
+                  "critMultiplier":  3,
+                  "totalDamage":  122,
+                  "vaulted":  null,
+                  "masteryReq":  6,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.25,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

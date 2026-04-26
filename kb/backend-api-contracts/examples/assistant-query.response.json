@@ -1,0 +1,81 @@
+{
+  "schemaVersion": "assistant-query-response.v1",
+  "query": "make me a Rhino build for Murmur",
+  "routing": {
+    "intent": "build.recommendation.for-enemy",
+    "score": 13,
+    "reasons": [
+      "build/loadout language with target, frame, or weapon entity"
+    ],
+    "primaryView": "ai/materialized-views/assistant-build-contracts.view.json",
+    "fallbackViews": [
+      "ai/materialized-views/player-build-skeletons.view.json",
+      "ai/materialized-views/player-combat-recommendations.view.json",
+      "ai/materialized-views/enemy-matchups.view.json",
+      "ai/search-docs/records.search.json"
+    ]
+  },
+  "responseType": "build.recommendation",
+  "payload": {
+    "target": {
+      "id": "enemy.murmur-anomaly-host",
+      "name": "Murmur Anomaly Host",
+      "factionId": "faction.murmur",
+      "recommendedDamage": [
+        "status.viral",
+        "status.heat",
+        "status.slash"
+      ]
+    },
+    "recommendedBuild": {
+      "buildId": "enemy.murmur-anomaly-host.warframe.rhino.weapon.acceltra",
+      "confidence": "starter",
+      "summary": "Rhino with Acceltra for Murmur Anomaly Host",
+      "frame": {
+        "id": "warframe.rhino",
+        "name": "Rhino",
+        "missingModsToChase": [
+          {
+            "id": "mod.intensify",
+            "name": "Intensify"
+          },
+          {
+            "id": "mod.vitality",
+            "name": "Vitality"
+          },
+          {
+            "id": "mod.continuity",
+            "name": "Continuity"
+          },
+          {
+            "id": "mod.steel-fiber",
+            "name": "Steel Fiber"
+          }
+        ]
+      },
+      "weapon": {
+        "id": "weapon.acceltra",
+        "name": "Acceltra",
+        "ownedModsToSlot": [
+          {
+            "id": "mod.serration",
+            "name": "Serration"
+          }
+        ],
+        "missingModsToChase": [
+          {
+            "id": "mod.hunter-munitions",
+            "name": "Hunter Munitions"
+          }
+        ]
+      },
+      "matchupPlan": [
+        "Use endgame-grade generalist damage and be prepared to adapt to encounter mechanics.",
+        "Do not assume faction weakness alone solves this target."
+      ]
+    }
+  },
+  "sources": [
+    "ai/materialized-views/assistant-build-contracts.view.json"
+  ]
+}

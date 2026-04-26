@@ -1,0 +1,143 @@
+{
+    "description":  "Collects fallen items on the battlefield",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-enemies.json"
+                    }
+                ],
+    "name":  "Scavenger Drone",
+    "subCategory":  "corpus",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD Enemy.json."
+              ],
+    "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "scavenger-drone.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    {
+                                        "location":  "Redirection",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Common",
+                                        "chance":  0.3872
+                                    },
+                                    {
+                                        "location":  "True Steel",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Common",
+                                        "chance":  0.3872
+                                    },
+                                    {
+                                        "location":  "Contagious Spread",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.1128
+                                    },
+                                    {
+                                        "location":  "Gunslinger",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.1128
+                                    },
+                                    {
+                                        "location":  "Scavenger Drone",
+                                        "type":  "Enemy Mod Tables",
+                                        "chance":  null
+                                    }
+                                ],
+                      "resistances":  [
+                                          {
+                                              "amount":  50,
+                                              "type":  "Shield",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "Impact",
+                                                                    "modifier":  0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Cold",
+                                                                    "modifier":  0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Magnetic",
+                                                                    "modifier":  0
+                                                                },
+                                                                {
+                                                                    "element":  "Puncture",
+                                                                    "modifier":  -0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Radiation",
+                                                                    "modifier":  -0.5
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  0,
+                                              "type":  "Ferrite Armor",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "None",
+                                                                    "modifier":  0
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  100,
+                                              "type":  "Robotic",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "Puncture",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Electricity",
+                                                                    "modifier":  0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Radiation",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Slash",
+                                                                    "modifier":  -0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Toxin",
+                                                                    "modifier":  -0.5
+                                                                }
+                                                            ]
+                                          }
+                                      ]
+                  },
+    "aliases":  [
+                    "/Lotus/Types/Enemies/Corpus/Drones/AIWeek/VacDroneAvatarLeader"
+                ],
+    "tags":  [
+                 "enemy",
+                 "corpus"
+             ],
+    "category":  "enemy",
+    "relationships":  [
+
+                      ],
+    "id":  "enemy.scavenger-drone",
+    "release":  {
+
+                },
+    "summary":  "Collects fallen items on the battlefield",
+    "stats":  {
+                  "armor":  0,
+                  "type":  "Corpus",
+                  "shield":  50,
+                  "health":  100,
+                  "regionBits":  168346,
+                  "tradable":  false,
+                  "faction":  "Corpus"
+              }
+}

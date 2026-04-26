@@ -1,0 +1,250 @@
+{
+    "id":  "weapon.praedos",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Praedos",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  800,
+                      "crafting":  {
+                                       "buildTime":  86400,
+                                       "buildPrice":  30000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/Evolving/ZarimanTonfaWeaponBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "The Holdfasts (Cavalero), Seraph",
+                                                                                "type":  "Praedos Blueprint",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Ferrite",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Ferrite",
+                                                              "itemCount":  8000,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Thrax Plasm",
+                                                              "uniqueName":  "/Lotus/Types/Gameplay/Zariman/Resources/VoidWraithItem",
+                                                              "itemCount":  100,
+                                                              "type":  null,
+                                                              "tradable":  true,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Voidplume Pinion",
+                                                              "uniqueName":  "/Lotus/Types/Gameplay/Zariman/Resources/VoidAngelItem",
+                                                              "itemCount":  15,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Voidplume Quill",
+                                                              "uniqueName":  "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanDogTagBounty",
+                                                              "itemCount":  30,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  25,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Praedos.png?217dc",
+                                   "url":  "https://wiki.warframe.com/w/Praedos",
+                                   "imageName":  "praedos-d131d8b126.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  1.17,
+                                          "crit_chance":  20,
+                                          "crit_mult":  2,
+                                          "status_chance":  20,
+                                          "damage":  {
+                                                         "impact":  20,
+                                                         "slash":  160,
+                                                         "puncture":  20
+                                                     },
+                                          "slide":  "400"
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  1.17,
+                                          "crit_chance":  20,
+                                          "crit_mult":  2,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  8,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "impact":  400
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  1.17,
+                                          "crit_chance":  20,
+                                          "crit_mult":  2,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  9,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "blast":  600
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  400,
+                      "blockingAngle":  60,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  20,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  20,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  160,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  200,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            20,
+                                            20,
+                                            160,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  2.5,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  800,
+                      "followThrough":  0.60000002,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  600,
+                      "stancePolarity":  "madurai",
+                      "slideAttack":  400,
+                      "windUp":  0.69999999,
+                      "slamRadius":  8,
+                      "slamAttack":  400,
+                      "heavySlamRadius":  9
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Zariman/Melee/Tonfas/ZarimanTonfaWeapon"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "Orokin elites admired farmers in conquered regions, because they had learned to fight with modified farming tools despite being forbidden to own weapons. For their voyage, the Zariman were presented with Praedos in recognition of Zariman tenacity. The Void reinforces the strength of the spirited individual by fortifying the Praedos.",
+    "release":  {
+                    "releaseDate":  "2022-04-27",
+                    "introduced":  {
+                                       "date":  "2022-04-27",
+                                       "parent":  "31.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_31%23Update_31.5",
+                                       "name":  "Update 31.5",
+                                       "aliases":  [
+                                                       "31.5",
+                                                       "Angels of the Zariman"
+                                                   ]
+                                   }
+                },
+    "summary":  "Orokin elites admired farmers in conquered regions, because they had learned to fight with modified farming tools despite being forbidden to own weapons. For their voyage, the Zariman were presented with Praedos in recognition of Zariman tenacity. The Void reinforces the strength of the spirited individual by fortifying the Praedos.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.19999999,
+                  "polarities":  [
+                                     "madurai",
+                                     "naramon"
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  1,
+                  "magazineSize":  null,
+                  "fireRate":  1.1666667,
+                  "critMultiplier":  2,
+                  "totalDamage":  200,
+                  "vaulted":  null,
+                  "masteryReq":  14,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.2,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

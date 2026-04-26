@@ -1,0 +1,64 @@
+{
+    "id":  "status.magnetic",
+    "name":  "Magnetic",
+    "category":  "status_effect",
+    "summary":  "Magnetic status disrupts shield-oriented durability and related defenses.",
+    "mechanics":  {
+                      "appliesTo":  [
+                                        "shields"
+                                    ],
+                      "stacking":  "Track exact shield-disruption stacking from validated sources.",
+                      "duration":  "Timed debuff on the target.",
+                      "formula":  "See shield interaction records for exact behavior.",
+                      "specialRules":  [
+                                           "Often relevant when the target\u0027s survivability is shield-centric."
+                                       ]
+                  },
+    "interactions":  {
+                         "synergies":  [
+                                           "damage.shield-interactions"
+                                       ],
+                         "affectedBy":  [
+                                            "formula.status-chance"
+                                        ],
+                         "counteredBy":  [
+
+                                         ]
+                     },
+    "examples":  [
+
+                 ],
+    "tags":  [
+                 "status",
+                 "combined",
+                 "shields"
+             ],
+    "notes":  [
+                  "Keep exact anti-shield values in source-backed revisions.",
+                  "Keep magnetic interactions with shields and overguard separately queryable because those recommendations differ in practice."
+              ],
+    "sources":  [
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Status_Effect"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Damage"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Damage/Magnetic_Damage"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Overguard"
+                    }
+                ],
+    "verification":  {
+                         "trustLevel":  "community-verified",
+                         "sourceFamily":  "warframe-wiki",
+                         "patchSensitive":  true,
+                         "reviewedAt":  "2026-04-10"
+                     }
+}

@@ -1,0 +1,240 @@
+{
+    "id":  "weapon.sibear",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Sibear",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  1350,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  30000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Alloy Plate",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                                                              "itemCount":  50000,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/IceHammerBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Cryotic",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Cryotic",
+                                                              "itemCount":  30000,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Magistar",
+                                                              "uniqueName":  "/Lotus/Weapons/Tenno/Melee/Maces/PaladinMace/PaladinMaceWeapon",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Duviri/Endless: Tier 6 (Normal)",
+                                                                                "type":  "Magistar Blueprint",
+                                                                                "chance":  1.03,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  25,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Sibear.png?a5886",
+                                   "url":  "https://wiki.warframe.com/w/Sibear",
+                                   "imageName":  "sibear-395d9a6418.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  1,
+                                          "crit_chance":  15,
+                                          "crit_mult":  2,
+                                          "status_chance":  30,
+                                          "damage":  {
+                                                         "impact":  70,
+                                                         "slash":  50,
+                                                         "puncture":  20,
+                                                         "cold":  130
+                                                     },
+                                          "slide":  "540"
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  1,
+                                          "crit_chance":  15,
+                                          "crit_mult":  2,
+                                          "status_chance":  30,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  9,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "cold":  540
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  1,
+                                          "crit_chance":  15,
+                                          "crit_mult":  2,
+                                          "status_chance":  30,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  10,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "cold":  810
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  540,
+                      "blockingAngle":  50,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  70,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  20,
+                                     "magnetic":  0,
+                                     "cold":  130,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  50,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  270,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            70,
+                                            20,
+                                            50,
+                                            0,
+                                            130,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  2.5999999,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  1620,
+                      "followThrough":  0.40000001,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  810,
+                      "stancePolarity":  "madurai",
+                      "slideAttack":  540,
+                      "windUp":  1.2,
+                      "slamRadius":  9,
+                      "slamAttack":  810,
+                      "heavySlamRadius":  10
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Melee/Hammer/IceHammer/IceHammer"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "Ice in motion can crush mountains, this frozen hammer is no different.",
+    "release":  {
+                    "releaseDate":  "2016-04-06",
+                    "introduced":  {
+                                       "date":  "2016-04-06",
+                                       "parent":  "18.8",
+                                       "url":  "https://wiki.warframe.com/w/Update_18%23Update_18.8",
+                                       "name":  "Update 18.8",
+                                       "aliases":  [
+                                                       "18.8.0",
+                                                       "18.8"
+                                                   ]
+                                   }
+                },
+    "summary":  "Ice in motion can crush mountains, this frozen hammer is no different.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.30000001,
+                  "polarities":  [
+                                     "vazarin"
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  5,
+                  "magazineSize":  null,
+                  "fireRate":  1,
+                  "critMultiplier":  2,
+                  "totalDamage":  270,
+                  "vaulted":  null,
+                  "masteryReq":  6,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.15000001,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

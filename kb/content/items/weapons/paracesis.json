@@ -1,0 +1,244 @@
+{
+    "id":  "weapon.paracesis",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Paracesis",
+    "subCategory":  "melee-rifle",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  222,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  30000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/BallasSwordBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Eidolon Shard",
+                                                              "uniqueName":  "/Lotus/Types/Gameplay/Eidolon/Resources/SentientShards/SentientShardCommonItem",
+                                                              "itemCount":  5,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Galatine",
+                                                              "uniqueName":  "/Lotus/Weapons/Tenno/Melee/Swords/GreatSword/TennoGreatSword",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Orokin Cell",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/OrokinCell",
+                                                              "itemCount":  15,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Orokin Ducats",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/PrimeBucks",
+                                                              "itemCount":  1000,
+                                                              "type":  null,
+                                                              "tradable":  true,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  30,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Paracesis.png?f1231",
+                                   "url":  "https://wiki.warframe.com/w/Paracesis",
+                                   "imageName":  "paracesis-5537fcd640.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  0.917,
+                                          "crit_chance":  31,
+                                          "crit_mult":  2.6,
+                                          "status_chance":  22,
+                                          "damage":  {
+                                                         "impact":  48.8,
+                                                         "slash":  155.4,
+                                                         "puncture":  17.8
+                                                     },
+                                          "slide":  "444"
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  0.917,
+                                          "crit_chance":  31,
+                                          "crit_mult":  2.6,
+                                          "status_chance":  12,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  8,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "impact":  444
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  0.917,
+                                          "crit_chance":  31,
+                                          "crit_mult":  2.6,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  9,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "blast":  666
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  444,
+                      "blockingAngle":  55,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  48.84,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  17.76,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  155.39999,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  222,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            48.84,
+                                            17.76,
+                                            155.39999,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  2.9000001,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  1332,
+                      "followThrough":  0.60000002,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  666,
+                      "stancePolarity":  "vazarin",
+                      "slideAttack":  444,
+                      "windUp":  1.1,
+                      "slamRadius":  8,
+                      "slamAttack":  666,
+                      "heavySlamRadius":  9
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Orokin/BallasSword/BallasSwordWeapon"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "The Sentient slayer. An offering from Ballas.",
+    "release":  {
+                    "releaseDate":  "2018-10-12",
+                    "introduced":  {
+                                       "date":  "2018-10-12",
+                                       "parent":  "23.10",
+                                       "url":  "https://wiki.warframe.com/w/Update_23%23Update_23.10",
+                                       "name":  "Update 23.10",
+                                       "aliases":  [
+                                                       "23.10",
+                                                       "23.10.0"
+                                                   ]
+                                   }
+                },
+    "summary":  "The Sentient slayer. An offering from Ballas.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.22000003,
+                  "polarities":  [
+                                     null
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  1,
+                  "magazineSize":  null,
+                  "fireRate":  0.91666669,
+                  "critMultiplier":  2.5999999,
+                  "totalDamage":  222,
+                  "vaulted":  null,
+                  "masteryReq":  10,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.31,
+                  "weaponClass":  "Rifle",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

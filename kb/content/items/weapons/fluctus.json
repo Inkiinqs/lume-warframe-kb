@@ -1,0 +1,228 @@
+{
+    "description":  "An Archwing energy weapon that sends waves of deadly plasma crashing into enemies.",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Fluctus",
+    "subCategory":  "archgun-arch-gun",
+    "mechanics":  {
+                      "heavySlamAttack":  null,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  45000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Argon Crystal",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/ArgonCrystal",
+                                                              "itemCount":  2,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Barrel",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/ArchRocketCrossbowBarrel",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Cephalon Suda, Intelligent",
+                                                                                "type":  "Fluctus Barrel",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/ArchRocketCrossbowBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Limbs",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/ArchRocketCrossbowStock",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Stock",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/ArchRocketCrossbowReceiver",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Steel Meridian, Defender",
+                                                                                "type":  "Fluctus Stock",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  50,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Fluctus.png?e32bf",
+                                   "url":  "https://wiki.warframe.com/w/Fluctus",
+                                   "imageName":  "fluctus-1e012e3298.png",
+                                   "available":  true
+                               },
+                      "followThrough":  null,
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  5,
+                                          "crit_chance":  22,
+                                          "crit_mult":  2,
+                                          "status_chance":  16,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  300,
+                                          "flight":  300,
+                                          "falloff":  {
+                                                          "start":  800,
+                                                          "end":  1600,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "impact":  50,
+                                                         "slash":  175,
+                                                         "puncture":  25
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  null,
+                      "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  50,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  25,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  175,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  250,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "damagePerShot":  [
+                                            50,
+                                            25,
+                                            175,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ]
+                  },
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD archgun static data."
+              ],
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Archwing/Primary/RocketArtillery/ArchRocketCrossbow"
+                ],
+    "tags":  [
+                 "weapon",
+                 "archgun"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "id":  "weapon.fluctus",
+    "release":  {
+                    "releaseDate":  "2014-12-19",
+                    "introduced":  {
+                                       "date":  "2014-12-19",
+                                       "parent":  "15.7",
+                                       "url":  "https://wiki.warframe.com/w/Update_15%23Hotfix_15.7.2",
+                                       "name":  "Hotfix 15.7.2",
+                                       "aliases":  [
+                                                       "15.7.2"
+                                                   ]
+                                   }
+                },
+    "summary":  "An Archwing energy weapon that sends waves of deadly plasma crashing into enemies.",
+    "stats":  {
+                  "accuracy":  100,
+                  "noise":  "Alarming",
+                  "polarities":  [
+                                     "naramon"
+                                 ],
+                  "tradable":  false,
+                  "vaulted":  null,
+                  "totalDamage":  250,
+                  "disposition":  3,
+                  "magazineSize":  40,
+                  "fireRate":  5.0000005,
+                  "critMultiplier":  2,
+                  "reloadTime":  5,
+                  "masteryReq":  2,
+                  "statusChance":  0.15999997,
+                  "slot":  "archgun",
+                  "estimatedVaultDate":  null,
+                  "trigger":  "Semi",
+                  "critChance":  0.22,
+                  "weaponClass":  "Arch-Gun",
+                  "masterable":  true,
+                  "multishot":  1,
+                  "vaultDate":  null
+              }
+}

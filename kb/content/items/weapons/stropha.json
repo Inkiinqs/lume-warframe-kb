@@ -1,0 +1,289 @@
+{
+    "id":  "weapon.stropha",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Stropha",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  880,
+                      "crafting":  {
+                                       "buildTime":  86400,
+                                       "buildPrice":  30000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Barrel",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/CrpGunbladeBarrel",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Granum Void, Rotation C",
+                                                                                "type":  "Stropha Barrel",
+                                                                                "chance":  22.22,
+                                                                                "rarity":  "Uncommon"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blade",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/CrpGunbladeBlade",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Granum Void, Rotation C",
+                                                                                "type":  "Stropha Blade",
+                                                                                "chance":  22.22,
+                                                                                "rarity":  "Uncommon"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/CrpGunBladeWeaponBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Jackal",
+                                                                                "type":  "Stropha Blueprint",
+                                                                                "chance":  15,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Receiver",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/CrpGunbladeReceiver",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Extended Granum Void, Rotation C",
+                                                                                "type":  "Stropha Receiver",
+                                                                                "chance":  29.63,
+                                                                                "rarity":  "Uncommon"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Stock",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/CrpGunbladeStock",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Nightmare Granum Void, Rotation C",
+                                                                                "type":  "Stropha Stock",
+                                                                                "chance":  29.63,
+                                                                                "rarity":  "Uncommon"
+                                                                            }
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  25,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  "https://wiki.warframe.com/w/Stropha",
+                                   "imageName":  "stropha-7e14214568.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  1,
+                                          "crit_chance":  30,
+                                          "crit_mult":  2.4,
+                                          "status_chance":  14,
+                                          "damage":  {
+                                                         "impact":  61.6,
+                                                         "slash":  83.6,
+                                                         "puncture":  74.8
+                                                     },
+                                          "slide":  "440"
+                                      },
+                                      {
+                                          "name":  "Ranged Attack",
+                                          "speed":  1,
+                                          "crit_chance":  30,
+                                          "crit_mult":  2.4,
+                                          "status_chance":  14,
+                                          "charge_time":  0.4,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  120,
+                                          "flight":  120,
+                                          "falloff":  {
+                                                          "start":  6,
+                                                          "end":  12,
+                                                          "reduction":  0.9857
+                                                      },
+                                          "damage":  {
+                                                         "impact":  700
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  1,
+                                          "crit_chance":  30,
+                                          "crit_mult":  2.4,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  5,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "impact":  440
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  1,
+                                          "crit_chance":  30,
+                                          "crit_mult":  2.4,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  8,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "blast":  660
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  440,
+                      "blockingAngle":  45,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  61.599998,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  74.800003,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  83.599998,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  220,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            61.599998,
+                                            74.800003,
+                                            83.599998,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  2,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  1100,
+                      "followThrough":  0.5,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  660,
+                      "stancePolarity":  "madurai",
+                      "slideAttack":  440,
+                      "windUp":  0.40000001,
+                      "slamRadius":  5,
+                      "slamAttack":  660,
+                      "heavySlamRadius":  8
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Corpus/Melee/Gunblade/CrpGunBlade/CrpGunbladeWeapon"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "A short-blade melee weapon with an ace up its sleeve. Send nearby enemies flying with a powerful short-range shockwave.",
+    "release":  {
+                    "releaseDate":  "2020-06-11",
+                    "introduced":  {
+                                       "date":  "2020-06-11",
+                                       "parent":  "28.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_28%23Update_28.0",
+                                       "name":  "Update 28.0",
+                                       "aliases":  [
+                                                       "28.0",
+                                                       "28",
+                                                       "The Deadlock Protocol"
+                                                   ]
+                                   }
+                },
+    "summary":  "A short-blade melee weapon with an ace up its sleeve. Send nearby enemies flying with a powerful short-range shockwave.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.13999999,
+                  "polarities":  [
+                                     null
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  1,
+                  "magazineSize":  null,
+                  "fireRate":  1,
+                  "critMultiplier":  2.4000001,
+                  "totalDamage":  220,
+                  "vaulted":  null,
+                  "masteryReq":  10,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.30000001,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

@@ -1,0 +1,112 @@
+{
+    "generatedAt":  "2026-04-12T10:57:28Z",
+    "schemaVersion":  "query-router-examples.v1",
+    "description":  "Example utterances for query-router tests and future classifier prompts.",
+    "examples":  [
+                     {
+                         "text":  "make me a Rhino build for Murmur",
+                         "expectedIntent":  "build.recommendation.for-enemy",
+                         "primaryView":  "ai/materialized-views/assistant-build-contracts.view.json"
+                     },
+                     {
+                         "text":  "what should I use against a Nullifier",
+                         "expectedIntent":  "build.recommendation.for-enemy",
+                         "primaryView":  "ai/materialized-views/assistant-build-contracts.view.json"
+                     },
+                     {
+                         "text":  "build my Acceltra for Corrupted Heavy Gunner",
+                         "expectedIntent":  "build.recommendation.for-enemy",
+                         "primaryView":  "ai/materialized-views/assistant-build-contracts.view.json"
+                     },
+                     {
+                         "text":  "what damage should I bring against Corpus",
+                         "expectedIntent":  "build.recommendation.for-faction",
+                         "primaryView":  "ai/materialized-views/faction-combat-profiles.view.json"
+                     },
+                     {
+                         "text":  "best statuses for Grineer",
+                         "expectedIntent":  "build.recommendation.for-faction",
+                         "primaryView":  "ai/materialized-views/faction-combat-profiles.view.json"
+                     },
+                     {
+                         "text":  "how do I mod for Infested",
+                         "expectedIntent":  "build.recommendation.for-faction",
+                         "primaryView":  "ai/materialized-views/faction-combat-profiles.view.json"
+                     },
+                     {
+                         "text":  "what am I missing for this build",
+                         "expectedIntent":  "inventory.gap-analysis",
+                         "primaryView":  "ai/materialized-views/assistant-build-contracts.view.json"
+                     },
+                     {
+                         "text":  "do I own the mods for Acceltra",
+                         "expectedIntent":  "inventory.gap-analysis",
+                         "primaryView":  "ai/materialized-views/assistant-build-contracts.view.json"
+                     },
+                     {
+                         "text":  "what parts am I missing for Saryn Prime",
+                         "expectedIntent":  "inventory.gap-analysis",
+                         "primaryView":  "ai/materialized-views/assistant-build-contracts.view.json"
+                     },
+                     {
+                         "text":  "where do I farm Saryn Prime Systems",
+                         "expectedIntent":  "farm.next-target",
+                         "primaryView":  "ai/materialized-views/player-missing-targets.view.json"
+                     },
+                     {
+                         "text":  "what should I farm next",
+                         "expectedIntent":  "farm.next-target",
+                         "primaryView":  "ai/materialized-views/player-missing-targets.view.json"
+                     },
+                     {
+                         "text":  "which relic has this part",
+                         "expectedIntent":  "farm.next-target",
+                         "primaryView":  "ai/materialized-views/player-missing-targets.view.json"
+                     },
+                     {
+                         "text":  "what does Heat status do",
+                         "expectedIntent":  "mechanic.explain",
+                         "primaryView":  "ai/search-docs/records.search.json"
+                     },
+                     {
+                         "text":  "how does armor work",
+                         "expectedIntent":  "mechanic.explain",
+                         "primaryView":  "ai/search-docs/records.search.json"
+                     },
+                     {
+                         "text":  "explain shield gating",
+                         "expectedIntent":  "mechanic.explain",
+                         "primaryView":  "ai/search-docs/records.search.json"
+                     },
+                     {
+                         "text":  "show me Acceltra stats",
+                         "expectedIntent":  "item.lookup",
+                         "primaryView":  "ai/search-docs/records.search.json"
+                     },
+                     {
+                         "text":  "what is Condition Overload",
+                         "expectedIntent":  "item.lookup",
+                         "primaryView":  "ai/search-docs/records.search.json"
+                     },
+                     {
+                         "text":  "tell me about Rhino",
+                         "expectedIntent":  "item.lookup",
+                         "primaryView":  "ai/search-docs/records.search.json"
+                     },
+                     {
+                         "text":  "is this part worth selling",
+                         "expectedIntent":  "market.price-check",
+                         "primaryView":  "ai/materialized-views/market-summary.view.json"
+                     },
+                     {
+                         "text":  "price check Saryn Prime Systems",
+                         "expectedIntent":  "market.price-check",
+                         "primaryView":  "ai/materialized-views/market-summary.view.json"
+                     },
+                     {
+                         "text":  "what should I trade",
+                         "expectedIntent":  "market.price-check",
+                         "primaryView":  "ai/materialized-views/market-summary.view.json"
+                     }
+                 ]
+}

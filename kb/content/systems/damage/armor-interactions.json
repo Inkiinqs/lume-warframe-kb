@@ -1,0 +1,51 @@
+{
+    "id":  "damage.armor-interactions",
+    "name":  "Armor Interactions",
+    "category":  "damage_rule",
+    "summary":  "Defines how armor changes incoming damage and how armor-affecting effects alter survivability.",
+    "mechanics":  {
+                      "appliesTo":  [
+                                        "armor",
+                                        "damage-types",
+                                        "status-effects"
+                                    ],
+                      "stacking":  "Armor modification rules depend on the specific source and should be tracked per effect.",
+                      "duration":  null,
+                      "formula":  "Store exact armor reduction and scaling formulas in companion records as they are sourced.",
+                      "specialRules":  [
+                                           "Separate permanent armor state from temporary armor strip and debuff effects."
+                                       ]
+                  },
+    "interactions":  {
+                         "relatedSystems":  [
+                                                "status.corrosive",
+                                                "damage.health-interactions",
+                                                "system.enemy-scaling"
+                                            ]
+                     },
+    "examples":  [
+                     "Used when reasoning about armor strip breakpoints and damage optimization."
+                 ],
+    "tags":  [
+                 "damage",
+                 "armor",
+                 "survivability"
+             ],
+    "notes":  "This is a canonical mechanic record, not an enemy-specific stat block.",
+    "sources":  [
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Damage"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Armor"
+                    }
+                ],
+    "verification":  {
+                         "trustLevel":  "community-verified",
+                         "sourceFamily":  "warframe-wiki",
+                         "patchSensitive":  true,
+                         "reviewedAt":  "2026-04-10"
+                     }
+}

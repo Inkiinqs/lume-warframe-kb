@@ -1,0 +1,281 @@
+{
+    "id":  "weapon.corufell",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Corufell",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  1000,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  15000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Barrel",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/GunScytheBlade",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Mars/Tyana Pass (Defense), Rotation B",
+                                                                                "type":  "Corufell Barrel",
+                                                                                "chance":  8,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/GunScytheBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Mars/Tyana Pass (Defense), Rotation A",
+                                                                                "type":  "Corufell Blueprint",
+                                                                                "chance":  10,
+                                                                                "rarity":  "Uncommon"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Handle",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/GunScytheHandle",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Mars/Tyana Pass (Defense), Rotation B",
+                                                                                "type":  "Corufell Handle",
+                                                                                "chance":  8,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Orokin Cell",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/OrokinCell",
+                                                              "itemCount":  3,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Receiver",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/GunScytheReceiver",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Mars/Tyana Pass (Defense), Rotation B",
+                                                                                "type":  "Corufell Receiver",
+                                                                                "chance":  8,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  50,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Corufell.png?5fe41",
+                                   "url":  "https://wiki.warframe.com/w/Corufell",
+                                   "imageName":  "corufell-d74a908016.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  1,
+                                          "crit_chance":  26,
+                                          "crit_mult":  2.4,
+                                          "status_chance":  14,
+                                          "damage":  {
+                                                         "impact":  96,
+                                                         "slash":  36,
+                                                         "puncture":  68
+                                                     },
+                                          "slide":  "400"
+                                      },
+                                      {
+                                          "name":  "Charged Projectile",
+                                          "speed":  0.833,
+                                          "crit_chance":  26,
+                                          "crit_mult":  2.4,
+                                          "status_chance":  14,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  40,
+                                          "flight":  40,
+                                          "falloff":  {
+                                                          "start":  15,
+                                                          "end":  30,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "heat":  600
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  1,
+                                          "crit_chance":  26,
+                                          "crit_mult":  2.4,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  8,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "blast":  400
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  1,
+                                          "crit_chance":  26,
+                                          "crit_mult":  2.4,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  9,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "blast":  600
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  400,
+                      "blockingAngle":  65,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  96,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  68,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  36,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  200,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            96,
+                                            68,
+                                            36,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  2.5999999,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  200,
+                      "followThrough":  0.40000001,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  600,
+                      "stancePolarity":  "madurai",
+                      "slideAttack":  400,
+                      "windUp":  1.3000001,
+                      "slamRadius":  8,
+                      "slamAttack":  600,
+                      "heavySlamRadius":  9
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Archwing/Melee/ExaltedArchScythe/ExaltedAWScytheWeapon"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "Heavy attacks briefly transform the Corufell into a Gunblade. After the Gunblade fires, the Corufell returns to its Heavy Scythe state. Its transformation is fastest in Citrine’s hands.",
+    "release":  {
+                    "releaseDate":  "2023-02-15",
+                    "introduced":  {
+                                       "date":  "2023-02-15",
+                                       "parent":  "32.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_32%23Update_32.3",
+                                       "name":  "Update 32.3",
+                                       "aliases":  [
+                                                       "32.3"
+                                                   ]
+                                   }
+                },
+    "summary":  "Heavy attacks briefly transform the Corufell into a Gunblade. After the Gunblade fires, the Corufell returns to its Heavy Scythe state. Its transformation is fastest in Citrine’s hands.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.13999999,
+                  "polarities":  [
+                                     "madurai"
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  3,
+                  "magazineSize":  null,
+                  "fireRate":  1,
+                  "critMultiplier":  2.4000001,
+                  "totalDamage":  200,
+                  "vaulted":  null,
+                  "masteryReq":  8,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.25999999,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

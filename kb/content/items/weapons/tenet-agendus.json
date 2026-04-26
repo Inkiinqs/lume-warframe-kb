@@ -1,0 +1,231 @@
+{
+    "id":  "weapon.tenet-agendus",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Tenet Agendus",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  1040,
+                      "crafting":  {
+                                       "buildTime":  60,
+                                       "buildPrice":  10000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/CrpHammerShieldBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Salvage",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Salvage",
+                                                              "itemCount":  1,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  0,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  "https://wiki.warframe.com/w/Tenet_Agendus",
+                                   "imageName":  "tenet-agendus-cb4920171a.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  0.917,
+                                          "crit_chance":  24,
+                                          "crit_mult":  2,
+                                          "status_chance":  28,
+                                          "damage":  {
+                                                         "impact":  120,
+                                                         "electricity":  140
+                                                     },
+                                          "slide":  "260"
+                                      },
+                                      {
+                                          "name":  "Energy Disk",
+                                          "speed":  1,
+                                          "crit_chance":  24,
+                                          "crit_mult":  2,
+                                          "status_chance":  28,
+                                          "charge_time":  1,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  80,
+                                          "flight":  80,
+                                          "falloff":  {
+                                                          "start":  10,
+                                                          "end":  20,
+                                                          "reduction":  0.9305
+                                                      },
+                                          "damage":  {
+                                                         "electricity":  2880
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  1.08,
+                                          "crit_chance":  24,
+                                          "crit_mult":  2,
+                                          "status_chance":  30,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  6,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "electricity":  520
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  0.917,
+                                          "crit_chance":  24,
+                                          "crit_mult":  2,
+                                          "status_chance":  30,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  10,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "electricity":  780
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  520,
+                      "blockingAngle":  90,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  120,
+                                     "electricity":  140,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  260,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            120,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            140,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  2.5999999,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  1040,
+                      "followThrough":  0.60000002,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  780,
+                      "stancePolarity":  "madurai",
+                      "slideAttack":  260,
+                      "windUp":  1,
+                      "slamRadius":  6,
+                      "slamAttack":  780,
+                      "heavySlamRadius":  10
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Corpus/Melee/ShieldAndSword/CrpHammerShield/CrpHammerShield"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "Drive the agenda with this massive impact hammer. Heavy attacks launch devastating energy disks.",
+    "release":  {
+                    "releaseDate":  "2021-07-06",
+                    "introduced":  {
+                                       "date":  "2021-07-06",
+                                       "parent":  "30.5",
+                                       "url":  "https://wiki.warframe.com/w/Update_30%23Update_30.5",
+                                       "name":  "Update 30.5",
+                                       "aliases":  [
+                                                       "30.5"
+                                                   ]
+                                   }
+                },
+    "summary":  "Drive the agenda with this massive impact hammer. Heavy attacks launch devastating energy disks.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.27999997,
+                  "polarities":  [
+                                     null
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  3,
+                  "magazineSize":  null,
+                  "fireRate":  0.91666669,
+                  "critMultiplier":  2,
+                  "totalDamage":  260,
+                  "vaulted":  null,
+                  "masteryReq":  14,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.23999999,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

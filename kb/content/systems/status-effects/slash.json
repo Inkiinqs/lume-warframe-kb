@@ -1,0 +1,60 @@
+{
+    "id":  "status.slash",
+    "name":  "Slash",
+    "category":  "status_effect",
+    "summary":  "Slash status applies a bleed damage-over-time effect.",
+    "mechanics":  {
+                      "appliesTo":  [
+                                        "health"
+                                    ],
+                      "stacking":  "Stacks by applying multiple bleed instances.",
+                      "duration":  "Time-based damage over the effect duration.",
+                      "formula":  "See combat formulas for damage-over-time scaling.",
+                      "specialRules":  [
+                                           "Commonly valued for damage-over-time pressure against health targets."
+                                       ]
+                  },
+    "interactions":  {
+                         "synergies":  [
+                                           "status.viral"
+                                       ],
+                         "affectedBy":  [
+                                            "system.damage-over-time"
+                                        ],
+                         "counteredBy":  [
+
+                                         ]
+                     },
+    "examples":  [
+                     "Used as a high-priority proc in many slash-weighted builds."
+                 ],
+    "tags":  [
+                 "status",
+                 "damage-over-time",
+                 "physical"
+             ],
+    "notes":  [
+                  "Keep patch-specific scaling details in dedicated formula records instead of hardcoding them everywhere.",
+                  "Slash is a core buildcraft benchmark because its damage-over-time behavior can bypass many armor-focused assumptions."
+              ],
+    "sources":  [
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Status_Effect"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Damage"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Damage/Slash_Damage"
+                    }
+                ],
+    "verification":  {
+                         "trustLevel":  "community-verified",
+                         "sourceFamily":  "warframe-wiki",
+                         "patchSensitive":  true,
+                         "reviewedAt":  "2026-04-10"
+                     }
+}

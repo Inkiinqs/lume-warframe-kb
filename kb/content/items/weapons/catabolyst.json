@@ -1,0 +1,271 @@
+{
+    "id":  "weapon.catabolyst",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Catabolyst",
+    "subCategory":  "secondary-pistol",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD secondary static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  null,
+                      "crafting":  {
+                                       "buildTime":  86400,
+                                       "buildPrice":  30000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/InfBeamPistolBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Mutagen Mass",
+                                                              "uniqueName":  "/Lotus/Types/Items/Research/BioComponent",
+                                                              "itemCount":  7,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Ocular Stem-Root",
+                                                              "uniqueName":  "/Lotus/Types/Items/Fish/Deimos/FishParts/DeimosInfestedFishFPartItem",
+                                                              "itemCount":  4,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Scintillant",
+                                                              "uniqueName":  "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/EntratiWispItem",
+                                                              "itemCount":  5,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Stellated Necrathene",
+                                                              "uniqueName":  "/Lotus/Types/Items/Gems/Deimos/DeimosRareGemACutItem",
+                                                              "itemCount":  10,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  35,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Catabolyst.png?984d0",
+                                   "url":  "https://wiki.warframe.com/w/Catabolyst",
+                                   "imageName":  "catabolyst-6a7047b949.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Primary",
+                                          "speed":  12,
+                                          "crit_chance":  11,
+                                          "crit_mult":  2.9,
+                                          "status_chance":  43,
+                                          "shot_type":  "Hit-Scan",
+                                          "falloff":  {
+                                                          "start":  9,
+                                                          "end":  19,
+                                                          "reduction":  0.9811
+                                                      },
+                                          "damage":  {
+                                                         "corrosive":  53
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Partial Reload Impact",
+                                          "speed":  12,
+                                          "crit_chance":  11,
+                                          "crit_mult":  2.9,
+                                          "status_chance":  43,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  0,
+                                          "damage":  {
+                                                         "impact":  11
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Partial Reload Explosion",
+                                          "speed":  12,
+                                          "crit_chance":  11,
+                                          "crit_mult":  2.9,
+                                          "status_chance":  43,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  5,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "corrosive":  203
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Reload From Empty Impact",
+                                          "speed":  12,
+                                          "crit_chance":  31,
+                                          "crit_mult":  2.9,
+                                          "status_chance":  59,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  0,
+                                          "damage":  {
+                                                         "impact":  11
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Reload From Empty Explosion",
+                                          "speed":  12,
+                                          "crit_chance":  31,
+                                          "crit_mult":  2.9,
+                                          "status_chance":  59,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  7,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "corrosive":  1997
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  null,
+                      "blockingAngle":  null,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  53,
+                                     "healthDrain":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  53,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            53,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Infested/Pistols/InfBeamPistol/InfBeamPistol"
+                ],
+    "tags":  [
+                 "weapon",
+                 "secondary"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "Splatter enemies with a short-range stream of corrosive bile and then toss the ammo bladder as a grenade when reloading. The emptier the pistol’s ammo bladder, the more potent its damage. A fully empty bladder packs the biggest punch.",
+    "release":  {
+                    "releaseDate":  "2020-11-19",
+                    "introduced":  {
+                                       "date":  "2020-11-19",
+                                       "parent":  "29.5",
+                                       "url":  "https://wiki.warframe.com/w/Update_29%23Update_29.5",
+                                       "name":  "Update 29.5",
+                                       "aliases":  [
+                                                       "29.5",
+                                                       "29.5.0"
+                                                   ]
+                                   }
+                },
+    "summary":  "Splatter enemies with a short-range stream of corrosive bile and then toss the ammo bladder as a grenade when reloading. The emptier the pistol’s ammo bladder, the more potent its damage. A fully empty bladder packs the biggest punch.",
+    "stats":  {
+                  "accuracy":  6.25,
+                  "statusChance":  0.43000001,
+                  "polarities":  [
+                                     "madurai"
+                                 ],
+                  "noise":  "Alarming",
+                  "tradable":  false,
+                  "reloadTime":  1.7,
+                  "disposition":  4,
+                  "magazineSize":  31,
+                  "fireRate":  12.000001,
+                  "critMultiplier":  2.9000001,
+                  "totalDamage":  53,
+                  "vaulted":  null,
+                  "masteryReq":  11,
+                  "slot":  "secondary",
+                  "estimatedVaultDate":  null,
+                  "trigger":  "Held",
+                  "critChance":  0.11,
+                  "weaponClass":  "Pistol",
+                  "masterable":  true,
+                  "multishot":  1,
+                  "vaultDate":  null
+              }
+}

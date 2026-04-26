@@ -1,0 +1,151 @@
+{
+    "description":  "Spawned the body of a creature killed by infested, these charges are fast with weak claw attacks.",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-enemies.json"
+                    }
+                ],
+    "name":  "Carrion Charger",
+    "subCategory":  "infestation",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD Enemy.json."
+              ],
+    "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "carrion-charger.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    {
+                                        "location":  "Calculated Redirection",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.18969999999999998
+                                    },
+                                    {
+                                        "location":  "15 Endo",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.18969999999999998
+                                    },
+                                    {
+                                        "location":  "Regen",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.18969999999999998
+                                    },
+                                    {
+                                        "location":  "Rupture",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.18969999999999998
+                                    },
+                                    {
+                                        "location":  "Convulsion",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0737
+                                    },
+                                    {
+                                        "location":  "Fracturing Wind",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0737
+                                    },
+                                    {
+                                        "location":  "Speed Trigger",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0737
+                                    },
+                                    {
+                                        "location":  "80 Endo",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0201
+                                    },
+                                    {
+                                        "location":  "Carrion Charger",
+                                        "type":  "Enemy Mod Tables",
+                                        "chance":  null
+                                    }
+                                ],
+                      "resistances":  [
+                                          {
+                                              "amount":  0,
+                                              "type":  "Shield",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "None",
+                                                                    "modifier":  0
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  0,
+                                              "type":  "Ferrite Armor",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "None",
+                                                                    "modifier":  0
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  80,
+                                              "type":  "Infested",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "Slash",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Heat",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Gas",
+                                                                    "modifier":  0
+                                                                },
+                                                                {
+                                                                    "element":  "Radiation",
+                                                                    "modifier":  -0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Viral",
+                                                                    "modifier":  -0.75
+                                                                }
+                                                            ]
+                                          }
+                                      ]
+                  },
+    "aliases":  [
+                    "/Lotus/Types/Enemies/Infested/AiWeek/Quadrupeds/QuadrupedColonistAvatarLeader"
+                ],
+    "tags":  [
+                 "enemy",
+                 "infestation"
+             ],
+    "category":  "enemy",
+    "relationships":  [
+
+                      ],
+    "id":  "enemy.carrion-charger",
+    "release":  {
+
+                },
+    "summary":  "Spawned the body of a creature killed by infested, these charges are fast with weak claw attacks.",
+    "stats":  {
+                  "armor":  0,
+                  "type":  "Infestation",
+                  "shield":  0,
+                  "health":  80,
+                  "regionBits":  32928,
+                  "tradable":  false,
+                  "faction":  "Infestation"
+              }
+}

@@ -1,0 +1,32 @@
+{
+    "id":  "relationship.drop-corufell-blueprint-mars-tyana-pass-defense-rotation-a",
+    "type":  "wfcd_drop",
+    "from":  "activity.mars-tyana-pass",
+    "to":  "part.corufell-blueprint",
+    "summary":  "Mars/Tyana Pass (Defense), Rotation A can drop Corufell Blueprint.",
+    "conditions":  {
+                       "rotation":  "A"
+                   },
+    "values":  {
+                   "location":  "Mars/Tyana Pass (Defense), Rotation A",
+                   "chance":  10,
+                   "rarity":  "Uncommon",
+                   "rewardType":  "Corufell Blueprint",
+                   "parentId":  "weapon.corufell",
+                   "rawLocation":  "Mars/Tyana Pass (Defense), Rotation A",
+                   "locationPlanet":  "Mars",
+                   "locationNode":  "Tyana Pass",
+                   "missionType":  "Defense"
+               },
+    "tags":  [
+                 "drop",
+                 "wfcd-generated",
+                 "activity-normalized"
+             ],
+    "sources":  [
+                    {
+                        "type":  "wfcd-generated",
+                        "value":  "drop:weapon.corufell"
+                    }
+                ]
+}

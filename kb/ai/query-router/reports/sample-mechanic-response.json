@@ -1,0 +1,65 @@
+{
+    "generatedAt":  "2026-04-11T10:37:29Z",
+    "schemaVersion":  "assistant-query-response.v1",
+    "query":  "what does Heat status do",
+    "routing":  {
+                    "intent":  "mechanic.explain",
+                    "score":  8,
+                    "reasons":  [
+                                    "mechanics explanation language"
+                                ],
+                    "primaryView":  "ai/search-docs/records.search.json",
+                    "fallbackViews":  [
+                                          "ai/materialized-views/faction-combat-profiles.view.json",
+                                          "ai/materialized-views/enemy-matchups.view.json"
+                                      ]
+                },
+    "responseType":  "search.lookup",
+    "payload":  {
+                    "matches":  [
+                                    {
+                                        "id":  "status.heat",
+                                        "name":  "Heat",
+                                        "category":  "status_effect",
+                                        "subCategory":  "",
+                                        "sourcePath":  "content/systems/status-effects/heat.json",
+                                        "score":  30
+                                    },
+                                    {
+                                        "id":  "status.blast",
+                                        "name":  "Blast",
+                                        "category":  "status_effect",
+                                        "subCategory":  "",
+                                        "sourcePath":  "content/systems/status-effects/blast.json",
+                                        "score":  9
+                                    },
+                                    {
+                                        "id":  "status.cold",
+                                        "name":  "Cold",
+                                        "category":  "status_effect",
+                                        "subCategory":  "",
+                                        "sourcePath":  "content/systems/status-effects/cold.json",
+                                        "score":  9
+                                    },
+                                    {
+                                        "id":  "status.corrosive",
+                                        "name":  "Corrosive",
+                                        "category":  "status_effect",
+                                        "subCategory":  "",
+                                        "sourcePath":  "content/systems/status-effects/corrosive.json",
+                                        "score":  9
+                                    },
+                                    {
+                                        "id":  "status.electric",
+                                        "name":  "Electric",
+                                        "category":  "status_effect",
+                                        "subCategory":  "",
+                                        "sourcePath":  "content/systems/status-effects/electric.json",
+                                        "score":  9
+                                    }
+                                ]
+                },
+    "sources":  [
+                    "ai/search-docs/records.search.json"
+                ]
+}

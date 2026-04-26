@@ -1,0 +1,49 @@
+{
+    "id":  "modding.faction-damage",
+    "name":  "Faction Damage",
+    "category":  "modding_rule",
+    "summary":  "Explains how faction-specific damage modifiers fit into damage calculations.",
+    "mechanics":  {
+                      "appliesTo":  [
+                                        "mods",
+                                        "faction-targeting",
+                                        "damage-calculation"
+                                    ],
+                      "stacking":  "Track exact placement in the damage pipeline from sourced updates.",
+                      "duration":  null,
+                      "formula":  "Store exact faction multiplier handling in validated updates.",
+                      "specialRules":  [
+                                           "Keep this separate because it materially changes best-in-slot build recommendations."
+                                       ]
+                  },
+    "interactions":  {
+                         "relatedSystems":  [
+                                                "formula.base-damage-stacking"
+                                            ]
+                     },
+    "examples":  [
+
+                 ],
+    "tags":  [
+                 "modding",
+                 "faction",
+                 "damage"
+             ],
+    "notes":  null,
+    "sources":  [
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Mod"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Damage"
+                    }
+                ],
+    "verification":  {
+                         "trustLevel":  "community-verified",
+                         "sourceFamily":  "warframe-wiki",
+                         "patchSensitive":  true,
+                         "reviewedAt":  "2026-04-10"
+                     }
+}

@@ -1,0 +1,251 @@
+{
+    "id":  "weapon.gorgon-wraith",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Gorgon Wraith",
+    "subCategory":  "primary-rifle",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD primary static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  null,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  25000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Barrel",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/GorgonWraithBarrel",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  true,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Razorback",
+                                                                                "type":  "Gorgon Wraith Barrel",
+                                                                                "chance":  18.97,
+                                                                                "rarity":  "Uncommon"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/GorgonWraithBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  true,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Razorback",
+                                                                                "type":  "Gorgon Wraith Blueprint",
+                                                                                "chance":  18.97,
+                                                                                "rarity":  "Uncommon"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Receiver",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/GorgonWraithReceiver",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  true,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Razorback",
+                                                                                "type":  "Gorgon Wraith Receiver",
+                                                                                "chance":  18.97,
+                                                                                "rarity":  "Uncommon"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Stock",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/GorgonWraithStock",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  true,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Razorback",
+                                                                                "type":  "Gorgon Wraith Stock",
+                                                                                "chance":  18.97,
+                                                                                "rarity":  "Uncommon"
+                                                                            }
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  50,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/GorgonWraith.png?505bf",
+                                   "url":  "https://wiki.warframe.com/w/Gorgon_Wraith",
+                                   "imageName":  "gorgon-wraith-c4203ce84d.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Fully Spooled",
+                                          "speed":  13.33,
+                                          "crit_chance":  15,
+                                          "crit_mult":  1.9,
+                                          "status_chance":  21,
+                                          "shot_type":  "Hit-Scan",
+                                          "damage":  {
+                                                         "impact":  22.95,
+                                                         "slash":  1.35,
+                                                         "puncture":  2.7
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Incarnon Form",
+                                          "speed":  1,
+                                          "crit_chance":  19,
+                                          "crit_mult":  2.1,
+                                          "status_chance":  27,
+                                          "shot_type":  "Projectile",
+                                          "damage":  {
+                                                         "impact":  25,
+                                                         "slash":  25,
+                                                         "puncture":  75
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Incarnon Form AoE",
+                                          "speed":  1,
+                                          "crit_chance":  19,
+                                          "crit_mult":  2.1,
+                                          "status_chance":  27,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  5,
+                                                          "reduction":  0.1
+                                                      },
+                                          "damage":  {
+                                                         "heat":  750
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  null,
+                      "blockingAngle":  null,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  22.950001,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  2.7,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  1.3499987,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  27,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            22.950001,
+                                            2.7,
+                                            1.3499987,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Grineer/LongGuns/WraithGorgon/WraithGorgon"
+                ],
+    "tags":  [
+                 "weapon",
+                 "primary"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "The Gorgon Wraith is a powerful variant of its precursor that features unique styling.",
+    "release":  {
+                    "releaseDate":  "2014-03-05",
+                    "introduced":  {
+                                       "date":  "2014-03-05",
+                                       "parent":  "12.4",
+                                       "url":  "https://wiki.warframe.com/w/Update_12%23Update_12.4",
+                                       "name":  "Update 12.4",
+                                       "aliases":  [
+                                                       "12.4",
+                                                       "12.4.0"
+                                                   ]
+                                   }
+                },
+    "summary":  "The Gorgon Wraith is a powerful variant of its precursor that features unique styling.",
+    "stats":  {
+                  "accuracy":  16.666666,
+                  "statusChance":  0.20999998,
+                  "polarities":  [
+                                     null
+                                 ],
+                  "noise":  "Alarming",
+                  "tradable":  true,
+                  "reloadTime":  3,
+                  "disposition":  5,
+                  "magazineSize":  90,
+                  "fireRate":  13.333334,
+                  "critMultiplier":  1.9,
+                  "totalDamage":  27,
+                  "vaulted":  null,
+                  "masteryReq":  7,
+                  "slot":  "primary",
+                  "estimatedVaultDate":  null,
+                  "trigger":  "Auto",
+                  "critChance":  0.15000001,
+                  "weaponClass":  "Rifle",
+                  "masterable":  true,
+                  "multishot":  1,
+                  "vaultDate":  null
+              }
+}

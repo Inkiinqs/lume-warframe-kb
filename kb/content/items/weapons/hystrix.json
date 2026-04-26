@@ -1,0 +1,278 @@
+{
+    "id":  "weapon.hystrix",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Hystrix",
+    "subCategory":  "secondary-pistol",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD secondary static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  null,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  20000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/QuillDartgunBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Bolto",
+                                                              "uniqueName":  "/Lotus/Weapons/Tenno/Pistol/CrossBow",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Control Module",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/ControlModule",
+                                                              "itemCount":  15,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Ferrite",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Ferrite",
+                                                              "itemCount":  9750,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Viper",
+                                                              "uniqueName":  "/Lotus/Weapons/Grineer/GrineerPistol/GrineerLightPistol",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Corrupted Crewman",
+                                                                                "type":  "Coiling Viper",
+                                                                                "chance":  0.03,
+                                                                                "rarity":  "Legendary"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Conclave, Typhoon",
+                                                                                "type":  "Viper Conclave Skin",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Lua/Pavlov (Spy), Rotation C",
+                                                                                "type":  "Coiling Viper",
+                                                                                "chance":  37.94,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  25,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Hystrix.png?f96d3",
+                                   "url":  "https://wiki.warframe.com/w/Hystrix",
+                                   "imageName":  "hystrix-9ceb9a9a5c.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Poison Quill",
+                                          "speed":  7,
+                                          "crit_chance":  24,
+                                          "crit_mult":  2.2,
+                                          "status_chance":  10,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  80,
+                                          "flight":  80,
+                                          "damage":  {
+                                                         "impact":  2.16,
+                                                         "slash":  2.88,
+                                                         "puncture":  30.96
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Fire Quill",
+                                          "speed":  7,
+                                          "crit_chance":  24,
+                                          "crit_mult":  2.2,
+                                          "status_chance":  10,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  80,
+                                          "flight":  80,
+                                          "damage":  {
+                                                         "impact":  2.4,
+                                                         "slash":  3.2,
+                                                         "puncture":  34.4
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Electric Quill",
+                                          "speed":  7,
+                                          "crit_chance":  24,
+                                          "crit_mult":  2.2,
+                                          "status_chance":  10,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  80,
+                                          "flight":  80,
+                                          "damage":  {
+                                                         "impact":  2.4,
+                                                         "slash":  3.2,
+                                                         "puncture":  34.4
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Ice Quill",
+                                          "speed":  7,
+                                          "crit_chance":  24,
+                                          "crit_mult":  2.2,
+                                          "status_chance":  10,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  80,
+                                          "flight":  80,
+                                          "damage":  {
+                                                         "impact":  2.16,
+                                                         "slash":  2.88,
+                                                         "puncture":  30.96
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  null,
+                      "blockingAngle":  null,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  2.1599998,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  30.960001,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  2.8799994,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  36.000004,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            2.1599998,
+                                            30.960001,
+                                            2.8799994,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Pistols/QuillDartgun/QuillDartGunWeapon"
+                ],
+    "tags":  [
+                 "weapon",
+                 "secondary"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "Heat, cold, electricity, or toxin: choose an element and launch a flurry of deadly quills. This versatile sidearm is Khora’s signature weapon and has a chance to instantly reload after headshots when she wields it.",
+    "release":  {
+                    "releaseDate":  "2018-04-20",
+                    "introduced":  {
+                                       "date":  "2018-04-20",
+                                       "parent":  "22.18",
+                                       "url":  "https://wiki.warframe.com/w/Update_22%23Update_22.18",
+                                       "name":  "Update 22.18",
+                                       "aliases":  [
+                                                       "22.18.0",
+                                                       "22.18",
+                                                       "Beasts of the Sanctuary",
+                                                       "BotS"
+                                                   ]
+                                   }
+                },
+    "summary":  "Heat, cold, electricity, or toxin: choose an element and launch a flurry of deadly quills. This versatile sidearm is Khora’s signature weapon and has a chance to instantly reload after headshots when she wields it.",
+    "stats":  {
+                  "accuracy":  14.285714,
+                  "statusChance":  0.10000002,
+                  "polarities":  [
+                                     "madurai"
+                                 ],
+                  "noise":  "Alarming",
+                  "tradable":  false,
+                  "reloadTime":  1.7,
+                  "disposition":  4,
+                  "magazineSize":  16,
+                  "fireRate":  7.0000005,
+                  "critMultiplier":  2.2,
+                  "totalDamage":  36.000004,
+                  "vaulted":  null,
+                  "masteryReq":  7,
+                  "slot":  "secondary",
+                  "estimatedVaultDate":  null,
+                  "trigger":  "Auto",
+                  "critChance":  0.23999999,
+                  "weaponClass":  "Pistol",
+                  "masterable":  true,
+                  "multishot":  1,
+                  "vaultDate":  null
+              }
+}

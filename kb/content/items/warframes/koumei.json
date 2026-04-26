@@ -1,0 +1,178 @@
+{
+    "id":  "warframe.koumei",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-warframes.json"
+                    }
+                ],
+    "name":  "Koumei",
+    "subCategory":  "standard",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD Warframes.json."
+              ],
+    "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  "https://wiki.warframe.com/w/Koumei",
+                                   "imageName":  "koumei-6cf94f7516.png",
+                                   "available":  true
+                               },
+                      "crafting":  {
+                                       "buildTime":  86400,
+                                       "buildPrice":  25000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/KoumeiBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Earth/Saya\u0027s Visions (Shrine Defense)",
+                                                                                "type":  "Koumei Blueprint",
+                                                                                "chance":  4.09,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Chassis",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/KoumeiChassisComponent",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Earth/Saya\u0027s Visions (Shrine Defense)",
+                                                                                "type":  "Koumei Chassis Blueprint",
+                                                                                "chance":  4.09,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Fate Pearl",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/ShrineFragment",
+                                                              "itemCount":  30,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Neuroptics",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/KoumeiHelmetComponent",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Earth/Saya\u0027s Visions (Shrine Defense)",
+                                                                                "type":  "Koumei Neuroptics Blueprint",
+                                                                                "chance":  4.09,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Systems",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/KoumeiSystemsComponent",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Earth/Saya\u0027s Visions (Shrine Defense)",
+                                                                                "type":  "Koumei Systems Blueprint",
+                                                                                "chance":  4.09,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  50,
+                                       "consumeOnBuild":  true
+                                   },
+                      "exalted":  [
+                                      null
+                                  ],
+                      "abilities":  [
+                                        {
+                                            "name":  "Kumihimo",
+                                            "description":  "Weave the threads of destiny. Enemies who touch the threads suffer a random Elemental Status Effect.\n\nA roll of triple sixes creates threads that inflict one of every Elemental Status Effect.",
+                                            "uniqueName":  "/Lotus/Powersuits/Koumei/Abilities/KoumeiStringsAbility",
+                                            "imageName":  "kumihimo-83207bd1c3.png"
+                                        },
+                                        {
+                                            "name":  "Omikuji",
+                                            "description":  "Koumei glimpses a favorable future and the precise steps needed to reach it. Complete the challenge to earn a Decree. Unlucky rolls add a debuff, but you can hold the ability to reject the Omikuji.\n\nA roll of triple sixes grants a Decree without a challenge.",
+                                            "uniqueName":  "/Lotus/Powersuits/Koumei/Abilities/KoumeiFortuneAbility",
+                                            "imageName":  "omikuji-e6722ad3df.png"
+                                        },
+                                        {
+                                            "name":  "Omamori",
+                                            "description":  "Surround yourself with Omamori Charms, each with a chance to have enemy attacks heal you instead of damage you. The number of charms is determined by Koumei’s dice roll.\n\nA roll of triple sixes grants invulnerability for the duration of your Omamori Charms.",
+                                            "uniqueName":  "/Lotus/Powersuits/Koumei/Abilities/KoumeiBlockAbility",
+                                            "imageName":  "omamori-ce55c23b23.png"
+                                        },
+                                        {
+                                            "name":  "Bunraku",
+                                            "description":  "Wield your foe’s fate threads like the strings of marionettes. Koumei’s dice determine how many Status Effects foes in front of Koumei will suffer.\n\nA roll of triple sixes causes further Status Effects over time and extends Bunraku to enemies behind Koumei.",
+                                            "uniqueName":  "/Lotus/Powersuits/Koumei/Abilities/KoumeiPuppetAbility",
+                                            "imageName":  "bunraku-34a94fa6fe.png"
+                                        }
+                                    ],
+                      "passiveDescription":  "Every |DURATION| seconds, one of Koumei\u0027s weapons will inflict random Status Effects for |DURATION| seconds."
+                  },
+    "aliases":  [
+                    "/Lotus/Powersuits/Koumei/Koumei"
+                ],
+    "tags":  [
+                 "warframe",
+                 "base"
+             ],
+    "category":  "warframe",
+    "relationships":  [
+
+                      ],
+    "description":  "Test your luck with the dice-maiden. Koumei weaves fate to unleash damage and ensure her survival. To the virtuous, she is an oracle. To the wicked, a perilous game of chance.",
+    "release":  {
+                    "releaseDate":  "2024-10-02",
+                    "introduced":  {
+                                       "date":  "2024-10-02",
+                                       "parent":  "37.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_37%23Update_37.0",
+                                       "name":  "Update 37.0",
+                                       "aliases":  [
+                                                       "37",
+                                                       "37.0",
+                                                       "Koumei \u0026 the Five Fates"
+                                                   ]
+                                   }
+                },
+    "summary":  "Test your luck with the dice-maiden. Koumei weaves fate to unleash damage and ensure her survival. To the virtuous, she is an oracle. To the wicked, a perilous game of chance.",
+    "stats":  {
+                  "shield":  122,
+                  "aura":  "madurai",
+                  "tradable":  false,
+                  "polarities":  [
+                                     "madurai",
+                                     "naramon"
+                                 ],
+                  "sprintSpeed":  1,
+                  "health":  344,
+                  "power":  122,
+                  "vaulted":  null,
+                  "masteryReq":  0,
+                  "estimatedVaultDate":  null,
+                  "stamina":  3,
+                  "masterable":  true,
+                  "vaultDate":  null,
+                  "armor":  444
+              }
+}

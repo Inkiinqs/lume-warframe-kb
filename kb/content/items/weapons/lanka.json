@@ -1,0 +1,231 @@
+{
+    "id":  "weapon.lanka",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Lanka",
+    "subCategory":  "primary-sniper",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD primary static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  null,
+                      "crafting":  {
+                                       "buildTime":  86400,
+                                       "buildPrice":  30000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Alloy Plate",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                                                              "itemCount":  600,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Weapons/ClanTech/Energy/RailgunBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Fieldron",
+                                                              "uniqueName":  "/Lotus/Types/Items/Research/EnergyComponent",
+                                                              "itemCount":  5,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Forma",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Forma",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Gallium",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Gallium",
+                                                              "itemCount":  20,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  35,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Lanka.png?b8db7",
+                                   "url":  "https://wiki.warframe.com/w/Lanka",
+                                   "imageName":  "lanka-49355e9fbb.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Partially Charged Shot",
+                                          "crit_chance":  20,
+                                          "crit_mult":  2,
+                                          "status_chance":  25,
+                                          "charge_time":  0.3,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  200,
+                                          "flight":  200,
+                                          "falloff":  {
+                                                          "start":  400,
+                                                          "end":  600,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "electricity":  200
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Charged Shot",
+                                          "crit_chance":  25,
+                                          "crit_mult":  2,
+                                          "status_chance":  25,
+                                          "charge_time":  1,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  250,
+                                          "flight":  250,
+                                          "damage":  {
+                                                         "electricity":  525
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  null,
+                      "blockingAngle":  null,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  0,
+                                     "electricity":  525,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  525,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            525,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/ClanTech/Energy/Railgun"
+                ],
+    "tags":  [
+                 "weapon",
+                 "primary"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "The Lanka fires a high velocity projectile through magnetic induction.",
+    "release":  {
+                    "releaseDate":  "2013-05-23",
+                    "introduced":  {
+                                       "date":  "2013-05-23",
+                                       "parent":  "8.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_8%23Update_8.0",
+                                       "name":  "Update 8.0",
+                                       "aliases":  [
+                                                       "8",
+                                                       "8.0",
+                                                       "Update 8"
+                                                   ]
+                                   }
+                },
+    "summary":  "The Lanka fires a high velocity projectile through magnetic induction.",
+    "stats":  {
+                  "accuracy":  100,
+                  "statusChance":  0.25,
+                  "polarities":  [
+                                     null
+                                 ],
+                  "noise":  "Alarming",
+                  "tradable":  false,
+                  "reloadTime":  2,
+                  "disposition":  3,
+                  "magazineSize":  10,
+                  "fireRate":  0,
+                  "critMultiplier":  2,
+                  "totalDamage":  525,
+                  "vaulted":  null,
+                  "masteryReq":  10,
+                  "slot":  "primary",
+                  "estimatedVaultDate":  null,
+                  "trigger":  "Charge",
+                  "critChance":  0.2,
+                  "weaponClass":  "Sniper",
+                  "masterable":  true,
+                  "multishot":  1,
+                  "vaultDate":  null
+              }
+}

@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "warframe-kb/import-manifest.schema.json",
+  "title": "Warframe KB Import Manifest",
+  "type": "object",
+  "required": [
+    "sourceId",
+    "sourceType",
+    "fetchedAt",
+    "normalizesInto"
+  ],
+  "properties": {
+    "sourceId": {
+      "type": "string"
+    },
+    "sourceType": {
+      "type": "string"
+    },
+    "fetchedAt": {
+      "type": "string"
+    },
+    "upstreamVersion": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "files": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "file",
+          "domain"
+        ],
+        "properties": {
+          "file": {
+            "type": "string"
+          },
+          "domain": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "normalizesInto": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,304 @@
+{
+    "id":  "weapon.coda-pathocyst",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Coda Pathocyst",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  1080,
+                      "crafting":  {
+                                       "buildTime":  null,
+                                       "buildPrice":  null,
+                                       "buildQuantity":  null,
+                                       "components":  [
+                                                          {
+                                                              "name":  null,
+                                                              "uniqueName":  null,
+                                                              "itemCount":  null,
+                                                              "type":  null,
+                                                              "tradable":  null,
+                                                              "drops":  [
+                                                                            null
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  null,
+                                       "consumeOnBuild":  null
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/CodaPathocyst.png?2ea1f",
+                                   "url":  "https://wiki.warframe.com/w/Coda_Pathocyst",
+                                   "imageName":  "coda-pathocyst-44d3400c0d.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  0.667,
+                                          "crit_chance":  20,
+                                          "crit_mult":  2.3,
+                                          "status_chance":  35,
+                                          "damage":  {
+                                                         "impact":  58,
+                                                         "slash":  65,
+                                                         "puncture":  55,
+                                                         "viral":  92
+                                                     },
+                                          "slide":  "524"
+                                      },
+                                      {
+                                          "name":  "Throw",
+                                          "speed":  0.667,
+                                          "crit_chance":  22,
+                                          "crit_mult":  2.4,
+                                          "status_chance":  36,
+                                          "shot_type":  "Thrown",
+                                          "shot_speed":  30,
+                                          "flight":  30,
+                                          "damage":  {
+                                                         "impact":  49,
+                                                         "slash":  80,
+                                                         "puncture":  45,
+                                                         "viral":  123
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Throw Bounce Explosion",
+                                          "speed":  0.667,
+                                          "crit_chance":  22,
+                                          "crit_mult":  2.4,
+                                          "status_chance":  36,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  4.9,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "viral":  405
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Throw Recall Explosion",
+                                          "speed":  0.667,
+                                          "crit_chance":  12,
+                                          "crit_mult":  2.4,
+                                          "status_chance":  36,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  4.9,
+                                                          "reduction":  0
+                                                      },
+                                          "damage":  {
+                                                         "viral":  810
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Charged Throw",
+                                          "speed":  0.833,
+                                          "crit_chance":  24,
+                                          "crit_mult":  2.5,
+                                          "status_chance":  38,
+                                          "charge_time":  1.2,
+                                          "shot_type":  "Thrown",
+                                          "shot_speed":  30,
+                                          "flight":  30,
+                                          "damage":  {
+                                                         "impact":  131,
+                                                         "slash":  137,
+                                                         "puncture":  125,
+                                                         "viral":  201
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Charged Throw Bounce Explosion",
+                                          "speed":  0.833,
+                                          "crit_chance":  24,
+                                          "crit_mult":  2.5,
+                                          "status_chance":  38,
+                                          "charge_time":  1.2,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  4.9,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "viral":  810
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Charged Throw Recall Explosion",
+                                          "speed":  0.833,
+                                          "crit_chance":  24,
+                                          "crit_mult":  2.5,
+                                          "status_chance":  38,
+                                          "charge_time":  1.2,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  4.9,
+                                                          "reduction":  0
+                                                      },
+                                          "damage":  {
+                                                         "viral":  1620
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  0.667,
+                                          "crit_chance":  20,
+                                          "crit_mult":  2.3,
+                                          "status_chance":  30,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  5,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "viral":  540
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  0.667,
+                                          "crit_chance":  20,
+                                          "crit_mult":  2.3,
+                                          "status_chance":  30,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  6,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "viral":  810
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  540,
+                      "blockingAngle":  55,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  58,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  55,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  92,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  65,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  270,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            58,
+                                            55,
+                                            65,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            92,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  1.3,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  270,
+                      "followThrough":  0.69999999,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  810,
+                      "stancePolarity":  "naramon",
+                      "slideAttack":  540,
+                      "windUp":  1.2,
+                      "slamRadius":  5,
+                      "slamAttack":  810,
+                      "heavySlamRadius":  6
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Infested/InfestedLich/Melee/CodaPathocyst/CodaPathocyst"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "Enhanced by Technocyte mutations, the Coda Pathocyst comes with increased Damage, Critical Chance, Critical Damage and Status Chance. While in-flight or on contact with the enemy, it will occasionally spawn enhanced, enemy-seeking miasmites.",
+    "release":  {
+                    "releaseDate":  "2025-03-19",
+                    "introduced":  {
+                                       "date":  "2025-03-19",
+                                       "parent":  "38.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_38%23Update_38.5",
+                                       "name":  "Update 38.5",
+                                       "aliases":  [
+                                                       "38.5"
+                                                   ]
+                                   }
+                },
+    "summary":  "Enhanced by Technocyte mutations, the Coda Pathocyst comes with increased Damage, Critical Chance, Critical Damage and Status Chance. While in-flight or on contact with the enemy, it will occasionally spawn enhanced, enemy-seeking miasmites.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.35000002,
+                  "polarities":  [
+                                     "madurai",
+                                     "vazarin"
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  1,
+                  "magazineSize":  null,
+                  "fireRate":  0.66666669,
+                  "critMultiplier":  2.3,
+                  "totalDamage":  270,
+                  "vaulted":  null,
+                  "masteryReq":  17,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.2,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

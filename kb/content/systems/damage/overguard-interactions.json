@@ -1,0 +1,53 @@
+{
+    "id":  "damage.overguard-interactions",
+    "name":  "Overguard Interactions",
+    "category":  "damage_rule",
+    "summary":  "Defines how overguard behaves as a defensive layer and how effects interact with it.",
+    "mechanics":  {
+                      "appliesTo":  [
+                                        "overguard",
+                                        "damage-types",
+                                        "crowd-control"
+                                    ],
+                      "stacking":  null,
+                      "duration":  null,
+                      "formula":  "Store exact overguard rules and exceptions in sourced updates.",
+                      "specialRules":  [
+                                           "Keep overguard distinct from shields and health because its interaction model differs."
+                                       ]
+                  },
+    "interactions":  {
+                         "relatedSystems":  [
+                                                "damage.shield-interactions",
+                                                "damage.health-interactions"
+                                            ]
+                     },
+    "examples":  [
+                     "Used when build advice depends on crowd-control immunity or special defenses."
+                 ],
+    "tags":  [
+                 "damage",
+                 "overguard",
+                 "combat"
+             ],
+    "notes":  [
+                  "Overguard behavior is especially patch-sensitive and should be sourced carefully.",
+                  "Overguard semantics shift often enough that player- and enemy-side interactions should stay clearly marked as patch-sensitive."
+              ],
+    "sources":  [
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Damage"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Overguard"
+                    }
+                ],
+    "verification":  {
+                         "trustLevel":  "community-verified",
+                         "sourceFamily":  "warframe-wiki",
+                         "patchSensitive":  true,
+                         "reviewedAt":  "2026-04-10"
+                     }
+}

@@ -1,0 +1,249 @@
+{
+    "description":  "When fully charged, this flak cannon delivers a devastating shot. Perfect for taking down fast-moving interceptors.",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Corvas",
+    "subCategory":  "archgun-arch-gun",
+    "mechanics":  {
+                      "heavySlamAttack":  null,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  45000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Argon Crystal",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/ArgonCrystal",
+                                                              "itemCount":  2,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Barrel",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/ArchCannonBarrel",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Arbiters of Hexis, Authentic",
+                                                                                "type":  "Corvas Barrel",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/ArchCannonBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Receiver",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/ArchCannonReceiver",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Cephalon Suda, Intriguing",
+                                                                                "type":  "Corvas Receiver",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Stock",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/ArchCannonStock",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Steel Meridian, Valiant",
+                                                                                "type":  "Corvas Stock",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  50,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Corvas.png?2ae6a",
+                                   "url":  "https://wiki.warframe.com/w/Corvas",
+                                   "imageName":  "corvas-13db9b551f.png",
+                                   "available":  true
+                               },
+                      "followThrough":  null,
+                      "attacks":  [
+                                      {
+                                          "name":  "Uncharged Shot",
+                                          "speed":  2,
+                                          "crit_chance":  40,
+                                          "crit_mult":  2.6,
+                                          "status_chance":  13,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  400,
+                                          "flight":  400,
+                                          "damage":  {
+                                                         "impact":  200,
+                                                         "heat":  240
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Charged Shot",
+                                          "speed":  2,
+                                          "crit_chance":  40,
+                                          "crit_mult":  3,
+                                          "status_chance":  13,
+                                          "charge_time":  0.5,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  400,
+                                          "flight":  400,
+                                          "falloff":  {
+                                                          "start":  600,
+                                                          "end":  1200
+                                                      },
+                                          "damage":  {
+                                                         "impact":  400,
+                                                         "heat":  480
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  null,
+                      "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  400,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  480,
+                                     "total":  880,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "damagePerShot":  [
+                                            400,
+                                            0,
+                                            0,
+                                            480,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ]
+                  },
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD archgun static data."
+              ],
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Archwing/Primary/LaunchGrenade/ArchCannon"
+                ],
+    "tags":  [
+                 "weapon",
+                 "archgun"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "id":  "weapon.corvas",
+    "release":  {
+                    "releaseDate":  "2014-10-24",
+                    "introduced":  {
+                                       "date":  "2014-10-24",
+                                       "parent":  "15.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_15%23Update_15.0",
+                                       "name":  "Update 15.0",
+                                       "aliases":  [
+                                                       "15.0",
+                                                       "15",
+                                                       "Archwing",
+                                                       "Update 15"
+                                                   ]
+                                   }
+                },
+    "summary":  "When fully charged, this flak cannon delivers a devastating shot. Perfect for taking down fast-moving interceptors.",
+    "stats":  {
+                  "accuracy":  100,
+                  "noise":  "Alarming",
+                  "polarities":  [
+                                     "naramon"
+                                 ],
+                  "tradable":  false,
+                  "vaulted":  null,
+                  "totalDamage":  880,
+                  "disposition":  4,
+                  "magazineSize":  25,
+                  "fireRate":  2,
+                  "critMultiplier":  2.5999999,
+                  "reloadTime":  8,
+                  "masteryReq":  1,
+                  "statusChance":  0.13,
+                  "slot":  "archgun",
+                  "estimatedVaultDate":  null,
+                  "trigger":  "Charge",
+                  "critChance":  0.40000001,
+                  "weaponClass":  "Arch-Gun",
+                  "masterable":  true,
+                  "multishot":  1,
+                  "vaultDate":  null
+              }
+}

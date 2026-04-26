@@ -1,0 +1,249 @@
+{
+    "id":  "weapon.tipedo",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Tipedo",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  496,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  20000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/TnoMonkStaffBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Bo",
+                                                              "uniqueName":  "/Lotus/Weapons/Tenno/Melee/Staff/Staff",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Kunai",
+                                                              "uniqueName":  "/Lotus/Weapons/Tenno/ThrowingWeapons/Kunai",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Duviri/Endless: Tier 6 (Normal)",
+                                                                                "type":  "Kunai Blueprint",
+                                                                                "chance":  1.03,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Neural Sensors",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                                                              "itemCount":  2,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Polymer Bundle",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                                                              "itemCount":  1600,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  30,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  "https://wiki.warframe.com/w/Tipedo",
+                                   "imageName":  "tipedo-939711dac4.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  1.33,
+                                          "crit_chance":  20,
+                                          "crit_mult":  2,
+                                          "status_chance":  20,
+                                          "damage":  {
+                                                         "impact":  12.4,
+                                                         "slash":  99.2,
+                                                         "puncture":  12.4
+                                                     },
+                                          "slide":  "124"
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  1.33,
+                                          "crit_chance":  20,
+                                          "crit_mult":  2,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  6,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "impact":  248
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  1.33,
+                                          "crit_chance":  20,
+                                          "crit_mult":  2,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  7,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "blast":  372
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  248,
+                      "blockingAngle":  60,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  12.400001,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  12.400001,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  99.200005,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  124.00001,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            12.400001,
+                                            12.400001,
+                                            99.200005,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  3,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  620,
+                      "followThrough":  0.5,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  372,
+                      "stancePolarity":  "unairu",
+                      "slideAttack":  124,
+                      "windUp":  0.5,
+                      "slamRadius":  6,
+                      "slamAttack":  372,
+                      "heavySlamRadius":  7
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Melee/Staff/MonkSpade/TnoMonkStaff"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "With its crescent shaped blades flying in sweeping arcs and striking at tremendous speed, the Tipedo demands focus from those wishing to unlock its true power.",
+    "release":  {
+                    "releaseDate":  "2015-01-08",
+                    "introduced":  {
+                                       "date":  "2015-01-08",
+                                       "parent":  "15.9",
+                                       "url":  "https://wiki.warframe.com/w/Update_15%23Update_15.9",
+                                       "name":  "Update 15.9",
+                                       "aliases":  [
+                                                       "15.9.0",
+                                                       "15.9"
+                                                   ]
+                                   }
+                },
+    "summary":  "With its crescent shaped blades flying in sweeping arcs and striking at tremendous speed, the Tipedo demands focus from those wishing to unlock its true power.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.19999999,
+                  "polarities":  [
+                                     "vazarin"
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  5,
+                  "magazineSize":  null,
+                  "fireRate":  1.3333334,
+                  "critMultiplier":  2,
+                  "totalDamage":  124.00001,
+                  "vaulted":  null,
+                  "masteryReq":  3,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.2,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

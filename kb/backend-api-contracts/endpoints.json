@@ -1,0 +1,144 @@
+{
+  "schemaVersion": "backend-api-contracts.v1",
+  "description": "Endpoint-shaped contracts for the future Warframe assistant backend.",
+  "basePath": "/api",
+  "endpoints": [
+    {
+      "id": "endpoint.assistant-query",
+      "method": "POST",
+      "path": "/assistant/query",
+      "summary": "Resolve a natural-language assistant query into a routed response payload.",
+      "requestExample": "backend-api-contracts/examples/assistant-query.request.json",
+      "responseExample": "backend-api-contracts/examples/assistant-query.response.json",
+      "implementationAnchor": "scripts/resolve-assistant-query.ps1",
+      "localApiAnchor": "local-api/server.mjs",
+      "sourceContracts": [
+        "core/schemas/assistant-query-response.schema.json",
+        "ai/query-router/route-map.json",
+        "ai/materialized-views/assistant-build-contracts.view.json"
+      ]
+    },
+    {
+      "id": "endpoint.player-inventory-summary",
+      "method": "GET",
+      "path": "/player/{playerId}/inventory-summary",
+      "summary": "Return flattened owned inventory keyed by canonical item ID.",
+      "requestExample": "backend-api-contracts/examples/player-inventory-summary.request.json",
+      "responseExample": "backend-api-contracts/examples/player-inventory-summary.response.json",
+      "implementationAnchor": "ai/materialized-views/player-owned-summary.view.json",
+      "localApiAnchor": "local-api/server.mjs",
+      "sourceContracts": [
+        "core/schemas/player.schema.json",
+        "ai/materialized-views/player-owned-summary.view.json"
+      ]
+    },
+    {
+      "id": "endpoint.player-live-context",
+      "method": "GET",
+      "path": "/player/{playerId}/live-context",
+      "summary": "Return a low-latency assistant context payload fused from session, overlay, inventory, loadout, and combat recommendation state.",
+      "requestExample": "backend-api-contracts/examples/player-live-context.request.json",
+      "responseExample": "backend-api-contracts/examples/player-live-context.response.json",
+      "implementationAnchor": "ai/materialized-views/assistant-live-context.view.json",
+      "localApiAnchor": "local-api/server.mjs",
+      "sourceContracts": [
+        "ai/materialized-views/assistant-live-context.view.json",
+        "player/sessions/demo-account-session-latest.json",
+        "ai/materialized-views/player-owned-summary.view.json",
+        "ai/materialized-views/player-combat-recommendations.view.json"
+      ]
+    },
+    {
+      "id": "endpoint.player-live-context-poll",
+      "method": "GET",
+      "path": "/player/{playerId}/live-context/poll",
+      "summary": "Return live assistant context only when its change token differs from the caller's since token.",
+      "requestExample": "backend-api-contracts/examples/player-live-context-poll.request.json",
+      "responseExample": "backend-api-contracts/examples/player-live-context-poll.response.json",
+      "implementationAnchor": "local-api/src/services/live-context-service.mjs",
+      "localApiAnchor": "local-api/server.mjs",
+      "sourceContracts": [
+        "ai/materialized-views/assistant-live-context.view.json",
+        "player/sessions/demo-account-session-latest.json",
+        "ai/materialized-views/player-owned-summary.view.json",
+        "ai/materialized-views/player-combat-recommendations.view.json"
+      ]
+    },
+    {
+      "id": "endpoint.overlay-inventory-sync",
+      "method": "POST",
+      "path": "/overlay/inventory-sync",
+      "summary": "Accept overlay/OCR recognized inventory items and return normalized merge results.",
+      "auth": {
+        "preview": "No API key required.",
+        "persistentWrite": "Requires x-warframe-kb-api-key matching WARFRAME_KB_API_KEY."
+      },
+      "requestExample": "backend-api-contracts/examples/overlay-inventory-sync.request.json",
+      "responseExample": "backend-api-contracts/examples/overlay-inventory-sync.response.json",
+      "implementationAnchor": "scripts/import-overlay-inventory.ps1",
+      "localApiAnchor": "local-api/server.mjs",
+      "sourceContracts": [
+        "core/schemas/overlay-sync.schema.json",
+        "imports/overlay-sync/normalized/latest-overlay-import.json",
+        "player/inventory-tracking/demo-account-inventory.json"
+      ]
+    },
+    {
+      "id": "endpoint.overlay-loadout-sync",
+      "method": "POST",
+      "path": "/overlay/loadout-sync",
+      "summary": "Accept overlay/app captured equipped loadout and upgrade-state details and return normalized session/build merge results.",
+      "auth": {
+        "preview": "No API key required.",
+        "persistentWrite": "Requires x-warframe-kb-api-key matching WARFRAME_KB_API_KEY."
+      },
+      "requestExample": "backend-api-contracts/examples/overlay-loadout-sync.request.json",
+      "responseExample": "backend-api-contracts/examples/overlay-loadout-sync.response.json",
+      "implementationAnchor": "local-api/src/services/loadout-service.mjs",
+      "localApiAnchor": "local-api/server.mjs",
+      "sourceContracts": [
+        "player/sessions/demo-account-session-latest.json",
+        "player/build-templates/demo-account-rhino-acceltra-build.json",
+        "ai/materialized-views/player-build-skeletons.view.json"
+      ]
+    },
+    {
+      "id": "endpoint.overlay-mission-sync",
+      "method": "POST",
+      "path": "/overlay/mission-sync",
+      "summary": "Accept overlay/app captured current mission context and return normalized player session merge results.",
+      "auth": {
+        "preview": "No API key required.",
+        "persistentWrite": "Requires x-warframe-kb-api-key matching WARFRAME_KB_API_KEY."
+      },
+      "requestExample": "backend-api-contracts/examples/overlay-mission-sync.request.json",
+      "responseExample": "backend-api-contracts/examples/overlay-mission-sync.response.json",
+      "implementationAnchor": "local-api/src/services/mission-service.mjs",
+      "localApiAnchor": "local-api/server.mjs",
+      "sourceContracts": [
+        "player/sessions/demo-account-session-latest.json",
+        "content/activities/open-worlds/cambion-drift.json",
+        "ai/materialized-views/player-combat-recommendations.view.json"
+      ]
+    },
+    {
+      "id": "endpoint.overlay-event-feed",
+      "method": "POST",
+      "path": "/overlay/event-feed",
+      "summary": "Accept append-only overlay/OCR gameplay events such as pickups, objective progress, mission phases, and downed states.",
+      "auth": {
+        "preview": "No API key required.",
+        "persistentWrite": "Requires x-warframe-kb-api-key matching WARFRAME_KB_API_KEY."
+      },
+      "requestExample": "backend-api-contracts/examples/overlay-event-feed.request.json",
+      "responseExample": "backend-api-contracts/examples/overlay-event-feed.response.json",
+      "implementationAnchor": "local-api/src/services/event-feed-service.mjs",
+      "localApiAnchor": "local-api/server.mjs",
+      "sourceContracts": [
+        "player/sessions/demo-account-session-latest.json",
+        "imports/overlay-sync/normalized/latest-overlay-import.json",
+        "ai/materialized-views/player-combat-recommendations.view.json"
+      ]
+    }
+  ]
+}

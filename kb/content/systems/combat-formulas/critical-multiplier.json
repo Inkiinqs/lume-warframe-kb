@@ -1,0 +1,49 @@
+{
+    "id":  "formula.critical-multiplier",
+    "name":  "Critical Multiplier",
+    "category":  "combat_formula",
+    "summary":  "Explains how critical damage scales once a hit crits.",
+    "mechanics":  {
+                      "appliesTo":  [
+                                        "weapons",
+                                        "mods",
+                                        "buffs"
+                                    ],
+                      "stacking":  "Modified by crit-damage affecting effects.",
+                      "duration":  null,
+                      "formula":  "Store the exact crit multiplier behavior and tier interaction in sourced updates.",
+                      "specialRules":  [
+                                           "Keep this separate from crit chance so AI can reason about reliability versus payoff."
+                                       ]
+                  },
+    "interactions":  {
+                         "relatedSystems":  [
+                                                "formula.critical-chance"
+                                            ]
+                     },
+    "examples":  [
+
+                 ],
+    "tags":  [
+                 "formula",
+                 "critical",
+                 "combat"
+             ],
+    "notes":  null,
+    "sources":  [
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Mod"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Critical_Hit"
+                    }
+                ],
+    "verification":  {
+                         "trustLevel":  "community-verified",
+                         "sourceFamily":  "warframe-wiki",
+                         "patchSensitive":  true,
+                         "reviewedAt":  "2026-04-10"
+                     }
+}

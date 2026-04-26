@@ -1,0 +1,122 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "warframe-kb/query-router.schema.json",
+  "title": "Warframe KB Query Router",
+  "type": "object",
+  "required": [
+    "generatedAt",
+    "schemaVersion",
+    "defaultRoute",
+    "routes"
+  ],
+  "properties": {
+    "generatedAt": {
+      "type": "string"
+    },
+    "schemaVersion": {
+      "const": "query-router.v1"
+    },
+    "description": {
+      "type": "string"
+    },
+    "defaultRoute": {
+      "type": "object",
+      "required": [
+        "intent",
+        "primaryView",
+        "reason"
+      ],
+      "properties": {
+        "intent": {
+          "type": "string"
+        },
+        "primaryView": {
+          "type": "string"
+        },
+        "reason": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "routes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "intent",
+          "description",
+          "priority",
+          "requiredSignals",
+          "optionalSignals",
+          "primaryView",
+          "fallbackViews",
+          "contentScopes",
+          "availability"
+        ],
+        "properties": {
+          "intent": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "priority": {
+            "type": "integer"
+          },
+          "requiredSignals": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "optionalSignals": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "primaryView": {
+            "type": "string"
+          },
+          "fallbackViews": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "contentScopes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "availability": {
+            "type": "object",
+            "required": [
+              "availablePaths",
+              "missingPaths"
+            ],
+            "properties": {
+              "availablePaths": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "missingPaths": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

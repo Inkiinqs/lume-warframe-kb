@@ -1,0 +1,245 @@
+{
+    "id":  "weapon.venato",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Venato",
+    "subCategory":  "melee-rifle",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  880,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  20000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Anomaly Shard",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/SentientFragmentLootItem",
+                                                              "itemCount":  5,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/NewWar/SentJointedScytheBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Exceptional Sentient Core",
+                                                              "uniqueName":  "/Lotus/Types/Gameplay/Eidolon/Resources/QuillsUncommonDogTag",
+                                                              "itemCount":  5,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Iradite",
+                                                              "uniqueName":  "/Lotus/Types/Gameplay/Eidolon/Resources/IraditeItem",
+                                                              "itemCount":  60,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Narmer Isoplast",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/NarmerBountyResource",
+                                                              "itemCount":  16,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  25,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Venato.png?56f40",
+                                   "url":  "https://wiki.warframe.com/w/Venato",
+                                   "imageName":  "venato-54532048ec.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  1.08,
+                                          "crit_chance":  27,
+                                          "crit_mult":  2.1,
+                                          "status_chance":  24,
+                                          "damage":  {
+                                                         "impact":  33,
+                                                         "slash":  77,
+                                                         "puncture":  110
+                                                     },
+                                          "slide":  "440"
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  1.08,
+                                          "crit_chance":  27,
+                                          "crit_mult":  2.1,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  8,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "impact":  440
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  1.08,
+                                          "crit_chance":  27,
+                                          "crit_mult":  2.1,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  9,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "blast":  660
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  440,
+                      "blockingAngle":  90,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  33,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  110,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  77.000008,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  220,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            33,
+                                            110,
+                                            77.000008,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  2.7,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  1320,
+                      "followThrough":  0.60000002,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  660,
+                      "stancePolarity":  "zenurik",
+                      "slideAttack":  440,
+                      "windUp":  1,
+                      "slamRadius":  8,
+                      "slamAttack":  660,
+                      "heavySlamRadius":  9
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Sentients/SentJointedScythe/SentJointedScytheWeapon"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "Caliban’s signature scythe, forged from a limb wrenched off a fallen Eidolon centuries ago. 50% increased Melee Combo Counter Chance when wielded by Caliban.",
+    "release":  {
+                    "releaseDate":  "2021-12-15",
+                    "introduced":  {
+                                       "date":  "2021-12-15",
+                                       "parent":  "31.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_31%23Update_31.0",
+                                       "name":  "Update 31.0",
+                                       "aliases":  [
+                                                       "31",
+                                                       "31.0",
+                                                       "The New War"
+                                                   ]
+                                   }
+                },
+    "summary":  "Caliban’s signature scythe, forged from a limb wrenched off a fallen Eidolon centuries ago. 50% increased Melee Combo Counter Chance when wielded by Caliban.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.24000001,
+                  "polarities":  [
+                                     null
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  4,
+                  "magazineSize":  null,
+                  "fireRate":  1.0833334,
+                  "critMultiplier":  2.0999999,
+                  "totalDamage":  220,
+                  "vaulted":  null,
+                  "masteryReq":  9,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.27000001,
+                  "weaponClass":  "Rifle",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

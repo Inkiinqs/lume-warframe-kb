@@ -1,0 +1,75 @@
+# Warframe KB publisher — builds + uploads a versioned KB zip and manifest.
+# Triggers:
+#   - manual (workflow_dispatch)
+#   - on push to main when kb/, version.txt, or build-kb.mjs change
+#   - daily 03:00 UTC — picks up new game patches without you doing anything
+#
+# Output: a GitHub Release tagged v{N} containing:
+#   - warframe-kb-v{N}.zip
+#   - manifest.json   ← what Lume fetches
+#
+# Required permissions (set in repo Settings → Actions → General):
+#   "Workflow permissions" = Read and write
+name: Publish Warframe KB
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'kb/**'
+      - 'version.txt'
+      - 'build-kb.mjs'
+      - '.github/workflows/build-kb.yml'
+  schedule:
+    - cron: '0 3 * * *'
+
+permissions:
+  contents: write   # needed to create releases
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Read version
+        id: ver
+        run: echo "kbVersion=$(cat version.txt | tr -d '[:space:]')" >> "$GITHUB_OUTPUT"
+
+      - name: Check if release v${{ steps.ver.outputs.kbVersion }} already exists
+        id: release_check
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view "v${{ steps.ver.outputs.kbVersion }}" --json tagName >/dev/null 2>&1; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build KB
+        if: steps.release_check.outputs.exists == 'false'
+        run: node build-kb.mjs
+
+      - name: Create GitHub release v${{ steps.ver.outputs.kbVersion }}
+        if: steps.release_check.outputs.exists == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "v${{ steps.ver.outputs.kbVersion }}" \
+            dist/warframe-kb-v${{ steps.ver.outputs.kbVersion }}.zip \
+            dist/manifest.json \
+            --title "Warframe KB v${{ steps.ver.outputs.kbVersion }}" \
+            --notes "Published by build-kb.yml on $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+
+      - name: Skip — release already exists
+        if: steps.release_check.outputs.exists == 'true'
+        run: |
+          echo "Release v${{ steps.ver.outputs.kbVersion }} already exists; nothing to do."
+          echo "Bump version.txt to publish a new release."

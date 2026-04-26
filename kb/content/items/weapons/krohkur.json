@@ -1,0 +1,247 @@
+{
+    "id":  "weapon.krohkur",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Krohkur",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  868,
+                      "crafting":  {
+                                       "buildTime":  86400,
+                                       "buildPrice":  20000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Alloy Plate",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                                                              "itemCount":  4375,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Weapons/ClanTech/Chemical/GrnEgyptSwdBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Morphics",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Morphic",
+                                                              "itemCount":  8,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Oxium",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/OxiumAlloy",
+                                                              "itemCount":  125,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Tellurium",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Tellurium",
+                                                              "itemCount":  5,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  35,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Krohkur.png?eb7cd",
+                                   "url":  "https://wiki.warframe.com/w/Krohkur",
+                                   "imageName":  "krohkur-a0244d9499.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  0.833,
+                                          "crit_chance":  29,
+                                          "crit_mult":  2.3,
+                                          "status_chance":  19,
+                                          "damage":  {
+                                                         "impact":  26,
+                                                         "slash":  151.9,
+                                                         "puncture":  39.1
+                                                     },
+                                          "slide":  "217"
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  0.833,
+                                          "crit_chance":  29,
+                                          "crit_mult":  2.3,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  7,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "impact":  434
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  0.833,
+                                          "crit_chance":  29,
+                                          "crit_mult":  2.3,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  8,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "blast":  651
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  434,
+                      "blockingAngle":  55,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  26.039999,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  39.060001,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  151.89999,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  217,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            26.039999,
+                                            39.060001,
+                                            151.89999,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  2.5,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  1085,
+                      "followThrough":  0.60000002,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  651,
+                      "stancePolarity":  "madurai",
+                      "slideAttack":  217,
+                      "windUp":  0.60000002,
+                      "slamRadius":  7,
+                      "slamAttack":  651,
+                      "heavySlamRadius":  8
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Grineer/Melee/GrnEgyptSwd/GrnEgyptSwdWeapon"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "This hooked blade rewards critical hits to those skilled enough to strike with finesse.",
+    "release":  {
+                    "releaseDate":  "2017-10-12",
+                    "introduced":  {
+                                       "date":  "2017-10-12",
+                                       "parent":  "22.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_22%23Update_22.0",
+                                       "name":  "Update 22.0",
+                                       "aliases":  [
+                                                       "Update 22",
+                                                       "22.0",
+                                                       "22",
+                                                       "Plains of Eidolon",
+                                                       "PoE"
+                                                   ]
+                                   }
+                },
+    "summary":  "This hooked blade rewards critical hits to those skilled enough to strike with finesse.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.19,
+                  "polarities":  [
+                                     null
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  5,
+                  "magazineSize":  null,
+                  "fireRate":  0.83333337,
+                  "critMultiplier":  2.3,
+                  "totalDamage":  217,
+                  "vaulted":  null,
+                  "masteryReq":  9,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.28999999,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

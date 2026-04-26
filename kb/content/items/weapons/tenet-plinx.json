@@ -1,0 +1,201 @@
+{
+    "id":  "weapon.tenet-plinx",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Tenet Plinx",
+    "subCategory":  "secondary-pistol",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD secondary static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  null,
+                      "crafting":  {
+                                       "buildTime":  60,
+                                       "buildPrice":  10000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/LawyerWeapons/CrpBEPlinxBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  0,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/TenetPlinx.png?d3d96",
+                                   "url":  "https://wiki.warframe.com/w/Tenet_Plinx",
+                                   "imageName":  "tenet-plinx-6a1f29a3a6.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Semi-Auto",
+                                          "speed":  3.33,
+                                          "crit_chance":  44,
+                                          "crit_mult":  3,
+                                          "status_chance":  12,
+                                          "shot_type":  "Hit-Scan",
+                                          "damage":  {
+                                                         "puncture":  40,
+                                                         "heat":  30
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Alt-Fire",
+                                          "speed":  1,
+                                          "crit_chance":  40,
+                                          "crit_mult":  3,
+                                          "status_chance":  20,
+                                          "charge_time":  0.8,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  100,
+                                          "flight":  100,
+                                          "damage":  {
+                                                         "impact":  100
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Alt-Fire AoE",
+                                          "speed":  1,
+                                          "crit_chance":  40,
+                                          "crit_mult":  3,
+                                          "status_chance":  50,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  6,
+                                                          "reduction":  0.4
+                                                      },
+                                          "damage":  {
+                                                         "radiation":  100
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  null,
+                      "blockingAngle":  null,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  40,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  30,
+                                     "total":  70,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            0,
+                                            40,
+                                            0,
+                                            30,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Corpus/BoardExec/Secondary/CrpBEPlinx/CrpBEPlinxWeapon"
+                ],
+    "tags":  [
+                 "weapon",
+                 "secondary"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "Alternate fire on this reengineered Plinx fires a projectile that pulls enemies close and then explodes. Its cooldown increases after the explosion to accommodate battery power demands.",
+    "release":  {
+                    "releaseDate":  "2022-11-30",
+                    "introduced":  {
+                                       "date":  "2022-11-30",
+                                       "parent":  "32.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_32%23Update_32.2",
+                                       "name":  "Update 32.2",
+                                       "aliases":  [
+                                                       "32.2"
+                                                   ]
+                                   }
+                },
+    "summary":  "Alternate fire on this reengineered Plinx fires a projectile that pulls enemies close and then explodes. Its cooldown increases after the explosion to accommodate battery power demands.",
+    "stats":  {
+                  "accuracy":  50,
+                  "statusChance":  0.12,
+                  "polarities":  [
+                                     "madurai",
+                                     "madurai"
+                                 ],
+                  "noise":  "Alarming",
+                  "tradable":  false,
+                  "reloadTime":  1.3,
+                  "disposition":  1,
+                  "magazineSize":  10,
+                  "fireRate":  3.3333335,
+                  "critMultiplier":  3,
+                  "totalDamage":  70,
+                  "vaulted":  null,
+                  "masteryReq":  6,
+                  "slot":  "secondary",
+                  "estimatedVaultDate":  null,
+                  "trigger":  "Semi",
+                  "critChance":  0.44,
+                  "weaponClass":  "Pistol",
+                  "masterable":  true,
+                  "multishot":  1,
+                  "vaultDate":  null
+              }
+}

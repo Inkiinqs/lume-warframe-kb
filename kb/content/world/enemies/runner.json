@@ -1,0 +1,99 @@
+{
+    "description":  "Fast with weak claw attacks",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-enemies.json"
+                    }
+                ],
+    "name":  "Runner",
+    "subCategory":  "infestation",
+    "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "runner.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    null
+                                ],
+                      "resistances":  [
+                                          {
+                                              "amount":  0,
+                                              "type":  "Shield",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "None",
+                                                                    "modifier":  0
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  0,
+                                              "type":  "Ferrite Armor",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "None",
+                                                                    "modifier":  0
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  100,
+                                              "type":  "Infested",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "Slash",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Heat",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Gas",
+                                                                    "modifier":  0
+                                                                },
+                                                                {
+                                                                    "element":  "Radiation",
+                                                                    "modifier":  -0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Viral",
+                                                                    "modifier":  -0.75
+                                                                }
+                                                            ]
+                                          }
+                                      ]
+                  },
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD Enemy.json."
+              ],
+    "aliases":  [
+                    "/Lotus/Types/Enemies/Infested/AiWeek/Runners/RunnerAvatar"
+                ],
+    "tags":  [
+                 "enemy",
+                 "infestation"
+             ],
+    "category":  "enemy",
+    "relationships":  [
+
+                      ],
+    "id":  "enemy.runner",
+    "release":  {
+
+                },
+    "summary":  "Fast with weak claw attacks",
+    "stats":  {
+                  "armor":  0,
+                  "type":  "Infestation",
+                  "shield":  0,
+                  "health":  100,
+                  "regionBits":  106239,
+                  "tradable":  false,
+                  "faction":  "Infestation"
+              }
+}

@@ -1,0 +1,58 @@
+{
+    "id":  "status.heat",
+    "name":  "Heat",
+    "category":  "status_effect",
+    "summary":  "Heat status applies a fire-themed damage-over-time and debuff effect.",
+    "mechanics":  {
+                      "appliesTo":  [
+                                        "health",
+                                        "target-state"
+                                    ],
+                      "stacking":  "May involve stacking or refreshing behavior depending on sourced rules.",
+                      "duration":  "Timed effect with damage-over-time characteristics.",
+                      "formula":  "See damage-over-time and armor-related system records.",
+                      "specialRules":  [
+                                           "Track any armor-reduction or panic-style behavior in source-backed updates."
+                                       ]
+                  },
+    "interactions":  {
+                         "synergies":  [
+                                           "damage.armor-interactions"
+                                       ],
+                         "affectedBy":  [
+                                            "damage.damage-over-time"
+                                        ],
+                         "counteredBy":  [
+
+                                         ]
+                     },
+    "examples":  [
+
+                 ],
+    "tags":  [
+                 "status",
+                 "elemental",
+                 "damage-over-time"
+             ],
+    "notes":  "This starter record intentionally avoids hardcoding patch-sensitive values.",
+    "sources":  [
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Status_Effect"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Damage"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Damage/Heat_Damage"
+                    }
+                ],
+    "verification":  {
+                         "trustLevel":  "community-verified",
+                         "sourceFamily":  "warframe-wiki",
+                         "patchSensitive":  true,
+                         "reviewedAt":  "2026-04-10"
+                     }
+}

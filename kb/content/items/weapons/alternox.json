@@ -1,0 +1,263 @@
+{
+    "id":  "weapon.alternox",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Alternox",
+    "subCategory":  "primary-rifle",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD primary static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  null,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  20000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Alloy Plate",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                                                              "itemCount":  4000,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Argon Crystal",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/ArgonCrystal",
+                                                              "itemCount":  2,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/GyreRifleWeaponBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Zariman Ten Zero (Level  70 - 75 Zariman Bounty), Rotation C",
+                                                                                "type":  "Alternox Blueprint",
+                                                                                "chance":  7.94,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Entrati Lanthorn",
+                                                              "uniqueName":  "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanMiscItemB",
+                                                              "itemCount":  16,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Thrax Plasm",
+                                                              "uniqueName":  "/Lotus/Types/Gameplay/Zariman/Resources/VoidWraithItem",
+                                                              "itemCount":  600,
+                                                              "type":  null,
+                                                              "tradable":  true,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  35,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Alternox.png?d4760",
+                                   "url":  "https://wiki.warframe.com/w/Alternox",
+                                   "imageName":  "alternox-448bc76586.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  4.33,
+                                          "crit_chance":  14,
+                                          "crit_mult":  2.2,
+                                          "status_chance":  30,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  60,
+                                          "flight":  60,
+                                          "damage":  {
+                                                         "electricity":  62
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Alt-Fire Contact",
+                                          "speed":  1.5,
+                                          "crit_chance":  2,
+                                          "crit_mult":  2,
+                                          "status_chance":  44,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  60,
+                                          "flight":  60,
+                                          "damage":  {
+                                                         "impact":  5,
+                                                         "slash":  7.5,
+                                                         "puncture":  37.5
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Alt-Fire Damage over Time",
+                                          "speed":  1,
+                                          "crit_chance":  2,
+                                          "crit_mult":  2,
+                                          "status_chance":  44,
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  6,
+                                                          "reduction":  0.6
+                                                      },
+                                          "damage":  {
+                                                         "electricity":  50
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Alt-Fire Explosion",
+                                          "speed":  1,
+                                          "crit_chance":  2,
+                                          "crit_mult":  2,
+                                          "status_chance":  44,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  6,
+                                                          "reduction":  0.6
+                                                      },
+                                          "damage":  {
+                                                         "electricity":  100
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  null,
+                      "blockingAngle":  null,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  0,
+                                     "electricity":  62,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  62,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            62,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/LongGuns/GyreRifle/GyreRifleWeapon"
+                ],
+    "tags":  [
+                 "weapon",
+                 "primary"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "Gyre’s signature weapon has two fire modes. Primary fire shocks enemies with electrical orbs. Alternate fire is a large ball of electricity that sticks to any surface and pulses \u003cDT_ELECTRICITY_COLOR\u003eElectricity before it explodes. In Gyre\u0027s hands, the weapon has a small amount of multishot.",
+    "release":  {
+                    "releaseDate":  "2022-04-27",
+                    "introduced":  {
+                                       "date":  "2022-04-27",
+                                       "parent":  "31.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_31%23Update_31.5",
+                                       "name":  "Update 31.5",
+                                       "aliases":  [
+                                                       "31.5",
+                                                       "Angels of the Zariman"
+                                                   ]
+                                   }
+                },
+    "summary":  "Gyre’s signature weapon has two fire modes. Primary fire shocks enemies with electrical orbs. Alternate fire is a large ball of electricity that sticks to any surface and pulses \u003cDT_ELECTRICITY_COLOR\u003eElectricity before it explodes. In Gyre\u0027s hands, the weapon has a small amount of multishot.",
+    "stats":  {
+                  "accuracy":  18.181818,
+                  "statusChance":  0.30000001,
+                  "polarities":  [
+                                     "madurai"
+                                 ],
+                  "noise":  "Alarming",
+                  "tradable":  false,
+                  "reloadTime":  1.8,
+                  "disposition":  4,
+                  "magazineSize":  28,
+                  "fireRate":  4.3333335,
+                  "critMultiplier":  2.2,
+                  "totalDamage":  62,
+                  "vaulted":  null,
+                  "masteryReq":  8,
+                  "slot":  "primary",
+                  "estimatedVaultDate":  null,
+                  "trigger":  "Auto",
+                  "critChance":  0.14,
+                  "weaponClass":  "Rifle",
+                  "masterable":  true,
+                  "multishot":  1,
+                  "vaultDate":  null
+              }
+}

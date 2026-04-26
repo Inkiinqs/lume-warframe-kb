@@ -1,0 +1,58 @@
+{
+    "id":  "status.blast",
+    "name":  "Blast",
+    "category":  "status_effect",
+    "summary":  "Blast status applies an explosive crowd-control or disruption effect.",
+    "mechanics":  {
+                      "appliesTo":  [
+                                        "target-state",
+                                        "crowd-control"
+                                    ],
+                      "stacking":  "Track exact modern blast behavior in validated updates.",
+                      "duration":  "Timed target disruption.",
+                      "formula":  null,
+                      "specialRules":  [
+                                           "Blast has been patch-sensitive and should be treated carefully in updates."
+                                       ]
+                  },
+    "interactions":  {
+                         "synergies":  [
+
+                                       ],
+                         "affectedBy":  [
+                                            "formula.status-chance"
+                                        ],
+                         "counteredBy":  [
+
+                                         ]
+                     },
+    "examples":  [
+
+                 ],
+    "tags":  [
+                 "status",
+                 "combined",
+                 "crowd-control"
+             ],
+    "notes":  "This starter record should be refined from current sourced behavior before production use.",
+    "sources":  [
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Status_Effect"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Damage"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Damage/Blast_Damage"
+                    }
+                ],
+    "verification":  {
+                         "trustLevel":  "community-verified",
+                         "sourceFamily":  "warframe-wiki",
+                         "patchSensitive":  true,
+                         "reviewedAt":  "2026-04-10"
+                     }
+}

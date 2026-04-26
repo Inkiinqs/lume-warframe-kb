@@ -1,0 +1,184 @@
+{
+    "description":  "Standard issue weapon for Djinn Sentinel. Fires \u003cDT_POISON_COLOR\u003eToxin projectiles that embed into enemies and continuously deal damage for 3 seconds.",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Stinger",
+    "subCategory":  "companion-companion-weapon",
+    "mechanics":  {
+                      "heavySlamAttack":  null,
+                      "crafting":  {
+                                       "buildTime":  null,
+                                       "buildPrice":  null,
+                                       "buildQuantity":  null,
+                                       "components":  [
+                                                          {
+                                                              "name":  null,
+                                                              "uniqueName":  null,
+                                                              "itemCount":  null,
+                                                              "type":  null,
+                                                              "tradable":  null,
+                                                              "drops":  [
+                                                                            null
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  null,
+                                       "consumeOnBuild":  null
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Stinger.png?59e3e",
+                                   "url":  "https://wiki.warframe.com/w/Stinger",
+                                   "imageName":  "stinger-ee12cc66f0.png",
+                                   "available":  true
+                               },
+                      "followThrough":  null,
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  3.33,
+                                          "crit_chance":  2.5,
+                                          "crit_mult":  1.5,
+                                          "status_chance":  20,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  65,
+                                          "flight":  65,
+                                          "damage":  {
+                                                         "toxin":  15
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Toxin Embed",
+                                          "speed":  1,
+                                          "crit_chance":  2.5,
+                                          "crit_mult":  1.5,
+                                          "status_chance":  20,
+                                          "shot_type":  "DoT",
+                                          "damage":  {
+                                                         "toxin":  15
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  null,
+                      "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  30,
+                                     "toxin":  30,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "sentinel":  true,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "damagePerShot":  [
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            30,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ]
+                  },
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD companion static data."
+              ],
+    "aliases":  [
+                    "/Lotus/Types/Sentinels/SentinelWeapons/SentBioWeapon"
+                ],
+    "tags":  [
+                 "weapon",
+                 "companion"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "id":  "weapon.stinger",
+    "release":  {
+                    "releaseDate":  "2013-09-13",
+                    "introduced":  {
+                                       "date":  "2013-09-13",
+                                       "parent":  "10.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_10%23Update_10.0",
+                                       "name":  "Update 10.0",
+                                       "aliases":  [
+                                                       "Update 10",
+                                                       "10",
+                                                       "10.0"
+                                                   ]
+                                   }
+                },
+    "summary":  "Standard issue weapon for Djinn Sentinel. Fires \u003cDT_POISON_COLOR\u003eToxin projectiles that embed into enemies and continuously deal damage for 3 seconds.",
+    "stats":  {
+                  "accuracy":  100,
+                  "noise":  "Alarming",
+                  "polarities":  [
+                                     null
+                                 ],
+                  "tradable":  false,
+                  "vaulted":  null,
+                  "totalDamage":  30,
+                  "disposition":  5,
+                  "magazineSize":  4,
+                  "fireRate":  3.3333335,
+                  "critMultiplier":  1.5,
+                  "reloadTime":  1.2,
+                  "masteryReq":  0,
+                  "statusChance":  0.19999999,
+                  "slot":  "companion",
+                  "estimatedVaultDate":  null,
+                  "trigger":  "Semi",
+                  "critChance":  0.025,
+                  "weaponClass":  "Companion Weapon",
+                  "masterable":  true,
+                  "multishot":  1,
+                  "vaultDate":  null
+              }
+}

@@ -1,0 +1,344 @@
+{
+    "id":  "weapon.falcor",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Falcor",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  920,
+                      "crafting":  {
+                                       "buildTime":  86400,
+                                       "buildPrice":  20000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Alloy Plate",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                                                              "itemCount":  8500,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Weapons/ClanTech/Energy/CrpGlaiveBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Circuits",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Circuits",
+                                                              "itemCount":  1650,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Fieldron",
+                                                              "uniqueName":  "/Lotus/Types/Items/Research/EnergyComponent",
+                                                              "itemCount":  5,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Forma",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Forma",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  35,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Falcor.png?4acc7",
+                                   "url":  "https://wiki.warframe.com/w/Falcor",
+                                   "imageName":  "falcor-c9a665bc11.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  0.833,
+                                          "crit_chance":  12,
+                                          "crit_mult":  1.6,
+                                          "status_chance":  34,
+                                          "damage":  {
+                                                         "impact":  36,
+                                                         "slash":  92,
+                                                         "puncture":  18,
+                                                         "electricity":  84
+                                                     },
+                                          "slide":  "460"
+                                      },
+                                      {
+                                          "name":  "Throw",
+                                          "speed":  0.833,
+                                          "crit_chance":  14,
+                                          "crit_mult":  1.8,
+                                          "status_chance":  36,
+                                          "shot_type":  "Thrown",
+                                          "shot_speed":  25,
+                                          "flight":  25,
+                                          "damage":  {
+                                                         "impact":  20,
+                                                         "slash":  80,
+                                                         "puncture":  40,
+                                                         "electricity":  110
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Throw Bounce Explosion",
+                                          "speed":  0.833,
+                                          "crit_chance":  14,
+                                          "crit_mult":  1.8,
+                                          "status_chance":  36,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  6,
+                                                          "reduction":  0.4
+                                                      },
+                                          "damage":  {
+                                                         "electricity":  345
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Throw Recall Explosion",
+                                          "speed":  0.833,
+                                          "crit_chance":  14,
+                                          "crit_mult":  1.8,
+                                          "status_chance":  36,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  6,
+                                                          "reduction":  0
+                                                      },
+                                          "damage":  {
+                                                         "electricity":  690
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Charged Throw",
+                                          "speed":  0.833,
+                                          "crit_chance":  16,
+                                          "crit_mult":  2,
+                                          "status_chance":  38,
+                                          "charge_time":  1.2,
+                                          "shot_type":  "Thrown",
+                                          "shot_speed":  35,
+                                          "flight":  35,
+                                          "damage":  {
+                                                         "impact":  56,
+                                                         "slash":  230,
+                                                         "puncture":  20,
+                                                         "electricity":  200
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Charged Throw Bounce Explosion",
+                                          "speed":  0.833,
+                                          "crit_chance":  16,
+                                          "crit_mult":  2,
+                                          "status_chance":  38,
+                                          "charge_time":  1.2,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  6,
+                                                          "reduction":  0.4
+                                                      },
+                                          "damage":  {
+                                                         "electricity":  690
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Charged Throw Recall Explosion",
+                                          "speed":  0.833,
+                                          "crit_chance":  16,
+                                          "crit_mult":  2,
+                                          "status_chance":  38,
+                                          "charge_time":  1.2,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  6,
+                                                          "reduction":  0
+                                                      },
+                                          "damage":  {
+                                                         "electricity":  1380
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  0.833,
+                                          "crit_chance":  12,
+                                          "crit_mult":  1.6,
+                                          "status_chance":  34,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  5,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "electricity":  460
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  0.833,
+                                          "crit_chance":  12,
+                                          "crit_mult":  1.6,
+                                          "status_chance":  34,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  6,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "electricity":  750
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  460,
+                      "blockingAngle":  55,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  36,
+                                     "electricity":  84,
+                                     "true":  0,
+                                     "slash":  18,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  92,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  230,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            36,
+                                            18,
+                                            92,
+                                            0,
+                                            0,
+                                            84,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  1.3,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  230,
+                      "followThrough":  0.69999999,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  690,
+                      "stancePolarity":  "naramon",
+                      "slideAttack":  460,
+                      "windUp":  1.2,
+                      "slamRadius":  5,
+                      "slamAttack":  690,
+                      "heavySlamRadius":  6
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Corpus/Melee/Glaive/CrpGlaive/CrpGlaive"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "Carve through enemies with surgical precision using this Corpus-tech glaive.",
+    "release":  {
+                    "releaseDate":  "2018-10-12",
+                    "introduced":  {
+                                       "date":  "2018-10-12",
+                                       "parent":  "23.10",
+                                       "url":  "https://wiki.warframe.com/w/Update_23%23Update_23.10",
+                                       "name":  "Update 23.10",
+                                       "aliases":  [
+                                                       "23.10",
+                                                       "23.10.0"
+                                                   ]
+                                   }
+                },
+    "summary":  "Carve through enemies with surgical precision using this Corpus-tech glaive.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.34000003,
+                  "polarities":  [
+                                     null
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  4,
+                  "magazineSize":  null,
+                  "fireRate":  0.83333337,
+                  "critMultiplier":  1.6,
+                  "totalDamage":  230,
+                  "vaulted":  null,
+                  "masteryReq":  8,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.12,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

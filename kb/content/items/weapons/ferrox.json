@@ -1,0 +1,256 @@
+{
+    "id":  "weapon.ferrox",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Ferrox",
+    "subCategory":  "primary-rifle",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD primary static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  null,
+                      "crafting":  {
+                                       "buildTime":  86400,
+                                       "buildPrice":  30000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Alloy Plate",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                                                              "itemCount":  30000,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/CorpusRailgunBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Fieldron",
+                                                              "uniqueName":  "/Lotus/Types/Items/Research/EnergyComponent",
+                                                              "itemCount":  5,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Forma",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Forma",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Salvage",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Salvage",
+                                                              "itemCount":  35000,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  35,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Ferrox.png?9fe92",
+                                   "url":  "https://wiki.warframe.com/w/Ferrox",
+                                   "imageName":  "ferrox-43de4de20e.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Charged Shot",
+                                          "speed":  1.33,
+                                          "crit_chance":  32,
+                                          "crit_mult":  2.8,
+                                          "status_chance":  10,
+                                          "charge_time":  0.5,
+                                          "shot_type":  "Hit-Scan",
+                                          "damage":  {
+                                                         "impact":  35,
+                                                         "slash":  70,
+                                                         "puncture":  245
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Radial Attack",
+                                          "speed":  1.33,
+                                          "crit_chance":  32,
+                                          "crit_mult":  2.8,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  3.6,
+                                                          "reduction":  0.4
+                                                      },
+                                          "damage":  {
+                                                         "impact":  100
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Spear Throw",
+                                          "speed":  1,
+                                          "crit_chance":  4,
+                                          "crit_mult":  2,
+                                          "status_chance":  33,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  90,
+                                          "flight":  90,
+                                          "damage":  {
+                                                         "impact":  35,
+                                                         "slash":  10,
+                                                         "puncture":  5
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Attraction Field",
+                                          "speed":  0.5,
+                                          "crit_chance":  4,
+                                          "crit_mult":  2,
+                                          "status_chance":  50,
+                                          "shot_type":  "AoE",
+                                          "damage":  {
+                                                         "electricity":  150
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  null,
+                      "blockingAngle":  null,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  35,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  245,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  69.999992,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  350,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            35,
+                                            245,
+                                            69.999992,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Corpus/LongGuns/Spears/Railgun/CorpusRailgun"
+                ],
+    "tags":  [
+                 "weapon",
+                 "primary"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "Discharge a rail of ionized death or throw the Ferrox like a spear and create a localized field of attraction no enemy can escape from.",
+    "release":  {
+                    "releaseDate":  "2017-03-09",
+                    "introduced":  {
+                                       "date":  "2017-03-09",
+                                       "parent":  "19.12",
+                                       "url":  "https://wiki.warframe.com/w/Update_19%23Update_19.13",
+                                       "name":  "Update 19.13",
+                                       "aliases":  [
+                                                       "19.13.0",
+                                                       "19.13"
+                                                   ]
+                                   }
+                },
+    "summary":  "Discharge a rail of ionized death or throw the Ferrox like a spear and create a localized field of attraction no enemy can escape from.",
+    "stats":  {
+                  "accuracy":  16.666666,
+                  "statusChance":  0.10000002,
+                  "polarities":  [
+                                     "madurai",
+                                     "vazarin"
+                                 ],
+                  "noise":  "Alarming",
+                  "tradable":  false,
+                  "reloadTime":  1.8,
+                  "disposition":  4,
+                  "magazineSize":  10,
+                  "fireRate":  1.3333334,
+                  "critMultiplier":  2.8,
+                  "totalDamage":  350,
+                  "vaulted":  null,
+                  "masteryReq":  14,
+                  "slot":  "primary",
+                  "estimatedVaultDate":  null,
+                  "trigger":  "Charge",
+                  "critChance":  0.31999999,
+                  "weaponClass":  "Rifle",
+                  "masterable":  true,
+                  "multishot":  1,
+                  "vaultDate":  null
+              }
+}

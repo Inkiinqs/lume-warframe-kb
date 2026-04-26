@@ -1,0 +1,52 @@
+{
+    "id":  "damage.damage-over-time",
+    "name":  "Damage Over Time",
+    "category":  "damage_rule",
+    "summary":  "Defines the shared rule space for time-based damage effects and recurring ticks.",
+    "mechanics":  {
+                      "appliesTo":  [
+                                        "status-effects",
+                                        "abilities",
+                                        "damage-ticks"
+                                    ],
+                      "stacking":  "Different effects may stack differently and should reference this base rule set.",
+                      "duration":  "Effect-specific duration should be tracked in the owning system record.",
+                      "formula":  "Store exact tick scaling and inheritance formulas in sourced updates.",
+                      "specialRules":  [
+                                           "Use this record as the shared reference point for slash, heat, toxin, gas, and similar effects."
+                                       ]
+                  },
+    "interactions":  {
+                         "relatedSystems":  [
+                                                "status.slash",
+                                                "status.heat",
+                                                "status.toxin",
+                                                "status.gas"
+                                            ]
+                     },
+    "examples":  [
+                     "Used by the AI when comparing burst damage against sustained status damage."
+                 ],
+    "tags":  [
+                 "damage",
+                 "damage-over-time",
+                 "combat"
+             ],
+    "notes":  null,
+    "sources":  [
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Damage"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Status_Effect"
+                    }
+                ],
+    "verification":  {
+                         "trustLevel":  "community-verified",
+                         "sourceFamily":  "warframe-wiki",
+                         "patchSensitive":  true,
+                         "reviewedAt":  "2026-04-10"
+                     }
+}

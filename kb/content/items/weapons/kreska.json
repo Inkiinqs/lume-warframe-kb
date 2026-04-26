@@ -1,0 +1,246 @@
+{
+    "id":  "weapon.kreska",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Kreska",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  760,
+                      "crafting":  {
+                                       "buildTime":  86400,
+                                       "buildPrice":  25000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/CrpVenusHatchetBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Fieldron",
+                                                              "uniqueName":  "/Lotus/Types/Items/Research/EnergyComponent",
+                                                              "itemCount":  10,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Longwinder Lathe Coagulant",
+                                                              "uniqueName":  "/Lotus/Types/Items/Fish/Solaris/FishParts/SolarisFishLatheCoogulantItem",
+                                                              "itemCount":  20,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Mytocardia Spore",
+                                                              "uniqueName":  "/Lotus/Types/Gameplay/Venus/Resources/FungusHeartItem",
+                                                              "itemCount":  40,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Star Amarast",
+                                                              "uniqueName":  "/Lotus/Types/Items/Gems/Solaris/SolarisRareGemACutItem",
+                                                              "itemCount":  25,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  35,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Kreska.png?fb4c9",
+                                   "url":  "https://wiki.warframe.com/w/Kreska",
+                                   "imageName":  "kreska-27eae4fcab.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  0.917,
+                                          "crit_chance":  14,
+                                          "crit_mult":  2,
+                                          "status_chance":  22,
+                                          "damage":  {
+                                                         "impact":  30,
+                                                         "slash":  45,
+                                                         "puncture":  15,
+                                                         "heat":  100
+                                                     },
+                                          "slide":  "380"
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  0.917,
+                                          "crit_chance":  14,
+                                          "crit_mult":  2,
+                                          "status_chance":  22,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  8,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "heat":  380
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  0.917,
+                                          "crit_chance":  14,
+                                          "crit_mult":  2,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  9,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "heat":  570
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  380,
+                      "blockingAngle":  55,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  29.999998,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  14.999999,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  45,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  100,
+                                     "total":  190,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            29.999998,
+                                            14.999999,
+                                            45,
+                                            100,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  2.4000001,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  1140,
+                      "followThrough":  0.69999999,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  570,
+                      "stancePolarity":  "zenurik",
+                      "slideAttack":  380,
+                      "windUp":  0.69999999,
+                      "slamRadius":  8,
+                      "slamAttack":  570,
+                      "heavySlamRadius":  9
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Corpus/Melee/CrpVenusHatchet/CrpVenusHatchet"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "This unsophisticated Corpus survival tool does what it was designed for: hacking and splitting whatever it strikes.",
+    "release":  {
+                    "releaseDate":  "2018-11-08",
+                    "introduced":  {
+                                       "date":  "2018-11-08",
+                                       "parent":  "24.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_24%23Update_24.0",
+                                       "name":  "Update 24.0",
+                                       "aliases":  [
+                                                       "24",
+                                                       "24.0",
+                                                       "Fortuna"
+                                                   ]
+                                   }
+                },
+    "summary":  "This unsophisticated Corpus survival tool does what it was designed for: hacking and splitting whatever it strikes.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.22000003,
+                  "polarities":  [
+                                     "madurai"
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  5,
+                  "magazineSize":  null,
+                  "fireRate":  0.91666669,
+                  "critMultiplier":  2,
+                  "totalDamage":  190,
+                  "vaulted":  null,
+                  "masteryReq":  6,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.14,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

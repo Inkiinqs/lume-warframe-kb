@@ -1,0 +1,249 @@
+{
+    "id":  "weapon.amanata",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Amanata",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  630,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  30000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blade",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/NaginataBlade",
+                                                              "itemCount":  2,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Earth/Saya\u0027s Visions (Shrine Defense)",
+                                                                                "type":  "Amanata Blade Blueprint",
+                                                                                "chance":  4.09,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/NaginataBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Earth/Saya\u0027s Visions (Shrine Defense)",
+                                                                                "type":  "Amanata Blueprint",
+                                                                                "chance":  4.09,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Fate Pearl",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/ShrineFragment",
+                                                              "itemCount":  5,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Handle",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/NaginataHandle",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Earth/Saya\u0027s Visions (Shrine Defense)",
+                                                                                "type":  "Amanata Handle Blueprint",
+                                                                                "chance":  4.09,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  35,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  "https://wiki.warframe.com/w/Amanata",
+                                   "imageName":  "amanata-05760c3533.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  1,
+                                          "crit_chance":  24,
+                                          "crit_mult":  2,
+                                          "status_chance":  24,
+                                          "damage":  {
+                                                         "slash":  88.2,
+                                                         "puncture":  37.8
+                                                     },
+                                          "slide":  "252"
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  1,
+                                          "crit_chance":  24,
+                                          "crit_mult":  2,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  7,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "blast":  252
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  1,
+                                          "crit_chance":  24,
+                                          "crit_mult":  2,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  8,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "blast":  378
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  252,
+                      "blockingAngle":  55,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  37.800003,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  88.199997,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  126,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            0,
+                                            37.800003,
+                                            88.199997,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  3,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  756,
+                      "followThrough":  0.60000002,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  378,
+                      "stancePolarity":  "naramon",
+                      "slideAttack":  252,
+                      "windUp":  0.90000004,
+                      "slamRadius":  7,
+                      "slamAttack":  378,
+                      "heavySlamRadius":  8
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Melee/Polearms/Naginata/ShrineMaidenNaginataWeapon"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "Roll Koumei\u0027s die with every 30 hits from Amanata to empower yourself with 1 of 5 Koumei blessings. Roll a 6 to receive all blessings at once.",
+    "release":  {
+                    "releaseDate":  "2024-10-02",
+                    "introduced":  {
+                                       "date":  "2024-10-02",
+                                       "parent":  "37.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_37%23Update_37.0",
+                                       "name":  "Update 37.0",
+                                       "aliases":  [
+                                                       "37",
+                                                       "37.0",
+                                                       "Koumei \u0026 the Five Fates"
+                                                   ]
+                                   }
+                },
+    "summary":  "Roll Koumei\u0027s die with every 30 hits from Amanata to empower yourself with 1 of 5 Koumei blessings. Roll a 6 to receive all blessings at once.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.24000001,
+                  "polarities":  [
+                                     "madurai"
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  2,
+                  "magazineSize":  null,
+                  "fireRate":  1,
+                  "critMultiplier":  2,
+                  "totalDamage":  126,
+                  "vaulted":  null,
+                  "masteryReq":  2,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.23999999,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

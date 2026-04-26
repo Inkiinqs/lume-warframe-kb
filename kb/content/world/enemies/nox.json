@@ -1,0 +1,165 @@
+{
+    "description":  "Toxic to the core, Nox lobs exploding poison goo at enemies. Rupture his helmet to expose his head but beware of the unleashed noxious gasses.",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-enemies.json"
+                    }
+                ],
+    "name":  "Nox",
+    "subCategory":  "grineer",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD Enemy.json."
+              ],
+    "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "nox.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    {
+                                        "location":  "Guardian",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.1936
+                                    },
+                                    {
+                                        "location":  "Steel Fiber",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.1936
+                                    },
+                                    {
+                                        "location":  "Aviator",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.1936
+                                    },
+                                    {
+                                        "location":  "Redirection",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Uncommon",
+                                        "chance":  0.1936
+                                    },
+                                    {
+                                        "location":  "Toxin Resistance",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0752
+                                    },
+                                    {
+                                        "location":  "Stretch",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0752
+                                    },
+                                    {
+                                        "location":  "50 Endo",
+                                        "type":  "Mod Locations",
+                                        "rarity":  "Rare",
+                                        "chance":  0.0752
+                                    },
+                                    {
+                                        "location":  "Nox",
+                                        "type":  "Enemy Mod Tables",
+                                        "chance":  null
+                                    }
+                                ],
+                      "resistances":  [
+                                          {
+                                              "amount":  0,
+                                              "type":  "Shield",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "None",
+                                                                    "modifier":  0
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  250,
+                                              "type":  "Alloy Armor",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "Puncture",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Cold",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Radiation",
+                                                                    "modifier":  0
+                                                                },
+                                                                {
+                                                                    "element":  "Slash",
+                                                                    "modifier":  -0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Electricity",
+                                                                    "modifier":  -0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Magnetic",
+                                                                    "modifier":  -0.75
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  350,
+                                              "type":  "Cloned Flesh",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "Slash",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Heat",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Viral",
+                                                                    "modifier":  0
+                                                                },
+                                                                {
+                                                                    "element":  "Impact",
+                                                                    "modifier":  -0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Gas",
+                                                                    "modifier":  -0.75
+                                                                }
+                                                            ]
+                                          }
+                                      ]
+                  },
+    "aliases":  [
+                    "/Lotus/Types/Enemies/Grineer/ChemStrike/ChemStrikeNoxAvatarLeader"
+                ],
+    "tags":  [
+                 "enemy",
+                 "grineer"
+             ],
+    "category":  "enemy",
+    "relationships":  [
+
+                      ],
+    "id":  "enemy.nox",
+    "release":  {
+
+                },
+    "summary":  "Toxic to the core, Nox lobs exploding poison goo at enemies. Rupture his helmet to expose his head but beware of the unleashed noxious gasses.",
+    "stats":  {
+                  "armor":  250,
+                  "type":  "Grineer",
+                  "shield":  0,
+                  "health":  350,
+                  "regionBits":  84517,
+                  "tradable":  false,
+                  "faction":  "Grineer"
+              }
+}

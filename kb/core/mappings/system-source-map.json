@@ -1,0 +1,383 @@
+{
+  "defaults": {
+    "status-effects": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Status_Effect"
+        },
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Damage"
+        }
+      ],
+      "verification": {
+        "trustLevel": "community-verified",
+        "sourceFamily": "warframe-wiki",
+        "patchSensitive": true,
+        "reviewedAt": "2026-04-10"
+      }
+    },
+    "damage": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Damage"
+        }
+      ],
+      "verification": {
+        "trustLevel": "community-verified",
+        "sourceFamily": "warframe-wiki",
+        "patchSensitive": true,
+        "reviewedAt": "2026-04-10"
+      }
+    },
+    "combat-formulas": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Mod"
+        }
+      ],
+      "verification": {
+        "trustLevel": "community-verified",
+        "sourceFamily": "warframe-wiki",
+        "patchSensitive": true,
+        "reviewedAt": "2026-04-10"
+      }
+    },
+    "modding-rules": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Mod"
+        },
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Damage"
+        }
+      ],
+      "verification": {
+        "trustLevel": "community-verified",
+        "sourceFamily": "warframe-wiki",
+        "patchSensitive": true,
+        "reviewedAt": "2026-04-10"
+      }
+    },
+    "ability-rules": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Abilities"
+        }
+      ],
+      "verification": {
+        "trustLevel": "community-verified",
+        "sourceFamily": "warframe-wiki",
+        "patchSensitive": true,
+        "reviewedAt": "2026-04-10"
+      }
+    }
+  },
+  "records": {
+    "status.impact": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Damage/Impact_Damage"
+        }
+      ],
+      "notesAppend": [
+        "Impact proc behavior should stay isolated from armor and health amplification logic when generating AI build reasoning."
+      ]
+    },
+    "status.puncture": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Damage/Puncture_Damage"
+        }
+      ]
+    },
+    "status.slash": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Damage/Slash_Damage"
+        }
+      ],
+      "notesAppend": [
+        "Slash is a core buildcraft benchmark because its damage-over-time behavior can bypass many armor-focused assumptions."
+      ]
+    },
+    "status.cold": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Damage/Cold_Damage"
+        }
+      ]
+    },
+    "status.electric": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Damage/Electricity_Damage"
+        }
+      ]
+    },
+    "status.heat": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Damage/Heat_Damage"
+        }
+      ]
+    },
+    "status.toxin": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Damage/Toxin_Damage"
+        }
+      ]
+    },
+    "status.blast": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Damage/Blast_Damage"
+        }
+      ]
+    },
+    "status.corrosive": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Damage/Corrosive_Damage"
+        }
+      ]
+    },
+    "status.gas": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Damage/Gas_Damage"
+        }
+      ]
+    },
+    "status.magnetic": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Damage/Magnetic_Damage"
+        },
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Overguard"
+        }
+      ],
+      "notesAppend": [
+        "Keep magnetic interactions with shields and overguard separately queryable because those recommendations differ in practice."
+      ]
+    },
+    "status.radiation": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Damage/Radiation_Damage"
+        }
+      ]
+    },
+    "status.viral": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Damage/Viral_Damage"
+        }
+      ],
+      "notesAppend": [
+        "Viral scaling is one of the highest-impact patch-sensitive mechanics for AI build advice and should remain explicitly source-backed."
+      ]
+    },
+    "damage.armor-interactions": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Armor"
+        },
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Damage"
+        }
+      ]
+    },
+    "damage.shield-interactions": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Shield"
+        },
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Damage"
+        }
+      ]
+    },
+    "damage.health-interactions": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Health"
+        },
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Damage"
+        }
+      ]
+    },
+    "damage.overguard-interactions": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Overguard"
+        }
+      ],
+      "notesAppend": [
+        "Overguard semantics shift often enough that player- and enemy-side interactions should stay clearly marked as patch-sensitive."
+      ]
+    },
+    "damage.damage-over-time": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Damage"
+        },
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Status_Effect"
+        }
+      ]
+    },
+    "formula.base-damage-stacking": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Damage"
+        },
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Mod"
+        }
+      ]
+    },
+    "formula.critical-chance": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Critical_Hit"
+        }
+      ]
+    },
+    "formula.critical-multiplier": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Critical_Hit"
+        }
+      ]
+    },
+    "formula.multishot": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Multishot"
+        }
+      ]
+    },
+    "formula.status-chance": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Status_Chance"
+        }
+      ]
+    },
+    "rule.element-combination": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Damage"
+        }
+      ]
+    },
+    "rule.exalted-loadouts": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Exalted_Weapon"
+        }
+      ]
+    },
+    "rule.faction-damage": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Damage"
+        },
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Mod"
+        }
+      ]
+    },
+    "rule.stacking-types": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Mod"
+        }
+      ]
+    },
+    "ability.strength-scaling": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Ability_Strength"
+        }
+      ]
+    },
+    "ability.duration-scaling": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Ability_Duration"
+        }
+      ]
+    },
+    "ability.range-scaling": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Ability_Range"
+        }
+      ]
+    },
+    "ability.efficiency-scaling": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Ability_Efficiency"
+        }
+      ]
+    },
+    "ability.helminth-rules": {
+      "sources": [
+        {
+          "type": "wiki",
+          "value": "https://warframe.fandom.com/wiki/Helminth"
+        }
+      ]
+    }
+  }
+}

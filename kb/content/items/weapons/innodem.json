@@ -1,0 +1,267 @@
+{
+    "id":  "weapon.innodem",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Innodem",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  1440,
+                      "crafting":  {
+                                       "buildTime":  86400,
+                                       "buildPrice":  30000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/Evolving/ZarimanDaggerWeaponBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "The Holdfasts (Cavalero), Fallen",
+                                                                                "type":  "Innodem Blueprint",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Entrati Lanthorn",
+                                                              "uniqueName":  "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanMiscItemB",
+                                                              "itemCount":  15,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Thrax Plasm",
+                                                              "uniqueName":  "/Lotus/Types/Gameplay/Zariman/Resources/VoidWraithItem",
+                                                              "itemCount":  20,
+                                                              "type":  null,
+                                                              "tradable":  true,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Voidplume Pinion",
+                                                              "uniqueName":  "/Lotus/Types/Gameplay/Zariman/Resources/VoidAngelItem",
+                                                              "itemCount":  5,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Voidplume Quill",
+                                                              "uniqueName":  "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanDogTagBounty",
+                                                              "itemCount":  10,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  25,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Innodem.png?24109",
+                                   "url":  "https://wiki.warframe.com/w/Innodem",
+                                   "imageName":  "innodem-1a489bdc0e.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  0.75,
+                                          "crit_chance":  22,
+                                          "crit_mult":  2,
+                                          "status_chance":  22,
+                                          "damage":  {
+                                                         "impact":  36,
+                                                         "slash":  180,
+                                                         "puncture":  144
+                                                     },
+                                          "slide":  "720"
+                                      },
+                                      {
+                                          "name":  "Dagger Projectile",
+                                          "speed":  0.75,
+                                          "crit_chance":  22,
+                                          "crit_mult":  2,
+                                          "status_chance":  22,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  60,
+                                          "flight":  60,
+                                          "falloff":  {
+                                                          "start":  12,
+                                                          "end":  20,
+                                                          "reduction":  0.7222
+                                                      },
+                                          "damage":  {
+                                                         "radiation":  360
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  0.75,
+                                          "crit_chance":  22,
+                                          "crit_mult":  2,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  5,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "impact":  720
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  0.75,
+                                          "crit_chance":  22,
+                                          "crit_mult":  2,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  6,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "blast":  1080
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  720,
+                      "blockingAngle":  50,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  36,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  144,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  180,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  360,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            36,
+                                            144,
+                                            180,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  1.8,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  720,
+                      "followThrough":  0.89999998,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  1080,
+                      "stancePolarity":  "madurai",
+                      "slideAttack":  720,
+                      "windUp":  0.40000001,
+                      "slamRadius":  5,
+                      "slamAttack":  720,
+                      "heavySlamRadius":  7
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Zariman/Melee/Dagger/ZarimanDaggerWeapon"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "In the early Orokin Empire, elites wore Innodem as a symbolic reminder to defend the defenseless. The tradition fell out of style, but nostalgic elites acknowledged the sentiment in the form of a gift. The Void amplifies that ideal. Void energy strengthens Innodem gliding aerial attacks and the wielder is increasingly resilient as they perform finisher attacks in Incarnon Form.",
+    "release":  {
+                    "releaseDate":  "2022-06-09",
+                    "introduced":  {
+                                       "date":  "2022-06-09",
+                                       "parent":  "31.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_31%23Update_31.6",
+                                       "name":  "Update 31.6",
+                                       "aliases":  [
+                                                       "31.6"
+                                                   ]
+                                   }
+                },
+    "summary":  "In the early Orokin Empire, elites wore Innodem as a symbolic reminder to defend the defenseless. The tradition fell out of style, but nostalgic elites acknowledged the sentiment in the form of a gift. The Void amplifies that ideal. Void energy strengthens Innodem gliding aerial attacks and the wielder is increasingly resilient as they perform finisher attacks in Incarnon Form.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.22000003,
+                  "polarities":  [
+                                     "madurai",
+                                     "madurai"
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  1,
+                  "magazineSize":  null,
+                  "fireRate":  0.75000006,
+                  "critMultiplier":  2,
+                  "totalDamage":  360,
+                  "vaulted":  null,
+                  "masteryReq":  14,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.22,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

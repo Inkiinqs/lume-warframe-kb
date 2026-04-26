@@ -1,0 +1,49 @@
+{
+    "id":  "ability.duration-scaling",
+    "name":  "Ability Duration Scaling",
+    "category":  "ability_rule",
+    "summary":  "Explains how ability duration modifies timed Warframe effects.",
+    "mechanics":  {
+                      "appliesTo":  [
+                                        "timed-abilities",
+                                        "buffs",
+                                        "debuffs"
+                                    ],
+                      "stacking":  "Track shared duration modifiers and exceptions in sourced updates.",
+                      "duration":  null,
+                      "formula":  "Store exact duration scaling rules in validated updates.",
+                      "specialRules":  [
+                                           "Range-limited or channeled exceptions should be noted here when sourced."
+                                       ]
+                  },
+    "interactions":  {
+                         "relatedSystems":  [
+
+                                            ]
+                     },
+    "examples":  [
+
+                 ],
+    "tags":  [
+                 "abilities",
+                 "duration",
+                 "warframes"
+             ],
+    "notes":  null,
+    "sources":  [
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Abilities"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Ability_Duration"
+                    }
+                ],
+    "verification":  {
+                         "trustLevel":  "community-verified",
+                         "sourceFamily":  "warframe-wiki",
+                         "patchSensitive":  true,
+                         "reviewedAt":  "2026-04-10"
+                     }
+}

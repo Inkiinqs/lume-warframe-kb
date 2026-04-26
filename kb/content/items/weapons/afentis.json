@@ -1,0 +1,253 @@
+{
+    "id":  "weapon.afentis",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Afentis",
+    "subCategory":  "primary-rifle",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD primary static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  null,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  20000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Argon Crystal",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/ArgonCrystal",
+                                                              "itemCount":  2,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/TnHopliteSpearGunWeaponBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Kahl\u0027s Garrison (Chipper), Home",
+                                                                                "type":  "Afentis Blueprint",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Cryotic",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Cryotic",
+                                                              "itemCount":  1200,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Ferrite",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Ferrite",
+                                                              "itemCount":  8000,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Rubedo",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Rubedo",
+                                                              "itemCount":  3500,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  35,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Afentis.png?33fce",
+                                   "url":  "https://wiki.warframe.com/w/Afentis",
+                                   "imageName":  "afentis-a053c519b8.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Semi",
+                                          "speed":  0.833,
+                                          "crit_chance":  26,
+                                          "crit_mult":  2.2,
+                                          "status_chance":  24,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  90,
+                                          "flight":  90,
+                                          "damage":  {
+                                                         "impact":  20,
+                                                         "slash":  20,
+                                                         "puncture":  60
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Radial Attack",
+                                          "speed":  0.833,
+                                          "crit_chance":  26,
+                                          "crit_mult":  2.2,
+                                          "status_chance":  24,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  3,
+                                                          "reduction":  0.4
+                                                      },
+                                          "damage":  {
+                                                         "blast":  800
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Spear Throw",
+                                          "speed":  1,
+                                          "crit_chance":  30,
+                                          "crit_mult":  3,
+                                          "status_chance":  20,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  90,
+                                          "flight":  90,
+                                          "damage":  {
+                                                         "impact":  240,
+                                                         "slash":  40,
+                                                         "puncture":  120
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  null,
+                      "blockingAngle":  null,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  20,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  60.000004,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  19.999998,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  100,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            20,
+                                            60.000004,
+                                            19.999998,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/LongGuns/TnHopliteSpear/TnHopliteSpearGunWeapon"
+                ],
+    "tags":  [
+                 "weapon",
+                 "primary"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "Styanax’s speargun matches his might. Throw Afentis to pin an enemy and nearby enemies will also be stunned. Throw Afentis onto the ground to buff nearby allies with Ballistarii Might. The buff increases reload speed, fire rate, and ammo pools and reduces recoil. Allies who kill enemies with Ballistarii Might maintain the buff temporarily when they move away from Afentis.",
+    "release":  {
+                    "releaseDate":  "2022-09-07",
+                    "introduced":  {
+                                       "date":  "2022-09-07",
+                                       "parent":  "32.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_32%23Update_32.0",
+                                       "name":  "Update 32.0",
+                                       "aliases":  [
+                                                       "32",
+                                                       "32.0",
+                                                       "Veilbreaker"
+                                                   ]
+                                   }
+                },
+    "summary":  "Styanax’s speargun matches his might. Throw Afentis to pin an enemy and nearby enemies will also be stunned. Throw Afentis onto the ground to buff nearby allies with Ballistarii Might. The buff increases reload speed, fire rate, and ammo pools and reduces recoil. Allies who kill enemies with Ballistarii Might maintain the buff temporarily when they move away from Afentis.",
+    "stats":  {
+                  "accuracy":  100,
+                  "statusChance":  0.24000001,
+                  "polarities":  [
+                                     "naramon",
+                                     "madurai",
+                                     "madurai"
+                                 ],
+                  "noise":  "Alarming",
+                  "tradable":  false,
+                  "reloadTime":  1.8,
+                  "disposition":  3,
+                  "magazineSize":  4,
+                  "fireRate":  0.83333337,
+                  "critMultiplier":  2.2,
+                  "totalDamage":  100,
+                  "vaulted":  null,
+                  "masteryReq":  8,
+                  "slot":  "primary",
+                  "estimatedVaultDate":  null,
+                  "trigger":  "Semi",
+                  "critChance":  0.25999999,
+                  "weaponClass":  "Rifle",
+                  "masterable":  true,
+                  "multishot":  1,
+                  "vaultDate":  null
+              }
+}

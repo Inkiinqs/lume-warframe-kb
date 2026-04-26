@@ -1,0 +1,236 @@
+{
+    "id":  "weapon.ruvox",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Ruvox",
+    "subCategory":  "melee-rifle",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  680,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  20000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blade",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/EntFistIncarnonBlade",
+                                                              "itemCount":  2,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Deimos/Armatus (Disruption), Rotation B",
+                                                                                "type":  "Ruvox Blade Blueprint",
+                                                                                "chance":  5,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/EntFistIncarnonBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Deimos/Armatus (Disruption), Rotation B",
+                                                                                "type":  "Ruvox Blueprint",
+                                                                                "chance":  5,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Glove",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/EntFistIncarnonGlove",
+                                                              "itemCount":  2,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Deimos/Armatus (Disruption), Rotation B",
+                                                                                "type":  "Ruvox Glove Blueprint",
+                                                                                "chance":  5,
+                                                                                "rarity":  "Rare"
+                                                                            }
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  25,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Ruvox.png?01731",
+                                   "url":  "https://wiki.warframe.com/w/Ruvox",
+                                   "imageName":  "ruvox-a985d9faa1.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  1,
+                                          "crit_chance":  26,
+                                          "crit_mult":  2.2,
+                                          "status_chance":  20,
+                                          "damage":  {
+                                                         "impact":  170
+                                                     },
+                                          "slide":  "510"
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  1,
+                                          "crit_chance":  26,
+                                          "crit_mult":  2.2,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  8,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "impact":  340
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  1,
+                                          "crit_chance":  26,
+                                          "crit_mult":  2.2,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  9,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "blast":  510
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  340,
+                      "blockingAngle":  50,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  170,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  170,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            170,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  1.25,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  850,
+                      "followThrough":  0.89999998,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  510,
+                      "stancePolarity":  "vazarin",
+                      "slideAttack":  510,
+                      "windUp":  0.60000002,
+                      "slamRadius":  8,
+                      "slamAttack":  510,
+                      "heavySlamRadius":  9
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Thanotech/EntFistIncarnon/EntFistIncarnon"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "Albrecht\u0027s Void experiments revealed the true destructive potential of this fist weapon. In Incarnon form, perform Heavy Slams to impale nearby enemies with spikes.",
+    "release":  {
+                    "releaseDate":  "2024-03-27",
+                    "introduced":  {
+                                       "date":  "2024-03-27",
+                                       "parent":  "35.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_35%23Update_35.5",
+                                       "name":  "Update 35.5",
+                                       "aliases":  [
+                                                       "35.5"
+                                                   ]
+                                   }
+                },
+    "summary":  "Albrecht\u0027s Void experiments revealed the true destructive potential of this fist weapon. In Incarnon form, perform Heavy Slams to impale nearby enemies with spikes.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.19999999,
+                  "polarities":  [
+                                     "naramon"
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  3,
+                  "magazineSize":  null,
+                  "fireRate":  1,
+                  "critMultiplier":  2.2,
+                  "totalDamage":  170,
+                  "vaulted":  null,
+                  "masteryReq":  14,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.25999999,
+                  "weaponClass":  "Rifle",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

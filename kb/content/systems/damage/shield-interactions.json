@@ -1,0 +1,50 @@
+{
+    "id":  "damage.shield-interactions",
+    "name":  "Shield Interactions",
+    "category":  "damage_rule",
+    "summary":  "Defines how damage and status effects interact with shields as a target layer.",
+    "mechanics":  {
+                      "appliesTo":  [
+                                        "shields",
+                                        "damage-types",
+                                        "status-effects"
+                                    ],
+                      "stacking":  null,
+                      "duration":  null,
+                      "formula":  "Store exact anti-shield details and edge cases in sourced updates.",
+                      "specialRules":  [
+                                           "Separate shield behavior from overguard and health records."
+                                       ]
+                  },
+    "interactions":  {
+                         "relatedSystems":  [
+                                                "status.magnetic",
+                                                "status.toxin"
+                                            ]
+                     },
+    "examples":  [
+                     "Used by the AI when evaluating shield-heavy targets."
+                 ],
+    "tags":  [
+                 "damage",
+                 "shields",
+                 "combat"
+             ],
+    "notes":  null,
+    "sources":  [
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Damage"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Shield"
+                    }
+                ],
+    "verification":  {
+                         "trustLevel":  "community-verified",
+                         "sourceFamily":  "warframe-wiki",
+                         "patchSensitive":  true,
+                         "reviewedAt":  "2026-04-10"
+                     }
+}

@@ -1,0 +1,174 @@
+{
+    "id":  "warframe.limbo",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-warframes.json"
+                    }
+                ],
+    "name":  "Limbo",
+    "subCategory":  "standard",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD Warframes.json."
+              ],
+    "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  "https://wiki.warframe.com/w/Limbo",
+                                   "imageName":  "limbo-c107f3bcc2.png",
+                                   "available":  true
+                               },
+                      "crafting":  {
+                                       "buildTime":  60,
+                                       "buildPrice":  25000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/MagicianBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Chassis",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/MagicianChassisComponent",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Cephalon Simaris, Complete The Limbo Theorem",
+                                                                                "type":  "Limbo Chassis Blueprint",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Neuroptics",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/MagicianHelmetComponent",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Cephalon Simaris, Complete The Limbo Theorem",
+                                                                                "type":  "Limbo Neuroptics Blueprint",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Orokin Cell",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/OrokinCell",
+                                                              "itemCount":  3,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Systems",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/MagicianSystemsComponent",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Cephalon Simaris, Complete The Limbo Theorem",
+                                                                                "type":  "Limbo Systems Blueprint",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  50,
+                                       "consumeOnBuild":  true
+                                   },
+                      "exalted":  [
+                                      null
+                                  ],
+                      "abilities":  [
+                                        {
+                                            "name":  "Banish",
+                                            "description":  "Casts a wave of Rift energy that damages hostiles while pushing enemies and allies out of Limbo\u0027s current plane of existence.",
+                                            "uniqueName":  "/Lotus/Powersuits/Magician/Abilities/BanishAbility",
+                                            "imageName":  "banish-0af8fd2d59.png"
+                                        },
+                                        {
+                                            "name":  "Stasis",
+                                            "description":  "Freezes Rift-bound enemies. While active, enemy projectiles are arrested in mid-air, resuming its trajectory when stasis ends.",
+                                            "uniqueName":  "/Lotus/Powersuits/Magician/Abilities/MagicianStasisAbility",
+                                            "imageName":  "stasis-f06b9ec89c.png"
+                                        },
+                                        {
+                                            "name":  "Rift Surge",
+                                            "description":  "Surges nearby Rift-bound enemies with Rift energy. When killed the Rift Surge is transferred to a nearby enemy outside the rift. Surged enemies that leave the Rift perform a radial Banish.",
+                                            "uniqueName":  "/Lotus/Powersuits/Magician/Abilities/VolatileAbility",
+                                            "imageName":  "rift-surge-569e34e3d4.png"
+                                        },
+                                        {
+                                            "name":  "Cataclysm",
+                                            "description":  "A violent blast of Void energy tears open a pocket of rift plane which can sustain itself for a short period before collapsing in another lethal blast.",
+                                            "uniqueName":  "/Lotus/Powersuits/Magician/Abilities/TearInSpaceAbility",
+                                            "imageName":  "cataclysm-e7b90f224a.png"
+                                        }
+                                    ],
+                      "passiveDescription":  "Dodge to enter and exit the Rift. Entering leaves behind a small Rift portal lasting |DURATION|s. Energy slowly recharges in the Rift, and each enemy killed in there also gives |ENERGY| Energy."
+                  },
+    "aliases":  [
+                    "/Lotus/Powersuits/Magician/Magician"
+                ],
+    "tags":  [
+                 "warframe",
+                 "base"
+             ],
+    "category":  "warframe",
+    "relationships":  [
+
+                      ],
+    "description":  "Master the rift between shadow and substance. Limbo disrupts time-space to provide crowd control. He is at home where others struggle with what is real.",
+    "release":  {
+                    "releaseDate":  "2014-10-24",
+                    "introduced":  {
+                                       "date":  "2014-10-24",
+                                       "parent":  "15.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_15%23Update_15.0",
+                                       "name":  "Update 15.0",
+                                       "aliases":  [
+                                                       "15.0",
+                                                       "15",
+                                                       "Archwing",
+                                                       "Update 15"
+                                                   ]
+                                   }
+                },
+    "summary":  "Master the rift between shadow and substance. Limbo disrupts time-space to provide crowd control. He is at home where others struggle with what is real.",
+    "stats":  {
+                  "shield":  180,
+                  "aura":  "naramon",
+                  "tradable":  false,
+                  "polarities":  [
+                                     "madurai",
+                                     "madurai"
+                                 ],
+                  "sprintSpeed":  1.15,
+                  "health":  270,
+                  "power":  175,
+                  "vaulted":  null,
+                  "masteryReq":  0,
+                  "estimatedVaultDate":  null,
+                  "stamina":  3,
+                  "masterable":  true,
+                  "vaultDate":  null,
+                  "armor":  105
+              }
+}

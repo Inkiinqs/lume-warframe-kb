@@ -1,0 +1,275 @@
+{
+    "id":  "weapon.kulstar",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Kulstar",
+    "subCategory":  "secondary-pistol",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD secondary static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  null,
+                      "crafting":  {
+                                       "buildTime":  86400,
+                                       "buildPrice":  30000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/GrnTorpedoPistolBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Cryotic",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Cryotic",
+                                                              "itemCount":  4800,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Kraken",
+                                                              "uniqueName":  "/Lotus/Weapons/Grineer/GrineerPistol/GrnHeavyPistol",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Duviri/Endless: Tier 6 (Normal)",
+                                                                                "type":  "Kraken Blueprint",
+                                                                                "chance":  1.03,
+                                                                                "rarity":  "Rare"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Kuva Fortress/Dakata (Caches), Rotation C",
+                                                                                "type":  "Cyclone Kraken",
+                                                                                "chance":  10.79,
+                                                                                "rarity":  "Uncommon"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Conclave, Typhoon",
+                                                                                "type":  "Kraken Conclave Skin",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Plastids",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Plastids",
+                                                              "itemCount":  3600,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Tellurium",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Tellurium",
+                                                              "itemCount":  2,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  25,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Kulstar.png?c910a",
+                                   "url":  "https://wiki.warframe.com/w/Kulstar",
+                                   "imageName":  "kulstar-d571661f73.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Rocket Impact",
+                                          "speed":  2,
+                                          "crit_chance":  17,
+                                          "crit_mult":  2.3,
+                                          "status_chance":  19,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  100,
+                                          "flight":  100,
+                                          "damage":  {
+                                                         "impact":  200
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Rocket Explosion",
+                                          "speed":  2,
+                                          "crit_chance":  17,
+                                          "crit_mult":  2.3,
+                                          "status_chance":  19,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  3.9,
+                                                          "reduction":  0.4
+                                                      },
+                                          "damage":  {
+                                                         "blast":  300
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Cluster Bombs",
+                                          "speed":  2,
+                                          "crit_chance":  17,
+                                          "crit_mult":  2.3,
+                                          "status_chance":  19,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  8,
+                                          "flight":  8,
+                                          "damage":  {
+                                                         "impact":  75
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Cluster Bomb Explosion",
+                                          "speed":  2,
+                                          "crit_chance":  17,
+                                          "crit_mult":  2.3,
+                                          "status_chance":  19,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  3.9,
+                                                          "reduction":  0.4
+                                                      },
+                                          "damage":  {
+                                                         "blast":  90
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  null,
+                      "blockingAngle":  null,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  200,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  500,
+                                     "toxin":  0,
+                                     "blast":  300,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            200,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            300,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Grineer/Pistols/GrnTorpedoPistol/GrnTorpedoPistol"
+                ],
+    "tags":  [
+                 "weapon",
+                 "secondary"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "Rain hell on the enemy with this handheld cluster-rocket launcher.",
+    "release":  {
+                    "releaseDate":  "2015-07-31",
+                    "introduced":  {
+                                       "date":  "2015-07-31",
+                                       "parent":  "17.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_17%23Update_17.0",
+                                       "name":  "Update 17.0",
+                                       "aliases":  [
+                                                       "Update 17",
+                                                       "17.0",
+                                                       "17"
+                                                   ]
+                                   }
+                },
+    "summary":  "Rain hell on the enemy with this handheld cluster-rocket launcher.",
+    "stats":  {
+                  "accuracy":  26.666666,
+                  "statusChance":  0.19,
+                  "polarities":  [
+                                     "vazarin"
+                                 ],
+                  "noise":  "Alarming",
+                  "tradable":  false,
+                  "reloadTime":  2,
+                  "disposition":  4,
+                  "magazineSize":  3,
+                  "fireRate":  2,
+                  "critMultiplier":  2.3,
+                  "totalDamage":  500,
+                  "vaulted":  null,
+                  "masteryReq":  5,
+                  "slot":  "secondary",
+                  "estimatedVaultDate":  null,
+                  "trigger":  "Active",
+                  "critChance":  0.17,
+                  "weaponClass":  "Pistol",
+                  "masterable":  true,
+                  "multishot":  1,
+                  "vaultDate":  null
+              }
+}

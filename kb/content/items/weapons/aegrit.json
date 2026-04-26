@@ -1,0 +1,238 @@
+{
+    "id":  "weapon.aegrit",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Aegrit",
+    "subCategory":  "secondary-throwing",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD secondary static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  null,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  20000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Alloy Plate",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                                                              "itemCount":  8500,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/GrnVorStickyBombBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Kahl\u0027s Garrison (Chipper), Settlement",
+                                                                                "type":  "Aegrit Blueprint",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Ferrite",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Ferrite",
+                                                              "itemCount":  12500,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Kuva",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Kuva",
+                                                              "itemCount":  2200,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Morphics",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Morphic",
+                                                              "itemCount":  2,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  35,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Aegrit.png?33219",
+                                   "url":  "https://wiki.warframe.com/w/Aegrit",
+                                   "imageName":  "aegrit-fe86bbbea4.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Direct Hit",
+                                          "speed":  2,
+                                          "crit_chance":  37,
+                                          "crit_mult":  1.9,
+                                          "status_chance":  19,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  30,
+                                          "flight":  30,
+                                          "damage":  {
+                                                         "impact":  4.5,
+                                                         "slash":  2.7,
+                                                         "puncture":  1.8
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Detonation",
+                                          "speed":  2,
+                                          "crit_chance":  37,
+                                          "crit_mult":  2,
+                                          "status_chance":  19,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  9,
+                                                          "reduction":  0.7
+                                                      },
+                                          "damage":  {
+                                                         "blast":  797
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  null,
+                      "blockingAngle":  null,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  4.5,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  1.8000001,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  2.7,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  806,
+                                     "toxin":  0,
+                                     "blast":  797,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            4.5,
+                                            1.8000001,
+                                            2.7,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            797,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Grineer/ThrowingWeapons/GrnVorStickyBomb/GrnVorStickyBomb"
+                ],
+    "tags":  [
+                 "weapon",
+                 "secondary"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "What the Aegrit lacks in quantity it makes up for in destructive power. Toss the Aegrit onto your enemy’s position then detonate remotely at the right moment for maximum destructive effect.",
+    "release":  {
+                    "releaseDate":  "2022-09-07",
+                    "introduced":  {
+                                       "date":  "2022-09-07",
+                                       "parent":  "32.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_32%23Update_32.0",
+                                       "name":  "Update 32.0",
+                                       "aliases":  [
+                                                       "32",
+                                                       "32.0",
+                                                       "Veilbreaker"
+                                                   ]
+                                   }
+                },
+    "summary":  "What the Aegrit lacks in quantity it makes up for in destructive power. Toss the Aegrit onto your enemy’s position then detonate remotely at the right moment for maximum destructive effect.",
+    "stats":  {
+                  "accuracy":  100,
+                  "statusChance":  0.19,
+                  "polarities":  [
+                                     "madurai",
+                                     "madurai",
+                                     "madurai"
+                                 ],
+                  "noise":  "Silent",
+                  "tradable":  false,
+                  "reloadTime":  1.3,
+                  "disposition":  3,
+                  "magazineSize":  2,
+                  "fireRate":  2,
+                  "critMultiplier":  1.9,
+                  "totalDamage":  806,
+                  "vaulted":  null,
+                  "masteryReq":  11,
+                  "slot":  "secondary",
+                  "estimatedVaultDate":  null,
+                  "trigger":  "Active",
+                  "critChance":  0.37,
+                  "weaponClass":  "Throwing",
+                  "masterable":  true,
+                  "multishot":  1,
+                  "vaultDate":  null
+              }
+}

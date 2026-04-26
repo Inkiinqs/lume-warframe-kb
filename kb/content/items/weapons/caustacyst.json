@@ -1,0 +1,276 @@
+{
+    "id":  "weapon.caustacyst",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Caustacyst",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  1300,
+                      "crafting":  {
+                                       "buildTime":  86400,
+                                       "buildPrice":  30000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Weapons/ClanTech/Bio/EmbolistScytheBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Ferrite",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Ferrite",
+                                                              "itemCount":  15000,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Mutagen Mass",
+                                                              "uniqueName":  "/Lotus/Types/Items/Research/BioComponent",
+                                                              "itemCount":  10,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Nitain Extract",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Alertium",
+                                                              "itemCount":  5,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Plastids",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Plastids",
+                                                              "itemCount":  4000,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  35,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  "https://wiki.warframe.com/w/Caustacyst",
+                                   "imageName":  "caustacyst-a2b014c8d4.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  1,
+                                          "crit_chance":  9,
+                                          "crit_mult":  2,
+                                          "status_chance":  37,
+                                          "damage":  {
+                                                         "impact":  17,
+                                                         "slash":  69,
+                                                         "puncture":  71,
+                                                         "corrosive":  103
+                                                     },
+                                          "slide":  "520"
+                                      },
+                                      {
+                                          "name":  "Corrosive Wave",
+                                          "speed":  1,
+                                          "crit_chance":  9,
+                                          "crit_mult":  2,
+                                          "status_chance":  37,
+                                          "charge_time":  1,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  15,
+                                          "flight":  15,
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  35,
+                                                          "reduction":  1
+                                                      },
+                                          "damage":  {
+                                                         "corrosive":  225
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Corrosive Pool",
+                                          "speed":  1,
+                                          "crit_chance":  0,
+                                          "crit_mult":  1,
+                                          "status_chance":  50,
+                                          "charge_time":  1,
+                                          "shot_type":  "AoE",
+                                          "damage":  {
+                                                         "corrosive":  98
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  1,
+                                          "crit_chance":  9,
+                                          "crit_mult":  2,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  8,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "impact":  520
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  1,
+                                          "crit_chance":  9,
+                                          "crit_mult":  2,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  9,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "blast":  780
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  520,
+                      "blockingAngle":  60,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  17,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  71,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  103,
+                                     "healthDrain":  0,
+                                     "puncture":  69,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  260,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            17,
+                                            71,
+                                            69,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            103,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  2.9000001,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  1560,
+                      "followThrough":  0.60000002,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  780,
+                      "stancePolarity":  "zenurik",
+                      "slideAttack":  520,
+                      "windUp":  1,
+                      "slamRadius":  8,
+                      "slamAttack":  780,
+                      "heavySlamRadius":  9
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Infested/Melee/InfEmbolistScythe/InfestedScythe"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "Heavy attacks from this scythe unleash a wave of acid that mutilates enemies and leaves a trail of corrosive sludge.",
+    "release":  {
+                    "releaseDate":  "2016-10-20",
+                    "introduced":  {
+                                       "date":  "2016-10-20",
+                                       "parent":  "18.19",
+                                       "url":  "https://wiki.warframe.com/w/Update_19%23Update%3A_The_Index_Preview",
+                                       "name":  "Update: The Index Preview",
+                                       "aliases":  [
+                                                       "The Index Preview",
+                                                       "TIP"
+                                                   ]
+                                   }
+                },
+    "summary":  "Heavy attacks from this scythe unleash a wave of acid that mutilates enemies and leaves a trail of corrosive sludge.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.37,
+                  "polarities":  [
+                                     "madurai"
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  4,
+                  "magazineSize":  null,
+                  "fireRate":  1,
+                  "critMultiplier":  2,
+                  "totalDamage":  260,
+                  "vaulted":  null,
+                  "masteryReq":  7,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.090000004,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

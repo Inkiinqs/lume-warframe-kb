@@ -1,0 +1,195 @@
+{
+    "description":  "Reconfigured for maximum lethality, the Kuva Grattler still shatters targets with explosive shells, but now reaches maximum fire-rate instantaneously.",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Kuva Grattler",
+    "subCategory":  "archgun-arch-gun",
+    "mechanics":  {
+                      "heavySlamAttack":  null,
+                      "crafting":  {
+                                       "buildTime":  60,
+                                       "buildPrice":  10000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/KuvaWeapons/KuvaGrattlerBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  0,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/KuvaGrattler.png?baf07",
+                                   "url":  "https://wiki.warframe.com/w/Kuva_Grattler",
+                                   "imageName":  "kuva-grattler-57e1150f75.png",
+                                   "available":  true
+                               },
+                      "followThrough":  null,
+                      "attacks":  [
+                                      {
+                                          "name":  "Projectile Impact",
+                                          "speed":  5.55,
+                                          "crit_chance":  27,
+                                          "crit_mult":  2.1,
+                                          "status_chance":  27,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  250,
+                                          "flight":  250,
+                                          "falloff":  {
+                                                          "start":  1000,
+                                                          "end":  2000
+                                                      },
+                                          "damage":  {
+                                                         "impact":  9.4,
+                                                         "slash":  9.4,
+                                                         "puncture":  75.2
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Explosion",
+                                          "speed":  5.55,
+                                          "crit_chance":  27,
+                                          "crit_mult":  2.1,
+                                          "status_chance":  27,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  9,
+                                                          "reduction":  0.7
+                                                      },
+                                          "damage":  {
+                                                         "blast":  155
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  null,
+                      "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  5,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  40,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  4.9999981,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  205,
+                                     "toxin":  0,
+                                     "blast":  155,
+                                     "void":  0
+                                 },
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "damagePerShot":  [
+                                            5,
+                                            40,
+                                            4.9999981,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            155,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ]
+                  },
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD archgun static data."
+              ],
+    "aliases":  [
+                    "/Lotus/Weapons/Grineer/KuvaLich/HeavyWeapons/Grattler/KuvaGrattler"
+                ],
+    "tags":  [
+                 "weapon",
+                 "archgun"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "id":  "weapon.kuva-grattler",
+    "release":  {
+                    "releaseDate":  "2021-07-06",
+                    "introduced":  {
+                                       "date":  "2021-07-06",
+                                       "parent":  "30.5",
+                                       "url":  "https://wiki.warframe.com/w/Update_30%23Update_30.5",
+                                       "name":  "Update 30.5",
+                                       "aliases":  [
+                                                       "30.5"
+                                                   ]
+                                   }
+                },
+    "summary":  "Reconfigured for maximum lethality, the Kuva Grattler still shatters targets with explosive shells, but now reaches maximum fire-rate instantaneously.",
+    "stats":  {
+                  "accuracy":  16.666666,
+                  "noise":  "Alarming",
+                  "polarities":  [
+                                     "madurai",
+                                     "madurai",
+                                     "madurai"
+                                 ],
+                  "tradable":  false,
+                  "vaulted":  null,
+                  "totalDamage":  205,
+                  "disposition":  1,
+                  "magazineSize":  60,
+                  "fireRate":  5.5500002,
+                  "critMultiplier":  2.0999999,
+                  "reloadTime":  4,
+                  "masteryReq":  15,
+                  "statusChance":  0.26999998,
+                  "slot":  "archgun",
+                  "estimatedVaultDate":  null,
+                  "trigger":  "Auto",
+                  "critChance":  0.27000001,
+                  "weaponClass":  "Arch-Gun",
+                  "masterable":  true,
+                  "multishot":  1,
+                  "vaultDate":  null
+              }
+}

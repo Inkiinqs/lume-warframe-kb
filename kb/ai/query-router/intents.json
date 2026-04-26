@@ -1,0 +1,112 @@
+{
+    "generatedAt":  "2026-04-12T10:57:28Z",
+    "schemaVersion":  "query-router-intents.v1",
+    "description":  "Compact intent catalog for assistant routing prompts.",
+    "intents":  [
+                    {
+                        "intent":  "build.recommendation.for-enemy",
+                        "description":  "Answer requests for a build, loadout, or mod plan against a named enemy or benchmark target.",
+                        "priority":  100,
+                        "requiredSignals":  [
+                                                "build",
+                                                "enemy"
+                                            ],
+                        "optionalSignals":  [
+                                                "warframe",
+                                                "weapon",
+                                                "owned inventory",
+                                                "missing mods"
+                                            ]
+                    },
+                    {
+                        "intent":  "build.recommendation.for-faction",
+                        "description":  "Answer faction-level loadout and damage-type questions.",
+                        "priority":  90,
+                        "requiredSignals":  [
+                                                "build",
+                                                "faction"
+                                            ],
+                        "optionalSignals":  [
+                                                "damage type",
+                                                "status effect",
+                                                "owned inventory"
+                                            ]
+                    },
+                    {
+                        "intent":  "inventory.gap-analysis",
+                        "description":  "Answer owned-versus-missing questions for builds, mods, parts, and wishlist targets.",
+                        "priority":  85,
+                        "requiredSignals":  [
+                                                "inventory",
+                                                "missing"
+                                            ],
+                        "optionalSignals":  [
+                                                "build",
+                                                "wishlist",
+                                                "crafting",
+                                                "owned mods"
+                                            ]
+                    },
+                    {
+                        "intent":  "farm.next-target",
+                        "description":  "Answer where-to-farm and what-to-farm-next questions.",
+                        "priority":  80,
+                        "requiredSignals":  [
+                                                "farm",
+                                                "target"
+                                            ],
+                        "optionalSignals":  [
+                                                "relic",
+                                                "drop source",
+                                                "wishlist",
+                                                "progression"
+                                            ]
+                    },
+                    {
+                        "intent":  "mechanic.explain",
+                        "description":  "Explain Warframe systems such as status effects, damage, scaling, modding rules, drops, abilities, and mission rules.",
+                        "priority":  75,
+                        "requiredSignals":  [
+                                                "mechanic",
+                                                "explain"
+                                            ],
+                        "optionalSignals":  [
+                                                "status effect",
+                                                "damage type",
+                                                "formula",
+                                                "mission rule"
+                                            ]
+                    },
+                    {
+                        "intent":  "item.lookup",
+                        "description":  "Look up canonical item facts, stats, relationships, and source paths.",
+                        "priority":  65,
+                        "requiredSignals":  [
+                                                "item",
+                                                "lookup"
+                                            ],
+                        "optionalSignals":  [
+                                                "warframe",
+                                                "weapon",
+                                                "mod",
+                                                "resource",
+                                                "relic",
+                                                "arcane"
+                                            ]
+                    },
+                    {
+                        "intent":  "market.price-check",
+                        "description":  "Answer market-aware questions when normalized market snapshots exist.",
+                        "priority":  55,
+                        "requiredSignals":  [
+                                                "market",
+                                                "price"
+                                            ],
+                        "optionalSignals":  [
+                                                "trade",
+                                                "wishlist",
+                                                "owned inventory"
+                                            ]
+                    }
+                ]
+}

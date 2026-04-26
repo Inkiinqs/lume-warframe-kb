@@ -1,0 +1,59 @@
+{
+    "id":  "status.electric",
+    "name":  "Electric",
+    "category":  "status_effect",
+    "summary":  "Electric status applies electrical damage behavior with crowd-control potential.",
+    "mechanics":  {
+                      "appliesTo":  [
+                                        "health",
+                                        "nearby-targets",
+                                        "target-state"
+                                    ],
+                      "stacking":  "Track sourced chaining or pulse behavior separately from this scaffold.",
+                      "duration":  "Timed effect with damage behavior.",
+                      "formula":  "See damage-over-time or chain-damage system records when added.",
+                      "specialRules":  [
+                                           "Can be relevant to area pressure and utility."
+                                       ]
+                  },
+    "interactions":  {
+                         "synergies":  [
+
+                                       ],
+                         "affectedBy":  [
+                                            "damage.damage-over-time"
+                                        ],
+                         "counteredBy":  [
+
+                                         ]
+                     },
+    "examples":  [
+
+                 ],
+    "tags":  [
+                 "status",
+                 "elemental",
+                 "utility"
+             ],
+    "notes":  "Keep exact area or pulse details sourced before treating them as canonical.",
+    "sources":  [
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Status_Effect"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Damage"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Damage/Electricity_Damage"
+                    }
+                ],
+    "verification":  {
+                         "trustLevel":  "community-verified",
+                         "sourceFamily":  "warframe-wiki",
+                         "patchSensitive":  true,
+                         "reviewedAt":  "2026-04-10"
+                     }
+}

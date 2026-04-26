@@ -1,0 +1,54 @@
+{
+    "id":  "modding.element-combination",
+    "name":  "Element Combination",
+    "category":  "modding_rule",
+    "summary":  "Explains how elemental mods and sources combine into advanced damage types.",
+    "mechanics":  {
+                      "appliesTo":  [
+                                        "weapons",
+                                        "mods",
+                                        "elemental-damage"
+                                    ],
+                      "stacking":  "Combination order and priority should be kept source-backed.",
+                      "duration":  null,
+                      "formula":  "Store exact ordering and precedence behavior in sourced updates.",
+                      "specialRules":  [
+                                           "This record should own the logic for how simple elements combine into advanced ones."
+                                       ]
+                  },
+    "interactions":  {
+                         "relatedSystems":  [
+                                                "status.blast",
+                                                "status.corrosive",
+                                                "status.gas",
+                                                "status.magnetic",
+                                                "status.radiation",
+                                                "status.viral"
+                                            ]
+                     },
+    "examples":  [
+
+                 ],
+    "tags":  [
+                 "modding",
+                 "elements",
+                 "buildcraft"
+             ],
+    "notes":  null,
+    "sources":  [
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Mod"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Damage"
+                    }
+                ],
+    "verification":  {
+                         "trustLevel":  "community-verified",
+                         "sourceFamily":  "warframe-wiki",
+                         "patchSensitive":  true,
+                         "reviewedAt":  "2026-04-10"
+                     }
+}

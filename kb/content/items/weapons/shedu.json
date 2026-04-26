@@ -1,0 +1,255 @@
+{
+    "id":  "weapon.shedu",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Shedu",
+    "subCategory":  "primary-rifle",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD primary static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  null,
+                      "crafting":  {
+                                       "buildTime":  86400,
+                                       "buildPrice":  30000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Barrel",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/SheduHeavyWeaponBarrel",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Symbilyst",
+                                                                                "type":  "Shedu Barrel",
+                                                                                "chance":  1,
+                                                                                "rarity":  "Uncommon"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/SheduHeavyWeaponBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Cephalon Simaris, Complete Erra (Quest)",
+                                                                                "type":  "Shedu Blueprint",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Chassis",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/SheduHeavyWeaponChassis",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Symbilyst",
+                                                                                "type":  "Shedu Chassis",
+                                                                                "chance":  1,
+                                                                                "rarity":  "Uncommon"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Handle",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/SheduHeavyWeaponHandle",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Symbilyst",
+                                                                                "type":  "Shedu Handle",
+                                                                                "chance":  1,
+                                                                                "rarity":  "Uncommon"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Receiver",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/SheduHeavyWeaponReceiver",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Symbilyst",
+                                                                                "type":  "Shedu Receiver",
+                                                                                "chance":  1,
+                                                                                "rarity":  "Uncommon"
+                                                                            }
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  35,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Shedu.png?173ce",
+                                   "url":  "https://wiki.warframe.com/w/Shedu",
+                                   "imageName":  "shedu-d2d1c0c38d.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  2.5,
+                                          "crit_chance":  25,
+                                          "crit_mult":  2.1,
+                                          "status_chance":  23,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  200,
+                                          "flight":  200,
+                                          "damage":  {
+                                                         "heat":  71
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Radial Attack",
+                                          "speed":  2.5,
+                                          "crit_chance":  25,
+                                          "crit_mult":  2.1,
+                                          "status_chance":  29,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  6.6,
+                                                          "reduction":  0.6
+                                                      },
+                                          "damage":  {
+                                                         "electricity":  87
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  null,
+                      "blockingAngle":  null,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  0,
+                                     "electricity":  87,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  71,
+                                     "total":  158,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            0,
+                                            0,
+                                            0,
+                                            71,
+                                            0,
+                                            87,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Sentients/Shedu/SheduHeavyWeapon"
+                ],
+    "tags":  [
+                 "weapon",
+                 "primary"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "This arm-cannon, ripped from a Sentient, rapid-fires thermal pulses that explode in an electrical blast. Features an ammo-less quick charge capacitor, that emits a knock-back pulse and strips Sentient damage resistances when fully discharged.",
+    "release":  {
+                    "releaseDate":  "2019-12-13",
+                    "introduced":  {
+                                       "date":  "2019-12-13",
+                                       "parent":  "27.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_27%23Update_27.0",
+                                       "name":  "Update 27.0",
+                                       "aliases":  [
+                                                       "27.0",
+                                                       "27",
+                                                       "Empyrean"
+                                                   ]
+                                   }
+                },
+    "summary":  "This arm-cannon, ripped from a Sentient, rapid-fires thermal pulses that explode in an electrical blast. Features an ammo-less quick charge capacitor, that emits a knock-back pulse and strips Sentient damage resistances when fully discharged.",
+    "stats":  {
+                  "accuracy":  28.571428,
+                  "statusChance":  0.23000002,
+                  "polarities":  [
+                                     "madurai",
+                                     "madurai"
+                                 ],
+                  "noise":  "Alarming",
+                  "tradable":  false,
+                  "reloadTime":  0.64999998,
+                  "disposition":  1,
+                  "magazineSize":  7,
+                  "fireRate":  2.5000002,
+                  "critMultiplier":  2.0999999,
+                  "totalDamage":  158,
+                  "vaulted":  null,
+                  "masteryReq":  13,
+                  "slot":  "primary",
+                  "estimatedVaultDate":  null,
+                  "trigger":  "Auto",
+                  "critChance":  0.25,
+                  "weaponClass":  "Rifle",
+                  "masterable":  true,
+                  "multishot":  1,
+                  "vaultDate":  null
+              }
+}

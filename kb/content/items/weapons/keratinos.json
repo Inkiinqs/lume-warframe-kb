@@ -1,0 +1,236 @@
+{
+    "id":  "weapon.keratinos",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Keratinos",
+    "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  976,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  20000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blades",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/InfTransformClawsWeaponBlade",
+                                                              "itemCount":  2,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/InfTransformClawsBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Entrati (Father), Neutral",
+                                                                                "type":  "Keratinos Blueprint",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Gauntlet",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/InfTransformClawsWeaponGlove",
+                                                              "itemCount":  2,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Entrati (Father), Neutral",
+                                                                                "type":  "Keratinos Gauntlet Blueprint",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  25,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Keratinos.png?be85c",
+                                   "url":  "https://wiki.warframe.com/w/Keratinos",
+                                   "imageName":  "keratinos-5879a3bd4d.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  0.917,
+                                          "crit_chance":  13,
+                                          "crit_mult":  2.1,
+                                          "status_chance":  29,
+                                          "damage":  {
+                                                         "impact":  79,
+                                                         "slash":  87,
+                                                         "puncture":  45,
+                                                         "viral":  33
+                                                     },
+                                          "slide":  "732"
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  0.917,
+                                          "crit_chance":  13,
+                                          "crit_mult":  2.1,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  6,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "impact":  488
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  0.917,
+                                          "crit_chance":  13,
+                                          "crit_mult":  2.1,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  7,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "viral":  732
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  488,
+                      "blockingAngle":  55,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  79,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  45,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  33,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  87,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  244,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            79,
+                                            45,
+                                            87,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            33,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  1.7,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  1708,
+                      "followThrough":  0.80000001,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  732,
+                      "stancePolarity":  "madurai",
+                      "slideAttack":  732,
+                      "windUp":  0.80000001,
+                      "slamRadius":  6,
+                      "slamAttack":  732,
+                      "heavySlamRadius":  7
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Infested/Melee/InfTransformClaw/InfTransformClawsWeapon"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "Leave your mark with these infected claws with increased heavy attack range. Heavy attack at max combo to keep the extended range and slam radius for 3 minutes.",
+    "release":  {
+                    "releaseDate":  "2020-08-25",
+                    "introduced":  {
+                                       "date":  "2020-08-25",
+                                       "parent":  "29.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_29",
+                                       "name":  "Update 29.0",
+                                       "aliases":  [
+                                                       "29",
+                                                       "29.0",
+                                                       "Heart of Deimos"
+                                                   ]
+                                   }
+                },
+    "summary":  "Leave your mark with these infected claws with increased heavy attack range. Heavy attack at max combo to keep the extended range and slam radius for 3 minutes.",
+    "stats":  {
+                  "accuracy":  null,
+                  "statusChance":  0.28999996,
+                  "polarities":  [
+                                     null
+                                 ],
+                  "noise":  null,
+                  "tradable":  false,
+                  "reloadTime":  null,
+                  "disposition":  3,
+                  "magazineSize":  null,
+                  "fireRate":  0.91666669,
+                  "critMultiplier":  2.0999999,
+                  "totalDamage":  244,
+                  "vaulted":  null,
+                  "masteryReq":  9,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.13,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
+}

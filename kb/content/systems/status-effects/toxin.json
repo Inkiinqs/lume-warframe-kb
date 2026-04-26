@@ -1,0 +1,58 @@
+{
+    "id":  "status.toxin",
+    "name":  "Toxin",
+    "category":  "status_effect",
+    "summary":  "Toxin status applies a poison-themed damage-over-time effect.",
+    "mechanics":  {
+                      "appliesTo":  [
+                                        "health"
+                                    ],
+                      "stacking":  "Track exact stack behavior in source-backed updates.",
+                      "duration":  "Timed damage-over-time effect.",
+                      "formula":  "See damage-over-time records for scaling details.",
+                      "specialRules":  [
+                                           "Frequently relevant when reasoning about direct health pressure."
+                                       ]
+                  },
+    "interactions":  {
+                         "synergies":  [
+
+                                       ],
+                         "affectedBy":  [
+                                            "damage.damage-over-time",
+                                            "damage.health-interactions"
+                                        ],
+                         "counteredBy":  [
+
+                                         ]
+                     },
+    "examples":  [
+
+                 ],
+    "tags":  [
+                 "status",
+                 "elemental",
+                 "damage-over-time"
+             ],
+    "notes":  "Exact shield and health interaction nuance should remain source-backed.",
+    "sources":  [
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Status_Effect"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Damage"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Damage/Toxin_Damage"
+                    }
+                ],
+    "verification":  {
+                         "trustLevel":  "community-verified",
+                         "sourceFamily":  "warframe-wiki",
+                         "patchSensitive":  true,
+                         "reviewedAt":  "2026-04-10"
+                     }
+}

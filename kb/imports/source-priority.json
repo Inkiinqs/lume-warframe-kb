@@ -1,0 +1,31 @@
+{
+  "version": "0.1.0",
+  "description": "Planned source priority for populating the Warframe knowledge base.",
+  "priorityOrder": [
+    {
+      "domain": "systems",
+      "preferredSourceType": "manual-and-validated-reference",
+      "notes": "Mechanics should be carefully normalized before automation depends on them."
+    },
+    {
+      "domain": "items-world-activities",
+      "preferredSourceType": "static-export",
+      "notes": "Canonical game entities should be imported through normalized source snapshots."
+    },
+    {
+      "domain": "relationships",
+      "preferredSourceType": "normalized-derived-records",
+      "notes": "Drops, crafting, and compatibility should be explicit records generated from source data."
+    },
+    {
+      "domain": "live-state",
+      "preferredSourceType": "live-feed",
+      "notes": "World-state and rotation data should remain generated rather than hand-authored."
+    },
+    {
+      "domain": "player",
+      "preferredSourceType": "manual-or-overlay-sync",
+      "notes": "Player state should remain isolated from canonical game knowledge."
+    }
+  ]
+}

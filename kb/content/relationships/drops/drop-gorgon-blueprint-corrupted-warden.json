@@ -1,0 +1,27 @@
+{
+    "id":  "relationship.drop-gorgon-blueprint-corrupted-warden",
+    "type":  "wfcd_drop",
+    "from":  "source.corrupted-warden",
+    "to":  "part.gorgon-blueprint",
+    "summary":  "Corrupted Warden can drop Gorgon Blueprint.",
+    "conditions":  {
+
+                   },
+    "values":  {
+                   "location":  "Corrupted Warden",
+                   "chance":  1,
+                   "rarity":  "Common",
+                   "rewardType":  "Gorgon Blueprint",
+                   "parentId":  "weapon.gorgon"
+               },
+    "tags":  [
+                 "drop",
+                 "wfcd-generated"
+             ],
+    "sources":  [
+                    {
+                        "type":  "wfcd-generated",
+                        "value":  "drop:weapon.gorgon"
+                    }
+                ]
+}

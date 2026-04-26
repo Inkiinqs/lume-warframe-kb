@@ -1,0 +1,50 @@
+{
+    "id":  "ability.strength-scaling",
+    "name":  "Ability Strength Scaling",
+    "category":  "ability_rule",
+    "summary":  "Explains how ability strength modifies Warframe abilities and related effects.",
+    "mechanics":  {
+                      "appliesTo":  [
+                                        "warframe-abilities",
+                                        "buffs",
+                                        "debuffs",
+                                        "damage"
+                                    ],
+                      "stacking":  "Track shared strength modifiers and exceptions in sourced updates.",
+                      "duration":  null,
+                      "formula":  "Store exact strength scaling rules and caps in validated updates.",
+                      "specialRules":  [
+                                           "Shared strength behavior belongs here while unique exceptions can be referenced from individual Warframe files."
+                                       ]
+                  },
+    "interactions":  {
+                         "relatedSystems":  [
+                                                "modding.exalted-loadouts"
+                                            ]
+                     },
+    "examples":  [
+
+                 ],
+    "tags":  [
+                 "abilities",
+                 "strength",
+                 "warframes"
+             ],
+    "notes":  null,
+    "sources":  [
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Abilities"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Ability_Strength"
+                    }
+                ],
+    "verification":  {
+                         "trustLevel":  "community-verified",
+                         "sourceFamily":  "warframe-wiki",
+                         "patchSensitive":  true,
+                         "reviewedAt":  "2026-04-10"
+                     }
+}

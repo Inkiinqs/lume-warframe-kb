@@ -1,0 +1,235 @@
+{
+    "description":  "Shatter your targets with explosive shells from this devastating Archwing cannon.",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Grattler",
+    "subCategory":  "archgun-arch-gun",
+    "mechanics":  {
+                      "heavySlamAttack":  null,
+                      "crafting":  {
+                                       "buildTime":  86400,
+                                       "buildPrice":  65000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Weapons/ClanTech/Chemical/ArchGrnAAGunBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Forma",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Forma",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Oxium",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/OxiumAlloy",
+                                                              "itemCount":  3500,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Salvage",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Salvage",
+                                                              "itemCount":  6000,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Tellurium",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Tellurium",
+                                                              "itemCount":  5,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  35,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Grattler.png?fa336",
+                                   "url":  "https://wiki.warframe.com/w/Grattler",
+                                   "imageName":  "grattler-ce089ce28a.png",
+                                   "available":  true
+                               },
+                      "followThrough":  null,
+                      "attacks":  [
+                                      {
+                                          "name":  "Projectile Impact",
+                                          "speed":  6.25,
+                                          "crit_chance":  25,
+                                          "crit_mult":  2,
+                                          "status_chance":  25,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  250,
+                                          "flight":  250,
+                                          "falloff":  {
+                                                          "start":  1000,
+                                                          "end":  2000
+                                                      },
+                                          "damage":  {
+                                                         "impact":  15,
+                                                         "slash":  15,
+                                                         "puncture":  120
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Explosion",
+                                          "speed":  6.25,
+                                          "crit_chance":  25,
+                                          "crit_mult":  2,
+                                          "status_chance":  25,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  9,
+                                                          "reduction":  0.7
+                                                      },
+                                          "damage":  {
+                                                         "blast":  205
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  null,
+                      "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  22.5,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  180,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  22.499992,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  535,
+                                     "toxin":  0,
+                                     "blast":  310,
+                                     "void":  0
+                                 },
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "damagePerShot":  [
+                                            22.5,
+                                            180,
+                                            22.499992,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            310,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ]
+                  },
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD archgun static data."
+              ],
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Archwing/Primary/RepurposedGrineerAntiAircraftGun/ArchGRNAAGun"
+                ],
+    "tags":  [
+                 "weapon",
+                 "archgun"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "id":  "weapon.grattler",
+    "release":  {
+                    "releaseDate":  "2015-07-31",
+                    "introduced":  {
+                                       "date":  "2015-07-31",
+                                       "parent":  "17.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_17%23Update_17.0",
+                                       "name":  "Update 17.0",
+                                       "aliases":  [
+                                                       "Update 17",
+                                                       "17.0",
+                                                       "17"
+                                                   ]
+                                   }
+                },
+    "summary":  "Shatter your targets with explosive shells from this devastating Archwing cannon.",
+    "stats":  {
+                  "accuracy":  16.666666,
+                  "noise":  "Alarming",
+                  "polarities":  [
+                                     "madurai"
+                                 ],
+                  "tradable":  false,
+                  "vaulted":  null,
+                  "totalDamage":  535,
+                  "disposition":  3,
+                  "magazineSize":  30,
+                  "fireRate":  6.2500005,
+                  "critMultiplier":  2,
+                  "reloadTime":  4,
+                  "masteryReq":  4,
+                  "statusChance":  0.25,
+                  "slot":  "archgun",
+                  "estimatedVaultDate":  null,
+                  "trigger":  "Auto",
+                  "critChance":  0.25,
+                  "weaponClass":  "Arch-Gun",
+                  "masterable":  true,
+                  "multishot":  1,
+                  "vaultDate":  null
+              }
+}

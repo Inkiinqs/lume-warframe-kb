@@ -1,0 +1,248 @@
+{
+    "id":  "weapon.lenz",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Lenz",
+    "subCategory":  "primary-bow",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD primary static data."
+              ],
+    "mechanics":  {
+                      "heavySlamAttack":  null,
+                      "crafting":  {
+                                       "buildTime":  86400,
+                                       "buildPrice":  25000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Alloy Plate",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                                                              "itemCount":  8200,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Weapons/ClanTech/Energy/CrpBowBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Cryotic",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Cryotic",
+                                                              "itemCount":  2400,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Fieldron",
+                                                              "uniqueName":  "/Lotus/Types/Items/Research/EnergyComponent",
+                                                              "itemCount":  10,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Nitain Extract",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/Alertium",
+                                                              "itemCount":  3,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  35,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Lenz.png?31ae3",
+                                   "url":  "https://wiki.warframe.com/w/Lenz",
+                                   "imageName":  "lenz-3ae618622a.png",
+                                   "available":  true
+                               },
+                      "attacks":  [
+                                      {
+                                          "name":  "Charged Shot",
+                                          "speed":  1,
+                                          "crit_chance":  50,
+                                          "crit_mult":  2,
+                                          "status_chance":  5,
+                                          "charge_time":  1.2,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  60,
+                                          "flight":  60,
+                                          "damage":  {
+                                                         "impact":  50
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Initial Blast",
+                                          "speed":  1,
+                                          "crit_chance":  50,
+                                          "crit_mult":  2,
+                                          "status_chance":  5,
+                                          "charge_time":  1.2,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  7.2,
+                                                          "reduction":  0.7
+                                                      },
+                                          "damage":  {
+                                                         "cold":  10
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Bubble Collapse",
+                                          "speed":  1,
+                                          "crit_chance":  50,
+                                          "crit_mult":  2,
+                                          "status_chance":  5,
+                                          "charge_time":  1.2,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  7.2,
+                                                          "reduction":  0.7
+                                                      },
+                                          "damage":  {
+                                                         "blast":  660
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  null,
+                      "blockingAngle":  null,
+                      "sentinel":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  50,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  0,
+                                     "cold":  10,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  60,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "damagePerShot":  [
+                                            50,
+                                            0,
+                                            0,
+                                            0,
+                                            10,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
+                  },
+    "aliases":  [
+                    "/Lotus/Weapons/Corpus/Bow/Longbow/CrpBow"
+                ],
+    "tags":  [
+                 "weapon",
+                 "primary"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "description":  "Bolts from this Corpus bow deliver a one-two punch of an icy pulse, followed by a conventional explosion. Excess ammo picked up for other weapons will be converted into charges for the Lenz. \n\nWarning: Safety-protocols do not exist on this prototype.",
+    "release":  {
+                    "releaseDate":  "2017-08-02",
+                    "introduced":  {
+                                       "date":  "2017-08-02",
+                                       "parent":  "21.3",
+                                       "url":  "https://wiki.warframe.com/w/Update_21%23Update_21.3",
+                                       "name":  "Update 21.3",
+                                       "aliases":  [
+                                                       "21.3.0",
+                                                       "21.3"
+                                                   ]
+                                   }
+                },
+    "summary":  "Bolts from this Corpus bow deliver a one-two punch of an icy pulse, followed by a conventional explosion. Excess ammo picked up for other weapons will be converted into charges for the Lenz. \n\nWarning: Safety-protocols do not exist on this prototype.",
+    "stats":  {
+                  "accuracy":  16.666666,
+                  "statusChance":  0.050000012,
+                  "polarities":  [
+                                     "naramon",
+                                     "naramon"
+                                 ],
+                  "noise":  "Alarming",
+                  "tradable":  false,
+                  "reloadTime":  0.60000002,
+                  "disposition":  3,
+                  "magazineSize":  1,
+                  "fireRate":  1,
+                  "critMultiplier":  2,
+                  "totalDamage":  60,
+                  "vaulted":  null,
+                  "masteryReq":  8,
+                  "slot":  "primary",
+                  "estimatedVaultDate":  null,
+                  "trigger":  "Charge",
+                  "critChance":  0.5,
+                  "weaponClass":  "Bow",
+                  "masterable":  true,
+                  "multishot":  1,
+                  "vaultDate":  null
+              }
+}

@@ -1,0 +1,27 @@
+{
+    "id":  "relationship.drop-brakk-blueprint-vem-tabook",
+    "type":  "wfcd_drop",
+    "from":  "source.vem-tabook",
+    "to":  "part.brakk-blueprint",
+    "summary":  "Vem Tabook can drop Brakk Blueprint.",
+    "conditions":  {
+
+                   },
+    "values":  {
+                   "location":  "Vem Tabook",
+                   "chance":  12.5,
+                   "rarity":  "Common",
+                   "rewardType":  "Brakk Blueprint",
+                   "parentId":  "weapon.brakk"
+               },
+    "tags":  [
+                 "drop",
+                 "wfcd-generated"
+             ],
+    "sources":  [
+                    {
+                        "type":  "wfcd-generated",
+                        "value":  "drop:weapon.brakk"
+                    }
+                ]
+}

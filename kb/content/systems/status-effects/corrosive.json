@@ -1,0 +1,57 @@
+{
+    "id":  "status.corrosive",
+    "name":  "Corrosive",
+    "category":  "status_effect",
+    "summary":  "Corrosive status weakens armored durability and is central to anti-armor strategies.",
+    "mechanics":  {
+                      "appliesTo":  [
+                                        "armor"
+                                    ],
+                      "stacking":  "Track exact armor-reduction stacking from source-backed updates.",
+                      "duration":  "Timed or stack-based debuff depending on validated rules.",
+                      "formula":  "See armor interaction records for exact reduction behavior.",
+                      "specialRules":  [
+                                           "Commonly used when build advice depends on armor stripping or anti-armor pressure."
+                                       ]
+                  },
+    "interactions":  {
+                         "synergies":  [
+                                           "damage.armor-interactions"
+                                       ],
+                         "affectedBy":  [
+                                            "formula.status-chance"
+                                        ],
+                         "counteredBy":  [
+
+                                         ]
+                     },
+    "examples":  [
+
+                 ],
+    "tags":  [
+                 "status",
+                 "combined",
+                 "armor"
+             ],
+    "notes":  "Patch-sensitive stack caps and exact percentages should be sourced explicitly.",
+    "sources":  [
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Status_Effect"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Damage"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Damage/Corrosive_Damage"
+                    }
+                ],
+    "verification":  {
+                         "trustLevel":  "community-verified",
+                         "sourceFamily":  "warframe-wiki",
+                         "patchSensitive":  true,
+                         "reviewedAt":  "2026-04-10"
+                     }
+}

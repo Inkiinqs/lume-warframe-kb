@@ -1,0 +1,49 @@
+{
+    "id":  "ability.range-scaling",
+    "name":  "Ability Range Scaling",
+    "category":  "ability_rule",
+    "summary":  "Explains how ability range modifies area, distance, and radius-based Warframe effects.",
+    "mechanics":  {
+                      "appliesTo":  [
+                                        "area-abilities",
+                                        "projected-effects",
+                                        "crowd-control"
+                                    ],
+                      "stacking":  "Track shared range modifiers and exceptions in sourced updates.",
+                      "duration":  null,
+                      "formula":  "Store exact range scaling rules in validated updates.",
+                      "specialRules":  [
+                                           "Some abilities use special range handling and should reference this base rule with exceptions."
+                                       ]
+                  },
+    "interactions":  {
+                         "relatedSystems":  [
+
+                                            ]
+                     },
+    "examples":  [
+
+                 ],
+    "tags":  [
+                 "abilities",
+                 "range",
+                 "warframes"
+             ],
+    "notes":  null,
+    "sources":  [
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Abilities"
+                    },
+                    {
+                        "type":  "wiki",
+                        "value":  "https://warframe.fandom.com/wiki/Ability_Range"
+                    }
+                ],
+    "verification":  {
+                         "trustLevel":  "community-verified",
+                         "sourceFamily":  "warframe-wiki",
+                         "patchSensitive":  true,
+                         "reviewedAt":  "2026-04-10"
+                     }
+}

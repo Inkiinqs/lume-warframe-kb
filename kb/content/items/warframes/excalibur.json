@@ -1,0 +1,184 @@
+{
+    "description":  "Excalibur epitomizes the warrior spirit. His master swordsmanship deals high damage. He is the embodiment of martial excellence.",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-warframes.json"
+                    }
+                ],
+    "name":  "Excalibur",
+    "subCategory":  "standard",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD Warframes.json."
+              ],
+    "mechanics":  {
+                      "scalesWith":  [
+                                         "ability.strength-scaling",
+                                         "ability.range-scaling",
+                                         "ability.duration-scaling",
+                                         "modding.exalted-loadouts"
+                                     ],
+                      "crafting":  {
+                                       "buildTime":  86400,
+                                       "buildPrice":  25000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/ExcaliburBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Chassis",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/ExcaliburChassisComponent",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Mars/War (Assassination)",
+                                                                                "type":  "Excalibur Chassis Blueprint",
+                                                                                "chance":  38.72,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Neuroptics",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/ExcaliburHelmetComponent",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Mars/War (Assassination)",
+                                                                                "type":  "Excalibur Neuroptics Blueprint",
+                                                                                "chance":  38.72,
+                                                                                "rarity":  "Common"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Orokin Cell",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/OrokinCell",
+                                                              "itemCount":  1,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Systems",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/WarframeRecipes/ExcaliburSystemsComponent",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  false,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Mars/War (Assassination)",
+                                                                                "type":  "Excalibur Systems Blueprint",
+                                                                                "chance":  22.56,
+                                                                                "rarity":  "Uncommon"
+                                                                            }
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  50,
+                                       "consumeOnBuild":  true
+                                   },
+                      "abilities":  [
+                                        {
+                                            "name":  "Slash Dash",
+                                            "description":  "Slash and dash through enemies alongside a radial specter. The powerful Exalted Blade’s slashes inflict \u003cDT_SLASH_COLOR\u003eSlash Status.",
+                                            "uniqueName":  "/Lotus/Powersuits/Excalibur/Abilities/SlashDashNewAbility",
+                                            "imageName":  "slash-dash-674700b99d.png"
+                                        },
+                                        {
+                                            "name":  "Radial Blind",
+                                            "description":  "Emit a bright flash of light, blinding all nearby enemies.",
+                                            "uniqueName":  "/Lotus/Powersuits/Excalibur/Abilities/RadialBlindAbility",
+                                            "imageName":  "radial-blind-1c128e55e7.png"
+                                        },
+                                        {
+                                            "name":  "Radial Javelin",
+                                            "description":  "Radial javelins impale nearby enemies, inflicting \u003cDT_SLASH_COLOR\u003eSlash Status.",
+                                            "uniqueName":  "/Lotus/Powersuits/Excalibur/Abilities/RadialJavelinAbility",
+                                            "imageName":  "radial-javelin-1d65f4c2a4.png"
+                                        },
+                                        {
+                                            "name":  "Exalted Blade",
+                                            "description":  "Summon a sword of pure light and immense power.",
+                                            "uniqueName":  "/Lotus/Powersuits/Excalibur/Abilities/SwordOfDoomAbility",
+                                            "imageName":  "exalted-blade-85031eb8dc.png"
+                                        }
+                                    ],
+                      "exalted":  [
+                                      "/Lotus/Powersuits/Excalibur/DoomSword"
+                                  ],
+                      "passiveType":  "sword-affinity",
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  "https://wiki.warframe.com/w/Excalibur",
+                                   "imageName":  "excalibur-2621a69bfa.png",
+                                   "available":  true
+                               },
+                      "passiveDescription":  "Excalibur deals |DAMAGE|% increased damage and attacks |SPEED|% faster when wielding swords."
+                  },
+    "aliases":  [
+                    "/Lotus/Powersuits/Excalibur/Excalibur"
+                ],
+    "tags":  [
+                 "warframe",
+                 "base"
+             ],
+    "category":  "warframe",
+    "relationships":  [
+
+                      ],
+    "id":  "warframe.excalibur",
+    "release":  {
+                    "releaseDate":  "2012-10-25",
+                    "introduced":  {
+                                       "date":  "2012-10-25",
+                                       "parent":  "0.0",
+                                       "url":  "https://wiki.warframe.com/w/Closed_Beta_Updates%23Vanilla",
+                                       "name":  "Vanilla",
+                                       "aliases":  [
+                                                       "0",
+                                                       "0.0"
+                                                   ]
+                                   }
+                },
+    "summary":  "Excalibur epitomizes the warrior spirit. His master swordsmanship deals high damage. He is the embodiment of martial excellence.",
+    "stats":  {
+                  "shield":  270,
+                  "aura":  null,
+                  "tradable":  false,
+                  "polarities":  [
+                                     "vazarin",
+                                     "madurai"
+                                 ],
+                  "sprintSpeed":  1,
+                  "health":  270,
+                  "power":  100,
+                  "vaulted":  null,
+                  "masteryReq":  0,
+                  "estimatedVaultDate":  null,
+                  "stamina":  3,
+                  "masterable":  true,
+                  "vaultDate":  null,
+                  "role":  [
+                               "frontline",
+                               "melee",
+                               "starter"
+                           ],
+                  "armor":  240
+              }
+}

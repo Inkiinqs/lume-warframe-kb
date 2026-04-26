@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "overlay-loadout-sync-response.v1",
+  "playerId": "player.demo-account",
+  "status": "preview",
+  "mode": "snapshot",
+  "note": "Local API returned a loadout merge preview. Send writeMode: \"persistent\" and confirmWrite: true to write session/build upgrade state.",
+  "equipped": {
+    "warframeId": "warframe.rhino",
+    "primaryWeaponId": "weapon.acceltra",
+    "secondaryWeaponId": null,
+    "meleeWeaponId": null,
+    "companionId": null,
+    "companionWeaponId": null,
+    "weaponIds": [
+      "weapon.acceltra"
+    ]
+  },
+  "upgradeState": {
+    "warframes": {
+      "warframe.rhino": {
+        "reactorInstalled": false,
+        "auraModId": null,
+        "formaPolarities": []
+      }
+    },
+    "weapons": {
+      "weapon.acceltra": {
+        "catalystInstalled": false,
+        "stanceModId": null,
+        "formaPolarities": []
+      }
+    },
+    "companions": {}
+  },
+  "records": {
+    "session": "player/sessions/demo-account-session-latest.json",
+    "buildTemplate": "player/build-templates/demo-account-rhino-acceltra-build.json"
+  },
+  "changes": {
+    "sessionCurrentLoadoutChanged": true,
+    "buildFrameChanged": false,
+    "buildWeaponsChanged": false,
+    "upgradeStateChanged": true
+  },
+  "writeRequiredFields": {
+    "writeMode": "persistent",
+    "confirmWrite": true
+  },
+  "nextActions": [
+    "Review equipped IDs and upgradeState before writing.",
+    "Send writeMode: \"persistent\" and confirmWrite: true only when the caller intends to mutate player session/build state.",
+    "Rebuild player-aware views after a persistent loadout merge."
+  ]
+}

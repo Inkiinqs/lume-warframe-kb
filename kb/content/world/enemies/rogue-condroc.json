@@ -1,0 +1,115 @@
+{
+    "description":  "A carrion-eater and opportunistic bird-of-prey. Condrocs gather, feed upon carrion and, occasionally, hunt in groups known as ‘committees’. Several committees will be led by an Emperor.",
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-enemies.json"
+                    }
+                ],
+    "name":  "Rogue Condroc",
+    "subCategory":  "neutral",
+    "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "rogue-condroc.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    null
+                                ],
+                      "resistances":  [
+                                          {
+                                              "amount":  0,
+                                              "type":  "Shield",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "None",
+                                                                    "modifier":  0
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  50,
+                                              "type":  "Ferrite Armor",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "Puncture",
+                                                                    "modifier":  0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Toxin",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Corrosive",
+                                                                    "modifier":  0
+                                                                },
+                                                                {
+                                                                    "element":  "Slash",
+                                                                    "modifier":  -0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Blast",
+                                                                    "modifier":  -0.5
+                                                                }
+                                                            ]
+                                          },
+                                          {
+                                              "amount":  6,
+                                              "type":  "Flesh",
+                                              "affectors":  [
+                                                                {
+                                                                    "element":  "Slash",
+                                                                    "modifier":  0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Toxin",
+                                                                    "modifier":  0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Viral",
+                                                                    "modifier":  0.75
+                                                                },
+                                                                {
+                                                                    "element":  "Impact",
+                                                                    "modifier":  -0.5
+                                                                },
+                                                                {
+                                                                    "element":  "Gas",
+                                                                    "modifier":  -0.5
+                                                                }
+                                                            ]
+                                          }
+                                      ]
+                  },
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD Enemy.json."
+              ],
+    "aliases":  [
+                    "/Lotus/Types/NeutralCreatures/Conservation/BirdOfPrey/UncommonBirdOfPreyAvatar"
+                ],
+    "tags":  [
+                 "enemy",
+                 "neutral"
+             ],
+    "category":  "enemy",
+    "relationships":  [
+
+                      ],
+    "id":  "enemy.rogue-condroc",
+    "release":  {
+
+                },
+    "summary":  "A carrion-eater and opportunistic bird-of-prey. Condrocs gather, feed upon carrion and, occasionally, hunt in groups known as ‘committees’. Several committees will be led by an Emperor.",
+    "stats":  {
+                  "armor":  50,
+                  "type":  "Neutral",
+                  "shield":  0,
+                  "health":  6,
+                  "regionBits":  4,
+                  "tradable":  false,
+                  "faction":  "Neutral"
+              }
+}
