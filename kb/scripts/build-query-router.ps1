@@ -115,16 +115,16 @@ $routeSpecs = @(
     }
     [ordered]@{
         intent = "mechanic.explain"
-        description = "Explain Warframe systems such as status effects, damage, scaling, modding rules, drops, abilities, and mission rules."
+        description = "Explain Warframe systems such as status effects, damage, combat formulas, modding rules, and ability rules."
         priority = 75
         requiredSignals = @("mechanic", "explain")
-        optionalSignals = @("status effect", "damage type", "formula", "mission rule")
+        optionalSignals = @("status effect", "damage type", "formula", "ability rule")
         primaryView = $searchPath
         fallbackViews = @(
             "ai/materialized-views/faction-combat-profiles.view.json",
             "ai/materialized-views/enemy-matchups.view.json"
         )
-        contentScopes = @("content/systems/status-effects", "content/systems/damage", "content/systems/combat-formulas", "content/systems/modding-rules", "content/systems/ability-rules", "content/systems/drop-rules", "content/systems/enemy-scaling", "content/systems/mission-rules")
+        contentScopes = @("content/systems/status-effects", "content/systems/damage", "content/systems/combat-formulas", "content/systems/modding-rules", "content/systems/ability-rules")
         examples = @(
             "what does Heat status do",
             "how does armor work",

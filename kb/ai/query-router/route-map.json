@@ -1,5 +1,5 @@
 {
-    "generatedAt":  "2026-04-12T10:57:28Z",
+    "generatedAt":  "2026-04-28T09:43:04Z",
     "schemaVersion":  "query-router.v1",
     "description":  "Routes assistant intents to the correct generated views and canonical content scopes.",
     "defaultRoute":  {
@@ -187,7 +187,7 @@
                    },
                    {
                        "intent":  "mechanic.explain",
-                       "description":  "Explain Warframe systems such as status effects, damage, scaling, modding rules, drops, abilities, and mission rules.",
+                       "description":  "Explain Warframe systems such as status effects, damage, combat formulas, modding rules, and ability rules.",
                        "priority":  75,
                        "requiredSignals":  [
                                                "mechanic",
@@ -197,7 +197,7 @@
                                                "status effect",
                                                "damage type",
                                                "formula",
-                                               "mission rule"
+                                               "ability rule"
                                            ],
                        "primaryView":  "ai/search-docs/records.search.json",
                        "fallbackViews":  [
@@ -209,10 +209,7 @@
                                              "content/systems/damage",
                                              "content/systems/combat-formulas",
                                              "content/systems/modding-rules",
-                                             "content/systems/ability-rules",
-                                             "content/systems/drop-rules",
-                                             "content/systems/enemy-scaling",
-                                             "content/systems/mission-rules"
+                                             "content/systems/ability-rules"
                                          ],
                        "availability":  {
                                             "availablePaths":  [
@@ -223,10 +220,7 @@
                                                                    "content/systems/damage",
                                                                    "content/systems/combat-formulas",
                                                                    "content/systems/modding-rules",
-                                                                   "content/systems/ability-rules",
-                                                                   "content/systems/drop-rules",
-                                                                   "content/systems/enemy-scaling",
-                                                                   "content/systems/mission-rules"
+                                                                   "content/systems/ability-rules"
                                                                ],
                                             "missingPaths":  [
 
