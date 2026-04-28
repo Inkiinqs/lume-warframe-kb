@@ -85,6 +85,7 @@ jobs:
           } else {
             "exists=false" >> $env:GITHUB_OUTPUT
           }
+          exit 0
 
       - name: Build KB
         if: steps.release_check.outputs.exists == 'false'
