@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.deconstructor",
+    "description":  "Causes the Helios Sentinel to attack enemy targets using pieces of itself.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD companion static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -82,12 +84,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  true,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  130,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -97,16 +100,26 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  130,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  true,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             130,
                                             0,
@@ -129,20 +142,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Types/Sentinels/SentinelWeapons/SentGlaiveWeapon"
@@ -155,7 +155,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Causes the Helios Sentinel to attack enemy targets using pieces of itself.",
+    "id":  "weapon.deconstructor",
     "release":  {
                     "releaseDate":  "2014-03-19",
                     "introduced":  {
@@ -176,10 +176,9 @@
                   "polarities":  [
                                      null
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  null,
                   "disposition":  4,
+                  "magazineSize":  null,
                   "fireRate":  1.3333334,
                   "critMultiplier":  1,
                   "totalDamage":  130,
@@ -187,12 +186,13 @@
                   "masteryReq":  0,
                   "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "slot":  "companion",
+                  "trigger":  null,
                   "critChance":  0,
-                  "magazineSize":  null,
+                  "slot":  "companion",
+                  "masterable":  true,
                   "weaponClass":  "Companion Weapon",
-                  "vaultDate":  null,
                   "statusChance":  0.25,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

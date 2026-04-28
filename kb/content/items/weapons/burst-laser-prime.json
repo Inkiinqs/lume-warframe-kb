@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.burst-laser-prime",
+    "description":  "Shade Prime’s signature weapon fires laser bursts.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD companion static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -58,12 +60,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  true,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  2.5,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -73,16 +76,26 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  1.2499988,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  24.999998,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  true,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             2.5,
                                             21.25,
@@ -105,20 +118,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Types/Sentinels/SentinelWeapons/PrimeBurstLaserPistol"
@@ -131,7 +131,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Shade Prime’s signature weapon fires laser bursts.",
+    "id":  "weapon.burst-laser-prime",
     "release":  {
                     "releaseDate":  "2023-03-15",
                     "introduced":  {
@@ -151,10 +151,9 @@
                   "polarities":  [
                                      null
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Burst",
                   "disposition":  5,
+                  "magazineSize":  15,
                   "fireRate":  3,
                   "critMultiplier":  2.3,
                   "totalDamage":  24.999998,
@@ -162,12 +161,13 @@
                   "masteryReq":  0,
                   "reloadTime":  0.0099999998,
                   "estimatedVaultDate":  "2024-12-15",
-                  "slot":  "companion",
+                  "trigger":  "Burst",
                   "critChance":  0.2,
-                  "magazineSize":  15,
+                  "slot":  "companion",
+                  "masterable":  true,
                   "weaponClass":  "Companion Weapon",
-                  "vaultDate":  null,
                   "statusChance":  0.14999998,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

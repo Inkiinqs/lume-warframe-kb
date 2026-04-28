@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.prisma-dual-decurions",
+    "description":  "Colder than space and less forgiving, Prisma crystals bring elite efficiency to the already sleek Dual Decurion. Requiring the lightest of touches to reload, these twin archguns prove that heavy weaponry can still possess elegance.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD archgun static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -63,12 +65,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  49.5,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -78,16 +81,26 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  30.249998,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  110,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             49.5,
                                             30.25,
@@ -110,20 +123,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Archwing/Primary/ArchwingHeavyPistols/Prisma/PrismaArchHeavyPistols"
@@ -136,7 +136,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Colder than space and less forgiving, Prisma crystals bring elite efficiency to the already sleek Dual Decurion. Requiring the lightest of touches to reload, these twin archguns prove that heavy weaponry can still possess elegance.",
+    "id":  "weapon.prisma-dual-decurions",
     "release":  {
                     "releaseDate":  "2020-12-11",
                     "introduced":  {
@@ -157,10 +157,9 @@
                                      "madurai",
                                      "madurai"
                                  ],
-                  "masterable":  true,
                   "tradable":  true,
-                  "trigger":  "Auto",
                   "disposition":  4,
+                  "magazineSize":  64,
                   "fireRate":  12.500001,
                   "critMultiplier":  2.2,
                   "totalDamage":  110,
@@ -168,12 +167,13 @@
                   "masteryReq":  1,
                   "reloadTime":  1.53,
                   "estimatedVaultDate":  null,
-                  "slot":  "archgun",
+                  "trigger":  "Auto",
                   "critChance":  0.30000001,
-                  "magazineSize":  64,
+                  "slot":  "archgun",
+                  "masterable":  true,
                   "weaponClass":  "Arch-Gun",
-                  "vaultDate":  null,
                   "statusChance":  0.24000001,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

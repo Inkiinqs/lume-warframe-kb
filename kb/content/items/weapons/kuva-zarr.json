@@ -1,5 +1,5 @@
 {
-    "description":  "An even stronger Zarr cannon to meet the demands of Kuva Liches. With stronger explosive barrages, and long-range flak shots.",
+    "id":  "weapon.kuva-zarr",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -123,14 +123,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  50,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -140,25 +137,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  723,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  673,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             50,
                                             0,
@@ -181,6 +170,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -194,7 +194,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.kuva-zarr",
+    "description":  "An even stronger Zarr cannon to meet the demands of Kuva Liches. With stronger explosive barrages, and long-range flak shots.",
     "release":  {
                     "releaseDate":  "2021-07-06",
                     "introduced":  {
@@ -216,23 +216,23 @@
                                      "madurai",
                                      "madurai"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Semi",
+                  "vaultDate":  null,
                   "disposition":  1,
+                  "magazineSize":  5,
                   "fireRate":  2.1666667,
                   "critMultiplier":  2.5,
-                  "masteryReq":  15,
                   "totalDamage":  723,
                   "vaulted":  null,
-                  "statusChance":  0.31,
+                  "masteryReq":  15,
                   "reloadTime":  4.8000002,
                   "estimatedVaultDate":  null,
-                  "slot":  "primary",
+                  "trigger":  "Semi",
                   "critChance":  0.25,
-                  "magazineSize":  5,
+                  "slot":  "primary",
+                  "masterable":  true,
                   "weaponClass":  "Launcher",
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "statusChance":  0.31,
+                  "multishot":  1
               }
 }

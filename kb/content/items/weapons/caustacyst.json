@@ -1,5 +1,5 @@
 {
-    "description":  "Heavy attacks from this scythe unleash a wave of acid that mutilates enemies and leaves a trail of corrosive sludge.",
+    "id":  "weapon.caustacyst",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -162,14 +162,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  520,
-                      "slamRadius":  8,
                       "blockingAngle":  60,
-                      "heavySlamRadius":  9,
-                      "stancePolarity":  "zenurik",
+                      "followThrough":  0.60000002,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  17,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  103,
                                      "electricity":  0,
@@ -179,25 +176,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  69,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  260,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  2.9000001,
-                      "heavyAttackDamage":  1560,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  780,
-                      "comboDuration":  5,
-                      "slideAttack":  520,
-                      "windUp":  1,
-                      "followThrough":  0.60000002,
-                      "slamAttack":  780,
                       "damagePerShot":  [
                                             17,
                                             71,
@@ -220,6 +209,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  2.9000001,
+                      "heavyAttackDamage":  1560,
+                      "sentinel":  null,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  780,
+                      "stancePolarity":  "zenurik",
+                      "slideAttack":  520,
+                      "windUp":  1,
+                      "slamRadius":  8,
+                      "slamAttack":  780,
+                      "heavySlamRadius":  9,
                       "heavySlamAttack":  1300
                   },
     "aliases":  [
@@ -233,7 +233,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.caustacyst",
+    "description":  "Heavy attacks from this scythe unleash a wave of acid that mutilates enemies and leaves a trail of corrosive sludge.",
     "release":  {
                     "releaseDate":  "2016-10-20",
                     "introduced":  {
@@ -254,23 +254,23 @@
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  null,
+                  "vaultDate":  null,
                   "disposition":  4,
+                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  2,
-                  "masteryReq":  7,
                   "totalDamage":  260,
                   "vaulted":  null,
-                  "statusChance":  0.37,
+                  "masteryReq":  7,
                   "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "slot":  "melee",
+                  "trigger":  null,
                   "critChance":  0.090000004,
-                  "magazineSize":  null,
+                  "slot":  "melee",
+                  "masterable":  true,
                   "weaponClass":  "Melee",
-                  "multishot":  null,
-                  "vaultDate":  null
+                  "statusChance":  0.37,
+                  "multishot":  null
               }
 }

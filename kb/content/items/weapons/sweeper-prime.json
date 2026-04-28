@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.sweeper-prime",
+    "description":  "Standard issue weapon for Carrier Prime Sentinel. Fires shotgun rounds.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD companion static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -61,12 +63,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  true,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  38.25,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -76,16 +79,26 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  4.4999986,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  45,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  true,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             38.25,
                                             2.25,
@@ -108,20 +121,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Types/Sentinels/SentinelWeapons/PrimeSentShotgun"
@@ -134,7 +134,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Standard issue weapon for Carrier Prime Sentinel. Fires shotgun rounds.",
+    "id":  "weapon.sweeper-prime",
     "release":  {
                     "releaseDate":  "2015-07-07",
                     "introduced":  {
@@ -156,10 +156,9 @@
                                      "madurai",
                                      "madurai"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Auto",
                   "disposition":  3,
+                  "magazineSize":  20,
                   "fireRate":  1,
                   "critMultiplier":  2.25,
                   "totalDamage":  45,
@@ -167,12 +166,13 @@
                   "masteryReq":  0,
                   "reloadTime":  2,
                   "estimatedVaultDate":  "2017-04-07",
-                  "slot":  "companion",
+                  "trigger":  "Auto",
                   "critChance":  0.1,
-                  "magazineSize":  20,
+                  "slot":  "companion",
+                  "masterable":  true,
                   "weaponClass":  "Companion Weapon",
-                  "vaultDate":  null,
                   "statusChance":  0.050000012,
+                  "vaultDate":  null,
                   "multishot":  6
               }
 }

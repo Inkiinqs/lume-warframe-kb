@@ -1,5 +1,5 @@
 {
-    "description":  "An ancient weapon designed by the Entrati. Primary fire siphons life essence from the target to fuel a devastating secondary fire. A heavy, oversized automatic rifle with withering fire that delivers rapid heat damage. Secondary fire unleashes an arcing projectile that ricochets off surfaces and enemies, exploding on every impact.",
+    "id":  "weapon.trumna",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -159,14 +159,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  29,
-                                     "heat":  53,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -176,25 +173,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  53,
                                      "total":  82,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             29,
                                             0,
@@ -217,6 +206,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -230,7 +230,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.trumna",
+    "description":  "An ancient weapon designed by the Entrati. Primary fire siphons life essence from the target to fuel a devastating secondary fire. A heavy, oversized automatic rifle with withering fire that delivers rapid heat damage. Secondary fire unleashes an arcing projectile that ricochets off surfaces and enemies, exploding on every impact.",
     "release":  {
                     "releaseDate":  "2020-08-25",
                     "introduced":  {
@@ -252,23 +252,23 @@
                   "polarities":  [
                                      null
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Auto",
+                  "vaultDate":  null,
                   "disposition":  2,
+                  "magazineSize":  200,
                   "fireRate":  4.666667,
                   "critMultiplier":  2.2,
-                  "masteryReq":  13,
                   "totalDamage":  82,
                   "vaulted":  null,
-                  "statusChance":  0.30000001,
+                  "masteryReq":  13,
                   "reloadTime":  5,
                   "estimatedVaultDate":  null,
-                  "slot":  "primary",
+                  "trigger":  "Auto",
                   "critChance":  0.23999999,
-                  "magazineSize":  200,
+                  "slot":  "primary",
+                  "masterable":  true,
                   "weaponClass":  "Rifle",
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "statusChance":  0.30000001,
+                  "multishot":  1
               }
 }

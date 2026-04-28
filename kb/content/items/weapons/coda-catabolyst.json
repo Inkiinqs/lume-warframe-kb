@@ -1,5 +1,5 @@
 {
-    "description":  "When the magazine reaches empty and is manually reloaded, the Coda Catabolyst launches not one but three powerful grenades. Also has a higher Status Chance, Damage, and Magazine Size.",
+    "id":  "weapon.coda-catabolyst",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -117,14 +117,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  56,
                                      "electricity":  0,
@@ -134,25 +131,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  56,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -175,6 +164,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -188,7 +188,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.coda-catabolyst",
+    "description":  "When the magazine reaches empty and is manually reloaded, the Coda Catabolyst launches not one but three powerful grenades. Also has a higher Status Chance, Damage, and Magazine Size.",
     "release":  {
                     "releaseDate":  "2025-03-19",
                     "introduced":  {
@@ -208,23 +208,23 @@
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Held",
+                  "vaultDate":  null,
                   "disposition":  1,
+                  "magazineSize":  37,
                   "fireRate":  12.000001,
                   "critMultiplier":  2.9000001,
-                  "masteryReq":  17,
                   "totalDamage":  56,
                   "vaulted":  null,
-                  "statusChance":  0.5,
+                  "masteryReq":  17,
                   "reloadTime":  1.7,
                   "estimatedVaultDate":  null,
-                  "slot":  "secondary",
+                  "trigger":  "Held",
                   "critChance":  0.11,
-                  "magazineSize":  37,
+                  "slot":  "secondary",
+                  "masterable":  true,
                   "weaponClass":  "Pistol",
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "statusChance":  0.5,
+                  "multishot":  1
               }
 }

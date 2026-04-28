@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.cortege",
+    "description":  "An ancient weapon designed by the Entrati for use by their Necramechs. Primary fire siphons life essence from the target to fuel a devastating secondary fire. A heavy flamethrower with surprising range. Secondary fire launches three projectiles in a fan pattern that explode, leaving a damaging area of effect for a short duration.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD archgun static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -115,12 +117,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
-                                     "heat":  90,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -130,16 +133,26 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  90,
                                      "total":  90,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -162,20 +175,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchGun/ThanoTechArchGun"
@@ -188,7 +188,7 @@
     "relationships":  [
 
                       ],
-    "description":  "An ancient weapon designed by the Entrati for use by their Necramechs. Primary fire siphons life essence from the target to fuel a devastating secondary fire. A heavy flamethrower with surprising range. Secondary fire launches three projectiles in a fan pattern that explode, leaving a damaging area of effect for a short duration.",
+    "id":  "weapon.cortege",
     "release":  {
                     "releaseDate":  "2020-08-25",
                     "introduced":  {
@@ -210,10 +210,9 @@
                   "polarities":  [
                                      null
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Held",
                   "disposition":  3,
+                  "magazineSize":  100,
                   "fireRate":  12.000001,
                   "critMultiplier":  1.9,
                   "totalDamage":  90,
@@ -221,12 +220,13 @@
                   "masteryReq":  14,
                   "reloadTime":  3,
                   "estimatedVaultDate":  null,
-                  "slot":  "archgun",
+                  "trigger":  "Held",
                   "critChance":  0.2,
-                  "magazineSize":  100,
+                  "slot":  "archgun",
+                  "masterable":  true,
                   "weaponClass":  "Arch-Gun",
-                  "vaultDate":  null,
                   "statusChance":  0.39999998,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

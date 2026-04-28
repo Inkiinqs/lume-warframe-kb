@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.larkspur",
+    "description":  "From death blooms the Larkspur. A unique and menacing Archgun with a wild initial attack that locks onto a target then chains other targets close to the first. It also sports an explosive projectile mode. In Hildryn\u0027s grip the Larkspur carries more reserve ammo.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD archgun static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -128,12 +130,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  10,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -143,16 +146,26 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  80,
+                                     "healthDrain":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  80,
+                                     "heat":  0,
                                      "total":  90,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             10,
                                             0,
@@ -175,20 +188,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Archwing/Primary/TnShieldframeArchGun/TnShieldFrameArchGun"
@@ -201,7 +201,7 @@
     "relationships":  [
 
                       ],
-    "description":  "From death blooms the Larkspur. A unique and menacing Archgun with a wild initial attack that locks onto a target then chains other targets close to the first. It also sports an explosive projectile mode. In Hildryn\u0027s grip the Larkspur carries more reserve ammo.",
+    "id":  "weapon.larkspur",
     "release":  {
                     "releaseDate":  "2019-03-08",
                     "introduced":  {
@@ -222,10 +222,9 @@
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Held",
                   "disposition":  3,
+                  "magazineSize":  100,
                   "fireRate":  12.000001,
                   "critMultiplier":  1.4,
                   "totalDamage":  90,
@@ -233,12 +232,13 @@
                   "masteryReq":  8,
                   "reloadTime":  4.5,
                   "estimatedVaultDate":  null,
-                  "slot":  "archgun",
+                  "trigger":  "Held",
                   "critChance":  0.1,
-                  "magazineSize":  100,
+                  "slot":  "archgun",
+                  "masterable":  true,
                   "weaponClass":  "Arch-Gun",
-                  "vaultDate":  null,
                   "statusChance":  0.5,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

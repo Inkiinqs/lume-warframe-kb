@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.grattler",
+    "description":  "Shatter your targets with explosive shells from this devastating Archwing cannon.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD archgun static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  65000,
@@ -118,12 +120,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  22.5,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -133,16 +136,26 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  22.499992,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  535,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  310,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             22.5,
                                             180,
@@ -165,20 +178,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Archwing/Primary/RepurposedGrineerAntiAircraftGun/ArchGRNAAGun"
@@ -191,7 +191,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Shatter your targets with explosive shells from this devastating Archwing cannon.",
+    "id":  "weapon.grattler",
     "release":  {
                     "releaseDate":  "2015-07-31",
                     "introduced":  {
@@ -213,10 +213,9 @@
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Auto",
                   "disposition":  3,
+                  "magazineSize":  30,
                   "fireRate":  6.2500005,
                   "critMultiplier":  2,
                   "totalDamage":  535,
@@ -224,12 +223,13 @@
                   "masteryReq":  4,
                   "reloadTime":  4,
                   "estimatedVaultDate":  null,
-                  "slot":  "archgun",
+                  "trigger":  "Auto",
                   "critChance":  0.25,
-                  "magazineSize":  30,
+                  "slot":  "archgun",
+                  "masterable":  true,
                   "weaponClass":  "Arch-Gun",
-                  "vaultDate":  null,
                   "statusChance":  0.25,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.prisma-burst-laser",
+    "description":  "Fires a small burst of lasers.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD companion static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -58,12 +60,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  true,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  2.2,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -73,16 +76,26 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  1.099999,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  22,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  true,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             2.2,
                                             18.700001,
@@ -105,20 +118,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Types/Sentinels/SentinelWeapons/PrismaBurstLaserPistol"
@@ -131,7 +131,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Fires a small burst of lasers.",
+    "id":  "weapon.prisma-burst-laser",
     "release":  {
                     "releaseDate":  "2015-08-21",
                     "introduced":  {
@@ -151,10 +151,9 @@
                   "polarities":  [
                                      null
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Burst",
                   "disposition":  5,
+                  "magazineSize":  15,
                   "fireRate":  2.1428571,
                   "critMultiplier":  2.1500001,
                   "totalDamage":  22,
@@ -162,12 +161,13 @@
                   "masteryReq":  0,
                   "reloadTime":  0.0099999998,
                   "estimatedVaultDate":  null,
-                  "slot":  "companion",
+                  "trigger":  "Burst",
                   "critChance":  0.18000001,
-                  "magazineSize":  15,
+                  "slot":  "companion",
+                  "masterable":  true,
                   "weaponClass":  "Companion Weapon",
-                  "vaultDate":  null,
                   "statusChance":  0.10000002,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

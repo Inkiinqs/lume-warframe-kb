@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.lex",
+    "description":  "The Lex is a powerful, accurate pistol that has a low Fire Rate and Magazine Capacity. Very efficient at long range.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -78,10 +78,10 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  13,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -91,32 +91,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  12.999995,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  130,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
-                      "followThrough":  null,
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "relevantFormulas":  [
-                                               "formula.critical-chance",
-                                               "formula.critical-multiplier"
-                                           ],
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             13,
                                             104,
@@ -139,6 +124,21 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "relevantFormulas":  [
+                                               "formula.critical-chance",
+                                               "formula.critical-multiplier"
+                                           ],
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -152,7 +152,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The Lex is a powerful, accurate pistol that has a low Fire Rate and Magazine Capacity. Very efficient at long range.",
+    "id":  "weapon.lex",
     "release":  {
                     "releaseDate":  "2012-10-25",
                     "introduced":  {
@@ -173,24 +173,24 @@
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
+                  "vaultDate":  null,
                   "archetype":  "semi-auto",
-                  "trigger":  "Semi",
                   "disposition":  4,
+                  "magazineSize":  6,
                   "fireRate":  1.0833334,
                   "critMultiplier":  2,
-                  "masteryReq":  3,
                   "totalDamage":  130,
                   "vaulted":  null,
-                  "statusChance":  0.10000002,
+                  "masteryReq":  3,
                   "reloadTime":  2.3499999,
                   "estimatedVaultDate":  null,
-                  "slot":  "secondary",
+                  "trigger":  "Semi",
                   "critChance":  0.2,
-                  "magazineSize":  6,
+                  "slot":  "secondary",
+                  "masterable":  true,
                   "weaponClass":  "Pistol",
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "statusChance":  0.10000002,
+                  "multishot":  1
               }
 }

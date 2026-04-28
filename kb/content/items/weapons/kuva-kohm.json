@@ -1,5 +1,5 @@
 {
-    "description":  "The Kuva Kohm variant has a higher fire rate than the original. For every shot fired in rapid succession the Kuva Kohm releases an additional bolt and grows more lethal.",
+    "id":  "weapon.kuva-kohm",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -81,14 +81,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  4,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -98,25 +95,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  12,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  20,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             4,
                                             4,
@@ -139,6 +128,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -152,7 +152,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.kuva-kohm",
+    "description":  "The Kuva Kohm variant has a higher fire rate than the original. For every shot fired in rapid succession the Kuva Kohm releases an additional bolt and grows more lethal.",
     "release":  {
                     "releaseDate":  "2019-10-31",
                     "introduced":  {
@@ -174,23 +174,23 @@
                   "polarities":  [
                                      "vazarin"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Auto",
+                  "vaultDate":  null,
                   "disposition":  3,
+                  "magazineSize":  209,
                   "fireRate":  4.166667,
                   "critMultiplier":  2.3,
-                  "masteryReq":  13,
                   "totalDamage":  20,
                   "vaulted":  null,
-                  "statusChance":  0.10000002,
+                  "masteryReq":  13,
                   "reloadTime":  2,
                   "estimatedVaultDate":  null,
-                  "slot":  "primary",
+                  "trigger":  "Auto",
                   "critChance":  0.19,
-                  "magazineSize":  209,
+                  "slot":  "primary",
+                  "masterable":  true,
                   "weaponClass":  "Shotgun",
-                  "multishot":  9,
-                  "vaultDate":  null
+                  "statusChance":  0.10000002,
+                  "multishot":  9
               }
 }

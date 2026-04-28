@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.cyngas",
+    "description":  "Unload deadly accurate bursts of mayhem.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD archgun static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  45000,
@@ -118,12 +120,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  39.600002,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -133,16 +136,26 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  40.799995,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  120,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             39.600002,
                                             39.600002,
@@ -165,20 +178,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Archwing/Primary/ArchBurstGun/ArchBurstGun"
@@ -191,7 +191,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Unload deadly accurate bursts of mayhem.",
+    "id":  "weapon.cyngas",
     "release":  {
                     "releaseDate":  "2016-07-08",
                     "introduced":  {
@@ -213,10 +213,9 @@
                   "polarities":  [
                                      null
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Burst",
                   "disposition":  4,
+                  "magazineSize":  30,
                   "fireRate":  9.09091,
                   "critMultiplier":  2.2,
                   "totalDamage":  120,
@@ -224,12 +223,13 @@
                   "masteryReq":  4,
                   "reloadTime":  1.25,
                   "estimatedVaultDate":  null,
-                  "slot":  "archgun",
+                  "trigger":  "Burst",
                   "critChance":  0.2,
-                  "magazineSize":  30,
+                  "slot":  "archgun",
+                  "masterable":  true,
                   "weaponClass":  "Arch-Gun",
-                  "vaultDate":  null,
                   "statusChance":  0.30000001,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

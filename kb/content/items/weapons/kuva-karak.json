@@ -1,5 +1,5 @@
 {
-    "description":  "The custom weapon of a fearsome Kuva Lich. It has greater reload speed, lower recoil and greater accuracy than the standard-issue Karak rifle.",
+    "id":  "weapon.kuva-karak",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -58,14 +58,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  7.1300001,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -75,25 +72,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  9.6599989,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  23,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             7.1300001,
                                             6.21,
@@ -116,6 +105,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -129,7 +129,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.kuva-karak",
+    "description":  "The custom weapon of a fearsome Kuva Lich. It has greater reload speed, lower recoil and greater accuracy than the standard-issue Karak rifle.",
     "release":  {
                     "releaseDate":  "2019-10-31",
                     "introduced":  {
@@ -151,23 +151,23 @@
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Auto",
+                  "vaultDate":  null,
                   "disposition":  3,
+                  "magazineSize":  70,
                   "fireRate":  11.666667,
                   "critMultiplier":  2.0999999,
-                  "masteryReq":  13,
                   "totalDamage":  23,
                   "vaulted":  null,
-                  "statusChance":  0.31,
+                  "masteryReq":  13,
                   "reloadTime":  1.7,
                   "estimatedVaultDate":  null,
-                  "slot":  "primary",
+                  "trigger":  "Auto",
                   "critChance":  0.23,
-                  "magazineSize":  70,
+                  "slot":  "primary",
+                  "masterable":  true,
                   "weaponClass":  "Rifle",
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "statusChance":  0.31,
+                  "multishot":  1
               }
 }

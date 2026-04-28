@@ -1,5 +1,5 @@
 {
-    "description":  "Stagger targets with blasts from this Corpus engineered plasma shotgun. Surviving enemies are consumed with radiation.",
+    "id":  "weapon.arca-plasmor",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -103,14 +103,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -120,25 +117,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  600,
+                                     "healthDrain":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  600,
+                                     "heat":  0,
                                      "total":  600,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -161,6 +150,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -174,7 +174,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.arca-plasmor",
+    "description":  "Stagger targets with blasts from this Corpus engineered plasma shotgun. Surviving enemies are consumed with radiation.",
     "release":  {
                     "releaseDate":  "2017-09-09",
                     "introduced":  {
@@ -196,23 +196,23 @@
                                      "madurai",
                                      "madurai"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Semi",
+                  "vaultDate":  null,
                   "disposition":  3,
+                  "magazineSize":  10,
                   "fireRate":  1.1,
                   "critMultiplier":  1.6,
-                  "masteryReq":  10,
                   "totalDamage":  600,
                   "vaulted":  null,
-                  "statusChance":  0.27999997,
+                  "masteryReq":  10,
                   "reloadTime":  2.8,
                   "estimatedVaultDate":  null,
-                  "slot":  "primary",
+                  "trigger":  "Semi",
                   "critChance":  0.22,
-                  "magazineSize":  10,
+                  "slot":  "primary",
+                  "masterable":  true,
                   "weaponClass":  "Shotgun",
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "statusChance":  0.27999997,
+                  "multishot":  1
               }
 }

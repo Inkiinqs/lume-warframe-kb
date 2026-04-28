@@ -1,5 +1,5 @@
 {
-    "description":  "Archon Boreal’s signature trident. Thrust Korumm into the ground with a Tactical Combo and then rip it out in a shower of electricity.",
+    "id":  "weapon.korumm",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -169,14 +169,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  520,
-                      "slamRadius":  7,
                       "blockingAngle":  55,
-                      "heavySlamRadius":  8,
-                      "stancePolarity":  "zenurik",
+                      "followThrough":  0.60000002,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  52,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -186,25 +183,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  103.99999,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  260,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  2.9000001,
-                      "heavyAttackDamage":  1560,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  780,
-                      "comboDuration":  5,
-                      "slideAttack":  520,
-                      "windUp":  0.90000004,
-                      "followThrough":  0.60000002,
-                      "slamAttack":  780,
                       "damagePerShot":  [
                                             52,
                                             104,
@@ -227,6 +216,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  2.9000001,
+                      "heavyAttackDamage":  1560,
+                      "sentinel":  null,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  780,
+                      "stancePolarity":  "zenurik",
+                      "slideAttack":  520,
+                      "windUp":  0.90000004,
+                      "slamRadius":  7,
+                      "slamAttack":  780,
+                      "heavySlamRadius":  8,
                       "heavySlamAttack":  1300
                   },
     "aliases":  [
@@ -240,7 +240,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.korumm",
+    "description":  "Archon Boreal’s signature trident. Thrust Korumm into the ground with a Tactical Combo and then rip it out in a shower of electricity.",
     "release":  {
                     "releaseDate":  "2021-12-15",
                     "introduced":  {
@@ -262,23 +262,23 @@
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  null,
+                  "vaultDate":  null,
                   "disposition":  3,
+                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  2.2,
-                  "masteryReq":  13,
                   "totalDamage":  260,
                   "vaulted":  null,
-                  "statusChance":  0.30000001,
+                  "masteryReq":  13,
                   "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "slot":  "melee",
+                  "trigger":  null,
                   "critChance":  0.23999999,
-                  "magazineSize":  null,
+                  "slot":  "melee",
+                  "masterable":  true,
                   "weaponClass":  "Melee",
-                  "multishot":  null,
-                  "vaultDate":  null
+                  "statusChance":  0.30000001,
+                  "multishot":  null
               }
 }

@@ -1,5 +1,5 @@
 {
-    "description":  "The Burston fires 3-round bursts, which provides a balance between the lethality of automatic rifles and the accuracy of semi-automatic rifles.",
+    "id":  "weapon.burston",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -130,14 +130,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  9.9999895,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -147,25 +144,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  10.000021,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  30,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             9.9999895,
                                             9.9999895,
@@ -188,6 +177,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -201,7 +201,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.burston",
+    "description":  "The Burston fires 3-round bursts, which provides a balance between the lethality of automatic rifles and the accuracy of semi-automatic rifles.",
     "release":  {
                     "releaseDate":  "2012-10-25",
                     "introduced":  {
@@ -222,23 +222,23 @@
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Burst",
+                  "vaultDate":  null,
                   "disposition":  5,
+                  "magazineSize":  45,
                   "fireRate":  7.8328986,
                   "critMultiplier":  1.6,
-                  "masteryReq":  0,
                   "totalDamage":  30,
                   "vaulted":  null,
-                  "statusChance":  0.18000001,
+                  "masteryReq":  0,
                   "reloadTime":  2,
                   "estimatedVaultDate":  null,
-                  "slot":  "primary",
+                  "trigger":  "Burst",
                   "critChance":  0.059999999,
-                  "magazineSize":  45,
+                  "slot":  "primary",
+                  "masterable":  true,
                   "weaponClass":  "Rifle",
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "statusChance":  0.18000001,
+                  "multishot":  1
               }
 }

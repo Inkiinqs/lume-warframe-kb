@@ -1,5 +1,5 @@
 {
-    "description":  "The Scoliac Whip is a nasty parasitic growth of sinew and bone that can inflict heart stopping \u003cDT_POISON_COLOR\u003eToxin Damage with attacks.",
+    "id":  "weapon.scoliac",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -130,14 +130,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  300,
-                      "slamRadius":  5,
                       "blockingAngle":  45,
-                      "heavySlamRadius":  6,
-                      "stancePolarity":  "zenurik",
+                      "followThrough":  0.5,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  22.5,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -147,25 +144,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  105,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  150,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  2.4963856,
-                      "heavyAttackDamage":  675,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  450,
-                      "comboDuration":  5,
-                      "slideAttack":  300,
-                      "windUp":  0.40000001,
-                      "followThrough":  0.5,
-                      "slamAttack":  450,
                       "damagePerShot":  [
                                             22.5,
                                             22.5,
@@ -188,6 +177,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  2.4963856,
+                      "heavyAttackDamage":  675,
+                      "sentinel":  null,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  450,
+                      "stancePolarity":  "zenurik",
+                      "slideAttack":  300,
+                      "windUp":  0.40000001,
+                      "slamRadius":  5,
+                      "slamAttack":  450,
+                      "heavySlamRadius":  6,
                       "heavySlamAttack":  525
                   },
     "aliases":  [
@@ -201,7 +201,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.scoliac",
+    "description":  "The Scoliac Whip is a nasty parasitic growth of sinew and bone that can inflict heart stopping \u003cDT_POISON_COLOR\u003eToxin Damage with attacks.",
     "release":  {
                     "releaseDate":  "2013-12-19",
                     "introduced":  {
@@ -222,23 +222,23 @@
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  null,
+                  "vaultDate":  null,
                   "disposition":  4,
+                  "magazineSize":  null,
                   "fireRate":  1.2500001,
                   "critMultiplier":  1.5,
-                  "masteryReq":  6,
                   "totalDamage":  150,
                   "vaulted":  null,
-                  "statusChance":  0.28999996,
+                  "masteryReq":  6,
                   "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "slot":  "melee",
+                  "trigger":  null,
                   "critChance":  0.13,
-                  "magazineSize":  null,
+                  "slot":  "melee",
+                  "masterable":  true,
                   "weaponClass":  "Melee",
-                  "multishot":  null,
-                  "vaultDate":  null
+                  "statusChance":  0.28999996,
+                  "multishot":  null
               }
 }

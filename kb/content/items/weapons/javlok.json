@@ -1,5 +1,5 @@
 {
-    "description":  "Launch super-heated slugs at individual foes, or hurl the entire weapon and ignite groups of enemies in a flash inferno.",
+    "id":  "weapon.javlok",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -146,14 +146,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
-                                     "heat":  280,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -163,25 +160,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  280,
                                      "total":  280,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -204,6 +193,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -217,7 +217,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.javlok",
+    "description":  "Launch super-heated slugs at individual foes, or hurl the entire weapon and ignite groups of enemies in a flash inferno.",
     "release":  {
                     "releaseDate":  "2016-12-16",
                     "introduced":  {
@@ -239,23 +239,23 @@
                                      "madurai",
                                      "madurai"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Charge",
+                  "vaultDate":  null,
                   "disposition":  4,
+                  "magazineSize":  6,
                   "fireRate":  3.3333335,
                   "critMultiplier":  2,
-                  "masteryReq":  7,
                   "totalDamage":  280,
                   "vaulted":  null,
-                  "statusChance":  0.25,
+                  "masteryReq":  7,
                   "reloadTime":  1.9,
                   "estimatedVaultDate":  null,
-                  "slot":  "primary",
+                  "trigger":  "Charge",
                   "critChance":  0.2,
-                  "magazineSize":  6,
+                  "slot":  "primary",
+                  "masterable":  true,
                   "weaponClass":  "Rifle",
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "statusChance":  0.25,
+                  "multishot":  1
               }
 }

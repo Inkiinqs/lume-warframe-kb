@@ -1,5 +1,5 @@
 {
-    "description":  "Phantasma Prime is burnished with deadly force. In Revenant’s hands, it has increased magazine capacity. The might of its irradiated plasma is reminiscent of the fearsome Eidolon.",
+    "id":  "weapon.phantasma-prime",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -875,14 +875,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  5,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -892,25 +889,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  10,
+                                     "healthDrain":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  10,
+                                     "heat":  0,
                                      "total":  15,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             5,
                                             0,
@@ -933,6 +922,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -946,7 +946,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.phantasma-prime",
+    "description":  "Phantasma Prime is burnished with deadly force. In Revenant’s hands, it has increased magazine capacity. The might of its irradiated plasma is reminiscent of the fearsome Eidolon.",
     "release":  {
                     "releaseDate":  "2022-10-05",
                     "introduced":  {
@@ -968,23 +968,23 @@
                                      "madurai",
                                      "naramon"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Held",
+                  "vaultDate":  "2024-08-21",
                   "disposition":  2,
+                  "magazineSize":  11,
                   "fireRate":  12.000001,
                   "critMultiplier":  1.9,
-                  "masteryReq":  14,
                   "totalDamage":  15,
                   "vaulted":  true,
-                  "statusChance":  0.222,
+                  "masteryReq":  14,
                   "reloadTime":  0.5,
                   "estimatedVaultDate":  "2024-08-21",
-                  "slot":  "primary",
+                  "trigger":  "Held",
                   "critChance":  0.11,
-                  "magazineSize":  11,
+                  "slot":  "primary",
+                  "masterable":  true,
                   "weaponClass":  "Shotgun",
-                  "multishot":  6,
-                  "vaultDate":  "2024-08-21"
+                  "statusChance":  0.222,
+                  "multishot":  6
               }
 }

@@ -1,5 +1,5 @@
 {
-    "description":  "Dating back to the time of the first Tenno, the Glaive is a uniquely deadly weapon. This multi-bladed disc is not only effective for melee combat; it can also be thrown like a boomerang to cut down enemies at a distance.",
+    "id":  "weapon.glaive",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -227,14 +227,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  210,
-                      "slamRadius":  5,
                       "blockingAngle":  55,
-                      "heavySlamRadius":  6,
-                      "stancePolarity":  "naramon",
+                      "followThrough":  0.69999999,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  15.750001,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -244,25 +241,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  73.5,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  105,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  1.25,
-                      "heavyAttackDamage":  105,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  315,
-                      "comboDuration":  5,
-                      "slideAttack":  210,
-                      "windUp":  1.2,
-                      "followThrough":  0.69999999,
-                      "slamAttack":  315,
                       "damagePerShot":  [
                                             15.750001,
                                             15.750001,
@@ -285,6 +274,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  1.25,
+                      "heavyAttackDamage":  105,
+                      "sentinel":  null,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  315,
+                      "stancePolarity":  "naramon",
+                      "slideAttack":  210,
+                      "windUp":  1.2,
+                      "slamRadius":  5,
+                      "slamAttack":  315,
+                      "heavySlamRadius":  6,
                       "heavySlamAttack":  420
                   },
     "aliases":  [
@@ -298,7 +298,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.glaive",
+    "description":  "Dating back to the time of the first Tenno, the Glaive is a uniquely deadly weapon. This multi-bladed disc is not only effective for melee combat; it can also be thrown like a boomerang to cut down enemies at a distance.",
     "release":  {
                     "releaseDate":  "2013-04-26",
                     "introduced":  {
@@ -319,23 +319,23 @@
                                      "madurai",
                                      "naramon"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  null,
+                  "vaultDate":  null,
                   "disposition":  4,
+                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  2,
-                  "masteryReq":  1,
                   "totalDamage":  105,
                   "vaulted":  null,
-                  "statusChance":  0.12,
+                  "masteryReq":  1,
                   "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "slot":  "melee",
+                  "trigger":  null,
                   "critChance":  0.12,
-                  "magazineSize":  null,
+                  "slot":  "melee",
+                  "masterable":  true,
                   "weaponClass":  "Melee",
-                  "multishot":  null,
-                  "vaultDate":  null
+                  "statusChance":  0.12,
+                  "multishot":  null
               }
 }

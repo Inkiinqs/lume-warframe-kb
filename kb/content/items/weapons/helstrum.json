@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.helstrum",
+    "description":  "Launches a swarm of micro-missiles.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD companion static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  50000,
@@ -114,12 +116,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  true,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  10.95,
-                                     "heat":  24,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -129,16 +132,26 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  24,
                                      "total":  39,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  true,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             10.95,
                                             4.0499997,
@@ -161,20 +174,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/SwarmerWeapon"
@@ -187,7 +187,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Launches a swarm of micro-missiles.",
+    "id":  "weapon.helstrum",
     "release":  {
                     "releaseDate":  "2020-06-11",
                     "introduced":  {
@@ -209,10 +209,9 @@
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Burst",
                   "disposition":  3,
+                  "magazineSize":  null,
                   "fireRate":  0.90909088,
                   "critMultiplier":  1.5,
                   "totalDamage":  39,
@@ -220,12 +219,13 @@
                   "masteryReq":  0,
                   "reloadTime":  2,
                   "estimatedVaultDate":  null,
-                  "slot":  "companion",
+                  "trigger":  "Burst",
                   "critChance":  0.050000001,
-                  "magazineSize":  null,
+                  "slot":  "companion",
+                  "masterable":  true,
                   "weaponClass":  "Companion Weapon",
-                  "vaultDate":  null,
                   "statusChance":  0.30000001,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

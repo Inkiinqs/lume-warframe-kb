@@ -1,5 +1,5 @@
 {
-    "description":  "Strike with silent lightning or the pummeling drum of thunder. Alternate between stealthy short-range electrical discharge, and automatic lightning gun. Faster mode-switch when used by Wisp.",
+    "id":  "weapon.fulmin",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -116,14 +116,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  100,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  400,
@@ -133,25 +130,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  500,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             100,
                                             0,
@@ -174,6 +163,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -187,7 +187,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.fulmin",
+    "description":  "Strike with silent lightning or the pummeling drum of thunder. Alternate between stealthy short-range electrical discharge, and automatic lightning gun. Faster mode-switch when used by Wisp.",
     "release":  {
                     "releaseDate":  "2019-05-22",
                     "introduced":  {
@@ -209,23 +209,23 @@
                   "polarities":  [
                                      null
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Semi",
+                  "vaultDate":  null,
                   "disposition":  3,
+                  "magazineSize":  6,
                   "fireRate":  2.1666667,
                   "critMultiplier":  2.2,
-                  "masteryReq":  8,
                   "totalDamage":  500,
                   "vaulted":  null,
-                  "statusChance":  0.15999997,
+                  "masteryReq":  8,
                   "reloadTime":  3,
                   "estimatedVaultDate":  null,
-                  "slot":  "primary",
+                  "trigger":  "Semi",
                   "critChance":  0.30000001,
-                  "magazineSize":  6,
+                  "slot":  "primary",
+                  "masterable":  true,
                   "weaponClass":  "Rifle",
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "statusChance":  0.15999997,
+                  "multishot":  1
               }
 }

@@ -1,5 +1,5 @@
 {
-    "description":  "On Heavy Slide Attack, this Corpus scythe launches a spinning energy disk that ricochets throughout the battlefield. Its lifetime is derived from the size of the Combo Counter. Note: The Granum Attaché system pauses the combo timer when holstered.",
+    "id":  "weapon.tenet-grigori",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -106,14 +106,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  456,
-                      "slamRadius":  8,
                       "blockingAngle":  90,
-                      "heavySlamRadius":  8,
-                      "stancePolarity":  "zenurik",
+                      "followThrough":  0.60000002,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  9.1199999,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -123,25 +120,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  136.8,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  228,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  2.5,
-                      "heavyAttackDamage":  1368,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  684,
-                      "comboDuration":  5,
-                      "slideAttack":  456,
-                      "windUp":  1,
-                      "followThrough":  0.60000002,
-                      "slamAttack":  684,
                       "damagePerShot":  [
                                             9.1199999,
                                             82.080002,
@@ -164,6 +153,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  2.5,
+                      "heavyAttackDamage":  1368,
+                      "sentinel":  null,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  684,
+                      "stancePolarity":  "zenurik",
+                      "slideAttack":  456,
+                      "windUp":  1,
+                      "slamRadius":  8,
+                      "slamAttack":  684,
+                      "heavySlamRadius":  8,
                       "heavySlamAttack":  1140
                   },
     "aliases":  [
@@ -177,7 +177,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.tenet-grigori",
+    "description":  "On Heavy Slide Attack, this Corpus scythe launches a spinning energy disk that ricochets throughout the battlefield. Its lifetime is derived from the size of the Combo Counter. Note: The Granum Attaché system pauses the combo timer when holstered.",
     "release":  {
                     "releaseDate":  "2021-07-06",
                     "introduced":  {
@@ -197,23 +197,23 @@
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  null,
+                  "vaultDate":  null,
                   "disposition":  3,
+                  "magazineSize":  null,
                   "fireRate":  1.0833334,
                   "critMultiplier":  1.6,
-                  "masteryReq":  14,
                   "totalDamage":  228,
                   "vaulted":  null,
-                  "statusChance":  0.38,
+                  "masteryReq":  14,
                   "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "slot":  "melee",
+                  "trigger":  null,
                   "critChance":  0.23999999,
-                  "magazineSize":  null,
+                  "slot":  "melee",
+                  "masterable":  true,
                   "weaponClass":  "Melee",
-                  "multishot":  null,
-                  "vaultDate":  null
+                  "statusChance":  0.38,
+                  "multishot":  null
               }
 }

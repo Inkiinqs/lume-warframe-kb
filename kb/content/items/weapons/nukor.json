@@ -1,5 +1,5 @@
 {
-    "description":  "Creates and focuses a high-frequency field of microwaves, literally cooking the target from within.",
+    "id":  "weapon.nukor",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -96,14 +96,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -113,25 +110,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  22,
+                                     "healthDrain":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  22,
+                                     "heat":  0,
                                      "total":  22,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -154,6 +143,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -167,7 +167,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.nukor",
+    "description":  "Creates and focuses a high-frequency field of microwaves, literally cooking the target from within.",
     "release":  {
                     "releaseDate":  "2014-08-28",
                     "introduced":  {
@@ -188,23 +188,23 @@
                   "polarities":  [
                                      null
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Held",
+                  "vaultDate":  null,
                   "disposition":  5,
+                  "magazineSize":  50,
                   "fireRate":  10.000001,
                   "critMultiplier":  4,
-                  "masteryReq":  4,
                   "totalDamage":  22,
                   "vaulted":  null,
-                  "statusChance":  0.28999996,
+                  "masteryReq":  4,
                   "reloadTime":  2,
                   "estimatedVaultDate":  null,
-                  "slot":  "secondary",
+                  "trigger":  "Held",
                   "critChance":  0.029999999,
-                  "magazineSize":  50,
+                  "slot":  "secondary",
+                  "masterable":  true,
                   "weaponClass":  "Pistol",
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "statusChance":  0.28999996,
+                  "multishot":  1
               }
 }

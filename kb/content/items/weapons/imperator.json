@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.imperator",
+    "description":  "A long range rifle capable of firing in space, the Imperator\u0027s versatility makes it an ideal weapon for space combat.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD archgun static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  25000,
@@ -108,12 +110,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  20,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -123,16 +126,26 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  12.5,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  50,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             20,
                                             17.5,
@@ -155,20 +168,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Archwing/Primary/FoldingMachineGun/ArchMachineGun"
@@ -181,7 +181,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A long range rifle capable of firing in space, the Imperator\u0027s versatility makes it an ideal weapon for space combat.",
+    "id":  "weapon.imperator",
     "release":  {
                     "releaseDate":  "2014-10-24",
                     "introduced":  {
@@ -204,10 +204,9 @@
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Auto",
                   "disposition":  3,
+                  "magazineSize":  200,
                   "fireRate":  16.666668,
                   "critMultiplier":  2,
                   "totalDamage":  50,
@@ -215,12 +214,13 @@
                   "masteryReq":  0,
                   "reloadTime":  4.25,
                   "estimatedVaultDate":  null,
-                  "slot":  "archgun",
+                  "trigger":  "Auto",
                   "critChance":  0.23999999,
-                  "magazineSize":  200,
+                  "slot":  "archgun",
+                  "masterable":  true,
                   "weaponClass":  "Arch-Gun",
-                  "vaultDate":  null,
                   "statusChance":  0.12,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

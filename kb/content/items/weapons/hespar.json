@@ -1,5 +1,5 @@
 {
-    "description":  "This Heavy Scythe echoes battles of another time. It is far more a weapon of sheer force than one of finesse.",
+    "id":  "weapon.hespar",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -135,14 +135,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  560,
-                      "slamRadius":  8,
                       "blockingAngle":  65,
-                      "heavySlamRadius":  9,
-                      "stancePolarity":  "madurai",
+                      "followThrough":  0.40000001,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  112,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -152,25 +149,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  134.40001,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  280,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  2.8,
-                      "heavyAttackDamage":  5040,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  840,
-                      "comboDuration":  5,
-                      "slideAttack":  560,
-                      "windUp":  1,
-                      "followThrough":  0.40000001,
-                      "slamAttack":  840,
                       "damagePerShot":  [
                                             112,
                                             33.599998,
@@ -193,6 +182,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  2.8,
+                      "heavyAttackDamage":  5040,
+                      "sentinel":  null,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  840,
+                      "stancePolarity":  "madurai",
+                      "slideAttack":  560,
+                      "windUp":  1,
+                      "slamRadius":  8,
+                      "slamAttack":  840,
+                      "heavySlamRadius":  9,
                       "heavySlamAttack":  1400
                   },
     "aliases":  [
@@ -206,7 +206,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.hespar",
+    "description":  "This Heavy Scythe echoes battles of another time. It is far more a weapon of sheer force than one of finesse.",
     "release":  {
                     "releaseDate":  "2022-04-27",
                     "introduced":  {
@@ -227,23 +227,23 @@
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  null,
+                  "vaultDate":  null,
                   "disposition":  3,
+                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  2.2,
-                  "masteryReq":  12,
                   "totalDamage":  280,
                   "vaulted":  null,
-                  "statusChance":  0.27999997,
+                  "masteryReq":  12,
                   "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "slot":  "melee",
+                  "trigger":  null,
                   "critChance":  0.23999999,
-                  "magazineSize":  null,
+                  "slot":  "melee",
+                  "masterable":  true,
                   "weaponClass":  "Melee",
-                  "multishot":  null,
-                  "vaultDate":  null
+                  "statusChance":  0.27999997,
+                  "multishot":  null
               }
 }

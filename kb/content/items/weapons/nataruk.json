@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.nataruk",
+    "description":  "Hunhow’s gift, carved from the bones of his kin. Shots can be charged and held; release them just before full charge for maximum effect.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -96,10 +96,10 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -109,33 +109,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  251.99997,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  900,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
-                      "followThrough":  null,
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "relevantFormulas":  [
-                                               "formula.critical-chance",
-                                               "formula.critical-multiplier",
-                                               "formula.multishot"
-                                           ],
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             648,
@@ -158,6 +142,22 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "relevantFormulas":  [
+                                               "formula.critical-chance",
+                                               "formula.critical-multiplier",
+                                               "formula.multishot"
+                                           ],
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -171,7 +171,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Hunhow’s gift, carved from the bones of his kin. Shots can be charged and held; release them just before full charge for maximum effect.",
+    "id":  "weapon.nataruk",
     "release":  {
                     "releaseDate":  "2021-12-15",
                     "introduced":  {
@@ -196,24 +196,24 @@
                                      "madurai",
                                      "madurai"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
+                  "vaultDate":  null,
                   "archetype":  "precision-bow",
-                  "trigger":  "Charge",
                   "disposition":  1,
+                  "magazineSize":  null,
                   "fireRate":  0.66666669,
                   "critMultiplier":  1.8,
-                  "masteryReq":  0,
                   "totalDamage":  900,
                   "vaulted":  null,
-                  "statusChance":  0.5,
+                  "masteryReq":  0,
                   "reloadTime":  0.050000001,
                   "estimatedVaultDate":  null,
-                  "slot":  "primary",
+                  "trigger":  "Charge",
                   "critChance":  0.2,
-                  "magazineSize":  null,
+                  "slot":  "primary",
+                  "masterable":  true,
                   "weaponClass":  "Bow",
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "statusChance":  0.5,
+                  "multishot":  1
               }
 }

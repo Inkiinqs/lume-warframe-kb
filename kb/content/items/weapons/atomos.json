@@ -1,5 +1,5 @@
 {
-    "description":  "This particle cannon generates a condensed beam of super-heated plasma designed to melt rock to ore, and enemies to molten slag.",
+    "id":  "weapon.atomos",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -125,14 +125,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
-                                     "heat":  29,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -142,25 +139,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  29,
                                      "total":  29,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -183,6 +172,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -196,7 +196,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.atomos",
+    "description":  "This particle cannon generates a condensed beam of super-heated plasma designed to melt rock to ore, and enemies to molten slag.",
     "release":  {
                     "releaseDate":  "2015-05-12",
                     "introduced":  {
@@ -217,23 +217,23 @@
                   "polarities":  [
                                      "vazarin"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Held",
+                  "vaultDate":  null,
                   "disposition":  3,
+                  "magazineSize":  70,
                   "fireRate":  8,
                   "critMultiplier":  1.7,
-                  "masteryReq":  5,
                   "totalDamage":  29,
                   "vaulted":  null,
-                  "statusChance":  0.20999998,
+                  "masteryReq":  5,
                   "reloadTime":  2,
                   "estimatedVaultDate":  null,
-                  "slot":  "secondary",
+                  "trigger":  "Held",
                   "critChance":  0.15000001,
-                  "magazineSize":  70,
+                  "slot":  "secondary",
+                  "masterable":  true,
                   "weaponClass":  "Pistol",
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "statusChance":  0.20999998,
+                  "multishot":  1
               }
 }

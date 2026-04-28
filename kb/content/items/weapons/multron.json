@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.multron",
+    "description":  "Launches a volley of bomb darts that embed themselves in targets, exploding a short time later.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD companion static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -72,12 +74,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  true,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -87,16 +90,26 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  10,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  true,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             10,
@@ -119,20 +132,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/HextraWeapon"
@@ -145,7 +145,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Launches a volley of bomb darts that embed themselves in targets, exploding a short time later.",
+    "id":  "weapon.multron",
     "release":  {
                     "releaseDate":  "2018-11-08",
                     "introduced":  {
@@ -167,10 +167,9 @@
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Burst",
                   "disposition":  3,
+                  "magazineSize":  3,
                   "fireRate":  1.875,
                   "critMultiplier":  2,
                   "totalDamage":  10,
@@ -178,12 +177,13 @@
                   "masteryReq":  3,
                   "reloadTime":  3,
                   "estimatedVaultDate":  null,
-                  "slot":  "companion",
+                  "trigger":  "Burst",
                   "critChance":  0.15000001,
-                  "magazineSize":  3,
+                  "slot":  "companion",
+                  "masterable":  true,
                   "weaponClass":  "Companion Weapon",
-                  "vaultDate":  null,
                   "statusChance":  0.22000003,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

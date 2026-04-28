@@ -1,5 +1,5 @@
 {
-    "description":  "Launch a glaive that ricochets off surfaces in bursts of elemental damage, then perforate enemies with primary fire’s precision buck-shot. Damage increases with each Status Effect afflicting a target. Lavos will transmute a small portion of any ammo pickup to Primary Ammo when wielding his signature Cedo.",
+    "id":  "weapon.cedo",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -222,14 +222,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -239,25 +236,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  30,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             30,
@@ -280,6 +269,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -293,7 +293,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.cedo",
+    "description":  "Launch a glaive that ricochets off surfaces in bursts of elemental damage, then perforate enemies with primary fire’s precision buck-shot. Damage increases with each Status Effect afflicting a target. Lavos will transmute a small portion of any ammo pickup to Primary Ammo when wielding his signature Cedo.",
     "release":  {
                     "releaseDate":  "2020-12-18",
                     "introduced":  {
@@ -315,23 +315,23 @@
                                      "madurai",
                                      "madurai"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Auto",
+                  "vaultDate":  null,
                   "disposition":  1,
+                  "magazineSize":  40,
                   "fireRate":  3.8333335,
                   "critMultiplier":  2.4000001,
-                  "masteryReq":  8,
                   "totalDamage":  30,
                   "vaulted":  null,
-                  "statusChance":  0.0033333302,
+                  "masteryReq":  8,
                   "reloadTime":  2.2,
                   "estimatedVaultDate":  null,
-                  "slot":  "primary",
+                  "trigger":  "Auto",
                   "critChance":  0.2,
-                  "magazineSize":  40,
+                  "slot":  "primary",
+                  "masterable":  true,
                   "weaponClass":  "Shotgun",
-                  "multishot":  6,
-                  "vaultDate":  null
+                  "statusChance":  0.0033333302,
+                  "multishot":  6
               }
 }

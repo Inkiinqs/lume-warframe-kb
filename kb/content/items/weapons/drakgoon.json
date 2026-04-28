@@ -1,5 +1,5 @@
 {
-    "description":  "The Drakgoon flak cannon sends volleys of intensely hot shrapnel ricocheting around the room. Can be fired in wide or concentrated bursts.",
+    "id":  "weapon.drakgoon",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -116,14 +116,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  7,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -133,25 +130,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  56,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  70,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             7,
                                             7,
@@ -174,6 +163,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -187,7 +187,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.drakgoon",
+    "description":  "The Drakgoon flak cannon sends volleys of intensely hot shrapnel ricocheting around the room. Can be fired in wide or concentrated bursts.",
     "release":  {
                     "releaseDate":  "2014-01-08",
                     "introduced":  {
@@ -208,23 +208,23 @@
                   "polarities":  [
                                      null
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Charge",
+                  "vaultDate":  null,
                   "disposition":  5,
+                  "magazineSize":  7,
                   "fireRate":  3.3333335,
                   "critMultiplier":  2,
-                  "masteryReq":  5,
                   "totalDamage":  70,
                   "vaulted":  null,
-                  "statusChance":  0.069000006,
+                  "masteryReq":  5,
                   "reloadTime":  2.3,
                   "estimatedVaultDate":  null,
-                  "slot":  "primary",
+                  "trigger":  "Charge",
                   "critChance":  0.050000001,
-                  "magazineSize":  7,
+                  "slot":  "primary",
+                  "masterable":  true,
                   "weaponClass":  "Shotgun",
-                  "multishot":  10,
-                  "vaultDate":  null
+                  "statusChance":  0.069000006,
+                  "multishot":  10
               }
 }

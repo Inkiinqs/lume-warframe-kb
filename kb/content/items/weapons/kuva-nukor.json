@@ -1,5 +1,5 @@
 {
-    "description":  "A highly-optimized Nukor that allows for the weapon’s microwave field to hit up to two additional targets.",
+    "id":  "weapon.kuva-nukor",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -56,14 +56,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -73,25 +70,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  21,
+                                     "healthDrain":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  21,
+                                     "heat":  0,
                                      "total":  21,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -114,6 +103,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -127,7 +127,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.kuva-nukor",
+    "description":  "A highly-optimized Nukor that allows for the weapon’s microwave field to hit up to two additional targets.",
     "release":  {
                     "releaseDate":  "2020-02-04",
                     "introduced":  {
@@ -148,23 +148,23 @@
                   "polarities":  [
                                      null
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Held",
+                  "vaultDate":  null,
                   "disposition":  1,
+                  "magazineSize":  77,
                   "fireRate":  10.000001,
                   "critMultiplier":  5,
-                  "masteryReq":  13,
                   "totalDamage":  21,
                   "vaulted":  null,
-                  "statusChance":  0.5,
+                  "masteryReq":  13,
                   "reloadTime":  2,
                   "estimatedVaultDate":  null,
-                  "slot":  "secondary",
+                  "trigger":  "Held",
                   "critChance":  0.07,
-                  "magazineSize":  77,
+                  "slot":  "secondary",
+                  "masterable":  true,
                   "weaponClass":  "Pistol",
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "statusChance":  0.5,
+                  "multishot":  1
               }
 }

@@ -1,5 +1,5 @@
 {
-    "description":  "Half taser, half whip. The Corpus Lecta delivers a deadly shock to anything it touches.",
+    "id":  "weapon.lecta",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -130,14 +130,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  202,
-                      "slamRadius":  5,
                       "blockingAngle":  45,
-                      "heavySlamRadius":  6,
-                      "stancePolarity":  "vazarin",
+                      "followThrough":  0.5,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  56,
@@ -147,25 +144,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  25,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  101,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  2.4963856,
-                      "heavyAttackDamage":  455,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  303,
-                      "comboDuration":  5,
-                      "slideAttack":  202,
-                      "windUp":  0.40000001,
-                      "followThrough":  0.5,
-                      "slamAttack":  303,
                       "damagePerShot":  [
                                             0,
                                             20,
@@ -188,6 +177,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  2.4963856,
+                      "heavyAttackDamage":  455,
+                      "sentinel":  null,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  303,
+                      "stancePolarity":  "vazarin",
+                      "slideAttack":  202,
+                      "windUp":  0.40000001,
+                      "slamRadius":  5,
+                      "slamAttack":  303,
+                      "heavySlamRadius":  6,
                       "heavySlamAttack":  354
                   },
     "aliases":  [
@@ -201,7 +201,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.lecta",
+    "description":  "Half taser, half whip. The Corpus Lecta delivers a deadly shock to anything it touches.",
     "release":  {
                     "releaseDate":  "2013-11-20",
                     "introduced":  {
@@ -223,23 +223,23 @@
                   "polarities":  [
                                      null
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  null,
+                  "vaultDate":  null,
                   "disposition":  4,
+                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  1.5,
-                  "masteryReq":  0,
                   "totalDamage":  101,
                   "vaulted":  null,
-                  "statusChance":  0.25,
+                  "masteryReq":  0,
                   "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "slot":  "melee",
+                  "trigger":  null,
                   "critChance":  0.050000001,
-                  "magazineSize":  null,
+                  "slot":  "melee",
+                  "masterable":  true,
                   "weaponClass":  "Melee",
-                  "multishot":  null,
-                  "vaultDate":  null
+                  "statusChance":  0.25,
+                  "multishot":  null
               }
 }

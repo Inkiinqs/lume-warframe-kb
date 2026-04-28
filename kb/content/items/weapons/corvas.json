@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.corvas",
+    "description":  "When fully charged, this flak cannon delivers a devastating shot. Perfect for taking down fast-moving interceptors.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD archgun static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  45000,
@@ -131,12 +133,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  400,
-                                     "heat":  480,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -146,16 +149,26 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  480,
                                      "total":  880,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             400,
                                             0,
@@ -178,20 +191,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Archwing/Primary/LaunchGrenade/ArchCannon"
@@ -204,7 +204,7 @@
     "relationships":  [
 
                       ],
-    "description":  "When fully charged, this flak cannon delivers a devastating shot. Perfect for taking down fast-moving interceptors.",
+    "id":  "weapon.corvas",
     "release":  {
                     "releaseDate":  "2014-10-24",
                     "introduced":  {
@@ -227,10 +227,9 @@
                   "polarities":  [
                                      "naramon"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Charge",
                   "disposition":  4,
+                  "magazineSize":  25,
                   "fireRate":  2,
                   "critMultiplier":  2.5999999,
                   "totalDamage":  880,
@@ -238,12 +237,13 @@
                   "masteryReq":  1,
                   "reloadTime":  8,
                   "estimatedVaultDate":  null,
-                  "slot":  "archgun",
+                  "trigger":  "Charge",
                   "critChance":  0.40000001,
-                  "magazineSize":  25,
+                  "slot":  "archgun",
+                  "masterable":  true,
                   "weaponClass":  "Arch-Gun",
-                  "vaultDate":  null,
                   "statusChance":  0.13,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

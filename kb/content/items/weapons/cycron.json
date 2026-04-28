@@ -1,5 +1,5 @@
 {
-    "description":  "Forgo ammunition with the regenerating energy disc in this plasma throwing pistol.",
+    "id":  "weapon.cycron",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -98,14 +98,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -115,25 +112,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  10,
+                                     "healthDrain":  0,
                                      "puncture":  5,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  10,
+                                     "heat":  0,
                                      "total":  23,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             8,
@@ -156,6 +145,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -169,7 +169,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.cycron",
+    "description":  "Forgo ammunition with the regenerating energy disc in this plasma throwing pistol.",
     "release":  {
                     "releaseDate":  "2017-04-26",
                     "introduced":  {
@@ -191,23 +191,23 @@
                                      "naramon",
                                      "naramon"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Held",
+                  "vaultDate":  null,
                   "disposition":  4,
+                  "magazineSize":  40,
                   "fireRate":  12.000001,
                   "critMultiplier":  1.8,
-                  "masteryReq":  8,
                   "totalDamage":  23,
                   "vaulted":  null,
-                  "statusChance":  0.30000001,
+                  "masteryReq":  8,
                   "reloadTime":  2,
                   "estimatedVaultDate":  null,
-                  "slot":  "secondary",
+                  "trigger":  "Held",
                   "critChance":  0.12,
-                  "magazineSize":  40,
+                  "slot":  "secondary",
+                  "masterable":  true,
                   "weaponClass":  "Pistol",
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "statusChance":  0.30000001,
+                  "multishot":  1
               }
 }

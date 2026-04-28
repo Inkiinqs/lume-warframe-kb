@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.onorix",
+    "description":  "This laser bladed battle-axe easily hacks through a ship\u0027s defenses and the forces protecting it.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD archmelee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  412,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  25000,
@@ -95,12 +97,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  824,
+                      "slamRadius":  3,
                       "blockingAngle":  90,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  123.60001,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -110,16 +113,26 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  206,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  412,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
+                      "heavyAttackDamage":  412,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  5,
+                      "slideAttack":  883,
+                      "windUp":  null,
+                      "followThrough":  0.69999999,
+                      "slamAttack":  412,
                       "damagePerShot":  [
                                             123.60001,
                                             82.400002,
@@ -142,20 +155,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  412,
-                      "followThrough":  0.69999999,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  883,
-                      "windUp":  null,
-                      "slamRadius":  3,
-                      "slamAttack":  412,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  412
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Archwing/Melee/Archaxe/ArchAxeWeapon"
@@ -168,7 +168,7 @@
     "relationships":  [
 
                       ],
-    "description":  "This laser bladed battle-axe easily hacks through a ship\u0027s defenses and the forces protecting it.",
+    "id":  "weapon.onorix",
     "release":  {
                     "releaseDate":  "2014-10-24",
                     "introduced":  {
@@ -191,10 +191,9 @@
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  null,
                   "disposition":  1,
+                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  1.25,
                   "totalDamage":  412,
@@ -202,12 +201,13 @@
                   "masteryReq":  1,
                   "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "slot":  "archmelee",
+                  "trigger":  null,
                   "critChance":  0.15000001,
-                  "magazineSize":  null,
+                  "slot":  "archmelee",
+                  "masterable":  true,
                   "weaponClass":  "Arch-Melee",
-                  "vaultDate":  null,
                   "statusChance":  0.050000012,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

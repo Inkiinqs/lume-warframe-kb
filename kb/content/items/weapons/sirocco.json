@@ -1,5 +1,5 @@
 {
-    "description":  "A silent, pistol-style Amp for the Drifter. Generates its own ammunition from Void energy. A precisely timed reload over-charges the next shot.",
+    "id":  "weapon.sirocco",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -72,14 +72,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -89,25 +86,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  2000,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  2000
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -130,6 +119,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -143,7 +143,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.sirocco",
+    "description":  "A silent, pistol-style Amp for the Drifter. Generates its own ammunition from Void energy. A precisely timed reload over-charges the next shot.",
     "release":  {
                     "releaseDate":  "2021-12-15",
                     "introduced":  {
@@ -165,23 +165,23 @@
                   "polarities":  [
                                      null
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Semi",
+                  "vaultDate":  null,
                   "disposition":  3,
+                  "magazineSize":  10,
                   "fireRate":  3.0000002,
                   "critMultiplier":  2,
-                  "masteryReq":  0,
                   "totalDamage":  2000,
                   "vaulted":  null,
-                  "statusChance":  0.19999999,
+                  "masteryReq":  0,
                   "reloadTime":  2,
                   "estimatedVaultDate":  null,
-                  "slot":  "primary",
+                  "trigger":  "Semi",
                   "critChance":  0.40000001,
-                  "magazineSize":  10,
+                  "slot":  "primary",
+                  "masterable":  true,
                   "weaponClass":  "Pistol",
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "statusChance":  0.19999999,
+                  "multishot":  1
               }
 }

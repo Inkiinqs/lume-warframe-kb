@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.corvas-prime",
+    "description":  "Flaunting ceremonial beauty, this arch gun flak cannon is even more devastating than its standard issue counterpart.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD archgun static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  45000,
@@ -785,12 +787,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  430,
-                                     "heat":  530,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -800,16 +803,26 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  530,
                                      "total":  960,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             430,
                                             0,
@@ -832,20 +845,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Archwing/Primary/PrimeCorvas/PrimeCorvasWeapon"
@@ -858,7 +858,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Flaunting ceremonial beauty, this arch gun flak cannon is even more devastating than its standard issue counterpart.",
+    "id":  "weapon.corvas-prime",
     "release":  {
                     "releaseDate":  "2022-03-28",
                     "introduced":  {
@@ -880,10 +880,9 @@
                                      "madurai",
                                      "naramon"
                                  ],
-                  "masterable":  true,
                   "tradable":  true,
-                  "trigger":  "Charge",
                   "disposition":  3,
+                  "magazineSize":  20,
                   "fireRate":  2,
                   "critMultiplier":  3,
                   "totalDamage":  960,
@@ -891,12 +890,13 @@
                   "masteryReq":  14,
                   "reloadTime":  2,
                   "estimatedVaultDate":  "2024-01-17",
-                  "slot":  "archgun",
+                  "trigger":  "Charge",
                   "critChance":  0.44,
-                  "magazineSize":  20,
+                  "slot":  "archgun",
+                  "masterable":  true,
                   "weaponClass":  "Arch-Gun",
-                  "vaultDate":  "2024-01-17",
                   "statusChance":  0.30000001,
+                  "vaultDate":  "2024-01-17",
                   "multishot":  1
               }
 }

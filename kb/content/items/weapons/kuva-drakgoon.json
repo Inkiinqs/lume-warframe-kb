@@ -1,5 +1,5 @@
 {
-    "description":  "The Kuva Drakgoon flak cannon sends volleys of intensely hot shrapnel ricocheting around the room that do not slow down. Larger Magazine Capacity and Reload Speed. Can be fired in wide or concentrated bursts.",
+    "id":  "weapon.kuva-drakgoon",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -76,14 +76,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  4.5999999,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -93,25 +90,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  36.799999,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  46,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             4.5999999,
                                             4.5999999,
@@ -134,6 +123,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -147,7 +147,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.kuva-drakgoon",
+    "description":  "The Kuva Drakgoon flak cannon sends volleys of intensely hot shrapnel ricocheting around the room that do not slow down. Larger Magazine Capacity and Reload Speed. Can be fired in wide or concentrated bursts.",
     "release":  {
                     "releaseDate":  "2019-10-31",
                     "introduced":  {
@@ -169,23 +169,23 @@
                   "polarities":  [
                                      null
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Charge",
+                  "vaultDate":  null,
                   "disposition":  4,
+                  "magazineSize":  11,
                   "fireRate":  3.3333335,
                   "critMultiplier":  2.0999999,
-                  "masteryReq":  13,
                   "totalDamage":  46,
                   "vaulted":  null,
-                  "statusChance":  0.089999974,
+                  "masteryReq":  13,
                   "reloadTime":  2,
                   "estimatedVaultDate":  null,
-                  "slot":  "primary",
+                  "trigger":  "Charge",
                   "critChance":  0.19,
-                  "magazineSize":  11,
+                  "slot":  "primary",
+                  "masterable":  true,
                   "weaponClass":  "Shotgun",
-                  "multishot":  10,
-                  "vaultDate":  null
+                  "statusChance":  0.089999974,
+                  "multishot":  10
               }
 }

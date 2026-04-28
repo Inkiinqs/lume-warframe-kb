@@ -1,5 +1,5 @@
 {
-    "description":  "Drawing from its huge quad-chambered magazine, the Tetra is capable of unleashing a sustained barrage of lethal energy bolts.",
+    "id":  "weapon.tetra",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -99,14 +99,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  6.4000001,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -116,25 +113,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  32,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             6.4000001,
                                             25.6,
@@ -157,6 +146,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -170,7 +170,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.tetra",
+    "description":  "Drawing from its huge quad-chambered magazine, the Tetra is capable of unleashing a sustained barrage of lethal energy bolts.",
     "release":  {
                     "releaseDate":  "2014-01-22",
                     "introduced":  {
@@ -191,23 +191,23 @@
                   "polarities":  [
                                      null
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Auto",
+                  "vaultDate":  null,
                   "disposition":  5,
+                  "magazineSize":  60,
                   "fireRate":  6.666667,
                   "critMultiplier":  1.5,
-                  "masteryReq":  3,
                   "totalDamage":  32,
                   "vaulted":  null,
-                  "statusChance":  0.19999999,
+                  "masteryReq":  3,
                   "reloadTime":  2,
                   "estimatedVaultDate":  null,
-                  "slot":  "primary",
+                  "trigger":  "Auto",
                   "critChance":  0.039999999,
-                  "magazineSize":  60,
+                  "slot":  "primary",
+                  "masterable":  true,
                   "weaponClass":  "Rifle",
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "statusChance":  0.19999999,
+                  "multishot":  1
               }
 }

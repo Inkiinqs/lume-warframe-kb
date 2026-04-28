@@ -1,5 +1,5 @@
 {
-    "description":  "Deploy the radar disc to reveal hidden enemies and then strike with precision shots that punch through all obstacles in the way.",
+    "id":  "weapon.zenith",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -116,14 +116,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  4.5,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -133,25 +130,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  19.5,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  30,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             4.5,
                                             6,
@@ -174,6 +163,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -187,7 +187,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.zenith",
+    "description":  "Deploy the radar disc to reveal hidden enemies and then strike with precision shots that punch through all obstacles in the way.",
     "release":  {
                     "releaseDate":  "2017-04-12",
                     "introduced":  {
@@ -209,23 +209,23 @@
                                      "naramon",
                                      "madurai"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Auto",
+                  "vaultDate":  null,
                   "disposition":  3,
+                  "magazineSize":  90,
                   "fireRate":  10.833334,
                   "critMultiplier":  2,
-                  "masteryReq":  10,
                   "totalDamage":  30,
                   "vaulted":  null,
-                  "statusChance":  0.34000003,
+                  "masteryReq":  10,
                   "reloadTime":  1.6,
                   "estimatedVaultDate":  null,
-                  "slot":  "primary",
+                  "trigger":  "Auto",
                   "critChance":  0.1,
-                  "magazineSize":  90,
+                  "slot":  "primary",
+                  "masterable":  true,
                   "weaponClass":  "Rifle",
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "statusChance":  0.34000003,
+                  "multishot":  1
               }
 }

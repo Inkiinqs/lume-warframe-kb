@@ -1,5 +1,5 @@
 {
-    "description":  "Discharge a rail of ionized death or throw the Ferrox like a spear and create a localized field of attraction no enemy can escape from.",
+    "id":  "weapon.ferrox",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -141,14 +141,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  35,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -158,25 +155,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  69.999992,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  350,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             35,
                                             245,
@@ -199,6 +188,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -212,7 +212,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.ferrox",
+    "description":  "Discharge a rail of ionized death or throw the Ferrox like a spear and create a localized field of attraction no enemy can escape from.",
     "release":  {
                     "releaseDate":  "2017-03-09",
                     "introduced":  {
@@ -234,23 +234,23 @@
                                      "madurai",
                                      "vazarin"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Charge",
+                  "vaultDate":  null,
                   "disposition":  4,
+                  "magazineSize":  10,
                   "fireRate":  1.3333334,
                   "critMultiplier":  2.8,
-                  "masteryReq":  14,
                   "totalDamage":  350,
                   "vaulted":  null,
-                  "statusChance":  0.10000002,
+                  "masteryReq":  14,
                   "reloadTime":  1.8,
                   "estimatedVaultDate":  null,
-                  "slot":  "primary",
+                  "trigger":  "Charge",
                   "critChance":  0.31999999,
-                  "magazineSize":  10,
+                  "slot":  "primary",
+                  "masterable":  true,
                   "weaponClass":  "Rifle",
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "statusChance":  0.10000002,
+                  "multishot":  1
               }
 }

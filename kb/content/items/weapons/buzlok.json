@@ -1,5 +1,5 @@
 {
-    "description":  "Mark your targets and unleash a barrage of bullets, the Buzlok\u0027s homing rounds always find the enemy. Marked targets are more likely to take critical hits.",
+    "id":  "weapon.buzlok",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -113,14 +113,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  30,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -130,25 +127,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  6.0000014,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  60,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             30,
                                             24,
@@ -171,6 +160,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -184,7 +184,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.buzlok",
+    "description":  "Mark your targets and unleash a barrage of bullets, the Buzlok\u0027s homing rounds always find the enemy. Marked targets are more likely to take critical hits.",
     "release":  {
                     "releaseDate":  "2014-09-17",
                     "introduced":  {
@@ -205,23 +205,23 @@
                   "polarities":  [
                                      null
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Auto",
+                  "vaultDate":  null,
                   "disposition":  5,
+                  "magazineSize":  50,
                   "fireRate":  6.2500005,
                   "critMultiplier":  2.5,
-                  "masteryReq":  11,
                   "totalDamage":  60,
                   "vaulted":  null,
-                  "statusChance":  0.20999998,
+                  "masteryReq":  11,
                   "reloadTime":  3,
                   "estimatedVaultDate":  null,
-                  "slot":  "primary",
+                  "trigger":  "Auto",
                   "critChance":  0.23,
-                  "magazineSize":  50,
+                  "slot":  "primary",
+                  "masterable":  true,
                   "weaponClass":  "Sniper",
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "statusChance":  0.20999998,
+                  "multishot":  1
               }
 }

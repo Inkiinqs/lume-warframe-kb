@@ -1,5 +1,5 @@
 {
-    "description":  "The Gorgon sports a large magazine that allows it to provide suppressing fire and sustain a high damage rate over a long time. Its high Fire Rate is only achieved following a short wind-up cycle.",
+    "id":  "weapon.gorgon",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -174,14 +174,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  18.75,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -191,25 +188,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  2.5000005,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  25,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             18.75,
                                             3.7500002,
@@ -232,6 +221,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -245,7 +245,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.gorgon",
+    "description":  "The Gorgon sports a large magazine that allows it to provide suppressing fire and sustain a high damage rate over a long time. Its high Fire Rate is only achieved following a short wind-up cycle.",
     "release":  {
                     "releaseDate":  "2012-10-25",
                     "introduced":  {
@@ -266,23 +266,23 @@
                   "polarities":  [
                                      null
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Auto",
+                  "vaultDate":  null,
                   "disposition":  5,
+                  "magazineSize":  90,
                   "fireRate":  12.500001,
                   "critMultiplier":  1.5,
-                  "masteryReq":  3,
                   "totalDamage":  25,
                   "vaulted":  null,
-                  "statusChance":  0.090000033,
+                  "masteryReq":  3,
                   "reloadTime":  4.1999998,
                   "estimatedVaultDate":  null,
-                  "slot":  "primary",
+                  "trigger":  "Auto",
                   "critChance":  0.17,
-                  "magazineSize":  90,
+                  "slot":  "primary",
+                  "masterable":  true,
                   "weaponClass":  "Rifle",
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "statusChance":  0.090000033,
+                  "multishot":  1
               }
 }

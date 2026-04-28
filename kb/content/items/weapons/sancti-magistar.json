@@ -1,5 +1,5 @@
 {
-    "description":  "Each charged attack turns the enemy’s pain into a healing pulse that washes over allies. Also, creates resistance to Status Effects when held.",
+    "id":  "weapon.sancti-magistar",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -95,14 +95,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  480,
-                      "slamRadius":  9,
                       "blockingAngle":  50,
-                      "heavySlamRadius":  10,
-                      "stancePolarity":  "vazarin",
+                      "followThrough":  0.40000001,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  192,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -112,25 +109,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  11.999989,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  239.99998,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  2.5999999,
-                      "heavyAttackDamage":  1440,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  720,
-                      "comboDuration":  5,
-                      "slideAttack":  480,
-                      "windUp":  1.2,
-                      "followThrough":  0.40000001,
-                      "slamAttack":  720,
                       "damagePerShot":  [
                                             192,
                                             36,
@@ -153,6 +142,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  2.5999999,
+                      "heavyAttackDamage":  1440,
+                      "sentinel":  null,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  720,
+                      "stancePolarity":  "vazarin",
+                      "slideAttack":  480,
+                      "windUp":  1.2,
+                      "slamRadius":  9,
+                      "slamAttack":  720,
+                      "heavySlamRadius":  10,
                       "heavySlamAttack":  1200
                   },
     "aliases":  [
@@ -166,7 +166,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.sancti-magistar",
+    "description":  "Each charged attack turns the enemy’s pain into a healing pulse that washes over allies. Also, creates resistance to Status Effects when held.",
     "release":  {
                     "releaseDate":  "2016-09-15",
                     "introduced":  {
@@ -187,23 +187,23 @@
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "masterable":  true,
                   "tradable":  true,
-                  "trigger":  null,
+                  "vaultDate":  null,
                   "disposition":  4,
+                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  2,
-                  "masteryReq":  8,
                   "totalDamage":  239.99998,
                   "vaulted":  null,
-                  "statusChance":  0.19999999,
+                  "masteryReq":  8,
                   "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "slot":  "melee",
+                  "trigger":  null,
                   "critChance":  0.30000001,
-                  "magazineSize":  null,
+                  "slot":  "melee",
+                  "masterable":  true,
                   "weaponClass":  "Melee",
-                  "multishot":  null,
-                  "vaultDate":  null
+                  "statusChance":  0.19999999,
+                  "multishot":  null
               }
 }

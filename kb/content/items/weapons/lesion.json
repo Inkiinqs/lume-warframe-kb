@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.lesion",
+    "description":  "An instrument of unrelenting harm. If Lesion tastes blood, it becomes invigorated with faster Attack Speed and increased \u003cDT_POISON_COLOR\u003eToxin Damage.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -144,10 +144,10 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  474,
                       "blockingAngle":  55,
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  47.400002,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -157,32 +157,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  177.75,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  237,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "heavySlamRadius":  8,
-                      "stancePolarity":  "zenurik",
-                      "followThrough":  0.60000002,
-                      "range":  2.7,
-                      "heavyAttackDamage":  1422,
-                      "sentinel":  null,
-                      "relevantFormulas":  [
-                                               "formula.status-chance",
-                                               "formula.base-damage-stacking"
-                                           ],
-                      "heavySlamRadialDamage":  711,
-                      "comboDuration":  5,
-                      "slideAttack":  474,
-                      "windUp":  0.90000004,
-                      "slamRadius":  7,
-                      "slamAttack":  711,
                       "damagePerShot":  [
                                             47.400002,
                                             11.85,
@@ -205,6 +190,21 @@
                                             0,
                                             0
                                         ],
+                      "range":  2.7,
+                      "heavyAttackDamage":  1422,
+                      "followThrough":  0.60000002,
+                      "relevantFormulas":  [
+                                               "formula.status-chance",
+                                               "formula.base-damage-stacking"
+                                           ],
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  711,
+                      "stancePolarity":  "zenurik",
+                      "slideAttack":  474,
+                      "windUp":  0.90000004,
+                      "slamRadius":  7,
+                      "slamAttack":  711,
+                      "heavySlamRadius":  8,
                       "heavySlamAttack":  1185
                   },
     "aliases":  [
@@ -218,7 +218,7 @@
     "relationships":  [
 
                       ],
-    "description":  "An instrument of unrelenting harm. If Lesion tastes blood, it becomes invigorated with faster Attack Speed and increased \u003cDT_POISON_COLOR\u003eToxin Damage.",
+    "id":  "weapon.lesion",
     "release":  {
                     "releaseDate":  "2016-03-04",
                     "introduced":  {
@@ -239,24 +239,24 @@
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
+                  "vaultDate":  null,
                   "archetype":  "status-melee",
-                  "trigger":  null,
                   "disposition":  2,
+                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  2,
-                  "masteryReq":  9,
                   "totalDamage":  237,
                   "vaulted":  null,
-                  "statusChance":  0.37,
+                  "masteryReq":  9,
                   "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "slot":  "melee",
+                  "trigger":  null,
                   "critChance":  0.15000001,
-                  "magazineSize":  null,
+                  "slot":  "melee",
+                  "masterable":  true,
                   "weaponClass":  "Melee",
-                  "multishot":  null,
-                  "vaultDate":  null
+                  "statusChance":  0.37,
+                  "multishot":  null
               }
 }

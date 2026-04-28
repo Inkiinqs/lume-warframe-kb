@@ -1,5 +1,5 @@
 {
-    "description":  "The Prova is a Melee Weapon that delivers a high-intensity shock to its target.",
+    "id":  "weapon.prova",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -129,14 +129,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  256,
-                      "slamRadius":  8,
                       "blockingAngle":  55,
-                      "heavySlamRadius":  9,
-                      "stancePolarity":  "zenurik",
+                      "followThrough":  0.69999999,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  52,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  76,
@@ -146,25 +143,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  128,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  2.5,
-                      "heavyAttackDamage":  768,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  384,
-                      "comboDuration":  5,
-                      "slideAttack":  256,
-                      "windUp":  0.69999999,
-                      "followThrough":  0.69999999,
-                      "slamAttack":  384,
                       "damagePerShot":  [
                                             52,
                                             0,
@@ -187,6 +176,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  2.5,
+                      "heavyAttackDamage":  768,
+                      "sentinel":  null,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  384,
+                      "stancePolarity":  "zenurik",
+                      "slideAttack":  256,
+                      "windUp":  0.69999999,
+                      "slamRadius":  8,
+                      "slamAttack":  384,
+                      "heavySlamRadius":  9,
                       "heavySlamAttack":  512
                   },
     "aliases":  [
@@ -200,7 +200,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.prova",
+    "description":  "The Prova is a Melee Weapon that delivers a high-intensity shock to its target.",
     "release":  {
                     "releaseDate":  "2013-05-23",
                     "introduced":  {
@@ -222,23 +222,23 @@
                   "polarities":  [
                                      null
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  null,
+                  "vaultDate":  null,
                   "disposition":  5,
+                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  2,
-                  "masteryReq":  3,
                   "totalDamage":  128,
                   "vaulted":  null,
-                  "statusChance":  0.15999997,
+                  "masteryReq":  3,
                   "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "slot":  "melee",
+                  "trigger":  null,
                   "critChance":  0.14,
-                  "magazineSize":  null,
+                  "slot":  "melee",
+                  "masterable":  true,
                   "weaponClass":  "Rifle",
-                  "multishot":  null,
-                  "vaultDate":  null
+                  "statusChance":  0.15999997,
+                  "multishot":  null
               }
 }

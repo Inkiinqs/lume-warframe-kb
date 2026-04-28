@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.kaszas",
+    "description":  "Become an angel of death, with this Archwing scythe.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD archmelee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  392,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  25000,
@@ -95,12 +97,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  784,
+                      "slamRadius":  3,
                       "blockingAngle":  90,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  19.6,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -110,16 +113,26 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  58.799992,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  392,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
+                      "heavyAttackDamage":  392,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  5,
+                      "slideAttack":  784,
+                      "windUp":  null,
+                      "followThrough":  0.69999999,
+                      "slamAttack":  392,
                       "damagePerShot":  [
                                             19.6,
                                             313.60001,
@@ -142,20 +155,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  392,
-                      "followThrough":  0.69999999,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  784,
-                      "windUp":  null,
-                      "slamRadius":  3,
-                      "slamAttack":  392,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  392
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Archwing/Melee/ArchScythe/ArchScythe"
@@ -168,7 +168,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Become an angel of death, with this Archwing scythe.",
+    "id":  "weapon.kaszas",
     "release":  {
                     "releaseDate":  "2015-10-01",
                     "introduced":  {
@@ -189,10 +189,9 @@
                   "polarities":  [
                                      "vazarin"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  null,
                   "disposition":  1,
+                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  2,
                   "totalDamage":  392,
@@ -200,12 +199,13 @@
                   "masteryReq":  4,
                   "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "slot":  "archmelee",
+                  "trigger":  null,
                   "critChance":  0.15000001,
-                  "magazineSize":  null,
+                  "slot":  "archmelee",
+                  "masterable":  true,
                   "weaponClass":  "Arch-Melee",
-                  "vaultDate":  null,
                   "statusChance":  0.19999999,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

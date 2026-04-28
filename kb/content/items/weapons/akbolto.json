@@ -1,5 +1,5 @@
 {
-    "description":  "A Bolto equipped in each hand. Twice the Magazine Capacity and slightly faster Fire Rate, but reload time is doubled and accuracy is lowered.",
+    "id":  "weapon.akbolto",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -89,14 +89,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  6.4000001,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -106,25 +103,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  64,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             6.4000001,
                                             57.599998,
@@ -147,6 +136,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -160,7 +160,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.akbolto",
+    "description":  "A Bolto equipped in each hand. Twice the Magazine Capacity and slightly faster Fire Rate, but reload time is doubled and accuracy is lowered.",
     "release":  {
                     "releaseDate":  "2013-01-29",
                     "introduced":  {
@@ -182,23 +182,23 @@
                   "polarities":  [
                                      "vazarin"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Semi",
+                  "vaultDate":  null,
                   "disposition":  4,
+                  "magazineSize":  30,
                   "fireRate":  4.5,
                   "critMultiplier":  2.4000001,
-                  "masteryReq":  8,
                   "totalDamage":  64,
                   "vaulted":  null,
-                  "statusChance":  0.022000015,
+                  "masteryReq":  8,
                   "reloadTime":  2.5999999,
                   "estimatedVaultDate":  null,
-                  "slot":  "secondary",
+                  "trigger":  "Semi",
                   "critChance":  0.16,
-                  "magazineSize":  30,
+                  "slot":  "secondary",
+                  "masterable":  true,
                   "weaponClass":  "Dual Pistols",
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "statusChance":  0.022000015,
+                  "multishot":  1
               }
 }

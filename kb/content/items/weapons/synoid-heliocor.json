@@ -1,5 +1,5 @@
 {
-    "description":  "This intelligent hammer takes an enemy killed by a Heavy Attack and recomposes them as an ally. Any fatal strike with this weapon also performs a Codex scan.",
+    "id":  "weapon.synoid-heliocor",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -95,14 +95,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  560,
-                      "slamRadius":  9,
                       "blockingAngle":  50,
-                      "heavySlamRadius":  10,
-                      "stancePolarity":  "madurai",
+                      "followThrough":  0.40000001,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  238,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -112,25 +109,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  13.999987,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  280,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  2.5999999,
-                      "heavyAttackDamage":  1680,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  840,
-                      "comboDuration":  5,
-                      "slideAttack":  560,
-                      "windUp":  1.2,
-                      "followThrough":  0.40000001,
-                      "slamAttack":  840,
                       "damagePerShot":  [
                                             238,
                                             28,
@@ -153,6 +142,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  2.5999999,
+                      "heavyAttackDamage":  1680,
+                      "sentinel":  null,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  840,
+                      "stancePolarity":  "madurai",
+                      "slideAttack":  560,
+                      "windUp":  1.2,
+                      "slamRadius":  9,
+                      "slamAttack":  840,
+                      "heavySlamRadius":  10,
                       "heavySlamAttack":  1400
                   },
     "aliases":  [
@@ -166,7 +166,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.synoid-heliocor",
+    "description":  "This intelligent hammer takes an enemy killed by a Heavy Attack and recomposes them as an ally. Any fatal strike with this weapon also performs a Codex scan.",
     "release":  {
                     "releaseDate":  "2016-09-15",
                     "introduced":  {
@@ -187,23 +187,23 @@
                   "polarities":  [
                                      null
                                  ],
-                  "masterable":  true,
                   "tradable":  true,
-                  "trigger":  null,
+                  "vaultDate":  null,
                   "disposition":  5,
+                  "magazineSize":  null,
                   "fireRate":  1.0833334,
                   "critMultiplier":  2,
-                  "masteryReq":  11,
                   "totalDamage":  280,
                   "vaulted":  null,
-                  "statusChance":  0.39999998,
+                  "masteryReq":  11,
                   "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "slot":  "melee",
+                  "trigger":  null,
                   "critChance":  0.16,
-                  "magazineSize":  null,
+                  "slot":  "melee",
+                  "masterable":  true,
                   "weaponClass":  "Melee",
-                  "multishot":  null,
-                  "vaultDate":  null
+                  "statusChance":  0.39999998,
+                  "multishot":  null
               }
 }

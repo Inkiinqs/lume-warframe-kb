@@ -1,5 +1,5 @@
 {
-    "description":  "Reaper Prime is an ornamental scythe, with a blade forged from tempered Rubedo.",
+    "id":  "weapon.reaper-prime",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -369,14 +369,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  400,
-                      "slamRadius":  8,
                       "blockingAngle":  60,
-                      "heavySlamRadius":  9,
-                      "stancePolarity":  "naramon",
+                      "followThrough":  0.60000002,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  30.000002,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -386,25 +383,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  140,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  200,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  2.8,
-                      "heavyAttackDamage":  1200,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  600,
-                      "comboDuration":  5,
-                      "slideAttack":  400,
-                      "windUp":  1,
-                      "followThrough":  0.60000002,
-                      "slamAttack":  600,
                       "damagePerShot":  [
                                             30.000002,
                                             30.000002,
@@ -427,6 +416,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  2.8,
+                      "heavyAttackDamage":  1200,
+                      "sentinel":  null,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  600,
+                      "stancePolarity":  "naramon",
+                      "slideAttack":  400,
+                      "windUp":  1,
+                      "slamRadius":  8,
+                      "slamAttack":  600,
+                      "heavySlamRadius":  9,
                       "heavySlamAttack":  800
                   },
     "aliases":  [
@@ -440,7 +440,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.reaper-prime",
+    "description":  "Reaper Prime is an ornamental scythe, with a blade forged from tempered Rubedo.",
     "release":  {
                     "releaseDate":  "2013-05-23",
                     "introduced":  {
@@ -462,23 +462,23 @@
                   "polarities":  [
                                      null
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  null,
+                  "vaultDate":  "2015-03-24",
                   "disposition":  2,
+                  "magazineSize":  null,
                   "fireRate":  1.0833334,
                   "critMultiplier":  2.5,
-                  "masteryReq":  10,
                   "totalDamage":  200,
                   "vaulted":  true,
-                  "statusChance":  0.25,
+                  "masteryReq":  10,
                   "reloadTime":  null,
                   "estimatedVaultDate":  "2015-03-24",
-                  "slot":  "melee",
+                  "trigger":  null,
                   "critChance":  0.34999999,
-                  "magazineSize":  null,
+                  "slot":  "melee",
+                  "masterable":  true,
                   "weaponClass":  "Melee",
-                  "multishot":  null,
-                  "vaultDate":  "2015-03-24"
+                  "statusChance":  0.25,
+                  "multishot":  null
               }
 }

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.artax",
+    "description":  "Freeze targets in their tracks with this sentinel mounted ice-beam.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD companion static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -54,12 +56,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  true,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -69,16 +72,26 @@
                                      "cold":  5,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  5,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  true,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -101,20 +114,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Types/Sentinels/SentinelWeapons/Gremlin"
@@ -127,7 +127,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Freeze targets in their tracks with this sentinel mounted ice-beam.",
+    "id":  "weapon.artax",
     "release":  {
                     "releaseDate":  "2017-02-09",
                     "introduced":  {
@@ -148,10 +148,9 @@
                   "polarities":  [
                                      null
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Held",
                   "disposition":  3,
+                  "magazineSize":  100,
                   "fireRate":  16.666668,
                   "critMultiplier":  1.5,
                   "totalDamage":  5,
@@ -159,12 +158,13 @@
                   "masteryReq":  0,
                   "reloadTime":  1.5,
                   "estimatedVaultDate":  null,
-                  "slot":  "companion",
+                  "trigger":  "Held",
                   "critChance":  0.02,
-                  "magazineSize":  100,
+                  "slot":  "companion",
+                  "masterable":  true,
                   "weaponClass":  "Companion Weapon",
-                  "vaultDate":  null,
                   "statusChance":  0.35000002,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

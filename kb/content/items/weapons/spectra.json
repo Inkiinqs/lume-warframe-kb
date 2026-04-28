@@ -1,5 +1,5 @@
 {
-    "description":  "While its intended design is for deep space construction, the concentrated laser beam of the Spectra is highly effective against organic and synthetic enemies.",
+    "id":  "weapon.spectra",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -97,14 +97,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -114,25 +111,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  10.440001,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  18,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             7.5599999,
@@ -155,6 +144,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -168,7 +168,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.spectra",
+    "description":  "While its intended design is for deep space construction, the concentrated laser beam of the Spectra is highly effective against organic and synthetic enemies.",
     "release":  {
                     "releaseDate":  "2013-07-13",
                     "introduced":  {
@@ -190,23 +190,23 @@
                   "polarities":  [
                                      null
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Held",
+                  "vaultDate":  null,
                   "disposition":  5,
+                  "magazineSize":  60,
                   "fireRate":  12.000001,
                   "critMultiplier":  2,
-                  "masteryReq":  4,
                   "totalDamage":  18,
                   "vaulted":  null,
-                  "statusChance":  0.22000003,
+                  "masteryReq":  4,
                   "reloadTime":  1.8,
                   "estimatedVaultDate":  null,
-                  "slot":  "secondary",
+                  "trigger":  "Held",
                   "critChance":  0.14,
-                  "magazineSize":  60,
+                  "slot":  "secondary",
+                  "masterable":  true,
                   "weaponClass":  "Pistol",
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "statusChance":  0.22000003,
+                  "multishot":  1
               }
 }

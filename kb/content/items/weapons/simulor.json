@@ -1,5 +1,5 @@
 {
-    "description":  "Creates miniature gravitational singularities that can be used for scientific study or self-defense.",
+    "id":  "weapon.simulor",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -129,14 +129,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -146,25 +143,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  200,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -187,6 +176,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -200,7 +200,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.simulor",
+    "description":  "Creates miniature gravitational singularities that can be used for scientific study or self-defense.",
     "release":  {
                     "releaseDate":  "2015-06-25",
                     "introduced":  {
@@ -222,23 +222,23 @@
                                      "vazarin",
                                      "naramon"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Active",
+                  "vaultDate":  null,
                   "disposition":  4,
+                  "magazineSize":  8,
                   "fireRate":  3.0000002,
                   "critMultiplier":  2,
-                  "masteryReq":  5,
                   "totalDamage":  200,
                   "vaulted":  null,
-                  "statusChance":  0.30000001,
+                  "masteryReq":  5,
                   "reloadTime":  3,
                   "estimatedVaultDate":  null,
-                  "slot":  "primary",
+                  "trigger":  "Active",
                   "critChance":  0.12,
-                  "magazineSize":  8,
+                  "slot":  "primary",
+                  "masterable":  true,
                   "weaponClass":  "Rifle",
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "statusChance":  0.30000001,
+                  "multishot":  1
               }
 }

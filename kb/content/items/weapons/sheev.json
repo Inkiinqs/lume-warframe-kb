@@ -1,5 +1,5 @@
 {
-    "description":  "Built for close combat, the Sheev\u0027s plasma blade slices through flesh and armor with equal ease.",
+    "id":  "weapon.sheev",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -120,14 +120,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  540,
-                      "slamRadius":  5,
                       "blockingAngle":  45,
-                      "heavySlamRadius":  6,
-                      "stancePolarity":  "madurai",
+                      "followThrough":  0.89999998,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  13.5,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -137,25 +134,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  243,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  270,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  1.7,
-                      "heavyAttackDamage":  540,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  810,
-                      "comboDuration":  5,
-                      "slideAttack":  540,
-                      "windUp":  0.40000001,
-                      "followThrough":  0.89999998,
-                      "slamAttack":  540,
                       "damagePerShot":  [
                                             13.5,
                                             13.5,
@@ -178,6 +167,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  1.7,
+                      "heavyAttackDamage":  540,
+                      "sentinel":  null,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  810,
+                      "stancePolarity":  "madurai",
+                      "slideAttack":  540,
+                      "windUp":  0.40000001,
+                      "slamRadius":  5,
+                      "slamAttack":  540,
+                      "heavySlamRadius":  6,
                       "heavySlamAttack":  1080
                   },
     "aliases":  [
@@ -191,7 +191,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.sheev",
+    "description":  "Built for close combat, the Sheev\u0027s plasma blade slices through flesh and armor with equal ease.",
     "release":  {
                     "releaseDate":  "2014-09-17",
                     "introduced":  {
@@ -212,23 +212,23 @@
                   "polarities":  [
                                      "naramon"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  null,
+                  "vaultDate":  null,
                   "disposition":  5,
+                  "magazineSize":  null,
                   "fireRate":  0.66666669,
                   "critMultiplier":  2.0999999,
-                  "masteryReq":  5,
                   "totalDamage":  270,
                   "vaulted":  null,
-                  "statusChance":  0.25,
+                  "masteryReq":  5,
                   "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "slot":  "melee",
+                  "trigger":  null,
                   "critChance":  0.13,
-                  "magazineSize":  null,
+                  "slot":  "melee",
+                  "masterable":  true,
                   "weaponClass":  "Melee",
-                  "multishot":  null,
-                  "vaultDate":  null
+                  "statusChance":  0.25,
+                  "multishot":  null
               }
 }

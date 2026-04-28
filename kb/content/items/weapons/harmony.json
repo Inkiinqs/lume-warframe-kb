@@ -1,5 +1,5 @@
 {
-    "description":  "Harmony triumphs over hate. Heavy Attacks condense Status Effect damage into a single instance. Heavy Attack kills empower allies with increased Status Duration.\n\nExperience the true power of Jade\u0027s Ensemble when Evensong, Cantare, and Harmony sing together.",
+    "id":  "weapon.harmony",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -134,14 +134,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  480,
-                      "slamRadius":  8,
                       "blockingAngle":  60,
-                      "heavySlamRadius":  9,
-                      "stancePolarity":  "naramon",
+                      "followThrough":  0.60000002,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -151,25 +148,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  72,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  240,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  2.5999999,
-                      "heavyAttackDamage":  1440,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  720,
-                      "comboDuration":  5,
-                      "slideAttack":  480,
-                      "windUp":  1,
-                      "followThrough":  0.60000002,
-                      "slamAttack":  720,
                       "damagePerShot":  [
                                             0,
                                             168,
@@ -192,6 +181,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  2.5999999,
+                      "heavyAttackDamage":  1440,
+                      "sentinel":  null,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  720,
+                      "stancePolarity":  "naramon",
+                      "slideAttack":  480,
+                      "windUp":  1,
+                      "slamRadius":  8,
+                      "slamAttack":  720,
+                      "heavySlamRadius":  9,
                       "heavySlamAttack":  1200
                   },
     "aliases":  [
@@ -205,7 +205,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.harmony",
+    "description":  "Harmony triumphs over hate. Heavy Attacks condense Status Effect damage into a single instance. Heavy Attack kills empower allies with increased Status Duration.\n\nExperience the true power of Jade\u0027s Ensemble when Evensong, Cantare, and Harmony sing together.",
     "release":  {
                     "releaseDate":  "2024-06-18",
                     "introduced":  {
@@ -228,23 +228,23 @@
                                      "madurai",
                                      "vazarin"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  null,
+                  "vaultDate":  null,
                   "disposition":  1,
+                  "magazineSize":  null,
                   "fireRate":  1.0833334,
                   "critMultiplier":  2.2,
-                  "masteryReq":  10,
                   "totalDamage":  240,
                   "vaulted":  null,
-                  "statusChance":  0.36000001,
+                  "masteryReq":  10,
                   "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "slot":  "melee",
+                  "trigger":  null,
                   "critChance":  0.2,
-                  "magazineSize":  null,
+                  "slot":  "melee",
+                  "masterable":  true,
                   "weaponClass":  "Melee",
-                  "multishot":  null,
-                  "vaultDate":  null
+                  "statusChance":  0.36000001,
+                  "multishot":  null
               }
 }

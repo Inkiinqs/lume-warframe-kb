@@ -1,5 +1,5 @@
 {
-    "description":  "Accuracy coupled with a massive magazine makes the Soma assault rifle a formidable weapon.",
+    "id":  "weapon.soma",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -116,14 +116,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  1.2,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -133,25 +130,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  6,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  12,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             1.2,
                                             4.8000002,
@@ -174,6 +163,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -187,7 +187,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.soma",
+    "description":  "Accuracy coupled with a massive magazine makes the Soma assault rifle a formidable weapon.",
     "release":  {
                     "releaseDate":  "2013-09-13",
                     "introduced":  {
@@ -210,23 +210,23 @@
                                      "madurai",
                                      "madurai"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Auto",
+                  "vaultDate":  null,
                   "disposition":  4,
+                  "magazineSize":  100,
                   "fireRate":  15.000001,
                   "critMultiplier":  3,
-                  "masteryReq":  6,
                   "totalDamage":  12,
                   "vaulted":  null,
-                  "statusChance":  0.069999993,
+                  "masteryReq":  6,
                   "reloadTime":  3,
                   "estimatedVaultDate":  null,
-                  "slot":  "primary",
+                  "trigger":  "Auto",
                   "critChance":  0.30000001,
-                  "magazineSize":  100,
+                  "slot":  "primary",
+                  "masterable":  true,
                   "weaponClass":  "Rifle",
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "statusChance":  0.069999993,
+                  "multishot":  1
               }
 }

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.kuva-bramma",
+    "description":  "This Grineer bow delivers vengeance in the form of clusterbomb-tipped arrows that can be detonated mid-air or on impact. Low quiver capacity, arrows are recovered singly.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -109,10 +109,10 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  187,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -122,33 +122,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  1026,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  839,
                                      "void":  0
                                  },
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
-                      "followThrough":  null,
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "relevantFormulas":  [
-                                               "formula.critical-chance",
-                                               "formula.critical-multiplier",
-                                               "formula.base-damage-stacking"
-                                           ],
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             187,
                                             0,
@@ -171,6 +155,22 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "relevantFormulas":  [
+                                               "formula.critical-chance",
+                                               "formula.critical-multiplier",
+                                               "formula.base-damage-stacking"
+                                           ],
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -184,7 +184,7 @@
     "relationships":  [
 
                       ],
-    "description":  "This Grineer bow delivers vengeance in the form of clusterbomb-tipped arrows that can be detonated mid-air or on impact. Low quiver capacity, arrows are recovered singly.",
+    "id":  "weapon.kuva-bramma",
     "release":  {
                     "releaseDate":  "2020-02-04",
                     "introduced":  {
@@ -205,24 +205,24 @@
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
+                  "vaultDate":  null,
                   "archetype":  "explosive-bow",
-                  "trigger":  "Charge",
                   "disposition":  1,
+                  "magazineSize":  1,
                   "fireRate":  0.66666669,
                   "critMultiplier":  2.0999999,
-                  "masteryReq":  15,
                   "totalDamage":  1026,
                   "vaulted":  null,
-                  "statusChance":  0.20999998,
+                  "masteryReq":  15,
                   "reloadTime":  0.60000002,
                   "estimatedVaultDate":  null,
-                  "slot":  "primary",
+                  "trigger":  "Charge",
                   "critChance":  0.34999999,
-                  "magazineSize":  1,
+                  "slot":  "primary",
+                  "masterable":  true,
                   "weaponClass":  "Bow",
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "statusChance":  0.20999998,
+                  "multishot":  1
               }
 }

@@ -1,5 +1,5 @@
 {
-    "description":  "Depend on Higasa when it rains bullets. Aiming creates a shield that blocks weapon fire. Kills and blocked shots charge a beam released by Alternate Fire.",
+    "id":  "weapon.higasa",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -131,14 +131,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -148,25 +145,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  10.4,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  26,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             15.6,
@@ -189,6 +178,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -202,7 +202,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.higasa",
+    "description":  "Depend on Higasa when it rains bullets. Aiming creates a shield that blocks weapon fire. Kills and blocked shots charge a beam released by Alternate Fire.",
     "release":  {
                     "releaseDate":  "2024-10-02",
                     "introduced":  {
@@ -224,23 +224,23 @@
                   "polarities":  [
                                      "vazarin"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Burst",
+                  "vaultDate":  null,
                   "disposition":  4,
+                  "magazineSize":  90,
                   "fireRate":  5.5555558,
                   "critMultiplier":  2,
-                  "masteryReq":  2,
                   "totalDamage":  26,
                   "vaulted":  null,
-                  "statusChance":  0.18000001,
+                  "masteryReq":  2,
                   "reloadTime":  2.5,
                   "estimatedVaultDate":  null,
-                  "slot":  "primary",
+                  "trigger":  "Burst",
                   "critChance":  0.23999999,
-                  "magazineSize":  90,
+                  "slot":  "primary",
+                  "masterable":  true,
                   "weaponClass":  "Rifle",
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "statusChance":  0.18000001,
+                  "multishot":  1
               }
 }

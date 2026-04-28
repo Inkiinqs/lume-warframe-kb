@@ -1,5 +1,5 @@
 {
-    "description":  "The Kestrel boomerang is a heavy throwing weapon that can knock down enemies at a distance.",
+    "id":  "weapon.kestrel",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -232,14 +232,11 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  168,
-                      "slamRadius":  5,
                       "blockingAngle":  55,
-                      "heavySlamRadius":  6,
-                      "stancePolarity":  "naramon",
+                      "followThrough":  0.69999999,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  58.799999,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -249,25 +246,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  12.599998,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  84,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  1.2,
-                      "heavyAttackDamage":  84,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  252,
-                      "comboDuration":  5,
-                      "slideAttack":  168,
-                      "windUp":  1.2,
-                      "followThrough":  0.69999999,
-                      "slamAttack":  252,
                       "damagePerShot":  [
                                             58.799999,
                                             12.6,
@@ -290,6 +279,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  1.2,
+                      "heavyAttackDamage":  84,
+                      "sentinel":  null,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  252,
+                      "stancePolarity":  "naramon",
+                      "slideAttack":  168,
+                      "windUp":  1.2,
+                      "slamRadius":  5,
+                      "slamAttack":  252,
+                      "heavySlamRadius":  6,
                       "heavySlamAttack":  336
                   },
     "aliases":  [
@@ -303,7 +303,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.kestrel",
+    "description":  "The Kestrel boomerang is a heavy throwing weapon that can knock down enemies at a distance.",
     "release":  {
                     "releaseDate":  "2013-06-07",
                     "introduced":  {
@@ -325,23 +325,23 @@
                                      "madurai",
                                      "naramon"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  null,
+                  "vaultDate":  null,
                   "disposition":  5,
+                  "magazineSize":  null,
                   "fireRate":  1.0833334,
                   "critMultiplier":  2,
-                  "masteryReq":  0,
                   "totalDamage":  84,
                   "vaulted":  null,
-                  "statusChance":  0.10000002,
+                  "masteryReq":  0,
                   "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "slot":  "melee",
+                  "trigger":  null,
                   "critChance":  0.1,
-                  "magazineSize":  null,
+                  "slot":  "melee",
+                  "masterable":  true,
                   "weaponClass":  "Melee",
-                  "multishot":  null,
-                  "vaultDate":  null
+                  "statusChance":  0.10000002,
+                  "multishot":  null
               }
 }
