@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.zylok-prime",
+    "description":  "A lightweight weapon that packs a punch worthy of its golden design.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -700,12 +702,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  63.000004,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  21,
@@ -713,18 +719,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  126.00001,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  210,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             63.000004,
                                             21,
@@ -747,20 +760,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Pistols/PrimeZylok/ZylokPrimePistol"
@@ -773,7 +773,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A lightweight weapon that packs a punch worthy of its golden design.",
+    "id":  "weapon.zylok-prime",
     "release":  {
                     "releaseDate":  "2023-10-18",
                     "introduced":  {
@@ -791,27 +791,27 @@
     "summary":  "A lightweight weapon that packs a punch worthy of its golden design.",
     "stats":  {
                   "accuracy":  23.529411,
-                  "statusChance":  0.36000001,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "naramon",
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  1.2,
+                  "trigger":  "Duplex",
                   "disposition":  3,
-                  "magazineSize":  12,
                   "fireRate":  1.5000001,
                   "critMultiplier":  2.4000001,
+                  "masteryReq":  13,
                   "totalDamage":  210,
                   "vaulted":  true,
-                  "masteryReq":  13,
-                  "slot":  "secondary",
+                  "statusChance":  0.36000001,
+                  "reloadTime":  1.2,
                   "estimatedVaultDate":  "2025-08-26",
-                  "trigger":  "Duplex",
+                  "slot":  "secondary",
                   "critChance":  0.12,
+                  "magazineSize":  12,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  "2025-08-26"
               }

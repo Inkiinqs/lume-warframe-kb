@@ -1,5 +1,5 @@
 {
-    "description":  "Fires volleys of icy grenades that inflict a lingering chill on the blast zone.",
+    "id":  "weapon.cryotra",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -8,6 +8,10 @@
                 ],
     "name":  "Cryotra",
     "subCategory":  "companion-companion-weapon",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD companion static data."
+              ],
     "mechanics":  {
                       "heavySlamAttack":  null,
                       "crafting":  {
@@ -80,7 +84,6 @@
                                    "imageName":  "cryotra-3b07124a4b.png",
                                    "available":  true
                                },
-                      "followThrough":  null,
                       "attacks":  [
                                       {
                                           "name":  "Direct Hit",
@@ -115,12 +118,13 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "sentinel":  true,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  10,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  0,
@@ -128,30 +132,16 @@
                                      "cold":  20,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  30,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "sentinel":  true,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             10,
                                             0,
@@ -173,12 +163,22 @@
                                             0,
                                             0,
                                             0
-                                        ]
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
                   },
-    "notes":  [
-                  "Normalized from static import source.",
-                  "Converted from WFCD companion static data."
-              ],
     "aliases":  [
                     "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/CryoxionWeapon"
                 ],
@@ -190,7 +190,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.cryotra",
+    "description":  "Fires volleys of icy grenades that inflict a lingering chill on the blast zone.",
     "release":  {
                     "releaseDate":  "2018-11-08",
                     "introduced":  {
@@ -212,23 +212,23 @@
                   "polarities":  [
                                      "madurai"
                                  ],
+                  "masterable":  true,
                   "tradable":  false,
-                  "vaulted":  null,
-                  "totalDamage":  30,
+                  "trigger":  "Semi",
                   "disposition":  3,
-                  "magazineSize":  3,
                   "fireRate":  0.66666669,
                   "critMultiplier":  1.75,
-                  "reloadTime":  5,
+                  "totalDamage":  30,
+                  "vaulted":  null,
                   "masteryReq":  0,
-                  "statusChance":  0.10000002,
-                  "slot":  "companion",
+                  "reloadTime":  5,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "companion",
                   "critChance":  0.1,
+                  "magazineSize":  3,
                   "weaponClass":  "Companion Weapon",
-                  "masterable":  true,
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "vaultDate":  null,
+                  "statusChance":  0.10000002,
+                  "multishot":  1
               }
 }

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.akbolto",
+    "description":  "A Bolto equipped in each hand. Twice the Magazine Capacity and slightly faster Fire Rate, but reload time is doubled and accuracy is lowered.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -87,12 +89,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  6.4000001,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  57.599998,
@@ -100,18 +106,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  64,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             6.4000001,
                                             57.599998,
@@ -134,20 +147,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Akimbo/AkimboBolto"
@@ -160,7 +160,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A Bolto equipped in each hand. Twice the Magazine Capacity and slightly faster Fire Rate, but reload time is doubled and accuracy is lowered.",
+    "id":  "weapon.akbolto",
     "release":  {
                     "releaseDate":  "2013-01-29",
                     "introduced":  {
@@ -178,26 +178,26 @@
     "summary":  "A Bolto equipped in each hand. Twice the Magazine Capacity and slightly faster Fire Rate, but reload time is doubled and accuracy is lowered.",
     "stats":  {
                   "accuracy":  26.666666,
-                  "statusChance":  0.022000015,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "vazarin"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2.5999999,
+                  "trigger":  "Semi",
                   "disposition":  4,
-                  "magazineSize":  30,
                   "fireRate":  4.5,
                   "critMultiplier":  2.4000001,
+                  "masteryReq":  8,
                   "totalDamage":  64,
                   "vaulted":  null,
-                  "masteryReq":  8,
-                  "slot":  "secondary",
+                  "statusChance":  0.022000015,
+                  "reloadTime":  2.5999999,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "secondary",
                   "critChance":  0.16,
+                  "magazineSize":  30,
                   "weaponClass":  "Dual Pistols",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

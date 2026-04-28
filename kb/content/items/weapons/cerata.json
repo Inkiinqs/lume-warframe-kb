@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.cerata",
+    "description":  "Twisted and tortured from exposure to the Infestation, this glaive becomes an absolute predator in the hands of the right Tenno.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  732,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  30000,
@@ -228,12 +230,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  366,
+                      "slamRadius":  5,
                       "blockingAngle":  55,
-                      "sentinel":  null,
+                      "heavySlamRadius":  6,
+                      "stancePolarity":  "naramon",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  19,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  36,
@@ -241,18 +247,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  76,
                                      "puncture":  52,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  183,
-                                     "toxin":  76,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.25,
+                      "heavyAttackDamage":  183,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  549,
+                      "comboDuration":  5,
+                      "slideAttack":  366,
+                      "windUp":  1.2,
+                      "followThrough":  0.69999999,
+                      "slamAttack":  549,
                       "damagePerShot":  [
                                             19,
                                             36,
@@ -275,20 +288,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.25,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  183,
-                      "followThrough":  0.69999999,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  549,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  366,
-                      "windUp":  1.2,
-                      "slamRadius":  5,
-                      "slamAttack":  549,
-                      "heavySlamRadius":  6
+                      "heavySlamAttack":  732
                   },
     "aliases":  [
                     "/Lotus/Weapons/Infested/Melee/Glaives/PunctureGlaive/PunctureGlaiveWeapon"
@@ -301,7 +301,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Twisted and tortured from exposure to the Infestation, this glaive becomes an absolute predator in the hands of the right Tenno.",
+    "id":  "weapon.cerata",
     "release":  {
                     "releaseDate":  "2015-10-28",
                     "introduced":  {
@@ -318,27 +318,27 @@
     "summary":  "Twisted and tortured from exposure to the Infestation, this glaive becomes an absolute predator in the hands of the right Tenno.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.30000001,
+                  "noise":  null,
                   "polarities":  [
                                      "madurai",
                                      "vazarin"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  4,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  2,
+                  "masteryReq":  7,
                   "totalDamage":  183,
                   "vaulted":  null,
-                  "masteryReq":  7,
-                  "slot":  "melee",
+                  "statusChance":  0.30000001,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.15000001,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

@@ -1,25 +1,27 @@
 {
-    "id":  "gear.health-restore-large",
-    "name":  "Health Restore (Large)",
-    "category":  "gear",
-    "subCategory":  "gear",
-    "aliases":  [
-                    "/Lotus/Types/Restoratives/SelfHealLarge"
-                ],
-    "summary":  "Instantly restores your Health to full.",
     "description":  "Instantly restores your Health to full.",
-    "stats":  {
-                  "type":  "Gear",
-                  "tradable":  false,
-                  "masterable":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
+                    }
+                ],
+    "name":  "Health Restore (Large)",
+    "subCategory":  "gear",
     "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "health-restore-(large)-a952d22dba.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
-                                       "buildPrice":  1000,
                                        "buildTime":  60,
-                                       "skipBuildTimePrice":  1,
+                                       "buildPrice":  1000,
                                        "buildQuantity":  1,
-                                       "consumeOnBuild":  false,
                                        "components":  [
                                                           {
                                                               "name":  "Blueprint",
@@ -71,36 +73,34 @@
 
                                                                         ]
                                                           }
-                                                      ]
-                                   },
-                      "drops":  [
-                                    null
-                                ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "health-restore-(large)-a952d22dba.png"
-                               }
+                                                      ],
+                                       "skipBuildTimePrice":  1,
+                                       "consumeOnBuild":  false
+                                   }
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-
-                },
-    "tags":  [
-                 "gear",
-                 "gear"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Gear.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Types/Restoratives/SelfHealLarge"
+                ],
+    "tags":  [
+                 "gear",
+                 "gear"
+             ],
+    "category":  "gear",
+    "relationships":  [
+
+                      ],
+    "id":  "gear.health-restore-large",
+    "release":  {
+
+                },
+    "summary":  "Instantly restores your Health to full.",
+    "stats":  {
+                  "tradable":  false,
+                  "type":  "Gear",
+                  "masterable":  false
+              }
 }

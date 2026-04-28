@@ -1,5 +1,5 @@
 {
-    "description":  "An Archwing energy weapon that sends waves of deadly plasma crashing into enemies.",
+    "id":  "weapon.fluctus",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -8,6 +8,10 @@
                 ],
     "name":  "Fluctus",
     "subCategory":  "archgun-arch-gun",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD archgun static data."
+              ],
     "mechanics":  {
                       "heavySlamAttack":  null,
                       "crafting":  {
@@ -85,7 +89,6 @@
                                    "imageName":  "fluctus-1e012e3298.png",
                                    "available":  true
                                },
-                      "followThrough":  null,
                       "attacks":  [
                                       {
                                           "name":  "Normal Attack",
@@ -111,12 +114,13 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  50,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  25,
@@ -124,30 +128,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  175,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  250,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             50,
                                             25,
@@ -169,12 +159,22 @@
                                             0,
                                             0,
                                             0
-                                        ]
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
                   },
-    "notes":  [
-                  "Normalized from static import source.",
-                  "Converted from WFCD archgun static data."
-              ],
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Archwing/Primary/RocketArtillery/ArchRocketCrossbow"
                 ],
@@ -186,7 +186,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.fluctus",
+    "description":  "An Archwing energy weapon that sends waves of deadly plasma crashing into enemies.",
     "release":  {
                     "releaseDate":  "2014-12-19",
                     "introduced":  {
@@ -206,23 +206,23 @@
                   "polarities":  [
                                      "naramon"
                                  ],
+                  "masterable":  true,
                   "tradable":  false,
-                  "vaulted":  null,
-                  "totalDamage":  250,
+                  "trigger":  "Semi",
                   "disposition":  3,
-                  "magazineSize":  40,
                   "fireRate":  5.0000005,
                   "critMultiplier":  2,
-                  "reloadTime":  5,
+                  "totalDamage":  250,
+                  "vaulted":  null,
                   "masteryReq":  2,
-                  "statusChance":  0.15999997,
-                  "slot":  "archgun",
+                  "reloadTime":  5,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "archgun",
                   "critChance":  0.22,
+                  "magazineSize":  40,
                   "weaponClass":  "Arch-Gun",
-                  "masterable":  true,
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "vaultDate":  null,
+                  "statusChance":  0.15999997,
+                  "multishot":  1
               }
 }

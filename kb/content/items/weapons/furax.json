@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.furax",
+    "description":  "These power gauntlets lack the range of most Melee Weapons, but Furax is far more devastating when you strike an enemy in close combat.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  540,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  30000,
@@ -128,12 +130,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  270,
+                      "slamRadius":  8,
                       "blockingAngle":  50,
-                      "sentinel":  null,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "vazarin",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  94.5,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  20.25,
@@ -141,18 +147,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  20.249996,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  135,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.25,
+                      "heavyAttackDamage":  675,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  405,
+                      "comboDuration":  5,
+                      "slideAttack":  405,
+                      "windUp":  0.60000002,
+                      "followThrough":  0.89999998,
+                      "slamAttack":  405,
                       "damagePerShot":  [
                                             94.5,
                                             20.25,
@@ -175,20 +188,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.25,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  675,
-                      "followThrough":  0.89999998,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  405,
-                      "stancePolarity":  "vazarin",
-                      "slideAttack":  405,
-                      "windUp":  0.60000002,
-                      "slamRadius":  8,
-                      "slamAttack":  405,
-                      "heavySlamRadius":  9
+                      "heavySlamAttack":  540
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Fist/Fist"
@@ -201,7 +201,7 @@
     "relationships":  [
 
                       ],
-    "description":  "These power gauntlets lack the range of most Melee Weapons, but Furax is far more devastating when you strike an enemy in close combat.",
+    "id":  "weapon.furax",
     "release":  {
                     "releaseDate":  "2012-10-25",
                     "introduced":  {
@@ -218,26 +218,26 @@
     "summary":  "These power gauntlets lack the range of most Melee Weapons, but Furax is far more devastating when you strike an enemy in close combat.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.11000001,
+                  "noise":  null,
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  2.3,
+                  "masteryReq":  5,
                   "totalDamage":  135,
                   "vaulted":  null,
-                  "masteryReq":  5,
-                  "slot":  "melee",
+                  "statusChance":  0.11000001,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.25,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

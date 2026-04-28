@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.aksomati",
+    "description":  "The devastating power of the Soma rifle compacted into two elegant pistols.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -91,12 +93,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  1.8000001,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  7.2000003,
@@ -104,18 +110,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  9,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  18,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             1.8000001,
                                             7.2000003,
@@ -138,20 +151,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Pistols/SomaSidearm/AkimboSomaPistols"
@@ -164,7 +164,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The devastating power of the Soma rifle compacted into two elegant pistols.",
+    "id":  "weapon.aksomati",
     "release":  {
                     "releaseDate":  "2015-04-09",
                     "introduced":  {
@@ -181,26 +181,26 @@
     "summary":  "The devastating power of the Soma rifle compacted into two elegant pistols.",
     "stats":  {
                   "accuracy":  15.384615,
-                  "statusChance":  0.079999983,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "naramon"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  1.4,
+                  "trigger":  "Auto",
                   "disposition":  4,
-                  "magazineSize":  70,
                   "fireRate":  12.500001,
                   "critMultiplier":  3,
+                  "masteryReq":  9,
                   "totalDamage":  18,
                   "vaulted":  null,
-                  "masteryReq":  9,
-                  "slot":  "secondary",
+                  "statusChance":  0.079999983,
+                  "reloadTime":  1.4,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "secondary",
                   "critChance":  0.23999999,
+                  "magazineSize":  70,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

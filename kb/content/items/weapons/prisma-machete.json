@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.prisma-machete",
+    "description":  "The addition of Prisma Crystal allows this otherwise barbaric weapon to elegantly hack through any foe.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  772,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -88,12 +90,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  386,
+                      "slamRadius":  8,
                       "blockingAngle":  55,
-                      "sentinel":  null,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "zenurik",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  28.950001,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  28.950001,
@@ -101,18 +107,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  135.09999,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  193,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
+                      "heavyAttackDamage":  1158,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  579,
+                      "comboDuration":  5,
+                      "slideAttack":  386,
+                      "windUp":  0.69999999,
+                      "followThrough":  0.69999999,
+                      "slamAttack":  579,
                       "damagePerShot":  [
                                             28.950001,
                                             28.950001,
@@ -135,20 +148,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  1158,
-                      "followThrough":  0.69999999,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  579,
-                      "stancePolarity":  "zenurik",
-                      "slideAttack":  386,
-                      "windUp":  0.69999999,
-                      "slamRadius":  8,
-                      "slamAttack":  579,
-                      "heavySlamRadius":  9
+                      "heavySlamAttack":  772
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/Melee/GrineerMachetteAndCleaver/PrismaMachete"
@@ -161,7 +161,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The addition of Prisma Crystal allows this otherwise barbaric weapon to elegantly hack through any foe.",
+    "id":  "weapon.prisma-machete",
     "release":  {
                     "releaseDate":  "2021-06-10",
                     "introduced":  {
@@ -177,26 +177,26 @@
     "summary":  "The addition of Prisma Crystal allows this otherwise barbaric weapon to elegantly hack through any foe.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.31,
+                  "noise":  null,
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  true,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  0.91666669,
                   "critMultiplier":  1.9,
+                  "masteryReq":  7,
                   "totalDamage":  193,
                   "vaulted":  null,
-                  "masteryReq":  7,
-                  "slot":  "melee",
+                  "statusChance":  0.31,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.15000001,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

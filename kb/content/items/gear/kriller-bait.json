@@ -1,25 +1,32 @@
 {
-    "id":  "gear.kriller-bait",
-    "name":  "Kriller Bait",
-    "category":  "gear",
-    "subCategory":  "fish",
-    "aliases":  [
-                    "/Lotus/Types/Game/FishBait/Venus/LakeContaminantTierA"
-                ],
-    "summary":  "This bait is synthesized from Methacalcene-1 that is known to attract Krillers, a Servofish found in Orb Vallis lakes during warm weather.\n\nObtained via The Business in Fortuna (Venus).",
     "description":  "This bait is synthesized from Methacalcene-1 that is known to attract Krillers, a Servofish found in Orb Vallis lakes during warm weather.\n\nObtained via The Business in Fortuna (Venus).",
-    "stats":  {
-                  "type":  "Fish",
-                  "tradable":  false,
-                  "masterable":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
+                    }
+                ],
+    "name":  "Kriller Bait",
+    "subCategory":  "fish",
     "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "kriller-bait-5415099946.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    {
+                                        "location":  "Solaris United (The Business), Outworlder",
+                                        "type":  "Kriller Bait",
+                                        "chance":  100,
+                                        "rarity":  "Common"
+                                    }
+                                ],
                       "crafting":  {
-                                       "buildPrice":  null,
                                        "buildTime":  null,
-                                       "skipBuildTimePrice":  null,
+                                       "buildPrice":  null,
                                        "buildQuantity":  null,
-                                       "consumeOnBuild":  null,
                                        "components":  [
                                                           {
                                                               "name":  null,
@@ -31,41 +38,34 @@
                                                                             null
                                                                         ]
                                                           }
-                                                      ]
-                                   },
-                      "drops":  [
-                                    {
-                                        "location":  "Solaris United (The Business), Outworlder",
-                                        "type":  "Kriller Bait",
-                                        "chance":  100,
-                                        "rarity":  "Common"
-                                    }
-                                ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "kriller-bait-5415099946.png"
-                               }
+                                                      ],
+                                       "skipBuildTimePrice":  null,
+                                       "consumeOnBuild":  null
+                                   }
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-
-                },
-    "tags":  [
-                 "gear",
-                 "fish"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Gear.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Types/Game/FishBait/Venus/LakeContaminantTierA"
+                ],
+    "tags":  [
+                 "gear",
+                 "fish"
+             ],
+    "category":  "gear",
+    "relationships":  [
+
+                      ],
+    "id":  "gear.kriller-bait",
+    "release":  {
+
+                },
+    "summary":  "This bait is synthesized from Methacalcene-1 that is known to attract Krillers, a Servofish found in Orb Vallis lakes during warm weather.\n\nObtained via The Business in Fortuna (Venus).",
+    "stats":  {
+                  "tradable":  false,
+                  "type":  "Fish",
+                  "masterable":  false
+              }
 }

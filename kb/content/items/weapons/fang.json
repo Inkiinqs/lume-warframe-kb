@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.fang",
+    "description":  "These matching stilettos have increased attack speed and can unleash a flurry of multi-hit attacks.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  432,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -133,12 +135,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  216,
+                      "slamRadius":  6,
                       "blockingAngle":  50,
-                      "sentinel":  null,
+                      "heavySlamRadius":  7,
+                      "stancePolarity":  "unairu",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  16.200001,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  75.599998,
@@ -146,18 +152,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  16.199997,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  108,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.65,
+                      "heavyAttackDamage":  216,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  324,
+                      "comboDuration":  5,
+                      "slideAttack":  216,
+                      "windUp":  0.5,
+                      "followThrough":  0.80000001,
+                      "slamAttack":  216,
                       "damagePerShot":  [
                                             16.200001,
                                             75.599998,
@@ -180,20 +193,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.65,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  216,
-                      "followThrough":  0.80000001,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  324,
-                      "stancePolarity":  "unairu",
-                      "slideAttack":  216,
-                      "windUp":  0.5,
-                      "slamRadius":  6,
-                      "slamAttack":  216,
-                      "heavySlamRadius":  7
+                      "heavySlamAttack":  432
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/DualDagger/DualDagger"
@@ -206,7 +206,7 @@
     "relationships":  [
 
                       ],
-    "description":  "These matching stilettos have increased attack speed and can unleash a flurry of multi-hit attacks.",
+    "id":  "weapon.fang",
     "release":  {
                     "releaseDate":  "2013-03-18",
                     "introduced":  {
@@ -224,26 +224,26 @@
     "summary":  "These matching stilettos have increased attack speed and can unleash a flurry of multi-hit attacks.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.15999997,
+                  "noise":  null,
                   "polarities":  [
                                      "vazarin"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  0.91666669,
                   "critMultiplier":  1.5,
+                  "masteryReq":  0,
                   "totalDamage":  108,
                   "vaulted":  null,
-                  "masteryReq":  0,
-                  "slot":  "melee",
+                  "statusChance":  0.15999997,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.079999998,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

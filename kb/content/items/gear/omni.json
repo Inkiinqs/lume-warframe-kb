@@ -1,38 +1,20 @@
 {
-    "id":  "gear.omni",
-    "name":  "Omni",
-    "category":  "gear",
-    "subCategory":  "gear",
-    "aliases":  [
-                    "/Lotus/Types/Restoratives/Consumable/RepairTool"
-                ],
-    "summary":  "An Omni is a multi-use Railjack tool for extinguishing fires, grounding electrical hazards, and repairing hull ruptures. Use outside the Railjack to instantly recall back to the ship.",
     "description":  "An Omni is a multi-use Railjack tool for extinguishing fires, grounding electrical hazards, and repairing hull ruptures. Use outside the Railjack to instantly recall back to the ship.",
-    "stats":  {
-                  "type":  "Gear",
-                  "tradable":  false,
-                  "masterable":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
+                    }
+                ],
+    "name":  "Omni",
+    "subCategory":  "gear",
     "mechanics":  {
-                      "crafting":  {
-                                       "buildPrice":  null,
-                                       "buildTime":  null,
-                                       "skipBuildTimePrice":  null,
-                                       "buildQuantity":  null,
-                                       "consumeOnBuild":  null,
-                                       "components":  [
-                                                          {
-                                                              "name":  null,
-                                                              "uniqueName":  null,
-                                                              "itemCount":  null,
-                                                              "type":  null,
-                                                              "tradable":  null,
-                                                              "drops":  [
-                                                                            null
-                                                                        ]
-                                                          }
-                                                      ]
-                                   },
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "omni-4d9f91bb65.png",
+                                   "available":  null
+                               },
                       "drops":  [
                                     {
                                         "location":  "Ceres/Lex (Capture)",
@@ -221,31 +203,49 @@
                                         "rarity":  "Rare"
                                     }
                                 ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "omni-4d9f91bb65.png"
-                               }
+                      "crafting":  {
+                                       "buildTime":  null,
+                                       "buildPrice":  null,
+                                       "buildQuantity":  null,
+                                       "components":  [
+                                                          {
+                                                              "name":  null,
+                                                              "uniqueName":  null,
+                                                              "itemCount":  null,
+                                                              "type":  null,
+                                                              "tradable":  null,
+                                                              "drops":  [
+                                                                            null
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  null,
+                                       "consumeOnBuild":  null
+                                   }
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-
-                },
-    "tags":  [
-                 "gear",
-                 "gear"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Gear.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Types/Restoratives/Consumable/RepairTool"
+                ],
+    "tags":  [
+                 "gear",
+                 "gear"
+             ],
+    "category":  "gear",
+    "relationships":  [
+
+                      ],
+    "id":  "gear.omni",
+    "release":  {
+
+                },
+    "summary":  "An Omni is a multi-use Railjack tool for extinguishing fires, grounding electrical hazards, and repairing hull ruptures. Use outside the Railjack to instantly recall back to the ship.",
+    "stats":  {
+                  "tradable":  false,
+                  "type":  "Gear",
+                  "masterable":  false
+              }
 }

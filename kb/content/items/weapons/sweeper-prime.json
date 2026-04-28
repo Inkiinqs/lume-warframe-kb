@@ -1,5 +1,5 @@
 {
-    "description":  "Standard issue weapon for Carrier Prime Sentinel. Fires shotgun rounds.",
+    "id":  "weapon.sweeper-prime",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -8,6 +8,10 @@
                 ],
     "name":  "Sweeper Prime",
     "subCategory":  "companion-companion-weapon",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD companion static data."
+              ],
     "mechanics":  {
                       "heavySlamAttack":  null,
                       "crafting":  {
@@ -35,7 +39,6 @@
                                    "imageName":  "sweeper-prime-0456686709.png",
                                    "available":  true
                                },
-                      "followThrough":  null,
                       "attacks":  [
                                       {
                                           "name":  "Normal Attack",
@@ -59,12 +62,13 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "sentinel":  true,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  38.25,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  2.25,
@@ -72,30 +76,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  4.4999986,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  45,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "sentinel":  true,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             38.25,
                                             2.25,
@@ -117,12 +107,22 @@
                                             0,
                                             0,
                                             0
-                                        ]
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
                   },
-    "notes":  [
-                  "Normalized from static import source.",
-                  "Converted from WFCD companion static data."
-              ],
     "aliases":  [
                     "/Lotus/Types/Sentinels/SentinelWeapons/PrimeSentShotgun"
                 ],
@@ -134,7 +134,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.sweeper-prime",
+    "description":  "Standard issue weapon for Carrier Prime Sentinel. Fires shotgun rounds.",
     "release":  {
                     "releaseDate":  "2015-07-07",
                     "introduced":  {
@@ -156,23 +156,23 @@
                                      "madurai",
                                      "madurai"
                                  ],
+                  "masterable":  true,
                   "tradable":  false,
-                  "vaulted":  true,
-                  "totalDamage":  45,
+                  "trigger":  "Auto",
                   "disposition":  3,
-                  "magazineSize":  20,
                   "fireRate":  1,
                   "critMultiplier":  2.25,
-                  "reloadTime":  2,
+                  "totalDamage":  45,
+                  "vaulted":  true,
                   "masteryReq":  0,
-                  "statusChance":  0.050000012,
-                  "slot":  "companion",
+                  "reloadTime":  2,
                   "estimatedVaultDate":  "2017-04-07",
-                  "trigger":  "Auto",
+                  "slot":  "companion",
                   "critChance":  0.1,
+                  "magazineSize":  20,
                   "weaponClass":  "Companion Weapon",
-                  "masterable":  true,
-                  "multishot":  6,
-                  "vaultDate":  null
+                  "vaultDate":  null,
+                  "statusChance":  0.050000012,
+                  "multishot":  6
               }
 }

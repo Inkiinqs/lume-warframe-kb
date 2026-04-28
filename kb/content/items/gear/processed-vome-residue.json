@@ -1,25 +1,27 @@
 {
-    "id":  "gear.processed-vome-residue",
-    "name":  "Processed Vome Residue",
-    "category":  "gear",
-    "subCategory":  "fish-bait",
-    "aliases":  [
-                    "/Lotus/Types/Game/FishBait/Infested/OrokinFishBaitB"
-                ],
-    "summary":  "The flesh of Vome, refined, and ready for use. Used to attract Myxostomata in Cambion Drift cave hotspots during Vome.\n\nObtained from Daughter in the Necralisk (Deimos).",
     "description":  "The flesh of Vome, refined, and ready for use. Used to attract Myxostomata in Cambion Drift cave hotspots during Vome.\n\nObtained from Daughter in the Necralisk (Deimos).",
-    "stats":  {
-                  "type":  "Fish Bait",
-                  "tradable":  false,
-                  "masterable":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
+                    }
+                ],
+    "name":  "Processed Vome Residue",
+    "subCategory":  "fish-bait",
     "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "processed-vome-residue-a374df3a9c.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
-                                       "buildPrice":  30000,
                                        "buildTime":  43200,
-                                       "skipBuildTimePrice":  20,
+                                       "buildPrice":  30000,
                                        "buildQuantity":  1,
-                                       "consumeOnBuild":  true,
                                        "components":  [
                                                           {
                                                               "name":  "Blueprint",
@@ -41,36 +43,34 @@
 
                                                                         ]
                                                           }
-                                                      ]
-                                   },
-                      "drops":  [
-                                    null
-                                ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "processed-vome-residue-a374df3a9c.png"
-                               }
+                                                      ],
+                                       "skipBuildTimePrice":  20,
+                                       "consumeOnBuild":  true
+                                   }
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-
-                },
-    "tags":  [
-                 "gear",
-                 "fish-bait"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Gear.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Types/Game/FishBait/Infested/OrokinFishBaitB"
+                ],
+    "tags":  [
+                 "gear",
+                 "fish-bait"
+             ],
+    "category":  "gear",
+    "relationships":  [
+
+                      ],
+    "id":  "gear.processed-vome-residue",
+    "release":  {
+
+                },
+    "summary":  "The flesh of Vome, refined, and ready for use. Used to attract Myxostomata in Cambion Drift cave hotspots during Vome.\n\nObtained from Daughter in the Necralisk (Deimos).",
+    "stats":  {
+                  "tradable":  false,
+                  "type":  "Fish Bait",
+                  "masterable":  false
+              }
 }

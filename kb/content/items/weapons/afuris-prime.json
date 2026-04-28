@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.afuris-prime",
+    "description":  "Vanquish chaos with dual firepower.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -810,12 +812,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  3.9000001,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  18.199999,
@@ -823,18 +829,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  3.8999994,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  25.999998,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             3.9000001,
                                             18.199999,
@@ -857,20 +870,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Pistols/PrimeAfuris/PrimeAFurisWeapon"
@@ -883,7 +883,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Vanquish chaos with dual firepower.",
+    "id":  "weapon.afuris-prime",
     "release":  {
                     "releaseDate":  "2022-12-14",
                     "introduced":  {
@@ -899,28 +899,28 @@
     "summary":  "Vanquish chaos with dual firepower.",
     "stats":  {
                   "accuracy":  28.571428,
-                  "statusChance":  0.30000001,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "naramon",
                                      "madurai",
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  1.2,
+                  "trigger":  "Auto",
                   "disposition":  3,
-                  "magazineSize":  80,
                   "fireRate":  12.500001,
                   "critMultiplier":  2,
+                  "masteryReq":  12,
                   "totalDamage":  25.999998,
                   "vaulted":  true,
-                  "masteryReq":  12,
-                  "slot":  "secondary",
+                  "statusChance":  0.30000001,
+                  "reloadTime":  1.2,
                   "estimatedVaultDate":  "2024-11-13",
-                  "trigger":  "Auto",
+                  "slot":  "secondary",
                   "critChance":  0.16,
+                  "magazineSize":  80,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  "2024-11-13"
               }

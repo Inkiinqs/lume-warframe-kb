@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.ballistica",
+    "description":  "The Ballistica crossbow features a unique dual firing mechanism. Choose between a four bolt volley or a deadly accurate charged shot.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  25000,
@@ -119,12 +121,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  10,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  80,
@@ -132,18 +138,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  9.9999962,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  100,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             10,
                                             80,
@@ -166,20 +179,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Pistols/AutomaticHandCrossbow/AutoCrossBow"
@@ -192,7 +192,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The Ballistica crossbow features a unique dual firing mechanism. Choose between a four bolt volley or a deadly accurate charged shot.",
+    "id":  "weapon.ballistica",
     "release":  {
                     "releaseDate":  "2013-10-16",
                     "introduced":  {
@@ -209,26 +209,26 @@
     "summary":  "The Ballistica crossbow features a unique dual firing mechanism. Choose between a four bolt volley or a deadly accurate charged shot.",
     "stats":  {
                   "accuracy":  4,
-                  "statusChance":  0.10000002,
+                  "noise":  "Silent",
                   "polarities":  [
                                      "vazarin"
                                  ],
-                  "noise":  "Silent",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2,
+                  "trigger":  "Charge",
                   "disposition":  4,
-                  "magazineSize":  16,
                   "fireRate":  3.3333335,
                   "critMultiplier":  1.5,
+                  "masteryReq":  2,
                   "totalDamage":  100,
                   "vaulted":  null,
-                  "masteryReq":  2,
-                  "slot":  "secondary",
+                  "statusChance":  0.10000002,
+                  "reloadTime":  2,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Charge",
+                  "slot":  "secondary",
                   "critChance":  0.025,
+                  "magazineSize":  16,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

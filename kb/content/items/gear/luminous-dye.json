@@ -1,25 +1,27 @@
 {
-    "id":  "gear.luminous-dye",
-    "name":  "Luminous Dye",
-    "category":  "gear",
-    "subCategory":  "gear",
-    "aliases":  [
-                    "/Lotus/Types/Restoratives/Consumable/FishingBoosts/AnglerVision"
-                ],
-    "summary":  "Dyes the waters with a compound that sticks to fish passing through it, making them easier to see from the shore.\n\nObtained from Fisher Hai-Luk in Cetus (Earth).",
     "description":  "Dyes the waters with a compound that sticks to fish passing through it, making them easier to see from the shore.\n\nObtained from Fisher Hai-Luk in Cetus (Earth).",
-    "stats":  {
-                  "type":  "Gear",
-                  "tradable":  false,
-                  "masterable":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
+                    }
+                ],
+    "name":  "Luminous Dye",
+    "subCategory":  "gear",
     "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "luminous-dye-407a5ec7eb.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
-                                       "buildPrice":  5000,
                                        "buildTime":  300,
-                                       "skipBuildTimePrice":  25,
+                                       "buildPrice":  5000,
                                        "buildQuantity":  10,
-                                       "consumeOnBuild":  false,
                                        "components":  [
                                                           {
                                                               "name":  "Blueprint",
@@ -51,36 +53,34 @@
 
                                                                         ]
                                                           }
-                                                      ]
-                                   },
-                      "drops":  [
-                                    null
-                                ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "luminous-dye-407a5ec7eb.png"
-                               }
+                                                      ],
+                                       "skipBuildTimePrice":  25,
+                                       "consumeOnBuild":  false
+                                   }
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-
-                },
-    "tags":  [
-                 "gear",
-                 "gear"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Gear.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Types/Restoratives/Consumable/FishingBoosts/AnglerVision"
+                ],
+    "tags":  [
+                 "gear",
+                 "gear"
+             ],
+    "category":  "gear",
+    "relationships":  [
+
+                      ],
+    "id":  "gear.luminous-dye",
+    "release":  {
+
+                },
+    "summary":  "Dyes the waters with a compound that sticks to fish passing through it, making them easier to see from the shore.\n\nObtained from Fisher Hai-Luk in Cetus (Earth).",
+    "stats":  {
+                  "tradable":  false,
+                  "type":  "Gear",
+                  "masterable":  false
+              }
 }

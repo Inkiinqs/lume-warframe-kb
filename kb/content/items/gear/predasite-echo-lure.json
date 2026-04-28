@@ -1,25 +1,32 @@
 {
-    "id":  "gear.predasite-echo-lure",
-    "name":  "Predasite Echo-Lure",
-    "category":  "gear",
-    "subCategory":  "gear",
-    "aliases":  [
-                    "/Lotus/Types/Restoratives/Conservation/Deimos/InfestedPredatorLureGearItem"
-                ],
-    "summary":  "Entice and attract nearby Predasite with life-like animal calls.",
     "description":  "Entice and attract nearby Predasite with life-like animal calls.",
-    "stats":  {
-                  "type":  "Gear",
-                  "tradable":  false,
-                  "masterable":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
+                    }
+                ],
+    "name":  "Predasite Echo-Lure",
+    "subCategory":  "gear",
     "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "predasite-echo-lure-298e2510d0.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    {
+                                        "location":  "Entrati (Son), Stranger",
+                                        "type":  "Predasite Echo-Lure",
+                                        "chance":  100,
+                                        "rarity":  "Common"
+                                    }
+                                ],
                       "crafting":  {
-                                       "buildPrice":  null,
                                        "buildTime":  null,
-                                       "skipBuildTimePrice":  null,
+                                       "buildPrice":  null,
                                        "buildQuantity":  null,
-                                       "consumeOnBuild":  null,
                                        "components":  [
                                                           {
                                                               "name":  null,
@@ -31,41 +38,34 @@
                                                                             null
                                                                         ]
                                                           }
-                                                      ]
-                                   },
-                      "drops":  [
-                                    {
-                                        "location":  "Entrati (Son), Stranger",
-                                        "type":  "Predasite Echo-Lure",
-                                        "chance":  100,
-                                        "rarity":  "Common"
-                                    }
-                                ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "predasite-echo-lure-298e2510d0.png"
-                               }
+                                                      ],
+                                       "skipBuildTimePrice":  null,
+                                       "consumeOnBuild":  null
+                                   }
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-
-                },
-    "tags":  [
-                 "gear",
-                 "gear"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Gear.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Types/Restoratives/Conservation/Deimos/InfestedPredatorLureGearItem"
+                ],
+    "tags":  [
+                 "gear",
+                 "gear"
+             ],
+    "category":  "gear",
+    "relationships":  [
+
+                      ],
+    "id":  "gear.predasite-echo-lure",
+    "release":  {
+
+                },
+    "summary":  "Entice and attract nearby Predasite with life-like animal calls.",
+    "stats":  {
+                  "tradable":  false,
+                  "type":  "Gear",
+                  "masterable":  false
+              }
 }

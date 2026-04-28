@@ -1,5 +1,5 @@
 {
-    "description":  "Freeze targets in their tracks with this sentinel mounted ice-beam.",
+    "id":  "weapon.artax",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -8,6 +8,10 @@
                 ],
     "name":  "Artax",
     "subCategory":  "companion-companion-weapon",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD companion static data."
+              ],
     "mechanics":  {
                       "heavySlamAttack":  null,
                       "crafting":  {
@@ -35,7 +39,6 @@
                                    "imageName":  "artax-40f5c3dbb9.png",
                                    "available":  true
                                },
-                      "followThrough":  null,
                       "attacks":  [
                                       {
                                           "name":  "Normal Attack",
@@ -52,12 +55,13 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "sentinel":  true,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  0,
@@ -65,30 +69,16 @@
                                      "cold":  5,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  5,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "sentinel":  true,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -110,12 +100,22 @@
                                             0,
                                             0,
                                             0
-                                        ]
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
                   },
-    "notes":  [
-                  "Normalized from static import source.",
-                  "Converted from WFCD companion static data."
-              ],
     "aliases":  [
                     "/Lotus/Types/Sentinels/SentinelWeapons/Gremlin"
                 ],
@@ -127,7 +127,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.artax",
+    "description":  "Freeze targets in their tracks with this sentinel mounted ice-beam.",
     "release":  {
                     "releaseDate":  "2017-02-09",
                     "introduced":  {
@@ -148,23 +148,23 @@
                   "polarities":  [
                                      null
                                  ],
+                  "masterable":  true,
                   "tradable":  false,
-                  "vaulted":  null,
-                  "totalDamage":  5,
+                  "trigger":  "Held",
                   "disposition":  3,
-                  "magazineSize":  100,
                   "fireRate":  16.666668,
                   "critMultiplier":  1.5,
-                  "reloadTime":  1.5,
+                  "totalDamage":  5,
+                  "vaulted":  null,
                   "masteryReq":  0,
-                  "statusChance":  0.35000002,
-                  "slot":  "companion",
+                  "reloadTime":  1.5,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Held",
+                  "slot":  "companion",
                   "critChance":  0.02,
+                  "magazineSize":  100,
                   "weaponClass":  "Companion Weapon",
-                  "masterable":  true,
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "vaultDate":  null,
+                  "statusChance":  0.35000002,
+                  "multishot":  1
               }
 }

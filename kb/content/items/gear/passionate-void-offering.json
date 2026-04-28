@@ -1,25 +1,27 @@
 {
-    "id":  "gear.passionate-void-offering",
-    "name":  "Passionate Void Offering",
-    "category":  "gear",
-    "subCategory":  "gear",
-    "aliases":  [
-                    "/Lotus/Types/Restoratives/Consumable/CreditChipLarge"
-                ],
-    "summary":  "Give unto The Void a generous 100,000 credits.",
     "description":  "Give unto The Void a generous 100,000 credits.",
-    "stats":  {
-                  "type":  "Gear",
-                  "tradable":  false,
-                  "masterable":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
+                    }
+                ],
+    "name":  "Passionate Void Offering",
+    "subCategory":  "gear",
     "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "passionate-void-offering-744d173184.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
-                                       "buildPrice":  100000,
                                        "buildTime":  60,
-                                       "skipBuildTimePrice":  1,
+                                       "buildPrice":  100000,
                                        "buildQuantity":  1,
-                                       "consumeOnBuild":  false,
                                        "components":  [
                                                           {
                                                               "name":  "Blueprint",
@@ -51,36 +53,34 @@
 
                                                                         ]
                                                           }
-                                                      ]
-                                   },
-                      "drops":  [
-                                    null
-                                ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "passionate-void-offering-744d173184.png"
-                               }
+                                                      ],
+                                       "skipBuildTimePrice":  1,
+                                       "consumeOnBuild":  false
+                                   }
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-
-                },
-    "tags":  [
-                 "gear",
-                 "gear"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Gear.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Types/Restoratives/Consumable/CreditChipLarge"
+                ],
+    "tags":  [
+                 "gear",
+                 "gear"
+             ],
+    "category":  "gear",
+    "relationships":  [
+
+                      ],
+    "id":  "gear.passionate-void-offering",
+    "release":  {
+
+                },
+    "summary":  "Give unto The Void a generous 100,000 credits.",
+    "stats":  {
+                  "tradable":  false,
+                  "type":  "Gear",
+                  "masterable":  false
+              }
 }

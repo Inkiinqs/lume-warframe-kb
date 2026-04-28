@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.viper-wraith",
+    "description":  "The uniquely styled Viper Wraith is a powerful variation on the standard machine-pistol.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -56,12 +58,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  14.400001,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  1.8000001,
@@ -69,18 +75,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  1.7999994,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  18,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             14.400001,
                                             1.8000001,
@@ -103,20 +116,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/Pistols/WraithSingleViper/WraithSingleViper"
@@ -129,7 +129,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The uniquely styled Viper Wraith is a powerful variation on the standard machine-pistol.",
+    "id":  "weapon.viper-wraith",
     "release":  {
                     "releaseDate":  "2018-01-11",
                     "introduced":  {
@@ -145,26 +145,26 @@
     "summary":  "The uniquely styled Viper Wraith is a powerful variation on the standard machine-pistol.",
     "stats":  {
                   "accuracy":  28.571428,
-                  "statusChance":  0.090000033,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "naramon"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  true,
-                  "reloadTime":  0.80000001,
+                  "trigger":  "Auto",
                   "disposition":  5,
-                  "magazineSize":  20,
                   "fireRate":  14.383334,
                   "critMultiplier":  2,
+                  "masteryReq":  4,
                   "totalDamage":  18,
                   "vaulted":  null,
-                  "masteryReq":  4,
-                  "slot":  "secondary",
+                  "statusChance":  0.090000033,
+                  "reloadTime":  0.80000001,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "secondary",
                   "critChance":  0.19,
+                  "magazineSize":  20,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

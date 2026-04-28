@@ -1,5 +1,5 @@
 {
-    "description":  "The Imperator Vandal has been customized by the Tenno with a blue-green metallic finish and Lotus branding on the barrel.",
+    "id":  "weapon.imperator-vandal",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -8,6 +8,10 @@
                 ],
     "name":  "Imperator Vandal",
     "subCategory":  "archgun-arch-gun",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD archgun static data."
+              ],
     "mechanics":  {
                       "heavySlamAttack":  null,
                       "crafting":  {
@@ -80,7 +84,6 @@
                                    "imageName":  "imperator-vandal-11d120197b.png",
                                    "available":  true
                                },
-                      "followThrough":  null,
                       "attacks":  [
                                       {
                                           "name":  "Normal Attack",
@@ -106,12 +109,13 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  20,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  17.5,
@@ -119,30 +123,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  12.5,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  50,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             20,
                                             17.5,
@@ -164,12 +154,22 @@
                                             0,
                                             0,
                                             0
-                                        ]
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
                   },
-    "notes":  [
-                  "Normalized from static import source.",
-                  "Converted from WFCD archgun static data."
-              ],
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Archwing/Primary/FoldingMachineGun/ArchMachineGunVandal"
                 ],
@@ -181,7 +181,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.imperator-vandal",
+    "description":  "The Imperator Vandal has been customized by the Tenno with a blue-green metallic finish and Lotus branding on the barrel.",
     "release":  {
                     "releaseDate":  "2014-12-19",
                     "introduced":  {
@@ -202,23 +202,23 @@
                   "polarities":  [
                                      "madurai"
                                  ],
+                  "masterable":  true,
                   "tradable":  true,
-                  "vaulted":  null,
-                  "totalDamage":  50,
+                  "trigger":  "Auto",
                   "disposition":  3,
-                  "magazineSize":  300,
                   "fireRate":  25.000002,
                   "critMultiplier":  2.4000001,
-                  "reloadTime":  4.1500001,
+                  "totalDamage":  50,
+                  "vaulted":  null,
                   "masteryReq":  5,
-                  "statusChance":  0.12,
-                  "slot":  "archgun",
+                  "reloadTime":  4.1500001,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "archgun",
                   "critChance":  0.28,
+                  "magazineSize":  300,
                   "weaponClass":  "Arch-Gun",
-                  "masterable":  true,
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "vaultDate":  null,
+                  "statusChance":  0.12,
+                  "multishot":  1
               }
 }

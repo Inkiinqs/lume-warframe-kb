@@ -1,25 +1,32 @@
 {
-    "id":  "gear.synathid-bait",
-    "name":  "Synathid Bait",
-    "category":  "gear",
-    "subCategory":  "fish",
-    "aliases":  [
-                    "/Lotus/Types/Game/FishBait/Venus/CaveContaminantTierC"
-                ],
-    "summary":  "This bait is synthesized from specialized A-disulphex-A compounds that are known to attract Synathid, a legendarily rare Servofish found only in Orb Vallis cave hotspots.\n\nObtained from The Business in Fortuna (Venus).",
     "description":  "This bait is synthesized from specialized A-disulphex-A compounds that are known to attract Synathid, a legendarily rare Servofish found only in Orb Vallis cave hotspots.\n\nObtained from The Business in Fortuna (Venus).",
-    "stats":  {
-                  "type":  "Fish",
-                  "tradable":  false,
-                  "masterable":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
+                    }
+                ],
+    "name":  "Synathid Bait",
+    "subCategory":  "fish",
     "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "synathid-bait-5ee5e369f7.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    {
+                                        "location":  "Solaris United (The Business), Cove",
+                                        "type":  "Synathid Bait",
+                                        "chance":  100,
+                                        "rarity":  "Common"
+                                    }
+                                ],
                       "crafting":  {
-                                       "buildPrice":  null,
                                        "buildTime":  null,
-                                       "skipBuildTimePrice":  null,
+                                       "buildPrice":  null,
                                        "buildQuantity":  null,
-                                       "consumeOnBuild":  null,
                                        "components":  [
                                                           {
                                                               "name":  null,
@@ -31,41 +38,34 @@
                                                                             null
                                                                         ]
                                                           }
-                                                      ]
-                                   },
-                      "drops":  [
-                                    {
-                                        "location":  "Solaris United (The Business), Cove",
-                                        "type":  "Synathid Bait",
-                                        "chance":  100,
-                                        "rarity":  "Common"
-                                    }
-                                ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "synathid-bait-5ee5e369f7.png"
-                               }
+                                                      ],
+                                       "skipBuildTimePrice":  null,
+                                       "consumeOnBuild":  null
+                                   }
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-
-                },
-    "tags":  [
-                 "gear",
-                 "fish"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Gear.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Types/Game/FishBait/Venus/CaveContaminantTierC"
+                ],
+    "tags":  [
+                 "gear",
+                 "fish"
+             ],
+    "category":  "gear",
+    "relationships":  [
+
+                      ],
+    "id":  "gear.synathid-bait",
+    "release":  {
+
+                },
+    "summary":  "This bait is synthesized from specialized A-disulphex-A compounds that are known to attract Synathid, a legendarily rare Servofish found only in Orb Vallis cave hotspots.\n\nObtained from The Business in Fortuna (Venus).",
+    "stats":  {
+                  "tradable":  false,
+                  "type":  "Fish",
+                  "masterable":  false
+              }
 }

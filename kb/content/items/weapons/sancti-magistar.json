@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.sancti-magistar",
+    "description":  "Each charged attack turns the enemy’s pain into a healing pulse that washes over allies. Also, creates resistance to Status Effects when held.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,14 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  1200,
+                      "drops":  [
+                                    {
+                                        "location":  "New Loka, Flawless",
+                                        "type":  "Sancti Magistar",
+                                        "chance":  100,
+                                        "rarity":  "Common"
+                                    }
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -88,12 +95,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  480,
+                      "slamRadius":  9,
                       "blockingAngle":  50,
-                      "sentinel":  null,
+                      "heavySlamRadius":  10,
+                      "stancePolarity":  "vazarin",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  192,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  36,
@@ -101,18 +112,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  11.999989,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  239.99998,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5999999,
+                      "heavyAttackDamage":  1440,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  720,
+                      "comboDuration":  5,
+                      "slideAttack":  480,
+                      "windUp":  1.2,
+                      "followThrough":  0.40000001,
+                      "slamAttack":  720,
                       "damagePerShot":  [
                                             192,
                                             36,
@@ -135,25 +153,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5999999,
-                      "drops":  [
-                                    {
-                                        "location":  "New Loka, Flawless",
-                                        "type":  "Sancti Magistar",
-                                        "chance":  100,
-                                        "rarity":  "Common"
-                                    }
-                                ],
-                      "heavyAttackDamage":  1440,
-                      "followThrough":  0.40000001,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  720,
-                      "stancePolarity":  "vazarin",
-                      "slideAttack":  480,
-                      "windUp":  1.2,
-                      "slamRadius":  9,
-                      "slamAttack":  720,
-                      "heavySlamRadius":  10
+                      "heavySlamAttack":  1200
                   },
     "aliases":  [
                     "/Lotus/Weapons/Syndicates/NewLoka/Melee/NLMagistar"
@@ -166,7 +166,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Each charged attack turns the enemy’s pain into a healing pulse that washes over allies. Also, creates resistance to Status Effects when held.",
+    "id":  "weapon.sancti-magistar",
     "release":  {
                     "releaseDate":  "2016-09-15",
                     "introduced":  {
@@ -183,26 +183,26 @@
     "summary":  "Each charged attack turns the enemy’s pain into a healing pulse that washes over allies. Also, creates resistance to Status Effects when held.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.19999999,
+                  "noise":  null,
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  true,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  4,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  2,
+                  "masteryReq":  8,
                   "totalDamage":  239.99998,
                   "vaulted":  null,
-                  "masteryReq":  8,
-                  "slot":  "melee",
+                  "statusChance":  0.19999999,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.30000001,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

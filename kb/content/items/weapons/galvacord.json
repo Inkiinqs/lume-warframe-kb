@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.galvacord",
+    "description":  "Shock and maim with this heavyweight retractable whip.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  735,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -129,12 +131,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  420,
+                      "slamRadius":  5,
                       "blockingAngle":  45,
-                      "sentinel":  null,
+                      "heavySlamRadius":  6,
+                      "stancePolarity":  "vazarin",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  12,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  96,
                                      "true":  0,
                                      "slash":  38,
@@ -142,18 +148,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  64,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  210,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.6963859,
+                      "heavyAttackDamage":  945,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  630,
+                      "comboDuration":  5,
+                      "slideAttack":  420,
+                      "windUp":  0.40000001,
+                      "followThrough":  0.5,
+                      "slamAttack":  630,
                       "damagePerShot":  [
                                             12,
                                             38,
@@ -176,20 +189,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.6963859,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  945,
-                      "followThrough":  0.5,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  630,
-                      "stancePolarity":  "vazarin",
-                      "slideAttack":  420,
-                      "windUp":  0.40000001,
-                      "slamRadius":  5,
-                      "slamAttack":  630,
-                      "heavySlamRadius":  6
+                      "heavySlamAttack":  735
                   },
     "aliases":  [
                     "/Lotus/Weapons/Corpus/Melee/Whips/CrpShockGrip/CrpShockGripWhipWeapon"
@@ -202,7 +202,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Shock and maim with this heavyweight retractable whip.",
+    "id":  "weapon.galvacord",
     "release":  {
                     "releaseDate":  "2018-12-18",
                     "introduced":  {
@@ -219,26 +219,26 @@
     "summary":  "Shock and maim with this heavyweight retractable whip.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.30000001,
+                  "noise":  null,
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  0.75000006,
                   "critMultiplier":  1.8,
+                  "masteryReq":  6,
                   "totalDamage":  210,
                   "vaulted":  null,
-                  "masteryReq":  6,
-                  "slot":  "melee",
+                  "statusChance":  0.30000001,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.12,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

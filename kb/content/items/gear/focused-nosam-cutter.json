@@ -1,25 +1,27 @@
 {
-    "id":  "gear.focused-nosam-cutter",
-    "name":  "Focused Nosam Cutter",
-    "category":  "gear",
-    "subCategory":  "gear",
-    "aliases":  [
-                    "/Lotus/Types/Restoratives/Consumable/MiningLaserB"
-                ],
-    "summary":  "A more accurate variation of the Nosam Cutter.\n\nTravel far from Hub settlements for the best chance of mining rare minerals.",
     "description":  "A more accurate variation of the Nosam Cutter.\n\nTravel far from Hub settlements for the best chance of mining rare minerals.",
-    "stats":  {
-                  "type":  "Gear",
-                  "tradable":  false,
-                  "masterable":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
+                    }
+                ],
+    "name":  "Focused Nosam Cutter",
+    "subCategory":  "gear",
     "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "focused-nosam-cutter-e24cb8232d.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
-                                       "buildPrice":  3500,
                                        "buildTime":  3600,
-                                       "skipBuildTimePrice":  10,
+                                       "buildPrice":  3500,
                                        "buildQuantity":  1,
-                                       "consumeOnBuild":  true,
                                        "components":  [
                                                           {
                                                               "name":  "Blueprint",
@@ -71,36 +73,34 @@
 
                                                                         ]
                                                           }
-                                                      ]
-                                   },
-                      "drops":  [
-                                    null
-                                ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "focused-nosam-cutter-e24cb8232d.png"
-                               }
+                                                      ],
+                                       "skipBuildTimePrice":  10,
+                                       "consumeOnBuild":  true
+                                   }
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-
-                },
-    "tags":  [
-                 "gear",
-                 "gear"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Gear.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Types/Restoratives/Consumable/MiningLaserB"
+                ],
+    "tags":  [
+                 "gear",
+                 "gear"
+             ],
+    "category":  "gear",
+    "relationships":  [
+
+                      ],
+    "id":  "gear.focused-nosam-cutter",
+    "release":  {
+
+                },
+    "summary":  "A more accurate variation of the Nosam Cutter.\n\nTravel far from Hub settlements for the best chance of mining rare minerals.",
+    "stats":  {
+                  "tradable":  false,
+                  "type":  "Gear",
+                  "masterable":  false
+              }
 }

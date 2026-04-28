@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.vasto-prime",
+    "description":  "This elegant rapid-fire revolver is the embodiment of superior Orokin craftsmanship.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -941,12 +943,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  16.5,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  16.5,
@@ -954,18 +960,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  77,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  110,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             16.5,
                                             16.5,
@@ -988,20 +1001,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Pistols/PrimeVasto/PrimeVastoPistol"
@@ -1014,7 +1014,7 @@
     "relationships":  [
 
                       ],
-    "description":  "This elegant rapid-fire revolver is the embodiment of superior Orokin craftsmanship.",
+    "id":  "weapon.vasto-prime",
     "release":  {
                     "releaseDate":  "2014-12-17",
                     "introduced":  {
@@ -1031,27 +1031,27 @@
     "summary":  "This elegant rapid-fire revolver is the embodiment of superior Orokin craftsmanship.",
     "stats":  {
                   "accuracy":  16,
-                  "statusChance":  0.22000003,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai",
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  1,
+                  "trigger":  "Semi",
                   "disposition":  5,
-                  "magazineSize":  6,
                   "fireRate":  2.5000002,
                   "critMultiplier":  2.4000001,
+                  "masteryReq":  10,
                   "totalDamage":  110,
                   "vaulted":  true,
-                  "masteryReq":  10,
-                  "slot":  "secondary",
+                  "statusChance":  0.22000003,
+                  "reloadTime":  1,
                   "estimatedVaultDate":  "2016-11-22",
-                  "trigger":  "Semi",
+                  "slot":  "secondary",
                   "critChance":  0.22,
+                  "magazineSize":  6,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  "2016-11-22"
               }

@@ -1,25 +1,27 @@
 {
-    "id":  "gear.sunrise-apothic",
-    "name":  "Sunrise Apothic",
-    "category":  "gear",
-    "subCategory":  "gear",
-    "aliases":  [
-                    "/Lotus/Types/Restoratives/TitaniaQuest/SpecterSummonFeyarchOberon"
-                ],
-    "summary":  "Creates an organic compound composed of rare plant species. Effects unknown.",
     "description":  "Creates an organic compound composed of rare plant species. Effects unknown.",
-    "stats":  {
-                  "type":  "Gear",
-                  "tradable":  false,
-                  "masterable":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
+                    }
+                ],
+    "name":  "Sunrise Apothic",
+    "subCategory":  "gear",
     "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "sunrise-apothic-d3e465d4f9.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
-                                       "buildPrice":  500,
                                        "buildTime":  10,
-                                       "skipBuildTimePrice":  0,
+                                       "buildPrice":  500,
                                        "buildQuantity":  1,
-                                       "consumeOnBuild":  false,
                                        "components":  [
                                                           {
                                                               "name":  "Blueprint",
@@ -71,36 +73,34 @@
 
                                                                         ]
                                                           }
-                                                      ]
-                                   },
-                      "drops":  [
-                                    null
-                                ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "sunrise-apothic-d3e465d4f9.png"
-                               }
+                                                      ],
+                                       "skipBuildTimePrice":  0,
+                                       "consumeOnBuild":  false
+                                   }
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-
-                },
-    "tags":  [
-                 "gear",
-                 "gear"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Gear.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Types/Restoratives/TitaniaQuest/SpecterSummonFeyarchOberon"
+                ],
+    "tags":  [
+                 "gear",
+                 "gear"
+             ],
+    "category":  "gear",
+    "relationships":  [
+
+                      ],
+    "id":  "gear.sunrise-apothic",
+    "release":  {
+
+                },
+    "summary":  "Creates an organic compound composed of rare plant species. Effects unknown.",
+    "stats":  {
+                  "tradable":  false,
+                  "type":  "Gear",
+                  "masterable":  false
+              }
 }

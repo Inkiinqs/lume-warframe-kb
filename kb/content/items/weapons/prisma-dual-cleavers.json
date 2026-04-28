@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.prisma-dual-cleavers",
+    "description":  "Blades of energized prisma crystal make these ornamental cleavers cut as sharply as they look.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  532,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -88,12 +90,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  266,
+                      "slamRadius":  8,
                       "blockingAngle":  60,
-                      "sentinel":  null,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "naramon",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  13.3,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  13.3,
@@ -101,18 +107,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  106.4,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  133,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.7,
+                      "heavyAttackDamage":  532,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  399,
+                      "comboDuration":  5,
+                      "slideAttack":  266,
+                      "windUp":  0.69999999,
+                      "followThrough":  0.5,
+                      "slamAttack":  266,
                       "damagePerShot":  [
                                             13.3,
                                             13.3,
@@ -135,20 +148,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.7,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  532,
-                      "followThrough":  0.5,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  399,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  266,
-                      "windUp":  0.69999999,
-                      "slamRadius":  8,
-                      "slamAttack":  266,
-                      "heavySlamRadius":  9
+                      "heavySlamAttack":  532
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/Melee/GrineerMachetteAndCleaver/PrismaDualCleavers"
@@ -161,7 +161,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Blades of energized prisma crystal make these ornamental cleavers cut as sharply as they look.",
+    "id":  "weapon.prisma-dual-cleavers",
     "release":  {
                     "releaseDate":  "2015-07-10",
                     "introduced":  {
@@ -177,26 +177,26 @@
     "summary":  "Blades of energized prisma crystal make these ornamental cleavers cut as sharply as they look.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.25,
+                  "noise":  null,
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  true,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  3,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  3,
+                  "masteryReq":  9,
                   "totalDamage":  133,
                   "vaulted":  null,
-                  "masteryReq":  9,
-                  "slot":  "melee",
+                  "statusChance":  0.25,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.25,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

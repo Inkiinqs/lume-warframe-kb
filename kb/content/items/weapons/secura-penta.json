@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.secura-penta",
+    "description":  "Ruthless and efficient, just like the free-market.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,14 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    {
+                                        "location":  "The Perrin Sequence, Partner",
+                                        "type":  "Secura Penta",
+                                        "chance":  100,
+                                        "rarity":  "Common"
+                                    }
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -72,12 +79,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  75,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  0,
@@ -85,18 +96,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  375,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  300,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             75,
                                             0,
@@ -119,25 +137,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    {
-                                        "location":  "The Perrin Sequence, Partner",
-                                        "type":  "Secura Penta",
-                                        "chance":  100,
-                                        "rarity":  "Common"
-                                    }
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Syndicates/PerrinSequence/LongGuns/PSPenta"
@@ -150,7 +150,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Ruthless and efficient, just like the free-market.",
+    "id":  "weapon.secura-penta",
     "release":  {
                     "releaseDate":  "2015-09-02",
                     "introduced":  {
@@ -167,28 +167,28 @@
     "summary":  "Ruthless and efficient, just like the free-market.",
     "stats":  {
                   "accuracy":  100,
-                  "statusChance":  0.25999999,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "naramon",
                                      "vazarin",
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  true,
-                  "reloadTime":  2.5,
+                  "trigger":  "Active",
                   "disposition":  4,
-                  "magazineSize":  7,
                   "fireRate":  2,
                   "critMultiplier":  2,
+                  "masteryReq":  12,
                   "totalDamage":  375,
                   "vaulted":  null,
-                  "masteryReq":  12,
-                  "slot":  "primary",
+                  "statusChance":  0.25999999,
+                  "reloadTime":  2.5,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Active",
+                  "slot":  "primary",
                   "critChance":  0.25999999,
+                  "magazineSize":  7,
                   "weaponClass":  "Launcher",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

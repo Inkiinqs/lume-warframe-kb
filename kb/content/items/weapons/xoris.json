@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.xoris",
+    "description":  "An obscure glaive weapon of Corpus provenance, intrinsically linked to Specter technology. The Xoris strikes rapidly and with great devastation. It is capable of chaining combos infinitely.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  480,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  30,
                                        "buildPrice":  15000,
@@ -260,12 +262,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  240,
+                      "slamRadius":  6,
                       "blockingAngle":  55,
-                      "sentinel":  null,
+                      "heavySlamRadius":  8,
+                      "stancePolarity":  "naramon",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  24,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  40.799999,
@@ -273,18 +279,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  55.199997,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  120,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.3,
+                      "heavyAttackDamage":  120,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  360,
+                      "comboDuration":  5,
+                      "slideAttack":  240,
+                      "windUp":  1.2,
+                      "followThrough":  0.69999999,
+                      "slamAttack":  360,
                       "damagePerShot":  [
                                             24,
                                             40.799999,
@@ -307,20 +320,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.3,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  120,
-                      "followThrough":  0.69999999,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  360,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  240,
-                      "windUp":  1.2,
-                      "slamRadius":  6,
-                      "slamAttack":  360,
-                      "heavySlamRadius":  8
+                      "heavySlamAttack":  480
                   },
     "aliases":  [
                     "/Lotus/Weapons/Corpus/Melee/Glaive/CrpGhostCatcherGlaive/CrpGhostCatcherGlaive"
@@ -333,7 +333,7 @@
     "relationships":  [
 
                       ],
-    "description":  "An obscure glaive weapon of Corpus provenance, intrinsically linked to Specter technology. The Xoris strikes rapidly and with great devastation. It is capable of chaining combos infinitely.",
+    "id":  "weapon.xoris",
     "release":  {
                     "releaseDate":  "2020-06-11",
                     "introduced":  {
@@ -351,26 +351,26 @@
     "summary":  "An obscure glaive weapon of Corpus provenance, intrinsically linked to Specter technology. The Xoris strikes rapidly and with great devastation. It is capable of chaining combos infinitely.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.18000001,
+                  "noise":  null,
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  1,
-                  "magazineSize":  null,
                   "fireRate":  1.1666667,
                   "critMultiplier":  2.4000001,
+                  "masteryReq":  4,
                   "totalDamage":  120,
                   "vaulted":  null,
-                  "masteryReq":  4,
-                  "slot":  "melee",
+                  "statusChance":  0.18000001,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.2,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

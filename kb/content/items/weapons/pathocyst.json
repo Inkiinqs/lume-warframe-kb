@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.pathocyst",
+    "description":  "Each strike of this infested glaive infects its target with viral pathogens. Occasionally, it discharges the spores of rabid, enemy-seeking maggots, either in-flight or on contact with the enemy.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  1048,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  30000,
@@ -233,12 +235,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  524,
+                      "slamRadius":  5,
                       "blockingAngle":  55,
-                      "sentinel":  null,
+                      "heavySlamRadius":  6,
+                      "stancePolarity":  "naramon",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  57,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  55,
@@ -246,18 +252,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  89,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  61,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  262,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.3,
+                      "heavyAttackDamage":  262,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  786,
+                      "comboDuration":  5,
+                      "slideAttack":  524,
+                      "windUp":  1.2,
+                      "followThrough":  0.69999999,
+                      "slamAttack":  786,
                       "damagePerShot":  [
                                             57,
                                             55,
@@ -280,20 +293,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.3,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  262,
-                      "followThrough":  0.69999999,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  786,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  524,
-                      "windUp":  1.2,
-                      "slamRadius":  5,
-                      "slamAttack":  786,
-                      "heavySlamRadius":  6
+                      "heavySlamAttack":  1048
                   },
     "aliases":  [
                     "/Lotus/Weapons/Infested/Melee/InfBoomerang/InfBoomerangWeapon"
@@ -306,7 +306,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Each strike of this infested glaive infects its target with viral pathogens. Occasionally, it discharges the spores of rabid, enemy-seeking maggots, either in-flight or on contact with the enemy.",
+    "id":  "weapon.pathocyst",
     "release":  {
                     "releaseDate":  "2019-09-26",
                     "introduced":  {
@@ -322,27 +322,27 @@
     "summary":  "Each strike of this infested glaive infects its target with viral pathogens. Occasionally, it discharges the spores of rabid, enemy-seeking maggots, either in-flight or on contact with the enemy.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.30000001,
+                  "noise":  null,
                   "polarities":  [
                                      "madurai",
                                      "vazarin"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  0.66666669,
                   "critMultiplier":  2.0999999,
+                  "masteryReq":  9,
                   "totalDamage":  262,
                   "vaulted":  null,
-                  "masteryReq":  9,
-                  "slot":  "melee",
+                  "statusChance":  0.30000001,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.15000001,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

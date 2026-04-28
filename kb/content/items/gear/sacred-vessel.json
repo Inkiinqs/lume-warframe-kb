@@ -1,25 +1,27 @@
 {
-    "id":  "gear.sacred-vessel",
-    "name":  "Sacred Vessel",
-    "category":  "gear",
-    "subCategory":  "key",
-    "aliases":  [
-                    "/Lotus/Types/Keys/MummyQuest/MummyArtifact01GearItem"
-                ],
-    "summary":  "A peculiar relic from the tomb of Inaros.",
     "description":  "A peculiar relic from the tomb of Inaros.",
-    "stats":  {
-                  "type":  "Key",
-                  "tradable":  false,
-                  "masterable":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
+                    }
+                ],
+    "name":  "Sacred Vessel",
+    "subCategory":  "key",
     "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "sacred-vessel-4a63a8ad3c.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
-                                       "buildPrice":  null,
                                        "buildTime":  null,
-                                       "skipBuildTimePrice":  null,
+                                       "buildPrice":  null,
                                        "buildQuantity":  null,
-                                       "consumeOnBuild":  null,
                                        "components":  [
                                                           {
                                                               "name":  null,
@@ -31,36 +33,34 @@
                                                                             null
                                                                         ]
                                                           }
-                                                      ]
-                                   },
-                      "drops":  [
-                                    null
-                                ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "sacred-vessel-4a63a8ad3c.png"
-                               }
+                                                      ],
+                                       "skipBuildTimePrice":  null,
+                                       "consumeOnBuild":  null
+                                   }
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-
-                },
-    "tags":  [
-                 "gear",
-                 "key"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Gear.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Types/Keys/MummyQuest/MummyArtifact01GearItem"
+                ],
+    "tags":  [
+                 "gear",
+                 "key"
+             ],
+    "category":  "gear",
+    "relationships":  [
+
+                      ],
+    "id":  "gear.sacred-vessel",
+    "release":  {
+
+                },
+    "summary":  "A peculiar relic from the tomb of Inaros.",
+    "stats":  {
+                  "tradable":  false,
+                  "type":  "Key",
+                  "masterable":  false
+              }
 }

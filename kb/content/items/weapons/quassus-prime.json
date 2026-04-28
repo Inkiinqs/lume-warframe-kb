@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.quassus-prime",
+    "description":  "Wield Xaku Prime’s elegant fan, its gilded edges crafted for both precision and prestige.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  260,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -453,12 +455,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  520,
+                      "slamRadius":  5,
                       "blockingAngle":  55,
-                      "sentinel":  null,
+                      "heavySlamRadius":  6,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  26,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  52,
@@ -466,18 +472,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  182,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  260,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.7,
+                      "heavyAttackDamage":  1040,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  780,
+                      "comboDuration":  5,
+                      "slideAttack":  260,
+                      "windUp":  0.5,
+                      "followThrough":  0.69999999,
+                      "slamAttack":  520,
                       "damagePerShot":  [
                                             26,
                                             52,
@@ -500,20 +513,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.7,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  1040,
-                      "followThrough":  0.69999999,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  780,
-                      "stancePolarity":  null,
-                      "slideAttack":  260,
-                      "windUp":  0.5,
-                      "slamRadius":  5,
-                      "slamAttack":  520,
-                      "heavySlamRadius":  6
+                      "heavySlamAttack":  260
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Warfan/PrimeQuassus/PrimeQuassusWeapon"
@@ -526,7 +526,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Wield Xaku Prime’s elegant fan, its gilded edges crafted for both precision and prestige.",
+    "id":  "weapon.quassus-prime",
     "release":  {
                     "releaseDate":  null,
                     "introduced":  null
@@ -534,26 +534,26 @@
     "summary":  "Wield Xaku Prime’s elegant fan, its gilded edges crafted for both precision and prestige.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.18000001,
+                  "noise":  null,
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  null,
-                  "magazineSize":  null,
                   "fireRate":  0.83333337,
                   "critMultiplier":  2.5,
+                  "masteryReq":  13,
                   "totalDamage":  260,
                   "vaulted":  false,
-                  "masteryReq":  13,
-                  "slot":  "melee",
+                  "statusChance":  0.18000001,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.34999999,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

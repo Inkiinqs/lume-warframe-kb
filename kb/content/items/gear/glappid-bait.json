@@ -1,25 +1,27 @@
 {
-    "id":  "gear.glappid-bait",
-    "name":  "Glappid Bait",
-    "category":  "gear",
-    "subCategory":  "fish",
-    "aliases":  [
-                    "/Lotus/Types/Game/FishBait/NightLegendaryFishBaitItem"
-                ],
-    "summary":  "This bait is composed of exotic materials that are known to attract the elusive Glappid, a fish found only in Plains of Eidolon ocean hotspots during the night.\n\nObtained from Fisher Hai-Luk in Cetus (Earth).",
     "description":  "This bait is composed of exotic materials that are known to attract the elusive Glappid, a fish found only in Plains of Eidolon ocean hotspots during the night.\n\nObtained from Fisher Hai-Luk in Cetus (Earth).",
-    "stats":  {
-                  "type":  "Fish",
-                  "tradable":  false,
-                  "masterable":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
+                    }
+                ],
+    "name":  "Glappid Bait",
+    "subCategory":  "fish",
     "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "glappid-bait-9b0055d0c2.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
-                                       "buildPrice":  5000,
                                        "buildTime":  600,
-                                       "skipBuildTimePrice":  5,
+                                       "buildPrice":  5000,
                                        "buildQuantity":  20,
-                                       "consumeOnBuild":  false,
                                        "components":  [
                                                           {
                                                               "name":  "Blueprint",
@@ -71,36 +73,34 @@
 
                                                                         ]
                                                           }
-                                                      ]
-                                   },
-                      "drops":  [
-                                    null
-                                ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "glappid-bait-9b0055d0c2.png"
-                               }
+                                                      ],
+                                       "skipBuildTimePrice":  5,
+                                       "consumeOnBuild":  false
+                                   }
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-
-                },
-    "tags":  [
-                 "gear",
-                 "fish"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Gear.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Types/Game/FishBait/NightLegendaryFishBaitItem"
+                ],
+    "tags":  [
+                 "gear",
+                 "fish"
+             ],
+    "category":  "gear",
+    "relationships":  [
+
+                      ],
+    "id":  "gear.glappid-bait",
+    "release":  {
+
+                },
+    "summary":  "This bait is composed of exotic materials that are known to attract the elusive Glappid, a fish found only in Plains of Eidolon ocean hotspots during the night.\n\nObtained from Fisher Hai-Luk in Cetus (Earth).",
+    "stats":  {
+                  "tradable":  false,
+                  "type":  "Fish",
+                  "masterable":  false
+              }
 }

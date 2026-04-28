@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.kama",
+    "description":  "The Kama is a Tenno style hatchet, capable of making short work of any foe.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  360,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -128,12 +130,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  180,
+                      "slamRadius":  8,
                       "blockingAngle":  55,
-                      "sentinel":  null,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "zenurik",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  13.500001,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  13.500001,
@@ -141,18 +147,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  63,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  90,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.4000001,
+                      "heavyAttackDamage":  540,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  270,
+                      "comboDuration":  5,
+                      "slideAttack":  180,
+                      "windUp":  0.69999999,
+                      "followThrough":  0.69999999,
+                      "slamAttack":  270,
                       "damagePerShot":  [
                                             13.500001,
                                             13.500001,
@@ -175,20 +188,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.4000001,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  540,
-                      "followThrough":  0.69999999,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  270,
-                      "stancePolarity":  "zenurik",
-                      "slideAttack":  180,
-                      "windUp":  0.69999999,
-                      "slamRadius":  8,
-                      "slamAttack":  270,
-                      "heavySlamRadius":  9
+                      "heavySlamAttack":  360
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/DualKamas/SingleKama"
@@ -201,7 +201,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The Kama is a Tenno style hatchet, capable of making short work of any foe.",
+    "id":  "weapon.kama",
     "release":  {
                     "releaseDate":  "2013-09-13",
                     "introduced":  {
@@ -219,27 +219,27 @@
     "summary":  "The Kama is a Tenno style hatchet, capable of making short work of any foe.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.10000002,
+                  "noise":  null,
                   "polarities":  [
                                      "madurai",
                                      "madurai"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  1.1666667,
                   "critMultiplier":  1.8,
+                  "masteryReq":  1,
                   "totalDamage":  90,
                   "vaulted":  null,
-                  "masteryReq":  1,
-                  "slot":  "melee",
+                  "statusChance":  0.10000002,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.12,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

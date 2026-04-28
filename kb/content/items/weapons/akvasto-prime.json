@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.akvasto-prime",
+    "description":  "Orokin craftsmanship married with superior firepower. Dual Vastos, primed and ready to strike.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -1818,12 +1820,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  16.5,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  16.5,
@@ -1831,18 +1837,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  77,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  110,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             16.5,
                                             16.5,
@@ -1865,20 +1878,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Pistols/PrimeVasto/AkPrimeVasto/AkPrimeVastoPistol"
@@ -1891,7 +1891,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Orokin craftsmanship married with superior firepower. Dual Vastos, primed and ready to strike.",
+    "id":  "weapon.akvasto-prime",
     "release":  {
                     "releaseDate":  "2018-11-13",
                     "introduced":  {
@@ -1907,27 +1907,27 @@
     "summary":  "Orokin craftsmanship married with superior firepower. Dual Vastos, primed and ready to strike.",
     "stats":  {
                   "accuracy":  16,
-                  "statusChance":  0.22000003,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai",
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  1.4,
+                  "trigger":  "Semi",
                   "disposition":  4,
-                  "magazineSize":  12,
                   "fireRate":  3.3333335,
                   "critMultiplier":  2.4000001,
+                  "masteryReq":  12,
                   "totalDamage":  110,
                   "vaulted":  true,
-                  "masteryReq":  12,
-                  "slot":  "secondary",
+                  "statusChance":  0.22000003,
+                  "reloadTime":  1.4,
                   "estimatedVaultDate":  "2018-11-18",
-                  "trigger":  "Semi",
+                  "slot":  "secondary",
                   "critChance":  0.22,
+                  "magazineSize":  12,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  "2018-11-18"
               }

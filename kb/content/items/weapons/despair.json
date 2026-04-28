@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.despair",
+    "description":  "Used by The Stalker, Despair throwing blades have a mono-filament edge, sharp enough to penetrate a Warframe.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -151,12 +153,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  2.9000001,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  46.400002,
@@ -164,18 +170,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  8.6999989,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  58,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             2.9000001,
                                             46.400002,
@@ -198,20 +211,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/ThrowingWeapons/StalkerKunai"
@@ -224,7 +224,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Used by The Stalker, Despair throwing blades have a mono-filament edge, sharp enough to penetrate a Warframe.",
+    "id":  "weapon.despair",
     "release":  {
                     "releaseDate":  "2013-05-23",
                     "introduced":  {
@@ -242,27 +242,27 @@
     "summary":  "Used by The Stalker, Despair throwing blades have a mono-filament edge, sharp enough to penetrate a Warframe.",
     "stats":  {
                   "accuracy":  100,
-                  "statusChance":  0.15999997,
+                  "noise":  "Silent",
                   "polarities":  [
                                      "madurai",
                                      "madurai"
                                  ],
-                  "noise":  "Silent",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  0.75,
+                  "trigger":  "Auto",
                   "disposition":  4,
-                  "magazineSize":  10,
                   "fireRate":  3.3333335,
                   "critMultiplier":  1.6,
+                  "masteryReq":  4,
                   "totalDamage":  58,
                   "vaulted":  null,
-                  "masteryReq":  4,
-                  "slot":  "secondary",
+                  "statusChance":  0.15999997,
+                  "reloadTime":  0.75,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "secondary",
                   "critChance":  0.16,
+                  "magazineSize":  10,
                   "weaponClass":  "Throwing",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

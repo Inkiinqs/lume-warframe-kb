@@ -1,5 +1,5 @@
 {
-    "description":  "Standard issue sniper rifle for Diriga.",
+    "id":  "weapon.vulklok",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -8,6 +8,10 @@
                 ],
     "name":  "Vulklok",
     "subCategory":  "companion-companion-weapon",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD companion static data."
+              ],
     "mechanics":  {
                       "heavySlamAttack":  null,
                       "crafting":  {
@@ -35,7 +39,6 @@
                                    "imageName":  "vulklok-255184ff90.png",
                                    "available":  true
                                },
-                      "followThrough":  null,
                       "attacks":  [
                                       {
                                           "name":  "Normal Attack",
@@ -54,12 +57,13 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "sentinel":  true,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  175,
                                      "true":  0,
                                      "slash":  0,
@@ -67,30 +71,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  175,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "sentinel":  true,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -112,12 +102,22 @@
                                             0,
                                             0,
                                             0
-                                        ]
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
                   },
-    "notes":  [
-                  "Normalized from static import source.",
-                  "Converted from WFCD companion static data."
-              ],
     "aliases":  [
                     "/Lotus/Types/Sentinels/SentinelWeapons/SentElecRailgun"
                 ],
@@ -129,7 +129,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.vulklok",
+    "description":  "Standard issue sniper rifle for Diriga.",
     "release":  {
                     "releaseDate":  "2015-09-02",
                     "introduced":  {
@@ -150,23 +150,23 @@
                   "polarities":  [
                                      null
                                  ],
+                  "masterable":  true,
                   "tradable":  false,
-                  "vaulted":  null,
-                  "totalDamage":  175,
+                  "trigger":  "Auto",
                   "disposition":  4,
-                  "magazineSize":  10,
                   "fireRate":  0.15000001,
                   "critMultiplier":  2.5,
-                  "reloadTime":  2,
+                  "totalDamage":  175,
+                  "vaulted":  null,
                   "masteryReq":  0,
-                  "statusChance":  0.25,
-                  "slot":  "companion",
+                  "reloadTime":  2,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "companion",
                   "critChance":  0.34999999,
+                  "magazineSize":  10,
                   "weaponClass":  "Companion Weapon",
-                  "masterable":  true,
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "vaultDate":  null,
+                  "statusChance":  0.25,
+                  "multishot":  1
               }
 }

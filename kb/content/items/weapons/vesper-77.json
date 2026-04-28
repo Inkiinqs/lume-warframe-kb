@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.vesper-77",
+    "description":  "A true masterpiece of Höllvanian engineering, Vesper 77\u0027s advanced laser sight highlights enemy Weak Points with precision. Aim to increase its Critical Damage Multiplier.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -213,12 +215,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  72,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  108.00001,
@@ -226,18 +232,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  180,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             72,
                                             108.00001,
@@ -260,20 +273,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Lasria/LasSilencedPistol/LasSilencedPistolWeapon"
@@ -286,7 +286,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A true masterpiece of Höllvanian engineering, Vesper 77\u0027s advanced laser sight highlights enemy Weak Points with precision. Aim to increase its Critical Damage Multiplier.",
+    "id":  "weapon.vesper-77",
     "release":  {
                     "releaseDate":  "2024-12-13",
                     "introduced":  {
@@ -304,27 +304,27 @@
     "summary":  "A true masterpiece of Höllvanian engineering, Vesper 77\u0027s advanced laser sight highlights enemy Weak Points with precision. Aim to increase its Critical Damage Multiplier.",
     "stats":  {
                   "accuracy":  16,
-                  "statusChance":  0.25999999,
+                  "noise":  "Silent",
                   "polarities":  [
                                      "madurai",
                                      "naramon"
                                  ],
-                  "noise":  "Silent",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2.3499999,
+                  "trigger":  "Semi",
                   "disposition":  2,
-                  "magazineSize":  8,
                   "fireRate":  2.0833335,
                   "critMultiplier":  2.5999999,
+                  "masteryReq":  14,
                   "totalDamage":  180,
                   "vaulted":  null,
-                  "masteryReq":  14,
-                  "slot":  "secondary",
+                  "statusChance":  0.25999999,
+                  "reloadTime":  2.3499999,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "secondary",
                   "critChance":  0.23999999,
+                  "magazineSize":  8,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

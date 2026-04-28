@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.bolto",
+    "description":  "The Bolto fires slow, heavy bolts that are capable of impaling enemies to walls.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -102,12 +104,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  6.4000001,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  57.599998,
@@ -115,18 +121,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  64,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             6.4000001,
                                             57.599998,
@@ -149,20 +162,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Pistol/CrossBow"
@@ -175,7 +175,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The Bolto fires slow, heavy bolts that are capable of impaling enemies to walls.",
+    "id":  "weapon.bolto",
     "release":  {
                     "releaseDate":  "2012-10-25",
                     "introduced":  {
@@ -192,26 +192,26 @@
     "summary":  "The Bolto fires slow, heavy bolts that are capable of impaling enemies to walls.",
     "stats":  {
                   "accuracy":  26.666666,
-                  "statusChance":  0.022000015,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "vazarin"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  1.3,
+                  "trigger":  "Semi",
                   "disposition":  5,
-                  "magazineSize":  15,
                   "fireRate":  3.3333335,
                   "critMultiplier":  2.4000001,
+                  "masteryReq":  7,
                   "totalDamage":  64,
                   "vaulted":  null,
-                  "masteryReq":  7,
-                  "slot":  "secondary",
+                  "statusChance":  0.022000015,
+                  "reloadTime":  1.3,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "secondary",
                   "critChance":  0.16,
+                  "magazineSize":  15,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

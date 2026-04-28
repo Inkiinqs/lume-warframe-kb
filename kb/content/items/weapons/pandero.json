@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.pandero",
+    "description":  "Octavia\u0027s pistol hammers foes with single shots or a rapid volley of bullets. When wielded by Octavia, alt-fire Headshot Kills increase Reload Speed.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -109,12 +111,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  18,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  18,
@@ -122,18 +128,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  36,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  72,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             18,
                                             18,
@@ -156,20 +169,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Pistols/TnBardPistol/TnBardPistolGun"
@@ -182,7 +182,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Octavia\u0027s pistol hammers foes with single shots or a rapid volley of bullets. When wielded by Octavia, alt-fire Headshot Kills increase Reload Speed.",
+    "id":  "weapon.pandero",
     "release":  {
                     "releaseDate":  "2017-03-24",
                     "introduced":  {
@@ -202,26 +202,26 @@
     "summary":  "Octavia\u0027s pistol hammers foes with single shots or a rapid volley of bullets. When wielded by Octavia, alt-fire Headshot Kills increase Reload Speed.",
     "stats":  {
                   "accuracy":  16,
-                  "statusChance":  0.10000002,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  1,
+                  "trigger":  "Semi",
                   "disposition":  4,
-                  "magazineSize":  8,
                   "fireRate":  3.0000002,
                   "critMultiplier":  2.8,
+                  "masteryReq":  8,
                   "totalDamage":  72,
                   "vaulted":  null,
-                  "masteryReq":  8,
-                  "slot":  "secondary",
+                  "statusChance":  0.10000002,
+                  "reloadTime":  1,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "secondary",
                   "critChance":  0.30000001,
+                  "magazineSize":  8,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

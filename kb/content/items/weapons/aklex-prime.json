@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.aklex-prime",
+    "description":  "Savage the enemy with a Lex Prime in each hand.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -7222,12 +7224,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  15,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  120,
@@ -7235,18 +7241,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  14.999994,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  150,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             15,
                                             120,
@@ -7269,20 +7282,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Akimbo/AkLexPrimePistols"
@@ -7295,7 +7295,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Savage the enemy with a Lex Prime in each hand.",
+    "id":  "weapon.aklex-prime",
     "release":  {
                     "releaseDate":  "2017-01-27",
                     "introduced":  {
@@ -7311,26 +7311,26 @@
     "summary":  "Savage the enemy with a Lex Prime in each hand.",
     "stats":  {
                   "accuracy":  9.7560978,
-                  "statusChance":  0.25,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  true,
-                  "reloadTime":  3,
+                  "trigger":  "Semi",
                   "disposition":  3,
-                  "magazineSize":  16,
                   "fireRate":  2.6666667,
                   "critMultiplier":  2,
+                  "masteryReq":  15,
                   "totalDamage":  150,
                   "vaulted":  true,
-                  "masteryReq":  15,
-                  "slot":  "secondary",
+                  "statusChance":  0.25,
+                  "reloadTime":  3,
                   "estimatedVaultDate":  "2017-01-29",
-                  "trigger":  "Semi",
+                  "slot":  "secondary",
                   "critChance":  0.25,
+                  "magazineSize":  16,
                   "weaponClass":  "Dual Pistols",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  "2017-01-29"
               }

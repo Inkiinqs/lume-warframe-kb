@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.latron-prime",
+    "description":  "The ornamental Latron Prime exploits ancient Orokin technology to get a slight damage increase over the standard Latron.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -456,12 +458,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  9,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  72,
@@ -469,18 +475,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  8.9999971,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  90,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             9,
                                             72,
@@ -503,20 +516,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Rifle/LatronPrime"
@@ -529,7 +529,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The ornamental Latron Prime exploits ancient Orokin technology to get a slight damage increase over the standard Latron.",
+    "id":  "weapon.latron-prime",
     "release":  {
                     "releaseDate":  "2013-05-23",
                     "introduced":  {
@@ -547,27 +547,27 @@
     "summary":  "The ornamental Latron Prime exploits ancient Orokin technology to get a slight damage increase over the standard Latron.",
     "stats":  {
                   "accuracy":  28.571428,
-                  "statusChance":  0.25999999,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai",
                                      "naramon"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2.4000001,
+                  "trigger":  "Semi",
                   "disposition":  4,
-                  "magazineSize":  15,
                   "fireRate":  4.166667,
                   "critMultiplier":  2.8,
+                  "masteryReq":  10,
                   "totalDamage":  90,
                   "vaulted":  true,
-                  "masteryReq":  10,
-                  "slot":  "primary",
+                  "statusChance":  0.25999999,
+                  "reloadTime":  2.4000001,
                   "estimatedVaultDate":  "2015-03-24",
-                  "trigger":  "Semi",
+                  "slot":  "primary",
                   "critChance":  0.22,
+                  "magazineSize":  15,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  "2015-03-24"
               }

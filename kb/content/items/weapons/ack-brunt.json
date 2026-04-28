@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.ack-brunt",
+    "description":  "Tyl Regor\u0027s custom axe and shield are how he likes to eliminate ‘frustrations\u0027.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  596,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  65000,
@@ -159,12 +161,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  298,
+                      "slamRadius":  7,
                       "blockingAngle":  70,
-                      "sentinel":  null,
+                      "heavySlamRadius":  8,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  14.900001,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  14.900001,
@@ -172,18 +178,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  119.2,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  149,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
+                      "heavyAttackDamage":  745,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  447,
+                      "comboDuration":  5,
+                      "slideAttack":  149,
+                      "windUp":  0.69999999,
+                      "followThrough":  0.60000002,
+                      "slamAttack":  447,
                       "damagePerShot":  [
                                             14.900001,
                                             14.900001,
@@ -206,20 +219,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  745,
-                      "followThrough":  0.60000002,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  447,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  149,
-                      "windUp":  0.69999999,
-                      "slamRadius":  7,
-                      "slamAttack":  447,
-                      "heavySlamRadius":  8
+                      "heavySlamAttack":  596
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/Melee/GrineerTylAxeAndBoar/RegorAxeShield"
@@ -232,7 +232,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Tyl Regor\u0027s custom axe and shield are how he likes to eliminate ‘frustrations\u0027.",
+    "id":  "weapon.ack-brunt",
     "release":  {
                     "releaseDate":  "2015-07-31",
                     "introduced":  {
@@ -250,26 +250,26 @@
     "summary":  "Tyl Regor\u0027s custom axe and shield are how he likes to eliminate ‘frustrations\u0027.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.10000002,
+                  "noise":  null,
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  0.83333337,
                   "critMultiplier":  2,
+                  "masteryReq":  3,
                   "totalDamage":  149,
                   "vaulted":  null,
-                  "masteryReq":  3,
-                  "slot":  "melee",
+                  "statusChance":  0.10000002,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.2,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

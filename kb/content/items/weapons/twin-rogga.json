@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.twin-rogga",
+    "description":  "These twin barrels of destruction are the signature pistols of the Kuva Guardians.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  30000,
@@ -101,12 +103,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  18.800001,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  23.5,
@@ -114,18 +120,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  4.7000012,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  47.000004,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             18.800001,
                                             23.5,
@@ -148,20 +161,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/Pistols/GrnQueenGuardDualPistol/GrnQueenGuardDualPistols"
@@ -174,7 +174,7 @@
     "relationships":  [
 
                       ],
-    "description":  "These twin barrels of destruction are the signature pistols of the Kuva Guardians.",
+    "id":  "weapon.twin-rogga",
     "release":  {
                     "releaseDate":  "2016-11-11",
                     "introduced":  {
@@ -193,27 +193,27 @@
     "summary":  "These twin barrels of destruction are the signature pistols of the Kuva Guardians.",
     "stats":  {
                   "accuracy":  8,
-                  "statusChance":  0.065999985,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "naramon",
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  1.5,
+                  "trigger":  "Semi",
                   "disposition":  4,
-                  "magazineSize":  2,
                   "fireRate":  2.5000002,
                   "critMultiplier":  2,
+                  "masteryReq":  9,
                   "totalDamage":  47.000004,
                   "vaulted":  null,
-                  "masteryReq":  9,
-                  "slot":  "secondary",
+                  "statusChance":  0.065999985,
+                  "reloadTime":  1.5,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "secondary",
                   "critChance":  0.1,
+                  "magazineSize":  2,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  15,
                   "vaultDate":  null
               }

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.lenz",
+    "description":  "Bolts from this Corpus bow deliver a one-two punch of an icy pulse, followed by a conventional explosion. Excess ammo picked up for other weapons will be converted into charges for the Lenz. \n\nWarning: Safety-protocols do not exist on this prototype.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  25000,
@@ -131,12 +133,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  50,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  0,
@@ -144,18 +150,25 @@
                                      "cold":  10,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  60,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             50,
                                             0,
@@ -178,20 +191,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Corpus/Bow/Longbow/CrpBow"
@@ -204,7 +204,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Bolts from this Corpus bow deliver a one-two punch of an icy pulse, followed by a conventional explosion. Excess ammo picked up for other weapons will be converted into charges for the Lenz. \n\nWarning: Safety-protocols do not exist on this prototype.",
+    "id":  "weapon.lenz",
     "release":  {
                     "releaseDate":  "2017-08-02",
                     "introduced":  {
@@ -221,27 +221,27 @@
     "summary":  "Bolts from this Corpus bow deliver a one-two punch of an icy pulse, followed by a conventional explosion. Excess ammo picked up for other weapons will be converted into charges for the Lenz. \n\nWarning: Safety-protocols do not exist on this prototype.",
     "stats":  {
                   "accuracy":  16.666666,
-                  "statusChance":  0.050000012,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "naramon",
                                      "naramon"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  0.60000002,
+                  "trigger":  "Charge",
                   "disposition":  3,
-                  "magazineSize":  1,
                   "fireRate":  1,
                   "critMultiplier":  2,
+                  "masteryReq":  8,
                   "totalDamage":  60,
                   "vaulted":  null,
-                  "masteryReq":  8,
-                  "slot":  "primary",
+                  "statusChance":  0.050000012,
+                  "reloadTime":  0.60000002,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Charge",
+                  "slot":  "primary",
                   "critChance":  0.5,
+                  "magazineSize":  1,
                   "weaponClass":  "Bow",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

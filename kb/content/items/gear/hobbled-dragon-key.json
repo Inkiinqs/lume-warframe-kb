@@ -1,25 +1,27 @@
 {
-    "id":  "gear.hobbled-dragon-key",
-    "name":  "Hobbled Dragon Key",
-    "category":  "gear",
-    "subCategory":  "gear",
-    "aliases":  [
-                    "/Lotus/Types/Restoratives/Upgraded/SpeedDebuffKey"
-                ],
-    "summary":  "Speed is greatly reduced while key is equipped.\n\nBlueprint can be obtained via the Orokin Lab in a Clan Dojo.",
     "description":  "Speed is greatly reduced while key is equipped.\n\nBlueprint can be obtained via the Orokin Lab in a Clan Dojo.",
-    "stats":  {
-                  "type":  "Gear",
-                  "tradable":  false,
-                  "masterable":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
+                    }
+                ],
+    "name":  "Hobbled Dragon Key",
+    "subCategory":  "gear",
     "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "hobbled-dragon-key-043e28f450.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
-                                       "buildPrice":  500,
                                        "buildTime":  60,
-                                       "skipBuildTimePrice":  1,
+                                       "buildPrice":  500,
                                        "buildQuantity":  1,
-                                       "consumeOnBuild":  false,
                                        "components":  [
                                                           {
                                                               "name":  "Blueprint",
@@ -51,36 +53,34 @@
 
                                                                         ]
                                                           }
-                                                      ]
-                                   },
-                      "drops":  [
-                                    null
-                                ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "hobbled-dragon-key-043e28f450.png"
-                               }
+                                                      ],
+                                       "skipBuildTimePrice":  1,
+                                       "consumeOnBuild":  false
+                                   }
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-
-                },
-    "tags":  [
-                 "gear",
-                 "gear"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Gear.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Types/Restoratives/Upgraded/SpeedDebuffKey"
+                ],
+    "tags":  [
+                 "gear",
+                 "gear"
+             ],
+    "category":  "gear",
+    "relationships":  [
+
+                      ],
+    "id":  "gear.hobbled-dragon-key",
+    "release":  {
+
+                },
+    "summary":  "Speed is greatly reduced while key is equipped.\n\nBlueprint can be obtained via the Orokin Lab in a Clan Dojo.",
+    "stats":  {
+                  "tradable":  false,
+                  "type":  "Gear",
+                  "masterable":  false
+              }
 }

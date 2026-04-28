@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.cernos",
+    "description":  "Evoking the design of ancient bows, the high impact Cernos is perfect for hunting down highly shielded enemies.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -114,12 +116,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  342,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  19,
@@ -127,18 +133,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  19.000004,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  380,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             342,
                                             19,
@@ -161,20 +174,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Bows/AntlerBow/AntlerBow"
@@ -187,7 +187,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Evoking the design of ancient bows, the high impact Cernos is perfect for hunting down highly shielded enemies.",
+    "id":  "weapon.cernos",
     "release":  {
                     "releaseDate":  "2013-11-27",
                     "introduced":  {
@@ -204,26 +204,26 @@
     "summary":  "Evoking the design of ancient bows, the high impact Cernos is perfect for hunting down highly shielded enemies.",
     "stats":  {
                   "accuracy":  16.666666,
-                  "statusChance":  0.18000001,
+                  "noise":  "Silent",
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "noise":  "Silent",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  0.60000002,
+                  "trigger":  "Charge",
                   "disposition":  4,
-                  "magazineSize":  1,
                   "fireRate":  1,
                   "critMultiplier":  2,
+                  "masteryReq":  6,
                   "totalDamage":  380,
                   "vaulted":  null,
-                  "masteryReq":  6,
-                  "slot":  "primary",
+                  "statusChance":  0.18000001,
+                  "reloadTime":  0.60000002,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Charge",
+                  "slot":  "primary",
                   "critChance":  0.36000001,
+                  "magazineSize":  1,
                   "weaponClass":  "Bow",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

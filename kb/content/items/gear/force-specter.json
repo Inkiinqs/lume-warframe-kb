@@ -1,25 +1,27 @@
 {
-    "id":  "gear.force-specter",
-    "name":  "Force Specter",
-    "category":  "gear",
-    "subCategory":  "gear",
-    "aliases":  [
-                    "/Lotus/Types/Restoratives/Consumable/GoldSpectre"
-                ],
-    "summary":  "A replicant cloned from a Warframe which can be deployed to assist Tenno on their missions.",
     "description":  "A replicant cloned from a Warframe which can be deployed to assist Tenno on their missions.",
-    "stats":  {
-                  "type":  "Gear",
-                  "tradable":  false,
-                  "masterable":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
+                    }
+                ],
+    "name":  "Force Specter",
+    "subCategory":  "gear",
     "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "force-specter-bc1d6fcdc3.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
-                                       "buildPrice":  50000,
                                        "buildTime":  28800,
-                                       "skipBuildTimePrice":  20,
+                                       "buildPrice":  50000,
                                        "buildQuantity":  3,
-                                       "consumeOnBuild":  true,
                                        "components":  [
                                                           {
                                                               "name":  "Alloy Plate",
@@ -178,36 +180,34 @@
 
                                                                         ]
                                                           }
-                                                      ]
-                                   },
-                      "drops":  [
-                                    null
-                                ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "force-specter-bc1d6fcdc3.png"
-                               }
+                                                      ],
+                                       "skipBuildTimePrice":  20,
+                                       "consumeOnBuild":  true
+                                   }
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-
-                },
-    "tags":  [
-                 "gear",
-                 "gear"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Gear.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Types/Restoratives/Consumable/GoldSpectre"
+                ],
+    "tags":  [
+                 "gear",
+                 "gear"
+             ],
+    "category":  "gear",
+    "relationships":  [
+
+                      ],
+    "id":  "gear.force-specter",
+    "release":  {
+
+                },
+    "summary":  "A replicant cloned from a Warframe which can be deployed to assist Tenno on their missions.",
+    "stats":  {
+                  "tradable":  false,
+                  "type":  "Gear",
+                  "masterable":  false
+              }
 }

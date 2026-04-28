@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.atterax",
+    "description":  "A multi-bladed whip that is adept at flaying skin from bone. In extreme cases, disobedient Grineer are sentenced to death by Atterax.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  451,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -128,12 +130,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  258,
+                      "slamRadius":  5,
                       "blockingAngle":  45,
-                      "sentinel":  null,
+                      "heavySlamRadius":  6,
+                      "stancePolarity":  "vazarin",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  6.4500003,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  6.4500003,
@@ -141,18 +147,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  116.1,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  129,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.4963856,
+                      "heavyAttackDamage":  581,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  387,
+                      "comboDuration":  5,
+                      "slideAttack":  258,
+                      "windUp":  0.40000001,
+                      "followThrough":  0.5,
+                      "slamAttack":  387,
                       "damagePerShot":  [
                                             6.4500003,
                                             6.4500003,
@@ -175,20 +188,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.4963856,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  581,
-                      "followThrough":  0.5,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  387,
-                      "stancePolarity":  "vazarin",
-                      "slideAttack":  258,
-                      "windUp":  0.40000001,
-                      "slamRadius":  5,
-                      "slamAttack":  387,
-                      "heavySlamRadius":  6
+                      "heavySlamAttack":  451
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/Melee/GrineerWhip/GrineerWhip"
@@ -201,7 +201,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A multi-bladed whip that is adept at flaying skin from bone. In extreme cases, disobedient Grineer are sentenced to death by Atterax.",
+    "id":  "weapon.atterax",
     "release":  {
                     "releaseDate":  "2014-09-17",
                     "introduced":  {
@@ -218,26 +218,26 @@
     "summary":  "A multi-bladed whip that is adept at flaying skin from bone. In extreme cases, disobedient Grineer are sentenced to death by Atterax.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.19999999,
+                  "noise":  null,
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  4,
-                  "magazineSize":  null,
                   "fireRate":  0.91666669,
                   "critMultiplier":  3,
+                  "masteryReq":  5,
                   "totalDamage":  129,
                   "vaulted":  null,
-                  "masteryReq":  5,
-                  "slot":  "melee",
+                  "statusChance":  0.19999999,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.25,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

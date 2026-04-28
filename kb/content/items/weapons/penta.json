@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.penta",
+    "description":  "The Penta Launcher fires up to five grenades that can be remotely triggered at just the right moment.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  25000,
@@ -183,12 +185,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  75,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  0,
@@ -196,18 +202,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  425,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  350,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             75,
                                             0,
@@ -230,20 +243,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Corpus/LongGuns/GrenadeLauncher/GrenadeLauncher"
@@ -256,7 +256,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The Penta Launcher fires up to five grenades that can be remotely triggered at just the right moment.",
+    "id":  "weapon.penta",
     "release":  {
                     "releaseDate":  "2013-12-12",
                     "introduced":  {
@@ -273,26 +273,26 @@
     "summary":  "The Penta Launcher fires up to five grenades that can be remotely triggered at just the right moment.",
     "stats":  {
                   "accuracy":  100,
-                  "statusChance":  0.10000002,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2.5,
+                  "trigger":  "Active",
                   "disposition":  5,
-                  "magazineSize":  5,
                   "fireRate":  1,
                   "critMultiplier":  2,
+                  "masteryReq":  6,
                   "totalDamage":  425,
                   "vaulted":  null,
-                  "masteryReq":  6,
-                  "slot":  "primary",
+                  "statusChance":  0.10000002,
+                  "reloadTime":  2.5,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Active",
+                  "slot":  "primary",
                   "critChance":  0.1,
+                  "magazineSize":  5,
                   "weaponClass":  "Launcher",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

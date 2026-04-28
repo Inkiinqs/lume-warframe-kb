@@ -1,5 +1,5 @@
 {
-    "description":  "Unload deadly accurate bursts of mayhem.",
+    "id":  "weapon.cyngas",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -8,6 +8,10 @@
                 ],
     "name":  "Cyngas",
     "subCategory":  "archgun-arch-gun",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD archgun static data."
+              ],
     "mechanics":  {
                       "heavySlamAttack":  null,
                       "crafting":  {
@@ -90,7 +94,6 @@
                                    "imageName":  "cyngas-842f5f0899.png",
                                    "available":  true
                                },
-                      "followThrough":  null,
                       "attacks":  [
                                       {
                                           "name":  "Normal Attack",
@@ -116,12 +119,13 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  39.600002,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  39.600002,
@@ -129,30 +133,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  40.799995,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  120,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             39.600002,
                                             39.600002,
@@ -174,12 +164,22 @@
                                             0,
                                             0,
                                             0
-                                        ]
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
                   },
-    "notes":  [
-                  "Normalized from static import source.",
-                  "Converted from WFCD archgun static data."
-              ],
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Archwing/Primary/ArchBurstGun/ArchBurstGun"
                 ],
@@ -191,7 +191,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.cyngas",
+    "description":  "Unload deadly accurate bursts of mayhem.",
     "release":  {
                     "releaseDate":  "2016-07-08",
                     "introduced":  {
@@ -213,23 +213,23 @@
                   "polarities":  [
                                      null
                                  ],
+                  "masterable":  true,
                   "tradable":  false,
-                  "vaulted":  null,
-                  "totalDamage":  120,
+                  "trigger":  "Burst",
                   "disposition":  4,
-                  "magazineSize":  30,
                   "fireRate":  9.09091,
                   "critMultiplier":  2.2,
-                  "reloadTime":  1.25,
+                  "totalDamage":  120,
+                  "vaulted":  null,
                   "masteryReq":  4,
-                  "statusChance":  0.30000001,
-                  "slot":  "archgun",
+                  "reloadTime":  1.25,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Burst",
+                  "slot":  "archgun",
                   "critChance":  0.2,
+                  "magazineSize":  30,
                   "weaponClass":  "Arch-Gun",
-                  "masterable":  true,
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "vaultDate":  null,
+                  "statusChance":  0.30000001,
+                  "multishot":  1
               }
 }

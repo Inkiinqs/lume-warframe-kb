@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.akbronco",
+    "description":  "A Bronco equipped in each hand.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -106,12 +108,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  33.600002,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  4.2000003,
@@ -119,18 +125,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  4.1999984,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  42,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             33.600002,
                                             4.2000003,
@@ -153,20 +166,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Akimbo/AkimboShotGun"
@@ -179,7 +179,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A Bronco equipped in each hand.",
+    "id":  "weapon.akbronco",
     "release":  {
                     "releaseDate":  "2013-05-23",
                     "introduced":  {
@@ -197,26 +197,26 @@
     "summary":  "A Bronco equipped in each hand.",
     "stats":  {
                   "accuracy":  3.7037036,
-                  "statusChance":  0.031428576,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2,
+                  "trigger":  "Semi",
                   "disposition":  5,
-                  "magazineSize":  4,
                   "fireRate":  5.0000005,
                   "critMultiplier":  2,
+                  "masteryReq":  2,
                   "totalDamage":  42,
                   "vaulted":  null,
-                  "masteryReq":  2,
-                  "slot":  "secondary",
+                  "statusChance":  0.031428576,
+                  "reloadTime":  2,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "secondary",
                   "critChance":  0.059999999,
+                  "magazineSize":  4,
                   "weaponClass":  "Dual Pistols",
-                  "masterable":  true,
                   "multishot":  7,
                   "vaultDate":  null
               }

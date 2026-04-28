@@ -1,5 +1,5 @@
 {
-    "description":  "Shade Prime’s signature weapon fires laser bursts.",
+    "id":  "weapon.burst-laser-prime",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -8,6 +8,10 @@
                 ],
     "name":  "Burst Laser Prime",
     "subCategory":  "companion-companion-weapon",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD companion static data."
+              ],
     "mechanics":  {
                       "heavySlamAttack":  null,
                       "crafting":  {
@@ -35,7 +39,6 @@
                                    "imageName":  "burst-laser-prime-c2b712f0d2.png",
                                    "available":  true
                                },
-                      "followThrough":  null,
                       "attacks":  [
                                       {
                                           "name":  "Normal Attack",
@@ -56,12 +59,13 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "sentinel":  true,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  2.5,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  21.25,
@@ -69,30 +73,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  1.2499988,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  24.999998,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "sentinel":  true,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             2.5,
                                             21.25,
@@ -114,12 +104,22 @@
                                             0,
                                             0,
                                             0
-                                        ]
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
                   },
-    "notes":  [
-                  "Normalized from static import source.",
-                  "Converted from WFCD companion static data."
-              ],
     "aliases":  [
                     "/Lotus/Types/Sentinels/SentinelWeapons/PrimeBurstLaserPistol"
                 ],
@@ -131,7 +131,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.burst-laser-prime",
+    "description":  "Shade Prime’s signature weapon fires laser bursts.",
     "release":  {
                     "releaseDate":  "2023-03-15",
                     "introduced":  {
@@ -151,23 +151,23 @@
                   "polarities":  [
                                      null
                                  ],
+                  "masterable":  true,
                   "tradable":  false,
-                  "vaulted":  false,
-                  "totalDamage":  24.999998,
+                  "trigger":  "Burst",
                   "disposition":  5,
-                  "magazineSize":  15,
                   "fireRate":  3,
                   "critMultiplier":  2.3,
-                  "reloadTime":  0.0099999998,
+                  "totalDamage":  24.999998,
+                  "vaulted":  false,
                   "masteryReq":  0,
-                  "statusChance":  0.14999998,
-                  "slot":  "companion",
+                  "reloadTime":  0.0099999998,
                   "estimatedVaultDate":  "2024-12-15",
-                  "trigger":  "Burst",
+                  "slot":  "companion",
                   "critChance":  0.2,
+                  "magazineSize":  15,
                   "weaponClass":  "Companion Weapon",
-                  "masterable":  true,
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "vaultDate":  null,
+                  "statusChance":  0.14999998,
+                  "multishot":  1
               }
 }

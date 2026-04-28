@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.scindo-prime",
+    "description":  "An ancient executioners weapon, the honor of decapitation by the Scindo Prime was reserved for the Orokin\u0027s most respected enemies.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  1250,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -367,12 +369,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  500,
+                      "slamRadius":  8,
                       "blockingAngle":  55,
-                      "sentinel":  null,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  25,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  25,
@@ -380,18 +386,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  200,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  250,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.7,
+                      "heavyAttackDamage":  1500,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  750,
+                      "comboDuration":  5,
+                      "slideAttack":  500,
+                      "windUp":  1.1,
+                      "followThrough":  0.60000002,
+                      "slamAttack":  750,
                       "damagePerShot":  [
                                             25,
                                             25,
@@ -414,20 +427,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.7,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  1500,
-                      "followThrough":  0.60000002,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  750,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  500,
-                      "windUp":  1.1,
-                      "slamRadius":  8,
-                      "slamAttack":  750,
-                      "heavySlamRadius":  9
+                      "heavySlamAttack":  1250
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Axe/PrimeScindo/PrimeScindoWeapon"
@@ -440,7 +440,7 @@
     "relationships":  [
 
                       ],
-    "description":  "An ancient executioners weapon, the honor of decapitation by the Scindo Prime was reserved for the Orokin\u0027s most respected enemies.",
+    "id":  "weapon.scindo-prime",
     "release":  {
                     "releaseDate":  "2014-09-24",
                     "introduced":  {
@@ -457,26 +457,26 @@
     "summary":  "An ancient executioners weapon, the honor of decapitation by the Scindo Prime was reserved for the Orokin\u0027s most respected enemies.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.24000001,
+                  "noise":  null,
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  4,
-                  "magazineSize":  null,
                   "fireRate":  0.9666667,
                   "critMultiplier":  2.4000001,
+                  "masteryReq":  8,
                   "totalDamage":  250,
                   "vaulted":  true,
-                  "masteryReq":  8,
-                  "slot":  "melee",
+                  "statusChance":  0.24000001,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  "2016-08-23",
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.25999999,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  "2016-08-23"
               }

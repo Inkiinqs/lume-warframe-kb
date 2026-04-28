@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.akbolto-prime",
+    "description":  "Gilded rails adorn these two vicious bolt launching pistols.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -756,12 +758,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  4.4000001,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  37.84,
@@ -769,18 +775,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  1.7599983,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  44,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             4.4000001,
                                             37.84,
@@ -803,20 +816,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Pistols/PrimeAkbolto/PrimeAkBoltoWeapon"
@@ -829,7 +829,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Gilded rails adorn these two vicious bolt launching pistols.",
+    "id":  "weapon.akbolto-prime",
     "release":  {
                     "releaseDate":  "2017-12-12",
                     "introduced":  {
@@ -846,29 +846,29 @@
     "summary":  "Gilded rails adorn these two vicious bolt launching pistols.",
     "stats":  {
                   "accuracy":  26.666666,
-                  "statusChance":  0.13999999,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "naramon",
                                      "madurai",
                                      "madurai",
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  1.3,
+                  "trigger":  "Semi",
                   "disposition":  4,
-                  "magazineSize":  40,
                   "fireRate":  5.0000005,
                   "critMultiplier":  2.8,
+                  "masteryReq":  13,
                   "totalDamage":  44,
                   "vaulted":  true,
-                  "masteryReq":  13,
-                  "slot":  "secondary",
+                  "statusChance":  0.13999999,
+                  "reloadTime":  1.3,
                   "estimatedVaultDate":  "2019-10-01",
-                  "trigger":  "Semi",
+                  "slot":  "secondary",
                   "critChance":  0.36000001,
+                  "magazineSize":  40,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  "2019-10-01"
               }

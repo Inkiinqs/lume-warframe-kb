@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.zylok",
+    "description":  "Hammer the enemy with this light-bodied heavy hitter. Featuring a double-action trigger that fires hard and fast. ",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -85,12 +87,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  44.799999,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  16.799999,
@@ -98,18 +104,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  78.400002,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  140,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             44.799999,
                                             16.799999,
@@ -132,20 +145,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Pistols/ConclaveLeverPistol/ConclaveLeverPistol"
@@ -158,7 +158,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Hammer the enemy with this light-bodied heavy hitter. Featuring a double-action trigger that fires hard and fast. ",
+    "id":  "weapon.zylok",
     "release":  {
                     "releaseDate":  "2018-08-30",
                     "introduced":  {
@@ -175,26 +175,26 @@
     "summary":  "Hammer the enemy with this light-bodied heavy hitter. Featuring a double-action trigger that fires hard and fast. ",
     "stats":  {
                   "accuracy":  23.529411,
-                  "statusChance":  0.25999999,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  1.2,
+                  "trigger":  "Duplex",
                   "disposition":  4,
-                  "magazineSize":  8,
                   "fireRate":  1.5000001,
                   "critMultiplier":  2,
+                  "masteryReq":  6,
                   "totalDamage":  140,
                   "vaulted":  null,
-                  "masteryReq":  6,
-                  "slot":  "secondary",
+                  "statusChance":  0.25999999,
+                  "reloadTime":  1.2,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Duplex",
+                  "slot":  "secondary",
                   "critChance":  0.079999998,
+                  "magazineSize":  8,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

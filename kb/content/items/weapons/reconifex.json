@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.reconifex",
+    "description":  "Cyte-09\u0027s signature rifle is an ideal match for forceful gunners. A precisely timed reload increases reload speed and infuses the new magazine with Heat Damage.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  30000,
@@ -213,12 +215,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  16,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  24,
@@ -226,18 +232,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  40,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             16,
                                             24,
@@ -260,20 +273,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/LongGuns/TnBeltFedRifle/TnBeltFedRifleWeapon"
@@ -286,7 +286,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Cyte-09\u0027s signature rifle is an ideal match for forceful gunners. A precisely timed reload increases reload speed and infuses the new magazine with Heat Damage.",
+    "id":  "weapon.reconifex",
     "release":  {
                     "releaseDate":  "2024-12-13",
                     "introduced":  {
@@ -304,27 +304,27 @@
     "summary":  "Cyte-09\u0027s signature rifle is an ideal match for forceful gunners. A precisely timed reload increases reload speed and infuses the new magazine with Heat Damage.",
     "stats":  {
                   "accuracy":  33.333332,
-                  "statusChance":  0.15999997,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "vazarin",
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  5,
+                  "trigger":  "Auto",
                   "disposition":  3,
-                  "magazineSize":  200,
                   "fireRate":  8,
                   "critMultiplier":  2.8,
+                  "masteryReq":  14,
                   "totalDamage":  40,
                   "vaulted":  null,
-                  "masteryReq":  14,
-                  "slot":  "primary",
+                  "statusChance":  0.15999997,
+                  "reloadTime":  5,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "primary",
                   "critChance":  0.28,
+                  "magazineSize":  200,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

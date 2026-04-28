@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.atomos",
+    "description":  "This particle cannon generates a condensed beam of super-heated plasma designed to melt rock to ore, and enemies to molten slag.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  60000,
@@ -123,12 +125,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  0,
+                                     "heat":  29,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  0,
@@ -136,18 +142,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  29,
+                                     "radiation":  0,
                                      "total":  29,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -170,20 +183,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/Pistols/HeatGun/GrnHeatGun"
@@ -196,7 +196,7 @@
     "relationships":  [
 
                       ],
-    "description":  "This particle cannon generates a condensed beam of super-heated plasma designed to melt rock to ore, and enemies to molten slag.",
+    "id":  "weapon.atomos",
     "release":  {
                     "releaseDate":  "2015-05-12",
                     "introduced":  {
@@ -213,26 +213,26 @@
     "summary":  "This particle cannon generates a condensed beam of super-heated plasma designed to melt rock to ore, and enemies to molten slag.",
     "stats":  {
                   "accuracy":  12.5,
-                  "statusChance":  0.20999998,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "vazarin"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2,
+                  "trigger":  "Held",
                   "disposition":  3,
-                  "magazineSize":  70,
                   "fireRate":  8,
                   "critMultiplier":  1.7,
+                  "masteryReq":  5,
                   "totalDamage":  29,
                   "vaulted":  null,
-                  "masteryReq":  5,
-                  "slot":  "secondary",
+                  "statusChance":  0.20999998,
+                  "reloadTime":  2,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Held",
+                  "slot":  "secondary",
                   "critChance":  0.15000001,
+                  "magazineSize":  70,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.sporothrix",
+    "description":  "This long-distance rifle fires a razor-sharp, virus-soaked barb that continues to attack its host before violently erupting in a spore-laden mist. Scoped headshots increase lethality.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -260,12 +262,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  100.17001,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  115.01,
@@ -273,18 +279,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  155.81998,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  371,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             100.17001,
                                             115.01,
@@ -307,20 +320,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Infested/LongGuns/InfSniperRifle/InfSniperRifle"
@@ -333,7 +333,7 @@
     "relationships":  [
 
                       ],
-    "description":  "This long-distance rifle fires a razor-sharp, virus-soaked barb that continues to attack its host before violently erupting in a spore-laden mist. Scoped headshots increase lethality.",
+    "id":  "weapon.sporothrix",
     "release":  {
                     "releaseDate":  "2020-11-19",
                     "introduced":  {
@@ -350,26 +350,26 @@
     "summary":  "This long-distance rifle fires a razor-sharp, virus-soaked barb that continues to attack its host before violently erupting in a spore-laden mist. Scoped headshots increase lethality.",
     "stats":  {
                   "accuracy":  100,
-                  "statusChance":  0.52999997,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "vazarin"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2.7,
+                  "trigger":  "Semi",
                   "disposition":  4,
-                  "magazineSize":  9,
                   "fireRate":  1.8333334,
                   "critMultiplier":  3,
+                  "masteryReq":  13,
                   "totalDamage":  371,
                   "vaulted":  null,
-                  "masteryReq":  13,
-                  "slot":  "primary",
+                  "statusChance":  0.52999997,
+                  "reloadTime":  2.7,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "primary",
                   "critChance":  0.0099999998,
+                  "magazineSize":  9,
                   "weaponClass":  "Sniper",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.vastilok",
+    "description":  "Slash and blast with this heavy Gunblade of brutal Grineer design. High slash damage paired with a heavy shotgun attack.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  279,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -107,12 +109,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  558,
+                      "slamRadius":  5,
                       "blockingAngle":  45,
-                      "sentinel":  null,
+                      "heavySlamRadius":  7,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  19.530001,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  25.110001,
@@ -120,18 +126,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  234.36002,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  279,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1,
+                      "heavyAttackDamage":  1395,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  837,
+                      "comboDuration":  5,
+                      "slideAttack":  558,
+                      "windUp":  0.40000001,
+                      "followThrough":  0.5,
+                      "slamAttack":  837,
                       "damagePerShot":  [
                                             19.530001,
                                             25.110001,
@@ -154,20 +167,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  1,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  1395,
-                      "followThrough":  0.5,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  837,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  558,
-                      "windUp":  0.40000001,
-                      "slamRadius":  5,
-                      "slamAttack":  837,
-                      "heavySlamRadius":  7
+                      "heavySlamAttack":  279
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/Melee/GunBlade/GrnGunBlade/GrnGunblade"
@@ -180,7 +180,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Slash and blast with this heavy Gunblade of brutal Grineer design. High slash damage paired with a heavy shotgun attack.",
+    "id":  "weapon.vastilok",
     "release":  {
                     "releaseDate":  "2021-07-17",
                     "introduced":  {
@@ -196,26 +196,26 @@
     "summary":  "Slash and blast with this heavy Gunblade of brutal Grineer design. High slash damage paired with a heavy shotgun attack.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.31,
+                  "noise":  null,
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  3,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  1.7,
+                  "masteryReq":  9,
                   "totalDamage":  279,
                   "vaulted":  null,
-                  "masteryReq":  9,
-                  "slot":  "melee",
+                  "statusChance":  0.31,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.19,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

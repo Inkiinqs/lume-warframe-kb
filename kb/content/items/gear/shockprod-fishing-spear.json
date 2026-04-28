@@ -1,25 +1,27 @@
 {
-    "id":  "gear.shockprod-fishing-spear",
-    "name":  "Shockprod Fishing Spear",
-    "category":  "gear",
-    "subCategory":  "gear",
-    "aliases":  [
-                    "/Lotus/Types/Restoratives/Consumable/RobofishSpearB"
-                ],
-    "summary":  "Purpose built to recover Servofish without damage. Delivers a disabling electromagnetic pulse after a successful hit if timed correctly.\n\nObtained from The Business in Fortuna. This spear is most effective on Servofish found in the Orb Vallis (Venus). ",
     "description":  "Purpose built to recover Servofish without damage. Delivers a disabling electromagnetic pulse after a successful hit if timed correctly.\n\nObtained from The Business in Fortuna. This spear is most effective on Servofish found in the Orb Vallis (Venus). ",
-    "stats":  {
-                  "type":  "Gear",
-                  "tradable":  false,
-                  "masterable":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
+                    }
+                ],
+    "name":  "Shockprod Fishing Spear",
+    "subCategory":  "gear",
     "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "shockprod-fishing-spear-198ae52fbc.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
-                                       "buildPrice":  2000,
                                        "buildTime":  3600,
-                                       "skipBuildTimePrice":  5,
+                                       "buildPrice":  2000,
                                        "buildQuantity":  1,
-                                       "consumeOnBuild":  false,
                                        "components":  [
                                                           {
                                                               "name":  "Blueprint",
@@ -71,36 +73,34 @@
 
                                                                         ]
                                                           }
-                                                      ]
-                                   },
-                      "drops":  [
-                                    null
-                                ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "shockprod-fishing-spear-198ae52fbc.png"
-                               }
+                                                      ],
+                                       "skipBuildTimePrice":  5,
+                                       "consumeOnBuild":  false
+                                   }
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-
-                },
-    "tags":  [
-                 "gear",
-                 "gear"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Gear.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Types/Restoratives/Consumable/RobofishSpearB"
+                ],
+    "tags":  [
+                 "gear",
+                 "gear"
+             ],
+    "category":  "gear",
+    "relationships":  [
+
+                      ],
+    "id":  "gear.shockprod-fishing-spear",
+    "release":  {
+
+                },
+    "summary":  "Purpose built to recover Servofish without damage. Delivers a disabling electromagnetic pulse after a successful hit if timed correctly.\n\nObtained from The Business in Fortuna. This spear is most effective on Servofish found in the Orb Vallis (Venus). ",
+    "stats":  {
+                  "tradable":  false,
+                  "type":  "Gear",
+                  "masterable":  false
+              }
 }

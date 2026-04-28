@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.mutalist-cernos",
+    "description":  "Overcome with Infestation, this bow\u0027s arrows now spread poisonous contagion to any surface they hit.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -130,12 +132,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  369,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  20.5,
@@ -143,18 +149,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  5,
                                      "puncture":  20.500006,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  415,
-                                     "toxin":  5,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             369,
                                             20.5,
@@ -177,20 +190,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Infested/Bow/InfCernosBow/InfCernos"
@@ -203,7 +203,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Overcome with Infestation, this bow\u0027s arrows now spread poisonous contagion to any surface they hit.",
+    "id":  "weapon.mutalist-cernos",
     "release":  {
                     "releaseDate":  "2016-03-04",
                     "introduced":  {
@@ -220,26 +220,26 @@
     "summary":  "Overcome with Infestation, this bow\u0027s arrows now spread poisonous contagion to any surface they hit.",
     "stats":  {
                   "accuracy":  16.666666,
-                  "statusChance":  0.49000001,
+                  "noise":  "Silent",
                   "polarities":  [
                                      "naramon"
                                  ],
-                  "noise":  "Silent",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  0.60000002,
+                  "trigger":  "Charge",
                   "disposition":  5,
-                  "magazineSize":  1,
                   "fireRate":  1,
                   "critMultiplier":  2,
+                  "masteryReq":  7,
                   "totalDamage":  415,
                   "vaulted":  null,
-                  "masteryReq":  7,
-                  "slot":  "primary",
+                  "statusChance":  0.49000001,
+                  "reloadTime":  0.60000002,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Charge",
+                  "slot":  "primary",
                   "critChance":  0.15000001,
+                  "magazineSize":  1,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

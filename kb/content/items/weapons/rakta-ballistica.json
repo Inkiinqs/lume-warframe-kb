@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.rakta-ballistica",
+    "description":  "This modified ballistica is the weapon of choice used by Red Veil Assassins to take out high-priority marks.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,14 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    {
+                                        "location":  "Red Veil, Exalted",
+                                        "type":  "Rakta Ballistica",
+                                        "chance":  100,
+                                        "rarity":  "Common"
+                                    }
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -74,12 +81,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  15,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  270,
@@ -87,18 +98,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  15.000004,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  300,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             15,
                                             270,
@@ -121,25 +139,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    {
-                                        "location":  "Red Veil, Exalted",
-                                        "type":  "Rakta Ballistica",
-                                        "chance":  100,
-                                        "rarity":  "Common"
-                                    }
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Syndicates/RedVeil/Pistols/RVBallistica"
@@ -152,7 +152,7 @@
     "relationships":  [
 
                       ],
-    "description":  "This modified ballistica is the weapon of choice used by Red Veil Assassins to take out high-priority marks.",
+    "id":  "weapon.rakta-ballistica",
     "release":  {
                     "releaseDate":  "2014-11-27",
                     "introduced":  {
@@ -169,27 +169,27 @@
     "summary":  "This modified ballistica is the weapon of choice used by Red Veil Assassins to take out high-priority marks.",
     "stats":  {
                   "accuracy":  4,
-                  "statusChance":  0.10000002,
+                  "noise":  "Silent",
                   "polarities":  [
                                      "vazarin",
                                      "madurai"
                                  ],
-                  "noise":  "Silent",
+                  "masterable":  true,
                   "tradable":  true,
-                  "reloadTime":  2,
+                  "trigger":  "Charge",
                   "disposition":  4,
-                  "magazineSize":  20,
                   "fireRate":  3.3333335,
                   "critMultiplier":  1.5,
+                  "masteryReq":  6,
                   "totalDamage":  300,
                   "vaulted":  null,
-                  "masteryReq":  6,
-                  "slot":  "secondary",
+                  "statusChance":  0.10000002,
+                  "reloadTime":  2,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Charge",
+                  "slot":  "secondary",
                   "critChance":  0.050000001,
+                  "magazineSize":  20,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.viper",
+    "description":  "A full-auto pistol known as the most compact and lightweight weapon of the Grineer arsenal. Though it has a small Magazine Capacity, the Viper has a very high Fire Rate and ultra-fast reload times thanks to a simplified magazine design.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -96,12 +98,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  10.200001,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  1.7,
@@ -109,18 +115,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  5.0999994,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  17,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             10.200001,
                                             1.7,
@@ -143,20 +156,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/GrineerPistol/GrineerLightPistol"
@@ -169,7 +169,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A full-auto pistol known as the most compact and lightweight weapon of the Grineer arsenal. Though it has a small Magazine Capacity, the Viper has a very high Fire Rate and ultra-fast reload times thanks to a simplified magazine design.",
+    "id":  "weapon.viper",
     "release":  {
                     "releaseDate":  "2013-03-18",
                     "introduced":  {
@@ -187,26 +187,26 @@
     "summary":  "A full-auto pistol known as the most compact and lightweight weapon of the Grineer arsenal. Though it has a small Magazine Capacity, the Viper has a very high Fire Rate and ultra-fast reload times thanks to a simplified magazine design.",
     "stats":  {
                   "accuracy":  15.384615,
-                  "statusChance":  0.11000001,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "naramon"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  0.69999999,
+                  "trigger":  "Auto",
                   "disposition":  5,
-                  "magazineSize":  14,
                   "fireRate":  14.383334,
                   "critMultiplier":  1.5,
+                  "masteryReq":  4,
                   "totalDamage":  17,
                   "vaulted":  null,
-                  "masteryReq":  4,
-                  "slot":  "secondary",
+                  "statusChance":  0.11000001,
+                  "reloadTime":  0.69999999,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "secondary",
                   "critChance":  0.15000001,
+                  "magazineSize":  14,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

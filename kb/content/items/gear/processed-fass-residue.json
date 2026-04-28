@@ -1,25 +1,27 @@
 {
-    "id":  "gear.processed-fass-residue",
-    "name":  "Processed Fass Residue",
-    "category":  "gear",
-    "subCategory":  "fish-bait",
-    "aliases":  [
-                    "/Lotus/Types/Game/FishBait/Infested/InfestedFishBaitB"
-                ],
-    "summary":  "Matter from the body of the Wyrm Fass, purged of toxins, and rendered usefully. Used to attract Aquapulmo and Flagellocanth in Cambion Drift surface hotspots, Aquapulmo only during Vome.\n\nObtained from Daughter in the Necralisk (Deimos).",
     "description":  "Matter from the body of the Wyrm Fass, purged of toxins, and rendered usefully. Used to attract Aquapulmo and Flagellocanth in Cambion Drift surface hotspots, Aquapulmo only during Vome.\n\nObtained from Daughter in the Necralisk (Deimos).",
-    "stats":  {
-                  "type":  "Fish Bait",
-                  "tradable":  false,
-                  "masterable":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
+                    }
+                ],
+    "name":  "Processed Fass Residue",
+    "subCategory":  "fish-bait",
     "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "processed-fass-residue-4c105e537f.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
-                                       "buildPrice":  30000,
                                        "buildTime":  43200,
-                                       "skipBuildTimePrice":  20,
+                                       "buildPrice":  30000,
                                        "buildQuantity":  1,
-                                       "consumeOnBuild":  true,
                                        "components":  [
                                                           {
                                                               "name":  "Blueprint",
@@ -41,36 +43,34 @@
 
                                                                         ]
                                                           }
-                                                      ]
-                                   },
-                      "drops":  [
-                                    null
-                                ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "processed-fass-residue-4c105e537f.png"
-                               }
+                                                      ],
+                                       "skipBuildTimePrice":  20,
+                                       "consumeOnBuild":  true
+                                   }
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-
-                },
-    "tags":  [
-                 "gear",
-                 "fish-bait"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Gear.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Types/Game/FishBait/Infested/InfestedFishBaitB"
+                ],
+    "tags":  [
+                 "gear",
+                 "fish-bait"
+             ],
+    "category":  "gear",
+    "relationships":  [
+
+                      ],
+    "id":  "gear.processed-fass-residue",
+    "release":  {
+
+                },
+    "summary":  "Matter from the body of the Wyrm Fass, purged of toxins, and rendered usefully. Used to attract Aquapulmo and Flagellocanth in Cambion Drift surface hotspots, Aquapulmo only during Vome.\n\nObtained from Daughter in the Necralisk (Deimos).",
+    "stats":  {
+                  "tradable":  false,
+                  "type":  "Fish Bait",
+                  "masterable":  false
+              }
 }

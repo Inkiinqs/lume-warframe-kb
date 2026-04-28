@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.mk1-braton",
+    "description":  "The MK1-Braton is the standard issue rifle for all Tenno. A versatile weapon that can be customized to support a wide variety of play styles.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -85,12 +87,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  4.5,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  4.5,
@@ -98,18 +104,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  9,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  18,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             4.5,
                                             4.5,
@@ -132,20 +145,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Rifle/StartingRifle"
@@ -158,7 +158,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The MK1-Braton is the standard issue rifle for all Tenno. A versatile weapon that can be customized to support a wide variety of play styles.",
+    "id":  "weapon.mk1-braton",
     "release":  {
                     "releaseDate":  "2012-10-25",
                     "introduced":  {
@@ -175,26 +175,26 @@
     "summary":  "The MK1-Braton is the standard issue rifle for all Tenno. A versatile weapon that can be customized to support a wide variety of play styles.",
     "stats":  {
                   "accuracy":  40,
-                  "statusChance":  0.050000012,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2,
+                  "trigger":  "Auto",
                   "disposition":  5,
-                  "magazineSize":  60,
                   "fireRate":  7.5000005,
                   "critMultiplier":  1.5,
+                  "masteryReq":  0,
                   "totalDamage":  18,
                   "vaulted":  null,
-                  "masteryReq":  0,
-                  "slot":  "primary",
+                  "statusChance":  0.050000012,
+                  "reloadTime":  2,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "primary",
                   "critChance":  0.079999998,
+                  "magazineSize":  60,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

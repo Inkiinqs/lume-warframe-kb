@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.mk1-kunai",
+    "description":  "The MK1-Kunai is the standard issue throwing knives for all Tenno.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -73,12 +75,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  4,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  30,
@@ -86,18 +92,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  5.999999,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  40,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             4,
                                             30,
@@ -120,20 +133,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/MK1Series/MK1Kunai"
@@ -146,7 +146,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The MK1-Kunai is the standard issue throwing knives for all Tenno.",
+    "id":  "weapon.mk1-kunai",
     "release":  {
                     "releaseDate":  "2014-07-18",
                     "introduced":  {
@@ -164,27 +164,27 @@
     "summary":  "The MK1-Kunai is the standard issue throwing knives for all Tenno.",
     "stats":  {
                   "accuracy":  100,
-                  "statusChance":  0.024999976,
+                  "noise":  "Silent",
                   "polarities":  [
                                      "madurai",
                                      "madurai"
                                  ],
-                  "noise":  "Silent",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  0.75,
+                  "trigger":  "Auto",
                   "disposition":  5,
-                  "magazineSize":  10,
                   "fireRate":  3.3333335,
                   "critMultiplier":  2,
+                  "masteryReq":  0,
                   "totalDamage":  40,
                   "vaulted":  null,
-                  "masteryReq":  0,
-                  "slot":  "secondary",
+                  "statusChance":  0.024999976,
+                  "reloadTime":  0.75,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "secondary",
                   "critChance":  0.050000001,
+                  "magazineSize":  10,
                   "weaponClass":  "Throwing",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

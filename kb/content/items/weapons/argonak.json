@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.argonak",
+    "description":  "Pick off targets by highlighting distant enemies using this Grineer rifle\u0027s advanced laser sighting system. Deadly in both single fire and automatic modes.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  30000,
@@ -109,12 +111,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  24.51,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  6.27,
@@ -122,18 +128,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  26.219999,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  57,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             24.51,
                                             6.27,
@@ -156,20 +169,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/LongGuns/LaserAimRifle/LaserAimRifle"
@@ -182,7 +182,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Pick off targets by highlighting distant enemies using this Grineer rifle\u0027s advanced laser sighting system. Deadly in both single fire and automatic modes.",
+    "id":  "weapon.argonak",
     "release":  {
                     "releaseDate":  "2017-10-12",
                     "introduced":  {
@@ -202,27 +202,27 @@
     "summary":  "Pick off targets by highlighting distant enemies using this Grineer rifle\u0027s advanced laser sighting system. Deadly in both single fire and automatic modes.",
     "stats":  {
                   "accuracy":  28.571428,
-                  "statusChance":  0.19,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai",
                                      "naramon"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2.4000001,
+                  "trigger":  "Semi",
                   "disposition":  4,
-                  "magazineSize":  43,
                   "fireRate":  4.3333335,
                   "critMultiplier":  2.3,
+                  "masteryReq":  7,
                   "totalDamage":  57,
                   "vaulted":  null,
-                  "masteryReq":  7,
-                  "slot":  "primary",
+                  "statusChance":  0.19,
+                  "reloadTime":  2.4000001,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "primary",
                   "critChance":  0.27000001,
+                  "magazineSize":  43,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

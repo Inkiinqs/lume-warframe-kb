@@ -1,25 +1,27 @@
 {
-    "id":  "gear.twilight-bait",
-    "name":  "Twilight Bait",
-    "category":  "gear",
-    "subCategory":  "fish",
-    "aliases":  [
-                    "/Lotus/Types/Game/FishBait/BothUncommonFishBaitItem"
-                ],
-    "summary":  "This bait attracts predatory fish that are active in the Plains of Eidolon during either day or night.\n\nObtained from Fisher Hai-Luk in Cetus (Earth). Attracts Sharrac and Karkina in the ocean.",
     "description":  "This bait attracts predatory fish that are active in the Plains of Eidolon during either day or night.\n\nObtained from Fisher Hai-Luk in Cetus (Earth). Attracts Sharrac and Karkina in the ocean.",
-    "stats":  {
-                  "type":  "Fish",
-                  "tradable":  false,
-                  "masterable":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
+                    }
+                ],
+    "name":  "Twilight Bait",
+    "subCategory":  "fish",
     "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "twilight-bait-0b35277ebc.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
-                                       "buildPrice":  1000,
                                        "buildTime":  120,
-                                       "skipBuildTimePrice":  5,
+                                       "buildPrice":  1000,
                                        "buildQuantity":  20,
-                                       "consumeOnBuild":  false,
                                        "components":  [
                                                           {
                                                               "name":  "Blueprint",
@@ -71,36 +73,34 @@
 
                                                                         ]
                                                           }
-                                                      ]
-                                   },
-                      "drops":  [
-                                    null
-                                ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "twilight-bait-0b35277ebc.png"
-                               }
+                                                      ],
+                                       "skipBuildTimePrice":  5,
+                                       "consumeOnBuild":  false
+                                   }
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-
-                },
-    "tags":  [
-                 "gear",
-                 "fish"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Gear.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Types/Game/FishBait/BothUncommonFishBaitItem"
+                ],
+    "tags":  [
+                 "gear",
+                 "fish"
+             ],
+    "category":  "gear",
+    "relationships":  [
+
+                      ],
+    "id":  "gear.twilight-bait",
+    "release":  {
+
+                },
+    "summary":  "This bait attracts predatory fish that are active in the Plains of Eidolon during either day or night.\n\nObtained from Fisher Hai-Luk in Cetus (Earth). Attracts Sharrac and Karkina in the ocean.",
+    "stats":  {
+                  "tradable":  false,
+                  "type":  "Fish",
+                  "masterable":  false
+              }
 }

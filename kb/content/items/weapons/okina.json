@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.okina",
+    "description":  "Perforate enemies with these two needle-sharp sai.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  560,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -159,12 +161,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  280,
+                      "slamRadius":  6,
                       "blockingAngle":  50,
-                      "sentinel":  null,
+                      "heavySlamRadius":  7,
+                      "stancePolarity":  "vazarin",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  7,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  63,
@@ -172,18 +178,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  70,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  140,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.7,
+                      "heavyAttackDamage":  280,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  420,
+                      "comboDuration":  5,
+                      "slideAttack":  280,
+                      "windUp":  0.5,
+                      "followThrough":  0.80000001,
+                      "slamAttack":  280,
                       "damagePerShot":  [
                                             7,
                                             63,
@@ -206,20 +219,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.7,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  280,
-                      "followThrough":  0.80000001,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  420,
-                      "stancePolarity":  "vazarin",
-                      "slideAttack":  280,
-                      "windUp":  0.5,
-                      "slamRadius":  6,
-                      "slamAttack":  280,
-                      "heavySlamRadius":  7
+                      "heavySlamAttack":  560
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Swords/TennoSai/TennoSais"
@@ -232,7 +232,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Perforate enemies with these two needle-sharp sai.",
+    "id":  "weapon.okina",
     "release":  {
                     "releaseDate":  "2016-07-08",
                     "introduced":  {
@@ -250,26 +250,26 @@
     "summary":  "Perforate enemies with these two needle-sharp sai.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.19999999,
+                  "noise":  null,
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  1.0833334,
                   "critMultiplier":  2,
+                  "masteryReq":  5,
                   "totalDamage":  140,
                   "vaulted":  null,
-                  "masteryReq":  5,
-                  "slot":  "melee",
+                  "statusChance":  0.19999999,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.16,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

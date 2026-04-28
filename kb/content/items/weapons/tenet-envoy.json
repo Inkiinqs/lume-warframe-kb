@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.tenet-envoy",
+    "description":  "This discreet rocket launcher is equally at home in a board meeting or on a casual outing. Aimed rockets are wire-guided for greater accuracy, but travel more slowly. The patented Granum Attaché System reloads the weapon when holstered.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  60,
                                        "buildPrice":  10000,
@@ -72,12 +74,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  100,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  0,
@@ -85,18 +91,25 @@
                                      "cold":  640,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  740,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             100,
                                             0,
@@ -119,20 +132,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Corpus/LongGuns/CrpBriefcaseLauncher/CrpBriefcaseLauncher"
@@ -145,7 +145,7 @@
     "relationships":  [
 
                       ],
-    "description":  "This discreet rocket launcher is equally at home in a board meeting or on a casual outing. Aimed rockets are wire-guided for greater accuracy, but travel more slowly. The patented Granum Attaché System reloads the weapon when holstered.",
+    "id":  "weapon.tenet-envoy",
     "release":  {
                     "releaseDate":  "2021-07-06",
                     "introduced":  {
@@ -161,26 +161,26 @@
     "summary":  "This discreet rocket launcher is equally at home in a board meeting or on a casual outing. Aimed rockets are wire-guided for greater accuracy, but travel more slowly. The patented Granum Attaché System reloads the weapon when holstered.",
     "stats":  {
                   "accuracy":  100,
-                  "statusChance":  0.24000001,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  4,
+                  "trigger":  "Auto",
                   "disposition":  1,
-                  "magazineSize":  8,
                   "fireRate":  0.83333337,
                   "critMultiplier":  2.5999999,
+                  "masteryReq":  16,
                   "totalDamage":  740,
                   "vaulted":  null,
-                  "masteryReq":  16,
-                  "slot":  "primary",
+                  "statusChance":  0.24000001,
+                  "reloadTime":  4,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "primary",
                   "critChance":  0.28,
+                  "magazineSize":  8,
                   "weaponClass":  "Launcher",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

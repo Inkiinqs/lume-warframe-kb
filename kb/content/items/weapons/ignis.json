@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.ignis",
+    "description":  "Ignis produces a stream of intense heat.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  30000,
@@ -94,12 +96,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  0,
+                                     "heat":  33,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  0,
@@ -107,18 +113,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  33,
+                                     "radiation":  0,
                                      "total":  33,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -141,20 +154,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/ClanTech/Chemical/FlameThrower"
@@ -167,7 +167,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Ignis produces a stream of intense heat.",
+    "id":  "weapon.ignis",
     "release":  {
                     "releaseDate":  "2013-05-23",
                     "introduced":  {
@@ -185,26 +185,26 @@
     "summary":  "Ignis produces a stream of intense heat.",
     "stats":  {
                   "accuracy":  100,
-                  "statusChance":  0.26999998,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2,
+                  "trigger":  "Held",
                   "disposition":  1,
-                  "magazineSize":  150,
                   "fireRate":  8,
                   "critMultiplier":  2,
+                  "masteryReq":  5,
                   "totalDamage":  33,
                   "vaulted":  null,
-                  "masteryReq":  5,
-                  "slot":  "primary",
+                  "statusChance":  0.26999998,
+                  "reloadTime":  2,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Held",
+                  "slot":  "primary",
                   "critChance":  0.11,
+                  "magazineSize":  150,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

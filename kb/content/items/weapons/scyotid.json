@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.scyotid",
+    "description":  "Go on the hunt with Oraxia’s signature secondary. Fling a volley of toxin-laced barbs, or drop a cluster snare that scatters on impact, seizing nearby enemies and dragging them together.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -131,12 +133,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  8,
@@ -144,18 +150,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  32,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  40,
-                                     "toxin":  32,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             8,
@@ -178,20 +191,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/ThrowingWeapons/TnOraxiaFlechette/TnOraxiaFlechette"
@@ -204,7 +204,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Go on the hunt with Oraxia’s signature secondary. Fling a volley of toxin-laced barbs, or drop a cluster snare that scatters on impact, seizing nearby enemies and dragging them together.",
+    "id":  "weapon.scyotid",
     "release":  {
                     "releaseDate":  "2025-06-25",
                     "introduced":  {
@@ -222,26 +222,26 @@
     "summary":  "Go on the hunt with Oraxia’s signature secondary. Fling a volley of toxin-laced barbs, or drop a cluster snare that scatters on impact, seizing nearby enemies and dragging them together.",
     "stats":  {
                   "accuracy":  50,
-                  "statusChance":  0.18000001,
+                  "noise":  "Silent",
                   "polarities":  [
                                      "naramon"
                                  ],
-                  "noise":  "Silent",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  1.6,
+                  "trigger":  "Auto",
                   "disposition":  1,
-                  "magazineSize":  40,
                   "fireRate":  2.4000001,
                   "critMultiplier":  2.4000001,
+                  "masteryReq":  12,
                   "totalDamage":  40,
                   "vaulted":  null,
-                  "masteryReq":  12,
-                  "slot":  "secondary",
+                  "statusChance":  0.18000001,
+                  "reloadTime":  1.6,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "secondary",
                   "critChance":  0.23999999,
+                  "magazineSize":  40,
                   "weaponClass":  "Throwing",
-                  "masterable":  true,
                   "multishot":  4,
                   "vaultDate":  null
               }

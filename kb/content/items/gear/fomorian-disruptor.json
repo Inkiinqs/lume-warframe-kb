@@ -1,25 +1,27 @@
 {
-    "id":  "gear.fomorian-disruptor",
-    "name":  "Fomorian Disruptor",
-    "category":  "gear",
-    "subCategory":  "gear",
-    "aliases":  [
-                    "/Lotus/Types/Restoratives/Consumable/FomorianNegator"
-                ],
-    "summary":  "When activated, it disrupts a Fomorian core\u0027s Omega energy field, making it vulnerable. Also shields Tenno from Omega radiation.",
     "description":  "When activated, it disrupts a Fomorian core\u0027s Omega energy field, making it vulnerable. Also shields Tenno from Omega radiation.",
-    "stats":  {
-                  "type":  "Gear",
-                  "tradable":  false,
-                  "masterable":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
+                    }
+                ],
+    "name":  "Fomorian Disruptor",
+    "subCategory":  "gear",
     "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "fomorian-disruptor-e9cff95677.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
-                                       "buildPrice":  1250,
                                        "buildTime":  60,
-                                       "skipBuildTimePrice":  1,
+                                       "buildPrice":  1250,
                                        "buildQuantity":  1,
-                                       "consumeOnBuild":  false,
                                        "components":  [
                                                           {
                                                               "name":  "Blueprint",
@@ -61,36 +63,34 @@
 
                                                                         ]
                                                           }
-                                                      ]
-                                   },
-                      "drops":  [
-                                    null
-                                ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "fomorian-disruptor-e9cff95677.png"
-                               }
+                                                      ],
+                                       "skipBuildTimePrice":  1,
+                                       "consumeOnBuild":  false
+                                   }
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-
-                },
-    "tags":  [
-                 "gear",
-                 "gear"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Gear.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Types/Restoratives/Consumable/FomorianNegator"
+                ],
+    "tags":  [
+                 "gear",
+                 "gear"
+             ],
+    "category":  "gear",
+    "relationships":  [
+
+                      ],
+    "id":  "gear.fomorian-disruptor",
+    "release":  {
+
+                },
+    "summary":  "When activated, it disrupts a Fomorian core\u0027s Omega energy field, making it vulnerable. Also shields Tenno from Omega radiation.",
+    "stats":  {
+                  "tradable":  false,
+                  "type":  "Gear",
+                  "masterable":  false
+              }
 }

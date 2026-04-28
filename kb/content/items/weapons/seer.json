@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.seer",
+    "description":  "Captain Vor\u0027s prized Orokin-Grineer hybrid pistol has an average rate of fire, but it has high damage and superior zoom capabilities.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -103,12 +105,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  33.666668,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  33.666668,
@@ -116,18 +122,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  33.666664,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  101,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             33.666668,
                                             33.666668,
@@ -150,20 +163,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/GrineerPistol/GrnScopedPistolPlayer"
@@ -176,7 +176,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Captain Vor\u0027s prized Orokin-Grineer hybrid pistol has an average rate of fire, but it has high damage and superior zoom capabilities.",
+    "id":  "weapon.seer",
     "release":  {
                     "releaseDate":  "2013-07-13",
                     "introduced":  {
@@ -194,26 +194,26 @@
     "summary":  "Captain Vor\u0027s prized Orokin-Grineer hybrid pistol has an average rate of fire, but it has high damage and superior zoom capabilities.",
     "stats":  {
                   "accuracy":  16,
-                  "statusChance":  0.13,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2.8,
+                  "trigger":  "Semi",
                   "disposition":  5,
-                  "magazineSize":  8,
                   "fireRate":  2,
                   "critMultiplier":  1.5,
+                  "masteryReq":  0,
                   "totalDamage":  101,
                   "vaulted":  null,
-                  "masteryReq":  0,
-                  "slot":  "secondary",
+                  "statusChance":  0.13,
+                  "reloadTime":  2.8,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "secondary",
                   "critChance":  0.050000001,
+                  "magazineSize":  8,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

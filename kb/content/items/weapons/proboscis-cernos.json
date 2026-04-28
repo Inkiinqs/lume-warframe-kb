@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.proboscis-cernos",
+    "description":  "Each arrow spawns a swarm of sticky appendages on impact. These tongue-like probes latch onto nearby unfortunates and drag them close before bursting into a mess of diseased goo.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -134,12 +136,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  103.23,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  30.690001,
@@ -147,18 +153,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  145.08,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  279,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             103.23,
                                             30.690001,
@@ -181,20 +194,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Bows/PrimeDerelictCernos/DerelictCernos"
@@ -207,7 +207,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Each arrow spawns a swarm of sticky appendages on impact. These tongue-like probes latch onto nearby unfortunates and drag them close before bursting into a mess of diseased goo.",
+    "id":  "weapon.proboscis-cernos",
     "release":  {
                     "releaseDate":  "2020-11-19",
                     "introduced":  {
@@ -224,27 +224,27 @@
     "summary":  "Each arrow spawns a swarm of sticky appendages on impact. These tongue-like probes latch onto nearby unfortunates and drag them close before bursting into a mess of diseased goo.",
     "stats":  {
                   "accuracy":  16.666666,
-                  "statusChance":  0.43000001,
+                  "noise":  "Silent",
                   "polarities":  [
                                      "naramon",
                                      "naramon"
                                  ],
-                  "noise":  "Silent",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  0.60000002,
+                  "trigger":  "Charge",
                   "disposition":  3,
-                  "magazineSize":  1,
                   "fireRate":  1,
                   "critMultiplier":  1.9,
+                  "masteryReq":  15,
                   "totalDamage":  279,
                   "vaulted":  null,
-                  "masteryReq":  15,
-                  "slot":  "primary",
+                  "statusChance":  0.43000001,
+                  "reloadTime":  0.60000002,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Charge",
+                  "slot":  "primary",
                   "critChance":  0.07,
+                  "magazineSize":  1,
                   "weaponClass":  "Bow",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

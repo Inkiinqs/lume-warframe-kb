@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.snipetron",
+    "description":  "Manufactured by the Corpus, the Snipetron is a powerful and accurate rifle that sports optical zoom capabilities. Perfect for long range engagements.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -106,12 +108,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  18,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  144,
@@ -119,18 +125,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  17.999994,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  180,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             18,
                                             144,
@@ -153,20 +166,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Rifle/SniperRifle"
@@ -179,7 +179,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Manufactured by the Corpus, the Snipetron is a powerful and accurate rifle that sports optical zoom capabilities. Perfect for long range engagements.",
+    "id":  "weapon.snipetron",
     "release":  {
                     "releaseDate":  "2012-10-25",
                     "introduced":  {
@@ -196,26 +196,26 @@
     "summary":  "Manufactured by the Corpus, the Snipetron is a powerful and accurate rifle that sports optical zoom capabilities. Perfect for long range engagements.",
     "stats":  {
                   "accuracy":  13.333333,
-                  "statusChance":  0.12,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  3.5,
+                  "trigger":  "Semi",
                   "disposition":  4,
-                  "magazineSize":  4,
                   "fireRate":  2,
                   "critMultiplier":  1.5,
+                  "masteryReq":  0,
                   "totalDamage":  180,
                   "vaulted":  null,
-                  "masteryReq":  0,
-                  "slot":  "primary",
+                  "statusChance":  0.12,
+                  "reloadTime":  3.5,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "primary",
                   "critChance":  0.30000001,
+                  "magazineSize":  4,
                   "weaponClass":  "Sniper",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

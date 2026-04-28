@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.vulkar-wraith",
+    "description":  "A blood-red variant of this devastating sniper rifle.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -60,12 +62,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  245.7,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  27.300001,
@@ -73,18 +79,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  273,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             245.7,
                                             27.300001,
@@ -107,20 +120,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/LongGuns/GrineerSniperRifle/VulkarWraith"
@@ -133,7 +133,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A blood-red variant of this devastating sniper rifle.",
+    "id":  "weapon.vulkar-wraith",
     "release":  {
                     "releaseDate":  "2016-01-25",
                     "introduced":  {
@@ -149,26 +149,26 @@
     "summary":  "A blood-red variant of this devastating sniper rifle.",
     "stats":  {
                   "accuracy":  13.333333,
-                  "statusChance":  0.25,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  true,
-                  "reloadTime":  3,
+                  "trigger":  "Semi",
                   "disposition":  5,
-                  "magazineSize":  8,
                   "fireRate":  2,
                   "critMultiplier":  2,
+                  "masteryReq":  7,
                   "totalDamage":  273,
                   "vaulted":  null,
-                  "masteryReq":  7,
-                  "slot":  "primary",
+                  "statusChance":  0.25,
+                  "reloadTime":  3,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "primary",
                   "critChance":  0.2,
+                  "magazineSize":  8,
                   "weaponClass":  "Sniper",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

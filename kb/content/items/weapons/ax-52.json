@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.ax-52",
+    "description":  "This pre-Orokin weapon earned its popularity for its reliability in tough conditions. When hip-firing, its Ammo Efficiency increases. When aiming, headshots have a high Critical Chance.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  25000,
@@ -94,12 +96,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  40,
@@ -107,18 +113,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  40,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             40,
@@ -141,20 +154,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Lasria/AK47/TC2024AK47Weapon"
@@ -167,7 +167,7 @@
     "relationships":  [
 
                       ],
-    "description":  "This pre-Orokin weapon earned its popularity for its reliability in tough conditions. When hip-firing, its Ammo Efficiency increases. When aiming, headshots have a high Critical Chance.",
+    "id":  "weapon.ax-52",
     "release":  {
                     "releaseDate":  "2024-07-20",
                     "introduced":  {
@@ -183,27 +183,27 @@
     "summary":  "This pre-Orokin weapon earned its popularity for its reliability in tough conditions. When hip-firing, its Ammo Efficiency increases. When aiming, headshots have a high Critical Chance.",
     "stats":  {
                   "accuracy":  133.33333,
-                  "statusChance":  0.18000001,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai",
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2,
+                  "trigger":  "Auto",
                   "disposition":  2,
-                  "magazineSize":  40,
                   "fireRate":  10.000001,
                   "critMultiplier":  2.4000001,
+                  "masteryReq":  12,
                   "totalDamage":  40,
                   "vaulted":  null,
-                  "masteryReq":  12,
-                  "slot":  "primary",
+                  "statusChance":  0.18000001,
+                  "reloadTime":  2,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "primary",
                   "critChance":  0.25999999,
+                  "magazineSize":  40,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

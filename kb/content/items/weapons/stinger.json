@@ -1,5 +1,5 @@
 {
-    "description":  "Standard issue weapon for Djinn Sentinel. Fires \u003cDT_POISON_COLOR\u003eToxin projectiles that embed into enemies and continuously deal damage for 3 seconds.",
+    "id":  "weapon.stinger",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -8,6 +8,10 @@
                 ],
     "name":  "Stinger",
     "subCategory":  "companion-companion-weapon",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD companion static data."
+              ],
     "mechanics":  {
                       "heavySlamAttack":  null,
                       "crafting":  {
@@ -35,7 +39,6 @@
                                    "imageName":  "stinger-ee12cc66f0.png",
                                    "available":  true
                                },
-                      "followThrough":  null,
                       "attacks":  [
                                       {
                                           "name":  "Normal Attack",
@@ -65,12 +68,13 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "sentinel":  true,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  0,
@@ -78,30 +82,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  30,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  30,
-                                     "toxin":  30,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "sentinel":  true,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -123,12 +113,22 @@
                                             0,
                                             0,
                                             0
-                                        ]
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
                   },
-    "notes":  [
-                  "Normalized from static import source.",
-                  "Converted from WFCD companion static data."
-              ],
     "aliases":  [
                     "/Lotus/Types/Sentinels/SentinelWeapons/SentBioWeapon"
                 ],
@@ -140,7 +140,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.stinger",
+    "description":  "Standard issue weapon for Djinn Sentinel. Fires \u003cDT_POISON_COLOR\u003eToxin projectiles that embed into enemies and continuously deal damage for 3 seconds.",
     "release":  {
                     "releaseDate":  "2013-09-13",
                     "introduced":  {
@@ -162,23 +162,23 @@
                   "polarities":  [
                                      null
                                  ],
+                  "masterable":  true,
                   "tradable":  false,
-                  "vaulted":  null,
-                  "totalDamage":  30,
+                  "trigger":  "Semi",
                   "disposition":  5,
-                  "magazineSize":  4,
                   "fireRate":  3.3333335,
                   "critMultiplier":  1.5,
-                  "reloadTime":  1.2,
+                  "totalDamage":  30,
+                  "vaulted":  null,
                   "masteryReq":  0,
-                  "statusChance":  0.19999999,
-                  "slot":  "companion",
+                  "reloadTime":  1.2,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "companion",
                   "critChance":  0.025,
+                  "magazineSize":  4,
                   "weaponClass":  "Companion Weapon",
-                  "masterable":  true,
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "vaultDate":  null,
+                  "statusChance":  0.19999999,
+                  "multishot":  1
               }
 }

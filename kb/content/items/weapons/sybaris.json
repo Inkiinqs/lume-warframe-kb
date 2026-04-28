@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.sybaris",
+    "description":  "This Tenno crafted, lever action rifle, is equal parts elegance and executioner.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -109,12 +111,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  26.400002,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  26.400002,
@@ -122,18 +128,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  27.199997,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  80,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             26.400002,
                                             26.400002,
@@ -156,20 +169,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/LongGuns/TnoLeverAction/TnoLeverActionRifle"
@@ -182,7 +182,7 @@
     "relationships":  [
 
                       ],
-    "description":  "This Tenno crafted, lever action rifle, is equal parts elegance and executioner.",
+    "id":  "weapon.sybaris",
     "release":  {
                     "releaseDate":  "2014-05-14",
                     "introduced":  {
@@ -199,26 +199,26 @@
     "summary":  "This Tenno crafted, lever action rifle, is equal parts elegance and executioner.",
     "stats":  {
                   "accuracy":  28.571428,
-                  "statusChance":  0.10000002,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2,
+                  "trigger":  "Burst",
                   "disposition":  4,
-                  "magazineSize":  10,
                   "fireRate":  3.9840639,
                   "critMultiplier":  2,
+                  "masteryReq":  5,
                   "totalDamage":  80,
                   "vaulted":  null,
-                  "masteryReq":  5,
-                  "slot":  "primary",
+                  "statusChance":  0.10000002,
+                  "reloadTime":  2,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Burst",
+                  "slot":  "primary",
                   "critChance":  0.25,
+                  "magazineSize":  10,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

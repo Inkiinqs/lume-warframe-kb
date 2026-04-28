@@ -1,25 +1,27 @@
 {
-    "id":  "gear.cuthol-bait",
-    "name":  "Cuthol Bait",
-    "category":  "gear",
-    "subCategory":  "fish",
-    "aliases":  [
-                    "/Lotus/Types/Game/FishBait/NightRareFishBaitBItem"
-                ],
-    "summary":  "This bait is composed of materials that are known to attract Cuthols, a fish found only in Plains of Eidolon pond hotspots during the night.\n\nObtained from Fisher Hai-Luk in Cetus (Earth).",
     "description":  "This bait is composed of materials that are known to attract Cuthols, a fish found only in Plains of Eidolon pond hotspots during the night.\n\nObtained from Fisher Hai-Luk in Cetus (Earth).",
-    "stats":  {
-                  "type":  "Fish",
-                  "tradable":  false,
-                  "masterable":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
+                    }
+                ],
+    "name":  "Cuthol Bait",
+    "subCategory":  "fish",
     "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "cuthol-bait-5122ca8a16.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
-                                       "buildPrice":  2000,
                                        "buildTime":  300,
-                                       "skipBuildTimePrice":  5,
+                                       "buildPrice":  2000,
                                        "buildQuantity":  20,
-                                       "consumeOnBuild":  false,
                                        "components":  [
                                                           {
                                                               "name":  "Blueprint",
@@ -71,36 +73,34 @@
 
                                                                         ]
                                                           }
-                                                      ]
-                                   },
-                      "drops":  [
-                                    null
-                                ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "cuthol-bait-5122ca8a16.png"
-                               }
+                                                      ],
+                                       "skipBuildTimePrice":  5,
+                                       "consumeOnBuild":  false
+                                   }
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-
-                },
-    "tags":  [
-                 "gear",
-                 "fish"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Gear.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Types/Game/FishBait/NightRareFishBaitBItem"
+                ],
+    "tags":  [
+                 "gear",
+                 "fish"
+             ],
+    "category":  "gear",
+    "relationships":  [
+
+                      ],
+    "id":  "gear.cuthol-bait",
+    "release":  {
+
+                },
+    "summary":  "This bait is composed of materials that are known to attract Cuthols, a fish found only in Plains of Eidolon pond hotspots during the night.\n\nObtained from Fisher Hai-Luk in Cetus (Earth).",
+    "stats":  {
+                  "tradable":  false,
+                  "type":  "Fish",
+                  "masterable":  false
+              }
 }

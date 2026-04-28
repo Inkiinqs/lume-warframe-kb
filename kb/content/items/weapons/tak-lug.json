@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.tak-lug",
+    "description":  "Take active defense to new heights with this deadly flying shield and brutal blade. Throw the shield with a unique Heavy Attack, inflicting Blast Status Effects and dealing damage in a wide area.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  788,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -221,12 +223,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  394,
+                      "slamRadius":  7,
                       "blockingAngle":  70,
-                      "sentinel":  null,
+                      "heavySlamRadius":  8,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  39.400002,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  0,
@@ -234,18 +240,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  157.60001,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  197,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
+                      "heavyAttackDamage":  2364,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  591,
+                      "comboDuration":  5,
+                      "slideAttack":  197,
+                      "windUp":  0.69999999,
+                      "followThrough":  0.60000002,
+                      "slamAttack":  591,
                       "damagePerShot":  [
                                             39.400002,
                                             0,
@@ -268,20 +281,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  2364,
-                      "followThrough":  0.60000002,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  591,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  197,
-                      "windUp":  0.69999999,
-                      "slamRadius":  7,
-                      "slamAttack":  591,
-                      "heavySlamRadius":  8
+                      "heavySlamAttack":  788
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/MortiforShieldAndSword/MortiforShieldAndSword"
@@ -294,7 +294,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Take active defense to new heights with this deadly flying shield and brutal blade. Throw the shield with a unique Heavy Attack, inflicting Blast Status Effects and dealing damage in a wide area.",
+    "id":  "weapon.tak-lug",
     "release":  {
                     "releaseDate":  "2025-04-17",
                     "introduced":  {
@@ -310,26 +310,26 @@
     "summary":  "Take active defense to new heights with this deadly flying shield and brutal blade. Throw the shield with a unique Heavy Attack, inflicting Blast Status Effects and dealing damage in a wide area.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.31,
+                  "noise":  null,
                   "polarities":  [
                                      "vazarin"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  1,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  1.9,
+                  "masteryReq":  9,
                   "totalDamage":  197,
                   "vaulted":  null,
-                  "masteryReq":  9,
-                  "slot":  "melee",
+                  "statusChance":  0.31,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.20999999,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

@@ -1,25 +1,27 @@
 {
-    "id":  "gear.peppered-bait",
-    "name":  "Peppered Bait",
-    "category":  "gear",
-    "subCategory":  "fish",
-    "aliases":  [
-                    "/Lotus/Types/Game/FishBait/GenericFishBait"
-                ],
-    "summary":  "This bait attracts fish that are active in the Plains of Eidolon during the day.\n\nObtained from Fisher Hai-Luk in Cetus (Earth). Attracts Mawfish and Charc Eels in the lake; Khut-Khut, Yogwun, and Mortus Lungfish in ponds; and Goopolla and Tralok in the ocean.",
     "description":  "This bait attracts fish that are active in the Plains of Eidolon during the day.\n\nObtained from Fisher Hai-Luk in Cetus (Earth). Attracts Mawfish and Charc Eels in the lake; Khut-Khut, Yogwun, and Mortus Lungfish in ponds; and Goopolla and Tralok in the ocean.",
-    "stats":  {
-                  "type":  "Fish",
-                  "tradable":  false,
-                  "masterable":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
+                    }
+                ],
+    "name":  "Peppered Bait",
+    "subCategory":  "fish",
     "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "peppered-bait-f464233f20.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
-                                       "buildPrice":  500,
                                        "buildTime":  60,
-                                       "skipBuildTimePrice":  5,
+                                       "buildPrice":  500,
                                        "buildQuantity":  20,
-                                       "consumeOnBuild":  false,
                                        "components":  [
                                                           {
                                                               "name":  "Blueprint",
@@ -51,36 +53,34 @@
 
                                                                         ]
                                                           }
-                                                      ]
-                                   },
-                      "drops":  [
-                                    null
-                                ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "peppered-bait-f464233f20.png"
-                               }
+                                                      ],
+                                       "skipBuildTimePrice":  5,
+                                       "consumeOnBuild":  false
+                                   }
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-
-                },
-    "tags":  [
-                 "gear",
-                 "fish"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Gear.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Types/Game/FishBait/GenericFishBait"
+                ],
+    "tags":  [
+                 "gear",
+                 "fish"
+             ],
+    "category":  "gear",
+    "relationships":  [
+
+                      ],
+    "id":  "gear.peppered-bait",
+    "release":  {
+
+                },
+    "summary":  "This bait attracts fish that are active in the Plains of Eidolon during the day.\n\nObtained from Fisher Hai-Luk in Cetus (Earth). Attracts Mawfish and Charc Eels in the lake; Khut-Khut, Yogwun, and Mortus Lungfish in ponds; and Goopolla and Tralok in the ocean.",
+    "stats":  {
+                  "tradable":  false,
+                  "type":  "Fish",
+                  "masterable":  false
+              }
 }

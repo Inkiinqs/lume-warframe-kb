@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.tiberon-prime",
+    "description":  "Art meets ingenuity with this beautifully deadly rifle.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -650,12 +652,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  14.400001,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  19.200001,
@@ -663,18 +669,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  14.399998,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  48,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             14.400001,
                                             19.200001,
@@ -697,20 +710,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/LongGuns/PrimeTiberon/PrimeTiberonRifle"
@@ -723,7 +723,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Art meets ingenuity with this beautifully deadly rifle.",
+    "id":  "weapon.tiberon-prime",
     "release":  {
                     "releaseDate":  "2018-03-20",
                     "introduced":  {
@@ -739,28 +739,28 @@
     "summary":  "Art meets ingenuity with this beautifully deadly rifle.",
     "stats":  {
                   "accuracy":  33.333332,
-                  "statusChance":  0.19999999,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai",
                                      "naramon",
                                      "naramon"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2,
+                  "trigger":  "Burst",
                   "disposition":  3,
-                  "magazineSize":  42,
                   "fireRate":  6.818182,
                   "critMultiplier":  3,
+                  "masteryReq":  14,
                   "totalDamage":  48,
                   "vaulted":  true,
-                  "masteryReq":  14,
-                  "slot":  "primary",
+                  "statusChance":  0.19999999,
+                  "reloadTime":  2,
                   "estimatedVaultDate":  "2019-12-17",
-                  "trigger":  "Burst",
+                  "slot":  "primary",
                   "critChance":  0.28,
+                  "magazineSize":  42,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  "2019-12-17"
               }

@@ -1,5 +1,5 @@
 {
-    "description":  "Hound melee attacks devastate with \u003cDT_IMPACT_COLOR\u003eImpact and \u003cDT_SLASH_COLOR\u003eSlash Damage.",
+    "id":  "weapon.lacerten",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -8,6 +8,10 @@
                 ],
     "name":  "Lacerten",
     "subCategory":  "companion-companion-weapon",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD companion static data."
+              ],
     "mechanics":  {
                       "heavySlamAttack":  null,
                       "crafting":  {
@@ -35,7 +39,6 @@
                                    "imageName":  "lacerten-9f21176710.png",
                                    "available":  true
                                },
-                      "followThrough":  null,
                       "attacks":  [
                                       {
                                           "name":  "Normal Attack",
@@ -52,12 +55,13 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  90,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "sentinel":  true,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  150,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  0,
@@ -65,30 +69,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  150,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  300,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "sentinel":  true,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             150,
                                             0,
@@ -110,12 +100,22 @@
                                             0,
                                             0,
                                             0
-                                        ]
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
                   },
-    "notes":  [
-                  "Normalized from static import source.",
-                  "Converted from WFCD companion static data."
-              ],
     "aliases":  [
                     "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetMeleeWeaponIS"
                 ],
@@ -127,7 +127,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.lacerten",
+    "description":  "Hound melee attacks devastate with \u003cDT_IMPACT_COLOR\u003eImpact and \u003cDT_SLASH_COLOR\u003eSlash Damage.",
     "release":  {
                     "releaseDate":  "2021-07-06",
                     "introduced":  {
@@ -147,23 +147,23 @@
                   "polarities":  [
                                      null
                                  ],
+                  "masterable":  true,
                   "tradable":  false,
-                  "vaulted":  null,
-                  "totalDamage":  300,
+                  "trigger":  null,
                   "disposition":  3,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  3,
-                  "reloadTime":  null,
+                  "totalDamage":  300,
+                  "vaulted":  null,
                   "masteryReq":  0,
-                  "statusChance":  0.14999998,
-                  "slot":  "companion",
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "companion",
                   "critChance":  0.1,
+                  "magazineSize":  null,
                   "weaponClass":  "Companion Weapon",
-                  "masterable":  true,
-                  "multishot":  null,
-                  "vaultDate":  null
+                  "vaultDate":  null,
+                  "statusChance":  0.14999998,
+                  "multishot":  null
               }
 }

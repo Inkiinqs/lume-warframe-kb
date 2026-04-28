@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.dual-cestra",
+    "description":  "Wield two Cestras to unleash a dual torrent of high energy bolts.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  25000,
@@ -107,12 +109,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  5.2000003,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  20.800001,
@@ -120,18 +126,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  26.000002,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             5.2000003,
                                             20.800001,
@@ -154,20 +167,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Corpus/Pistols/CorpusMinigun/DualCorpusMinigun"
@@ -180,7 +180,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Wield two Cestras to unleash a dual torrent of high energy bolts.",
+    "id":  "weapon.dual-cestra",
     "release":  {
                     "releaseDate":  "2014-02-05",
                     "introduced":  {
@@ -198,26 +198,26 @@
     "summary":  "Wield two Cestras to unleash a dual torrent of high energy bolts.",
     "stats":  {
                   "accuracy":  20,
-                  "statusChance":  0.19999999,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  3.5,
+                  "trigger":  "Auto",
                   "disposition":  5,
-                  "magazineSize":  120,
                   "fireRate":  18.750002,
                   "critMultiplier":  1.6,
+                  "masteryReq":  7,
                   "totalDamage":  26.000002,
                   "vaulted":  null,
-                  "masteryReq":  7,
-                  "slot":  "secondary",
+                  "statusChance":  0.19999999,
+                  "reloadTime":  3.5,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "secondary",
                   "critChance":  0.059999999,
+                  "magazineSize":  120,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

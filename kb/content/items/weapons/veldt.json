@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.veldt",
+    "description":  "Precise calibration, rapid trigger-pull and a steady hand all combine to bring down the hardiest prey on two legs or four.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -96,12 +98,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  23.4,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  23.4,
@@ -109,18 +115,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  43.200001,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  90,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             23.4,
                                             23.4,
@@ -143,20 +156,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/LongGuns/TnRevolverRifle/TnRevolverRifleGun"
@@ -169,7 +169,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Precise calibration, rapid trigger-pull and a steady hand all combine to bring down the hardiest prey on two legs or four.",
+    "id":  "weapon.veldt",
     "release":  {
                     "releaseDate":  "2018-04-20",
                     "introduced":  {
@@ -188,26 +188,26 @@
     "summary":  "Precise calibration, rapid trigger-pull and a steady hand all combine to bring down the hardiest prey on two legs or four.",
     "stats":  {
                   "accuracy":  32,
-                  "statusChance":  0.22000003,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "naramon"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  1.8,
+                  "trigger":  "Semi",
                   "disposition":  4,
-                  "magazineSize":  26,
                   "fireRate":  3.6666667,
                   "critMultiplier":  2.2,
+                  "masteryReq":  8,
                   "totalDamage":  90,
                   "vaulted":  null,
-                  "masteryReq":  8,
-                  "slot":  "primary",
+                  "statusChance":  0.22000003,
+                  "reloadTime":  1.8,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "primary",
                   "critChance":  0.22,
+                  "magazineSize":  26,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

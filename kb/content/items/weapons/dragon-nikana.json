@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.dragon-nikana",
+    "description":  "The Dragon Nikana is forged from ancient Tenno steel. This is a master\u0027s weapon, only the most worthy of Tenno may wield it.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  752,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  5000,
@@ -123,12 +125,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  376,
+                      "slamRadius":  6,
                       "blockingAngle":  55,
-                      "sentinel":  null,
+                      "heavySlamRadius":  7,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  9.4000006,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  18.800001,
@@ -136,18 +142,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  159.8,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  188,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
+                      "heavyAttackDamage":  940,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  564,
+                      "comboDuration":  5,
+                      "slideAttack":  376,
+                      "windUp":  0.5,
+                      "followThrough":  0.69999999,
+                      "slamAttack":  564,
                       "damagePerShot":  [
                                             9.4000006,
                                             18.800001,
@@ -170,20 +183,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  940,
-                      "followThrough":  0.69999999,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  564,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  376,
-                      "windUp":  0.5,
-                      "slamRadius":  6,
-                      "slamAttack":  564,
-                      "heavySlamRadius":  7
+                      "heavySlamAttack":  752
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Swords/KatanaAndWakizashi/LowKatana"
@@ -196,7 +196,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The Dragon Nikana is forged from ancient Tenno steel. This is a master\u0027s weapon, only the most worthy of Tenno may wield it.",
+    "id":  "weapon.dragon-nikana",
     "release":  {
                     "releaseDate":  "2014-04-09",
                     "introduced":  {
@@ -214,27 +214,27 @@
     "summary":  "The Dragon Nikana is forged from ancient Tenno steel. This is a master\u0027s weapon, only the most worthy of Tenno may wield it.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.22000003,
+                  "noise":  null,
                   "polarities":  [
                                      "madurai",
                                      "vazarin"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  4,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  2,
+                  "masteryReq":  8,
                   "totalDamage":  188,
                   "vaulted":  null,
-                  "masteryReq":  8,
-                  "slot":  "melee",
+                  "statusChance":  0.22000003,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.22,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

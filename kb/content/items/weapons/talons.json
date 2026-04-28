@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.talons",
+    "description":  "The claws of these tactical bombs dig into the target and detonate on command.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -119,12 +121,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  0,
@@ -132,18 +138,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  120,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  120,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -166,20 +179,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/ThrowingWeapons/U18ThrowingKnives/U18throwingknives"
@@ -192,7 +192,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The claws of these tactical bombs dig into the target and detonate on command.",
+    "id":  "weapon.talons",
     "release":  {
                     "releaseDate":  "2015-12-03",
                     "introduced":  {
@@ -210,27 +210,27 @@
     "summary":  "The claws of these tactical bombs dig into the target and detonate on command.",
     "stats":  {
                   "accuracy":  100,
-                  "statusChance":  0.25999999,
+                  "noise":  "Silent",
                   "polarities":  [
                                      "madurai",
                                      "madurai"
                                  ],
-                  "noise":  "Silent",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  1,
+                  "trigger":  "Active",
                   "disposition":  5,
-                  "magazineSize":  4,
                   "fireRate":  3.3333335,
                   "critMultiplier":  2,
+                  "masteryReq":  8,
                   "totalDamage":  120,
                   "vaulted":  null,
-                  "masteryReq":  8,
-                  "slot":  "secondary",
+                  "statusChance":  0.25999999,
+                  "reloadTime":  1,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Active",
+                  "slot":  "secondary",
                   "critChance":  0.22,
+                  "magazineSize":  4,
                   "weaponClass":  "Throwing",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

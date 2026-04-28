@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.prova",
+    "description":  "The Prova is a Melee Weapon that delivers a high-intensity shock to its target.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  512,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  20000,
@@ -127,12 +129,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  256,
+                      "slamRadius":  8,
                       "blockingAngle":  55,
-                      "sentinel":  null,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "zenurik",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  52,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  76,
                                      "true":  0,
                                      "slash":  0,
@@ -140,18 +146,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  128,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
+                      "heavyAttackDamage":  768,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  384,
+                      "comboDuration":  5,
+                      "slideAttack":  256,
+                      "windUp":  0.69999999,
+                      "followThrough":  0.69999999,
+                      "slamAttack":  384,
                       "damagePerShot":  [
                                             52,
                                             0,
@@ -174,20 +187,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  768,
-                      "followThrough":  0.69999999,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  384,
-                      "stancePolarity":  "zenurik",
-                      "slideAttack":  256,
-                      "windUp":  0.69999999,
-                      "slamRadius":  8,
-                      "slamAttack":  384,
-                      "heavySlamRadius":  9
+                      "heavySlamAttack":  512
                   },
     "aliases":  [
                     "/Lotus/Weapons/ClanTech/Energy/ElectroProd"
@@ -200,7 +200,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The Prova is a Melee Weapon that delivers a high-intensity shock to its target.",
+    "id":  "weapon.prova",
     "release":  {
                     "releaseDate":  "2013-05-23",
                     "introduced":  {
@@ -218,26 +218,26 @@
     "summary":  "The Prova is a Melee Weapon that delivers a high-intensity shock to its target.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.15999997,
+                  "noise":  null,
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  2,
+                  "masteryReq":  3,
                   "totalDamage":  128,
                   "vaulted":  null,
-                  "masteryReq":  3,
-                  "slot":  "melee",
+                  "statusChance":  0.15999997,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.14,
+                  "magazineSize":  null,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

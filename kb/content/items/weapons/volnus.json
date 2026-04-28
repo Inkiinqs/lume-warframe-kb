@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.volnus",
+    "description":  "Tear and maim with this agile, lightweight glass hammer. When Gara\u0027s wields her signature melee weapon, it gains additional Slam Radial Damage.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  1100,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -128,12 +130,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  440,
+                      "slamRadius":  9,
                       "blockingAngle":  50,
-                      "sentinel":  null,
+                      "heavySlamRadius":  10,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  48.400002,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  70.400002,
@@ -141,18 +147,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  101.20001,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  220.00002,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.9000001,
+                      "heavyAttackDamage":  1320,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  660,
+                      "comboDuration":  5,
+                      "slideAttack":  440,
+                      "windUp":  1.1,
+                      "followThrough":  0.60000002,
+                      "slamAttack":  660,
                       "damagePerShot":  [
                                             48.400002,
                                             70.400002,
@@ -175,20 +188,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.9000001,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  1320,
-                      "followThrough":  0.60000002,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  660,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  440,
-                      "windUp":  1.1,
-                      "slamRadius":  9,
-                      "slamAttack":  660,
-                      "heavySlamRadius":  10
+                      "heavySlamAttack":  1100
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Hammer/GlassHammer/GlassHammer"
@@ -201,7 +201,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Tear and maim with this agile, lightweight glass hammer. When Gara\u0027s wields her signature melee weapon, it gains additional Slam Radial Damage.",
+    "id":  "weapon.volnus",
     "release":  {
                     "releaseDate":  "2017-10-12",
                     "introduced":  {
@@ -221,26 +221,26 @@
     "summary":  "Tear and maim with this agile, lightweight glass hammer. When Gara\u0027s wields her signature melee weapon, it gains additional Slam Radial Damage.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.30000001,
+                  "noise":  null,
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  1.2,
                   "critMultiplier":  1.6,
+                  "masteryReq":  9,
                   "totalDamage":  220.00002,
                   "vaulted":  null,
-                  "masteryReq":  9,
-                  "slot":  "melee",
+                  "statusChance":  0.30000001,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.18000001,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

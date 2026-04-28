@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.akmagnus-prime",
+    "description":  "Fill your fists with golden cannons of fury. This refined design unlocks quicker handling and higher critical chance.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -1370,12 +1372,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  44.099998,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  26.950001,
@@ -1383,18 +1389,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  26.949997,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  98,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             44.099998,
                                             26.950001,
@@ -1417,20 +1430,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Akimbo/DualMagnusPrime"
@@ -1443,7 +1443,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Fill your fists with golden cannons of fury. This refined design unlocks quicker handling and higher critical chance.",
+    "id":  "weapon.akmagnus-prime",
     "release":  {
                     "releaseDate":  "2024-07-22",
                     "introduced":  {
@@ -1459,27 +1459,27 @@
     "summary":  "Fill your fists with golden cannons of fury. This refined design unlocks quicker handling and higher critical chance.",
     "stats":  {
                   "accuracy":  11.111111,
-                  "statusChance":  0.27999997,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai",
                                      "vazarin"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  true,
-                  "reloadTime":  2.8,
+                  "trigger":  "Semi",
                   "disposition":  3,
-                  "magazineSize":  16,
                   "fireRate":  5.666667,
                   "critMultiplier":  2.8,
+                  "masteryReq":  15,
                   "totalDamage":  98,
                   "vaulted":  true,
-                  "masteryReq":  15,
-                  "slot":  "secondary",
+                  "statusChance":  0.27999997,
+                  "reloadTime":  2.8,
                   "estimatedVaultDate":  "2024-07-28",
-                  "trigger":  "Semi",
+                  "slot":  "secondary",
                   "critChance":  0.28,
+                  "magazineSize":  16,
                   "weaponClass":  "Dual Pistols",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  "2024-07-28"
               }

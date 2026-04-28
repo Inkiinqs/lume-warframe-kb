@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.strun",
+    "description":  "The Strun is a standard shotgun. Reliable, versatile and deadly.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,14 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    {
+                                        "location":  "Conclave, Typhoon",
+                                        "type":  "Strun Conclave Skin",
+                                        "chance":  100,
+                                        "rarity":  "Common"
+                                    }
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -92,12 +99,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  13.75,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  3.7500002,
@@ -105,18 +116,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  7.499999,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  25,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             13.75,
                                             3.7500002,
@@ -139,25 +157,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    {
-                                        "location":  "Conclave, Typhoon",
-                                        "type":  "Strun Conclave Skin",
-                                        "chance":  100,
-                                        "rarity":  "Common"
-                                    }
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Shotgun/Shotgun"
@@ -170,7 +170,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The Strun is a standard shotgun. Reliable, versatile and deadly.",
+    "id":  "weapon.strun",
     "release":  {
                     "releaseDate":  "2012-10-25",
                     "introduced":  {
@@ -187,26 +187,26 @@
     "summary":  "The Strun is a standard shotgun. Reliable, versatile and deadly.",
     "stats":  {
                   "accuracy":  4,
-                  "statusChance":  0.050000012,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "naramon"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  3.75,
+                  "trigger":  "Semi",
                   "disposition":  5,
-                  "magazineSize":  6,
                   "fireRate":  2.5000002,
                   "critMultiplier":  1.5,
+                  "masteryReq":  1,
                   "totalDamage":  25,
                   "vaulted":  null,
-                  "masteryReq":  1,
-                  "slot":  "primary",
+                  "statusChance":  0.050000012,
+                  "reloadTime":  3.75,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "primary",
                   "critChance":  0.075000003,
+                  "magazineSize":  6,
                   "weaponClass":  "Shotgun",
-                  "masterable":  true,
                   "multishot":  12,
                   "vaultDate":  null
               }

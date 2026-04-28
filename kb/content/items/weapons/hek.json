@@ -1,5 +1,5 @@
 {
-    "description":  "The Hek is a powerful shotgun that fires its shots with a tight spread, making it efficient at medium range as long as its strong recoil is properly managed.",
+    "id":  "weapon.hek",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  25000,
@@ -103,7 +105,46 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  11.25,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  48.75,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  15.000004,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  75,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "followThrough":  null,
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "relevantFormulas":  [
+                                               "formula.multishot",
+                                               "formula.critical-chance",
+                                               "formula.status-chance"
+                                           ],
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             11.25,
                                             48.75,
@@ -126,48 +167,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "relevantFormulas":  [
-                                               "formula.multishot",
-                                               "formula.critical-chance",
-                                               "formula.status-chance"
-                                           ],
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "radiation":  0,
-                                     "impact":  11.25,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  48.75,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  15.000004,
-                                     "shieldDrain":  0,
-                                     "gas":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  75,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 }
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Shotgun/QuadShotgun"
@@ -180,7 +180,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.hek",
+    "description":  "The Hek is a powerful shotgun that fires its shots with a tight spread, making it efficient at medium range as long as its strong recoil is properly managed.",
     "release":  {
                     "releaseDate":  "2013-01-04",
                     "introduced":  {
@@ -196,27 +196,27 @@
     "summary":  "The Hek is a powerful shotgun that fires its shots with a tight spread, making it efficient at medium range as long as its strong recoil is properly managed.",
     "stats":  {
                   "accuracy":  9.090909,
-                  "statusChance":  0.10714287,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2,
                   "archetype":  "pellet-shotgun",
+                  "trigger":  "Semi",
                   "disposition":  4,
-                  "magazineSize":  4,
                   "fireRate":  2.1666667,
                   "critMultiplier":  2,
+                  "masteryReq":  4,
                   "totalDamage":  75,
                   "vaulted":  null,
-                  "masteryReq":  4,
-                  "slot":  "primary",
+                  "statusChance":  0.10714287,
+                  "reloadTime":  2,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "primary",
                   "critChance":  0.1,
+                  "magazineSize":  4,
                   "weaponClass":  "Shotgun",
-                  "masterable":  true,
                   "multishot":  7,
                   "vaultDate":  null
               }

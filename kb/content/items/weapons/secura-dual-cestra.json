@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.secura-dual-cestra",
+    "description":  "The favored side-arms of Perrin Sequence executives, these pistols have been modified to improve efficiency and killing potential.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,14 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    {
+                                        "location":  "The Perrin Sequence, Partner",
+                                        "type":  "Secura Dual Cestra",
+                                        "chance":  100,
+                                        "rarity":  "Common"
+                                    }
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -57,12 +64,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  5.5999999,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  22.4,
@@ -70,18 +81,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  28,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             5.5999999,
                                             22.4,
@@ -104,25 +122,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    {
-                                        "location":  "The Perrin Sequence, Partner",
-                                        "type":  "Secura Dual Cestra",
-                                        "chance":  100,
-                                        "rarity":  "Common"
-                                    }
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Syndicates/PerrinSequence/Pistols/PSDualCestra"
@@ -135,7 +135,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The favored side-arms of Perrin Sequence executives, these pistols have been modified to improve efficiency and killing potential.",
+    "id":  "weapon.secura-dual-cestra",
     "release":  {
                     "releaseDate":  "2014-11-27",
                     "introduced":  {
@@ -152,27 +152,27 @@
     "summary":  "The favored side-arms of Perrin Sequence executives, these pistols have been modified to improve efficiency and killing potential.",
     "stats":  {
                   "accuracy":  20,
-                  "statusChance":  0.27999997,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai",
                                      "naramon"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  true,
-                  "reloadTime":  3.5,
+                  "trigger":  "Auto",
                   "disposition":  4,
-                  "magazineSize":  120,
                   "fireRate":  12.500001,
                   "critMultiplier":  1.6,
+                  "masteryReq":  10,
                   "totalDamage":  28,
                   "vaulted":  null,
-                  "masteryReq":  10,
-                  "slot":  "secondary",
+                  "statusChance":  0.27999997,
+                  "reloadTime":  3.5,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "secondary",
                   "critChance":  0.16,
+                  "magazineSize":  120,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

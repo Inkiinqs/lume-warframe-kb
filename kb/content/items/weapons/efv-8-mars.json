@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.efv-8-mars",
+    "description":  "The standard issue personal Efervon projector, as sported by all ranks of Scaldra.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -114,12 +116,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  20.000002,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  55,
@@ -127,18 +133,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  75,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             20.000002,
                                             55,
@@ -161,20 +174,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Lasria/LasGooPistol/LasGooPistolPlayerWeapon"
@@ -187,7 +187,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The standard issue personal Efervon projector, as sported by all ranks of Scaldra.",
+    "id":  "weapon.efv-8-mars",
     "release":  {
                     "releaseDate":  "2025-03-19",
                     "introduced":  {
@@ -203,27 +203,27 @@
     "summary":  "The standard issue personal Efervon projector, as sported by all ranks of Scaldra.",
     "stats":  {
                   "accuracy":  10,
-                  "statusChance":  0.17000002,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai",
                                      "vazarin"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  1.6670001,
+                  "trigger":  "Semi",
                   "disposition":  3,
-                  "magazineSize":  15,
                   "fireRate":  6.5000005,
                   "critMultiplier":  2.0999999,
+                  "masteryReq":  14,
                   "totalDamage":  75,
                   "vaulted":  null,
-                  "masteryReq":  14,
-                  "slot":  "secondary",
+                  "statusChance":  0.17000002,
+                  "reloadTime":  1.6670001,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "secondary",
                   "critChance":  0.27000001,
+                  "magazineSize":  15,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

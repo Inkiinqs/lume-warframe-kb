@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.tenora",
+    "description":  "Unload percussive machine gun fire, or strike a heavy chord with a single charge shot. When Octavia wields her signature rifle alt-fire Headshot Kills have a chance to instantly refill the magazine.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -110,12 +112,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  7.2000003,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  9.6000004,
@@ -123,18 +129,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  7.1999989,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  24,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             7.2000003,
                                             9.6000004,
@@ -157,20 +170,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/LongGuns/TnBardRifle/TnBardRifle"
@@ -183,7 +183,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Unload percussive machine gun fire, or strike a heavy chord with a single charge shot. When Octavia wields her signature rifle alt-fire Headshot Kills have a chance to instantly refill the magazine.",
+    "id":  "weapon.tenora",
     "release":  {
                     "releaseDate":  "2017-03-24",
                     "introduced":  {
@@ -203,26 +203,26 @@
     "summary":  "Unload percussive machine gun fire, or strike a heavy chord with a single charge shot. When Octavia wields her signature rifle alt-fire Headshot Kills have a chance to instantly refill the magazine.",
     "stats":  {
                   "accuracy":  12.5,
-                  "statusChance":  0.15999997,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2.5,
+                  "trigger":  "Auto",
                   "disposition":  3,
-                  "magazineSize":  150,
                   "fireRate":  11.666667,
                   "critMultiplier":  2,
+                  "masteryReq":  10,
                   "totalDamage":  24,
                   "vaulted":  null,
-                  "masteryReq":  10,
-                  "slot":  "primary",
+                  "statusChance":  0.15999997,
+                  "reloadTime":  2.5,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "primary",
                   "critChance":  0.28,
+                  "magazineSize":  150,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

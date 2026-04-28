@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.attica",
+    "description":  "Quickly fire off a volley of deadly bolts with the Attica repeating crossbow.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -98,12 +100,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  4,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  60,
@@ -111,18 +117,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  15.999999,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  80,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             4,
                                             60,
@@ -145,20 +158,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/LongGuns/TnoPrmryXbow/TnoPrmryXbowWeapon"
@@ -171,7 +171,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Quickly fire off a volley of deadly bolts with the Attica repeating crossbow.",
+    "id":  "weapon.attica",
     "release":  {
                     "releaseDate":  "2014-04-09",
                     "introduced":  {
@@ -189,26 +189,26 @@
     "summary":  "Quickly fire off a volley of deadly bolts with the Attica repeating crossbow.",
     "stats":  {
                   "accuracy":  40,
-                  "statusChance":  0.10000002,
+                  "noise":  "Silent",
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "noise":  "Silent",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2.8299999,
+                  "trigger":  "Auto",
                   "disposition":  5,
-                  "magazineSize":  20,
                   "fireRate":  3.6666667,
                   "critMultiplier":  3,
+                  "masteryReq":  7,
                   "totalDamage":  80,
                   "vaulted":  null,
-                  "masteryReq":  7,
-                  "slot":  "primary",
+                  "statusChance":  0.10000002,
+                  "reloadTime":  2.8299999,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "primary",
                   "critChance":  0.25,
+                  "magazineSize":  20,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

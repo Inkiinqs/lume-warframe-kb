@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.synoid-gammacor",
+    "description":  "Deployed by the Cephalon Suda, once a data-analyzing instrument the Gammacor main focus is defense.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,14 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    {
+                                        "location":  "Cephalon Suda, Genius",
+                                        "type":  "Synoid Gammacor",
+                                        "chance":  100,
+                                        "rarity":  "Common"
+                                    }
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -82,12 +89,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  0,
@@ -95,18 +106,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  21,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -129,25 +147,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    {
-                                        "location":  "Cephalon Suda, Genius",
-                                        "type":  "Synoid Gammacor",
-                                        "chance":  100,
-                                        "rarity":  "Common"
-                                    }
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Syndicates/CephalonSuda/Pistols/CSSynoidGammacor"
@@ -160,7 +160,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Deployed by the Cephalon Suda, once a data-analyzing instrument the Gammacor main focus is defense.",
+    "id":  "weapon.synoid-gammacor",
     "release":  {
                     "releaseDate":  "2014-11-27",
                     "introduced":  {
@@ -177,27 +177,27 @@
     "summary":  "Deployed by the Cephalon Suda, once a data-analyzing instrument the Gammacor main focus is defense.",
     "stats":  {
                   "accuracy":  100,
-                  "statusChance":  0.27999997,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "vazarin",
                                      "naramon"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  true,
-                  "reloadTime":  1.8,
+                  "trigger":  "Held",
                   "disposition":  3,
-                  "magazineSize":  80,
                   "fireRate":  12.000001,
                   "critMultiplier":  2,
+                  "masteryReq":  7,
                   "totalDamage":  21,
                   "vaulted":  null,
-                  "masteryReq":  7,
-                  "slot":  "secondary",
+                  "statusChance":  0.27999997,
+                  "reloadTime":  1.8,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Held",
+                  "slot":  "secondary",
                   "critChance":  0.2,
+                  "magazineSize":  80,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

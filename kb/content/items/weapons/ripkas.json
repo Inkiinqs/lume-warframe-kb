@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.ripkas",
+    "description":  "Motorized saw claw weapon.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  692,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  40000,
@@ -133,12 +135,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  346,
+                      "slamRadius":  6,
                       "blockingAngle":  55,
-                      "sentinel":  null,
+                      "heavySlamRadius":  7,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  8.6500006,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  17.300001,
@@ -146,18 +152,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  147.05,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  173,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.75,
+                      "heavyAttackDamage":  865,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  519,
+                      "comboDuration":  5,
+                      "slideAttack":  519,
+                      "windUp":  0.60000002,
+                      "followThrough":  0.80000001,
+                      "slamAttack":  519,
                       "damagePerShot":  [
                                             8.6500006,
                                             17.300001,
@@ -180,20 +193,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.75,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  865,
-                      "followThrough":  0.80000001,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  519,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  519,
-                      "windUp":  0.60000002,
-                      "slamRadius":  6,
-                      "slamAttack":  519,
-                      "heavySlamRadius":  7
+                      "heavySlamAttack":  692
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/Melee/GrineerClaws/GrnClaws"
@@ -206,7 +206,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Motorized saw claw weapon.",
+    "id":  "weapon.ripkas",
     "release":  {
                     "releaseDate":  "2015-03-19",
                     "introduced":  {
@@ -225,26 +225,26 @@
     "summary":  "Motorized saw claw weapon.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.14999998,
+                  "noise":  null,
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  4,
-                  "magazineSize":  null,
                   "fireRate":  0.83333337,
                   "critMultiplier":  2,
+                  "masteryReq":  5,
                   "totalDamage":  173,
                   "vaulted":  null,
-                  "masteryReq":  5,
-                  "slot":  "melee",
+                  "statusChance":  0.14999998,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.2,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

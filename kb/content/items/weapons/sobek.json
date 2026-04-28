@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.sobek",
+    "description":  "Sobek is a rapid-firing Grineer shotgun that has reduced damage per shot but boasts extra large magazine capacity.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  25000,
@@ -101,12 +103,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  52.5,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  8.75,
@@ -114,18 +120,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  8.75,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  70,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             52.5,
                                             8.75,
@@ -148,20 +161,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Shotgun/DoubleBarrelShotgun"
@@ -174,7 +174,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Sobek is a rapid-firing Grineer shotgun that has reduced damage per shot but boasts extra large magazine capacity.",
+    "id":  "weapon.sobek",
     "release":  {
                     "releaseDate":  "2013-07-13",
                     "introduced":  {
@@ -192,26 +192,26 @@
     "summary":  "Sobek is a rapid-firing Grineer shotgun that has reduced damage per shot but boasts extra large magazine capacity.",
     "stats":  {
                   "accuracy":  9.090909,
-                  "statusChance":  0.162,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2.7,
+                  "trigger":  "Auto",
                   "disposition":  5,
-                  "magazineSize":  20,
                   "fireRate":  2.5000002,
                   "critMultiplier":  2,
+                  "masteryReq":  7,
                   "totalDamage":  70,
                   "vaulted":  null,
-                  "masteryReq":  7,
-                  "slot":  "primary",
+                  "statusChance":  0.162,
+                  "reloadTime":  2.7,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "primary",
                   "critChance":  0.11,
+                  "magazineSize":  20,
                   "weaponClass":  "Shotgun",
-                  "masterable":  true,
                   "multishot":  5,
                   "vaultDate":  null
               }

@@ -1,5 +1,5 @@
 {
-    "description":  "Tear apart incoming enemies with this massive hooked blade.",
+    "id":  "weapon.agkuza",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -8,6 +8,10 @@
                 ],
     "name":  "Agkuza",
     "subCategory":  "archmelee-arch-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD archmelee static data."
+              ],
     "mechanics":  {
                       "heavySlamAttack":  436,
                       "crafting":  {
@@ -80,7 +84,6 @@
                                    "imageName":  "agkuza-ad630f8d41.png",
                                    "available":  true
                                },
-                      "followThrough":  0.69999999,
                       "attacks":  [
                                       {
                                           "name":  "Normal Attack",
@@ -98,12 +101,13 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  872,
                       "blockingAngle":  90,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  65.400002,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  305.19998,
@@ -111,30 +115,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  65.399986,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  435.99997,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  2.5,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  436,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  5,
-                      "slideAttack":  934,
-                      "windUp":  null,
-                      "slamRadius":  3,
-                      "slamAttack":  436,
                       "damagePerShot":  [
                                             65.400002,
                                             305.19998,
@@ -156,12 +146,22 @@
                                             0,
                                             0,
                                             0
-                                        ]
+                                        ],
+                      "range":  2.5,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  436,
+                      "followThrough":  0.69999999,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  934,
+                      "windUp":  null,
+                      "slamRadius":  3,
+                      "slamAttack":  436,
+                      "heavySlamRadius":  null
                   },
-    "notes":  [
-                  "Normalized from static import source.",
-                  "Converted from WFCD archmelee static data."
-              ],
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Archwing/Melee/ArchSwordHook/ArchHookSwordWeapon"
                 ],
@@ -173,7 +173,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.agkuza",
+    "description":  "Tear apart incoming enemies with this massive hooked blade.",
     "release":  {
                     "releaseDate":  "2016-07-08",
                     "introduced":  {
@@ -195,23 +195,23 @@
                   "polarities":  [
                                      "vazarin"
                                  ],
+                  "masterable":  true,
                   "tradable":  false,
-                  "vaulted":  null,
-                  "totalDamage":  435.99997,
+                  "trigger":  null,
                   "disposition":  1,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  1.5,
-                  "reloadTime":  null,
+                  "totalDamage":  435.99997,
+                  "vaulted":  null,
                   "masteryReq":  3,
-                  "statusChance":  0.14999998,
-                  "slot":  "archmelee",
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "archmelee",
                   "critChance":  0.050000001,
+                  "magazineSize":  null,
                   "weaponClass":  "Arch-Melee",
-                  "masterable":  true,
-                  "multishot":  null,
-                  "vaultDate":  null
+                  "vaultDate":  null,
+                  "statusChance":  0.14999998,
+                  "multishot":  null
               }
 }

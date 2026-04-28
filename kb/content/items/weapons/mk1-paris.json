@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.mk1-paris",
+    "description":  "The MK1-Paris is the standard issue bow for all Tenno.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -89,12 +91,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  11.5,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  184,
@@ -102,18 +108,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  34.499996,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  230,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             11.5,
                                             184,
@@ -136,20 +149,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/MK1Series/MK1Paris"
@@ -162,7 +162,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The MK1-Paris is the standard issue bow for all Tenno.",
+    "id":  "weapon.mk1-paris",
     "release":  {
                     "releaseDate":  "2014-07-18",
                     "introduced":  {
@@ -180,26 +180,26 @@
     "summary":  "The MK1-Paris is the standard issue bow for all Tenno.",
     "stats":  {
                   "accuracy":  16.666666,
-                  "statusChance":  0.14999998,
+                  "noise":  "Silent",
                   "polarities":  [
                                      "naramon"
                                  ],
-                  "noise":  "Silent",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  0.55000001,
+                  "trigger":  "Charge",
                   "disposition":  5,
-                  "magazineSize":  1,
                   "fireRate":  1,
                   "critMultiplier":  2,
+                  "masteryReq":  0,
                   "totalDamage":  230,
                   "vaulted":  null,
-                  "masteryReq":  0,
-                  "slot":  "primary",
+                  "statusChance":  0.14999998,
+                  "reloadTime":  0.55000001,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Charge",
+                  "slot":  "primary",
                   "critChance":  0.30000001,
+                  "magazineSize":  1,
                   "weaponClass":  "Bow",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

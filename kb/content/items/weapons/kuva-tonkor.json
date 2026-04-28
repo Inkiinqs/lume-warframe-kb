@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.kuva-tonkor",
+    "description":  "This Lich-variant grenade launcher hurls mayhem and destruction with an increased Reload Speed.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  60,
                                        "buildPrice":  10000,
@@ -74,12 +76,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  227,
@@ -87,18 +93,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  204,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  733,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  302,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             227,
@@ -121,20 +134,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Tonkor/KuvaTonkor"
@@ -147,7 +147,7 @@
     "relationships":  [
 
                       ],
-    "description":  "This Lich-variant grenade launcher hurls mayhem and destruction with an increased Reload Speed.",
+    "id":  "weapon.kuva-tonkor",
     "release":  {
                     "releaseDate":  "2019-10-31",
                     "introduced":  {
@@ -165,26 +165,26 @@
     "summary":  "This Lich-variant grenade launcher hurls mayhem and destruction with an increased Reload Speed.",
     "stats":  {
                   "accuracy":  100,
-                  "statusChance":  0.17000002,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  1.5,
+                  "trigger":  "Semi",
                   "disposition":  3,
-                  "magazineSize":  1,
                   "fireRate":  3.1666667,
                   "critMultiplier":  2.5,
+                  "masteryReq":  13,
                   "totalDamage":  733,
                   "vaulted":  null,
-                  "masteryReq":  13,
-                  "slot":  "primary",
+                  "statusChance":  0.17000002,
+                  "reloadTime":  1.5,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "primary",
                   "critChance":  0.30000001,
+                  "magazineSize":  1,
                   "weaponClass":  "Launcher",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

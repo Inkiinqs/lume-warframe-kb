@@ -1,5 +1,5 @@
 {
-    "description":  "Nokko’s signature archgun fires six homing missiles, each bearing a payload of one of the six combined elements which detonate in an area upon impact.",
+    "id":  "weapon.arbucep",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -8,6 +8,10 @@
                 ],
     "name":  "Arbucep",
     "subCategory":  "archgun-arch-gun",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD archgun static data."
+              ],
     "mechanics":  {
                       "heavySlamAttack":  null,
                       "crafting":  {
@@ -179,7 +183,6 @@
                                    "imageName":  "arbucep-6cabdc8f25.png",
                                    "available":  true
                                },
-                      "followThrough":  null,
                       "attacks":  [
                                       {
                                           "name":  "1st Attack",
@@ -377,12 +380,13 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  0,
@@ -390,30 +394,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  130,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  130,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -435,12 +425,22 @@
                                             0,
                                             0,
                                             0
-                                        ]
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
                   },
-    "notes":  [
-                  "Normalized from static import source.",
-                  "Converted from WFCD archgun static data."
-              ],
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Archwing/Primary/NokkoArchGun/NokkoArchGun"
                 ],
@@ -452,7 +452,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.arbucep",
+    "description":  "Nokko’s signature archgun fires six homing missiles, each bearing a payload of one of the six combined elements which detonate in an area upon impact.",
     "release":  {
                     "releaseDate":  "2025-10-15",
                     "introduced":  {
@@ -474,23 +474,23 @@
                                      "madurai",
                                      "naramon"
                                  ],
+                  "masterable":  true,
                   "tradable":  false,
-                  "vaulted":  null,
-                  "totalDamage":  130,
+                  "trigger":  "Auto",
                   "disposition":  1,
-                  "magazineSize":  6,
                   "fireRate":  1.5000001,
                   "critMultiplier":  2.9000001,
-                  "reloadTime":  1.72,
+                  "totalDamage":  130,
+                  "vaulted":  null,
                   "masteryReq":  0,
-                  "statusChance":  0.34900004,
-                  "slot":  "archgun",
+                  "reloadTime":  1.72,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "archgun",
                   "critChance":  0.1,
+                  "magazineSize":  6,
                   "weaponClass":  "Arch-Gun",
-                  "masterable":  true,
-                  "multishot":  6,
-                  "vaultDate":  null
+                  "vaultDate":  null,
+                  "statusChance":  0.34900004,
+                  "multishot":  6
               }
 }

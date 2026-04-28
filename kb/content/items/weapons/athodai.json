@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.athodai",
+    "description":  "Reverse-engineered from propulsion tech this hand-cannon packs a kick. Weak Point kills trigger Overdrive, locking off secondary functions while maximizing your fire rate and ammo efficiency for a short time.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  30000,
@@ -201,12 +203,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  0,
+                                     "heat":  48,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  22,
@@ -214,18 +220,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  48,
+                                     "radiation":  0,
                                      "total":  70,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             22,
@@ -248,20 +261,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Pistols/TnJetTurbine/TnJetTurbinePistolWeapon"
@@ -274,7 +274,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Reverse-engineered from propulsion tech this hand-cannon packs a kick. Weak Point kills trigger Overdrive, locking off secondary functions while maximizing your fire rate and ammo efficiency for a short time.",
+    "id":  "weapon.athodai",
     "release":  {
                     "releaseDate":  "2020-08-01",
                     "introduced":  {
@@ -290,26 +290,26 @@
     "summary":  "Reverse-engineered from propulsion tech this hand-cannon packs a kick. Weak Point kills trigger Overdrive, locking off secondary functions while maximizing your fire rate and ammo efficiency for a short time.",
     "stats":  {
                   "accuracy":  50,
-                  "statusChance":  0.079999983,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2,
+                  "trigger":  "Auto",
                   "disposition":  3,
-                  "magazineSize":  24,
                   "fireRate":  5.0000005,
                   "critMultiplier":  2,
+                  "masteryReq":  10,
                   "totalDamage":  70,
                   "vaulted":  null,
-                  "masteryReq":  10,
-                  "slot":  "secondary",
+                  "statusChance":  0.079999983,
+                  "reloadTime":  2,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "secondary",
                   "critChance":  0.31999999,
+                  "magazineSize":  24,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

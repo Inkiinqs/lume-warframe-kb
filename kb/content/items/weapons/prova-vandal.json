@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.prova-vandal",
+    "description":  "A customized version of the vicious Prova, with metallic finish and Lotus decal.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  792,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -87,12 +89,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  396,
+                      "slamRadius":  8,
                       "blockingAngle":  55,
-                      "sentinel":  null,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "zenurik",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  80,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  118,
                                      "true":  0,
                                      "slash":  0,
@@ -100,18 +106,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  198,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
+                      "heavyAttackDamage":  1188,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  594,
+                      "comboDuration":  5,
+                      "slideAttack":  396,
+                      "windUp":  0.69999999,
+                      "followThrough":  0.69999999,
+                      "slamAttack":  594,
                       "damagePerShot":  [
                                             80,
                                             0,
@@ -134,20 +147,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  1188,
-                      "followThrough":  0.69999999,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  594,
-                      "stancePolarity":  "zenurik",
-                      "slideAttack":  396,
-                      "windUp":  0.69999999,
-                      "slamRadius":  8,
-                      "slamAttack":  594,
-                      "heavySlamRadius":  9
+                      "heavySlamAttack":  792
                   },
     "aliases":  [
                     "/Lotus/Weapons/ClanTech/Energy/VandalElectroProd"
@@ -160,7 +160,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A customized version of the vicious Prova, with metallic finish and Lotus decal.",
+    "id":  "weapon.prova-vandal",
     "release":  {
                     "releaseDate":  "2013-10-23",
                     "introduced":  {
@@ -177,26 +177,26 @@
     "summary":  "A customized version of the vicious Prova, with metallic finish and Lotus decal.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.31999999,
+                  "noise":  null,
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  true,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  2,
+                  "masteryReq":  8,
                   "totalDamage":  198,
                   "vaulted":  null,
-                  "masteryReq":  8,
-                  "slot":  "melee",
+                  "statusChance":  0.31999999,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.14,
+                  "magazineSize":  null,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

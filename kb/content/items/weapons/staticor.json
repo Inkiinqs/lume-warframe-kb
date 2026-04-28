@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.staticor",
+    "description":  "Send a massive charge of potential energy hurling toward unfortunate targets.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  25000,
@@ -143,12 +145,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  150,
                                      "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  0,
@@ -156,18 +162,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  150,
                                      "total":  150,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -190,20 +203,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Corpus/Pistols/CrpElectroMag/CrpElectroMag"
@@ -216,7 +216,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Send a massive charge of potential energy hurling toward unfortunate targets.",
+    "id":  "weapon.staticor",
     "release":  {
                     "releaseDate":  "2016-02-04",
                     "introduced":  {
@@ -232,26 +232,26 @@
     "summary":  "Send a massive charge of potential energy hurling toward unfortunate targets.",
     "stats":  {
                   "accuracy":  16.666666,
-                  "statusChance":  0.27999997,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "naramon"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  1.5,
+                  "trigger":  "Charge",
                   "disposition":  3,
-                  "magazineSize":  12,
                   "fireRate":  3.5000002,
                   "critMultiplier":  2.2,
+                  "masteryReq":  10,
                   "totalDamage":  150,
                   "vaulted":  null,
-                  "masteryReq":  10,
-                  "slot":  "secondary",
+                  "statusChance":  0.27999997,
+                  "reloadTime":  1.5,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Charge",
+                  "slot":  "secondary",
                   "critChance":  0.14,
+                  "magazineSize":  12,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

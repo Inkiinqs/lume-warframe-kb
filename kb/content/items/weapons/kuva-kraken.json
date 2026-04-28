@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.kuva-kraken",
+    "description":  "A custom variant that fires three quick shots with a single pull of the trigger, or can alt-fire burst the remainder of its magazine. Higher Fire Rate, Magazine Capacity and Reload Speed.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  60,
                                        "buildPrice":  10000,
@@ -69,12 +71,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  32.25,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  5.375,
@@ -82,18 +88,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  5.375,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  43,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             32.25,
                                             5.375,
@@ -116,20 +129,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Kraken/KuvaKraken"
@@ -142,7 +142,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A custom variant that fires three quick shots with a single pull of the trigger, or can alt-fire burst the remainder of its magazine. Higher Fire Rate, Magazine Capacity and Reload Speed.",
+    "id":  "weapon.kuva-kraken",
     "release":  {
                     "releaseDate":  "2019-10-31",
                     "introduced":  {
@@ -160,26 +160,26 @@
     "summary":  "A custom variant that fires three quick shots with a single pull of the trigger, or can alt-fire burst the remainder of its magazine. Higher Fire Rate, Magazine Capacity and Reload Speed.",
     "stats":  {
                   "accuracy":  16,
-                  "statusChance":  0.28999996,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  1.5,
+                  "trigger":  "Burst",
                   "disposition":  3,
-                  "magazineSize":  21,
                   "fireRate":  6.7729087,
                   "critMultiplier":  2.3,
+                  "masteryReq":  15,
                   "totalDamage":  43,
                   "vaulted":  null,
-                  "masteryReq":  15,
-                  "slot":  "secondary",
+                  "statusChance":  0.28999996,
+                  "reloadTime":  1.5,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Burst",
+                  "slot":  "secondary",
                   "critChance":  0.20999999,
+                  "magazineSize":  21,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

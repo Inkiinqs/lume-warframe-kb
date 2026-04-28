@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.kompressa-prime",
+    "description":  "Glinting like a golden dawn, Yareli Prime’s signature pistol engulfs foes in a cascade of virulent, explosive, water globules. None can escape the sea.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -351,12 +353,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  0,
@@ -364,18 +370,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  2,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  2,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -398,20 +411,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Pistols/PrimeKompressa/PrimeKompressa"
@@ -424,7 +424,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Glinting like a golden dawn, Yareli Prime’s signature pistol engulfs foes in a cascade of virulent, explosive, water globules. None can escape the sea.",
+    "id":  "weapon.kompressa-prime",
     "release":  {
                     "releaseDate":  "2025-05-21",
                     "introduced":  {
@@ -440,27 +440,27 @@
     "summary":  "Glinting like a golden dawn, Yareli Prime’s signature pistol engulfs foes in a cascade of virulent, explosive, water globules. None can escape the sea.",
     "stats":  {
                   "accuracy":  3.7735848,
-                  "statusChance":  0.36000001,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "vazarin",
                                      "naramon"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  1.8,
+                  "trigger":  "Auto",
                   "disposition":  1,
-                  "magazineSize":  12,
                   "fireRate":  3.3333335,
                   "critMultiplier":  1.8,
+                  "masteryReq":  13,
                   "totalDamage":  2,
                   "vaulted":  false,
-                  "masteryReq":  13,
-                  "slot":  "secondary",
+                  "statusChance":  0.36000001,
+                  "reloadTime":  1.8,
                   "estimatedVaultDate":  "2027-02-21",
-                  "trigger":  "Auto",
+                  "slot":  "secondary",
                   "critChance":  0.16,
+                  "magazineSize":  12,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  4,
                   "vaultDate":  null
               }

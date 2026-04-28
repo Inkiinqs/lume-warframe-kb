@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.kuva-shildeg",
+    "description":  "A crushing, killing, rocket-powered stab-hammer. Grineer, naturally.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  1025,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  60,
                                        "buildPrice":  10000,
@@ -88,12 +90,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  410,
+                      "slamRadius":  9,
                       "blockingAngle":  50,
-                      "sentinel":  null,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  75.849998,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  100.45,
@@ -101,18 +107,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  28.699997,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  205,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  3,
+                      "heavyAttackDamage":  1230,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  615,
+                      "comboDuration":  5,
+                      "slideAttack":  410,
+                      "windUp":  1.2,
+                      "followThrough":  0.40000001,
+                      "slamAttack":  615,
                       "damagePerShot":  [
                                             75.849998,
                                             100.45,
@@ -135,20 +148,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  3,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  1230,
-                      "followThrough":  0.40000001,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  615,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  410,
-                      "windUp":  1.2,
-                      "slamRadius":  9,
-                      "slamAttack":  615,
-                      "heavySlamRadius":  9
+                      "heavySlamAttack":  1025
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/Melee/GrnKuvaLichScythe/GrnKuvaLichScytheWeapon"
@@ -161,7 +161,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A crushing, killing, rocket-powered stab-hammer. Grineer, naturally.",
+    "id":  "weapon.kuva-shildeg",
     "release":  {
                     "releaseDate":  "2019-10-31",
                     "introduced":  {
@@ -179,26 +179,26 @@
     "summary":  "A crushing, killing, rocket-powered stab-hammer. Grineer, naturally.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.26999998,
+                  "noise":  null,
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  2,
-                  "magazineSize":  null,
                   "fireRate":  0.91666669,
                   "critMultiplier":  2.7,
+                  "masteryReq":  13,
                   "totalDamage":  205,
                   "vaulted":  null,
-                  "masteryReq":  13,
-                  "slot":  "melee",
+                  "statusChance":  0.26999998,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.31,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

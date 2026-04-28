@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.akjagara-prime",
+    "description":  "Precision machined mirrored pistols. Primed and ready.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -876,12 +878,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  3.8,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  3.8,
@@ -889,18 +895,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  30.4,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  38,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             3.8,
                                             3.8,
@@ -923,20 +936,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Pistols/PrimeAkjagara/AkJagaraPrime"
@@ -949,7 +949,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Precision machined mirrored pistols. Primed and ready.",
+    "id":  "weapon.akjagara-prime",
     "release":  {
                     "releaseDate":  "2018-12-18",
                     "introduced":  {
@@ -965,27 +965,27 @@
     "summary":  "Precision machined mirrored pistols. Primed and ready.",
     "stats":  {
                   "accuracy":  33.333332,
-                  "statusChance":  0.31999999,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai",
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  1.4,
+                  "trigger":  "Burst",
                   "disposition":  3,
-                  "magazineSize":  40,
                   "fireRate":  10.000001,
                   "critMultiplier":  2.2,
+                  "masteryReq":  12,
                   "totalDamage":  38,
                   "vaulted":  true,
-                  "masteryReq":  12,
-                  "slot":  "secondary",
+                  "statusChance":  0.31999999,
+                  "reloadTime":  1.4,
                   "estimatedVaultDate":  "2020-10-27",
-                  "trigger":  "Burst",
+                  "slot":  "secondary",
                   "critChance":  0.18000001,
+                  "magazineSize":  40,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  "2020-10-27"
               }

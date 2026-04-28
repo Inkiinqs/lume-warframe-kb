@@ -1,25 +1,27 @@
 {
-    "id":  "gear.tulok-fishing-spear",
-    "name":  "Tulok Fishing Spear",
-    "category":  "gear",
-    "subCategory":  "gear",
-    "aliases":  [
-                    "/Lotus/Types/Restoratives/Consumable/SpearFishingSpearB"
-                ],
-    "summary":  "This fishing spear features a slender blade to puncture armored plates and carapaces. \n\nObtained from Fisher Hai-Luk in Cetus (Earth). This spear is most effective on the following Plains of Eidolon fish:\nTralok",
     "description":  "This fishing spear features a slender blade to puncture armored plates and carapaces. \n\nObtained from Fisher Hai-Luk in Cetus (Earth). This spear is most effective on the following Plains of Eidolon fish:\nTralok",
-    "stats":  {
-                  "type":  "Gear",
-                  "tradable":  false,
-                  "masterable":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
+                    }
+                ],
+    "name":  "Tulok Fishing Spear",
+    "subCategory":  "gear",
     "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "tulok-fishing-spear-9dea5e1b37.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
-                                       "buildPrice":  2000,
                                        "buildTime":  3600,
-                                       "skipBuildTimePrice":  5,
+                                       "buildPrice":  2000,
                                        "buildQuantity":  1,
-                                       "consumeOnBuild":  false,
                                        "components":  [
                                                           {
                                                               "name":  "Blueprint",
@@ -71,36 +73,34 @@
 
                                                                         ]
                                                           }
-                                                      ]
-                                   },
-                      "drops":  [
-                                    null
-                                ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "tulok-fishing-spear-9dea5e1b37.png"
-                               }
+                                                      ],
+                                       "skipBuildTimePrice":  5,
+                                       "consumeOnBuild":  false
+                                   }
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-
-                },
-    "tags":  [
-                 "gear",
-                 "gear"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Gear.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Types/Restoratives/Consumable/SpearFishingSpearB"
+                ],
+    "tags":  [
+                 "gear",
+                 "gear"
+             ],
+    "category":  "gear",
+    "relationships":  [
+
+                      ],
+    "id":  "gear.tulok-fishing-spear",
+    "release":  {
+
+                },
+    "summary":  "This fishing spear features a slender blade to puncture armored plates and carapaces. \n\nObtained from Fisher Hai-Luk in Cetus (Earth). This spear is most effective on the following Plains of Eidolon fish:\nTralok",
+    "stats":  {
+                  "tradable":  false,
+                  "type":  "Gear",
+                  "masterable":  false
+              }
 }

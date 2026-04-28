@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.tenet-cycron",
+    "description":  "This reengineered Cycron features a refracting energy disc that can split off the main target, hitting up to 2 additional nearby targets.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  60,
                                        "buildPrice":  10000,
@@ -54,12 +56,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  0,
+                                     "heat":  22,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  0,
@@ -67,18 +73,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  22,
+                                     "radiation":  0,
                                      "total":  22,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -101,20 +114,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Corpus/BoardExec/Secondary/CrpBECycron/CrpBECycron"
@@ -127,7 +127,7 @@
     "relationships":  [
 
                       ],
-    "description":  "This reengineered Cycron features a refracting energy disc that can split off the main target, hitting up to 2 additional nearby targets.",
+    "id":  "weapon.tenet-cycron",
     "release":  {
                     "releaseDate":  "2021-07-06",
                     "introduced":  {
@@ -143,27 +143,27 @@
     "summary":  "This reengineered Cycron features a refracting energy disc that can split off the main target, hitting up to 2 additional nearby targets.",
     "stats":  {
                   "accuracy":  100,
-                  "statusChance":  0.39999998,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "naramon",
                                      "naramon"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  1.5,
+                  "trigger":  "Held",
                   "disposition":  1,
-                  "magazineSize":  40,
                   "fireRate":  12.000001,
                   "critMultiplier":  1.8,
+                  "masteryReq":  14,
                   "totalDamage":  22,
                   "vaulted":  null,
-                  "masteryReq":  14,
-                  "slot":  "secondary",
+                  "statusChance":  0.39999998,
+                  "reloadTime":  1.5,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Held",
+                  "slot":  "secondary",
                   "critChance":  0.2,
+                  "magazineSize":  40,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

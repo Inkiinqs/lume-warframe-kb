@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.jat-kittag",
+    "description":  "Deliver crushing blows with this Grineer built, jet powered mace.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  1000,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  30000,
@@ -128,12 +130,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  400,
+                      "slamRadius":  9,
                       "blockingAngle":  50,
-                      "sentinel":  null,
+                      "heavySlamRadius":  10,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  160,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  30.000002,
@@ -141,18 +147,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  9.9999905,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  199.99998,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.8,
+                      "heavyAttackDamage":  1200,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  600,
+                      "comboDuration":  5,
+                      "slideAttack":  400,
+                      "windUp":  1.2,
+                      "followThrough":  0.40000001,
+                      "slamAttack":  600,
                       "damagePerShot":  [
                                             160,
                                             30.000002,
@@ -175,20 +188,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.8,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  1200,
-                      "followThrough":  0.40000001,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  600,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  400,
-                      "windUp":  1.2,
-                      "slamRadius":  9,
-                      "slamAttack":  600,
-                      "heavySlamRadius":  10
+                      "heavySlamAttack":  1000
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/Melee/GrineerJetPoweredPolearm/GrineerJetPolearm"
@@ -201,7 +201,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Deliver crushing blows with this Grineer built, jet powered mace.",
+    "id":  "weapon.jat-kittag",
     "release":  {
                     "releaseDate":  "2014-02-05",
                     "introduced":  {
@@ -219,27 +219,27 @@
     "summary":  "Deliver crushing blows with this Grineer built, jet powered mace.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.25,
+                  "noise":  null,
                   "polarities":  [
                                      "madurai",
                                      "naramon"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  2,
+                  "masteryReq":  5,
                   "totalDamage":  199.99998,
                   "vaulted":  null,
-                  "masteryReq":  5,
-                  "slot":  "melee",
+                  "statusChance":  0.25,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.15000001,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

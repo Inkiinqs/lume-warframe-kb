@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.alternox-prime",
+    "description":  "Orokin gold enhances the conductivity of Gyre Prime\u0027s signature rifle, enabling it to fire massive electrifying orbs.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -306,12 +308,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  75,
                                      "true":  0,
                                      "slash":  0,
@@ -319,18 +325,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  75,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -353,20 +366,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/LongGuns/PrimeAlternox/PrimeAlternoxWeapon"
@@ -379,7 +379,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Orokin gold enhances the conductivity of Gyre Prime\u0027s signature rifle, enabling it to fire massive electrifying orbs.",
+    "id":  "weapon.alternox-prime",
     "release":  {
                     "releaseDate":  "2025-12-10",
                     "introduced":  {
@@ -397,26 +397,26 @@
     "summary":  "Orokin gold enhances the conductivity of Gyre Prime\u0027s signature rifle, enabling it to fire massive electrifying orbs.",
     "stats":  {
                   "accuracy":  18.181818,
-                  "statusChance":  0.39999998,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  1.8,
+                  "trigger":  "Auto",
                   "disposition":  1,
-                  "magazineSize":  42,
                   "fireRate":  5.3333335,
                   "critMultiplier":  2.2,
+                  "masteryReq":  13,
                   "totalDamage":  75,
                   "vaulted":  false,
-                  "masteryReq":  13,
-                  "slot":  "primary",
+                  "statusChance":  0.39999998,
+                  "reloadTime":  1.8,
                   "estimatedVaultDate":  "2027-09-10",
-                  "trigger":  "Auto",
+                  "slot":  "primary",
                   "critChance":  0.2,
+                  "magazineSize":  42,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

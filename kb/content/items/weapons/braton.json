@@ -1,5 +1,5 @@
 {
-    "description":  "The Braton\u0027s high rate of fire and accuracy make it a favorite among the Tenno.",
+    "id":  "weapon.braton",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  25000,
@@ -87,7 +89,46 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  7.9200001,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  7.9200001,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  8.1599998,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  24,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "followThrough":  null,
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "relevantFormulas":  [
+                                               "formula.critical-chance",
+                                               "formula.status-chance",
+                                               "formula.multishot"
+                                           ],
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             7.9200001,
                                             7.9200001,
@@ -110,48 +151,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "relevantFormulas":  [
-                                               "formula.critical-chance",
-                                               "formula.status-chance",
-                                               "formula.multishot"
-                                           ],
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "radiation":  0,
-                                     "impact":  7.9200001,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  7.9200001,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  8.1599998,
-                                     "shieldDrain":  0,
-                                     "gas":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  24,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 }
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Rifle/Rifle"
@@ -164,7 +164,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.braton",
+    "description":  "The Braton\u0027s high rate of fire and accuracy make it a favorite among the Tenno.",
     "release":  {
                     "releaseDate":  "2012-10-25",
                     "introduced":  {
@@ -181,27 +181,27 @@
     "summary":  "The Braton\u0027s high rate of fire and accuracy make it a favorite among the Tenno.",
     "stats":  {
                   "accuracy":  28.571428,
-                  "statusChance":  0.060000002,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2,
                   "archetype":  "automatic",
+                  "trigger":  "Auto",
                   "disposition":  5,
-                  "magazineSize":  45,
                   "fireRate":  8.75,
                   "critMultiplier":  1.6,
+                  "masteryReq":  0,
                   "totalDamage":  24,
                   "vaulted":  null,
-                  "masteryReq":  0,
-                  "slot":  "primary",
+                  "statusChance":  0.060000002,
+                  "reloadTime":  2,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "primary",
                   "critChance":  0.12,
+                  "magazineSize":  45,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

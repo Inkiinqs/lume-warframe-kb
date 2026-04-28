@@ -1,25 +1,32 @@
 {
-    "id":  "gear.ebisu-spear",
-    "name":  "Ebisu Spear",
-    "category":  "gear",
-    "subCategory":  "gear",
-    "aliases":  [
-                    "/Lotus/Types/Restoratives/Consumable/InfestedFishingSpearB"
-                ],
-    "summary":  "Plumb the depths with this crafty fishing spear that\u0027s barely detectable to Infested and hybrid/Orokin fish. Due to its Infested aspect, it\u0027s one of the only known things that can pass through exocrine. \n\nObtained from Daughter in the Necralisk. This spear is most effective on fish found in the Cambion Drift (Deimos).",
     "description":  "Plumb the depths with this crafty fishing spear that\u0027s barely detectable to Infested and hybrid/Orokin fish. Due to its Infested aspect, it\u0027s one of the only known things that can pass through exocrine. \n\nObtained from Daughter in the Necralisk. This spear is most effective on fish found in the Cambion Drift (Deimos).",
-    "stats":  {
-                  "type":  "Gear",
-                  "tradable":  false,
-                  "masterable":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
+                    }
+                ],
+    "name":  "Ebisu Spear",
+    "subCategory":  "gear",
     "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "ebisu-spear-22e4c9d648.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    {
+                                        "location":  "Entrati (Daughter), Associate",
+                                        "type":  "Ebisu Spear",
+                                        "chance":  100,
+                                        "rarity":  "Common"
+                                    }
+                                ],
                       "crafting":  {
-                                       "buildPrice":  null,
                                        "buildTime":  null,
-                                       "skipBuildTimePrice":  null,
+                                       "buildPrice":  null,
                                        "buildQuantity":  null,
-                                       "consumeOnBuild":  null,
                                        "components":  [
                                                           {
                                                               "name":  null,
@@ -31,41 +38,34 @@
                                                                             null
                                                                         ]
                                                           }
-                                                      ]
-                                   },
-                      "drops":  [
-                                    {
-                                        "location":  "Entrati (Daughter), Associate",
-                                        "type":  "Ebisu Spear",
-                                        "chance":  100,
-                                        "rarity":  "Common"
-                                    }
-                                ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "ebisu-spear-22e4c9d648.png"
-                               }
+                                                      ],
+                                       "skipBuildTimePrice":  null,
+                                       "consumeOnBuild":  null
+                                   }
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-
-                },
-    "tags":  [
-                 "gear",
-                 "gear"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Gear.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Types/Restoratives/Consumable/InfestedFishingSpearB"
+                ],
+    "tags":  [
+                 "gear",
+                 "gear"
+             ],
+    "category":  "gear",
+    "relationships":  [
+
+                      ],
+    "id":  "gear.ebisu-spear",
+    "release":  {
+
+                },
+    "summary":  "Plumb the depths with this crafty fishing spear that\u0027s barely detectable to Infested and hybrid/Orokin fish. Due to its Infested aspect, it\u0027s one of the only known things that can pass through exocrine. \n\nObtained from Daughter in the Necralisk. This spear is most effective on fish found in the Cambion Drift (Deimos).",
+    "stats":  {
+                  "tradable":  false,
+                  "type":  "Gear",
+                  "masterable":  false
+              }
 }

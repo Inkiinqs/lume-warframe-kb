@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.karyst-prime",
+    "description":  "This master blade is the heavier, oversized and far more lethal version of the signature weapon of an extinct order of Tenno assassins.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  1376,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -732,12 +734,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  688,
+                      "slamRadius":  5,
                       "blockingAngle":  50,
-                      "sentinel":  null,
+                      "heavySlamRadius":  8,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  50,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  96.000008,
@@ -745,18 +751,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  96.000008,
                                      "puncture":  102,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  344,
-                                     "toxin":  96.000008,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.2,
+                      "heavyAttackDamage":  688,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  1032,
+                      "comboDuration":  5,
+                      "slideAttack":  688,
+                      "windUp":  0.40000001,
+                      "followThrough":  0.89999998,
+                      "slamAttack":  688,
                       "damagePerShot":  [
                                             50,
                                             96.000008,
@@ -779,20 +792,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.2,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  688,
-                      "followThrough":  0.89999998,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  1032,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  688,
-                      "windUp":  0.40000001,
-                      "slamRadius":  5,
-                      "slamAttack":  688,
-                      "heavySlamRadius":  8
+                      "heavySlamAttack":  1376
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Swords/PrimeKaryst/PrimeKrisDagger"
@@ -805,7 +805,7 @@
     "relationships":  [
 
                       ],
-    "description":  "This master blade is the heavier, oversized and far more lethal version of the signature weapon of an extinct order of Tenno assassins.",
+    "id":  "weapon.karyst-prime",
     "release":  {
                     "releaseDate":  "2020-07-14",
                     "introduced":  {
@@ -823,27 +823,27 @@
     "summary":  "This master blade is the heavier, oversized and far more lethal version of the signature weapon of an extinct order of Tenno assassins.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.30000001,
+                  "noise":  null,
                   "polarities":  [
                                      "madurai",
                                      "naramon"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  4,
-                  "magazineSize":  null,
                   "fireRate":  0.66666669,
                   "critMultiplier":  2.2,
+                  "masteryReq":  12,
                   "totalDamage":  344,
                   "vaulted":  true,
-                  "masteryReq":  12,
-                  "slot":  "melee",
+                  "statusChance":  0.30000001,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  "2022-07-16",
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.23999999,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  "2022-07-16"
               }

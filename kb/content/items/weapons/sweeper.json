@@ -1,5 +1,5 @@
 {
-    "description":  "Standard issue weapon for Carrier Sentinel. Fires shotgun rounds.",
+    "id":  "weapon.sweeper",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -8,6 +8,10 @@
                 ],
     "name":  "Sweeper",
     "subCategory":  "companion-companion-weapon",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD companion static data."
+              ],
     "mechanics":  {
                       "heavySlamAttack":  null,
                       "crafting":  {
@@ -35,7 +39,6 @@
                                    "imageName":  "sweeper-fccd860cbb.png",
                                    "available":  true
                                },
-                      "followThrough":  null,
                       "attacks":  [
                                       {
                                           "name":  "Normal Attack",
@@ -59,12 +62,13 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "sentinel":  true,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  29.75,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  1.75,
@@ -72,30 +76,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  3.4999988,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  35,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "sentinel":  true,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             29.75,
                                             1.75,
@@ -117,12 +107,22 @@
                                             0,
                                             0,
                                             0
-                                        ]
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
                   },
-    "notes":  [
-                  "Normalized from static import source.",
-                  "Converted from WFCD companion static data."
-              ],
     "aliases":  [
                     "/Lotus/Types/Sentinels/SentinelWeapons/SentShotgun"
                 ],
@@ -134,7 +134,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.sweeper",
+    "description":  "Standard issue weapon for Carrier Sentinel. Fires shotgun rounds.",
     "release":  {
                     "releaseDate":  "2013-09-13",
                     "introduced":  {
@@ -157,23 +157,23 @@
                                      "madurai",
                                      "madurai"
                                  ],
+                  "masterable":  true,
                   "tradable":  false,
-                  "vaulted":  null,
-                  "totalDamage":  35,
+                  "trigger":  "Auto",
                   "disposition":  3,
-                  "magazineSize":  10,
                   "fireRate":  1,
                   "critMultiplier":  1.75,
-                  "reloadTime":  2.3,
+                  "totalDamage":  35,
+                  "vaulted":  null,
                   "masteryReq":  0,
-                  "statusChance":  0.045000017,
-                  "slot":  "companion",
+                  "reloadTime":  2.3,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "companion",
                   "critChance":  0.1,
+                  "magazineSize":  10,
                   "weaponClass":  "Companion Weapon",
-                  "masterable":  true,
-                  "multishot":  6,
-                  "vaultDate":  null
+                  "vaultDate":  null,
+                  "statusChance":  0.045000017,
+                  "multishot":  6
               }
 }

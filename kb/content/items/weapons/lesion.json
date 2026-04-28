@@ -1,5 +1,5 @@
 {
-    "description":  "An instrument of unrelenting harm. If Lesion tastes blood, it becomes invigorated with faster Attack Speed and increased \u003cDT_POISON_COLOR\u003eToxin Damage.",
+    "id":  "weapon.lesion",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  1185,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -142,7 +144,45 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  474,
                       "blockingAngle":  55,
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  47.400002,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  11.85,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  177.75,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  237,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "heavySlamRadius":  8,
+                      "stancePolarity":  "zenurik",
                       "followThrough":  0.60000002,
+                      "range":  2.7,
+                      "heavyAttackDamage":  1422,
+                      "sentinel":  null,
+                      "relevantFormulas":  [
+                                               "formula.status-chance",
+                                               "formula.base-damage-stacking"
+                                           ],
+                      "heavySlamRadialDamage":  711,
+                      "comboDuration":  5,
+                      "slideAttack":  474,
+                      "windUp":  0.90000004,
+                      "slamRadius":  7,
+                      "slamAttack":  711,
                       "damagePerShot":  [
                                             47.400002,
                                             11.85,
@@ -165,47 +205,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.7,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  1422,
-                      "sentinel":  null,
-                      "relevantFormulas":  [
-                                               "formula.status-chance",
-                                               "formula.base-damage-stacking"
-                                           ],
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  711,
-                      "stancePolarity":  "zenurik",
-                      "slideAttack":  474,
-                      "windUp":  0.90000004,
-                      "slamRadius":  7,
-                      "slamAttack":  711,
-                      "heavySlamRadius":  8,
-                      "damage":  {
-                                     "tau":  0,
-                                     "radiation":  0,
-                                     "impact":  47.400002,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  11.85,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  177.75,
-                                     "shieldDrain":  0,
-                                     "gas":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  237,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 }
+                      "heavySlamAttack":  1185
                   },
     "aliases":  [
                     "/Lotus/Weapons/Infested/Melee/TipedoStaff/InfTipedoStaff"
@@ -218,7 +218,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.lesion",
+    "description":  "An instrument of unrelenting harm. If Lesion tastes blood, it becomes invigorated with faster Attack Speed and increased \u003cDT_POISON_COLOR\u003eToxin Damage.",
     "release":  {
                     "releaseDate":  "2016-03-04",
                     "introduced":  {
@@ -235,27 +235,27 @@
     "summary":  "An instrument of unrelenting harm. If Lesion tastes blood, it becomes invigorated with faster Attack Speed and increased \u003cDT_POISON_COLOR\u003eToxin Damage.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.37,
+                  "noise":  null,
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
                   "archetype":  "status-melee",
+                  "trigger":  null,
                   "disposition":  2,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  2,
+                  "masteryReq":  9,
                   "totalDamage":  237,
                   "vaulted":  null,
-                  "masteryReq":  9,
-                  "slot":  "melee",
+                  "statusChance":  0.37,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.15000001,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

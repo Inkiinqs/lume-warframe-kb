@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.prisma-grinlok",
+    "description":  "Prisma-crystal enhancement creates here a prestige instrument; a weapon capable of taking life at astonishing range with but a single pull of its exquisitely-tooled trigger.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -56,12 +58,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  74.800003,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  18.700001,
@@ -69,18 +75,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  93.5,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  187,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             74.800003,
                                             18.700001,
@@ -103,20 +116,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/LongGuns/GrineerLeverActionRifle/PrismaGrinlokWeapon"
@@ -129,7 +129,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Prisma-crystal enhancement creates here a prestige instrument; a weapon capable of taking life at astonishing range with but a single pull of its exquisitely-tooled trigger.",
+    "id":  "weapon.prisma-grinlok",
     "release":  {
                     "releaseDate":  "2019-03-08",
                     "introduced":  {
@@ -146,26 +146,26 @@
     "summary":  "Prisma-crystal enhancement creates here a prestige instrument; a weapon capable of taking life at astonishing range with but a single pull of its exquisitely-tooled trigger.",
     "stats":  {
                   "accuracy":  32,
-                  "statusChance":  0.37,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  true,
-                  "reloadTime":  1.7,
+                  "trigger":  "Semi",
                   "disposition":  4,
-                  "magazineSize":  21,
                   "fireRate":  1.6666667,
                   "critMultiplier":  2.9000001,
+                  "masteryReq":  11,
                   "totalDamage":  187,
                   "vaulted":  null,
-                  "masteryReq":  11,
-                  "slot":  "primary",
+                  "statusChance":  0.37,
+                  "reloadTime":  1.7,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "primary",
                   "critChance":  0.20999999,
+                  "magazineSize":  21,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

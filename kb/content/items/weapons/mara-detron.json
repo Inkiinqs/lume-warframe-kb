@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.mara-detron",
+    "description":  "For Orokin-era smugglers, this fearsome handheld shotgun was a favored tool for \u0027dispute resolution\u0027.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -61,12 +63,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  40,
                                      "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  0,
@@ -74,18 +80,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  40,
                                      "total":  40,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -108,20 +121,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/VoidTrader/VTDetron"
@@ -134,7 +134,7 @@
     "relationships":  [
 
                       ],
-    "description":  "For Orokin-era smugglers, this fearsome handheld shotgun was a favored tool for \u0027dispute resolution\u0027.",
+    "id":  "weapon.mara-detron",
     "release":  {
                     "releaseDate":  "2014-12-12",
                     "introduced":  {
@@ -150,26 +150,26 @@
     "summary":  "For Orokin-era smugglers, this fearsome handheld shotgun was a favored tool for \u0027dispute resolution\u0027.",
     "stats":  {
                   "accuracy":  13.333333,
-                  "statusChance":  0.1371429,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  1.05,
+                  "trigger":  "Semi",
                   "disposition":  4,
-                  "magazineSize":  8,
                   "fireRate":  3.3333335,
                   "critMultiplier":  1.5,
+                  "masteryReq":  9,
                   "totalDamage":  40,
                   "vaulted":  null,
-                  "masteryReq":  9,
-                  "slot":  "secondary",
+                  "statusChance":  0.1371429,
+                  "reloadTime":  1.05,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "secondary",
                   "critChance":  0.079999998,
+                  "magazineSize":  8,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  7,
                   "vaultDate":  null
               }

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.vadarya-prime",
+    "description":  "Caliban Prime\u0027s signature sniper rifle is no mere ceremonial weapon. A sign, perhaps, that peace between Orokin and Sentient was destined to be fleeting. Struck enemies become lightning rods, with a chance to attract bolts of chain lightning that can jump to nearby enemies.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -427,12 +429,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  400,
                                      "true":  0,
                                      "slash":  0,
@@ -440,18 +446,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  400,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -474,20 +487,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/LongGuns/PrimeLightningGun/PrimeLightningGun"
@@ -500,7 +500,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Caliban Prime\u0027s signature sniper rifle is no mere ceremonial weapon. A sign, perhaps, that peace between Orokin and Sentient was destined to be fleeting. Struck enemies become lightning rods, with a chance to attract bolts of chain lightning that can jump to nearby enemies.",
+    "id":  "weapon.vadarya-prime",
     "release":  {
                     "releaseDate":  "2025-08-26",
                     "introduced":  {
@@ -516,27 +516,27 @@
     "summary":  "Caliban Prime\u0027s signature sniper rifle is no mere ceremonial weapon. A sign, perhaps, that peace between Orokin and Sentient was destined to be fleeting. Struck enemies become lightning rods, with a chance to attract bolts of chain lightning that can jump to nearby enemies.",
     "stats":  {
                   "accuracy":  100,
-                  "statusChance":  0.18000001,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai",
                                      "naramon"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2.5999999,
+                  "trigger":  "Charge",
                   "disposition":  1,
-                  "magazineSize":  16,
                   "fireRate":  2.8000002,
                   "critMultiplier":  2.8,
+                  "masteryReq":  15,
                   "totalDamage":  400,
                   "vaulted":  false,
-                  "masteryReq":  15,
-                  "slot":  "primary",
+                  "statusChance":  0.18000001,
+                  "reloadTime":  2.5999999,
                   "estimatedVaultDate":  "2027-05-26",
-                  "trigger":  "Charge",
+                  "slot":  "primary",
                   "critChance":  0.40000001,
+                  "magazineSize":  16,
                   "weaponClass":  "Sniper",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

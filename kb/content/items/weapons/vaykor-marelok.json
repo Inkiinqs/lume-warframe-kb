@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.vaykor-marelok",
+    "description":  "Taken from defeated Grineer commanders and rebuilt to improve combat efficiency and reliability.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,14 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    {
+                                        "location":  "Steel Meridian, General",
+                                        "type":  "Vaykor Marelok",
+                                        "chance":  100,
+                                        "rarity":  "Common"
+                                    }
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -56,12 +63,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  96,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  16,
@@ -69,18 +80,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  47.999992,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  160,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             96,
                                             16,
@@ -103,25 +121,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    {
-                                        "location":  "Steel Meridian, General",
-                                        "type":  "Vaykor Marelok",
-                                        "chance":  100,
-                                        "rarity":  "Common"
-                                    }
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Syndicates/SteelMeridian/Pistols/SMMarelok"
@@ -134,7 +134,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Taken from defeated Grineer commanders and rebuilt to improve combat efficiency and reliability.",
+    "id":  "weapon.vaykor-marelok",
     "release":  {
                     "releaseDate":  "2014-11-27",
                     "introduced":  {
@@ -151,27 +151,27 @@
     "summary":  "Taken from defeated Grineer commanders and rebuilt to improve combat efficiency and reliability.",
     "stats":  {
                   "accuracy":  10,
-                  "statusChance":  0.35000002,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai",
                                      "vazarin"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  true,
-                  "reloadTime":  1.6670001,
+                  "trigger":  "Semi",
                   "disposition":  3,
-                  "magazineSize":  10,
                   "fireRate":  2,
                   "critMultiplier":  1.5,
+                  "masteryReq":  10,
                   "totalDamage":  160,
                   "vaulted":  null,
-                  "masteryReq":  10,
-                  "slot":  "secondary",
+                  "statusChance":  0.35000002,
+                  "reloadTime":  1.6670001,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "secondary",
                   "critChance":  0.2,
+                  "magazineSize":  10,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

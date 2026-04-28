@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.hystrix-prime",
+    "description":  "Versatile weapons complement deadly hunters. Khora Prime’s signature pistol rotates through hot, cold, electric, and toxic quills. When equipped on Khora, Hystrix Prime has a chance to instantly reload after headshots.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -662,12 +664,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  2.76,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  39.560001,
@@ -675,18 +681,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  3.6799994,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  46,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             2.76,
                                             39.560001,
@@ -709,20 +722,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Pistols/PrimeHystrix/PrimeHystrixWeapon"
@@ -735,7 +735,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Versatile weapons complement deadly hunters. Khora Prime’s signature pistol rotates through hot, cold, electric, and toxic quills. When equipped on Khora, Hystrix Prime has a chance to instantly reload after headshots.",
+    "id":  "weapon.hystrix-prime",
     "release":  {
                     "releaseDate":  "2022-07-16",
                     "introduced":  {
@@ -751,27 +751,27 @@
     "summary":  "Versatile weapons complement deadly hunters. Khora Prime’s signature pistol rotates through hot, cold, electric, and toxic quills. When equipped on Khora, Hystrix Prime has a chance to instantly reload after headshots.",
     "stats":  {
                   "accuracy":  14.285714,
-                  "statusChance":  0.19999999,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai",
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  1.6,
+                  "trigger":  "Auto",
                   "disposition":  3,
-                  "magazineSize":  16,
                   "fireRate":  7.0000005,
                   "critMultiplier":  2.2,
+                  "masteryReq":  12,
                   "totalDamage":  46,
                   "vaulted":  true,
-                  "masteryReq":  12,
-                  "slot":  "secondary",
+                  "statusChance":  0.19999999,
+                  "reloadTime":  1.6,
                   "estimatedVaultDate":  "2024-05-01",
-                  "trigger":  "Auto",
+                  "slot":  "secondary",
                   "critChance":  0.28,
+                  "magazineSize":  16,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  "2024-05-01"
               }

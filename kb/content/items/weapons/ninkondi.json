@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.ninkondi",
+    "description":  "With its lightning-fast strikes, the Ninkondi pays respect to the old ways.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  760,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -127,12 +129,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  380,
+                      "slamRadius":  6,
                       "blockingAngle":  55,
-                      "sentinel":  null,
+                      "heavySlamRadius":  7,
+                      "stancePolarity":  "vazarin",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  90,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  100,
                                      "true":  0,
                                      "slash":  0,
@@ -140,18 +146,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  190,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.307992,
+                      "heavyAttackDamage":  950,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  570,
+                      "comboDuration":  5,
+                      "slideAttack":  380,
+                      "windUp":  0.5,
+                      "followThrough":  0.5,
+                      "slamAttack":  380,
                       "damagePerShot":  [
                                             90,
                                             0,
@@ -174,20 +187,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.307992,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  950,
-                      "followThrough":  0.5,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  570,
-                      "stancePolarity":  "vazarin",
-                      "slideAttack":  380,
-                      "windUp":  0.5,
-                      "slamRadius":  6,
-                      "slamAttack":  380,
-                      "heavySlamRadius":  7
+                      "heavySlamAttack":  760
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Nunchaku/Nunchaku/Nunchaku"
@@ -200,7 +200,7 @@
     "relationships":  [
 
                       ],
-    "description":  "With its lightning-fast strikes, the Ninkondi pays respect to the old ways.",
+    "id":  "weapon.ninkondi",
     "release":  {
                     "releaseDate":  "2015-09-09",
                     "introduced":  {
@@ -217,26 +217,26 @@
     "summary":  "With its lightning-fast strikes, the Ninkondi pays respect to the old ways.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.35000002,
+                  "noise":  null,
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  2,
+                  "masteryReq":  8,
                   "totalDamage":  190,
                   "vaulted":  null,
-                  "masteryReq":  8,
-                  "slot":  "melee",
+                  "statusChance":  0.35000002,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.1,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

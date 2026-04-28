@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.sydon",
+    "description":  "Inflict maximum devastation with this massive Grineer trident.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  1125,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  20000,
@@ -127,12 +129,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  450,
+                      "slamRadius":  7,
                       "blockingAngle":  55,
-                      "sentinel":  null,
+                      "heavySlamRadius":  8,
+                      "stancePolarity":  "zenurik",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  11.25,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  213.75,
@@ -140,18 +146,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  225,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.9000001,
+                      "heavyAttackDamage":  1350,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  675,
+                      "comboDuration":  5,
+                      "slideAttack":  450,
+                      "windUp":  0.90000004,
+                      "followThrough":  0.60000002,
+                      "slamAttack":  675,
                       "damagePerShot":  [
                                             11.25,
                                             213.75,
@@ -174,20 +187,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.9000001,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  1350,
-                      "followThrough":  0.60000002,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  675,
-                      "stancePolarity":  "zenurik",
-                      "slideAttack":  450,
-                      "windUp":  0.90000004,
-                      "slamRadius":  7,
-                      "slamAttack":  675,
-                      "heavySlamRadius":  8
+                      "heavySlamAttack":  1125
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/Melee/GrnTrident/GrnTridentWeapon"
@@ -200,7 +200,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Inflict maximum devastation with this massive Grineer trident.",
+    "id":  "weapon.sydon",
     "release":  {
                     "releaseDate":  "2016-01-05",
                     "introduced":  {
@@ -217,26 +217,26 @@
     "summary":  "Inflict maximum devastation with this massive Grineer trident.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.25,
+                  "noise":  null,
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  0.91666669,
                   "critMultiplier":  2,
+                  "masteryReq":  5,
                   "totalDamage":  225,
                   "vaulted":  null,
-                  "masteryReq":  5,
-                  "slot":  "melee",
+                  "statusChance":  0.25,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.1,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

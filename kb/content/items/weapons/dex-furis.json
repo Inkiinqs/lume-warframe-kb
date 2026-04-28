@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.dex-furis",
+    "description":  "A gift from the Lotus to commemorate the anniversary of the first Tenno waking from Cryo stasis.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -56,12 +58,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  2.4000001,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  11.2,
@@ -69,18 +75,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  2.3999996,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  16,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             2.4000001,
                                             11.2,
@@ -103,20 +116,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Pistols/DexFuris/DexFuris"
@@ -129,7 +129,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A gift from the Lotus to commemorate the anniversary of the first Tenno waking from Cryo stasis.",
+    "id":  "weapon.dex-furis",
     "release":  {
                     "releaseDate":  "2014-03-26",
                     "introduced":  {
@@ -146,26 +146,26 @@
     "summary":  "A gift from the Lotus to commemorate the anniversary of the first Tenno waking from Cryo stasis.",
     "stats":  {
                   "accuracy":  15.384615,
-                  "statusChance":  0.27999997,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "naramon"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2,
+                  "trigger":  "Auto",
                   "disposition":  5,
-                  "magazineSize":  100,
                   "fireRate":  20.000002,
                   "critMultiplier":  2,
+                  "masteryReq":  10,
                   "totalDamage":  16,
                   "vaulted":  null,
-                  "masteryReq":  10,
-                  "slot":  "secondary",
+                  "statusChance":  0.27999997,
+                  "reloadTime":  2,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "secondary",
                   "critChance":  0.14,
+                  "magazineSize":  100,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

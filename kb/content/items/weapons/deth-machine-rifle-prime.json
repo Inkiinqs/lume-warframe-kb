@@ -1,5 +1,5 @@
 {
-    "description":  "Signature default weapon of Dethcube Prime.",
+    "id":  "weapon.deth-machine-rifle-prime",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -8,6 +8,10 @@
                 ],
     "name":  "Deth Machine Rifle Prime",
     "subCategory":  "companion-companion-weapon",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD companion static data."
+              ],
     "mechanics":  {
                       "heavySlamAttack":  null,
                       "crafting":  {
@@ -35,7 +39,6 @@
                                    "imageName":  "deth-machine-rifle-prime-7b2e679d67.png",
                                    "available":  true
                                },
-                      "followThrough":  null,
                       "attacks":  [
                                       {
                                           "name":  "Normal Attack",
@@ -54,12 +57,13 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "sentinel":  true,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  2,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  1,
@@ -67,30 +71,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  17,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  20,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "sentinel":  true,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             2,
                                             1,
@@ -112,12 +102,22 @@
                                             0,
                                             0,
                                             0
-                                        ]
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
                   },
-    "notes":  [
-                  "Normalized from static import source.",
-                  "Converted from WFCD companion static data."
-              ],
     "aliases":  [
                     "/Lotus/Types/Sentinels/SentinelWeapons/PrimeDethMachineRifle"
                 ],
@@ -129,7 +129,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.deth-machine-rifle-prime",
+    "description":  "Signature default weapon of Dethcube Prime.",
     "release":  {
                     "releaseDate":  "2019-10-01",
                     "introduced":  {
@@ -150,23 +150,23 @@
                   "polarities":  [
                                      null
                                  ],
+                  "masterable":  true,
                   "tradable":  false,
-                  "vaulted":  false,
-                  "totalDamage":  20,
+                  "trigger":  "Auto",
                   "disposition":  5,
-                  "magazineSize":  100,
                   "fireRate":  10.000001,
                   "critMultiplier":  2,
-                  "reloadTime":  2,
+                  "totalDamage":  20,
+                  "vaulted":  false,
                   "masteryReq":  0,
-                  "statusChance":  0.040000021,
-                  "slot":  "companion",
+                  "reloadTime":  2,
                   "estimatedVaultDate":  "2021-07-01",
-                  "trigger":  "Auto",
+                  "slot":  "companion",
                   "critChance":  0.1,
+                  "magazineSize":  100,
                   "weaponClass":  "Companion Weapon",
-                  "masterable":  true,
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "vaultDate":  null,
+                  "statusChance":  0.040000021,
+                  "multishot":  1
               }
 }

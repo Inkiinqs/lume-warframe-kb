@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.coda-sporothrix",
+    "description":  "Delivers a virus-laden barb to its victim that continues to damage it before exploding. With increased Damage, Reload Speed, Magazine Size, Status Chance, and explosion radius.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -80,12 +82,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  101.52,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  116.56,
@@ -93,18 +99,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  157.91998,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  376,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             101.52,
                                             116.56,
@@ -127,20 +140,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Infested/InfestedLich/LongGuns/CodaSporothrix"
@@ -153,7 +153,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Delivers a virus-laden barb to its victim that continues to damage it before exploding. With increased Damage, Reload Speed, Magazine Size, Status Chance, and explosion radius.",
+    "id":  "weapon.coda-sporothrix",
     "release":  {
                     "releaseDate":  "2025-03-19",
                     "introduced":  {
@@ -169,26 +169,26 @@
     "summary":  "Delivers a virus-laden barb to its victim that continues to damage it before exploding. With increased Damage, Reload Speed, Magazine Size, Status Chance, and explosion radius.",
     "stats":  {
                   "accuracy":  100,
-                  "statusChance":  0.55000001,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "vazarin"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2.5,
+                  "trigger":  "Semi",
                   "disposition":  3,
-                  "magazineSize":  11,
                   "fireRate":  1.8333334,
                   "critMultiplier":  3,
+                  "masteryReq":  17,
                   "totalDamage":  376,
                   "vaulted":  null,
-                  "masteryReq":  17,
-                  "slot":  "primary",
+                  "statusChance":  0.55000001,
+                  "reloadTime":  2.5,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "primary",
                   "critChance":  0.050000001,
+                  "magazineSize":  11,
                   "weaponClass":  "Sniper",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.onos",
+    "description":  "Albrecht\u0027s Void experiments revealed the true destructive potential of this weapon. In Incarnon form, draw in ambient power to deal steadily increased damage to enemies. At full power, release a blast of \u003cDT_FIRE_COLOR\u003eHeat.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -141,12 +143,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  220,
@@ -154,18 +160,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  220,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             220,
@@ -188,20 +201,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Thanotech/EntratiWristGun/EntratiWristGunWeapon"
@@ -214,7 +214,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Albrecht\u0027s Void experiments revealed the true destructive potential of this weapon. In Incarnon form, draw in ambient power to deal steadily increased damage to enemies. At full power, release a blast of \u003cDT_FIRE_COLOR\u003eHeat.",
+    "id":  "weapon.onos",
     "release":  {
                     "releaseDate":  "2024-03-27",
                     "introduced":  {
@@ -230,26 +230,26 @@
     "summary":  "Albrecht\u0027s Void experiments revealed the true destructive potential of this weapon. In Incarnon form, draw in ambient power to deal steadily increased damage to enemies. At full power, release a blast of \u003cDT_FIRE_COLOR\u003eHeat.",
     "stats":  {
                   "accuracy":  40,
-                  "statusChance":  0.22000003,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2,
+                  "trigger":  "Auto",
                   "disposition":  2,
-                  "magazineSize":  20,
                   "fireRate":  1.4000001,
                   "critMultiplier":  2.4000001,
+                  "masteryReq":  14,
                   "totalDamage":  220,
                   "vaulted":  null,
-                  "masteryReq":  14,
-                  "slot":  "secondary",
+                  "statusChance":  0.22000003,
+                  "reloadTime":  2,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "secondary",
                   "critChance":  0.25999999,
+                  "magazineSize":  20,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

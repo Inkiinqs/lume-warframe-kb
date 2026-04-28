@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.sarpa",
+    "description":  "Makes sweeping cuts punctuated by bursts of heavy gunfire.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  480,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -152,12 +154,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  320,
+                      "slamRadius":  5,
                       "blockingAngle":  45,
-                      "sentinel":  null,
+                      "heavySlamRadius":  6,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  16,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  32,
@@ -165,18 +171,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  112,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  160,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2,
+                      "heavyAttackDamage":  600,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  480,
+                      "comboDuration":  5,
+                      "slideAttack":  320,
+                      "windUp":  0.30000001,
+                      "followThrough":  0.5,
+                      "slamAttack":  480,
                       "damagePerShot":  [
                                             16,
                                             32,
@@ -199,20 +212,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  600,
-                      "followThrough":  0.5,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  480,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  320,
-                      "windUp":  0.30000001,
-                      "slamRadius":  5,
-                      "slamAttack":  480,
-                      "heavySlamRadius":  6
+                      "heavySlamAttack":  480
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Gunblade/GunbladeAutomatic/TnoGunbladeAutomatic"
@@ -225,7 +225,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Makes sweeping cuts punctuated by bursts of heavy gunfire.",
+    "id":  "weapon.sarpa",
     "release":  {
                     "releaseDate":  "2016-08-19",
                     "introduced":  {
@@ -242,26 +242,26 @@
     "summary":  "Makes sweeping cuts punctuated by bursts of heavy gunfire.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.27999997,
+                  "noise":  null,
                   "polarities":  [
                                      "vazarin"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  4,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  2,
+                  "masteryReq":  8,
                   "totalDamage":  160,
                   "vaulted":  null,
-                  "masteryReq":  8,
-                  "slot":  "melee",
+                  "statusChance":  0.27999997,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.14,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

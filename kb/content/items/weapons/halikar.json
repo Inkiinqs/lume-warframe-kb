@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.halikar",
+    "description":  "This jet powered Grineer throwing mace always comes back to its master and is even capable of disarming targets.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  596,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -225,12 +227,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  298,
+                      "slamRadius":  5,
                       "blockingAngle":  55,
-                      "sentinel":  null,
+                      "heavySlamRadius":  6,
+                      "stancePolarity":  "naramon",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  14.900001,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  119.2,
@@ -238,18 +244,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  14.899995,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  149,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.2,
+                      "heavyAttackDamage":  149,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  447,
+                      "comboDuration":  5,
+                      "slideAttack":  298,
+                      "windUp":  1.2,
+                      "followThrough":  0.69999999,
+                      "slamAttack":  447,
                       "damagePerShot":  [
                                             14.900001,
                                             119.2,
@@ -272,20 +285,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.2,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  149,
-                      "followThrough":  0.69999999,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  447,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  298,
-                      "windUp":  1.2,
-                      "slamRadius":  5,
-                      "slamAttack":  447,
-                      "heavySlamRadius":  6
+                      "heavySlamAttack":  596
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/Melee/GrnBoomerang/GrnBoomerang"
@@ -298,7 +298,7 @@
     "relationships":  [
 
                       ],
-    "description":  "This jet powered Grineer throwing mace always comes back to its master and is even capable of disarming targets.",
+    "id":  "weapon.halikar",
     "release":  {
                     "releaseDate":  "2014-10-24",
                     "introduced":  {
@@ -317,27 +317,27 @@
     "summary":  "This jet powered Grineer throwing mace always comes back to its master and is even capable of disarming targets.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.28999996,
+                  "noise":  null,
                   "polarities":  [
                                      "madurai",
                                      "naramon"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  1.1666667,
                   "critMultiplier":  2,
+                  "masteryReq":  7,
                   "totalDamage":  149,
                   "vaulted":  null,
-                  "masteryReq":  7,
-                  "slot":  "melee",
+                  "statusChance":  0.28999996,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.17,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

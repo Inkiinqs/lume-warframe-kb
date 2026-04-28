@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.fang-prime",
+    "description":  "A set of ceremonial daggers from the Orokin era, the Fang Prime\u0027s blades resonate violently as they strike. This allows them to pierce hardened materials like armor with ease.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  712,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -3689,12 +3691,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  356,
+                      "slamRadius":  6,
                       "blockingAngle":  50,
-                      "sentinel":  null,
+                      "heavySlamRadius":  7,
+                      "stancePolarity":  "unairu",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  26.700001,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  124.6,
@@ -3702,18 +3708,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  26.699995,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  178,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.75,
+                      "heavyAttackDamage":  356,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  534,
+                      "comboDuration":  5,
+                      "slideAttack":  356,
+                      "windUp":  0.5,
+                      "followThrough":  0.80000001,
+                      "slamAttack":  356,
                       "damagePerShot":  [
                                             26.700001,
                                             124.6,
@@ -3736,20 +3749,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.75,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  356,
-                      "followThrough":  0.80000001,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  534,
-                      "stancePolarity":  "unairu",
-                      "slideAttack":  356,
-                      "windUp":  0.5,
-                      "slamRadius":  6,
-                      "slamAttack":  356,
-                      "heavySlamRadius":  7
+                      "heavySlamAttack":  712
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/DualDagger/FangPrimeDagger"
@@ -3762,7 +3762,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A set of ceremonial daggers from the Orokin era, the Fang Prime\u0027s blades resonate violently as they strike. This allows them to pierce hardened materials like armor with ease.",
+    "id":  "weapon.fang-prime",
     "release":  {
                     "releaseDate":  "2013-07-13",
                     "introduced":  {
@@ -3780,26 +3780,26 @@
     "summary":  "A set of ceremonial daggers from the Orokin era, the Fang Prime\u0027s blades resonate violently as they strike. This allows them to pierce hardened materials like armor with ease.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.25999999,
+                  "noise":  null,
                   "polarities":  [
                                      "vazarin"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  4,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  2.5999999,
+                  "masteryReq":  10,
                   "totalDamage":  178,
                   "vaulted":  false,
-                  "masteryReq":  10,
-                  "slot":  "melee",
+                  "statusChance":  0.25999999,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  "2015-04-13",
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.25999999,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

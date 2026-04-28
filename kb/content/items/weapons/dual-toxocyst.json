@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.dual-toxocyst",
+    "description":  "Brain-strikes excite this bioweapon, causing it to rapidly release toxic munitions.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  30000,
@@ -109,12 +111,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  7.5,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  60,
@@ -122,18 +128,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  7.4999971,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  75,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             7.5,
                                             60,
@@ -156,20 +169,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Infested/Pistols/InfVomitGun/InfVomitGunWep"
@@ -182,7 +182,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Brain-strikes excite this bioweapon, causing it to rapidly release toxic munitions.",
+    "id":  "weapon.dual-toxocyst",
     "release":  {
                     "releaseDate":  "2016-03-04",
                     "introduced":  {
@@ -199,27 +199,27 @@
     "summary":  "Brain-strikes excite this bioweapon, causing it to rapidly release toxic munitions.",
     "stats":  {
                   "accuracy":  16,
-                  "statusChance":  0.37,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai",
                                      "naramon"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2.3499999,
+                  "trigger":  "Semi",
                   "disposition":  5,
-                  "magazineSize":  12,
                   "fireRate":  1,
                   "critMultiplier":  2,
+                  "masteryReq":  11,
                   "totalDamage":  75,
                   "vaulted":  null,
-                  "masteryReq":  11,
-                  "slot":  "secondary",
+                  "statusChance":  0.37,
+                  "reloadTime":  2.3499999,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "secondary",
                   "critChance":  0.050000001,
+                  "magazineSize":  12,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

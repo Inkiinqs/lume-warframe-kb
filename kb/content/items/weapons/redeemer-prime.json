@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.redeemer-prime",
+    "description":  "Deal double-bladed, double-barreled death with this primed gunblade.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  636,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -804,12 +806,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  424,
+                      "slamRadius":  5,
                       "blockingAngle":  45,
-                      "sentinel":  null,
+                      "heavySlamRadius":  6,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  21.200001,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  42.400002,
@@ -817,18 +823,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  148.39999,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  212,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2,
+                      "heavyAttackDamage":  1060,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  636,
+                      "comboDuration":  5,
+                      "slideAttack":  424,
+                      "windUp":  0.40000001,
+                      "followThrough":  0.5,
+                      "slamAttack":  636,
                       "damagePerShot":  [
                                             21.200001,
                                             42.400002,
@@ -851,20 +864,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  1060,
-                      "followThrough":  0.5,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  636,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  424,
-                      "windUp":  0.40000001,
-                      "slamRadius":  5,
-                      "slamAttack":  636,
-                      "heavySlamRadius":  6
+                      "heavySlamAttack":  636
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Gunblade/RedeemerPrime/RedeemerPrimeWep"
@@ -877,7 +877,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Deal double-bladed, double-barreled death with this primed gunblade.",
+    "id":  "weapon.redeemer-prime",
     "release":  {
                     "releaseDate":  "2018-12-18",
                     "introduced":  {
@@ -893,27 +893,27 @@
     "summary":  "Deal double-bladed, double-barreled death with this primed gunblade.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.30000001,
+                  "noise":  null,
                   "polarities":  [
                                      "madurai",
                                      "madurai"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  1,
-                  "magazineSize":  null,
                   "fireRate":  0.91666669,
                   "critMultiplier":  2.2,
+                  "masteryReq":  10,
                   "totalDamage":  212,
                   "vaulted":  true,
-                  "masteryReq":  10,
-                  "slot":  "melee",
+                  "statusChance":  0.30000001,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  "2020-10-27",
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.23999999,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  "2020-10-27"
               }

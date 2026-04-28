@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.okina-prime",
+    "description":  "Enforce authority with these fine-edged sai blades.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  736,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -650,12 +652,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  368,
+                      "slamRadius":  6,
                       "blockingAngle":  50,
-                      "sentinel":  null,
+                      "heavySlamRadius":  7,
+                      "stancePolarity":  "vazarin",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  9.1999998,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  64.400002,
@@ -663,18 +669,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  110.4,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  184,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.7,
+                      "heavyAttackDamage":  368,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  552,
+                      "comboDuration":  5,
+                      "slideAttack":  368,
+                      "windUp":  0.5,
+                      "followThrough":  0.80000001,
+                      "slamAttack":  368,
                       "damagePerShot":  [
                                             9.1999998,
                                             64.400002,
@@ -697,20 +710,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.7,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  368,
-                      "followThrough":  0.80000001,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  552,
-                      "stancePolarity":  "vazarin",
-                      "slideAttack":  368,
-                      "windUp":  0.5,
-                      "slamRadius":  6,
-                      "slamAttack":  368,
-                      "heavySlamRadius":  7
+                      "heavySlamAttack":  736
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Swords/PrimeOkina/PrimeOkina"
@@ -723,7 +723,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Enforce authority with these fine-edged sai blades.",
+    "id":  "weapon.okina-prime",
     "release":  {
                     "releaseDate":  "2024-05-01",
                     "introduced":  {
@@ -739,27 +739,27 @@
     "summary":  "Enforce authority with these fine-edged sai blades.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.24000001,
+                  "noise":  null,
                   "polarities":  [
                                      "madurai",
                                      "madurai"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  1,
-                  "magazineSize":  null,
                   "fireRate":  1.1666667,
                   "critMultiplier":  2.5999999,
+                  "masteryReq":  12,
                   "totalDamage":  184,
                   "vaulted":  true,
-                  "masteryReq":  12,
-                  "slot":  "melee",
+                  "statusChance":  0.24000001,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  "2026-04-08",
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.30000001,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  "2026-04-08"
               }

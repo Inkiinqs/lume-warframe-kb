@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.nagantaka",
+    "description":  "Slash targets with a single precise bolt from Garuda\u0027s signature crossbow. Alt-fire to let loose a barrage of bolts. All bolts have a chance to cause \u003cDT_SLASH_COLOR\u003eSlash Status, and Headshots have a chance to increase Reload Speed. When wielded by Garuda Nagantaka gains a slight Punch Through.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  25000,
@@ -113,12 +115,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  1.5899999,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  14.31,
@@ -126,18 +132,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  143.09999,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  158.99998,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             1.5899999,
                                             14.31,
@@ -160,20 +173,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/LongGuns/GarudaCrossbow/GarudaCrossbow"
@@ -186,7 +186,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Slash targets with a single precise bolt from Garuda\u0027s signature crossbow. Alt-fire to let loose a barrage of bolts. All bolts have a chance to cause \u003cDT_SLASH_COLOR\u003eSlash Status, and Headshots have a chance to increase Reload Speed. When wielded by Garuda Nagantaka gains a slight Punch Through.",
+    "id":  "weapon.nagantaka",
     "release":  {
                     "releaseDate":  "2018-11-08",
                     "introduced":  {
@@ -204,26 +204,26 @@
     "summary":  "Slash targets with a single precise bolt from Garuda\u0027s signature crossbow. Alt-fire to let loose a barrage of bolts. All bolts have a chance to cause \u003cDT_SLASH_COLOR\u003eSlash Status, and Headshots have a chance to increase Reload Speed. When wielded by Garuda Nagantaka gains a slight Punch Through.",
     "stats":  {
                   "accuracy":  40,
-                  "statusChance":  0.38999999,
+                  "noise":  "Silent",
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "noise":  "Silent",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2.3,
+                  "trigger":  "Semi",
                   "disposition":  4,
-                  "magazineSize":  9,
                   "fireRate":  2.5000002,
                   "critMultiplier":  2.3,
+                  "masteryReq":  9,
                   "totalDamage":  158.99998,
                   "vaulted":  null,
-                  "masteryReq":  9,
-                  "slot":  "primary",
+                  "statusChance":  0.38999999,
+                  "reloadTime":  2.3,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "primary",
                   "critChance":  0.15000001,
+                  "magazineSize":  9,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

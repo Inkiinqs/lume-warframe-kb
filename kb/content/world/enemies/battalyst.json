@@ -1,5 +1,5 @@
 {
-    "description":  "Representative Sentient unit used to anchor high-threat adaptive enemy knowledge.",
+    "id":  "enemy.battalyst",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -7,16 +7,15 @@
                     }
                 ],
     "name":  "Battalyst",
+    "subCategory":  "sentient",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD Enemy.json."
+              ],
     "mechanics":  {
                       "defenseProfile":  [
                                              "adaptive-threat"
                                          ],
-                      "wiki":  {
-                                   "thumbnail":  null,
-                                   "url":  null,
-                                   "imageName":  "battalyst.png",
-                                   "available":  null
-                               },
                       "drops":  [
                                     {
                                         "location":  "Broad Eye",
@@ -72,6 +71,7 @@
                                         "chance":  null
                                     }
                                 ],
+                      "faction":  "faction.sentient",
                       "combatRole":  "advanced-combatant",
                       "recommendedStatusPlan":  [
                                                     "Avoid over-specializing around one static damage profile.",
@@ -81,11 +81,12 @@
                                               "adaptation-pressure",
                                               "mobility"
                                           ],
-                      "recommendedDamage":  [
-                                                "status.heat",
-                                                "status.slash",
-                                                "status.toxin"
-                                            ],
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "battalyst.png",
+                                   "available":  null
+                               },
                       "resistances":  [
                                           {
                                               "amount":  0,
@@ -150,12 +151,12 @@
                                                             ]
                                           }
                                       ],
-                      "faction":  "faction.sentient"
+                      "recommendedDamage":  [
+                                                "status.heat",
+                                                "status.slash",
+                                                "status.toxin"
+                                            ]
                   },
-    "notes":  [
-                  "Normalized from static import source.",
-                  "Converted from WFCD Enemy.json."
-              ],
     "aliases":  [
                     "/Lotus/Types/Enemies/Sentients/Troopers/SentientTrooperAvatar"
                 ],
@@ -167,8 +168,7 @@
     "relationships":  [
 
                       ],
-    "id":  "enemy.battalyst",
-    "subCategory":  "sentient",
+    "description":  "Representative Sentient unit used to anchor high-threat adaptive enemy knowledge.",
     "release":  {
 
                 },

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.cyanex",
+    "description":  "Sentient tech merges with Corpus design to deliver this lethal sidearm. Fully automatic, it fires ricocheting, homing projectiles that release small clouds of \u003cDT_GAS_COLOR\u003eGas on impact. Alt-fire to release the entire magazine without homing as a single burst.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -127,12 +129,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  50,
+                                     "heat":  0,
+                                     "gas":  41,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  0,
@@ -140,18 +146,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  41,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  91,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             50,
                                             0,
@@ -174,20 +187,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Corpus/Pistols/CrpSentAmalgPistol/CrpSentAmalgPistol"
@@ -200,7 +200,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Sentient tech merges with Corpus design to deliver this lethal sidearm. Fully automatic, it fires ricocheting, homing projectiles that release small clouds of \u003cDT_GAS_COLOR\u003eGas on impact. Alt-fire to release the entire magazine without homing as a single burst.",
+    "id":  "weapon.cyanex",
     "release":  {
                     "releaseDate":  "2019-05-22",
                     "introduced":  {
@@ -218,26 +218,26 @@
     "summary":  "Sentient tech merges with Corpus design to deliver this lethal sidearm. Fully automatic, it fires ricocheting, homing projectiles that release small clouds of \u003cDT_GAS_COLOR\u003eGas on impact. Alt-fire to release the entire magazine without homing as a single burst.",
     "stats":  {
                   "accuracy":  1.8181819,
-                  "statusChance":  0.31999999,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2.2,
+                  "trigger":  "Auto",
                   "disposition":  3,
-                  "magazineSize":  11,
                   "fireRate":  4.666667,
                   "critMultiplier":  1.4,
+                  "masteryReq":  8,
                   "totalDamage":  91,
                   "vaulted":  null,
-                  "masteryReq":  8,
-                  "slot":  "secondary",
+                  "statusChance":  0.31999999,
+                  "reloadTime":  2.2,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "secondary",
                   "critChance":  0.079999998,
+                  "magazineSize":  11,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

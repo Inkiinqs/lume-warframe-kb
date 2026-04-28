@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.rubico",
+    "description":  "Scope out the enemy with this long-range revolver style rifle.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -101,12 +103,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  144,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  27.000002,
@@ -114,18 +120,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  8.9999914,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  179.99998,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             144,
                                             27.000002,
@@ -148,20 +161,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/LongGuns/FiveShotSniper/FiveShotSniper"
@@ -174,7 +174,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Scope out the enemy with this long-range revolver style rifle.",
+    "id":  "weapon.rubico",
     "release":  {
                     "releaseDate":  "2015-12-03",
                     "introduced":  {
@@ -192,26 +192,26 @@
     "summary":  "Scope out the enemy with this long-range revolver style rifle.",
     "stats":  {
                   "accuracy":  13.333333,
-                  "statusChance":  0.12,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2.4000001,
+                  "trigger":  "Semi",
                   "disposition":  3,
-                  "magazineSize":  5,
                   "fireRate":  2.6666667,
                   "critMultiplier":  3,
+                  "masteryReq":  6,
                   "totalDamage":  179.99998,
                   "vaulted":  null,
-                  "masteryReq":  6,
-                  "slot":  "primary",
+                  "statusChance":  0.12,
+                  "reloadTime":  2.4000001,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "primary",
                   "critChance":  0.30000001,
+                  "magazineSize":  5,
                   "weaponClass":  "Sniper",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

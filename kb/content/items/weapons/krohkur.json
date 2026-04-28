@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.krohkur",
+    "description":  "This hooked blade rewards critical hits to those skilled enough to strike with finesse.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  868,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  20000,
@@ -128,12 +130,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  434,
+                      "slamRadius":  7,
                       "blockingAngle":  55,
-                      "sentinel":  null,
+                      "heavySlamRadius":  8,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  26.039999,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  39.060001,
@@ -141,18 +147,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  151.89999,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  217,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
+                      "heavyAttackDamage":  1085,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  651,
+                      "comboDuration":  5,
+                      "slideAttack":  217,
+                      "windUp":  0.60000002,
+                      "followThrough":  0.60000002,
+                      "slamAttack":  651,
                       "damagePerShot":  [
                                             26.039999,
                                             39.060001,
@@ -175,20 +188,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  1085,
-                      "followThrough":  0.60000002,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  651,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  217,
-                      "windUp":  0.60000002,
-                      "slamRadius":  7,
-                      "slamAttack":  651,
-                      "heavySlamRadius":  8
+                      "heavySlamAttack":  868
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/Melee/GrnEgyptSwd/GrnEgyptSwdWeapon"
@@ -201,7 +201,7 @@
     "relationships":  [
 
                       ],
-    "description":  "This hooked blade rewards critical hits to those skilled enough to strike with finesse.",
+    "id":  "weapon.krohkur",
     "release":  {
                     "releaseDate":  "2017-10-12",
                     "introduced":  {
@@ -221,26 +221,26 @@
     "summary":  "This hooked blade rewards critical hits to those skilled enough to strike with finesse.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.19,
+                  "noise":  null,
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  0.83333337,
                   "critMultiplier":  2.3,
+                  "masteryReq":  9,
                   "totalDamage":  217,
                   "vaulted":  null,
-                  "masteryReq":  9,
-                  "slot":  "melee",
+                  "statusChance":  0.19,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.28999999,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

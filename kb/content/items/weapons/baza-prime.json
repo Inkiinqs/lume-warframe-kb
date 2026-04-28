@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.baza-prime",
+    "description":  "This rapid-fire classic is the Orokin-engineered definition of silent, pinpoint lethality.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -797,12 +799,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  5.7600002,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  6.7199998,
@@ -810,18 +816,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  3.5200005,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  16,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             5.7600002,
                                             6.7199998,
@@ -844,20 +857,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/LongGuns/PrimeBaza/PrimeBazaGun"
@@ -870,7 +870,7 @@
     "relationships":  [
 
                       ],
-    "description":  "This rapid-fire classic is the Orokin-engineered definition of silent, pinpoint lethality.",
+    "id":  "weapon.baza-prime",
     "release":  {
                     "releaseDate":  "2019-12-17",
                     "introduced":  {
@@ -886,27 +886,27 @@
     "summary":  "This rapid-fire classic is the Orokin-engineered definition of silent, pinpoint lethality.",
     "stats":  {
                   "accuracy":  80,
-                  "statusChance":  0.13999999,
+                  "noise":  "Silent",
                   "polarities":  [
                                      "madurai",
                                      "madurai"
                                  ],
-                  "noise":  "Silent",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  1.1,
+                  "trigger":  "Auto",
                   "disposition":  3,
-                  "magazineSize":  60,
                   "fireRate":  16.666668,
                   "critMultiplier":  3,
+                  "masteryReq":  10,
                   "totalDamage":  16,
                   "vaulted":  true,
-                  "masteryReq":  10,
-                  "slot":  "primary",
+                  "statusChance":  0.13999999,
+                  "reloadTime":  1.1,
                   "estimatedVaultDate":  "2021-12-15",
-                  "trigger":  "Auto",
+                  "slot":  "primary",
                   "critChance":  0.28,
+                  "magazineSize":  60,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  "2021-12-15"
               }

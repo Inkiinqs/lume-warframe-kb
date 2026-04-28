@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.prisma-lenz",
+    "description":  "The explosive potential of the Lenz, enhanced with Prisma crystals.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -91,12 +93,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  56,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  0,
@@ -104,18 +110,25 @@
                                      "cold":  10,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  66,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             56,
                                             0,
@@ -138,20 +151,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Corpus/Bow/Longbow/PrismaLenz/PrismaLenzWeapon"
@@ -164,7 +164,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The explosive potential of the Lenz, enhanced with Prisma crystals.",
+    "id":  "weapon.prisma-lenz",
     "release":  {
                     "releaseDate":  "2023-05-12",
                     "introduced":  {
@@ -180,28 +180,28 @@
     "summary":  "The explosive potential of the Lenz, enhanced with Prisma crystals.",
     "stats":  {
                   "accuracy":  16.666666,
-                  "statusChance":  0.15999997,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "naramon",
                                      "naramon",
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  true,
-                  "reloadTime":  0.60000002,
+                  "trigger":  "Charge",
                   "disposition":  3,
-                  "magazineSize":  1,
                   "fireRate":  1,
                   "critMultiplier":  2.8,
+                  "masteryReq":  12,
                   "totalDamage":  66,
                   "vaulted":  null,
-                  "masteryReq":  12,
-                  "slot":  "primary",
+                  "statusChance":  0.15999997,
+                  "reloadTime":  0.60000002,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Charge",
+                  "slot":  "primary",
                   "critChance":  0.5,
+                  "magazineSize":  1,
                   "weaponClass":  "Bow",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

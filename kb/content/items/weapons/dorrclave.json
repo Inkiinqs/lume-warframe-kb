@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.dorrclave",
+    "description":  "After 10 kills or assists, Dorrclave enters a spectral state that doubles weapon Follow Through and guarantees Status Effects for the next 10 attacks. In Dagath\u0027s hands, each active Status Effect heals her slightly.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  888,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -126,12 +128,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  444,
+                      "slamRadius":  7,
                       "blockingAngle":  60,
-                      "sentinel":  null,
+                      "heavySlamRadius":  8,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  0,
@@ -139,18 +145,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  222,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  222,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
+                      "heavyAttackDamage":  888,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  666,
+                      "comboDuration":  5,
+                      "slideAttack":  222,
+                      "windUp":  0.40000001,
+                      "followThrough":  0.5,
+                      "slamAttack":  666,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -173,20 +186,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  888,
-                      "followThrough":  0.5,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  666,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  222,
-                      "windUp":  0.40000001,
-                      "slamRadius":  7,
-                      "slamAttack":  666,
-                      "heavySlamRadius":  8
+                      "heavySlamAttack":  888
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Swords/TnDagathBladeWhip/TnDagathBladeWhip"
@@ -199,7 +199,7 @@
     "relationships":  [
 
                       ],
-    "description":  "After 10 kills or assists, Dorrclave enters a spectral state that doubles weapon Follow Through and guarantees Status Effects for the next 10 attacks. In Dagath\u0027s hands, each active Status Effect heals her slightly.",
+    "id":  "weapon.dorrclave",
     "release":  {
                     "releaseDate":  "2023-10-18",
                     "introduced":  {
@@ -217,26 +217,26 @@
     "summary":  "After 10 kills or assists, Dorrclave enters a spectral state that doubles weapon Follow Through and guarantees Status Effects for the next 10 attacks. In Dagath\u0027s hands, each active Status Effect heals her slightly.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.24000001,
+                  "noise":  null,
                   "polarities":  [
                                      "naramon"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  3,
-                  "magazineSize":  null,
                   "fireRate":  0.83333337,
                   "critMultiplier":  2.2,
+                  "masteryReq":  8,
                   "totalDamage":  222,
                   "vaulted":  null,
-                  "masteryReq":  8,
-                  "slot":  "melee",
+                  "statusChance":  0.24000001,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.25999999,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

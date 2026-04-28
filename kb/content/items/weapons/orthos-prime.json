@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.orthos-prime",
+    "description":  "Orthos Prime is an ancient Orokin martial weapon, forged from the purest Rubedo making it extremely light-weight.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  1170,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -2019,12 +2021,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  468,
+                      "slamRadius":  7,
                       "blockingAngle":  55,
-                      "sentinel":  null,
+                      "heavySlamRadius":  8,
+                      "stancePolarity":  "zenurik",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  35.100002,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  35.100002,
@@ -2032,18 +2038,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  163.8,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  234,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  3,
+                      "heavyAttackDamage":  1404,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  702,
+                      "comboDuration":  5,
+                      "slideAttack":  468,
+                      "windUp":  0.90000004,
+                      "followThrough":  0.60000002,
+                      "slamAttack":  702,
                       "damagePerShot":  [
                                             35.100002,
                                             35.100002,
@@ -2066,20 +2079,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  3,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  1404,
-                      "followThrough":  0.60000002,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  702,
-                      "stancePolarity":  "zenurik",
-                      "slideAttack":  468,
-                      "windUp":  0.90000004,
-                      "slamRadius":  7,
-                      "slamAttack":  702,
-                      "heavySlamRadius":  8
+                      "heavySlamAttack":  1170
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Polearms/PrimePolearmWeapon"
@@ -2092,7 +2092,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Orthos Prime is an ancient Orokin martial weapon, forged from the purest Rubedo making it extremely light-weight.",
+    "id":  "weapon.orthos-prime",
     "release":  {
                     "releaseDate":  "2013-07-13",
                     "introduced":  {
@@ -2110,26 +2110,26 @@
     "summary":  "Orthos Prime is an ancient Orokin martial weapon, forged from the purest Rubedo making it extremely light-weight.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.36000001,
+                  "noise":  null,
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  1,
-                  "magazineSize":  null,
                   "fireRate":  1.1666667,
                   "critMultiplier":  2.2,
+                  "masteryReq":  12,
                   "totalDamage":  234,
                   "vaulted":  false,
-                  "masteryReq":  12,
-                  "slot":  "melee",
+                  "statusChance":  0.36000001,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  "2015-04-13",
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.23999999,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

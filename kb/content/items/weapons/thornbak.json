@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.thornbak",
+    "description":  "A sturdy burst-rifle of considerable age and unknown origin collected by Teshin during his many years wandering the Origin System.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -96,12 +98,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  9.3323994,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  9.3323994,
@@ -109,18 +115,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  9.3352003,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  28,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             9.3323994,
                                             9.3323994,
@@ -143,20 +156,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/LongGuns/TnModQuestRifle/TnModQuestRifleWeapon"
@@ -169,7 +169,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A sturdy burst-rifle of considerable age and unknown origin collected by Teshin during his many years wandering the Origin System.",
+    "id":  "weapon.thornbak",
     "release":  {
                     "releaseDate":  "2025-10-15",
                     "introduced":  {
@@ -186,26 +186,26 @@
     "summary":  "A sturdy burst-rifle of considerable age and unknown origin collected by Teshin during his many years wandering the Origin System.",
     "stats":  {
                   "accuracy":  25,
-                  "statusChance":  0.36000001,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "naramon"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  1.8,
+                  "trigger":  "Burst",
                   "disposition":  3,
-                  "magazineSize":  52,
                   "fireRate":  9.2879257,
                   "critMultiplier":  1.4,
+                  "masteryReq":  0,
                   "totalDamage":  28,
                   "vaulted":  null,
-                  "masteryReq":  0,
-                  "slot":  "primary",
+                  "statusChance":  0.36000001,
+                  "reloadTime":  1.8,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Burst",
+                  "slot":  "primary",
                   "critChance":  0.059999999,
+                  "magazineSize":  52,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

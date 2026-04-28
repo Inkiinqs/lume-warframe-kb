@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.telos-boltor",
+    "description":  "Bring down judgement, with this boltor crafted by the Arbiters of Hexis.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,14 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    {
+                                        "location":  "Arbiters of Hexis, Maxim",
+                                        "type":  "Telos Boltor",
+                                        "chance":  100,
+                                        "rarity":  "Common"
+                                    }
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -72,12 +79,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  3,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  27,
@@ -85,18 +96,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  30,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             3,
                                             27,
@@ -119,25 +137,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    {
-                                        "location":  "Arbiters of Hexis, Maxim",
-                                        "type":  "Telos Boltor",
-                                        "chance":  100,
-                                        "rarity":  "Common"
-                                    }
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Syndicates/ArbitersOfHexis/LongGuns/AHBoltor"
@@ -150,7 +150,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Bring down judgement, with this boltor crafted by the Arbiters of Hexis.",
+    "id":  "weapon.telos-boltor",
     "release":  {
                     "releaseDate":  "2015-09-02",
                     "introduced":  {
@@ -167,27 +167,27 @@
     "summary":  "Bring down judgement, with this boltor crafted by the Arbiters of Hexis.",
     "stats":  {
                   "accuracy":  25,
-                  "statusChance":  0.15999997,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "vazarin",
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  true,
-                  "reloadTime":  2.4000001,
+                  "trigger":  "Auto",
                   "disposition":  4,
-                  "magazineSize":  90,
                   "fireRate":  9.333334,
                   "critMultiplier":  2.4000001,
+                  "masteryReq":  12,
                   "totalDamage":  30,
                   "vaulted":  null,
-                  "masteryReq":  12,
-                  "slot":  "primary",
+                  "statusChance":  0.15999997,
+                  "reloadTime":  2.4000001,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "primary",
                   "critChance":  0.30000001,
+                  "magazineSize":  90,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

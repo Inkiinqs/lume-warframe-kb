@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.efv-5-jupiter",
+    "description":  "Perforate Techrot, and anyone else who stands in your way, with this Scaldra machine gun. Alternative fire pummels targets with Efervon laced buckshot.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -105,12 +107,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  7,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  31,
@@ -118,18 +124,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  7,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  23,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  61,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             31,
@@ -152,20 +165,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Lasria/LasGooAK/LasGooAKPlayerWeapon"
@@ -178,7 +178,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Perforate Techrot, and anyone else who stands in your way, with this Scaldra machine gun. Alternative fire pummels targets with Efervon laced buckshot.",
+    "id":  "weapon.efv-5-jupiter",
     "release":  {
                     "releaseDate":  "2025-03-19",
                     "introduced":  {
@@ -194,27 +194,27 @@
     "summary":  "Perforate Techrot, and anyone else who stands in your way, with this Scaldra machine gun. Alternative fire pummels targets with Efervon laced buckshot.",
     "stats":  {
                   "accuracy":  133.33333,
-                  "statusChance":  0.25,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai",
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2.5,
+                  "trigger":  "Auto",
                   "disposition":  3,
-                  "magazineSize":  65,
                   "fireRate":  7.833334,
                   "critMultiplier":  2.3,
+                  "masteryReq":  14,
                   "totalDamage":  61,
                   "vaulted":  null,
-                  "masteryReq":  14,
-                  "slot":  "primary",
+                  "statusChance":  0.25,
+                  "reloadTime":  2.5,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "primary",
                   "critChance":  0.20999999,
+                  "magazineSize":  65,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

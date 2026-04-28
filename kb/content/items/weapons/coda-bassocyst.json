@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.coda-bassocyst",
+    "description":  "Amplify shockwaves of devastating sound with this Technocyte virus infested shotgun that hungers for blood, and desires nothing more than to feed upon its enemies. Alternative fire at enemies not vulnerable to Mercy Kills to swarm them with infested mites, while firing at vulnerable ones will perform a ranged execution. ",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -75,12 +77,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  19,
                                      "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  0,
@@ -88,18 +94,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  19,
                                      "total":  808,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  789,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -122,20 +135,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Infested/InfestedLich/LongGuns/1999InfShotgun/1999InfShotgunWeapon"
@@ -148,7 +148,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Amplify shockwaves of devastating sound with this Technocyte virus infested shotgun that hungers for blood, and desires nothing more than to feed upon its enemies. Alternative fire at enemies not vulnerable to Mercy Kills to swarm them with infested mites, while firing at vulnerable ones will perform a ranged execution. ",
+    "id":  "weapon.coda-bassocyst",
     "release":  {
                     "releaseDate":  "2025-03-19",
                     "introduced":  {
@@ -164,26 +164,26 @@
     "summary":  "Amplify shockwaves of devastating sound with this Technocyte virus infested shotgun that hungers for blood, and desires nothing more than to feed upon its enemies. Alternative fire at enemies not vulnerable to Mercy Kills to swarm them with infested mites, while firing at vulnerable ones will perform a ranged execution. ",
     "stats":  {
                   "accuracy":  100,
-                  "statusChance":  0.39999998,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2.5,
+                  "trigger":  "Semi",
                   "disposition":  1,
-                  "magazineSize":  24,
                   "fireRate":  1.1666667,
                   "critMultiplier":  2.2,
+                  "masteryReq":  17,
                   "totalDamage":  808,
                   "vaulted":  null,
-                  "masteryReq":  17,
-                  "slot":  "primary",
+                  "statusChance":  0.39999998,
+                  "reloadTime":  2.5,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "primary",
                   "critChance":  0.18000001,
+                  "magazineSize":  24,
                   "weaponClass":  "Shotgun",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.kuva-hind",
+    "description":  "This powerful Grineer burst rifle has been retrofitted to add semi-automatic and automatic fire modes. ",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  60,
                                        "buildPrice":  10000,
@@ -82,12 +84,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  7.5,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  7.5,
@@ -95,18 +101,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  15,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  30,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             7.5,
                                             7.5,
@@ -129,20 +142,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Hind/KuvaHind"
@@ -155,7 +155,7 @@
     "relationships":  [
 
                       ],
-    "description":  "This powerful Grineer burst rifle has been retrofitted to add semi-automatic and automatic fire modes. ",
+    "id":  "weapon.kuva-hind",
     "release":  {
                     "releaseDate":  "2020-02-04",
                     "introduced":  {
@@ -172,26 +172,26 @@
     "summary":  "This powerful Grineer burst rifle has been retrofitted to add semi-automatic and automatic fire modes. ",
     "stats":  {
                   "accuracy":  33.333332,
-                  "statusChance":  0.33000004,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2.3,
+                  "trigger":  "Burst",
                   "disposition":  3,
-                  "magazineSize":  90,
                   "fireRate":  9.09091,
                   "critMultiplier":  2.0999999,
+                  "masteryReq":  15,
                   "totalDamage":  30,
                   "vaulted":  null,
-                  "masteryReq":  15,
-                  "slot":  "primary",
+                  "statusChance":  0.33000004,
+                  "reloadTime":  2.3,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Burst",
+                  "slot":  "primary",
                   "critChance":  0.25,
+                  "magazineSize":  90,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

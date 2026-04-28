@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.rubico-prime",
+    "description":  "For the hunter, the apex of the sniper\u0027s art. For the hunted, a gateway to the next life.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -853,12 +855,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  149.60001,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  28.050001,
@@ -866,18 +872,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  9.3499908,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  187,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             149.60001,
                                             28.050001,
@@ -900,20 +913,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/LongGuns/RubicoPrime/RubicoPrimeWeapon"
@@ -926,7 +926,7 @@
     "relationships":  [
 
                       ],
-    "description":  "For the hunter, the apex of the sniper\u0027s art. For the hunted, a gateway to the next life.",
+    "id":  "weapon.rubico-prime",
     "release":  {
                     "releaseDate":  "2018-09-25",
                     "introduced":  {
@@ -943,27 +943,27 @@
     "summary":  "For the hunter, the apex of the sniper\u0027s art. For the hunted, a gateway to the next life.",
     "stats":  {
                   "accuracy":  13.333333,
-                  "statusChance":  0.15999997,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai",
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2,
+                  "trigger":  "Semi",
                   "disposition":  1,
-                  "magazineSize":  5,
                   "fireRate":  3.6666667,
                   "critMultiplier":  3,
+                  "masteryReq":  12,
                   "totalDamage":  187,
                   "vaulted":  true,
-                  "masteryReq":  12,
-                  "slot":  "primary",
+                  "statusChance":  0.15999997,
+                  "reloadTime":  2,
                   "estimatedVaultDate":  "2020-07-14",
-                  "trigger":  "Semi",
+                  "slot":  "primary",
                   "critChance":  0.38,
+                  "magazineSize":  5,
                   "weaponClass":  "Sniper",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  "2020-07-14"
               }

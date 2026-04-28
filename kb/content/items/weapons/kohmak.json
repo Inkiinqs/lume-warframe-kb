@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.kohmak",
+    "description":  "Like the larger Kohm, this hand-shotgun doubles its volley with each successive shot.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  30000,
@@ -124,12 +126,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  6,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  6,
@@ -137,18 +143,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  18,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  30,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             6,
                                             6,
@@ -171,20 +184,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/Pistols/GrnKohmPistol/GrnKohmPistol"
@@ -197,7 +197,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Like the larger Kohm, this hand-shotgun doubles its volley with each successive shot.",
+    "id":  "weapon.kohmak",
     "release":  {
                     "releaseDate":  "2015-03-19",
                     "introduced":  {
@@ -216,26 +216,26 @@
     "summary":  "Like the larger Kohm, this hand-shotgun doubles its volley with each successive shot.",
     "stats":  {
                   "accuracy":  8,
-                  "statusChance":  0.13800001,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "vazarin"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2,
+                  "trigger":  "Auto",
                   "disposition":  5,
-                  "magazineSize":  40,
                   "fireRate":  5.0000005,
                   "critMultiplier":  2,
+                  "masteryReq":  5,
                   "totalDamage":  30,
                   "vaulted":  null,
-                  "masteryReq":  5,
-                  "slot":  "secondary",
+                  "statusChance":  0.13800001,
+                  "reloadTime":  2,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "secondary",
                   "critChance":  0.11,
+                  "magazineSize":  40,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  5,
                   "vaultDate":  null
               }

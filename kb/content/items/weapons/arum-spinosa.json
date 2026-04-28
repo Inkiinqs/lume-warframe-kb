@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.arum-spinosa",
+    "description":  "Slash through enemies with two leaves of the exceedingly rare Arum Spinosa plant. Heavy Attack to whip a flurry of toxic spines at ranged attackers.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  297,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -357,12 +359,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  594,
+                      "slamRadius":  5,
                       "blockingAngle":  55,
-                      "sentinel":  null,
+                      "heavySlamRadius":  6,
+                      "stancePolarity":  "naramon",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  35.639999,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  59.400002,
@@ -370,18 +376,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  201.96001,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  297,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.7,
+                      "heavyAttackDamage":  1188,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  891,
+                      "comboDuration":  5,
+                      "slideAttack":  297,
+                      "windUp":  0.5,
+                      "followThrough":  0.69999999,
+                      "slamAttack":  594,
                       "damagePerShot":  [
                                             35.639999,
                                             59.400002,
@@ -404,20 +417,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.7,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  1188,
-                      "followThrough":  0.69999999,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  891,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  297,
-                      "windUp":  0.5,
-                      "slamRadius":  5,
-                      "slamAttack":  594,
-                      "heavySlamRadius":  6
+                      "heavySlamAttack":  297
                   },
     "aliases":  [
                     "/Lotus/Weapons/Infested/Melee/InfWarfan/InfWarfanWeapon"
@@ -430,7 +430,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Slash through enemies with two leaves of the exceedingly rare Arum Spinosa plant. Heavy Attack to whip a flurry of toxic spines at ranged attackers.",
+    "id":  "weapon.arum-spinosa",
     "release":  {
                     "releaseDate":  "2020-11-19",
                     "introduced":  {
@@ -447,27 +447,27 @@
     "summary":  "Slash through enemies with two leaves of the exceedingly rare Arum Spinosa plant. Heavy Attack to whip a flurry of toxic spines at ranged attackers.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.37,
+                  "noise":  null,
                   "polarities":  [
                                      "naramon",
                                      "madurai"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  4,
-                  "magazineSize":  null,
                   "fireRate":  1.0833334,
                   "critMultiplier":  1.9,
+                  "masteryReq":  11,
                   "totalDamage":  297,
                   "vaulted":  null,
-                  "masteryReq":  11,
-                  "slot":  "melee",
+                  "statusChance":  0.37,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.090000004,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

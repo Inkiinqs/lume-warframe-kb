@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.galariak-prime",
+    "description":  "Orokin-era Grineer plated their scythes with gold as a symbol of dedication to their Golden Lords. Gains a percentage of Critical Chance with each Status Type affecting the target.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  1170,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -187,12 +189,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  468,
+                      "slamRadius":  8,
                       "blockingAngle":  60,
-                      "sentinel":  null,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "zenurik",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  30.305735,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  190.47897,
@@ -200,18 +206,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  13.215286,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  234,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.8,
+                      "heavyAttackDamage":  1404,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  702,
+                      "comboDuration":  5,
+                      "slideAttack":  468,
+                      "windUp":  1,
+                      "followThrough":  0.60000002,
+                      "slamAttack":  702,
                       "damagePerShot":  [
                                             30.305735,
                                             190.47897,
@@ -234,20 +247,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.8,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  1404,
-                      "followThrough":  0.60000002,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  702,
-                      "stancePolarity":  "zenurik",
-                      "slideAttack":  468,
-                      "windUp":  1,
-                      "slamRadius":  8,
-                      "slamAttack":  702,
-                      "heavySlamRadius":  9
+                      "heavySlamAttack":  1170
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/Melee/Scythe/GrnDrillScythe/GrnDrillScythe"
@@ -260,7 +260,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Orokin-era Grineer plated their scythes with gold as a symbol of dedication to their Golden Lords. Gains a percentage of Critical Chance with each Status Type affecting the target.",
+    "id":  "weapon.galariak-prime",
     "release":  {
                     "releaseDate":  "2025-12-10",
                     "introduced":  {
@@ -278,27 +278,27 @@
     "summary":  "Orokin-era Grineer plated their scythes with gold as a symbol of dedication to their Golden Lords. Gains a percentage of Critical Chance with each Status Type affecting the target.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.31999999,
+                  "noise":  null,
                   "polarities":  [
                                      "madurai",
                                      "madurai"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  1,
-                  "magazineSize":  null,
                   "fireRate":  1.0833334,
                   "critMultiplier":  2.5,
+                  "masteryReq":  14,
                   "totalDamage":  234,
                   "vaulted":  false,
-                  "masteryReq":  14,
-                  "slot":  "melee",
+                  "statusChance":  0.31999999,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  "2027-09-10",
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.19,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.kestrel",
+    "description":  "The Kestrel boomerang is a heavy throwing weapon that can knock down enemies at a distance.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  336,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -230,12 +232,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  168,
+                      "slamRadius":  5,
                       "blockingAngle":  55,
-                      "sentinel":  null,
+                      "heavySlamRadius":  6,
+                      "stancePolarity":  "naramon",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  58.799999,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  12.6,
@@ -243,18 +249,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  12.599998,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  84,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.2,
+                      "heavyAttackDamage":  84,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  252,
+                      "comboDuration":  5,
+                      "slideAttack":  168,
+                      "windUp":  1.2,
+                      "followThrough":  0.69999999,
+                      "slamAttack":  252,
                       "damagePerShot":  [
                                             58.799999,
                                             12.6,
@@ -277,20 +290,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.2,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  84,
-                      "followThrough":  0.69999999,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  252,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  168,
-                      "windUp":  1.2,
-                      "slamRadius":  5,
-                      "slamAttack":  252,
-                      "heavySlamRadius":  6
+                      "heavySlamAttack":  336
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Glaives/Boomerang/BoomerangWeapon"
@@ -303,7 +303,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The Kestrel boomerang is a heavy throwing weapon that can knock down enemies at a distance.",
+    "id":  "weapon.kestrel",
     "release":  {
                     "releaseDate":  "2013-06-07",
                     "introduced":  {
@@ -320,27 +320,27 @@
     "summary":  "The Kestrel boomerang is a heavy throwing weapon that can knock down enemies at a distance.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.10000002,
+                  "noise":  null,
                   "polarities":  [
                                      "madurai",
                                      "naramon"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  1.0833334,
                   "critMultiplier":  2,
+                  "masteryReq":  0,
                   "totalDamage":  84,
                   "vaulted":  null,
-                  "masteryReq":  0,
-                  "slot":  "melee",
+                  "statusChance":  0.10000002,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.1,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

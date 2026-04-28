@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.spira",
+    "description":  "A flash of red ribbon is the last thing most victims of these throwing-daggers see.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -98,12 +100,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  8.1999998,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  49.200001,
@@ -111,18 +117,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  24.599997,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  82,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             8.1999998,
                                             49.200001,
@@ -145,20 +158,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/ThrowingWeapons/LiDagger/LiDagger"
@@ -171,7 +171,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A flash of red ribbon is the last thing most victims of these throwing-daggers see.",
+    "id":  "weapon.spira",
     "release":  {
                     "releaseDate":  "2015-09-23",
                     "introduced":  {
@@ -187,27 +187,27 @@
     "summary":  "A flash of red ribbon is the last thing most victims of these throwing-daggers see.",
     "stats":  {
                   "accuracy":  100,
-                  "statusChance":  0.079999983,
+                  "noise":  "Silent",
                   "polarities":  [
                                      "madurai",
                                      "madurai"
                                  ],
-                  "noise":  "Silent",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  1,
+                  "trigger":  "Auto",
                   "disposition":  5,
-                  "magazineSize":  10,
                   "fireRate":  2.5000002,
                   "critMultiplier":  2,
+                  "masteryReq":  8,
                   "totalDamage":  82,
                   "vaulted":  null,
-                  "masteryReq":  8,
-                  "slot":  "secondary",
+                  "statusChance":  0.079999983,
+                  "reloadTime":  1,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "secondary",
                   "critChance":  0.30000001,
+                  "magazineSize":  10,
                   "weaponClass":  "Throwing",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

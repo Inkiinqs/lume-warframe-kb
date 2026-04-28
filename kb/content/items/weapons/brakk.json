@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.brakk",
+    "description":  "Simple but powerful. The semi-automatic Brakk hand cannon delivers a lot of punch in a small package.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -106,12 +108,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  9,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  5,
@@ -119,18 +125,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  6,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  20,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             9,
                                             5,
@@ -153,20 +166,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/Pistols/GrineerHandShotgun/GrineerHandCannon"
@@ -179,7 +179,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Simple but powerful. The semi-automatic Brakk hand cannon delivers a lot of punch in a small package.",
+    "id":  "weapon.brakk",
     "release":  {
                     "releaseDate":  "2013-10-30",
                     "introduced":  {
@@ -196,27 +196,27 @@
     "summary":  "Simple but powerful. The semi-automatic Brakk hand cannon delivers a lot of punch in a small package.",
     "stats":  {
                   "accuracy":  7.6923075,
-                  "statusChance":  0.050999999,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "naramon",
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  1.05,
+                  "trigger":  "Semi",
                   "disposition":  4,
-                  "magazineSize":  5,
                   "fireRate":  5.0000005,
                   "critMultiplier":  2,
+                  "masteryReq":  6,
                   "totalDamage":  20,
                   "vaulted":  null,
-                  "masteryReq":  6,
-                  "slot":  "secondary",
+                  "statusChance":  0.050999999,
+                  "reloadTime":  1.05,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "secondary",
                   "critChance":  0.17,
+                  "magazineSize":  5,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  10,
                   "vaultDate":  null
               }

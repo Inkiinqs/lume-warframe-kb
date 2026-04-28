@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.paracesis",
+    "description":  "The Sentient slayer. An offering from Ballas.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  222,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  30000,
@@ -128,12 +130,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  444,
+                      "slamRadius":  8,
                       "blockingAngle":  55,
-                      "sentinel":  null,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "vazarin",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  48.84,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  17.76,
@@ -141,18 +147,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  155.39999,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  222,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.9000001,
+                      "heavyAttackDamage":  1332,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  666,
+                      "comboDuration":  5,
+                      "slideAttack":  444,
+                      "windUp":  1.1,
+                      "followThrough":  0.60000002,
+                      "slamAttack":  666,
                       "damagePerShot":  [
                                             48.84,
                                             17.76,
@@ -175,20 +188,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.9000001,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  1332,
-                      "followThrough":  0.60000002,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  666,
-                      "stancePolarity":  "vazarin",
-                      "slideAttack":  444,
-                      "windUp":  1.1,
-                      "slamRadius":  8,
-                      "slamAttack":  666,
-                      "heavySlamRadius":  9
+                      "heavySlamAttack":  222
                   },
     "aliases":  [
                     "/Lotus/Weapons/Orokin/BallasSword/BallasSwordWeapon"
@@ -201,7 +201,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The Sentient slayer. An offering from Ballas.",
+    "id":  "weapon.paracesis",
     "release":  {
                     "releaseDate":  "2018-10-12",
                     "introduced":  {
@@ -218,26 +218,26 @@
     "summary":  "The Sentient slayer. An offering from Ballas.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.22000003,
+                  "noise":  null,
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  1,
-                  "magazineSize":  null,
                   "fireRate":  0.91666669,
                   "critMultiplier":  2.5999999,
+                  "masteryReq":  10,
                   "totalDamage":  222,
                   "vaulted":  null,
-                  "masteryReq":  10,
-                  "slot":  "melee",
+                  "statusChance":  0.22000003,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.31,
+                  "magazineSize":  null,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

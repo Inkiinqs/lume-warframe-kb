@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.furax-wraith",
+    "description":  "These Wraith gauntlets have been augmented for power.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  556,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  25000,
@@ -177,12 +179,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  278,
+                      "slamRadius":  8,
                       "blockingAngle":  50,
-                      "sentinel":  null,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "vazarin",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  97.299995,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  20.85,
@@ -190,18 +196,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  20.849997,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  138.99998,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.25,
+                      "heavyAttackDamage":  695,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  417,
+                      "comboDuration":  5,
+                      "slideAttack":  417,
+                      "windUp":  0.60000002,
+                      "followThrough":  0.89999998,
+                      "slamAttack":  417,
                       "damagePerShot":  [
                                             97.299995,
                                             20.85,
@@ -224,20 +237,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.25,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  695,
-                      "followThrough":  0.89999998,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  417,
-                      "stancePolarity":  "vazarin",
-                      "slideAttack":  417,
-                      "windUp":  0.60000002,
-                      "slamRadius":  8,
-                      "slamAttack":  417,
-                      "heavySlamRadius":  9
+                      "heavySlamAttack":  556
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Fist/FuraxWraith"
@@ -250,7 +250,7 @@
     "relationships":  [
 
                       ],
-    "description":  "These Wraith gauntlets have been augmented for power.",
+    "id":  "weapon.furax-wraith",
     "release":  {
                     "releaseDate":  "2016-04-29",
                     "introduced":  {
@@ -267,26 +267,26 @@
     "summary":  "These Wraith gauntlets have been augmented for power.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.14999998,
+                  "noise":  null,
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  true,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  4,
-                  "magazineSize":  null,
                   "fireRate":  1.0833334,
                   "critMultiplier":  2.7,
+                  "masteryReq":  9,
                   "totalDamage":  138.99998,
                   "vaulted":  null,
-                  "masteryReq":  9,
-                  "slot":  "melee",
+                  "statusChance":  0.14999998,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.30000001,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

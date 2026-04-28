@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.praedos",
+    "description":  "Orokin elites admired farmers in conquered regions, because they had learned to fight with modified farming tools despite being forbidden to own weapons. For their voyage, the Zariman were presented with Praedos in recognition of Zariman tenacity. The Void reinforces the strength of the spirited individual by fortifying the Praedos.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  800,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  30000,
@@ -133,12 +135,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  400,
+                      "slamRadius":  8,
                       "blockingAngle":  60,
-                      "sentinel":  null,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  20,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  20,
@@ -146,18 +152,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  160,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  200,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
+                      "heavyAttackDamage":  800,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  600,
+                      "comboDuration":  5,
+                      "slideAttack":  400,
+                      "windUp":  0.69999999,
+                      "followThrough":  0.60000002,
+                      "slamAttack":  400,
                       "damagePerShot":  [
                                             20,
                                             20,
@@ -180,20 +193,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  800,
-                      "followThrough":  0.60000002,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  600,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  400,
-                      "windUp":  0.69999999,
-                      "slamRadius":  8,
-                      "slamAttack":  400,
-                      "heavySlamRadius":  9
+                      "heavySlamAttack":  800
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Zariman/Melee/Tonfas/ZarimanTonfaWeapon"
@@ -206,7 +206,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Orokin elites admired farmers in conquered regions, because they had learned to fight with modified farming tools despite being forbidden to own weapons. For their voyage, the Zariman were presented with Praedos in recognition of Zariman tenacity. The Void reinforces the strength of the spirited individual by fortifying the Praedos.",
+    "id":  "weapon.praedos",
     "release":  {
                     "releaseDate":  "2022-04-27",
                     "introduced":  {
@@ -223,27 +223,27 @@
     "summary":  "Orokin elites admired farmers in conquered regions, because they had learned to fight with modified farming tools despite being forbidden to own weapons. For their voyage, the Zariman were presented with Praedos in recognition of Zariman tenacity. The Void reinforces the strength of the spirited individual by fortifying the Praedos.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.19999999,
+                  "noise":  null,
                   "polarities":  [
                                      "madurai",
                                      "naramon"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  1,
-                  "magazineSize":  null,
                   "fireRate":  1.1666667,
                   "critMultiplier":  2,
+                  "masteryReq":  14,
                   "totalDamage":  200,
                   "vaulted":  null,
-                  "masteryReq":  14,
-                  "slot":  "melee",
+                  "statusChance":  0.19999999,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.2,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

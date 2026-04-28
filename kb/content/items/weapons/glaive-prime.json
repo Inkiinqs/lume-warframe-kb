@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.glaive-prime",
+    "description":  "The Glaive Prime is a deadly and beautiful weapon from the Orokin era. The blades are as effective in close quarters as they are when thrown at distant enemies.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  656,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -464,12 +466,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  328,
+                      "slamRadius":  5,
                       "blockingAngle":  55,
-                      "sentinel":  null,
+                      "heavySlamRadius":  6,
+                      "stancePolarity":  "naramon",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  24.6,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  24.6,
@@ -477,18 +483,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  114.8,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  164,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.25,
+                      "heavyAttackDamage":  164,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  492,
+                      "comboDuration":  5,
+                      "slideAttack":  328,
+                      "windUp":  1.2,
+                      "followThrough":  0.69999999,
+                      "slamAttack":  492,
                       "damagePerShot":  [
                                             24.6,
                                             24.6,
@@ -511,20 +524,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.25,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  164,
-                      "followThrough":  0.69999999,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  492,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  328,
-                      "windUp":  1.2,
-                      "slamRadius":  5,
-                      "slamAttack":  492,
-                      "heavySlamRadius":  6
+                      "heavySlamAttack":  656
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Glaives/PrimeGlaive/PrimeGlaiveWeapon"
@@ -537,7 +537,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The Glaive Prime is a deadly and beautiful weapon from the Orokin era. The blades are as effective in close quarters as they are when thrown at distant enemies.",
+    "id":  "weapon.glaive-prime",
     "release":  {
                     "releaseDate":  "2013-11-20",
                     "introduced":  {
@@ -555,27 +555,27 @@
     "summary":  "The Glaive Prime is a deadly and beautiful weapon from the Orokin era. The blades are as effective in close quarters as they are when thrown at distant enemies.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.30000001,
+                  "noise":  null,
                   "polarities":  [
                                      "madurai",
                                      "naramon"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  1,
-                  "magazineSize":  null,
                   "fireRate":  1.2500001,
                   "critMultiplier":  2,
+                  "masteryReq":  10,
                   "totalDamage":  164,
                   "vaulted":  true,
-                  "masteryReq":  10,
-                  "slot":  "melee",
+                  "statusChance":  0.30000001,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  "2015-10-06",
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.22,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  "2015-10-06"
               }

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.sancti-castanas",
+    "description":  "This remotely detonated electrical trap is used by devotees of New Loka to protect their temples and shrines.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,14 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    {
+                                        "location":  "New Loka, Flawless",
+                                        "type":  "Sancti Castanas",
+                                        "chance":  100,
+                                        "rarity":  "Common"
+                                    }
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -77,12 +84,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  300,
                                      "true":  0,
                                      "slash":  0,
@@ -90,18 +101,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  300,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -124,25 +142,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    {
-                                        "location":  "New Loka, Flawless",
-                                        "type":  "Sancti Castanas",
-                                        "chance":  100,
-                                        "rarity":  "Common"
-                                    }
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Syndicates/NewLoka/Pistols/NLCastanas"
@@ -155,7 +155,7 @@
     "relationships":  [
 
                       ],
-    "description":  "This remotely detonated electrical trap is used by devotees of New Loka to protect their temples and shrines.",
+    "id":  "weapon.sancti-castanas",
     "release":  {
                     "releaseDate":  "2014-11-27",
                     "introduced":  {
@@ -172,28 +172,28 @@
     "summary":  "This remotely detonated electrical trap is used by devotees of New Loka to protect their temples and shrines.",
     "stats":  {
                   "accuracy":  100,
-                  "statusChance":  0.34000003,
+                  "noise":  "Silent",
                   "polarities":  [
                                      "madurai",
                                      "madurai",
                                      "vazarin"
                                  ],
-                  "noise":  "Silent",
+                  "masterable":  true,
                   "tradable":  true,
-                  "reloadTime":  1,
+                  "trigger":  "Active",
                   "disposition":  5,
-                  "magazineSize":  2,
                   "fireRate":  3.3333335,
                   "critMultiplier":  2,
+                  "masteryReq":  10,
                   "totalDamage":  300,
                   "vaulted":  null,
-                  "masteryReq":  10,
-                  "slot":  "secondary",
+                  "statusChance":  0.34000003,
+                  "reloadTime":  1,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Active",
+                  "slot":  "secondary",
                   "critChance":  0.23999999,
+                  "magazineSize":  2,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.hikou-prime",
+    "description":  "As deadly as any bullet without the associated noise or commotion.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -421,12 +423,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  3.6000001,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  30.6,
@@ -434,18 +440,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  1.7999983,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  36,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             3.6000001,
                                             30.6,
@@ -468,20 +481,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/ThrowingWeapons/PrimeThrowingStar/PrimeHikou"
@@ -494,7 +494,7 @@
     "relationships":  [
 
                       ],
-    "description":  "As deadly as any bullet without the associated noise or commotion.",
+    "id":  "weapon.hikou-prime",
     "release":  {
                     "releaseDate":  "2014-09-24",
                     "introduced":  {
@@ -511,27 +511,27 @@
     "summary":  "As deadly as any bullet without the associated noise or commotion.",
     "stats":  {
                   "accuracy":  100,
-                  "statusChance":  0.27999997,
+                  "noise":  "Silent",
                   "polarities":  [
                                      "madurai",
                                      "madurai"
                                  ],
-                  "noise":  "Silent",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  0.5,
+                  "trigger":  "Auto",
                   "disposition":  4,
-                  "magazineSize":  26,
                   "fireRate":  5.8333335,
                   "critMultiplier":  1.8,
+                  "masteryReq":  4,
                   "totalDamage":  36,
                   "vaulted":  true,
-                  "masteryReq":  4,
-                  "slot":  "secondary",
+                  "statusChance":  0.27999997,
+                  "reloadTime":  0.5,
                   "estimatedVaultDate":  "2016-08-23",
-                  "trigger":  "Auto",
+                  "slot":  "secondary",
                   "critChance":  0.059999999,
+                  "magazineSize":  26,
                   "weaponClass":  "Throwing",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  "2016-08-23"
               }

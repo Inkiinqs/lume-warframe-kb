@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.nami-solo",
+    "description":  "Evoking the oceans of earth, this exquisite cutlass is a deadly work of art.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  688,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -128,12 +130,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  344,
+                      "slamRadius":  8,
                       "blockingAngle":  55,
-                      "sentinel":  null,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "zenurik",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  25.800001,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  25.800001,
@@ -141,18 +147,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  120.4,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  172,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
+                      "heavyAttackDamage":  1032,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  516,
+                      "comboDuration":  5,
+                      "slideAttack":  344,
+                      "windUp":  0.69999999,
+                      "followThrough":  0.69999999,
+                      "slamAttack":  516,
                       "damagePerShot":  [
                                             25.800001,
                                             25.800001,
@@ -175,20 +188,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  1032,
-                      "followThrough":  0.69999999,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  516,
-                      "stancePolarity":  "zenurik",
-                      "slideAttack":  344,
-                      "windUp":  0.69999999,
-                      "slamRadius":  8,
-                      "slamAttack":  516,
-                      "heavySlamRadius":  9
+                      "heavySlamAttack":  688
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Swords/CutlassAndPoignard/TennoCutlass"
@@ -201,7 +201,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Evoking the oceans of earth, this exquisite cutlass is a deadly work of art.",
+    "id":  "weapon.nami-solo",
     "release":  {
                     "releaseDate":  "2014-05-28",
                     "introduced":  {
@@ -218,26 +218,26 @@
     "summary":  "Evoking the oceans of earth, this exquisite cutlass is a deadly work of art.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.25,
+                  "noise":  null,
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  2,
+                  "masteryReq":  6,
                   "totalDamage":  172,
                   "vaulted":  null,
-                  "masteryReq":  6,
-                  "slot":  "melee",
+                  "statusChance":  0.25,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.15000001,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

@@ -1,25 +1,27 @@
 {
-    "id":  "gear.lanzo-fishing-spear",
-    "name":  "Lanzo Fishing Spear",
-    "category":  "gear",
-    "subCategory":  "gear",
-    "aliases":  [
-                    "/Lotus/Types/Restoratives/Consumable/SpearFishingSpear"
-                ],
-    "summary":  "The barbed prongs on this fishing spear make it easier to catch fish with smooth skin. \n\nObtained from Fisher Hai-Luk in Cetus (Earth). This spear is most effective on the following Plains of Eidolon fish:\nCharc Eel\nCuthol\nGoopolla\nMurkray\nSharrac\nYogwun",
     "description":  "The barbed prongs on this fishing spear make it easier to catch fish with smooth skin. \n\nObtained from Fisher Hai-Luk in Cetus (Earth). This spear is most effective on the following Plains of Eidolon fish:\nCharc Eel\nCuthol\nGoopolla\nMurkray\nSharrac\nYogwun",
-    "stats":  {
-                  "type":  "Gear",
-                  "tradable":  false,
-                  "masterable":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
+                    }
+                ],
+    "name":  "Lanzo Fishing Spear",
+    "subCategory":  "gear",
     "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "lanzo-fishing-spear-43427ae15c.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
-                                       "buildPrice":  1000,
                                        "buildTime":  300,
-                                       "skipBuildTimePrice":  5,
+                                       "buildPrice":  1000,
                                        "buildQuantity":  1,
-                                       "consumeOnBuild":  false,
                                        "components":  [
                                                           {
                                                               "name":  "Blueprint",
@@ -61,36 +63,34 @@
 
                                                                         ]
                                                           }
-                                                      ]
-                                   },
-                      "drops":  [
-                                    null
-                                ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "lanzo-fishing-spear-43427ae15c.png"
-                               }
+                                                      ],
+                                       "skipBuildTimePrice":  5,
+                                       "consumeOnBuild":  false
+                                   }
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-
-                },
-    "tags":  [
-                 "gear",
-                 "gear"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Gear.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Types/Restoratives/Consumable/SpearFishingSpear"
+                ],
+    "tags":  [
+                 "gear",
+                 "gear"
+             ],
+    "category":  "gear",
+    "relationships":  [
+
+                      ],
+    "id":  "gear.lanzo-fishing-spear",
+    "release":  {
+
+                },
+    "summary":  "The barbed prongs on this fishing spear make it easier to catch fish with smooth skin. \n\nObtained from Fisher Hai-Luk in Cetus (Earth). This spear is most effective on the following Plains of Eidolon fish:\nCharc Eel\nCuthol\nGoopolla\nMurkray\nSharrac\nYogwun",
+    "stats":  {
+                  "tradable":  false,
+                  "type":  "Gear",
+                  "masterable":  false
+              }
 }

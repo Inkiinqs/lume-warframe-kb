@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.kuva-ogris",
+    "description":  "The custom weapon of a fearsome Kuva Lich. Unlike the basic version the Kuva Ogris fires detonite-infused casings semi-automatically, from a smaller magazine, while dealing greater damage per shot.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  60,
                                        "buildPrice":  10000,
@@ -75,12 +77,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  18.9,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  191.10001,
@@ -88,18 +94,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  155,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  714,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  348.99997,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             18.9,
                                             191.10001,
@@ -122,20 +135,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Ogris/KuvaOgris"
@@ -148,7 +148,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The custom weapon of a fearsome Kuva Lich. Unlike the basic version the Kuva Ogris fires detonite-infused casings semi-automatically, from a smaller magazine, while dealing greater damage per shot.",
+    "id":  "weapon.kuva-ogris",
     "release":  {
                     "releaseDate":  "2019-10-31",
                     "introduced":  {
@@ -166,26 +166,26 @@
     "summary":  "The custom weapon of a fearsome Kuva Lich. Unlike the basic version the Kuva Ogris fires detonite-infused casings semi-automatically, from a smaller magazine, while dealing greater damage per shot.",
     "stats":  {
                   "accuracy":  100,
-                  "statusChance":  0.47000003,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2.0999999,
+                  "trigger":  "Semi",
                   "disposition":  1,
-                  "magazineSize":  3,
                   "fireRate":  1.5000001,
                   "critMultiplier":  2,
+                  "masteryReq":  15,
                   "totalDamage":  714,
                   "vaulted":  null,
-                  "masteryReq":  15,
-                  "slot":  "primary",
+                  "statusChance":  0.47000003,
+                  "reloadTime":  2.0999999,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "primary",
                   "critChance":  0.090000004,
+                  "magazineSize":  3,
                   "weaponClass":  "Launcher",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

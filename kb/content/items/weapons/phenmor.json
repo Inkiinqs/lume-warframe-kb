@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.phenmor",
+    "description":  "Zariman colonists originally intended to use the Phenmor in burial rites. In Orokin society, the higher the rank, the greater number of volleys for the deceased. Its stock is carved from Phenaureus Pine, a tree designed to release seedlings only onto scorched earth. In the hands of the Void, the Phenmor becomes darkly aggressive.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  30000,
@@ -116,12 +118,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  42,
@@ -129,18 +135,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  98,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  140,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             42,
@@ -163,20 +176,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Zariman/LongGuns/SemiAutoRifle/ZarimanSemiAutoRifle"
@@ -189,7 +189,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Zariman colonists originally intended to use the Phenmor in burial rites. In Orokin society, the higher the rank, the greater number of volleys for the deceased. Its stock is carved from Phenaureus Pine, a tree designed to release seedlings only onto scorched earth. In the hands of the Void, the Phenmor becomes darkly aggressive.",
+    "id":  "weapon.phenmor",
     "release":  {
                     "releaseDate":  "2022-04-27",
                     "introduced":  {
@@ -206,27 +206,27 @@
     "summary":  "Zariman colonists originally intended to use the Phenmor in burial rites. In Orokin society, the higher the rank, the greater number of volleys for the deceased. Its stock is carved from Phenaureus Pine, a tree designed to release seedlings only onto scorched earth. In the hands of the Void, the Phenmor becomes darkly aggressive.",
     "stats":  {
                   "accuracy":  28.571428,
-                  "statusChance":  0.19999999,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai",
                                      "naramon"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2.8,
+                  "trigger":  "Semi",
                   "disposition":  1,
-                  "magazineSize":  30,
                   "fireRate":  3.0000002,
                   "critMultiplier":  2,
+                  "masteryReq":  14,
                   "totalDamage":  140,
                   "vaulted":  null,
-                  "masteryReq":  14,
-                  "slot":  "primary",
+                  "statusChance":  0.19999999,
+                  "reloadTime":  2.8,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "primary",
                   "critChance":  0.2,
+                  "magazineSize":  30,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

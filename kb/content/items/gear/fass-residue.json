@@ -1,38 +1,20 @@
 {
-    "id":  "gear.fass-residue",
-    "name":  "Fass Residue",
-    "category":  "gear",
-    "subCategory":  "fish-bait",
-    "aliases":  [
-                    "/Lotus/Types/Game/FishBait/Infested/InfestedFishBaitA"
-                ],
-    "summary":  "A chunk of the wyrm Fass, collected after his explosive death in the Cambion Drift. Used to attract Glutinox on the surface during Vome, Ostimyr at surface hotspots during Fass, and Vitreospina in caves during Fass/Vome.\n\nLocation: Cambion Drift on Deimos while Vome is active",
     "description":  "A chunk of the wyrm Fass, collected after his explosive death in the Cambion Drift. Used to attract Glutinox on the surface during Vome, Ostimyr at surface hotspots during Fass, and Vitreospina in caves during Fass/Vome.\n\nLocation: Cambion Drift on Deimos while Vome is active",
-    "stats":  {
-                  "type":  "Fish Bait",
-                  "tradable":  false,
-                  "masterable":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
+                    }
+                ],
+    "name":  "Fass Residue",
+    "subCategory":  "fish-bait",
     "mechanics":  {
-                      "crafting":  {
-                                       "buildPrice":  null,
-                                       "buildTime":  null,
-                                       "skipBuildTimePrice":  null,
-                                       "buildQuantity":  null,
-                                       "consumeOnBuild":  null,
-                                       "components":  [
-                                                          {
-                                                              "name":  null,
-                                                              "uniqueName":  null,
-                                                              "itemCount":  null,
-                                                              "type":  null,
-                                                              "tradable":  null,
-                                                              "drops":  [
-                                                                            null
-                                                                        ]
-                                                          }
-                                                      ]
-                                   },
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "fass-residue-b9d66017f7.png",
+                                   "available":  null
+                               },
                       "drops":  [
                                     {
                                         "location":  "Entrati (Daughter), Associate",
@@ -59,31 +41,49 @@
                                         "rarity":  "Rare"
                                     }
                                 ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "fass-residue-b9d66017f7.png"
-                               }
+                      "crafting":  {
+                                       "buildTime":  null,
+                                       "buildPrice":  null,
+                                       "buildQuantity":  null,
+                                       "components":  [
+                                                          {
+                                                              "name":  null,
+                                                              "uniqueName":  null,
+                                                              "itemCount":  null,
+                                                              "type":  null,
+                                                              "tradable":  null,
+                                                              "drops":  [
+                                                                            null
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  null,
+                                       "consumeOnBuild":  null
+                                   }
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-
-                },
-    "tags":  [
-                 "gear",
-                 "fish-bait"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Gear.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Types/Game/FishBait/Infested/InfestedFishBaitA"
+                ],
+    "tags":  [
+                 "gear",
+                 "fish-bait"
+             ],
+    "category":  "gear",
+    "relationships":  [
+
+                      ],
+    "id":  "gear.fass-residue",
+    "release":  {
+
+                },
+    "summary":  "A chunk of the wyrm Fass, collected after his explosive death in the Cambion Drift. Used to attract Glutinox on the surface during Vome, Ostimyr at surface hotspots during Fass, and Vitreospina in caves during Fass/Vome.\n\nLocation: Cambion Drift on Deimos while Vome is active",
+    "stats":  {
+                  "tradable":  false,
+                  "type":  "Fish Bait",
+                  "masterable":  false
+              }
 }

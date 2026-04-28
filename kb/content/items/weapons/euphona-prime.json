@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.euphona-prime",
+    "description":  "Banshee Prime\u0027s signature shotgun is an instrument of devastation that fires both focused and broad shots.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -523,12 +525,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  292.5,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  16.25,
@@ -536,18 +542,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  16.250004,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  325,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             292.5,
                                             16.25,
@@ -570,20 +583,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Pistols/AllNew1hSG/AllNew1hSG"
@@ -596,7 +596,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Banshee Prime\u0027s signature shotgun is an instrument of devastation that fires both focused and broad shots.",
+    "id":  "weapon.euphona-prime",
     "release":  {
                     "releaseDate":  "2017-02-28",
                     "introduced":  {
@@ -612,28 +612,28 @@
     "summary":  "Banshee Prime\u0027s signature shotgun is an instrument of devastation that fires both focused and broad shots.",
     "stats":  {
                   "accuracy":  100,
-                  "statusChance":  0.019999981,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai",
                                      "madurai",
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2,
+                  "trigger":  "Semi",
                   "disposition":  3,
-                  "magazineSize":  5,
                   "fireRate":  1.5000001,
                   "critMultiplier":  2.5,
+                  "masteryReq":  14,
                   "totalDamage":  325,
                   "vaulted":  true,
-                  "masteryReq":  14,
-                  "slot":  "secondary",
+                  "statusChance":  0.019999981,
+                  "reloadTime":  2,
                   "estimatedVaultDate":  "2018-12-18",
-                  "trigger":  "Semi",
+                  "slot":  "secondary",
                   "critChance":  0.30000001,
+                  "magazineSize":  5,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  "2018-12-18"
               }

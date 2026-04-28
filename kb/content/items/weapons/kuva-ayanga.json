@@ -1,5 +1,5 @@
 {
-    "description":  "Sweep aside hordes of enemies with flaming fury of this powerful, automatic, grenade launching archgun.",
+    "id":  "weapon.kuva-ayanga",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -8,6 +8,10 @@
                 ],
     "name":  "Kuva Ayanga",
     "subCategory":  "archgun-arch-gun",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD archgun static data."
+              ],
     "mechanics":  {
                       "heavySlamAttack":  null,
                       "crafting":  {
@@ -35,7 +39,6 @@
                                    "imageName":  "kuva-ayanga-191784ae00.png",
                                    "available":  true
                                },
-                      "followThrough":  null,
                       "attacks":  [
                                       {
                                           "name":  "Grenade Impact",
@@ -74,12 +77,13 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  87,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  0,
@@ -87,30 +91,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  274,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  187,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             87,
                                             0,
@@ -132,12 +122,22 @@
                                             0,
                                             0,
                                             0
-                                        ]
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
                   },
-    "notes":  [
-                  "Normalized from static import source.",
-                  "Converted from WFCD archgun static data."
-              ],
     "aliases":  [
                     "/Lotus/Weapons/Grineer/HeavyWeapons/GrnHeavyGrenadeLauncher"
                 ],
@@ -149,7 +149,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.kuva-ayanga",
+    "description":  "Sweep aside hordes of enemies with flaming fury of this powerful, automatic, grenade launching archgun.",
     "release":  {
                     "releaseDate":  "2019-10-31",
                     "introduced":  {
@@ -171,23 +171,23 @@
                   "polarities":  [
                                      null
                                  ],
+                  "masterable":  true,
                   "tradable":  false,
-                  "vaulted":  null,
-                  "totalDamage":  274,
+                  "trigger":  "Auto",
                   "disposition":  3,
-                  "magazineSize":  33,
                   "fireRate":  4.5833335,
                   "critMultiplier":  2,
-                  "reloadTime":  1.2,
+                  "totalDamage":  274,
+                  "vaulted":  null,
                   "masteryReq":  13,
-                  "statusChance":  0.19999999,
-                  "slot":  "archgun",
+                  "reloadTime":  1.2,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "archgun",
                   "critChance":  0.34999999,
+                  "magazineSize":  33,
                   "weaponClass":  "Arch-Gun",
-                  "masterable":  true,
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "vaultDate":  null,
+                  "statusChance":  0.19999999,
+                  "multishot":  1
               }
 }

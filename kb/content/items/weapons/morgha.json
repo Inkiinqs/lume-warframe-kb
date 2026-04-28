@@ -1,5 +1,5 @@
 {
-    "description":  "Blast through enemies with a double-barreled shot of energized slugs. This siphons their life essence which is then used to generate the secondary fire\u0027s massive air-burst mortar. The ancient Entrati weapon was built for Necramechs but also functions as an Archgun.",
+    "id":  "weapon.morgha",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -8,6 +8,10 @@
                 ],
     "name":  "Morgha",
     "subCategory":  "archgun-arch-gun",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD archgun static data."
+              ],
     "mechanics":  {
                       "heavySlamAttack":  null,
                       "crafting":  {
@@ -70,7 +74,6 @@
                                    "imageName":  "morgha-40068b33ff.png",
                                    "available":  true
                                },
-                      "followThrough":  null,
                       "attacks":  [
                                       {
                                           "name":  "Auto-Burst",
@@ -134,12 +137,13 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  32,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  0,
@@ -147,30 +151,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  196,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  164,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             32,
                                             0,
@@ -192,12 +182,22 @@
                                             0,
                                             0,
                                             0
-                                        ]
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
                   },
-    "notes":  [
-                  "Normalized from static import source.",
-                  "Converted from WFCD archgun static data."
-              ],
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechGrenadeLaunch/ThanoTechGrenadeLauncher"
                 ],
@@ -209,7 +209,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.morgha",
+    "description":  "Blast through enemies with a double-barreled shot of energized slugs. This siphons their life essence which is then used to generate the secondary fire\u0027s massive air-burst mortar. The ancient Entrati weapon was built for Necramechs but also functions as an Archgun.",
     "release":  {
                     "releaseDate":  "2020-11-19",
                     "introduced":  {
@@ -230,23 +230,23 @@
                   "polarities":  [
                                      "madurai"
                                  ],
+                  "masterable":  true,
                   "tradable":  false,
-                  "vaulted":  null,
-                  "totalDamage":  196,
+                  "trigger":  "Auto Burst",
                   "disposition":  3,
-                  "magazineSize":  100,
                   "fireRate":  6.0000005,
                   "critMultiplier":  2.2,
-                  "reloadTime":  3,
+                  "totalDamage":  196,
+                  "vaulted":  null,
                   "masteryReq":  15,
-                  "statusChance":  0.27999997,
-                  "slot":  "archgun",
+                  "reloadTime":  3,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto Burst",
+                  "slot":  "archgun",
                   "critChance":  0.30000001,
+                  "magazineSize":  100,
                   "weaponClass":  "Arch-Gun",
-                  "masterable":  true,
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "vaultDate":  null,
+                  "statusChance":  0.27999997,
+                  "multishot":  1
               }
 }

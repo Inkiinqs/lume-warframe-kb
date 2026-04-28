@@ -1,38 +1,20 @@
 {
-    "id":  "gear.echo-lure",
-    "name":  "Echo-Lure",
-    "category":  "gear",
-    "subCategory":  "gear",
-    "aliases":  [
-                    "/Lotus/Types/Restoratives/Conservation/UpgradedAnimalLureGearItem"
-                ],
-    "summary":  "Entice and attract nearby wildlife with life-like animal calls.",
     "description":  "Entice and attract nearby wildlife with life-like animal calls.",
-    "stats":  {
-                  "type":  "Gear",
-                  "tradable":  false,
-                  "masterable":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
+                    }
+                ],
+    "name":  "Echo-Lure",
+    "subCategory":  "gear",
     "mechanics":  {
-                      "crafting":  {
-                                       "buildPrice":  null,
-                                       "buildTime":  null,
-                                       "skipBuildTimePrice":  null,
-                                       "buildQuantity":  null,
-                                       "consumeOnBuild":  null,
-                                       "components":  [
-                                                          {
-                                                              "name":  null,
-                                                              "uniqueName":  null,
-                                                              "itemCount":  null,
-                                                              "type":  null,
-                                                              "tradable":  null,
-                                                              "drops":  [
-                                                                            null
-                                                                        ]
-                                                          }
-                                                      ]
-                                   },
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "echo-lure-7774387e3d.png",
+                                   "available":  null
+                               },
                       "drops":  [
                                     {
                                         "location":  "Entrati (Son), Acquaintance",
@@ -131,31 +113,49 @@
                                         "rarity":  "Common"
                                     }
                                 ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "echo-lure-7774387e3d.png"
-                               }
+                      "crafting":  {
+                                       "buildTime":  null,
+                                       "buildPrice":  null,
+                                       "buildQuantity":  null,
+                                       "components":  [
+                                                          {
+                                                              "name":  null,
+                                                              "uniqueName":  null,
+                                                              "itemCount":  null,
+                                                              "type":  null,
+                                                              "tradable":  null,
+                                                              "drops":  [
+                                                                            null
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  null,
+                                       "consumeOnBuild":  null
+                                   }
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-
-                },
-    "tags":  [
-                 "gear",
-                 "gear"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Gear.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Types/Restoratives/Conservation/UpgradedAnimalLureGearItem"
+                ],
+    "tags":  [
+                 "gear",
+                 "gear"
+             ],
+    "category":  "gear",
+    "relationships":  [
+
+                      ],
+    "id":  "gear.echo-lure",
+    "release":  {
+
+                },
+    "summary":  "Entice and attract nearby wildlife with life-like animal calls.",
+    "stats":  {
+                  "tradable":  false,
+                  "type":  "Gear",
+                  "masterable":  false
+              }
 }

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.strun-wraith",
+    "description":  "A different take on a familiar shotgun, the Strun Wraith features unique styling.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  25000,
@@ -122,12 +124,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  26,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  6,
@@ -135,18 +141,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  8.0000019,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  40,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             26,
                                             6,
@@ -169,20 +182,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Shotgun/ShotgunVandal"
@@ -195,7 +195,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A different take on a familiar shotgun, the Strun Wraith features unique styling.",
+    "id":  "weapon.strun-wraith",
     "release":  {
                     "releaseDate":  "2013-09-03",
                     "introduced":  {
@@ -211,26 +211,26 @@
     "summary":  "A different take on a familiar shotgun, the Strun Wraith features unique styling.",
     "stats":  {
                   "accuracy":  6.6666665,
-                  "statusChance":  0.12,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "naramon"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  true,
-                  "reloadTime":  5,
+                  "trigger":  "Semi",
                   "disposition":  5,
-                  "magazineSize":  10,
                   "fireRate":  2.5000002,
                   "critMultiplier":  2.2,
+                  "masteryReq":  10,
                   "totalDamage":  40,
                   "vaulted":  null,
-                  "masteryReq":  10,
-                  "slot":  "primary",
+                  "statusChance":  0.12,
+                  "reloadTime":  5,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "primary",
                   "critChance":  0.18000001,
+                  "magazineSize":  10,
                   "weaponClass":  "Shotgun",
-                  "masterable":  true,
                   "multishot":  10,
                   "vaultDate":  null
               }

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.akbronco-prime",
+    "description":  "Used together, these Orokin pistols feed off each other, inflicting greater damage with an enhanced status chance for inducing elemental effects on targets.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -6695,12 +6697,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  40,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  5,
@@ -6708,18 +6714,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  4.9999981,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  50,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             40,
                                             5,
@@ -6742,20 +6755,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Akimbo/PrimeAkimboShotGun"
@@ -6768,7 +6768,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Used together, these Orokin pistols feed off each other, inflicting greater damage with an enhanced status chance for inducing elemental effects on targets.",
+    "id":  "weapon.akbronco-prime",
     "release":  {
                     "releaseDate":  "2014-03-05",
                     "introduced":  {
@@ -6785,27 +6785,27 @@
     "summary":  "Used together, these Orokin pistols feed off each other, inflicting greater damage with an enhanced status chance for inducing elemental effects on targets.",
     "stats":  {
                   "accuracy":  3.7037036,
-                  "statusChance":  0.12857145,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai",
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  true,
-                  "reloadTime":  2.25,
+                  "trigger":  "Semi",
                   "disposition":  4,
-                  "magazineSize":  8,
                   "fireRate":  4.3333335,
                   "critMultiplier":  2,
+                  "masteryReq":  10,
                   "totalDamage":  50,
                   "vaulted":  false,
-                  "masteryReq":  10,
-                  "slot":  "secondary",
+                  "statusChance":  0.12857145,
+                  "reloadTime":  2.25,
                   "estimatedVaultDate":  "2015-12-05",
-                  "trigger":  "Semi",
+                  "slot":  "secondary",
                   "critChance":  0.059999999,
+                  "magazineSize":  8,
                   "weaponClass":  "Dual Pistols",
-                  "masterable":  true,
                   "multishot":  7,
                   "vaultDate":  null
               }

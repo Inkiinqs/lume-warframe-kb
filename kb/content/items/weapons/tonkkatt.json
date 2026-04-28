@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.tonkkatt",
+    "description":  "Rend enemies and up the heat with these mining tools repurposed into machine-tonfa. Building the Combo Multiplier overheats the Tonkkatts, setting enemies ablaze.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  660,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -182,12 +184,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  330,
+                      "slamRadius":  8,
                       "blockingAngle":  60,
-                      "sentinel":  null,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "naramon",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  33,
@@ -195,18 +201,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  132,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  165,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
+                      "heavyAttackDamage":  660,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  495,
+                      "comboDuration":  5,
+                      "slideAttack":  330,
+                      "windUp":  0.69999999,
+                      "followThrough":  0.60000002,
+                      "slamAttack":  330,
                       "damagePerShot":  [
                                             0,
                                             33,
@@ -229,20 +242,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  660,
-                      "followThrough":  0.60000002,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  495,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  330,
-                      "windUp":  0.69999999,
-                      "slamRadius":  8,
-                      "slamAttack":  330,
-                      "heavySlamRadius":  9
+                      "heavySlamAttack":  660
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/Melee/Tonfa/GrnChainSawTonfa/GrnChainSawTonfaWeapon"
@@ -255,7 +255,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Rend enemies and up the heat with these mining tools repurposed into machine-tonfa. Building the Combo Multiplier overheats the Tonkkatts, setting enemies ablaze.",
+    "id":  "weapon.tonkkatt",
     "release":  {
                     "releaseDate":  "2025-04-17",
                     "introduced":  {
@@ -271,26 +271,26 @@
     "summary":  "Rend enemies and up the heat with these mining tools repurposed into machine-tonfa. Building the Combo Multiplier overheats the Tonkkatts, setting enemies ablaze.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.20999998,
+                  "noise":  null,
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  1,
-                  "magazineSize":  null,
                   "fireRate":  1.0833334,
                   "critMultiplier":  2.0999999,
+                  "masteryReq":  9,
                   "totalDamage":  165,
                   "vaulted":  null,
-                  "masteryReq":  9,
-                  "slot":  "melee",
+                  "statusChance":  0.20999998,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.23,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.tigris",
+    "description":  "The double-barreled Tigris shotgun fires two bursts in rapid succession, easily taking down the toughest prey.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  25000,
@@ -101,12 +103,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  21,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  21,
@@ -114,18 +120,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  168,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  210,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             21,
                                             21,
@@ -148,20 +161,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/LongGuns/DoubleBarrelShotgun/TennoDoubleBarrelShotgun"
@@ -174,7 +174,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The double-barreled Tigris shotgun fires two bursts in rapid succession, easily taking down the toughest prey.",
+    "id":  "weapon.tigris",
     "release":  {
                     "releaseDate":  "2013-11-20",
                     "introduced":  {
@@ -192,26 +192,26 @@
     "summary":  "The double-barreled Tigris shotgun fires two bursts in rapid succession, easily taking down the toughest prey.",
     "stats":  {
                   "accuracy":  9.090909,
-                  "statusChance":  0.16799998,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  1.8,
+                  "trigger":  "Duplex",
                   "disposition":  3,
-                  "magazineSize":  2,
                   "fireRate":  2,
                   "critMultiplier":  2,
+                  "masteryReq":  7,
                   "totalDamage":  210,
                   "vaulted":  null,
-                  "masteryReq":  7,
-                  "slot":  "primary",
+                  "statusChance":  0.16799998,
+                  "reloadTime":  1.8,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Duplex",
+                  "slot":  "primary",
                   "critChance":  0.1,
+                  "magazineSize":  2,
                   "weaponClass":  "Shotgun",
-                  "masterable":  true,
                   "multishot":  5,
                   "vaultDate":  null
               }

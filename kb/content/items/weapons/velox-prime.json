@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.velox-prime",
+    "description":  "This sidearm’s circular design evokes Protea Prime’s perception of time.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -587,12 +589,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  6.48,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  7.5599999,
@@ -600,18 +606,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  12.960001,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  27,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             6.48,
                                             7.5599999,
@@ -634,20 +647,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Pistols/PrimeVelox/PrimeVeloxPistol"
@@ -660,7 +660,7 @@
     "relationships":  [
 
                       ],
-    "description":  "This sidearm’s circular design evokes Protea Prime’s perception of time.",
+    "id":  "weapon.velox-prime",
     "release":  {
                     "releaseDate":  "2024-05-01",
                     "introduced":  {
@@ -676,28 +676,28 @@
     "summary":  "This sidearm’s circular design evokes Protea Prime’s perception of time.",
     "stats":  {
                   "accuracy":  25,
-                  "statusChance":  0.31999999,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai",
                                      "madurai",
                                      "naramon"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2.5999999,
+                  "trigger":  "Auto",
                   "disposition":  2,
-                  "magazineSize":  70,
                   "fireRate":  17,
                   "critMultiplier":  2,
+                  "masteryReq":  13,
                   "totalDamage":  27,
                   "vaulted":  true,
-                  "masteryReq":  13,
-                  "slot":  "secondary",
+                  "statusChance":  0.31999999,
+                  "reloadTime":  2.5999999,
                   "estimatedVaultDate":  "2026-04-08",
-                  "trigger":  "Auto",
+                  "slot":  "secondary",
                   "critChance":  0.14,
+                  "magazineSize":  70,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  "2026-04-08"
               }

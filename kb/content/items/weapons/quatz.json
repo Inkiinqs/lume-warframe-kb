@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.quatz",
+    "description":  "A compact four-barreled design packing a self-charging capacitor that discharges upon every reload from empty. Features auto hip-fire and aimed fire is semi-auto, four-shot instant burst.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  30000,
@@ -111,12 +113,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  9,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  11,
                                      "true":  0,
                                      "slash":  2,
@@ -124,18 +130,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  7,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  29,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             9,
                                             2,
@@ -158,20 +171,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/Pistols/GrnAmphisPistol/GrnAmphisPistol"
@@ -184,7 +184,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A compact four-barreled design packing a self-charging capacitor that discharges upon every reload from empty. Features auto hip-fire and aimed fire is semi-auto, four-shot instant burst.",
+    "id":  "weapon.quatz",
     "release":  {
                     "releaseDate":  "2019-07-18",
                     "introduced":  {
@@ -201,26 +201,26 @@
     "summary":  "A compact four-barreled design packing a self-charging capacitor that discharges upon every reload from empty. Features auto hip-fire and aimed fire is semi-auto, four-shot instant burst.",
     "stats":  {
                   "accuracy":  40,
-                  "statusChance":  0.26999998,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2.7,
+                  "trigger":  "Auto",
                   "disposition":  4,
-                  "magazineSize":  72,
                   "fireRate":  15.000001,
                   "critMultiplier":  1.5,
+                  "masteryReq":  9,
                   "totalDamage":  29,
                   "vaulted":  null,
-                  "masteryReq":  9,
-                  "slot":  "secondary",
+                  "statusChance":  0.26999998,
+                  "reloadTime":  2.7,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "secondary",
                   "critChance":  0.13,
+                  "magazineSize":  72,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

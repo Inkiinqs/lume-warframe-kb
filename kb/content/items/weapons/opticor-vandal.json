@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.opticor-vandal",
+    "description":  "With a precision crafted lens, this customized Opticor achieves a level of performance previously thought impossible.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -101,12 +103,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  40,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  280,
@@ -114,18 +120,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  79.999992,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  400,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             40,
                                             280,
@@ -148,20 +161,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Corpus/LongGuns/CrpBFG/Vandal/VandalCrpBFG"
@@ -174,7 +174,7 @@
     "relationships":  [
 
                       ],
-    "description":  "With a precision crafted lens, this customized Opticor achieves a level of performance previously thought impossible.",
+    "id":  "weapon.opticor-vandal",
     "release":  {
                     "releaseDate":  "2019-03-08",
                     "introduced":  {
@@ -191,26 +191,26 @@
     "summary":  "With a precision crafted lens, this customized Opticor achieves a level of performance previously thought impossible.",
     "stats":  {
                   "accuracy":  100,
-                  "statusChance":  0.30000001,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  true,
-                  "reloadTime":  1.4,
+                  "trigger":  "Charge",
                   "disposition":  3,
-                  "magazineSize":  8,
                   "fireRate":  2,
                   "critMultiplier":  2.5999999,
+                  "masteryReq":  14,
                   "totalDamage":  400,
                   "vaulted":  null,
-                  "masteryReq":  14,
-                  "slot":  "primary",
+                  "statusChance":  0.30000001,
+                  "reloadTime":  1.4,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Charge",
+                  "slot":  "primary",
                   "critChance":  0.23999999,
+                  "magazineSize":  8,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

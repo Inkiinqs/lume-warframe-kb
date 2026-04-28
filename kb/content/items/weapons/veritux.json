@@ -1,5 +1,5 @@
 {
-    "description":  "Weightless space turns this impossibly massive sword into an agile instrument of destruction.",
+    "id":  "weapon.veritux",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -8,6 +8,10 @@
                 ],
     "name":  "Veritux",
     "subCategory":  "archmelee-arch-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD archmelee static data."
+              ],
     "mechanics":  {
                       "heavySlamAttack":  470,
                       "crafting":  {
@@ -80,7 +84,6 @@
                                    "imageName":  "veritux-a2d86d183e.png",
                                    "available":  true
                                },
-                      "followThrough":  0.69999999,
                       "attacks":  [
                                       {
                                           "name":  "Normal Attack",
@@ -98,12 +101,13 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  940,
                       "blockingAngle":  90,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  70.5,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  70.5,
@@ -111,30 +115,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  329,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  470,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  3,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  470,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  5,
-                      "slideAttack":  940,
-                      "windUp":  null,
-                      "slamRadius":  3,
-                      "slamAttack":  470,
                       "damagePerShot":  [
                                             70.5,
                                             70.5,
@@ -156,12 +146,22 @@
                                             0,
                                             0,
                                             0
-                                        ]
+                                        ],
+                      "range":  3,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  470,
+                      "followThrough":  0.69999999,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  940,
+                      "windUp":  null,
+                      "slamRadius":  3,
+                      "slamAttack":  470,
+                      "heavySlamRadius":  null
                   },
-    "notes":  [
-                  "Normalized from static import source.",
-                  "Converted from WFCD archmelee static data."
-              ],
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Archwing/Melee/Archsword/ArchSwordWeapon"
                 ],
@@ -173,7 +173,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.veritux",
+    "description":  "Weightless space turns this impossibly massive sword into an agile instrument of destruction.",
     "release":  {
                     "releaseDate":  "2014-10-24",
                     "introduced":  {
@@ -196,23 +196,23 @@
                   "polarities":  [
                                      "vazarin"
                                  ],
+                  "masterable":  true,
                   "tradable":  false,
-                  "vaulted":  null,
-                  "totalDamage":  470,
+                  "trigger":  null,
                   "disposition":  1,
-                  "magazineSize":  null,
                   "fireRate":  0.83333337,
                   "critMultiplier":  1.5,
-                  "reloadTime":  null,
+                  "totalDamage":  470,
+                  "vaulted":  null,
                   "masteryReq":  0,
-                  "statusChance":  0.10000002,
-                  "slot":  "archmelee",
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "archmelee",
                   "critChance":  0.050000001,
+                  "magazineSize":  null,
                   "weaponClass":  "Arch-Melee",
-                  "masterable":  true,
-                  "multishot":  null,
-                  "vaultDate":  null
+                  "vaultDate":  null,
+                  "statusChance":  0.10000002,
+                  "multishot":  null
               }
 }

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.orvius",
+    "description":  "Turn foes into puppets with Teshin’s versatile throwing disc.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  780,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -250,12 +252,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  390,
+                      "slamRadius":  5,
                       "blockingAngle":  55,
-                      "sentinel":  null,
+                      "heavySlamRadius":  6,
+                      "stancePolarity":  "naramon",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  39,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  9.75,
@@ -263,18 +269,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  146.25,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  195,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.3,
+                      "heavyAttackDamage":  195,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  585,
+                      "comboDuration":  5,
+                      "slideAttack":  390,
+                      "windUp":  1.2,
+                      "followThrough":  0.69999999,
+                      "slamAttack":  585,
                       "damagePerShot":  [
                                             39,
                                             9.75,
@@ -297,20 +310,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.3,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  195,
-                      "followThrough":  0.69999999,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  585,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  390,
-                      "windUp":  1.2,
-                      "slamRadius":  5,
-                      "slamAttack":  585,
-                      "heavySlamRadius":  6
+                      "heavySlamAttack":  780
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Glaives/TeshinGlaive/TnTeshinGlaiveWep"
@@ -323,7 +323,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Turn foes into puppets with Teshin’s versatile throwing disc.",
+    "id":  "weapon.orvius",
     "release":  {
                     "releaseDate":  "2016-11-11",
                     "introduced":  {
@@ -342,27 +342,27 @@
     "summary":  "Turn foes into puppets with Teshin’s versatile throwing disc.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.18000001,
+                  "noise":  null,
                   "polarities":  [
                                      "naramon",
                                      "madurai"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  0.75000006,
                   "critMultiplier":  2,
+                  "masteryReq":  5,
                   "totalDamage":  195,
                   "vaulted":  null,
-                  "masteryReq":  5,
-                  "slot":  "melee",
+                  "statusChance":  0.18000001,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.18000001,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

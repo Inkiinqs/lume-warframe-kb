@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.twin-gremlins",
+    "description":  "Designed as a pair, these Grineer sidearms fire projectiles at a slower rate but with greater force and accuracy.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  25000,
@@ -103,12 +105,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  12.333334,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  12.333334,
@@ -116,18 +122,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  12.333333,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  37,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             12.333334,
                                             12.333334,
@@ -150,20 +163,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/GrineerPistol/GrineerAkimboPistol"
@@ -176,7 +176,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Designed as a pair, these Grineer sidearms fire projectiles at a slower rate but with greater force and accuracy.",
+    "id":  "weapon.twin-gremlins",
     "release":  {
                     "releaseDate":  "2013-08-09",
                     "introduced":  {
@@ -193,26 +193,26 @@
     "summary":  "Designed as a pair, these Grineer sidearms fire projectiles at a slower rate but with greater force and accuracy.",
     "stats":  {
                   "accuracy":  16.666666,
-                  "statusChance":  0.14999998,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  1.1,
+                  "trigger":  "Auto",
                   "disposition":  4,
-                  "magazineSize":  30,
                   "fireRate":  5.0000005,
                   "critMultiplier":  1.5,
+                  "masteryReq":  5,
                   "totalDamage":  37,
                   "vaulted":  null,
-                  "masteryReq":  5,
-                  "slot":  "secondary",
+                  "statusChance":  0.14999998,
+                  "reloadTime":  1.1,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "secondary",
                   "critChance":  0.15000001,
+                  "magazineSize":  30,
                   "weaponClass":  "Dual Pistols",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

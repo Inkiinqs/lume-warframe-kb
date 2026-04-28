@@ -1,5 +1,5 @@
 {
-    "description":  "Flaunting ceremonial beauty, this arch gun flak cannon is even more devastating than its standard issue counterpart.",
+    "id":  "weapon.corvas-prime",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -8,6 +8,10 @@
                 ],
     "name":  "Corvas Prime",
     "subCategory":  "archgun-arch-gun",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD archgun static data."
+              ],
     "mechanics":  {
                       "heavySlamAttack":  null,
                       "crafting":  {
@@ -743,7 +747,6 @@
                                    "imageName":  "corvas-prime-3a5514ae24.png",
                                    "available":  true
                                },
-                      "followThrough":  null,
                       "attacks":  [
                                       {
                                           "name":  "Uncharged Shot",
@@ -783,12 +786,13 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  430,
+                                     "heat":  530,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  0,
@@ -796,30 +800,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  530,
+                                     "radiation":  0,
                                      "total":  960,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             430,
                                             0,
@@ -841,12 +831,22 @@
                                             0,
                                             0,
                                             0
-                                        ]
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
                   },
-    "notes":  [
-                  "Normalized from static import source.",
-                  "Converted from WFCD archgun static data."
-              ],
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Archwing/Primary/PrimeCorvas/PrimeCorvasWeapon"
                 ],
@@ -858,7 +858,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.corvas-prime",
+    "description":  "Flaunting ceremonial beauty, this arch gun flak cannon is even more devastating than its standard issue counterpart.",
     "release":  {
                     "releaseDate":  "2022-03-28",
                     "introduced":  {
@@ -880,23 +880,23 @@
                                      "madurai",
                                      "naramon"
                                  ],
+                  "masterable":  true,
                   "tradable":  true,
-                  "vaulted":  true,
-                  "totalDamage":  960,
+                  "trigger":  "Charge",
                   "disposition":  3,
-                  "magazineSize":  20,
                   "fireRate":  2,
                   "critMultiplier":  3,
-                  "reloadTime":  2,
+                  "totalDamage":  960,
+                  "vaulted":  true,
                   "masteryReq":  14,
-                  "statusChance":  0.30000001,
-                  "slot":  "archgun",
+                  "reloadTime":  2,
                   "estimatedVaultDate":  "2024-01-17",
-                  "trigger":  "Charge",
+                  "slot":  "archgun",
                   "critChance":  0.44,
+                  "magazineSize":  20,
                   "weaponClass":  "Arch-Gun",
-                  "masterable":  true,
-                  "multishot":  1,
-                  "vaultDate":  "2024-01-17"
+                  "vaultDate":  "2024-01-17",
+                  "statusChance":  0.30000001,
+                  "multishot":  1
               }
 }

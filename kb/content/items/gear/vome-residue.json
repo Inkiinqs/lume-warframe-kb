@@ -1,38 +1,20 @@
 {
-    "id":  "gear.vome-residue",
-    "name":  "Vome Residue",
-    "category":  "gear",
-    "subCategory":  "fish-bait",
-    "aliases":  [
-                    "/Lotus/Types/Game/FishBait/Infested/OrokinFishBaitA"
-                ],
-    "summary":  "A gobbet of raw flesh, fallen from the wyrm Vome in her death spasm. Used to attract Chondricord and Duriod in Cambion Drift cave hotspots during Fass and Vome.\n\nLocation: Cambion Drift on Deimos while Fass is active",
     "description":  "A gobbet of raw flesh, fallen from the wyrm Vome in her death spasm. Used to attract Chondricord and Duriod in Cambion Drift cave hotspots during Fass and Vome.\n\nLocation: Cambion Drift on Deimos while Fass is active",
-    "stats":  {
-                  "type":  "Fish Bait",
-                  "tradable":  false,
-                  "masterable":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
+                    }
+                ],
+    "name":  "Vome Residue",
+    "subCategory":  "fish-bait",
     "mechanics":  {
-                      "crafting":  {
-                                       "buildPrice":  null,
-                                       "buildTime":  null,
-                                       "skipBuildTimePrice":  null,
-                                       "buildQuantity":  null,
-                                       "consumeOnBuild":  null,
-                                       "components":  [
-                                                          {
-                                                              "name":  null,
-                                                              "uniqueName":  null,
-                                                              "itemCount":  null,
-                                                              "type":  null,
-                                                              "tradable":  null,
-                                                              "drops":  [
-                                                                            null
-                                                                        ]
-                                                          }
-                                                      ]
-                                   },
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "vome-residue-5a9cb65b4d.png",
+                                   "available":  null
+                               },
                       "drops":  [
                                     {
                                         "location":  "Entrati (Daughter), Friend",
@@ -59,31 +41,49 @@
                                         "rarity":  "Rare"
                                     }
                                 ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "vome-residue-5a9cb65b4d.png"
-                               }
+                      "crafting":  {
+                                       "buildTime":  null,
+                                       "buildPrice":  null,
+                                       "buildQuantity":  null,
+                                       "components":  [
+                                                          {
+                                                              "name":  null,
+                                                              "uniqueName":  null,
+                                                              "itemCount":  null,
+                                                              "type":  null,
+                                                              "tradable":  null,
+                                                              "drops":  [
+                                                                            null
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  null,
+                                       "consumeOnBuild":  null
+                                   }
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-
-                },
-    "tags":  [
-                 "gear",
-                 "fish-bait"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Gear.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Types/Game/FishBait/Infested/OrokinFishBaitA"
+                ],
+    "tags":  [
+                 "gear",
+                 "fish-bait"
+             ],
+    "category":  "gear",
+    "relationships":  [
+
+                      ],
+    "id":  "gear.vome-residue",
+    "release":  {
+
+                },
+    "summary":  "A gobbet of raw flesh, fallen from the wyrm Vome in her death spasm. Used to attract Chondricord and Duriod in Cambion Drift cave hotspots during Fass and Vome.\n\nLocation: Cambion Drift on Deimos while Fass is active",
+    "stats":  {
+                  "tradable":  false,
+                  "type":  "Fish Bait",
+                  "masterable":  false
+              }
 }

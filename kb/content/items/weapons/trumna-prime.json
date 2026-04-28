@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.trumna-prime",
+    "description":  "Sleek lines and golden accents define this masterpiece of the illustrious Entrati family.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -637,12 +639,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  32,
+                                     "heat":  53,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  0,
@@ -650,18 +656,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  53,
+                                     "radiation":  0,
                                      "total":  85,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             32,
                                             0,
@@ -684,20 +697,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/LongGuns/PrimeTrumna/PrimeTrumnaWeapon"
@@ -710,7 +710,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Sleek lines and golden accents define this masterpiece of the illustrious Entrati family.",
+    "id":  "weapon.trumna-prime",
     "release":  {
                     "releaseDate":  "2024-11-13",
                     "introduced":  {
@@ -726,27 +726,27 @@
     "summary":  "Sleek lines and golden accents define this masterpiece of the illustrious Entrati family.",
     "stats":  {
                   "accuracy":  200,
-                  "statusChance":  0.34000003,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "vazarin",
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  4,
+                  "trigger":  "Auto",
                   "disposition":  1,
-                  "magazineSize":  250,
                   "fireRate":  4.666667,
                   "critMultiplier":  2.4000001,
+                  "masteryReq":  15,
                   "totalDamage":  85,
                   "vaulted":  false,
-                  "masteryReq":  15,
-                  "slot":  "primary",
+                  "statusChance":  0.34000003,
+                  "reloadTime":  4,
                   "estimatedVaultDate":  "2026-08-13",
-                  "trigger":  "Auto",
+                  "slot":  "primary",
                   "critChance":  0.23999999,
+                  "magazineSize":  250,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

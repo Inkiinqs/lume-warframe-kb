@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.sepulcrum",
+    "description":  "An ancient weapon designed by the Entrati. Primary fire siphons life essence from the target to fuel a devastating secondary fire. This large, weighty double-barreled pistol delivers twin projectiles that pack a punch, exploding on impact. Secondary fire puts the weapon in lock-on mode. Aim to lock onto multiple targets, then fire to unleash homing projectiles.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -150,12 +152,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  9.6000004,
+                                     "heat":  46,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  26.880001,
@@ -163,18 +169,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  11.52,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  46,
+                                     "radiation":  0,
                                      "total":  94,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             9.6000004,
                                             26.880001,
@@ -197,20 +210,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Thanotech/ThanoPistol/ThanotechPistol"
@@ -223,7 +223,7 @@
     "relationships":  [
 
                       ],
-    "description":  "An ancient weapon designed by the Entrati. Primary fire siphons life essence from the target to fuel a devastating secondary fire. This large, weighty double-barreled pistol delivers twin projectiles that pack a punch, exploding on impact. Secondary fire puts the weapon in lock-on mode. Aim to lock onto multiple targets, then fire to unleash homing projectiles.",
+    "id":  "weapon.sepulcrum",
     "release":  {
                     "releaseDate":  "2020-08-25",
                     "introduced":  {
@@ -241,26 +241,26 @@
     "summary":  "An ancient weapon designed by the Entrati. Primary fire siphons life essence from the target to fuel a devastating secondary fire. This large, weighty double-barreled pistol delivers twin projectiles that pack a punch, exploding on impact. Secondary fire puts the weapon in lock-on mode. Aim to lock onto multiple targets, then fire to unleash homing projectiles.",
     "stats":  {
                   "accuracy":  22.222221,
-                  "statusChance":  0.13999999,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  4,
+                  "trigger":  "Burst",
                   "disposition":  3,
-                  "magazineSize":  90,
                   "fireRate":  3.6666665,
                   "critMultiplier":  2.2,
+                  "masteryReq":  14,
                   "totalDamage":  94,
                   "vaulted":  null,
-                  "masteryReq":  14,
-                  "slot":  "secondary",
+                  "statusChance":  0.13999999,
+                  "reloadTime":  4,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Burst",
+                  "slot":  "secondary",
                   "critChance":  0.30000001,
+                  "magazineSize":  90,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

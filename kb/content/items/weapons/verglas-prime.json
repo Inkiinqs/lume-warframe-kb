@@ -1,5 +1,5 @@
 {
-    "description":  "The icy signature weapon of Nautilus Prime.",
+    "id":  "weapon.verglas-prime",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -8,6 +8,10 @@
                 ],
     "name":  "Verglas Prime",
     "subCategory":  "companion-companion-weapon",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD companion static data."
+              ],
     "mechanics":  {
                       "heavySlamAttack":  null,
                       "crafting":  {
@@ -35,7 +39,6 @@
                                    "imageName":  "verglas-prime-624a7bec79.png",
                                    "available":  true
                                },
-                      "followThrough":  null,
                       "attacks":  [
                                       {
                                           "name":  "Normal Attack",
@@ -52,12 +55,13 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "sentinel":  true,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  0,
@@ -65,30 +69,16 @@
                                      "cold":  32,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  32,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "sentinel":  true,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -110,12 +100,22 @@
                                             0,
                                             0,
                                             0
-                                        ]
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
                   },
-    "notes":  [
-                  "Normalized from static import source.",
-                  "Converted from WFCD companion static data."
-              ],
     "aliases":  [
                     "/Lotus/Types/Sentinels/SentinelWeapons/SentinelFreezeRayPrimeRifle"
                 ],
@@ -127,7 +127,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.verglas-prime",
+    "description":  "The icy signature weapon of Nautilus Prime.",
     "release":  {
                     "releaseDate":  "2024-08-21",
                     "introduced":  {
@@ -147,23 +147,23 @@
                   "polarities":  [
                                      "naramon"
                                  ],
+                  "masterable":  true,
                   "tradable":  false,
-                  "vaulted":  false,
-                  "totalDamage":  32,
+                  "trigger":  "Held",
                   "disposition":  4,
-                  "magazineSize":  80,
                   "fireRate":  12.000001,
                   "critMultiplier":  2.2,
-                  "reloadTime":  1.6,
+                  "totalDamage":  32,
+                  "vaulted":  false,
                   "masteryReq":  0,
-                  "statusChance":  0.36000001,
-                  "slot":  "companion",
+                  "reloadTime":  1.6,
                   "estimatedVaultDate":  "2026-05-21",
-                  "trigger":  "Held",
+                  "slot":  "companion",
                   "critChance":  0.14,
+                  "magazineSize":  80,
                   "weaponClass":  "Companion Weapon",
-                  "masterable":  true,
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "vaultDate":  null,
+                  "statusChance":  0.36000001,
+                  "multishot":  1
               }
 }

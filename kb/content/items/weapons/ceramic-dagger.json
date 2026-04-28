@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.ceramic-dagger",
+    "description":  "This short blade weapon was built using ceramic. It has limited range but comes out fast.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  560,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -158,12 +160,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  280,
+                      "slamRadius":  5,
                       "blockingAngle":  45,
-                      "sentinel":  null,
+                      "heavySlamRadius":  6,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  14,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  126,
@@ -171,18 +177,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  140,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.8,
+                      "heavyAttackDamage":  280,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  420,
+                      "comboDuration":  5,
+                      "slideAttack":  280,
+                      "windUp":  0.40000001,
+                      "followThrough":  0.89999998,
+                      "slamAttack":  280,
                       "damagePerShot":  [
                                             14,
                                             126,
@@ -205,20 +218,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.8,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  280,
-                      "followThrough":  0.89999998,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  420,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  280,
-                      "windUp":  0.40000001,
-                      "slamRadius":  5,
-                      "slamAttack":  280,
-                      "heavySlamRadius":  6
+                      "heavySlamAttack":  560
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Dagger/CeramicDagger"
@@ -231,7 +231,7 @@
     "relationships":  [
 
                       ],
-    "description":  "This short blade weapon was built using ceramic. It has limited range but comes out fast.",
+    "id":  "weapon.ceramic-dagger",
     "release":  {
                     "releaseDate":  "2012-12-18",
                     "introduced":  {
@@ -249,26 +249,26 @@
     "summary":  "This short blade weapon was built using ceramic. It has limited range but comes out fast.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.19999999,
+                  "noise":  null,
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  1.5,
+                  "masteryReq":  3,
                   "totalDamage":  140,
                   "vaulted":  null,
-                  "masteryReq":  3,
-                  "slot":  "melee",
+                  "statusChance":  0.19999999,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.1,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

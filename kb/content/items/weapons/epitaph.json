@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.epitaph",
+    "description":  "Sevagoth\u0027s wrist-mounted sidearm fires a chilling slow-moving slab, guaranteed to slow enemies for easier marksmanship. Charge the shot to fire a punishing high-velocity, high critical chance slab that punches through barriers. Deals additional headshot damage in Sevagoth\u0027s hands.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -171,12 +173,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  120,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  45,
@@ -184,18 +190,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  135,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  300,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             120,
                                             45,
@@ -218,20 +231,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Pistols/TnWraitheSidearm/TnWraitheSidearmWeapon"
@@ -244,7 +244,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Sevagoth\u0027s wrist-mounted sidearm fires a chilling slow-moving slab, guaranteed to slow enemies for easier marksmanship. Charge the shot to fire a punishing high-velocity, high critical chance slab that punches through barriers. Deals additional headshot damage in Sevagoth\u0027s hands.",
+    "id":  "weapon.epitaph",
     "release":  {
                     "releaseDate":  "2021-04-13",
                     "introduced":  {
@@ -262,27 +262,27 @@
     "summary":  "Sevagoth\u0027s wrist-mounted sidearm fires a chilling slow-moving slab, guaranteed to slow enemies for easier marksmanship. Charge the shot to fire a punishing high-velocity, high critical chance slab that punches through barriers. Deals additional headshot damage in Sevagoth\u0027s hands.",
     "stats":  {
                   "accuracy":  80,
-                  "statusChance":  0.040000021,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai",
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  true,
-                  "reloadTime":  0.60000002,
+                  "trigger":  "Charge",
                   "disposition":  1,
-                  "magazineSize":  1,
                   "fireRate":  1.5000001,
                   "critMultiplier":  1.2,
+                  "masteryReq":  8,
                   "totalDamage":  300,
                   "vaulted":  null,
-                  "masteryReq":  8,
-                  "slot":  "secondary",
+                  "statusChance":  0.040000021,
+                  "reloadTime":  0.60000002,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Charge",
+                  "slot":  "secondary",
                   "critChance":  0.02,
+                  "magazineSize":  1,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

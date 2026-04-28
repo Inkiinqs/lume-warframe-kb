@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.purgator-1",
+    "description":  "Put them down so that they stay down, with this Scaldra slug launcher.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -87,12 +89,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  351.44998,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  429.55002,
@@ -100,18 +106,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  781,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             351.44998,
                                             429.55002,
@@ -134,20 +147,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Lasria/LasGrenadeLauncher/LasrianNoxPlayerWeapon"
@@ -160,7 +160,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Put them down so that they stay down, with this Scaldra slug launcher.",
+    "id":  "weapon.purgator-1",
     "release":  {
                     "releaseDate":  "2025-03-19",
                     "introduced":  {
@@ -176,26 +176,26 @@
     "summary":  "Put them down so that they stay down, with this Scaldra slug launcher.",
     "stats":  {
                   "accuracy":  100,
-                  "statusChance":  0.19,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2.7,
+                  "trigger":  "Semi",
                   "disposition":  3,
-                  "magazineSize":  9,
                   "fireRate":  1.5000001,
                   "critMultiplier":  2.3,
+                  "masteryReq":  14,
                   "totalDamage":  781,
                   "vaulted":  null,
-                  "masteryReq":  14,
-                  "slot":  "primary",
+                  "statusChance":  0.19,
+                  "reloadTime":  2.7,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "primary",
                   "critChance":  0.31,
+                  "magazineSize":  9,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

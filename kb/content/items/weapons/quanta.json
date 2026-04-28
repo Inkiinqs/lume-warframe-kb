@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.quanta",
+    "description":  "This weapon was designed to assist with the excavation of mineral deposits from large asteroids, but has been adapted for military purposes.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  25000,
@@ -138,12 +140,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  10,
                                      "true":  0,
                                      "slash":  0,
@@ -151,18 +157,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  10,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -185,20 +198,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Corpus/LongGuns/CrpShockRifle/CrpShockRifle"
@@ -211,7 +211,7 @@
     "relationships":  [
 
                       ],
-    "description":  "This weapon was designed to assist with the excavation of mineral deposits from large asteroids, but has been adapted for military purposes.",
+    "id":  "weapon.quanta",
     "release":  {
                     "releaseDate":  "2014-07-30",
                     "introduced":  {
@@ -228,26 +228,26 @@
     "summary":  "This weapon was designed to assist with the excavation of mineral deposits from large asteroids, but has been adapted for military purposes.",
     "stats":  {
                   "accuracy":  100,
-                  "statusChance":  0.24000001,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "vazarin"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2,
+                  "trigger":  "Held",
                   "disposition":  5,
-                  "magazineSize":  60,
                   "fireRate":  12.000001,
                   "critMultiplier":  2.2,
+                  "masteryReq":  4,
                   "totalDamage":  10,
                   "vaulted":  null,
-                  "masteryReq":  4,
-                  "slot":  "primary",
+                  "statusChance":  0.24000001,
+                  "reloadTime":  2,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Held",
+                  "slot":  "primary",
                   "critChance":  0.16,
+                  "magazineSize":  60,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
                   "multishot":  2,
                   "vaultDate":  null
               }

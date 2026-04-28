@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.ceti-lacera",
+    "description":  "Forged for veterans of the Scarlet Spear conflict, this Lacera has been modified to enhance nimbleness and lethality.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  1080,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  25000,
@@ -129,12 +131,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  432,
+                      "slamRadius":  7,
                       "blockingAngle":  60,
-                      "sentinel":  null,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  12,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  100,
                                      "true":  0,
                                      "slash":  38,
@@ -142,18 +148,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  66,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  216,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
+                      "heavyAttackDamage":  864,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  648,
+                      "comboDuration":  5,
+                      "slideAttack":  216,
+                      "windUp":  0.40000001,
+                      "followThrough":  0.5,
+                      "slamAttack":  648,
                       "damagePerShot":  [
                                             12,
                                             38,
@@ -176,20 +189,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  864,
-                      "followThrough":  0.5,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  648,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  216,
-                      "windUp":  0.40000001,
-                      "slamRadius":  7,
-                      "slamAttack":  648,
-                      "heavySlamRadius":  9
+                      "heavySlamAttack":  1080
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Swords/StalkerMios/OperationsLacera"
@@ -202,7 +202,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Forged for veterans of the Scarlet Spear conflict, this Lacera has been modified to enhance nimbleness and lethality.",
+    "id":  "weapon.ceti-lacera",
     "release":  {
                     "releaseDate":  "2020-03-24",
                     "introduced":  {
@@ -218,26 +218,26 @@
     "summary":  "Forged for veterans of the Scarlet Spear conflict, this Lacera has been modified to enhance nimbleness and lethality.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.39999998,
+                  "noise":  null,
                   "polarities":  [
                                      "naramon"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  4,
-                  "magazineSize":  null,
                   "fireRate":  1.0833334,
                   "critMultiplier":  2,
+                  "masteryReq":  12,
                   "totalDamage":  216,
                   "vaulted":  null,
-                  "masteryReq":  12,
-                  "slot":  "melee",
+                  "statusChance":  0.39999998,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.2,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

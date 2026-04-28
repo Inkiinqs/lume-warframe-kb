@@ -1,5 +1,5 @@
 {
-    "description":  "Using Archwing\u0027s jets for thrust, this massive hammer crushes anything in its path.",
+    "id":  "weapon.rathbone",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -8,6 +8,10 @@
                 ],
     "name":  "Rathbone",
     "subCategory":  "archmelee-arch-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD archmelee static data."
+              ],
     "mechanics":  {
                       "heavySlamAttack":  450,
                       "crafting":  {
@@ -85,7 +89,6 @@
                                    "imageName":  "rathbone-918424e099.png",
                                    "available":  true
                                },
-                      "followThrough":  0.69999999,
                       "attacks":  [
                                       {
                                           "name":  "Normal Attack",
@@ -103,12 +106,13 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  900,
                       "blockingAngle":  90,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  360,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  67.5,
@@ -116,30 +120,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  22.499979,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  449.99997,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  2,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  450,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  5,
-                      "slideAttack":  964,
-                      "windUp":  null,
-                      "slamRadius":  3,
-                      "slamAttack":  450,
                       "damagePerShot":  [
                                             360,
                                             67.5,
@@ -161,12 +151,22 @@
                                             0,
                                             0,
                                             0
-                                        ]
+                                        ],
+                      "range":  2,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  450,
+                      "followThrough":  0.69999999,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  964,
+                      "windUp":  null,
+                      "slamRadius":  3,
+                      "slamAttack":  450,
+                      "heavySlamRadius":  null
                   },
-    "notes":  [
-                  "Normalized from static import source.",
-                  "Converted from WFCD archmelee static data."
-              ],
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Archwing/Melee/ArchHammer/ArchHammer"
                 ],
@@ -178,7 +178,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.rathbone",
+    "description":  "Using Archwing\u0027s jets for thrust, this massive hammer crushes anything in its path.",
     "release":  {
                     "releaseDate":  "2014-11-13",
                     "introduced":  {
@@ -199,23 +199,23 @@
                   "polarities":  [
                                      "madurai"
                                  ],
+                  "masterable":  true,
                   "tradable":  false,
-                  "vaulted":  null,
-                  "totalDamage":  449.99997,
+                  "trigger":  null,
                   "disposition":  1,
-                  "magazineSize":  null,
                   "fireRate":  0.91666669,
                   "critMultiplier":  2,
-                  "reloadTime":  null,
+                  "totalDamage":  449.99997,
+                  "vaulted":  null,
                   "masteryReq":  6,
-                  "statusChance":  0.12,
-                  "slot":  "archmelee",
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "archmelee",
                   "critChance":  0.2,
+                  "magazineSize":  null,
                   "weaponClass":  "Arch-Melee",
-                  "masterable":  true,
-                  "multishot":  null,
-                  "vaultDate":  null
+                  "vaultDate":  null,
+                  "statusChance":  0.12,
+                  "multishot":  null
               }
 }

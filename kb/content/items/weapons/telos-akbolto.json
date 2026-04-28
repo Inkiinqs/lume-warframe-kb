@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.telos-akbolto",
+    "description":  "For the Arbiters of Hexis these pistols are more than simple weapons, they are symbols of truth and discipline.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,14 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    {
+                                        "location":  "Arbiters of Hexis, Maxim",
+                                        "type":  "Telos Akbolto",
+                                        "chance":  100,
+                                        "rarity":  "Common"
+                                    }
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -57,12 +64,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  7,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  63,
@@ -70,18 +81,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  70,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             7,
                                             63,
@@ -104,25 +122,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    {
-                                        "location":  "Arbiters of Hexis, Maxim",
-                                        "type":  "Telos Akbolto",
-                                        "chance":  100,
-                                        "rarity":  "Common"
-                                    }
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Syndicates/ArbitersOfHexis/Pistols/AHAkbolto"
@@ -135,7 +135,7 @@
     "relationships":  [
 
                       ],
-    "description":  "For the Arbiters of Hexis these pistols are more than simple weapons, they are symbols of truth and discipline.",
+    "id":  "weapon.telos-akbolto",
     "release":  {
                     "releaseDate":  "2014-11-27",
                     "introduced":  {
@@ -152,27 +152,27 @@
     "summary":  "For the Arbiters of Hexis these pistols are more than simple weapons, they are symbols of truth and discipline.",
     "stats":  {
                   "accuracy":  26.666666,
-                  "statusChance":  0.28999996,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "vazarin",
                                      "naramon"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  true,
-                  "reloadTime":  2,
+                  "trigger":  "Semi",
                   "disposition":  4,
-                  "magazineSize":  30,
                   "fireRate":  5.0000005,
                   "critMultiplier":  2,
+                  "masteryReq":  11,
                   "totalDamage":  70,
                   "vaulted":  null,
-                  "masteryReq":  11,
-                  "slot":  "secondary",
+                  "statusChance":  0.28999996,
+                  "reloadTime":  2,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "secondary",
                   "critChance":  0.13,
+                  "magazineSize":  30,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

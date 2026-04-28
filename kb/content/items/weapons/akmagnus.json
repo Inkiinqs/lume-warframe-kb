@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.akmagnus",
+    "description":  "Twice the ammo and twice the stopping power of a single Magnus.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -86,12 +88,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  44.099998,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  26.950001,
@@ -99,18 +105,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  26.949997,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  98,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             44.099998,
                                             26.950001,
@@ -133,20 +146,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Akimbo/DualMagnus"
@@ -159,7 +159,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Twice the ammo and twice the stopping power of a single Magnus.",
+    "id":  "weapon.akmagnus",
     "release":  {
                     "releaseDate":  "2014-01-29",
                     "introduced":  {
@@ -176,26 +176,26 @@
     "summary":  "Twice the ammo and twice the stopping power of a single Magnus.",
     "stats":  {
                   "accuracy":  11.111111,
-                  "statusChance":  0.22000003,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  3.2,
+                  "trigger":  "Semi",
                   "disposition":  5,
-                  "magazineSize":  16,
                   "fireRate":  5.0000005,
                   "critMultiplier":  2,
+                  "masteryReq":  12,
                   "totalDamage":  98,
                   "vaulted":  null,
-                  "masteryReq":  12,
-                  "slot":  "secondary",
+                  "statusChance":  0.22000003,
+                  "reloadTime":  3.2,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "secondary",
                   "critChance":  0.22,
+                  "magazineSize":  16,
                   "weaponClass":  "Dual Pistols",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

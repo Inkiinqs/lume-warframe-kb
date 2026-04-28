@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.synoid-heliocor",
+    "description":  "This intelligent hammer takes an enemy killed by a Heavy Attack and recomposes them as an ally. Any fatal strike with this weapon also performs a Codex scan.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,14 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  1400,
+                      "drops":  [
+                                    {
+                                        "location":  "Cephalon Suda, Genius",
+                                        "type":  "Synoid Heliocor",
+                                        "chance":  100,
+                                        "rarity":  "Common"
+                                    }
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -88,12 +95,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  560,
+                      "slamRadius":  9,
                       "blockingAngle":  50,
-                      "sentinel":  null,
+                      "heavySlamRadius":  10,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  238,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  28,
@@ -101,18 +112,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  13.999987,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  280,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5999999,
+                      "heavyAttackDamage":  1680,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  840,
+                      "comboDuration":  5,
+                      "slideAttack":  560,
+                      "windUp":  1.2,
+                      "followThrough":  0.40000001,
+                      "slamAttack":  840,
                       "damagePerShot":  [
                                             238,
                                             28,
@@ -135,25 +153,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5999999,
-                      "drops":  [
-                                    {
-                                        "location":  "Cephalon Suda, Genius",
-                                        "type":  "Synoid Heliocor",
-                                        "chance":  100,
-                                        "rarity":  "Common"
-                                    }
-                                ],
-                      "heavyAttackDamage":  1680,
-                      "followThrough":  0.40000001,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  840,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  560,
-                      "windUp":  1.2,
-                      "slamRadius":  9,
-                      "slamAttack":  840,
-                      "heavySlamRadius":  10
+                      "heavySlamAttack":  1400
                   },
     "aliases":  [
                     "/Lotus/Weapons/Syndicates/CephalonSuda/Melee/CSHeliocor"
@@ -166,7 +166,7 @@
     "relationships":  [
 
                       ],
-    "description":  "This intelligent hammer takes an enemy killed by a Heavy Attack and recomposes them as an ally. Any fatal strike with this weapon also performs a Codex scan.",
+    "id":  "weapon.synoid-heliocor",
     "release":  {
                     "releaseDate":  "2016-09-15",
                     "introduced":  {
@@ -183,26 +183,26 @@
     "summary":  "This intelligent hammer takes an enemy killed by a Heavy Attack and recomposes them as an ally. Any fatal strike with this weapon also performs a Codex scan.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.39999998,
+                  "noise":  null,
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  true,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  1.0833334,
                   "critMultiplier":  2,
+                  "masteryReq":  11,
                   "totalDamage":  280,
                   "vaulted":  null,
-                  "masteryReq":  11,
-                  "slot":  "melee",
+                  "statusChance":  0.39999998,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.16,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

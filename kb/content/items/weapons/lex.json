@@ -1,5 +1,5 @@
 {
-    "description":  "The Lex is a powerful, accurate pistol that has a low Fire Rate and Magazine Capacity. Very efficient at long range.",
+    "id":  "weapon.lex",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,14 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    {
+                                        "location":  "Conclave, Typhoon",
+                                        "type":  "Lex Conclave Skin",
+                                        "chance":  100,
+                                        "rarity":  "Common"
+                                    }
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -71,7 +78,45 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  13,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  104,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  12.999995,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  130,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "followThrough":  null,
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "relevantFormulas":  [
+                                               "formula.critical-chance",
+                                               "formula.critical-multiplier"
+                                           ],
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             13,
                                             104,
@@ -94,52 +139,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    {
-                                        "location":  "Conclave, Typhoon",
-                                        "type":  "Lex Conclave Skin",
-                                        "chance":  100,
-                                        "rarity":  "Common"
-                                    }
-                                ],
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "relevantFormulas":  [
-                                               "formula.critical-chance",
-                                               "formula.critical-multiplier"
-                                           ],
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "radiation":  0,
-                                     "impact":  13,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  104,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  12.999995,
-                                     "shieldDrain":  0,
-                                     "gas":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  130,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 }
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Pistol/HeavyPistol"
@@ -152,7 +152,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.lex",
+    "description":  "The Lex is a powerful, accurate pistol that has a low Fire Rate and Magazine Capacity. Very efficient at long range.",
     "release":  {
                     "releaseDate":  "2012-10-25",
                     "introduced":  {
@@ -169,27 +169,27 @@
     "summary":  "The Lex is a powerful, accurate pistol that has a low Fire Rate and Magazine Capacity. Very efficient at long range.",
     "stats":  {
                   "accuracy":  16,
-                  "statusChance":  0.10000002,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2.3499999,
                   "archetype":  "semi-auto",
+                  "trigger":  "Semi",
                   "disposition":  4,
-                  "magazineSize":  6,
                   "fireRate":  1.0833334,
                   "critMultiplier":  2,
+                  "masteryReq":  3,
                   "totalDamage":  130,
                   "vaulted":  null,
-                  "masteryReq":  3,
-                  "slot":  "secondary",
+                  "statusChance":  0.10000002,
+                  "reloadTime":  2.3499999,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "secondary",
                   "critChance":  0.2,
+                  "magazineSize":  6,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.sarofang-prime",
+    "description":  "Voruna Prime\u0027s signature axe is adorned with Orokin gold. She personally ensured that the former owners would have no further use for it.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  1100,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -199,12 +201,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  440,
+                      "slamRadius":  8,
                       "blockingAngle":  55,
-                      "sentinel":  null,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  66,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  8.8000002,
@@ -212,18 +218,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  145.2,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  220,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5999999,
+                      "heavyAttackDamage":  1320,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  660,
+                      "comboDuration":  5,
+                      "slideAttack":  440,
+                      "windUp":  1.1,
+                      "followThrough":  0.60000002,
+                      "slamAttack":  660,
                       "damagePerShot":  [
                                             66,
                                             8.8000002,
@@ -246,20 +259,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5999999,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  1320,
-                      "followThrough":  0.60000002,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  660,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  440,
-                      "windUp":  1.1,
-                      "slamRadius":  8,
-                      "slamAttack":  660,
-                      "heavySlamRadius":  9
+                      "heavySlamAttack":  1100
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Axe/PrimeVorunaAxeWeapon"
@@ -272,7 +272,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Voruna Prime\u0027s signature axe is adorned with Orokin gold. She personally ensured that the former owners would have no further use for it.",
+    "id":  "weapon.sarofang-prime",
     "release":  {
                     "releaseDate":  "2026-04-08",
                     "introduced":  {
@@ -288,26 +288,26 @@
     "summary":  "Voruna Prime\u0027s signature axe is adorned with Orokin gold. She personally ensured that the former owners would have no further use for it.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.30000001,
+                  "noise":  null,
                   "polarities":  [
                                      "naramon"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  1,
-                  "magazineSize":  null,
                   "fireRate":  1.1666667,
                   "critMultiplier":  3,
+                  "masteryReq":  16,
                   "totalDamage":  220,
                   "vaulted":  false,
-                  "masteryReq":  16,
-                  "slot":  "melee",
+                  "statusChance":  0.30000001,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  "2028-01-08",
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.30000001,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

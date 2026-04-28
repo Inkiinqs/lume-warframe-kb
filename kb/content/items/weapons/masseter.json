@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.masseter",
+    "description":  "Tear and chew through enemies with this unusual crankshaft-style greatsword. When wielded by Grendel he is immune to staggers and knockdowns during heavy attacks.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  1205,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -127,12 +129,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  482,
+                      "slamRadius":  10,
                       "blockingAngle":  55,
-                      "sentinel":  null,
+                      "heavySlamRadius":  10,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  134.96001,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  0,
@@ -140,18 +146,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  106.04,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  241,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.9000001,
+                      "heavyAttackDamage":  1446,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  723,
+                      "comboDuration":  5,
+                      "slideAttack":  482,
+                      "windUp":  1.1,
+                      "followThrough":  0.60000002,
+                      "slamAttack":  723,
                       "damagePerShot":  [
                                             134.96001,
                                             0,
@@ -174,20 +187,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.9000001,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  1446,
-                      "followThrough":  0.60000002,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  723,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  482,
-                      "windUp":  1.1,
-                      "slamRadius":  10,
-                      "slamAttack":  723,
-                      "heavySlamRadius":  10
+                      "heavySlamAttack":  1205
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Swords/TnChiselKanabo/TnChiselKanabo"
@@ -200,7 +200,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Tear and chew through enemies with this unusual crankshaft-style greatsword. When wielded by Grendel he is immune to staggers and knockdowns during heavy attacks.",
+    "id":  "weapon.masseter",
     "release":  {
                     "releaseDate":  "2019-10-31",
                     "introduced":  {
@@ -218,26 +218,26 @@
     "summary":  "Tear and chew through enemies with this unusual crankshaft-style greatsword. When wielded by Grendel he is immune to staggers and knockdowns during heavy attacks.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.27999997,
+                  "noise":  null,
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  4,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  2,
+                  "masteryReq":  8,
                   "totalDamage":  241,
                   "vaulted":  null,
-                  "masteryReq":  8,
-                  "slot":  "melee",
+                  "statusChance":  0.27999997,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.23999999,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

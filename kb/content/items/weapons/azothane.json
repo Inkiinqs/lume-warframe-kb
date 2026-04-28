@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.azothane",
+    "description":  "Azothane calls the visionary warrior to turn the tides of battle. Block and melee attack at the same time to plunge Azothane into the ground, damaging nearby enemies with a shockwave and adding to the combo counter.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  850,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  30000,
@@ -128,12 +130,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  340,
+                      "slamRadius":  7,
                       "blockingAngle":  55,
-                      "sentinel":  null,
+                      "heavySlamRadius":  8,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  51.000004,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  34,
@@ -141,18 +147,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  85,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  170,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  3.2,
+                      "heavyAttackDamage":  1020,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  510,
+                      "comboDuration":  5,
+                      "slideAttack":  340,
+                      "windUp":  0.69999999,
+                      "followThrough":  0.69999999,
+                      "slamAttack":  510,
                       "damagePerShot":  [
                                             51.000004,
                                             34,
@@ -175,20 +188,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  3.2,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  1020,
-                      "followThrough":  0.69999999,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  510,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  340,
-                      "windUp":  0.69999999,
-                      "slamRadius":  7,
-                      "slamAttack":  510,
-                      "heavySlamRadius":  8
+                      "heavySlamAttack":  850
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Swords/DaxDuviriTwoHandedKatana/DaxDuviriTwoHandedKatanaWeapon"
@@ -201,7 +201,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Azothane calls the visionary warrior to turn the tides of battle. Block and melee attack at the same time to plunge Azothane into the ground, damaging nearby enemies with a shockwave and adding to the combo counter.",
+    "id":  "weapon.azothane",
     "release":  {
                     "releaseDate":  "2023-04-26",
                     "introduced":  {
@@ -218,27 +218,27 @@
     "summary":  "Azothane calls the visionary warrior to turn the tides of battle. Block and melee attack at the same time to plunge Azothane into the ground, damaging nearby enemies with a shockwave and adding to the combo counter.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.22000003,
+                  "noise":  null,
                   "polarities":  [
                                      "madurai",
                                      "madurai"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  3,
-                  "magazineSize":  null,
                   "fireRate":  1.1666667,
                   "critMultiplier":  3,
+                  "masteryReq":  0,
                   "totalDamage":  170,
                   "vaulted":  null,
-                  "masteryReq":  0,
-                  "slot":  "melee",
+                  "statusChance":  0.22000003,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.34,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

@@ -1,6 +1,6 @@
 {
     "schemaVersion":  "assistant-live-context.view.v1",
-    "generatedAt":  "2026-04-12T12:34:08Z",
+    "generatedAt":  "2026-04-28T01:59:20Z",
     "playerId":  "player.demo-account",
     "description":  "Low-latency assistant context that fuses session, overlay, inventory, loadout, and combat recommendation state.",
     "sourceViews":  [
@@ -62,7 +62,7 @@
                                 }
                             ],
     "inventoryContext":  {
-                             "sourceViewGeneratedAt":  "2026-04-12T10:57:26Z",
+                             "sourceViewGeneratedAt":  "2026-04-28T01:59:18Z",
                              "ownedItemCount":  10,
                              "equippedOwned":  [
 
@@ -86,759 +86,98 @@
                                              ]
                          },
     "combatContext":  {
-                          "sourceViewGeneratedAt":  "2026-04-12T10:57:15Z",
+                          "sourceViewGeneratedAt":  "2026-04-28T01:55:01Z",
                           "activeFactionId":  null,
                           "recommendations":  [
                                                   {
-                                                      "enemyId":  "enemy.murmur-anomaly-host",
-                                                      "enemyName":  "Murmur Anomaly Host",
-                                                      "factionId":  "faction.murmur",
+                                                      "enemyId":  "enemy.corpus-power-carrier",
+                                                      "enemyName":  "Corpus Power Carrier",
+                                                      "factionId":  "",
                                                       "recommendedDamage":  [
-                                                                                "status.viral",
-                                                                                "status.heat",
-                                                                                "status.slash"
+
                                                                             ],
                                                       "recommendedStatusPlan":  [
-                                                                                    "Use endgame-grade generalist damage and be prepared to adapt to encounter mechanics.",
-                                                                                    "Do not assume faction weakness alone solves this target."
+
                                                                                 ],
                                                       "ownedSupportMods":  [
 
                                                                            ],
                                                       "missingTargetMods":  [
-                                                                                {
-                                                                                    "modId":  "mod.hunter-munitions",
-                                                                                    "modName":  "Hunter Munitions",
-                                                                                    "score":  7,
-                                                                                    "slots":  [
-                                                                                                  "primary"
-                                                                                              ],
-                                                                                    "roles":  [
-                                                                                                  "crit",
-                                                                                                  "elemental"
-                                                                                              ],
-                                                                                    "statuses":  [
-                                                                                                     "slash"
-                                                                                                 ],
-                                                                                    "reasons":  [
-                                                                                                    "Supports slash matchup plan",
-                                                                                                    "Crit synergy can feed slash-style recommendations"
-                                                                                                ],
-                                                                                    "compatibleOwnedWeapons":  [
 
-                                                                                                               ]
-                                                                                },
-                                                                                {
-                                                                                    "modId":  "mod.amar-s-contempt",
-                                                                                    "modName":  "Amar\u0027s Contempt",
-                                                                                    "score":  5,
-                                                                                    "slots":  [
-                                                                                                  "melee"
-                                                                                              ],
-                                                                                    "roles":  [
-                                                                                                  "damage",
-                                                                                                  "elemental"
-                                                                                              ],
-                                                                                    "statuses":  [
-                                                                                                     "slash"
-                                                                                                 ],
-                                                                                    "reasons":  [
-                                                                                                    "Supports slash matchup plan"
-                                                                                                ],
-                                                                                    "compatibleOwnedWeapons":  [
-
-                                                                                                               ]
-                                                                                },
-                                                                                {
-                                                                                    "modId":  "mod.astral-slash",
-                                                                                    "modName":  "Astral Slash",
-                                                                                    "score":  5,
-                                                                                    "slots":  [
-                                                                                                  "melee"
-                                                                                              ],
-                                                                                    "roles":  [
-                                                                                                  "elemental"
-                                                                                              ],
-                                                                                    "statuses":  [
-                                                                                                     "slash"
-                                                                                                 ],
-                                                                                    "reasons":  [
-                                                                                                    "Supports slash matchup plan"
-                                                                                                ],
-                                                                                    "compatibleOwnedWeapons":  [
-
-                                                                                                               ]
-                                                                                },
-                                                                                {
-                                                                                    "modId":  "mod.biotic-rounds",
-                                                                                    "modName":  "Biotic Rounds",
-                                                                                    "score":  5,
-                                                                                    "slots":  [
-                                                                                                  "primary"
-                                                                                              ],
-                                                                                    "roles":  [
-                                                                                                  "damage",
-                                                                                                  "elemental",
-                                                                                                  "status"
-                                                                                              ],
-                                                                                    "statuses":  [
-                                                                                                     "magnetic",
-                                                                                                     "viral"
-                                                                                                 ],
-                                                                                    "reasons":  [
-                                                                                                    "Supports viral matchup plan"
-                                                                                                ],
-                                                                                    "compatibleOwnedWeapons":  [
-
-                                                                                                               ]
-                                                                                },
-                                                                                {
-                                                                                    "modId":  "mod.blaze",
-                                                                                    "modName":  "Blaze",
-                                                                                    "score":  5,
-                                                                                    "slots":  [
-                                                                                                  "shotgun"
-                                                                                              ],
-                                                                                    "roles":  [
-                                                                                                  "damage",
-                                                                                                  "elemental"
-                                                                                              ],
-                                                                                    "statuses":  [
-                                                                                                     "heat"
-                                                                                                 ],
-                                                                                    "reasons":  [
-                                                                                                    "Supports heat matchup plan"
-                                                                                                ],
-                                                                                    "compatibleOwnedWeapons":  [
-
-                                                                                                               ]
-                                                                                }
                                                                             ]
                                                   },
                                                   {
-                                                      "enemyId":  "enemy.battalyst",
-                                                      "enemyName":  "Battalyst",
-                                                      "factionId":  "faction.sentient",
+                                                      "enemyId":  "enemy.ghoul-rictus-alpha",
+                                                      "enemyName":  "Ghoul Rictus Alpha",
+                                                      "factionId":  "",
                                                       "recommendedDamage":  [
-                                                                                "status.heat",
-                                                                                "status.slash",
-                                                                                "status.toxin"
+
                                                                             ],
                                                       "recommendedStatusPlan":  [
-                                                                                    "Avoid over-specializing around one static damage profile.",
-                                                                                    "Use high burst and flexible follow-up damage to stay ahead of adaptation."
+
                                                                                 ],
                                                       "ownedSupportMods":  [
 
                                                                            ],
                                                       "missingTargetMods":  [
-                                                                                {
-                                                                                    "modId":  "mod.hunter-munitions",
-                                                                                    "modName":  "Hunter Munitions",
-                                                                                    "score":  7,
-                                                                                    "slots":  [
-                                                                                                  "primary"
-                                                                                              ],
-                                                                                    "roles":  [
-                                                                                                  "crit",
-                                                                                                  "elemental"
-                                                                                              ],
-                                                                                    "statuses":  [
-                                                                                                     "slash"
-                                                                                                 ],
-                                                                                    "reasons":  [
-                                                                                                    "Supports slash matchup plan",
-                                                                                                    "Crit synergy can feed slash-style recommendations"
-                                                                                                ],
-                                                                                    "compatibleOwnedWeapons":  [
 
-                                                                                                               ]
-                                                                                },
-                                                                                {
-                                                                                    "modId":  "mod.amar-s-contempt",
-                                                                                    "modName":  "Amar\u0027s Contempt",
-                                                                                    "score":  5,
-                                                                                    "slots":  [
-                                                                                                  "melee"
-                                                                                              ],
-                                                                                    "roles":  [
-                                                                                                  "damage",
-                                                                                                  "elemental"
-                                                                                              ],
-                                                                                    "statuses":  [
-                                                                                                     "slash"
-                                                                                                 ],
-                                                                                    "reasons":  [
-                                                                                                    "Supports slash matchup plan"
-                                                                                                ],
-                                                                                    "compatibleOwnedWeapons":  [
-
-                                                                                                               ]
-                                                                                },
-                                                                                {
-                                                                                    "modId":  "mod.astral-slash",
-                                                                                    "modName":  "Astral Slash",
-                                                                                    "score":  5,
-                                                                                    "slots":  [
-                                                                                                  "melee"
-                                                                                              ],
-                                                                                    "roles":  [
-                                                                                                  "elemental"
-                                                                                              ],
-                                                                                    "statuses":  [
-                                                                                                     "slash"
-                                                                                                 ],
-                                                                                    "reasons":  [
-                                                                                                    "Supports slash matchup plan"
-                                                                                                ],
-                                                                                    "compatibleOwnedWeapons":  [
-
-                                                                                                               ]
-                                                                                },
-                                                                                {
-                                                                                    "modId":  "mod.blaze",
-                                                                                    "modName":  "Blaze",
-                                                                                    "score":  5,
-                                                                                    "slots":  [
-                                                                                                  "shotgun"
-                                                                                              ],
-                                                                                    "roles":  [
-                                                                                                  "damage",
-                                                                                                  "elemental"
-                                                                                              ],
-                                                                                    "statuses":  [
-                                                                                                     "heat"
-                                                                                                 ],
-                                                                                    "reasons":  [
-                                                                                                    "Supports heat matchup plan"
-                                                                                                ],
-                                                                                    "compatibleOwnedWeapons":  [
-
-                                                                                                               ]
-                                                                                },
-                                                                                {
-                                                                                    "modId":  "mod.blazing-steel",
-                                                                                    "modName":  "Blazing Steel",
-                                                                                    "score":  5,
-                                                                                    "slots":  [
-                                                                                                  "melee"
-                                                                                              ],
-                                                                                    "roles":  [
-                                                                                                  "elemental"
-                                                                                              ],
-                                                                                    "statuses":  [
-                                                                                                     "heat"
-                                                                                                 ],
-                                                                                    "reasons":  [
-                                                                                                    "Supports heat matchup plan"
-                                                                                                ],
-                                                                                    "compatibleOwnedWeapons":  [
-
-                                                                                                               ]
-                                                                                }
                                                                             ]
                                                   },
                                                   {
-                                                      "enemyId":  "enemy.grineer-heavy-gunner",
-                                                      "enemyName":  "Grineer Heavy Gunner",
-                                                      "factionId":  "faction.grineer",
+                                                      "enemyId":  "enemy.guardsman",
+                                                      "enemyName":  "Guardsman",
+                                                      "factionId":  "",
                                                       "recommendedDamage":  [
-                                                                                "status.corrosive",
-                                                                                "status.heat",
-                                                                                "status.slash",
-                                                                                "status.viral"
+
                                                                             ],
                                                       "recommendedStatusPlan":  [
-                                                                                    "Treat this unit as an armor benchmark.",
-                                                                                    "Favor armor strip, armor bypass, or viral plus slash style setups."
+
                                                                                 ],
                                                       "ownedSupportMods":  [
-                                                                               {
-                                                                                   "modId":  "mod.condition-overload",
-                                                                                   "modName":  "Condition Overload",
-                                                                                   "score":  2,
-                                                                                   "slots":  [
-                                                                                                 "melee"
-                                                                                             ],
-                                                                                   "roles":  [
-                                                                                                 "damage",
-                                                                                                 "status"
-                                                                                             ],
-                                                                                   "statuses":  [
 
-                                                                                                ],
-                                                                                   "reasons":  [
-                                                                                                   "Provides foundational damage for armored targets"
-                                                                                               ],
-                                                                                   "compatibleOwnedWeapons":  [
-
-                                                                                                              ]
-                                                                               },
-                                                                               {
-                                                                                   "modId":  "mod.serration",
-                                                                                   "modName":  "Serration",
-                                                                                   "score":  2,
-                                                                                   "slots":  [
-                                                                                                 "rifle"
-                                                                                             ],
-                                                                                   "roles":  [
-                                                                                                 "damage"
-                                                                                             ],
-                                                                                   "statuses":  [
-
-                                                                                                ],
-                                                                                   "reasons":  [
-                                                                                                   "Provides foundational damage for armored targets"
-                                                                                               ],
-                                                                                   "compatibleOwnedWeapons":  [
-
-                                                                                                              ]
-                                                                               }
                                                                            ],
                                                       "missingTargetMods":  [
-                                                                                {
-                                                                                    "modId":  "mod.acid-shells",
-                                                                                    "modName":  "Acid Shells",
-                                                                                    "score":  7,
-                                                                                    "slots":  [
-                                                                                                  "shotgun"
-                                                                                              ],
-                                                                                    "roles":  [
-                                                                                                  "damage",
-                                                                                                  "elemental",
-                                                                                                  "survival-health"
-                                                                                              ],
-                                                                                    "statuses":  [
-                                                                                                     "corrosive"
-                                                                                                 ],
-                                                                                    "reasons":  [
-                                                                                                    "Supports corrosive matchup plan",
-                                                                                                    "Provides foundational damage for armored targets"
-                                                                                                ],
-                                                                                    "compatibleOwnedWeapons":  [
 
-                                                                                                               ]
-                                                                                },
-                                                                                {
-                                                                                    "modId":  "mod.amar-s-contempt",
-                                                                                    "modName":  "Amar\u0027s Contempt",
-                                                                                    "score":  7,
-                                                                                    "slots":  [
-                                                                                                  "melee"
-                                                                                              ],
-                                                                                    "roles":  [
-                                                                                                  "damage",
-                                                                                                  "elemental"
-                                                                                              ],
-                                                                                    "statuses":  [
-                                                                                                     "slash"
-                                                                                                 ],
-                                                                                    "reasons":  [
-                                                                                                    "Supports slash matchup plan",
-                                                                                                    "Provides foundational damage for armored targets"
-                                                                                                ],
-                                                                                    "compatibleOwnedWeapons":  [
-
-                                                                                                               ]
-                                                                                },
-                                                                                {
-                                                                                    "modId":  "mod.biotic-rounds",
-                                                                                    "modName":  "Biotic Rounds",
-                                                                                    "score":  7,
-                                                                                    "slots":  [
-                                                                                                  "primary"
-                                                                                              ],
-                                                                                    "roles":  [
-                                                                                                  "damage",
-                                                                                                  "elemental",
-                                                                                                  "status"
-                                                                                              ],
-                                                                                    "statuses":  [
-                                                                                                     "magnetic",
-                                                                                                     "viral"
-                                                                                                 ],
-                                                                                    "reasons":  [
-                                                                                                    "Supports viral matchup plan",
-                                                                                                    "Provides foundational damage for armored targets"
-                                                                                                ],
-                                                                                    "compatibleOwnedWeapons":  [
-
-                                                                                                               ]
-                                                                                },
-                                                                                {
-                                                                                    "modId":  "mod.blaze",
-                                                                                    "modName":  "Blaze",
-                                                                                    "score":  7,
-                                                                                    "slots":  [
-                                                                                                  "shotgun"
-                                                                                              ],
-                                                                                    "roles":  [
-                                                                                                  "damage",
-                                                                                                  "elemental"
-                                                                                              ],
-                                                                                    "statuses":  [
-                                                                                                     "heat"
-                                                                                                 ],
-                                                                                    "reasons":  [
-                                                                                                    "Supports heat matchup plan",
-                                                                                                    "Provides foundational damage for armored targets"
-                                                                                                ],
-                                                                                    "compatibleOwnedWeapons":  [
-
-                                                                                                               ]
-                                                                                },
-                                                                                {
-                                                                                    "modId":  "mod.burning-hate",
-                                                                                    "modName":  "Burning Hate",
-                                                                                    "score":  7,
-                                                                                    "slots":  [
-                                                                                                  "melee"
-                                                                                              ],
-                                                                                    "roles":  [
-                                                                                                  "damage",
-                                                                                                  "elemental"
-                                                                                              ],
-                                                                                    "statuses":  [
-                                                                                                     "heat"
-                                                                                                 ],
-                                                                                    "reasons":  [
-                                                                                                    "Supports heat matchup plan",
-                                                                                                    "Provides foundational damage for armored targets"
-                                                                                                ],
-                                                                                    "compatibleOwnedWeapons":  [
-
-                                                                                                               ]
-                                                                                }
                                                                             ]
                                                   },
                                                   {
-                                                      "enemyId":  "enemy.corpus-nullifier-crewman",
-                                                      "enemyName":  "Corpus Nullifier Crewman",
-                                                      "factionId":  "faction.corpus",
+                                                      "enemyId":  "enemy.electric-crawler",
+                                                      "enemyName":  "Electric Crawler",
+                                                      "factionId":  "",
                                                       "recommendedDamage":  [
-                                                                                "status.magnetic",
-                                                                                "status.toxin",
-                                                                                "status.electric"
+
                                                                             ],
                                                       "recommendedStatusPlan":  [
-                                                                                    "Use fast shield popping and keep a precise answer for the bubble.",
-                                                                                    "Avoid overcommitting to ability loops that fail inside disruption zones."
+
                                                                                 ],
                                                       "ownedSupportMods":  [
-                                                                               {
-                                                                                   "modId":  "mod.condition-overload",
-                                                                                   "modName":  "Condition Overload",
-                                                                                   "score":  2,
-                                                                                   "slots":  [
-                                                                                                 "melee"
-                                                                                             ],
-                                                                                   "roles":  [
-                                                                                                 "damage",
-                                                                                                 "status"
-                                                                                             ],
-                                                                                   "statuses":  [
 
-                                                                                                ],
-                                                                                   "reasons":  [
-                                                                                                   "Helps handle shield-focused enemies"
-                                                                                               ],
-                                                                                   "compatibleOwnedWeapons":  [
-
-                                                                                                              ]
-                                                                               }
                                                                            ],
                                                       "missingTargetMods":  [
-                                                                                {
-                                                                                    "modId":  "mod.biotic-rounds",
-                                                                                    "modName":  "Biotic Rounds",
-                                                                                    "score":  7,
-                                                                                    "slots":  [
-                                                                                                  "primary"
-                                                                                              ],
-                                                                                    "roles":  [
-                                                                                                  "damage",
-                                                                                                  "elemental",
-                                                                                                  "status"
-                                                                                              ],
-                                                                                    "statuses":  [
-                                                                                                     "magnetic",
-                                                                                                     "viral"
-                                                                                                 ],
-                                                                                    "reasons":  [
-                                                                                                    "Supports magnetic matchup plan",
-                                                                                                    "Helps handle shield-focused enemies"
-                                                                                                ],
-                                                                                    "compatibleOwnedWeapons":  [
 
-                                                                                                               ]
-                                                                                },
-                                                                                {
-                                                                                    "modId":  "mod.contagious-spread",
-                                                                                    "modName":  "Contagious Spread",
-                                                                                    "score":  7,
-                                                                                    "slots":  [
-                                                                                                  "shotgun",
-                                                                                                  "status-builds"
-                                                                                              ],
-                                                                                    "roles":  [
-                                                                                                  "elemental"
-                                                                                              ],
-                                                                                    "statuses":  [
-                                                                                                     "toxin"
-                                                                                                 ],
-                                                                                    "reasons":  [
-                                                                                                    "Supports toxin matchup plan",
-                                                                                                    "Helps handle shield-focused enemies"
-                                                                                                ],
-                                                                                    "compatibleOwnedWeapons":  [
-
-                                                                                                               ]
-                                                                                },
-                                                                                {
-                                                                                    "modId":  "mod.electromagnetic-shielding",
-                                                                                    "modName":  "Electromagnetic Shielding",
-                                                                                    "score":  7,
-                                                                                    "slots":  [
-                                                                                                  "melee"
-                                                                                              ],
-                                                                                    "roles":  [
-                                                                                                  "damage",
-                                                                                                  "elemental",
-                                                                                                  "survival-shield"
-                                                                                              ],
-                                                                                    "statuses":  [
-                                                                                                     "magnetic"
-                                                                                                 ],
-                                                                                    "reasons":  [
-                                                                                                    "Supports magnetic matchup plan",
-                                                                                                    "Helps handle shield-focused enemies"
-                                                                                                ],
-                                                                                    "compatibleOwnedWeapons":  [
-
-                                                                                                               ]
-                                                                                },
-                                                                                {
-                                                                                    "modId":  "mod.fever-strike",
-                                                                                    "modName":  "Fever Strike",
-                                                                                    "score":  7,
-                                                                                    "slots":  [
-                                                                                                  "melee"
-                                                                                              ],
-                                                                                    "roles":  [
-                                                                                                  "elemental"
-                                                                                              ],
-                                                                                    "statuses":  [
-                                                                                                     "toxin"
-                                                                                                 ],
-                                                                                    "reasons":  [
-                                                                                                    "Supports toxin matchup plan",
-                                                                                                    "Helps handle shield-focused enemies"
-                                                                                                ],
-                                                                                    "compatibleOwnedWeapons":  [
-
-                                                                                                               ]
-                                                                                },
-                                                                                {
-                                                                                    "modId":  "mod.high-voltage",
-                                                                                    "modName":  "High Voltage",
-                                                                                    "score":  7,
-                                                                                    "slots":  [
-                                                                                                  "primary"
-                                                                                              ],
-                                                                                    "roles":  [
-                                                                                                  "elemental",
-                                                                                                  "status"
-                                                                                              ],
-                                                                                    "statuses":  [
-                                                                                                     "electric"
-                                                                                                 ],
-                                                                                    "reasons":  [
-                                                                                                    "Supports electric matchup plan",
-                                                                                                    "Helps handle shield-focused enemies"
-                                                                                                ],
-                                                                                    "compatibleOwnedWeapons":  [
-
-                                                                                                               ]
-                                                                                }
                                                                             ]
                                                   },
                                                   {
-                                                      "enemyId":  "enemy.corrupted-heavy-gunner",
-                                                      "enemyName":  "Corrupted Heavy Gunner",
-                                                      "factionId":  "faction.corrupted",
+                                                      "enemyId":  "enemy.equinox-specter",
+                                                      "enemyName":  "Equinox Specter",
+                                                      "factionId":  "",
                                                       "recommendedDamage":  [
-                                                                                "status.viral",
-                                                                                "status.slash",
-                                                                                "status.heat",
-                                                                                "status.corrosive"
+
                                                                             ],
                                                       "recommendedStatusPlan":  [
-                                                                                    "Use this enemy as a benchmark for flexible endgame setups.",
-                                                                                    "Favor generalist armor-handling over narrow faction gimmicks."
+
                                                                                 ],
                                                       "ownedSupportMods":  [
-                                                                               {
-                                                                                   "modId":  "mod.condition-overload",
-                                                                                   "modName":  "Condition Overload",
-                                                                                   "score":  2,
-                                                                                   "slots":  [
-                                                                                                 "melee"
-                                                                                             ],
-                                                                                   "roles":  [
-                                                                                                 "damage",
-                                                                                                 "status"
-                                                                                             ],
-                                                                                   "statuses":  [
 
-                                                                                                ],
-                                                                                   "reasons":  [
-                                                                                                   "Provides foundational damage for armored targets"
-                                                                                               ],
-                                                                                   "compatibleOwnedWeapons":  [
-
-                                                                                                              ]
-                                                                               },
-                                                                               {
-                                                                                   "modId":  "mod.serration",
-                                                                                   "modName":  "Serration",
-                                                                                   "score":  2,
-                                                                                   "slots":  [
-                                                                                                 "rifle"
-                                                                                             ],
-                                                                                   "roles":  [
-                                                                                                 "damage"
-                                                                                             ],
-                                                                                   "statuses":  [
-
-                                                                                                ],
-                                                                                   "reasons":  [
-                                                                                                   "Provides foundational damage for armored targets"
-                                                                                               ],
-                                                                                   "compatibleOwnedWeapons":  [
-
-                                                                                                              ]
-                                                                               }
                                                                            ],
                                                       "missingTargetMods":  [
-                                                                                {
-                                                                                    "modId":  "mod.acid-shells",
-                                                                                    "modName":  "Acid Shells",
-                                                                                    "score":  7,
-                                                                                    "slots":  [
-                                                                                                  "shotgun"
-                                                                                              ],
-                                                                                    "roles":  [
-                                                                                                  "damage",
-                                                                                                  "elemental",
-                                                                                                  "survival-health"
-                                                                                              ],
-                                                                                    "statuses":  [
-                                                                                                     "corrosive"
-                                                                                                 ],
-                                                                                    "reasons":  [
-                                                                                                    "Supports corrosive matchup plan",
-                                                                                                    "Provides foundational damage for armored targets"
-                                                                                                ],
-                                                                                    "compatibleOwnedWeapons":  [
 
-                                                                                                               ]
-                                                                                },
-                                                                                {
-                                                                                    "modId":  "mod.amar-s-contempt",
-                                                                                    "modName":  "Amar\u0027s Contempt",
-                                                                                    "score":  7,
-                                                                                    "slots":  [
-                                                                                                  "melee"
-                                                                                              ],
-                                                                                    "roles":  [
-                                                                                                  "damage",
-                                                                                                  "elemental"
-                                                                                              ],
-                                                                                    "statuses":  [
-                                                                                                     "slash"
-                                                                                                 ],
-                                                                                    "reasons":  [
-                                                                                                    "Supports slash matchup plan",
-                                                                                                    "Provides foundational damage for armored targets"
-                                                                                                ],
-                                                                                    "compatibleOwnedWeapons":  [
-
-                                                                                                               ]
-                                                                                },
-                                                                                {
-                                                                                    "modId":  "mod.biotic-rounds",
-                                                                                    "modName":  "Biotic Rounds",
-                                                                                    "score":  7,
-                                                                                    "slots":  [
-                                                                                                  "primary"
-                                                                                              ],
-                                                                                    "roles":  [
-                                                                                                  "damage",
-                                                                                                  "elemental",
-                                                                                                  "status"
-                                                                                              ],
-                                                                                    "statuses":  [
-                                                                                                     "magnetic",
-                                                                                                     "viral"
-                                                                                                 ],
-                                                                                    "reasons":  [
-                                                                                                    "Supports viral matchup plan",
-                                                                                                    "Provides foundational damage for armored targets"
-                                                                                                ],
-                                                                                    "compatibleOwnedWeapons":  [
-
-                                                                                                               ]
-                                                                                },
-                                                                                {
-                                                                                    "modId":  "mod.blaze",
-                                                                                    "modName":  "Blaze",
-                                                                                    "score":  7,
-                                                                                    "slots":  [
-                                                                                                  "shotgun"
-                                                                                              ],
-                                                                                    "roles":  [
-                                                                                                  "damage",
-                                                                                                  "elemental"
-                                                                                              ],
-                                                                                    "statuses":  [
-                                                                                                     "heat"
-                                                                                                 ],
-                                                                                    "reasons":  [
-                                                                                                    "Supports heat matchup plan",
-                                                                                                    "Provides foundational damage for armored targets"
-                                                                                                ],
-                                                                                    "compatibleOwnedWeapons":  [
-
-                                                                                                               ]
-                                                                                },
-                                                                                {
-                                                                                    "modId":  "mod.burning-hate",
-                                                                                    "modName":  "Burning Hate",
-                                                                                    "score":  7,
-                                                                                    "slots":  [
-                                                                                                  "melee"
-                                                                                              ],
-                                                                                    "roles":  [
-                                                                                                  "damage",
-                                                                                                  "elemental"
-                                                                                              ],
-                                                                                    "statuses":  [
-                                                                                                     "heat"
-                                                                                                 ],
-                                                                                    "reasons":  [
-                                                                                                    "Supports heat matchup plan",
-                                                                                                    "Provides foundational damage for armored targets"
-                                                                                                ],
-                                                                                    "compatibleOwnedWeapons":  [
-
-                                                                                                               ]
-                                                                                }
                                                                             ]
                                                   }
                                               ]
                       },
     "buildContext":  {
-                         "sourceViewGeneratedAt":  "2026-04-12T10:57:18Z",
+                         "sourceViewGeneratedAt":  "2026-04-28T01:56:38Z",
                          "currentBuildTemplateId":  null,
                          "recommendations":  [
 

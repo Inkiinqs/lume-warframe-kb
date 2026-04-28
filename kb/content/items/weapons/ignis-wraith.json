@@ -1,5 +1,5 @@
 {
-    "description":  "A blood-red variant of this destructive flamethrower.",
+    "id":  "weapon.ignis-wraith",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  30000,
@@ -119,7 +121,46 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  0,
+                                     "heat":  35,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  35,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "followThrough":  null,
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "relevantFormulas":  [
+                                               "formula.status-chance",
+                                               "formula.multishot",
+                                               "damage.damage-over-time"
+                                           ],
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -142,48 +183,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "relevantFormulas":  [
-                                               "formula.status-chance",
-                                               "formula.multishot",
-                                               "damage.damage-over-time"
-                                           ],
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "radiation":  0,
-                                     "impact":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  0,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  0,
-                                     "shieldDrain":  0,
-                                     "gas":  0,
-                                     "energyDrain":  0,
-                                     "heat":  35,
-                                     "total":  35,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 }
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/ClanTech/Chemical/FlameThrowerWraith"
@@ -196,7 +196,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.ignis-wraith",
+    "description":  "A blood-red variant of this destructive flamethrower.",
     "release":  {
                     "releaseDate":  "2017-03-02",
                     "introduced":  {
@@ -213,27 +213,27 @@
     "summary":  "A blood-red variant of this destructive flamethrower.",
     "stats":  {
                   "accuracy":  100,
-                  "statusChance":  0.28999996,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  true,
-                  "reloadTime":  1.7,
                   "archetype":  "beam",
+                  "trigger":  "Held",
                   "disposition":  1,
-                  "magazineSize":  200,
                   "fireRate":  8,
                   "critMultiplier":  2.5,
+                  "masteryReq":  9,
                   "totalDamage":  35,
                   "vaulted":  null,
-                  "masteryReq":  9,
-                  "slot":  "primary",
+                  "statusChance":  0.28999996,
+                  "reloadTime":  1.7,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Held",
+                  "slot":  "primary",
                   "critChance":  0.17,
+                  "magazineSize":  200,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.stubba",
+    "description":  "Inflict rapid-fire bursts of pain with this Grineer submachine gun.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  20000,
@@ -119,12 +121,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  14.190001,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  3.3,
@@ -132,18 +138,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  15.509999,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  33,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             14.190001,
                                             3.3,
@@ -166,20 +179,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/Pistols/GrnUzi/GrnUziWeapon"
@@ -192,7 +192,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Inflict rapid-fire bursts of pain with this Grineer submachine gun.",
+    "id":  "weapon.stubba",
     "release":  {
                     "releaseDate":  "2017-10-12",
                     "introduced":  {
@@ -212,26 +212,26 @@
     "summary":  "Inflict rapid-fire bursts of pain with this Grineer submachine gun.",
     "stats":  {
                   "accuracy":  16,
-                  "statusChance":  0.13,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  1.3,
+                  "trigger":  "Auto",
                   "disposition":  5,
-                  "magazineSize":  57,
                   "fireRate":  6.3333335,
                   "critMultiplier":  1.9,
+                  "masteryReq":  7,
                   "totalDamage":  33,
                   "vaulted":  null,
-                  "masteryReq":  7,
-                  "slot":  "secondary",
+                  "statusChance":  0.13,
+                  "reloadTime":  1.3,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "secondary",
                   "critChance":  0.23,
+                  "magazineSize":  57,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

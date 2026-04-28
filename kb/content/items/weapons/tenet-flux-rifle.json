@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.tenet-flux-rifle",
+    "description":  "Sister-modified Flux Rifle with increased fire rate and range. Recharge has been replaced with ammo clips to accommodate greater power needs.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  60,
                                        "buildPrice":  10000,
@@ -55,12 +57,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  4.8400002,
@@ -68,18 +74,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  17.16,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  22,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             4.8400002,
@@ -102,20 +115,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Corpus/BoardExec/Primary/CrpBEFluxRifle/CrpBEFluxRifle"
@@ -128,7 +128,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Sister-modified Flux Rifle with increased fire rate and range. Recharge has been replaced with ammo clips to accommodate greater power needs.",
+    "id":  "weapon.tenet-flux-rifle",
     "release":  {
                     "releaseDate":  "2021-07-06",
                     "introduced":  {
@@ -144,26 +144,26 @@
     "summary":  "Sister-modified Flux Rifle with increased fire rate and range. Recharge has been replaced with ammo clips to accommodate greater power needs.",
     "stats":  {
                   "accuracy":  200,
-                  "statusChance":  0.25999999,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  1.8,
+                  "trigger":  "Auto",
                   "disposition":  4,
-                  "magazineSize":  120,
                   "fireRate":  15.000001,
                   "critMultiplier":  1.8,
+                  "masteryReq":  16,
                   "totalDamage":  22,
                   "vaulted":  null,
-                  "masteryReq":  16,
-                  "slot":  "primary",
+                  "statusChance":  0.25999999,
+                  "reloadTime":  1.8,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "primary",
                   "critChance":  0.2,
+                  "magazineSize":  120,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

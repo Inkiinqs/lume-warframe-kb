@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.azima",
+    "description":  "This intricate automatic pistol is able to fire its magazine which then spins in the air for a short time, firing lasers at nearby enemies.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  30000,
@@ -111,12 +113,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  2,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  5,
@@ -124,18 +130,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  13,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  20,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             2,
                                             5,
@@ -158,20 +171,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Pistols/SundialGun/SundialPistol"
@@ -184,7 +184,7 @@
     "relationships":  [
 
                       ],
-    "description":  "This intricate automatic pistol is able to fire its magazine which then spins in the air for a short time, firing lasers at nearby enemies.",
+    "id":  "weapon.azima",
     "release":  {
                     "releaseDate":  "2016-03-04",
                     "introduced":  {
@@ -201,27 +201,27 @@
     "summary":  "This intricate automatic pistol is able to fire its magazine which then spins in the air for a short time, firing lasers at nearby enemies.",
     "stats":  {
                   "accuracy":  22.222221,
-                  "statusChance":  0.15999997,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "naramon",
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  1.4,
+                  "trigger":  "Auto",
                   "disposition":  4,
-                  "magazineSize":  75,
                   "fireRate":  10.000001,
                   "critMultiplier":  2,
+                  "masteryReq":  6,
                   "totalDamage":  20,
                   "vaulted":  null,
-                  "masteryReq":  6,
-                  "slot":  "secondary",
+                  "statusChance":  0.15999997,
+                  "reloadTime":  1.4,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "secondary",
                   "critChance":  0.16,
+                  "magazineSize":  75,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

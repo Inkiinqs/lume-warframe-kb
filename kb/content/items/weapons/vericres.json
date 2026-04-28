@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.vericres",
+    "description":  "Unfurl this warfan like a rapidly waxing moon.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  180,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -88,12 +90,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  360,
+                      "slamRadius":  6,
                       "blockingAngle":  55,
-                      "sentinel":  null,
+                      "heavySlamRadius":  8,
+                      "stancePolarity":  "naramon",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  21.6,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  28.799999,
@@ -101,18 +107,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  129.60001,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  180,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.8,
+                      "heavyAttackDamage":  720,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  540,
+                      "comboDuration":  5,
+                      "slideAttack":  180,
+                      "windUp":  0.5,
+                      "followThrough":  0.69999999,
+                      "slamAttack":  360,
                       "damagePerShot":  [
                                             21.6,
                                             28.799999,
@@ -135,20 +148,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.8,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  720,
-                      "followThrough":  0.69999999,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  540,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  180,
-                      "windUp":  0.5,
-                      "slamRadius":  6,
-                      "slamAttack":  360,
-                      "heavySlamRadius":  8
+                      "heavySlamAttack":  180
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Warfan/TnMoonWarfan/MoonWarfanWeapon"
@@ -161,7 +161,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Unfurl this warfan like a rapidly waxing moon.",
+    "id":  "weapon.vericres",
     "release":  {
                     "releaseDate":  "2022-07-14",
                     "introduced":  {
@@ -177,27 +177,27 @@
     "summary":  "Unfurl this warfan like a rapidly waxing moon.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.19999999,
+                  "noise":  null,
                   "polarities":  [
                                      "madurai",
                                      "madurai"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  4,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  2,
+                  "masteryReq":  8,
                   "totalDamage":  180,
                   "vaulted":  null,
-                  "masteryReq":  8,
-                  "slot":  "melee",
+                  "statusChance":  0.19999999,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.22,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

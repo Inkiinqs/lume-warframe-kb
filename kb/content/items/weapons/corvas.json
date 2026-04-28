@@ -1,5 +1,5 @@
 {
-    "description":  "When fully charged, this flak cannon delivers a devastating shot. Perfect for taking down fast-moving interceptors.",
+    "id":  "weapon.corvas",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -8,6 +8,10 @@
                 ],
     "name":  "Corvas",
     "subCategory":  "archgun-arch-gun",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD archgun static data."
+              ],
     "mechanics":  {
                       "heavySlamAttack":  null,
                       "crafting":  {
@@ -90,7 +94,6 @@
                                    "imageName":  "corvas-13db9b551f.png",
                                    "available":  true
                                },
-                      "followThrough":  null,
                       "attacks":  [
                                       {
                                           "name":  "Uncharged Shot",
@@ -129,12 +132,13 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  400,
+                                     "heat":  480,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  0,
@@ -142,30 +146,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  480,
+                                     "radiation":  0,
                                      "total":  880,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             400,
                                             0,
@@ -187,12 +177,22 @@
                                             0,
                                             0,
                                             0
-                                        ]
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
                   },
-    "notes":  [
-                  "Normalized from static import source.",
-                  "Converted from WFCD archgun static data."
-              ],
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Archwing/Primary/LaunchGrenade/ArchCannon"
                 ],
@@ -204,7 +204,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.corvas",
+    "description":  "When fully charged, this flak cannon delivers a devastating shot. Perfect for taking down fast-moving interceptors.",
     "release":  {
                     "releaseDate":  "2014-10-24",
                     "introduced":  {
@@ -227,23 +227,23 @@
                   "polarities":  [
                                      "naramon"
                                  ],
+                  "masterable":  true,
                   "tradable":  false,
-                  "vaulted":  null,
-                  "totalDamage":  880,
+                  "trigger":  "Charge",
                   "disposition":  4,
-                  "magazineSize":  25,
                   "fireRate":  2,
                   "critMultiplier":  2.5999999,
-                  "reloadTime":  8,
+                  "totalDamage":  880,
+                  "vaulted":  null,
                   "masteryReq":  1,
-                  "statusChance":  0.13,
-                  "slot":  "archgun",
+                  "reloadTime":  8,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Charge",
+                  "slot":  "archgun",
                   "critChance":  0.40000001,
+                  "magazineSize":  25,
                   "weaponClass":  "Arch-Gun",
-                  "masterable":  true,
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "vaultDate":  null,
+                  "statusChance":  0.13,
+                  "multishot":  1
               }
 }

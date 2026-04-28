@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.tenet-detron",
+    "description":  "Parvos Granum\u0027s engineers have made this already ferocious hand cannon even more deadly with the addition of an alternate fire mode that empties an entire clip in one devastating burst.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  60,
                                        "buildPrice":  10000,
@@ -79,12 +81,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  26,
                                      "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  0,
@@ -92,18 +98,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  26,
                                      "total":  26,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -126,20 +139,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Corpus/BoardExec/Secondary/CrpBEDetron/CrpBEDetron"
@@ -152,7 +152,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Parvos Granum\u0027s engineers have made this already ferocious hand cannon even more deadly with the addition of an alternate fire mode that empties an entire clip in one devastating burst.",
+    "id":  "weapon.tenet-detron",
     "release":  {
                     "releaseDate":  "2021-07-06",
                     "introduced":  {
@@ -168,26 +168,26 @@
     "summary":  "Parvos Granum\u0027s engineers have made this already ferocious hand cannon even more deadly with the addition of an alternate fire mode that empties an entire clip in one devastating burst.",
     "stats":  {
                   "accuracy":  20,
-                  "statusChance":  0.10000002,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  1,
+                  "trigger":  "Semi",
                   "disposition":  3,
-                  "magazineSize":  6,
                   "fireRate":  3.3333335,
                   "critMultiplier":  2,
+                  "masteryReq":  16,
                   "totalDamage":  26,
                   "vaulted":  null,
-                  "masteryReq":  16,
-                  "slot":  "secondary",
+                  "statusChance":  0.10000002,
+                  "reloadTime":  1,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "secondary",
                   "critChance":  0.18000001,
+                  "magazineSize":  6,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  10,
                   "vaultDate":  null
               }

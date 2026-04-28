@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.higasa",
+    "description":  "Depend on Higasa when it rains bullets. Aiming creates a shield that blocks weapon fire. Kills and blocked shots charge a beam released by Alternate Fire.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  25000,
@@ -129,12 +131,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  15.6,
@@ -142,18 +148,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  10.4,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  26,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             15.6,
@@ -176,20 +189,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/LongGuns/Gunbrella/ShrineMaidenGunbrellaWeapon"
@@ -202,7 +202,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Depend on Higasa when it rains bullets. Aiming creates a shield that blocks weapon fire. Kills and blocked shots charge a beam released by Alternate Fire.",
+    "id":  "weapon.higasa",
     "release":  {
                     "releaseDate":  "2024-10-02",
                     "introduced":  {
@@ -220,26 +220,26 @@
     "summary":  "Depend on Higasa when it rains bullets. Aiming creates a shield that blocks weapon fire. Kills and blocked shots charge a beam released by Alternate Fire.",
     "stats":  {
                   "accuracy":  100,
-                  "statusChance":  0.18000001,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "vazarin"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2.5,
+                  "trigger":  "Burst",
                   "disposition":  4,
-                  "magazineSize":  90,
                   "fireRate":  5.5555558,
                   "critMultiplier":  2,
+                  "masteryReq":  2,
                   "totalDamage":  26,
                   "vaulted":  null,
-                  "masteryReq":  2,
-                  "slot":  "primary",
+                  "statusChance":  0.18000001,
+                  "reloadTime":  2.5,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Burst",
+                  "slot":  "primary",
                   "critChance":  0.23999999,
+                  "magazineSize":  90,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.plasma-sword",
+    "description":  "An advanced blade that delivers high-damage attacks. Delivers a high percentage of critical strikes.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  800,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -129,12 +131,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  400,
+                      "slamRadius":  7,
                       "blockingAngle":  55,
-                      "sentinel":  null,
+                      "heavySlamRadius":  8,
+                      "stancePolarity":  "unairu",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  34,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  66,
                                      "true":  0,
                                      "slash":  12,
@@ -142,18 +148,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  88,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  200,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
+                      "heavyAttackDamage":  1000,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  600,
+                      "comboDuration":  5,
+                      "slideAttack":  200,
+                      "windUp":  0.60000002,
+                      "followThrough":  0.60000002,
+                      "slamAttack":  600,
                       "damagePerShot":  [
                                             34,
                                             12,
@@ -176,20 +189,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  1000,
-                      "followThrough":  0.60000002,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  600,
-                      "stancePolarity":  "unairu",
-                      "slideAttack":  200,
-                      "windUp":  0.60000002,
-                      "slamRadius":  7,
-                      "slamAttack":  600,
-                      "heavySlamRadius":  8
+                      "heavySlamAttack":  800
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Swords/PlasmaSword/PlasmaLongSword"
@@ -202,7 +202,7 @@
     "relationships":  [
 
                       ],
-    "description":  "An advanced blade that delivers high-damage attacks. Delivers a high percentage of critical strikes.",
+    "id":  "weapon.plasma-sword",
     "release":  {
                     "releaseDate":  "2012-12-18",
                     "introduced":  {
@@ -220,26 +220,26 @@
     "summary":  "An advanced blade that delivers high-damage attacks. Delivers a high percentage of critical strikes.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.18000001,
+                  "noise":  null,
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  0.66666669,
                   "critMultiplier":  2,
+                  "masteryReq":  4,
                   "totalDamage":  200,
                   "vaulted":  null,
-                  "masteryReq":  4,
-                  "slot":  "melee",
+                  "statusChance":  0.18000001,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.18000001,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

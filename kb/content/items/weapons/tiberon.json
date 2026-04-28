@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.tiberon",
+    "description":  "Forged by a master gunsmith, this Tenno burst rifle will strike down targets with swift precision.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -107,12 +109,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  11,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  22,
@@ -120,18 +126,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  11,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  44,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             11,
                                             22,
@@ -154,20 +167,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/LongGuns/DrakeRifle/DrakeRifle"
@@ -180,7 +180,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Forged by a master gunsmith, this Tenno burst rifle will strike down targets with swift precision.",
+    "id":  "weapon.tiberon",
     "release":  {
                     "releaseDate":  "2014-10-01",
                     "introduced":  {
@@ -197,26 +197,26 @@
     "summary":  "Forged by a master gunsmith, this Tenno burst rifle will strike down targets with swift precision.",
     "stats":  {
                   "accuracy":  33.333332,
-                  "statusChance":  0.15999997,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2.26,
+                  "trigger":  "Burst",
                   "disposition":  3,
-                  "magazineSize":  30,
                   "fireRate":  9.09091,
                   "critMultiplier":  2.4000001,
+                  "masteryReq":  10,
                   "totalDamage":  44,
                   "vaulted":  null,
-                  "masteryReq":  10,
-                  "slot":  "primary",
+                  "statusChance":  0.15999997,
+                  "reloadTime":  2.26,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Burst",
+                  "slot":  "primary",
                   "critChance":  0.25999999,
+                  "magazineSize":  30,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.akarius",
+    "description":  "Bombard legions of enemies with target seeking rockets. These dual launchers reload faster while sprinting, even more so in Gauss’ hands. Rockets arm after reaching a safe distance.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  20000,
@@ -135,12 +137,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  68,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  0,
@@ -148,18 +154,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  487,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  419,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             68,
                                             0,
@@ -182,20 +195,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Pistols/SapientPistol/SapientPistol"
@@ -208,7 +208,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Bombard legions of enemies with target seeking rockets. These dual launchers reload faster while sprinting, even more so in Gauss’ hands. Rockets arm after reaching a safe distance.",
+    "id":  "weapon.akarius",
     "release":  {
                     "releaseDate":  "2019-08-29",
                     "introduced":  {
@@ -225,27 +225,27 @@
     "summary":  "Bombard legions of enemies with target seeking rockets. These dual launchers reload faster while sprinting, even more so in Gauss’ hands. Rockets arm after reaching a safe distance.",
     "stats":  {
                   "accuracy":  26.666666,
-                  "statusChance":  0.27999997,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "naramon",
                                      "naramon"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  3.4000001,
+                  "trigger":  "Burst",
                   "disposition":  3,
-                  "magazineSize":  10,
                   "fireRate":  4.2483659,
                   "critMultiplier":  1.8,
+                  "masteryReq":  8,
                   "totalDamage":  487,
                   "vaulted":  null,
-                  "masteryReq":  8,
-                  "slot":  "secondary",
+                  "statusChance":  0.27999997,
+                  "reloadTime":  3.4000001,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Burst",
+                  "slot":  "secondary",
                   "critChance":  0.059999999,
+                  "magazineSize":  10,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

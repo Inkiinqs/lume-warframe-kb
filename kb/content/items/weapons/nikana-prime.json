@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.nikana-prime",
+    "description":  "An ancient blade predating the fall of the Orokin Empire. Forged using techniques lost over the centuries, the edge remains sharper than that of any modern Nikana.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  792,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -647,12 +649,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  396,
+                      "slamRadius":  6,
                       "blockingAngle":  55,
-                      "sentinel":  null,
+                      "heavySlamRadius":  7,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  9.9000006,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  9.9000006,
@@ -660,18 +666,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  178.2,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  198,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
+                      "heavyAttackDamage":  990,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  594,
+                      "comboDuration":  5,
+                      "slideAttack":  396,
+                      "windUp":  0.5,
+                      "followThrough":  0.69999999,
+                      "slamAttack":  594,
                       "damagePerShot":  [
                                             9.9000006,
                                             9.9000006,
@@ -694,20 +707,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  990,
-                      "followThrough":  0.69999999,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  594,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  396,
-                      "windUp":  0.5,
-                      "slamRadius":  6,
-                      "slamAttack":  594,
-                      "heavySlamRadius":  7
+                      "heavySlamAttack":  792
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Swords/PrimeKatana/PrimeNikana"
@@ -720,7 +720,7 @@
     "relationships":  [
 
                       ],
-    "description":  "An ancient blade predating the fall of the Orokin Empire. Forged using techniques lost over the centuries, the edge remains sharper than that of any modern Nikana.",
+    "id":  "weapon.nikana-prime",
     "release":  {
                     "releaseDate":  "2016-02-16",
                     "introduced":  {
@@ -736,27 +736,27 @@
     "summary":  "An ancient blade predating the fall of the Orokin Empire. Forged using techniques lost over the centuries, the edge remains sharper than that of any modern Nikana.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.27999997,
+                  "noise":  null,
                   "polarities":  [
                                      "madurai",
                                      "vazarin"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  1,
-                  "magazineSize":  null,
                   "fireRate":  1.0833334,
                   "critMultiplier":  2.4000001,
+                  "masteryReq":  12,
                   "totalDamage":  198,
                   "vaulted":  true,
-                  "masteryReq":  12,
-                  "slot":  "melee",
+                  "statusChance":  0.27999997,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  "2017-12-12",
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.28,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  "2017-12-12"
               }

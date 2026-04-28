@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.tonkor",
+    "description":  "Hurl mayhem and destruction with this Grineer grenade launcher.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  60000,
@@ -112,12 +114,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  75,
@@ -125,18 +131,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  725,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  650,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             75,
@@ -159,20 +172,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/LongGuns/GrnGrenadeLauncher/GrnGrenadeLauncher"
@@ -185,7 +185,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Hurl mayhem and destruction with this Grineer grenade launcher.",
+    "id":  "weapon.tonkor",
     "release":  {
                     "releaseDate":  "2015-04-23",
                     "introduced":  {
@@ -202,26 +202,26 @@
     "summary":  "Hurl mayhem and destruction with this Grineer grenade launcher.",
     "stats":  {
                   "accuracy":  100,
-                  "statusChance":  0.10000002,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  1.7,
+                  "trigger":  "Semi",
                   "disposition":  4,
-                  "magazineSize":  1,
                   "fireRate":  3.1666667,
                   "critMultiplier":  2.5,
+                  "masteryReq":  5,
                   "totalDamage":  725,
                   "vaulted":  null,
-                  "masteryReq":  5,
-                  "slot":  "primary",
+                  "statusChance":  0.10000002,
+                  "reloadTime":  1.7,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "primary",
                   "critChance":  0.25,
+                  "magazineSize":  1,
                   "weaponClass":  "Launcher",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

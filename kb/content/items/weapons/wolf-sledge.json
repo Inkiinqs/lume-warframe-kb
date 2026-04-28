@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.wolf-sledge",
+    "description":  "The signature weapon of the only lunatic fearsome enough to bust out of the Saturn Six Max-Pen. Once loosed this formidable throwing hammer always finds its way home.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  1295,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  30000,
@@ -194,12 +196,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  518,
+                      "slamRadius":  9,
                       "blockingAngle":  50,
-                      "sentinel":  null,
+                      "heavySlamRadius":  10,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  132.09,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  7.77,
@@ -207,18 +213,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  119.14001,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  259,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  3.0999999,
+                      "heavyAttackDamage":  1554,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  777,
+                      "comboDuration":  5,
+                      "slideAttack":  518,
+                      "windUp":  1.2,
+                      "followThrough":  0.40000001,
+                      "slamAttack":  777,
                       "damagePerShot":  [
                                             132.09,
                                             7.77,
@@ -241,20 +254,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  3.0999999,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  1554,
-                      "followThrough":  0.40000001,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  777,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  518,
-                      "windUp":  1.2,
-                      "slamRadius":  9,
-                      "slamAttack":  777,
-                      "heavySlamRadius":  10
+                      "heavySlamAttack":  1295
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Hammer/ThrowingHammer"
@@ -267,7 +267,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The signature weapon of the only lunatic fearsome enough to bust out of the Saturn Six Max-Pen. Once loosed this formidable throwing hammer always finds its way home.",
+    "id":  "weapon.wolf-sledge",
     "release":  {
                     "releaseDate":  "2019-02-27",
                     "introduced":  {
@@ -283,26 +283,26 @@
     "summary":  "The signature weapon of the only lunatic fearsome enough to bust out of the Saturn Six Max-Pen. Once loosed this formidable throwing hammer always finds its way home.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.33000004,
+                  "noise":  null,
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  4,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  1.9,
+                  "masteryReq":  7,
                   "totalDamage":  259,
                   "vaulted":  null,
-                  "masteryReq":  7,
-                  "slot":  "melee",
+                  "statusChance":  0.33000004,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.17,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

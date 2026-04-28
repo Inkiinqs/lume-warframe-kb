@@ -1,0 +1,31 @@
+{
+    "id":  "relationship.drop-cetus-wisp-operational-supply-neutral",
+    "type":  "wfcd_drop",
+    "from":  "activity.neutral-operational-supply",
+    "to":  "resource.cetus-wisp",
+    "summary":  "Operational Supply, Neutral can drop Cetus Wisp.",
+    "conditions":  {
+
+                   },
+    "values":  {
+                   "location":  "Operational Supply, Neutral",
+                   "chance":  100,
+                   "rarity":  "Common",
+                   "rewardType":  "Cetus Wisp",
+                   "parentId":  "weapon.mewan",
+                   "rawLocation":  "Operational Supply, Neutral",
+                   "locationPlanet":  "Neutral",
+                   "locationNode":  "Operational Supply"
+               },
+    "tags":  [
+                 "drop",
+                 "wfcd-generated",
+                 "activity-normalized"
+             ],
+    "sources":  [
+                    {
+                        "type":  "wfcd-generated",
+                        "value":  "drop:weapon.mewan"
+                    }
+                ]
+}

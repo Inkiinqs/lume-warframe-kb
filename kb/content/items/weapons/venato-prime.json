@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.venato-prime",
+    "description":  "Fashioned from the willingly donated bone of the Sentient Ur-Hatho and embellished by Orokin luxurator Sembik Vol, Venato Prime was to be wielded against “common enemies” of the united peoples – had any ever emerged from the darkness beyond Tau.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  1225,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -339,12 +341,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  490,
+                      "slamRadius":  8,
                       "blockingAngle":  60,
-                      "sentinel":  null,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "zenurik",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  36.75,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  122.5,
@@ -352,18 +358,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  85.750008,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  245,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.8,
+                      "heavyAttackDamage":  1470,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  735,
+                      "comboDuration":  5,
+                      "slideAttack":  490,
+                      "windUp":  1,
+                      "followThrough":  0.60000002,
+                      "slamAttack":  735,
                       "damagePerShot":  [
                                             36.75,
                                             122.5,
@@ -386,20 +399,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.8,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  1470,
-                      "followThrough":  0.60000002,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  735,
-                      "stancePolarity":  "zenurik",
-                      "slideAttack":  490,
-                      "windUp":  1,
-                      "slamRadius":  8,
-                      "slamAttack":  735,
-                      "heavySlamRadius":  9
+                      "heavySlamAttack":  1225
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Scythe/PrimeVento/PrimeVentoScythe"
@@ -412,7 +412,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Fashioned from the willingly donated bone of the Sentient Ur-Hatho and embellished by Orokin luxurator Sembik Vol, Venato Prime was to be wielded against “common enemies” of the united peoples – had any ever emerged from the darkness beyond Tau.",
+    "id":  "weapon.venato-prime",
     "release":  {
                     "releaseDate":  "2025-08-26",
                     "introduced":  {
@@ -428,26 +428,26 @@
     "summary":  "Fashioned from the willingly donated bone of the Sentient Ur-Hatho and embellished by Orokin luxurator Sembik Vol, Venato Prime was to be wielded against “common enemies” of the united peoples – had any ever emerged from the darkness beyond Tau.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.31999999,
+                  "noise":  null,
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  1,
-                  "magazineSize":  null,
                   "fireRate":  1.1666667,
                   "critMultiplier":  2.3,
+                  "masteryReq":  14,
                   "totalDamage":  245,
                   "vaulted":  false,
-                  "masteryReq":  14,
-                  "slot":  "melee",
+                  "statusChance":  0.31999999,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  "2027-05-26",
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.34,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

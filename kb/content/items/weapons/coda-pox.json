@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.coda-pox",
+    "description":  "These festering, writhing, throwable projectiles of pus and gas have been improved with a greater Magazine Size, Critical Chance, Critical Damage, Status Chance, and Damage.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -72,12 +74,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  0,
@@ -85,18 +91,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  90,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  90,
-                                     "toxin":  90,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -119,20 +132,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Infested/InfestedLich/Pistols/CodaPox"
@@ -145,7 +145,7 @@
     "relationships":  [
 
                       ],
-    "description":  "These festering, writhing, throwable projectiles of pus and gas have been improved with a greater Magazine Size, Critical Chance, Critical Damage, Status Chance, and Damage.",
+    "id":  "weapon.coda-pox",
     "release":  {
                     "releaseDate":  "2025-03-19",
                     "introduced":  {
@@ -161,27 +161,27 @@
     "summary":  "These festering, writhing, throwable projectiles of pus and gas have been improved with a greater Magazine Size, Critical Chance, Critical Damage, Status Chance, and Damage.",
     "stats":  {
                   "accuracy":  100,
-                  "statusChance":  0.44999999,
+                  "noise":  "Silent",
                   "polarities":  [
                                      "madurai",
                                      "madurai"
                                  ],
-                  "noise":  "Silent",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  1,
+                  "trigger":  "Auto",
                   "disposition":  3,
-                  "magazineSize":  8,
                   "fireRate":  2.0833335,
                   "critMultiplier":  2.2,
+                  "masteryReq":  17,
                   "totalDamage":  90,
                   "vaulted":  null,
-                  "masteryReq":  17,
-                  "slot":  "secondary",
+                  "statusChance":  0.44999999,
+                  "reloadTime":  1,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "secondary",
                   "critChance":  0.1,
+                  "magazineSize":  8,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

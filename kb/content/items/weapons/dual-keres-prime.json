@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.dual-keres-prime",
+    "description":  "The hunted will meet a quick end when faced with Khora Prime\u0027s signature swords. Heavy Attack Efficiency is enhanced when wielded by Khora.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  720,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -609,12 +611,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  360,
+                      "slamRadius":  8,
                       "blockingAngle":  60,
-                      "sentinel":  null,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "naramon",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  21.6,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  54.000004,
@@ -622,18 +628,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  104.39999,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  180,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
+                      "heavyAttackDamage":  720,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  540,
+                      "comboDuration":  5,
+                      "slideAttack":  360,
+                      "windUp":  0.69999999,
+                      "followThrough":  0.5,
+                      "slamAttack":  360,
                       "damagePerShot":  [
                                             21.6,
                                             54.000004,
@@ -656,20 +669,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  720,
-                      "followThrough":  0.5,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  540,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  360,
-                      "windUp":  0.69999999,
-                      "slamRadius":  8,
-                      "slamAttack":  360,
-                      "heavySlamRadius":  9
+                      "heavySlamAttack":  720
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Swords/PrimeDualKeres/PrimeDualKeresWeapon"
@@ -682,7 +682,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The hunted will meet a quick end when faced with Khora Prime\u0027s signature swords. Heavy Attack Efficiency is enhanced when wielded by Khora.",
+    "id":  "weapon.dual-keres-prime",
     "release":  {
                     "releaseDate":  "2022-07-16",
                     "introduced":  {
@@ -698,27 +698,27 @@
     "summary":  "The hunted will meet a quick end when faced with Khora Prime\u0027s signature swords. Heavy Attack Efficiency is enhanced when wielded by Khora.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.24000001,
+                  "noise":  null,
                   "polarities":  [
                                      "madurai",
                                      "madurai"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  2,
-                  "magazineSize":  null,
                   "fireRate":  1.2500001,
                   "critMultiplier":  2.5999999,
+                  "masteryReq":  14,
                   "totalDamage":  180,
                   "vaulted":  true,
-                  "masteryReq":  14,
-                  "slot":  "melee",
+                  "statusChance":  0.24000001,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  "2024-05-01",
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.31999999,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  "2024-05-01"
               }

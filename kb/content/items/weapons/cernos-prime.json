@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.cernos-prime",
+    "description":  "A noble bow to hunt hellish beasts.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -1173,12 +1175,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  165.59999,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  9.1999998,
@@ -1186,18 +1192,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  9.2000027,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  183.99998,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             165.59999,
                                             9.1999998,
@@ -1220,20 +1233,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Bows/PrimeCernos/PrimeCernos"
@@ -1246,7 +1246,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A noble bow to hunt hellish beasts.",
+    "id":  "weapon.cernos-prime",
     "release":  {
                     "releaseDate":  "2016-11-22",
                     "introduced":  {
@@ -1262,27 +1262,27 @@
     "summary":  "A noble bow to hunt hellish beasts.",
     "stats":  {
                   "accuracy":  16.666666,
-                  "statusChance":  0.30000001,
+                  "noise":  "Silent",
                   "polarities":  [
                                      "madurai",
                                      "madurai"
                                  ],
-                  "noise":  "Silent",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  0.64999998,
+                  "trigger":  "Charge",
                   "disposition":  4,
-                  "magazineSize":  1,
                   "fireRate":  1,
                   "critMultiplier":  2,
+                  "masteryReq":  12,
                   "totalDamage":  183.99998,
                   "vaulted":  true,
-                  "masteryReq":  12,
-                  "slot":  "primary",
+                  "statusChance":  0.30000001,
+                  "reloadTime":  0.64999998,
                   "estimatedVaultDate":  "2018-09-25",
-                  "trigger":  "Charge",
+                  "slot":  "primary",
                   "critChance":  0.34999999,
+                  "magazineSize":  1,
                   "weaponClass":  "Bow",
-                  "masterable":  true,
                   "multishot":  3,
                   "vaultDate":  "2018-09-25"
               }

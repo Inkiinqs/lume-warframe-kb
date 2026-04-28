@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.prisma-ohma",
+    "description":  "Prisma crystals glisten in these electrified tonfas.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  1000,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -88,12 +90,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  500,
+                      "slamRadius":  8,
                       "blockingAngle":  60,
-                      "sentinel":  null,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "naramon",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  82,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  124,
                                      "true":  0,
                                      "slash":  0,
@@ -101,18 +107,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  44,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  250,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
+                      "heavyAttackDamage":  1000,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  750,
+                      "comboDuration":  5,
+                      "slideAttack":  500,
+                      "windUp":  0.69999999,
+                      "followThrough":  0.60000002,
+                      "slamAttack":  500,
                       "damagePerShot":  [
                                             82,
                                             0,
@@ -135,20 +148,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  1000,
-                      "followThrough":  0.60000002,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  750,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  500,
-                      "windUp":  0.69999999,
-                      "slamRadius":  8,
-                      "slamAttack":  500,
-                      "heavySlamRadius":  9
+                      "heavySlamAttack":  1000
                   },
     "aliases":  [
                     "/Lotus/Weapons/Corpus/Melee/CrpTonfa/CrpPrismaTonfa"
@@ -161,7 +161,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Prisma crystals glisten in these electrified tonfas.",
+    "id":  "weapon.prisma-ohma",
     "release":  {
                     "releaseDate":  "2023-08-03",
                     "introduced":  {
@@ -177,27 +177,27 @@
     "summary":  "Prisma crystals glisten in these electrified tonfas.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.19999999,
+                  "noise":  null,
                   "polarities":  [
                                      "naramon",
                                      "madurai"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  true,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  3,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  2.2,
+                  "masteryReq":  12,
                   "totalDamage":  250,
                   "vaulted":  null,
-                  "masteryReq":  12,
-                  "slot":  "melee",
+                  "statusChance":  0.19999999,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.30000001,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

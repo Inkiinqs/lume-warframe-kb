@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.panthera-prime",
+    "description":  "The max-velocity saw-launcher perfected. Features a larger magazine, faster fire rate, and a radial, slashing ricochet.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -765,12 +767,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  20,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  10,
@@ -778,18 +784,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  90,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  120,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             20,
                                             10,
@@ -812,20 +825,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/LongGuns/PrimePanthera/PrimePanthera"
@@ -838,7 +838,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The max-velocity saw-launcher perfected. Features a larger magazine, faster fire rate, and a radial, slashing ricochet.",
+    "id":  "weapon.panthera-prime",
     "release":  {
                     "releaseDate":  "2020-07-14",
                     "introduced":  {
@@ -856,27 +856,27 @@
     "summary":  "The max-velocity saw-launcher perfected. Features a larger magazine, faster fire rate, and a radial, slashing ricochet.",
     "stats":  {
                   "accuracy":  80,
-                  "statusChance":  0.30000001,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai",
                                      "naramon"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2.4000001,
+                  "trigger":  "Auto",
                   "disposition":  4,
-                  "magazineSize":  40,
                   "fireRate":  3.6666667,
                   "critMultiplier":  2,
+                  "masteryReq":  14,
                   "totalDamage":  120,
                   "vaulted":  true,
-                  "masteryReq":  14,
-                  "slot":  "primary",
+                  "statusChance":  0.30000001,
+                  "reloadTime":  2.4000001,
                   "estimatedVaultDate":  "2022-07-16",
-                  "trigger":  "Auto",
+                  "slot":  "primary",
                   "critChance":  0.18000001,
+                  "magazineSize":  40,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  "2022-07-16"
               }

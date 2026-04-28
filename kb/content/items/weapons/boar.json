@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.boar",
+    "description":  "A shotgun with low accuracy and strong recoil, but able to deliver its payload in full-auto. The Boar is best used at close range.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -123,12 +125,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  12.1,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  3.3000002,
@@ -136,18 +142,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  6.599999,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  22,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             12.1,
                                             3.3000002,
@@ -170,20 +183,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Shotgun/FullAutoShotgun"
@@ -196,7 +196,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A shotgun with low accuracy and strong recoil, but able to deliver its payload in full-auto. The Boar is best used at close range.",
+    "id":  "weapon.boar",
     "release":  {
                     "releaseDate":  "2012-10-25",
                     "introduced":  {
@@ -213,26 +213,26 @@
     "summary":  "A shotgun with low accuracy and strong recoil, but able to deliver its payload in full-auto. The Boar is best used at close range.",
     "stats":  {
                   "accuracy":  5,
-                  "statusChance":  0.074999988,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2.7,
+                  "trigger":  "Auto",
                   "disposition":  5,
-                  "magazineSize":  20,
                   "fireRate":  4.166667,
                   "critMultiplier":  1.5,
+                  "masteryReq":  2,
                   "totalDamage":  22,
                   "vaulted":  null,
-                  "masteryReq":  2,
-                  "slot":  "primary",
+                  "statusChance":  0.074999988,
+                  "reloadTime":  2.7,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "primary",
                   "critChance":  0.1,
+                  "magazineSize":  20,
                   "weaponClass":  "Shotgun",
-                  "masterable":  true,
                   "multishot":  8,
                   "vaultDate":  null
               }

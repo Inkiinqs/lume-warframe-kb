@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.karyst",
+    "description":  "Once the blade weapon of choice for an exclusive order of Tenno assassins, the Karyst dagger grew to become a symbol of honor and duty for all Tenno.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  1092,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -129,12 +131,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  546,
+                      "slamRadius":  5,
                       "blockingAngle":  45,
-                      "sentinel":  null,
+                      "heavySlamRadius":  6,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  30,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  84,
@@ -142,18 +148,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  87,
                                      "puncture":  72.000008,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  273,
-                                     "toxin":  87,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.75,
+                      "heavyAttackDamage":  546,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  819,
+                      "comboDuration":  5,
+                      "slideAttack":  546,
+                      "windUp":  0.40000001,
+                      "followThrough":  0.89999998,
+                      "slamAttack":  546,
                       "damagePerShot":  [
                                             30,
                                             84,
@@ -176,20 +189,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.75,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  546,
-                      "followThrough":  0.89999998,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  819,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  546,
-                      "windUp":  0.40000001,
-                      "slamRadius":  5,
-                      "slamAttack":  546,
-                      "heavySlamRadius":  6
+                      "heavySlamAttack":  1092
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Swords/KrisDagger/KrisDagger"
@@ -202,7 +202,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Once the blade weapon of choice for an exclusive order of Tenno assassins, the Karyst dagger grew to become a symbol of honor and duty for all Tenno.",
+    "id":  "weapon.karyst",
     "release":  {
                     "releaseDate":  "2014-08-13",
                     "introduced":  {
@@ -219,26 +219,26 @@
     "summary":  "Once the blade weapon of choice for an exclusive order of Tenno assassins, the Karyst dagger grew to become a symbol of honor and duty for all Tenno.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.25999999,
+                  "noise":  null,
                   "polarities":  [
                                      "naramon"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  0.75000006,
                   "critMultiplier":  2,
+                  "masteryReq":  6,
                   "totalDamage":  273,
                   "vaulted":  null,
-                  "masteryReq":  6,
-                  "slot":  "melee",
+                  "statusChance":  0.25999999,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.1,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

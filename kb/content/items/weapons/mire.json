@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.mire",
+    "description":  "A relic from the Great Plague, the Mire Infested Sword is a brutal weapon. It not only cuts into the enemy, it infects the wounds of its victim with a toxic nerve poison. Deals \u003cDT_POISON_COLOR\u003eToxin Damage on Ground Slam attacks.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  632,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -129,12 +131,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  316,
+                      "slamRadius":  7,
                       "blockingAngle":  55,
-                      "sentinel":  null,
+                      "heavySlamRadius":  8,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  23,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  23,
@@ -142,18 +148,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  65,
                                      "puncture":  47,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  158,
-                                     "toxin":  65,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.7,
+                      "heavyAttackDamage":  790,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  474,
+                      "comboDuration":  5,
+                      "slideAttack":  158,
+                      "windUp":  0.60000002,
+                      "followThrough":  0.60000002,
+                      "slamAttack":  474,
                       "damagePerShot":  [
                                             23,
                                             23,
@@ -176,20 +189,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.7,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  790,
-                      "followThrough":  0.60000002,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  474,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  158,
-                      "windUp":  0.60000002,
-                      "slamRadius":  7,
-                      "slamAttack":  474,
-                      "heavySlamRadius":  8
+                      "heavySlamAttack":  632
                   },
     "aliases":  [
                     "/Lotus/Weapons/Infested/Melee/Swords/Mire/MireSword"
@@ -202,7 +202,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A relic from the Great Plague, the Mire Infested Sword is a brutal weapon. It not only cuts into the enemy, it infects the wounds of its victim with a toxic nerve poison. Deals \u003cDT_POISON_COLOR\u003eToxin Damage on Ground Slam attacks.",
+    "id":  "weapon.mire",
     "release":  {
                     "releaseDate":  "2013-04-05",
                     "introduced":  {
@@ -218,26 +218,26 @@
     "summary":  "A relic from the Great Plague, the Mire Infested Sword is a brutal weapon. It not only cuts into the enemy, it infects the wounds of its victim with a toxic nerve poison. Deals \u003cDT_POISON_COLOR\u003eToxin Damage on Ground Slam attacks.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.31,
+                  "noise":  null,
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  4,
-                  "magazineSize":  null,
                   "fireRate":  1.0833334,
                   "critMultiplier":  1.5,
+                  "masteryReq":  5,
                   "totalDamage":  158,
                   "vaulted":  null,
-                  "masteryReq":  5,
-                  "slot":  "melee",
+                  "statusChance":  0.31,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.090000004,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

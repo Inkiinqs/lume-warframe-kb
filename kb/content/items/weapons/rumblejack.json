@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.rumblejack",
+    "description":  "An electrified jolter for quick melee takedowns, assembled from scavenged scrap. Ideal for use on unsuspecting opponents.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,14 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  1200,
+                      "drops":  [
+                                    {
+                                        "location":  "Cephalon Simaris, Complete The New War",
+                                        "type":  "Rumblejack",
+                                        "chance":  100,
+                                        "rarity":  "Common"
+                                    }
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -87,12 +94,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  600,
+                      "slamRadius":  4,
                       "blockingAngle":  45,
-                      "sentinel":  null,
+                      "heavySlamRadius":  6,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  120,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  180,
                                      "true":  0,
                                      "slash":  0,
@@ -100,18 +111,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  300,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.8,
+                      "heavyAttackDamage":  600,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  900,
+                      "comboDuration":  5,
+                      "slideAttack":  600,
+                      "windUp":  0.40000001,
+                      "followThrough":  0.89999998,
+                      "slamAttack":  600,
                       "damagePerShot":  [
                                             120,
                                             0,
@@ -134,25 +152,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.8,
-                      "drops":  [
-                                    {
-                                        "location":  "Cephalon Simaris, Complete The New War",
-                                        "type":  "Rumblejack",
-                                        "chance":  100,
-                                        "rarity":  "Common"
-                                    }
-                                ],
-                      "heavyAttackDamage":  600,
-                      "followThrough":  0.89999998,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  900,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  600,
-                      "windUp":  0.40000001,
-                      "slamRadius":  4,
-                      "slamAttack":  600,
-                      "heavySlamRadius":  6
+                      "heavySlamAttack":  1200
                   },
     "aliases":  [
                     "/Lotus/Weapons/Operator/Melee/DrifterTazer/DrifterTazerPlayerWep"
@@ -165,7 +165,7 @@
     "relationships":  [
 
                       ],
-    "description":  "An electrified jolter for quick melee takedowns, assembled from scavenged scrap. Ideal for use on unsuspecting opponents.",
+    "id":  "weapon.rumblejack",
     "release":  {
                     "releaseDate":  "2021-12-15",
                     "introduced":  {
@@ -183,26 +183,26 @@
     "summary":  "An electrified jolter for quick melee takedowns, assembled from scavenged scrap. Ideal for use on unsuspecting opponents.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.39999998,
+                  "noise":  null,
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  4,
-                  "magazineSize":  null,
                   "fireRate":  0.66666669,
                   "critMultiplier":  1.8,
+                  "masteryReq":  8,
                   "totalDamage":  300,
                   "vaulted":  null,
-                  "masteryReq":  8,
-                  "slot":  "melee",
+                  "statusChance":  0.39999998,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.14,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

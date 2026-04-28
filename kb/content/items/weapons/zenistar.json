@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.zenistar",
+    "description":  "Scorch enemies with blistering blows, or set them ablaze with the flying fire disc.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  1490,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  30000,
@@ -188,12 +190,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  596,
+                      "slamRadius":  8,
                       "blockingAngle":  55,
-                      "sentinel":  null,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  80,
+                                     "heat":  150,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  0,
@@ -201,18 +207,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  68,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  150,
+                                     "radiation":  0,
                                      "total":  298,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5999999,
+                      "heavyAttackDamage":  1788,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  894,
+                      "comboDuration":  5,
+                      "slideAttack":  596,
+                      "windUp":  1.1,
+                      "followThrough":  0.60000002,
+                      "slamAttack":  894,
                       "damagePerShot":  [
                                             80,
                                             0,
@@ -235,20 +248,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5999999,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  1788,
-                      "followThrough":  0.60000002,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  894,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  596,
-                      "windUp":  1.1,
-                      "slamRadius":  8,
-                      "slamAttack":  894,
-                      "heavySlamRadius":  9
+                      "heavySlamAttack":  1490
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/SunDialAxe/SundialAxeWeapon"
@@ -261,7 +261,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Scorch enemies with blistering blows, or set them ablaze with the flying fire disc.",
+    "id":  "weapon.zenistar",
     "release":  {
                     "releaseDate":  "2016-07-28",
                     "introduced":  {
@@ -278,26 +278,26 @@
     "summary":  "Scorch enemies with blistering blows, or set them ablaze with the flying fire disc.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.30000001,
+                  "noise":  null,
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  4,
-                  "magazineSize":  null,
                   "fireRate":  0.83333337,
                   "critMultiplier":  2,
+                  "masteryReq":  6,
                   "totalDamage":  298,
                   "vaulted":  null,
-                  "masteryReq":  6,
-                  "slot":  "melee",
+                  "statusChance":  0.30000001,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.1,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

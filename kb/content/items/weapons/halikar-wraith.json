@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.halikar-wraith",
+    "description":  "A different take on the throwing mace, the Halikar Wraith features unique styling.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  900,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -185,12 +187,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  450,
+                      "slamRadius":  5,
                       "blockingAngle":  55,
-                      "sentinel":  null,
+                      "heavySlamRadius":  6,
+                      "stancePolarity":  "naramon",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  22.5,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  180,
@@ -198,18 +204,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  22.499992,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  225,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.2,
+                      "heavyAttackDamage":  225,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  675,
+                      "comboDuration":  5,
+                      "slideAttack":  450,
+                      "windUp":  1.2,
+                      "followThrough":  0.69999999,
+                      "slamAttack":  675,
                       "damagePerShot":  [
                                             22.5,
                                             180,
@@ -232,20 +245,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.2,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  225,
-                      "followThrough":  0.69999999,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  675,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  450,
-                      "windUp":  1.2,
-                      "slamRadius":  5,
-                      "slamAttack":  675,
-                      "heavySlamRadius":  6
+                      "heavySlamAttack":  900
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/Melee/GrnBoomerang/HalikarWraithWeapon"
@@ -258,7 +258,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A different take on the throwing mace, the Halikar Wraith features unique styling.",
+    "id":  "weapon.halikar-wraith",
     "release":  {
                     "releaseDate":  "2021-04-05",
                     "introduced":  {
@@ -274,28 +274,28 @@
     "summary":  "A different take on the throwing mace, the Halikar Wraith features unique styling.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.35000002,
+                  "noise":  null,
                   "polarities":  [
                                      "madurai",
                                      "naramon",
                                      "madurai"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  true,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  4,
-                  "magazineSize":  null,
                   "fireRate":  1.1666667,
                   "critMultiplier":  2.3,
+                  "masteryReq":  13,
                   "totalDamage":  225,
                   "vaulted":  null,
-                  "masteryReq":  13,
-                  "slot":  "melee",
+                  "statusChance":  0.35000002,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.19,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

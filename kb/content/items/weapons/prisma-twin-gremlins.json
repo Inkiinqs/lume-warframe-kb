@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.prisma-twin-gremlins",
+    "description":  "Fused with prisma crystals, these pristine Grineer sidearms are sure to intimidate any foe.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  null,
                                        "buildPrice":  null,
@@ -58,12 +60,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  2.97,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  12.69,
@@ -71,18 +77,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  11.34,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  27,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             2.97,
                                             12.69,
@@ -105,20 +118,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/Pistols/GrineerBulbousSMG/Prisma/PrismaTwinGremlinsWeapon"
@@ -131,7 +131,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Fused with prisma crystals, these pristine Grineer sidearms are sure to intimidate any foe.",
+    "id":  "weapon.prisma-twin-gremlins",
     "release":  {
                     "releaseDate":  "2018-08-17",
                     "introduced":  {
@@ -147,26 +147,26 @@
     "summary":  "Fused with prisma crystals, these pristine Grineer sidearms are sure to intimidate any foe.",
     "stats":  {
                   "accuracy":  36.363636,
-                  "statusChance":  0.23000002,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  true,
-                  "reloadTime":  0.89999998,
+                  "trigger":  "Auto",
                   "disposition":  4,
-                  "magazineSize":  70,
                   "fireRate":  8.833334,
                   "critMultiplier":  1.9,
+                  "masteryReq":  11,
                   "totalDamage":  27,
                   "vaulted":  null,
-                  "masteryReq":  11,
-                  "slot":  "secondary",
+                  "statusChance":  0.23000002,
+                  "reloadTime":  0.89999998,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "secondary",
                   "critChance":  0.23,
+                  "magazineSize":  70,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

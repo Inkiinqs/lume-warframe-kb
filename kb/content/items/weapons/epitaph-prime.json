@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.epitaph-prime",
+    "description":  "Send shivers down your enemies\u0027 spines with this wrist-mounted sidearm. As the signature weapon of Sevagoth Prime, it deals additional headshot damage when wielded by him.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -621,12 +623,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  126,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  47.25,
@@ -634,18 +640,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  141.75,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  315,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             126,
                                             47.25,
@@ -668,20 +681,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Pistols/PrimeEpitaph/PrimeEpitaphSidearmWeapon"
@@ -694,7 +694,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Send shivers down your enemies\u0027 spines with this wrist-mounted sidearm. As the signature weapon of Sevagoth Prime, it deals additional headshot damage when wielded by him.",
+    "id":  "weapon.epitaph-prime",
     "release":  {
                     "releaseDate":  "2024-08-21",
                     "introduced":  {
@@ -710,27 +710,27 @@
     "summary":  "Send shivers down your enemies\u0027 spines with this wrist-mounted sidearm. As the signature weapon of Sevagoth Prime, it deals additional headshot damage when wielded by him.",
     "stats":  {
                   "accuracy":  80,
-                  "statusChance":  0.13999999,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai",
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  0.60000002,
+                  "trigger":  "Charge",
                   "disposition":  1,
-                  "magazineSize":  1,
                   "fireRate":  1.7500001,
                   "critMultiplier":  1.8,
+                  "masteryReq":  14,
                   "totalDamage":  315,
                   "vaulted":  false,
-                  "masteryReq":  14,
-                  "slot":  "secondary",
+                  "statusChance":  0.13999999,
+                  "reloadTime":  0.60000002,
                   "estimatedVaultDate":  "2026-05-21",
-                  "trigger":  "Charge",
+                  "slot":  "secondary",
                   "critChance":  0.039999999,
+                  "magazineSize":  1,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

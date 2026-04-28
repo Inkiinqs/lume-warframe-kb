@@ -1,25 +1,32 @@
 {
-    "id":  "gear.narrow-spectrum-bait",
-    "name":  "Narrow-Spectrum Bait",
-    "category":  "gear",
-    "subCategory":  "fish",
-    "aliases":  [
-                    "/Lotus/Types/Game/FishBait/Venus/PondContaminantTierA"
-                ],
-    "summary":  "This endochlor/dionium melange attracts both Recasters and Eye-Eyes, Servofish found in Orb Vallis ponds. The Eye-Eye shows up during warm weather and Recasters shows up at Hot Spots during cool weather.\n\nObtained from The Business in Fortuna (Venus).",
     "description":  "This endochlor/dionium melange attracts both Recasters and Eye-Eyes, Servofish found in Orb Vallis ponds. The Eye-Eye shows up during warm weather and Recasters shows up at Hot Spots during cool weather.\n\nObtained from The Business in Fortuna (Venus).",
-    "stats":  {
-                  "type":  "Fish",
-                  "tradable":  false,
-                  "masterable":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
+                    }
+                ],
+    "name":  "Narrow-Spectrum Bait",
+    "subCategory":  "fish",
     "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "narrow-spectrum-bait-073dba06b7.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    {
+                                        "location":  "Solaris United (The Business), Outworlder",
+                                        "type":  "Narrow-Spectrum Bait",
+                                        "chance":  100,
+                                        "rarity":  "Common"
+                                    }
+                                ],
                       "crafting":  {
-                                       "buildPrice":  null,
                                        "buildTime":  null,
-                                       "skipBuildTimePrice":  null,
+                                       "buildPrice":  null,
                                        "buildQuantity":  null,
-                                       "consumeOnBuild":  null,
                                        "components":  [
                                                           {
                                                               "name":  null,
@@ -31,41 +38,34 @@
                                                                             null
                                                                         ]
                                                           }
-                                                      ]
-                                   },
-                      "drops":  [
-                                    {
-                                        "location":  "Solaris United (The Business), Outworlder",
-                                        "type":  "Narrow-Spectrum Bait",
-                                        "chance":  100,
-                                        "rarity":  "Common"
-                                    }
-                                ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "narrow-spectrum-bait-073dba06b7.png"
-                               }
+                                                      ],
+                                       "skipBuildTimePrice":  null,
+                                       "consumeOnBuild":  null
+                                   }
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-
-                },
-    "tags":  [
-                 "gear",
-                 "fish"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Gear.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Types/Game/FishBait/Venus/PondContaminantTierA"
+                ],
+    "tags":  [
+                 "gear",
+                 "fish"
+             ],
+    "category":  "gear",
+    "relationships":  [
+
+                      ],
+    "id":  "gear.narrow-spectrum-bait",
+    "release":  {
+
+                },
+    "summary":  "This endochlor/dionium melange attracts both Recasters and Eye-Eyes, Servofish found in Orb Vallis ponds. The Eye-Eye shows up during warm weather and Recasters shows up at Hot Spots during cool weather.\n\nObtained from The Business in Fortuna (Venus).",
+    "stats":  {
+                  "tradable":  false,
+                  "type":  "Fish",
+                  "masterable":  false
+              }
 }

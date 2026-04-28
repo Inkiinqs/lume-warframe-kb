@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.kunai",
+    "description":  "Kunai throwing daggers offer a silent alternative to the traditional side arm. Perfect for assassins.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -118,12 +120,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  4.5999999,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  34.5,
@@ -131,18 +137,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  6.8999987,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  45.999996,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             4.5999999,
                                             34.5,
@@ -165,20 +178,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/ThrowingWeapons/Kunai"
@@ -191,7 +191,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Kunai throwing daggers offer a silent alternative to the traditional side arm. Perfect for assassins.",
+    "id":  "weapon.kunai",
     "release":  {
                     "releaseDate":  "2013-05-23",
                     "introduced":  {
@@ -209,27 +209,27 @@
     "summary":  "Kunai throwing daggers offer a silent alternative to the traditional side arm. Perfect for assassins.",
     "stats":  {
                   "accuracy":  100,
-                  "statusChance":  0.079999983,
+                  "noise":  "Silent",
                   "polarities":  [
                                      "madurai",
                                      "madurai"
                                  ],
-                  "noise":  "Silent",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  0.75,
+                  "trigger":  "Auto",
                   "disposition":  5,
-                  "magazineSize":  10,
                   "fireRate":  3.3333335,
                   "critMultiplier":  1.6,
+                  "masteryReq":  0,
                   "totalDamage":  45.999996,
                   "vaulted":  null,
-                  "masteryReq":  0,
-                  "slot":  "secondary",
+                  "statusChance":  0.079999983,
+                  "reloadTime":  0.75,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "secondary",
                   "critChance":  0.079999998,
+                  "magazineSize":  10,
                   "weaponClass":  "Throwing",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.dual-ichor",
+    "description":  "The fast and brutal Dual Ichor axes will quickly tear through enemies with a high probability of inflicting Critical Damage.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  488,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  30000,
@@ -129,12 +131,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  244,
+                      "slamRadius":  8,
                       "blockingAngle":  60,
-                      "sentinel":  null,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "zenurik",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  19,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  11,
@@ -142,18 +148,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  47,
                                      "puncture":  45,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  122,
-                                     "toxin":  47,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.3,
+                      "heavyAttackDamage":  488,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  366,
+                      "comboDuration":  5,
+                      "slideAttack":  244,
+                      "windUp":  0.69999999,
+                      "followThrough":  0.5,
+                      "slamAttack":  244,
                       "damagePerShot":  [
                                             19,
                                             11,
@@ -176,20 +189,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.3,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  488,
-                      "followThrough":  0.5,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  366,
-                      "stancePolarity":  "zenurik",
-                      "slideAttack":  244,
-                      "windUp":  0.69999999,
-                      "slamRadius":  8,
-                      "slamAttack":  244,
-                      "heavySlamRadius":  9
+                      "heavySlamAttack":  488
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Axe/DualInfestedAxesWeapon"
@@ -202,7 +202,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The fast and brutal Dual Ichor axes will quickly tear through enemies with a high probability of inflicting Critical Damage.",
+    "id":  "weapon.dual-ichor",
     "release":  {
                     "releaseDate":  "2013-09-13",
                     "introduced":  {
@@ -220,26 +220,26 @@
     "summary":  "The fast and brutal Dual Ichor axes will quickly tear through enemies with a high probability of inflicting Critical Damage.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.14999998,
+                  "noise":  null,
                   "polarities":  [
                                      "vazarin"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  4,
-                  "magazineSize":  null,
                   "fireRate":  1.0833334,
                   "critMultiplier":  3,
+                  "masteryReq":  6,
                   "totalDamage":  122,
                   "vaulted":  null,
-                  "masteryReq":  6,
-                  "slot":  "melee",
+                  "statusChance":  0.14999998,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.25,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  null
               }

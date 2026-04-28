@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.gunsen-prime",
+    "description":  "Command the beauty and lethality of these ornate warfans.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  225,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -637,12 +639,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  450,
+                      "slamRadius":  5,
                       "blockingAngle":  55,
-                      "sentinel":  null,
+                      "heavySlamRadius":  6,
+                      "stancePolarity":  "naramon",
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  9,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  13.5,
@@ -650,18 +656,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  202.5,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  225,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.9,
+                      "heavyAttackDamage":  900,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  675,
+                      "comboDuration":  5,
+                      "slideAttack":  225,
+                      "windUp":  0.5,
+                      "followThrough":  0.69999999,
+                      "slamAttack":  450,
                       "damagePerShot":  [
                                             9,
                                             13.5,
@@ -684,20 +697,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.9,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  900,
-                      "followThrough":  0.69999999,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  675,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  225,
-                      "windUp":  0.5,
-                      "slamRadius":  5,
-                      "slamAttack":  450,
-                      "heavySlamRadius":  6
+                      "heavySlamAttack":  225
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Warfan/PrimeGunsen/PrimeGunsenWeapon"
@@ -710,7 +710,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Command the beauty and lethality of these ornate warfans.",
+    "id":  "weapon.gunsen-prime",
     "release":  {
                     "releaseDate":  "2023-07-27",
                     "introduced":  {
@@ -726,27 +726,27 @@
     "summary":  "Command the beauty and lethality of these ornate warfans.",
     "stats":  {
                   "accuracy":  null,
-                  "statusChance":  0.34000003,
+                  "noise":  null,
                   "polarities":  [
                                      "madurai",
                                      "madurai"
                                  ],
-                  "noise":  null,
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  null,
+                  "trigger":  null,
                   "disposition":  3,
-                  "magazineSize":  null,
                   "fireRate":  1.1666667,
                   "critMultiplier":  2,
+                  "masteryReq":  12,
                   "totalDamage":  225,
                   "vaulted":  true,
-                  "masteryReq":  12,
-                  "slot":  "melee",
+                  "statusChance":  0.34000003,
+                  "reloadTime":  null,
                   "estimatedVaultDate":  "2025-05-21",
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.2,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
                   "multishot":  null,
                   "vaultDate":  "2025-05-21"
               }

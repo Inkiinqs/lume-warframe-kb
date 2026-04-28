@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.tetra",
+    "description":  "Drawing from its huge quad-chambered magazine, the Tetra is capable of unleashing a sustained barrage of lethal energy bolts.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  86400,
                                        "buildPrice":  30000,
@@ -97,12 +99,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  6.4000001,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  25.6,
@@ -110,18 +116,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  32,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             6.4000001,
                                             25.6,
@@ -144,20 +157,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Corpus/LongGuns/CorpusUMP/CorpusUMP"
@@ -170,7 +170,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Drawing from its huge quad-chambered magazine, the Tetra is capable of unleashing a sustained barrage of lethal energy bolts.",
+    "id":  "weapon.tetra",
     "release":  {
                     "releaseDate":  "2014-01-22",
                     "introduced":  {
@@ -187,26 +187,26 @@
     "summary":  "Drawing from its huge quad-chambered magazine, the Tetra is capable of unleashing a sustained barrage of lethal energy bolts.",
     "stats":  {
                   "accuracy":  18.181818,
-                  "statusChance":  0.19999999,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      null
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  2,
+                  "trigger":  "Auto",
                   "disposition":  5,
-                  "magazineSize":  60,
                   "fireRate":  6.666667,
                   "critMultiplier":  1.5,
+                  "masteryReq":  3,
                   "totalDamage":  32,
                   "vaulted":  null,
-                  "masteryReq":  3,
-                  "slot":  "primary",
+                  "statusChance":  0.19999999,
+                  "reloadTime":  2,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "primary",
                   "critChance":  0.039999999,
+                  "magazineSize":  60,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }

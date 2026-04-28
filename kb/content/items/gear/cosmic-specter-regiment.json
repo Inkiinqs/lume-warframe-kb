@@ -1,25 +1,27 @@
 {
-    "id":  "gear.cosmic-specter-regiment",
-    "name":  "Cosmic Specter Regiment",
-    "category":  "gear",
-    "subCategory":  "specter",
-    "aliases":  [
-                    "/Lotus/Types/Game/SpectreArmies/PlatinumSpectreArmy"
-                ],
-    "summary":  "An army composed of cosmic-level Specter clones to be used in defense of the clan\u0027s Solar Rail. This Specter army will persist for four conflicts.",
     "description":  "An army composed of cosmic-level Specter clones to be used in defense of the clan\u0027s Solar Rail. This Specter army will persist for four conflicts.",
-    "stats":  {
-                  "type":  "Specter",
-                  "tradable":  false,
-                  "masterable":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
+                    }
+                ],
+    "name":  "Cosmic Specter Regiment",
+    "subCategory":  "specter",
     "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "cosmic-specter-regiment-eeb377f5d0.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
-                                       "buildPrice":  null,
                                        "buildTime":  null,
-                                       "skipBuildTimePrice":  null,
+                                       "buildPrice":  null,
                                        "buildQuantity":  null,
-                                       "consumeOnBuild":  null,
                                        "components":  [
                                                           {
                                                               "name":  null,
@@ -31,36 +33,34 @@
                                                                             null
                                                                         ]
                                                           }
-                                                      ]
-                                   },
-                      "drops":  [
-                                    null
-                                ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "cosmic-specter-regiment-eeb377f5d0.png"
-                               }
+                                                      ],
+                                       "skipBuildTimePrice":  null,
+                                       "consumeOnBuild":  null
+                                   }
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-
-                },
-    "tags":  [
-                 "gear",
-                 "specter"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Gear.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-gear.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Types/Game/SpectreArmies/PlatinumSpectreArmy"
+                ],
+    "tags":  [
+                 "gear",
+                 "specter"
+             ],
+    "category":  "gear",
+    "relationships":  [
+
+                      ],
+    "id":  "gear.cosmic-specter-regiment",
+    "release":  {
+
+                },
+    "summary":  "An army composed of cosmic-level Specter clones to be used in defense of the clan\u0027s Solar Rail. This Specter army will persist for four conflicts.",
+    "stats":  {
+                  "tradable":  false,
+                  "type":  "Specter",
+                  "masterable":  false
+              }
 }

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.hystrix",
+    "description":  "Heat, cold, electricity, or toxin: choose an element and launch a flurry of deadly quills. This versatile sidearm is Khora’s signature weapon and has a chance to instantly reload after headshots when she wields it.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -160,12 +162,16 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  2.1599998,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  30.960001,
@@ -173,18 +179,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  2.8799994,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  36.000004,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             2.1599998,
                                             30.960001,
@@ -207,20 +220,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Pistols/QuillDartgun/QuillDartGunWeapon"
@@ -233,7 +233,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Heat, cold, electricity, or toxin: choose an element and launch a flurry of deadly quills. This versatile sidearm is Khora’s signature weapon and has a chance to instantly reload after headshots when she wields it.",
+    "id":  "weapon.hystrix",
     "release":  {
                     "releaseDate":  "2018-04-20",
                     "introduced":  {
@@ -252,26 +252,26 @@
     "summary":  "Heat, cold, electricity, or toxin: choose an element and launch a flurry of deadly quills. This versatile sidearm is Khora’s signature weapon and has a chance to instantly reload after headshots when she wields it.",
     "stats":  {
                   "accuracy":  14.285714,
-                  "statusChance":  0.10000002,
+                  "noise":  "Alarming",
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "noise":  "Alarming",
+                  "masterable":  true,
                   "tradable":  false,
-                  "reloadTime":  1.7,
+                  "trigger":  "Auto",
                   "disposition":  4,
-                  "magazineSize":  16,
                   "fireRate":  7.0000005,
                   "critMultiplier":  2.2,
+                  "masteryReq":  7,
                   "totalDamage":  36.000004,
                   "vaulted":  null,
-                  "masteryReq":  7,
-                  "slot":  "secondary",
+                  "statusChance":  0.10000002,
+                  "reloadTime":  1.7,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "secondary",
                   "critChance":  0.23999999,
+                  "magazineSize":  16,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
                   "multishot":  1,
                   "vaultDate":  null
               }
