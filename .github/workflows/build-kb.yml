@@ -98,11 +98,12 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         shell: powershell
         run: |
+          $publishedAt = [DateTime]::UtcNow.ToString("yyyy-MM-ddTHH:mm:ssZ")
           gh release create "v${{ steps.ver.outputs.kbVersion }}" `
             "dist/warframe-kb-v${{ steps.ver.outputs.kbVersion }}.zip" `
             "dist/manifest.json" `
             --title "Warframe KB v${{ steps.ver.outputs.kbVersion }}" `
-            --notes "Published by build-kb.yml on $(Get-Date -AsUTC -Format 'yyyy-MM-ddTHH:mm:ssZ')"
+            --notes "Published by build-kb.yml on $publishedAt"
 
       - name: Skip release already exists
         if: steps.release_check.outputs.exists == 'true'
