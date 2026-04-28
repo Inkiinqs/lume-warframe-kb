@@ -1,15 +1,6 @@
-# Warframe KB publisher — builds + uploads a versioned KB zip and manifest.
-# Triggers:
-#   - manual (workflow_dispatch)
-#   - on push to main when kb/, version.txt, or build-kb.mjs change
-#   - daily 03:00 UTC — picks up new game patches without you doing anything
-#
-# Output: a GitHub Release tagged v{N} containing:
-#   - warframe-kb-v{N}.zip
-#   - manifest.json   ← what Lume fetches
-#
-# Required permissions (set in repo Settings → Actions → General):
-#   "Workflow permissions" = Read and write
+# Warframe KB publisher.
+# Refreshes public Warframe data, builds a versioned KB zip, and uploads it
+# as a GitHub Release for Lume to download on app activation.
 name: Publish Warframe KB
 
 on:
@@ -20,38 +11,80 @@ on:
       - 'kb/**'
       - 'version.txt'
       - 'build-kb.mjs'
+      - 'refresh-kb.ps1'
       - '.github/workflows/build-kb.yml'
   schedule:
     - cron: '0 3 * * *'
 
 permissions:
-  contents: write   # needed to create releases
+  contents: write
 
 jobs:
   publish:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
 
+      - name: Refresh KB from public data sources
+        if: github.event_name == 'workflow_dispatch' || github.event_name == 'schedule'
+        shell: powershell
+        run: .\refresh-kb.ps1
+
+      - name: Bump version when refreshed data changed
+        if: github.event_name == 'workflow_dispatch' || github.event_name == 'schedule'
+        id: refresh
+        shell: powershell
+        run: |
+          $changes = git status --porcelain -- kb
+          if (-not $changes) {
+            "changed=false" >> $env:GITHUB_OUTPUT
+            Write-Host "No KB content changes after refresh."
+            exit 0
+          }
+
+          $current = [int](Get-Content version.txt -Raw)
+          $next = $current + 1
+          Set-Content -LiteralPath version.txt -Value $next -Encoding ascii
+          "changed=true" >> $env:GITHUB_OUTPUT
+          "kbVersion=$next" >> $env:GITHUB_OUTPUT
+          Write-Host "KB changed; bumped version from $current to $next."
+
+      - name: Commit refreshed KB
+        if: steps.refresh.outputs.changed == 'true'
+        shell: powershell
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add kb version.txt
+          git commit -m "kb: refresh public Warframe data"
+          git push
+
       - name: Read version
         id: ver
-        run: echo "kbVersion=$(cat version.txt | tr -d '[:space:]')" >> "$GITHUB_OUTPUT"
+        shell: powershell
+        run: |
+          $version = (Get-Content version.txt -Raw).Trim()
+          "kbVersion=$version" >> $env:GITHUB_OUTPUT
 
       - name: Check if release v${{ steps.ver.outputs.kbVersion }} already exists
         id: release_check
         env:
           GH_TOKEN: ${{ github.token }}
+        shell: powershell
         run: |
-          if gh release view "v${{ steps.ver.outputs.kbVersion }}" --json tagName >/dev/null 2>&1; then
-            echo "exists=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "exists=false" >> "$GITHUB_OUTPUT"
-          fi
+          gh release view "v${{ steps.ver.outputs.kbVersion }}" --json tagName *> $null
+          if ($LASTEXITCODE -eq 0) {
+            "exists=true" >> $env:GITHUB_OUTPUT
+          } else {
+            "exists=false" >> $env:GITHUB_OUTPUT
+          }
 
       - name: Build KB
         if: steps.release_check.outputs.exists == 'false'
@@ -61,15 +94,17 @@ jobs:
         if: steps.release_check.outputs.exists == 'false'
         env:
           GH_TOKEN: ${{ github.token }}
+        shell: powershell
         run: |
-          gh release create "v${{ steps.ver.outputs.kbVersion }}" \
-            dist/warframe-kb-v${{ steps.ver.outputs.kbVersion }}.zip \
-            dist/manifest.json \
-            --title "Warframe KB v${{ steps.ver.outputs.kbVersion }}" \
-            --notes "Published by build-kb.yml on $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          gh release create "v${{ steps.ver.outputs.kbVersion }}" `
+            "dist/warframe-kb-v${{ steps.ver.outputs.kbVersion }}.zip" `
+            "dist/manifest.json" `
+            --title "Warframe KB v${{ steps.ver.outputs.kbVersion }}" `
+            --notes "Published by build-kb.yml on $(Get-Date -AsUTC -Format 'yyyy-MM-ddTHH:mm:ssZ')"
 
-      - name: Skip — release already exists
+      - name: Skip release already exists
         if: steps.release_check.outputs.exists == 'true'
+        shell: powershell
         run: |
           echo "Release v${{ steps.ver.outputs.kbVersion }} already exists; nothing to do."
           echo "Bump version.txt to publish a new release."
