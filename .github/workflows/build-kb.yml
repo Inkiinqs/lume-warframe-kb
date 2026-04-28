@@ -80,8 +80,9 @@ jobs:
         shell: powershell
         run: |
           $tag = "v${{ steps.ver.outputs.kbVersion }}"
-          $existing = gh release list --limit 100 --json tagName --jq ".[] | select(.tagName == `"$tag`") | .tagName"
-          if ($existing -eq $tag) {
+          $releases = gh release list --limit 100 --json tagName | ConvertFrom-Json
+          $exists = @($releases | Where-Object { $_.tagName -eq $tag }).Count -gt 0
+          if ($exists) {
             "exists=true" >> $env:GITHUB_OUTPUT
           } else {
             "exists=false" >> $env:GITHUB_OUTPUT
