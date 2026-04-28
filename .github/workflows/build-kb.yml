@@ -79,13 +79,13 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         shell: powershell
         run: |
-          gh release view "v${{ steps.ver.outputs.kbVersion }}" --json tagName *> $null
-          if ($LASTEXITCODE -eq 0) {
+          $tag = "v${{ steps.ver.outputs.kbVersion }}"
+          $existing = gh release list --limit 100 --json tagName --jq ".[] | select(.tagName == `"$tag`") | .tagName"
+          if ($existing -eq $tag) {
             "exists=true" >> $env:GITHUB_OUTPUT
           } else {
             "exists=false" >> $env:GITHUB_OUTPUT
           }
-          exit 0
 
       - name: Build KB
         if: steps.release_check.outputs.exists == 'false'
