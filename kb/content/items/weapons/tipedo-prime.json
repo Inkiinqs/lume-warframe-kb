@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.tipedo-prime",
+    "description":  "With their final breath they look to the moon, and are gone.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -622,30 +622,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  340,
                       "blockingAngle":  60,
+                      "heavySlamRadius":  7,
+                      "sentinel":  null,
+                      "stancePolarity":  "unairu",
+                      "heavyAttackDamage":  850,
+                      "range":  3,
+                      "heavySlamRadialDamage":  510,
                       "followThrough":  0.5,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  17,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  17,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  136,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  170,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  680,
+                      "comboDuration":  5,
+                      "slideAttack":  170,
+                      "windUp":  0.5,
+                      "slamRadius":  6,
+                      "slamAttack":  510,
                       "damagePerShot":  [
                                             17,
                                             17,
@@ -668,18 +657,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  3,
-                      "heavyAttackDamage":  850,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  510,
-                      "stancePolarity":  "unairu",
-                      "slideAttack":  170,
-                      "windUp":  0.5,
-                      "slamRadius":  6,
-                      "slamAttack":  510,
-                      "heavySlamRadius":  7,
-                      "heavySlamAttack":  680
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  17,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  17,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  136,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  170,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Staff/TipedoPrime/TipedoPrimeWeapon"
@@ -692,7 +692,7 @@
     "relationships":  [
 
                       ],
-    "description":  "With their final breath they look to the moon, and are gone.",
+    "id":  "weapon.tipedo-prime",
     "release":  {
                     "releaseDate":  "2019-04-02",
                     "introduced":  {
@@ -714,9 +714,7 @@
                                      "madurai"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  "2021-02-23",
                   "disposition":  4,
-                  "magazineSize":  null,
                   "fireRate":  1.1666667,
                   "critMultiplier":  2.4000001,
                   "totalDamage":  170,
@@ -726,10 +724,12 @@
                   "estimatedVaultDate":  "2021-02-23",
                   "trigger":  null,
                   "critChance":  0.23999999,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.24000001,
+                  "vaultDate":  "2021-02-23",
                   "multishot":  null
               }
 }

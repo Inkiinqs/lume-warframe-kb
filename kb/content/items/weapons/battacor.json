@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.battacor",
+    "description":  "A weapon that builds charge the more it kills. Hit capacity then release for an obliterating discharge of power.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -128,30 +128,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  0,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  24,
-                                     "magnetic":  42,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  0,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  66,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             24,
@@ -174,18 +163,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  24,
+                                     "magnetic":  42,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  66,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Corpus/LongGuns/CrpSentExperimentRifle/CrpSentExperimentRifle"
@@ -198,7 +198,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A weapon that builds charge the more it kills. Hit capacity then release for an obliterating discharge of power.",
+    "id":  "weapon.battacor",
     "release":  {
                     "releaseDate":  "2018-11-08",
                     "introduced":  {
@@ -221,9 +221,7 @@
                                      null
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  3,
-                  "magazineSize":  60,
                   "fireRate":  3.571429,
                   "critMultiplier":  2.4000001,
                   "totalDamage":  66,
@@ -233,10 +231,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Auto Burst",
                   "critChance":  0.31999999,
-                  "slot":  "primary",
+                  "magazineSize":  60,
                   "masterable":  true,
+                  "slot":  "primary",
                   "weaponClass":  "Rifle",
                   "statusChance":  0.18000001,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

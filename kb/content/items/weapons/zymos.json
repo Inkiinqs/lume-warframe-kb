@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.zymos",
+    "description":  "Infect your foes with this spore-scattering pistol. Headshots burrow in and explode, releasing spore clouds that seek out nearby enemies.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -155,30 +155,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  9.1999998,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  13.8,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  0,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  84,
-                                     "toxin":  61,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             9.1999998,
                                             13.8,
@@ -201,18 +190,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  9.1999998,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  13.8,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  61,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  84,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Infested/Pistols/InfUzi/InfUziWeapon"
@@ -225,7 +225,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Infect your foes with this spore-scattering pistol. Headshots burrow in and explode, releasing spore clouds that seek out nearby enemies.",
+    "id":  "weapon.zymos",
     "release":  {
                     "releaseDate":  "2020-08-25",
                     "introduced":  {
@@ -249,9 +249,7 @@
                                      "naramon"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  4,
-                  "magazineSize":  17,
                   "fireRate":  1.3333334,
                   "critMultiplier":  2.3,
                   "totalDamage":  84,
@@ -261,10 +259,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Semi",
                   "critChance":  0.050000001,
-                  "slot":  "secondary",
+                  "magazineSize":  17,
                   "masterable":  true,
+                  "slot":  "secondary",
                   "weaponClass":  "Pistol",
                   "statusChance":  0.30000001,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

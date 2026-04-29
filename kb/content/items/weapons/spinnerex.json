@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.spinnerex",
+    "description":  "Each lash of Oraxia\u0027s whip injects its victim with a dose of deadly toxin. Upon death, afflicted enemies have a chance to burst, damaging nearby enemies and spreading the poison.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -153,30 +153,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  336,
                       "blockingAngle":  45,
+                      "heavySlamRadius":  6,
+                      "sentinel":  null,
+                      "stancePolarity":  "zenurik",
+                      "heavyAttackDamage":  756,
+                      "range":  2.9963856,
+                      "heavySlamRadialDamage":  504,
                       "followThrough":  0.5,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  0,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  0,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  0,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  168,
-                                     "toxin":  168,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  588,
+                      "comboDuration":  5,
+                      "slideAttack":  336,
+                      "windUp":  0.40000001,
+                      "slamRadius":  5,
+                      "slamAttack":  504,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -199,18 +188,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.9963856,
-                      "heavyAttackDamage":  756,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  504,
-                      "stancePolarity":  "zenurik",
-                      "slideAttack":  336,
-                      "windUp":  0.40000001,
-                      "slamRadius":  5,
-                      "slamAttack":  504,
-                      "heavySlamRadius":  6,
-                      "heavySlamAttack":  588
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  168,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  168,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Whips/SpiderWhip/SpiderWhipWeapon"
@@ -223,7 +223,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Each lash of Oraxia\u0027s whip injects its victim with a dose of deadly toxin. Upon death, afflicted enemies have a chance to burst, damaging nearby enemies and spreading the poison.",
+    "id":  "weapon.spinnerex",
     "release":  {
                     "releaseDate":  "2025-06-25",
                     "introduced":  {
@@ -246,9 +246,7 @@
                                      "madurai"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  1,
-                  "magazineSize":  null,
                   "fireRate":  1.36,
                   "critMultiplier":  2.4000001,
                   "totalDamage":  168,
@@ -258,10 +256,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0.16,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.39999998,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

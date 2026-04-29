@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.mutalist-cernos",
+    "description":  "Overcome with Infestation, this bow\u0027s arrows now spread poisonous contagion to any surface they hit.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -133,30 +133,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  369,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  20.5,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  20.500006,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  415,
-                                     "toxin":  5,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             369,
                                             20.5,
@@ -179,18 +168,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  369,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  20.5,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  5,
+                                     "puncture":  20.500006,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  415,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Infested/Bow/InfCernosBow/InfCernos"
@@ -203,7 +203,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Overcome with Infestation, this bow\u0027s arrows now spread poisonous contagion to any surface they hit.",
+    "id":  "weapon.mutalist-cernos",
     "release":  {
                     "releaseDate":  "2016-03-04",
                     "introduced":  {
@@ -225,9 +225,7 @@
                                      "naramon"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  5,
-                  "magazineSize":  1,
                   "fireRate":  1,
                   "critMultiplier":  2,
                   "totalDamage":  415,
@@ -237,10 +235,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Charge",
                   "critChance":  0.15000001,
-                  "slot":  "primary",
+                  "magazineSize":  1,
                   "masterable":  true,
+                  "slot":  "primary",
                   "weaponClass":  "Rifle",
                   "statusChance":  0.49000001,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

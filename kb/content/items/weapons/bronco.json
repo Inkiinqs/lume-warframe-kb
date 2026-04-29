@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.bronco",
+    "description":  "The Bronco is a small-scale shotgun that can be wielded with one hand. Only effective at close range, it has a limited Magazine Capacity.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -127,30 +127,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  33.600002,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  4.2000003,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  4.1999984,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  42,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             33.600002,
                                             4.2000003,
@@ -173,18 +162,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  33.600002,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  4.2000003,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  4.1999984,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  42,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Pistol/HandShotGun"
@@ -197,7 +197,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The Bronco is a small-scale shotgun that can be wielded with one hand. Only effective at close range, it has a limited Magazine Capacity.",
+    "id":  "weapon.bronco",
     "release":  {
                     "releaseDate":  "2012-10-25",
                     "introduced":  {
@@ -219,9 +219,7 @@
                                      null
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  5,
-                  "magazineSize":  2,
                   "fireRate":  4,
                   "critMultiplier":  2,
                   "totalDamage":  42,
@@ -231,10 +229,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Semi",
                   "critChance":  0.059999999,
-                  "slot":  "secondary",
+                  "magazineSize":  2,
                   "masterable":  true,
+                  "slot":  "secondary",
                   "weaponClass":  "Pistol",
                   "statusChance":  0.094285727,
+                  "vaultDate":  null,
                   "multishot":  7
               }
 }

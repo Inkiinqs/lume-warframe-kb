@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.tenet-spirex",
+    "description":  "Dominate rivals with this pistol’s lightning fast rail-slugs. Head-shots speed up reload.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -77,30 +77,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  40,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  20,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  0,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  140,
-                                     "total":  200,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             40,
                                             20,
@@ -123,18 +112,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  40,
+                                     "heat":  140,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  20,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  200,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Corpus/Pistols/CrpIgniterPistol/CrpIgniterPistol"
@@ -147,7 +147,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Dominate rivals with this pistol’s lightning fast rail-slugs. Head-shots speed up reload.",
+    "id":  "weapon.tenet-spirex",
     "release":  {
                     "releaseDate":  "2021-07-06",
                     "introduced":  {
@@ -169,9 +169,7 @@
                                      "madurai"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  3,
-                  "magazineSize":  8,
                   "fireRate":  2.3333335,
                   "critMultiplier":  2.4000001,
                   "totalDamage":  200,
@@ -181,10 +179,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Semi",
                   "critChance":  0.25999999,
-                  "slot":  "secondary",
+                  "magazineSize":  8,
                   "masterable":  true,
+                  "slot":  "secondary",
                   "weaponClass":  "Pistol",
                   "statusChance":  0.39999998,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

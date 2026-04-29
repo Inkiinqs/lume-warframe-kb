@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.burston-prime",
+    "description":  "Once thought lost to the ages, attempts to reengineer the Burston Prime never fully replicated this weapon\u0027s power and agility.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -4406,30 +4406,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  13.8,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  13.8,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  18.4,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  46,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             13.8,
                                             13.8,
@@ -4452,18 +4441,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  13.8,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  13.8,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  18.4,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  46,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/LongGuns/PrimeBurston/PrimeBurston"
@@ -4476,7 +4476,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Once thought lost to the ages, attempts to reengineer the Burston Prime never fully replicated this weapon\u0027s power and agility.",
+    "id":  "weapon.burston-prime",
     "release":  {
                     "releaseDate":  "2013-12-19",
                     "introduced":  {
@@ -4498,9 +4498,7 @@
                                      "madurai"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  5,
-                  "magazineSize":  45,
                   "fireRate":  9.375,
                   "critMultiplier":  1.8,
                   "totalDamage":  46,
@@ -4510,10 +4508,12 @@
                   "estimatedVaultDate":  "2015-09-19",
                   "trigger":  "Burst",
                   "critChance":  0.18000001,
-                  "slot":  "primary",
+                  "magazineSize":  45,
                   "masterable":  true,
+                  "slot":  "primary",
                   "weaponClass":  "Rifle",
                   "statusChance":  0.30000001,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

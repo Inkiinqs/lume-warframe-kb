@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.kuva-kohm",
+    "description":  "The Kuva Kohm variant has a higher fire rate than the original. For every shot fired in rapid succession the Kuva Kohm releases an additional bolt and grows more lethal.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -82,30 +82,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  4,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  4,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  12,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  20,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             4,
                                             4,
@@ -128,18 +117,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  4,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  4,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  12,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  20,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Kohm/KuvaKohm"
@@ -152,7 +152,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The Kuva Kohm variant has a higher fire rate than the original. For every shot fired in rapid succession the Kuva Kohm releases an additional bolt and grows more lethal.",
+    "id":  "weapon.kuva-kohm",
     "release":  {
                     "releaseDate":  "2019-10-31",
                     "introduced":  {
@@ -175,9 +175,7 @@
                                      "vazarin"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  3,
-                  "magazineSize":  209,
                   "fireRate":  4.166667,
                   "critMultiplier":  2.3,
                   "totalDamage":  20,
@@ -187,10 +185,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Auto",
                   "critChance":  0.19,
-                  "slot":  "primary",
+                  "magazineSize":  209,
                   "masterable":  true,
+                  "slot":  "primary",
                   "weaponClass":  "Shotgun",
                   "statusChance":  0.10000002,
+                  "vaultDate":  null,
                   "multishot":  9
               }
 }

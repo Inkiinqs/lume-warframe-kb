@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.daikyu-prime",
+    "description":  "Long believed lost, the mighty Daikyu Prime was the pride of many a Tenno dojo. Designed to strike the foe where they are weakest, its powerful shots repay careful marksmanship.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -589,30 +589,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  225.00002,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  300,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  224.99997,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  750,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             225.00002,
                                             300,
@@ -635,18 +624,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  225.00002,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  300,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  224.99997,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  750,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Bows/PrimeDaikyu/PrimeDaikyuBow"
@@ -659,7 +659,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Long believed lost, the mighty Daikyu Prime was the pride of many a Tenno dojo. Designed to strike the foe where they are weakest, its powerful shots repay careful marksmanship.",
+    "id":  "weapon.daikyu-prime",
     "release":  {
                     "releaseDate":  "2025-05-21",
                     "introduced":  {
@@ -681,9 +681,7 @@
                                      "madurai"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  3,
-                  "magazineSize":  1,
                   "fireRate":  1,
                   "critMultiplier":  2.4000001,
                   "totalDamage":  750,
@@ -693,10 +691,12 @@
                   "estimatedVaultDate":  "2027-02-21",
                   "trigger":  "Charge",
                   "critChance":  0.40000001,
-                  "slot":  "primary",
+                  "magazineSize":  1,
                   "masterable":  true,
+                  "slot":  "primary",
                   "weaponClass":  "Bow",
                   "statusChance":  0.5,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

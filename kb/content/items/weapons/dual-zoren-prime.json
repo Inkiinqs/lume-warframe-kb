@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.dual-zoren-prime",
+    "description":  "Axes worthy of an executioner, refined to Orokin perfection.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -416,30 +416,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  280,
                       "blockingAngle":  60,
+                      "heavySlamRadius":  9,
+                      "sentinel":  null,
+                      "stancePolarity":  "zenurik",
+                      "heavyAttackDamage":  560,
+                      "range":  2.3,
+                      "heavySlamRadialDamage":  420,
                       "followThrough":  0.5,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  7,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  7,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  126,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  140,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  560,
+                      "comboDuration":  5,
+                      "slideAttack":  280,
+                      "windUp":  0.69999999,
+                      "slamRadius":  8,
+                      "slamAttack":  280,
                       "damagePerShot":  [
                                             7,
                                             7,
@@ -462,18 +451,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.3,
-                      "heavyAttackDamage":  560,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  420,
-                      "stancePolarity":  "zenurik",
-                      "slideAttack":  280,
-                      "windUp":  0.69999999,
-                      "slamRadius":  8,
-                      "slamAttack":  280,
-                      "heavySlamRadius":  9,
-                      "heavySlamAttack":  560
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  7,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  7,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  126,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  140,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Axe/PrimeZoren/PrimeZorenAxeWeapon"
@@ -486,7 +486,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Axes worthy of an executioner, refined to Orokin perfection.",
+    "id":  "weapon.dual-zoren-prime",
     "release":  {
                     "releaseDate":  "2025-02-12",
                     "introduced":  {
@@ -509,9 +509,7 @@
                                      "naramon"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  3,
-                  "magazineSize":  null,
                   "fireRate":  1.2500001,
                   "critMultiplier":  3.2,
                   "totalDamage":  140,
@@ -521,10 +519,12 @@
                   "estimatedVaultDate":  "2026-11-12",
                   "trigger":  null,
                   "critChance":  0.30000001,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.22000003,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

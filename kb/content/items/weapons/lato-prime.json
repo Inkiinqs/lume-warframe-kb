@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.lato-prime",
+    "description":  "The Lato is a highly accurate pistol used by the Tenno everywhere. Prime model offers slightly increased damage.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -72,30 +72,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  6,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  12,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  42,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  60,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             6,
                                             12,
@@ -118,18 +107,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  6,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  12,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  42,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  60,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Pistol/LatoPrime"
@@ -142,7 +142,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The Lato is a highly accurate pistol used by the Tenno everywhere. Prime model offers slightly increased damage.",
+    "id":  "weapon.lato-prime",
     "release":  {
                     "releaseDate":  "2012-12-18",
                     "introduced":  {
@@ -166,9 +166,7 @@
                                      "naramon"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  5,
-                  "magazineSize":  20,
                   "fireRate":  5.0000005,
                   "critMultiplier":  2.5999999,
                   "totalDamage":  60,
@@ -178,10 +176,12 @@
                   "estimatedVaultDate":  "2014-09-18",
                   "trigger":  "Semi",
                   "critChance":  0.30000001,
-                  "slot":  "secondary",
+                  "magazineSize":  20,
                   "masterable":  true,
+                  "slot":  "secondary",
                   "weaponClass":  "Pistol",
                   "statusChance":  0.19999999,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.tigris-prime",
+    "description":  "An artifact of exquisite beauty. A weapon of deadly purpose.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -856,30 +856,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  19.5,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  19.5,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  156,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  195,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             19.5,
                                             19.5,
@@ -902,18 +891,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  19.5,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  19.5,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  156,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  195,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/LongGuns/PrimeTigris/PrimeTigris"
@@ -926,7 +926,7 @@
     "relationships":  [
 
                       ],
-    "description":  "An artifact of exquisite beauty. A weapon of deadly purpose.",
+    "id":  "weapon.tigris-prime",
     "release":  {
                     "releaseDate":  "2016-08-23",
                     "introduced":  {
@@ -949,9 +949,7 @@
                                      "naramon"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  "2018-06-19",
                   "disposition":  3,
-                  "magazineSize":  2,
                   "fireRate":  2,
                   "critMultiplier":  2,
                   "totalDamage":  195,
@@ -961,10 +959,12 @@
                   "estimatedVaultDate":  "2018-06-19",
                   "trigger":  "Duplex",
                   "critChance":  0.1,
-                  "slot":  "primary",
+                  "magazineSize":  2,
                   "masterable":  true,
+                  "slot":  "primary",
                   "weaponClass":  "Shotgun",
                   "statusChance":  0.11250001,
+                  "vaultDate":  "2018-06-19",
                   "multishot":  8
               }
 }

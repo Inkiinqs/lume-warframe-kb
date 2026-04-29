@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.latron-wraith",
+    "description":  "The Latron Wraith is a powerful variation of the standard, semi-automatic rifle that features unique styling.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -117,30 +117,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  15.5,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  43.399998,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  3.1000009,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  62,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             15.5,
                                             43.399998,
@@ -163,18 +152,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  15.5,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  43.399998,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  3.1000009,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  62,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/LongGuns/WraithLatron/WraithLatron"
@@ -187,7 +187,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The Latron Wraith is a powerful variation of the standard, semi-automatic rifle that features unique styling.",
+    "id":  "weapon.latron-wraith",
     "release":  {
                     "releaseDate":  "2014-08-28",
                     "introduced":  {
@@ -209,9 +209,7 @@
                                      "madurai"
                                  ],
                   "tradable":  true,
-                  "vaultDate":  null,
                   "disposition":  5,
-                  "magazineSize":  15,
                   "fireRate":  5.0000005,
                   "critMultiplier":  2.8,
                   "totalDamage":  62,
@@ -221,10 +219,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Semi",
                   "critChance":  0.25999999,
-                  "slot":  "primary",
+                  "magazineSize":  15,
                   "masterable":  true,
+                  "slot":  "primary",
                   "weaponClass":  "Rifle",
                   "statusChance":  0.13999999,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

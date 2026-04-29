@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.prisma-skana",
+    "description":  "Forged from raw prisma crystals and infused with Void energy, this blade\u0027s pristine edge is honed razor-sharp to eviscerate even the most deadly of foes.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -91,30 +91,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  340,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  8,
+                      "sentinel":  null,
+                      "stancePolarity":  "madurai",
+                      "heavyAttackDamage":  850,
+                      "range":  2.5,
+                      "heavySlamRadialDamage":  510,
                       "followThrough":  0.60000002,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  25.500002,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  25.500002,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  119,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  170,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  680,
+                      "comboDuration":  5,
+                      "slideAttack":  170,
+                      "windUp":  0.60000002,
+                      "slamRadius":  7,
+                      "slamAttack":  510,
                       "damagePerShot":  [
                                             25.500002,
                                             25.500002,
@@ -137,18 +126,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "heavyAttackDamage":  850,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  510,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  170,
-                      "windUp":  0.60000002,
-                      "slamRadius":  7,
-                      "slamAttack":  510,
-                      "heavySlamRadius":  8,
-                      "heavySlamAttack":  680
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  25.500002,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  25.500002,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  119,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  170,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/VoidTrader/PrismaSkana"
@@ -161,7 +161,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Forged from raw prisma crystals and infused with Void energy, this blade\u0027s pristine edge is honed razor-sharp to eviscerate even the most deadly of foes.",
+    "id":  "weapon.prisma-skana",
     "release":  {
                     "releaseDate":  "2015-05-28",
                     "introduced":  {
@@ -182,9 +182,7 @@
                                      null
                                  ],
                   "tradable":  true,
-                  "vaultDate":  null,
                   "disposition":  4,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  2.2,
                   "totalDamage":  170,
@@ -194,10 +192,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0.28,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Rifle",
                   "statusChance":  0.15999997,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

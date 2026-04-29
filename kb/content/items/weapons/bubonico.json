@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.bubonico",
+    "description":  "Rain down a triple volley of explosive disease bladders from a distance, then move in for the kill by unloading a multi-shot barrage of toxic barbs with primary fire.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -136,30 +136,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  1.9999999,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  13,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  19,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  41,
-                                     "toxin":  7,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             1.9999999,
                                             13,
@@ -182,18 +171,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  1.9999999,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  13,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  7,
+                                     "puncture":  19,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  41,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Infested/LongGuns/InfArmCannon/InfArmCannon"
@@ -206,7 +206,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Rain down a triple volley of explosive disease bladders from a distance, then move in for the kill by unloading a multi-shot barrage of toxic barbs with primary fire.",
+    "id":  "weapon.bubonico",
     "release":  {
                     "releaseDate":  "2020-11-19",
                     "introduced":  {
@@ -228,9 +228,7 @@
                                      "naramon"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  1,
-                  "magazineSize":  27,
                   "fireRate":  3.8333335,
                   "critMultiplier":  2.3,
                   "totalDamage":  41,
@@ -240,10 +238,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Auto",
                   "critChance":  0.25,
-                  "slot":  "primary",
+                  "magazineSize":  27,
                   "masterable":  true,
+                  "slot":  "primary",
                   "weaponClass":  "Shotgun",
                   "statusChance":  0.092857122,
+                  "vaultDate":  null,
                   "multishot":  7
               }
 }

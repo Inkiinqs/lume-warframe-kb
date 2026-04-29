@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.tenet-arca-plasmor",
+    "description":  "Custom variant of a Corpus classic. Staggering blasts now ricochet and have greater range at the cost of a slower fire and reload speed. Surviving enemies are consumed with radiation.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -64,30 +64,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  0,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  0,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  760,
-                                     "healthDrain":  0,
-                                     "puncture":  0,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  760,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -110,18 +99,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  760,
+                                     "total":  760,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Corpus/BoardExec/Primary/CrpBEArcaPlasmor/CrpBEArcaPlasmor"
@@ -134,7 +134,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Custom variant of a Corpus classic. Staggering blasts now ricochet and have greater range at the cost of a slower fire and reload speed. Surviving enemies are consumed with radiation.",
+    "id":  "weapon.tenet-arca-plasmor",
     "release":  {
                     "releaseDate":  "2021-07-06",
                     "introduced":  {
@@ -156,9 +156,7 @@
                                      "madurai"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  1,
-                  "magazineSize":  10,
                   "fireRate":  1,
                   "critMultiplier":  2,
                   "totalDamage":  760,
@@ -168,10 +166,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Semi",
                   "critChance":  0.22,
-                  "slot":  "primary",
+                  "magazineSize":  10,
                   "masterable":  true,
+                  "slot":  "primary",
                   "weaponClass":  "Shotgun",
                   "statusChance":  0.34000003,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

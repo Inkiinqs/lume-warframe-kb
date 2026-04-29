@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.vericres",
+    "description":  "Unfurl this warfan like a rapidly waxing moon.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -91,30 +91,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  360,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  8,
+                      "sentinel":  null,
+                      "stancePolarity":  "naramon",
+                      "heavyAttackDamage":  720,
+                      "range":  1.8,
+                      "heavySlamRadialDamage":  540,
                       "followThrough":  0.69999999,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  21.6,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  28.799999,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  129.60001,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  180,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  180,
+                      "comboDuration":  5,
+                      "slideAttack":  180,
+                      "windUp":  0.5,
+                      "slamRadius":  6,
+                      "slamAttack":  360,
                       "damagePerShot":  [
                                             21.6,
                                             28.799999,
@@ -137,18 +126,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.8,
-                      "heavyAttackDamage":  720,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  540,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  180,
-                      "windUp":  0.5,
-                      "slamRadius":  6,
-                      "slamAttack":  360,
-                      "heavySlamRadius":  8,
-                      "heavySlamAttack":  180
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  21.6,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  28.799999,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  129.60001,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  180,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Warfan/TnMoonWarfan/MoonWarfanWeapon"
@@ -161,7 +161,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Unfurl this warfan like a rapidly waxing moon.",
+    "id":  "weapon.vericres",
     "release":  {
                     "releaseDate":  "2022-07-14",
                     "introduced":  {
@@ -183,9 +183,7 @@
                                      "madurai"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  4,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  2,
                   "totalDamage":  180,
@@ -195,10 +193,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0.22,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.19999999,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

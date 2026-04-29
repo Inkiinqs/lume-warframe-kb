@@ -1,5 +1,5 @@
 {
-    "description":  "Colder than space and less forgiving, Prisma crystals bring elite efficiency to the already sleek Dual Decurion. Requiring the lightest of touches to reload, these twin archguns prove that heavy weaponry can still possess elegance.",
+    "id":  "weapon.prisma-dual-decurions",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -65,13 +65,12 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  49.5,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -81,26 +80,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  30.249998,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  110,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             49.5,
                                             30.25,
@@ -123,6 +112,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -136,7 +136,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.prisma-dual-decurions",
+    "description":  "Colder than space and less forgiving, Prisma crystals bring elite efficiency to the already sleek Dual Decurion. Requiring the lightest of touches to reload, these twin archguns prove that heavy weaponry can still possess elegance.",
     "release":  {
                     "releaseDate":  "2020-12-11",
                     "introduced":  {
@@ -159,7 +159,6 @@
                                  ],
                   "tradable":  true,
                   "disposition":  4,
-                  "magazineSize":  64,
                   "fireRate":  12.500001,
                   "critMultiplier":  2.2,
                   "totalDamage":  110,
@@ -169,8 +168,9 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Auto",
                   "critChance":  0.30000001,
-                  "slot":  "archgun",
+                  "magazineSize":  64,
                   "masterable":  true,
+                  "slot":  "archgun",
                   "weaponClass":  "Arch-Gun",
                   "statusChance":  0.24000001,
                   "vaultDate":  null,

@@ -1,5 +1,5 @@
 {
-    "description":  "Nokko’s signature archgun fires six homing missiles, each bearing a payload of one of the six combined elements which detonate in an area upon impact.",
+    "id":  "weapon.arbucep",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -381,13 +381,12 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -397,26 +396,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  130,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  130,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -439,6 +428,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -452,7 +452,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.arbucep",
+    "description":  "Nokko’s signature archgun fires six homing missiles, each bearing a payload of one of the six combined elements which detonate in an area upon impact.",
     "release":  {
                     "releaseDate":  "2025-10-15",
                     "introduced":  {
@@ -476,7 +476,6 @@
                                  ],
                   "tradable":  false,
                   "disposition":  1,
-                  "magazineSize":  6,
                   "fireRate":  1.5000001,
                   "critMultiplier":  2.9000001,
                   "totalDamage":  130,
@@ -486,8 +485,9 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Auto",
                   "critChance":  0.1,
-                  "slot":  "archgun",
+                  "magazineSize":  6,
                   "masterable":  true,
+                  "slot":  "archgun",
                   "weaponClass":  "Arch-Gun",
                   "statusChance":  0.34900004,
                   "vaultDate":  null,

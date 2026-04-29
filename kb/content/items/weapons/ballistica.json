@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.ballistica",
+    "description":  "The Ballistica crossbow features a unique dual firing mechanism. Choose between a four bolt volley or a deadly accurate charged shot.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -122,30 +122,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  10,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  80,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  9.9999962,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  100,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             10,
                                             80,
@@ -168,18 +157,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  10,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  80,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  9.9999962,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  100,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Pistols/AutomaticHandCrossbow/AutoCrossBow"
@@ -192,7 +192,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The Ballistica crossbow features a unique dual firing mechanism. Choose between a four bolt volley or a deadly accurate charged shot.",
+    "id":  "weapon.ballistica",
     "release":  {
                     "releaseDate":  "2013-10-16",
                     "introduced":  {
@@ -214,9 +214,7 @@
                                      "vazarin"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  4,
-                  "magazineSize":  16,
                   "fireRate":  3.3333335,
                   "critMultiplier":  1.5,
                   "totalDamage":  100,
@@ -226,10 +224,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Charge",
                   "critChance":  0.025,
-                  "slot":  "secondary",
+                  "magazineSize":  16,
                   "masterable":  true,
+                  "slot":  "secondary",
                   "weaponClass":  "Pistol",
                   "statusChance":  0.10000002,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

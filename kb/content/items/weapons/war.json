@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.war",
+    "description":  "The Stalker\u0027s sword as bestowed on him by the Sentient Hunhow.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -171,30 +171,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  500,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  9,
+                      "sentinel":  null,
+                      "stancePolarity":  "vazarin",
+                      "heavyAttackDamage":  1500,
+                      "range":  3.2,
+                      "heavySlamRadialDamage":  750,
                       "followThrough":  0.60000002,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  120,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  60,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  70.000008,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  250,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  1250,
+                      "comboDuration":  5,
+                      "slideAttack":  500,
+                      "windUp":  1.1,
+                      "slamRadius":  8,
+                      "slamAttack":  750,
                       "damagePerShot":  [
                                             120,
                                             60,
@@ -217,18 +206,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  3.2,
-                      "heavyAttackDamage":  1500,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  750,
-                      "stancePolarity":  "vazarin",
-                      "slideAttack":  500,
-                      "windUp":  1.1,
-                      "slamRadius":  8,
-                      "slamAttack":  750,
-                      "heavySlamRadius":  9,
-                      "heavySlamAttack":  1250
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  120,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  60,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  70.000008,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  250,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Swords/StalkerTwo/StalkerTwoGreatSword"
@@ -241,7 +241,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The Stalker\u0027s sword as bestowed on him by the Sentient Hunhow.",
+    "id":  "weapon.war",
     "release":  {
                     "releaseDate":  "2015-12-03",
                     "introduced":  {
@@ -264,9 +264,7 @@
                                      "naramon"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  3,
-                  "magazineSize":  null,
                   "fireRate":  0.91666669,
                   "critMultiplier":  2.5999999,
                   "totalDamage":  250,
@@ -276,10 +274,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0.25999999,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.25999999,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

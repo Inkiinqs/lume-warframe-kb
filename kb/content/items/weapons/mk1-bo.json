@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.mk1-bo",
+    "description":  "The MK1-Bo is the standard issue staff weapon for all Tenno.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -90,30 +90,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  180,
                       "blockingAngle":  60,
+                      "heavySlamRadius":  7,
+                      "sentinel":  null,
+                      "stancePolarity":  "unairu",
+                      "heavyAttackDamage":  450,
+                      "range":  3,
+                      "heavySlamRadialDamage":  270,
                       "followThrough":  0.5,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  81,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  9,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  0,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  90,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  360,
+                      "comboDuration":  5,
+                      "slideAttack":  90,
+                      "windUp":  0.5,
+                      "slamRadius":  6,
+                      "slamAttack":  270,
                       "damagePerShot":  [
                                             81,
                                             9,
@@ -136,18 +125,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  3,
-                      "heavyAttackDamage":  450,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  270,
-                      "stancePolarity":  "unairu",
-                      "slideAttack":  90,
-                      "windUp":  0.5,
-                      "slamRadius":  6,
-                      "slamAttack":  270,
-                      "heavySlamRadius":  7,
-                      "heavySlamAttack":  360
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  81,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  9,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  90,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/MK1Series/MK1Bo"
@@ -160,7 +160,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The MK1-Bo is the standard issue staff weapon for all Tenno.",
+    "id":  "weapon.mk1-bo",
     "release":  {
                     "releaseDate":  "2014-07-18",
                     "introduced":  {
@@ -183,9 +183,7 @@
                                      "vazarin"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  2,
                   "totalDamage":  90,
@@ -195,10 +193,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0.1,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Rifle",
                   "statusChance":  0.10000002,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

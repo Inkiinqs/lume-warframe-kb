@@ -1,5 +1,5 @@
 {
-    "description":  "The icy signature weapon of Nautilus Prime.",
+    "id":  "weapon.verglas-prime",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -56,13 +56,12 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -72,26 +71,16 @@
                                      "cold":  32,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  32,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  true,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -114,6 +103,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  true,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -127,7 +127,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.verglas-prime",
+    "description":  "The icy signature weapon of Nautilus Prime.",
     "release":  {
                     "releaseDate":  "2024-08-21",
                     "introduced":  {
@@ -149,7 +149,6 @@
                                  ],
                   "tradable":  false,
                   "disposition":  4,
-                  "magazineSize":  80,
                   "fireRate":  12.000001,
                   "critMultiplier":  2.2,
                   "totalDamage":  32,
@@ -159,8 +158,9 @@
                   "estimatedVaultDate":  "2026-05-21",
                   "trigger":  "Held",
                   "critChance":  0.14,
-                  "slot":  "companion",
+                  "magazineSize":  80,
                   "masterable":  true,
+                  "slot":  "companion",
                   "weaponClass":  "Companion Weapon",
                   "statusChance":  0.36000001,
                   "vaultDate":  null,

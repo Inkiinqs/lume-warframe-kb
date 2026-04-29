@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.dual-coda-torxica",
+    "description":  "Get the job done right with a pair of spore flinging terror tools. Inflicts a spore that spreads to nearby enemies on death causing \u003cDT_FREEZE_COLOR\u003eCold Status Effect and increased vulnerability to damage from the Torxica.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -58,30 +58,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  0,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  17.5,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  32.5,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  50,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             17.5,
@@ -104,18 +93,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  17.5,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  32.5,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  50,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Infested/InfestedLich/Pistols/1999InfSporePistol/1999InfSporePistolWeapon"
@@ -128,7 +128,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Get the job done right with a pair of spore flinging terror tools. Inflicts a spore that spreads to nearby enemies on death causing \u003cDT_FREEZE_COLOR\u003eCold Status Effect and increased vulnerability to damage from the Torxica.",
+    "id":  "weapon.dual-coda-torxica",
     "release":  {
                     "releaseDate":  "2025-03-19",
                     "introduced":  {
@@ -149,9 +149,7 @@
                                      "naramon"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  1,
-                  "magazineSize":  160,
                   "fireRate":  6.0000005,
                   "critMultiplier":  2.4000001,
                   "totalDamage":  50,
@@ -161,10 +159,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Auto",
                   "critChance":  0.25,
-                  "slot":  "secondary",
+                  "magazineSize":  160,
                   "masterable":  true,
+                  "slot":  "secondary",
                   "weaponClass":  "Pistol",
                   "statusChance":  0.27999997,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

@@ -1,5 +1,5 @@
 {
-    "description":  "Charges up a powerful blast of ultra-heated plasma.",
+    "id":  "weapon.vulcax",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -117,13 +117,12 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
+                                     "heat":  500,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -133,26 +132,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  500,
+                                     "radiation":  0,
                                      "total":  500,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  true,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -175,6 +164,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  true,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -188,7 +188,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.vulcax",
+    "description":  "Charges up a powerful blast of ultra-heated plasma.",
     "release":  {
                     "releaseDate":  "2018-11-08",
                     "introduced":  {
@@ -212,7 +212,6 @@
                                  ],
                   "tradable":  false,
                   "disposition":  3,
-                  "magazineSize":  1,
                   "fireRate":  1,
                   "critMultiplier":  2.5,
                   "totalDamage":  500,
@@ -222,8 +221,9 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Charge",
                   "critChance":  0.2,
-                  "slot":  "companion",
+                  "magazineSize":  1,
                   "masterable":  true,
+                  "slot":  "companion",
                   "weaponClass":  "Companion Weapon",
                   "statusChance":  0.10000002,
                   "vaultDate":  null,

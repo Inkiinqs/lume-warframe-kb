@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.corinth-prime",
+    "description":  "Heavy in the hand with a bone-crunching kickback. This Prime version of this shotgun adds remote detonation of the weapon\u0027s airburst round.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -801,30 +801,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  25.200001,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  37.799999,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  27.000002,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  90,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             25.200001,
                                             37.799999,
@@ -847,18 +836,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  25.200001,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  37.799999,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  27.000002,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  90,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/LongGuns/PrimeCorinth/PrimeCorinth"
@@ -871,7 +871,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Heavy in the hand with a bone-crunching kickback. This Prime version of this shotgun adds remote detonation of the weapon\u0027s airburst round.",
+    "id":  "weapon.corinth-prime",
     "release":  {
                     "releaseDate":  "2020-03-31",
                     "introduced":  {
@@ -894,9 +894,7 @@
                                      "naramon"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  "2022-03-28",
                   "disposition":  3,
-                  "magazineSize":  20,
                   "fireRate":  1.4166667,
                   "critMultiplier":  2.8,
                   "totalDamage":  90,
@@ -906,10 +904,12 @@
                   "estimatedVaultDate":  "2022-03-28",
                   "trigger":  "Semi",
                   "critChance":  0.30000001,
-                  "slot":  "primary",
+                  "magazineSize":  20,
                   "masterable":  true,
+                  "slot":  "primary",
                   "weaponClass":  "Shotgun",
                   "statusChance":  0.090000033,
+                  "vaultDate":  "2022-03-28",
                   "multishot":  6
               }
 }

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.perigale",
+    "description":  "Like a breath of wind, shots fired by this multi-barrel sniper are felt but never seen by its targets. Headshots in quick succession increase the Perigale’s ammo efficiency. When the Perigale is wielded by Voruna, its ammo pool increases.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -148,30 +148,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  20.639999,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  96.32,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  55.039997,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  172,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             20.639999,
                                             96.32,
@@ -194,18 +183,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  20.639999,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  96.32,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  55.039997,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  172,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/LongGuns/TnQuadSniper/TnQuadSniper"
@@ -218,7 +218,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Like a breath of wind, shots fired by this multi-barrel sniper are felt but never seen by its targets. Headshots in quick succession increase the Perigale’s ammo efficiency. When the Perigale is wielded by Voruna, its ammo pool increases.",
+    "id":  "weapon.perigale",
     "release":  {
                     "releaseDate":  "2022-11-30",
                     "introduced":  {
@@ -240,9 +240,7 @@
                                      "madurai"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  4,
-                  "magazineSize":  12,
                   "fireRate":  6.0606065,
                   "critMultiplier":  2.5999999,
                   "totalDamage":  172,
@@ -252,10 +250,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Burst",
                   "critChance":  0.28,
-                  "slot":  "primary",
+                  "magazineSize":  12,
                   "masterable":  true,
+                  "slot":  "primary",
                   "weaponClass":  "Sniper",
                   "statusChance":  0.15999997,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.lacera",
+    "description":  "In the practiced hands of a master, this blade and whip becomes exceedingly devastating.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -132,30 +132,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  432,
                       "blockingAngle":  60,
+                      "heavySlamRadius":  8,
+                      "sentinel":  null,
+                      "stancePolarity":  "madurai",
+                      "heavyAttackDamage":  864,
+                      "range":  2.5,
+                      "heavySlamRadialDamage":  648,
                       "followThrough":  0.5,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  12,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  100,
-                                     "true":  0,
-                                     "slash":  38,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  66,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  216,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  864,
+                      "comboDuration":  5,
+                      "slideAttack":  216,
+                      "windUp":  0.40000001,
+                      "slamRadius":  7,
+                      "slamAttack":  648,
                       "damagePerShot":  [
                                             12,
                                             38,
@@ -178,18 +167,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "heavyAttackDamage":  864,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  648,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  216,
-                      "windUp":  0.40000001,
-                      "slamRadius":  7,
-                      "slamAttack":  648,
-                      "heavySlamRadius":  8,
-                      "heavySlamAttack":  864
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  12,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  100,
+                                     "true":  0,
+                                     "slash":  38,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  66,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  216,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Swords/StalkerMios/StalkerMios"
@@ -202,7 +202,7 @@
     "relationships":  [
 
                       ],
-    "description":  "In the practiced hands of a master, this blade and whip becomes exceedingly devastating.",
+    "id":  "weapon.lacera",
     "release":  {
                     "releaseDate":  "2015-12-03",
                     "introduced":  {
@@ -225,9 +225,7 @@
                                      "naramon"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  0.91666669,
                   "critMultiplier":  2,
                   "totalDamage":  216,
@@ -237,10 +235,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0.050000001,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.44999999,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

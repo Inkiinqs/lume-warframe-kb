@@ -1,5 +1,5 @@
 {
-    "description":  "Releases a burst of static electricity that can jump between foes, incapacitating them.",
+    "id":  "weapon.tazicor",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -101,13 +101,12 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  5,
@@ -117,26 +116,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  5,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  true,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -159,6 +148,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  true,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -172,7 +172,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.tazicor",
+    "description":  "Releases a burst of static electricity that can jump between foes, incapacitating them.",
     "release":  {
                     "releaseDate":  "2018-11-08",
                     "introduced":  {
@@ -196,7 +196,6 @@
                                  ],
                   "tradable":  false,
                   "disposition":  3,
-                  "magazineSize":  40,
                   "fireRate":  12.000001,
                   "critMultiplier":  1.5,
                   "totalDamage":  5,
@@ -206,8 +205,9 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Held",
                   "critChance":  0.050000001,
-                  "slot":  "companion",
+                  "magazineSize":  40,
                   "masterable":  true,
+                  "slot":  "companion",
                   "weaponClass":  "Companion Weapon",
                   "statusChance":  0.25,
                   "vaultDate":  null,

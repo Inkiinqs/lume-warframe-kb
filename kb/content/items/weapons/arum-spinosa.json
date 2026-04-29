@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.arum-spinosa",
+    "description":  "Slash through enemies with two leaves of the exceedingly rare Arum Spinosa plant. Heavy Attack to whip a flurry of toxic spines at ranged attackers.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -360,30 +360,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  594,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  6,
+                      "sentinel":  null,
+                      "stancePolarity":  "naramon",
+                      "heavyAttackDamage":  1188,
+                      "range":  1.7,
+                      "heavySlamRadialDamage":  891,
                       "followThrough":  0.69999999,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  35.639999,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  59.400002,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  201.96001,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  297,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  297,
+                      "comboDuration":  5,
+                      "slideAttack":  297,
+                      "windUp":  0.5,
+                      "slamRadius":  5,
+                      "slamAttack":  594,
                       "damagePerShot":  [
                                             35.639999,
                                             59.400002,
@@ -406,18 +395,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.7,
-                      "heavyAttackDamage":  1188,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  891,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  297,
-                      "windUp":  0.5,
-                      "slamRadius":  5,
-                      "slamAttack":  594,
-                      "heavySlamRadius":  6,
-                      "heavySlamAttack":  297
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  35.639999,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  59.400002,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  201.96001,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  297,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Infested/Melee/InfWarfan/InfWarfanWeapon"
@@ -430,7 +430,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Slash through enemies with two leaves of the exceedingly rare Arum Spinosa plant. Heavy Attack to whip a flurry of toxic spines at ranged attackers.",
+    "id":  "weapon.arum-spinosa",
     "release":  {
                     "releaseDate":  "2020-11-19",
                     "introduced":  {
@@ -453,9 +453,7 @@
                                      "madurai"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  4,
-                  "magazineSize":  null,
                   "fireRate":  1.0833334,
                   "critMultiplier":  1.9,
                   "totalDamage":  297,
@@ -465,10 +463,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0.090000004,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.37,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

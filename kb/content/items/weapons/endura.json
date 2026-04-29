@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.endura",
+    "description":  "The delicate form of this Tenno rapier conceals its ferocious and resilient force.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -131,30 +131,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  400,
                       "blockingAngle":  60,
+                      "heavySlamRadius":  7,
+                      "sentinel":  null,
+                      "stancePolarity":  "naramon",
+                      "heavyAttackDamage":  900,
+                      "range":  2.5,
+                      "heavySlamRadialDamage":  600,
                       "followThrough":  0.69999999,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  10,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  140,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  50,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  200,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  700,
+                      "comboDuration":  5,
+                      "slideAttack":  200,
+                      "windUp":  0.5,
+                      "slamRadius":  6,
+                      "slamAttack":  600,
                       "damagePerShot":  [
                                             10,
                                             140,
@@ -177,18 +166,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "heavyAttackDamage":  900,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  600,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  200,
-                      "windUp":  0.5,
-                      "slamRadius":  6,
-                      "slamAttack":  600,
-                      "heavySlamRadius":  7,
-                      "heavySlamAttack":  700
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  10,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  140,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  50,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  200,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Swords/ThreeLeaf/ThreeLeaf"
@@ -201,7 +201,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The delicate form of this Tenno rapier conceals its ferocious and resilient force.",
+    "id":  "weapon.endura",
     "release":  {
                     "releaseDate":  "2017-05-24",
                     "introduced":  {
@@ -223,9 +223,7 @@
                                      "madurai"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  0.91666669,
                   "critMultiplier":  2,
                   "totalDamage":  200,
@@ -235,10 +233,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0.1,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.36000001,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

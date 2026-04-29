@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.masseter-prime",
+    "description":  "A greatsword for those with an insatiable hunger for victory. Grendel is immune to crowd-control when he performs Heavy Attacks with this weapon.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -733,30 +733,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  520,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  10,
+                      "sentinel":  null,
+                      "stancePolarity":  "madurai",
+                      "heavyAttackDamage":  1560,
+                      "range":  2.9000001,
+                      "heavySlamRadialDamage":  780,
                       "followThrough":  0.60000002,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  145.60001,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  0,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  114.4,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  260,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  1300,
+                      "comboDuration":  5,
+                      "slideAttack":  520,
+                      "windUp":  1.1,
+                      "slamRadius":  10,
+                      "slamAttack":  780,
                       "damagePerShot":  [
                                             145.60001,
                                             0,
@@ -779,18 +768,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.9000001,
-                      "heavyAttackDamage":  1560,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  780,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  520,
-                      "windUp":  1.1,
-                      "slamRadius":  10,
-                      "slamAttack":  780,
-                      "heavySlamRadius":  10,
-                      "heavySlamAttack":  1300
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  145.60001,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  114.4,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  260,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Swords/PrimeMasseter/PrimeMasseter"
@@ -803,7 +803,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A greatsword for those with an insatiable hunger for victory. Grendel is immune to crowd-control when he performs Heavy Attacks with this weapon.",
+    "id":  "weapon.masseter-prime",
     "release":  {
                     "releaseDate":  "2023-10-18",
                     "introduced":  {
@@ -827,9 +827,7 @@
                                      "madurai"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  "2025-08-26",
                   "disposition":  3,
-                  "magazineSize":  null,
                   "fireRate":  1.0833334,
                   "critMultiplier":  2.2,
                   "totalDamage":  260,
@@ -839,10 +837,12 @@
                   "estimatedVaultDate":  "2025-08-26",
                   "trigger":  null,
                   "critChance":  0.25999999,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.36000001,
+                  "vaultDate":  "2025-08-26",
                   "multishot":  null
               }
 }

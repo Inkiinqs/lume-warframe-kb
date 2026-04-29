@@ -1,5 +1,5 @@
 {
-    "description":  "Shatter your targets with explosive shells from this devastating Archwing cannon.",
+    "id":  "weapon.grattler",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -120,13 +120,12 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  22.5,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -136,26 +135,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  22.499992,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  535,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  310,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             22.5,
                                             180,
@@ -178,6 +167,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -191,7 +191,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.grattler",
+    "description":  "Shatter your targets with explosive shells from this devastating Archwing cannon.",
     "release":  {
                     "releaseDate":  "2015-07-31",
                     "introduced":  {
@@ -215,7 +215,6 @@
                                  ],
                   "tradable":  false,
                   "disposition":  3,
-                  "magazineSize":  30,
                   "fireRate":  6.2500005,
                   "critMultiplier":  2,
                   "totalDamage":  535,
@@ -225,8 +224,9 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Auto",
                   "critChance":  0.25,
-                  "slot":  "archgun",
+                  "magazineSize":  30,
                   "masterable":  true,
+                  "slot":  "archgun",
                   "weaponClass":  "Arch-Gun",
                   "statusChance":  0.25,
                   "vaultDate":  null,

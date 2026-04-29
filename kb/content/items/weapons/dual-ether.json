@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.dual-ether",
+    "description":  "Fast and precise. The Dual Ether cuts so cleanly that it was considered by the Tenno to be a more humane weapon for ‘cleansing\u0027 infested allies. Capable of hitting multiple targets.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -131,30 +131,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  360,
                       "blockingAngle":  60,
+                      "heavySlamRadius":  9,
+                      "sentinel":  null,
+                      "stancePolarity":  "zenurik",
+                      "heavyAttackDamage":  720,
+                      "range":  2.5,
+                      "heavySlamRadialDamage":  540,
                       "followThrough":  0.5,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  27.000002,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  27.000002,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  126,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  180,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  720,
+                      "comboDuration":  5,
+                      "slideAttack":  360,
+                      "windUp":  0.69999999,
+                      "slamRadius":  8,
+                      "slamAttack":  360,
                       "damagePerShot":  [
                                             27.000002,
                                             27.000002,
@@ -177,18 +166,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "heavyAttackDamage":  720,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  540,
-                      "stancePolarity":  "zenurik",
-                      "slideAttack":  360,
-                      "windUp":  0.69999999,
-                      "slamRadius":  8,
-                      "slamAttack":  360,
-                      "heavySlamRadius":  9,
-                      "heavySlamAttack":  720
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  27.000002,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  27.000002,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  126,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  180,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/DualShortSword/DualEtherSword"
@@ -201,7 +201,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Fast and precise. The Dual Ether cuts so cleanly that it was considered by the Tenno to be a more humane weapon for ‘cleansing\u0027 infested allies. Capable of hitting multiple targets.",
+    "id":  "weapon.dual-ether",
     "release":  {
                     "releaseDate":  "2013-04-12",
                     "introduced":  {
@@ -222,9 +222,7 @@
                                      null
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  2,
                   "totalDamage":  180,
@@ -234,10 +232,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0.2,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.27999997,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

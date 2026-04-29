@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.aklato",
+    "description":  "A Lato equipped in each hand. Twice the Magazine Capacity and Fire Rate, but Reload time is doubled and Accuracy is lowered.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -64,30 +64,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  6,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  10,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  24,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  40,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             6,
                                             10,
@@ -110,18 +99,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  6,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  10,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  24,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  40,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Akimbo/AkimboPistol"
@@ -134,7 +134,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A Lato equipped in each hand. Twice the Magazine Capacity and Fire Rate, but Reload time is doubled and Accuracy is lowered.",
+    "id":  "weapon.aklato",
     "release":  {
                     "releaseDate":  "2012-10-25",
                     "introduced":  {
@@ -156,9 +156,7 @@
                                      null
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  5,
-                  "magazineSize":  30,
                   "fireRate":  5.0000005,
                   "critMultiplier":  1.8,
                   "totalDamage":  40,
@@ -168,10 +166,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Semi",
                   "critChance":  0.1,
-                  "slot":  "secondary",
+                  "magazineSize":  30,
                   "masterable":  true,
+                  "slot":  "secondary",
                   "weaponClass":  "Dual Pistols",
                   "statusChance":  0.060000002,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

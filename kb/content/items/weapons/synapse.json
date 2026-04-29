@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.synapse",
+    "description":  "Powered by a bio-chemical reaction, the Infested Synapse rifle fries its targets with a steady stream of \u003cDT_CORROSIVE_COLOR\u003eCorrosive energy.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -97,30 +97,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  0,
-                                     "gas":  0,
-                                     "corrosive":  20,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  0,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  0,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  20,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -143,18 +132,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  20,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  20,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Infested/LongGuns/InfestedRifle"
@@ -167,7 +167,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Powered by a bio-chemical reaction, the Infested Synapse rifle fries its targets with a steady stream of \u003cDT_CORROSIVE_COLOR\u003eCorrosive energy.",
+    "id":  "weapon.synapse",
     "release":  {
                     "releaseDate":  "2013-09-13",
                     "introduced":  {
@@ -190,9 +190,7 @@
                                      null
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  5,
-                  "magazineSize":  70,
                   "fireRate":  12.000001,
                   "critMultiplier":  2.7,
                   "totalDamage":  20,
@@ -202,10 +200,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Held",
                   "critChance":  0.38999999,
-                  "slot":  "primary",
+                  "magazineSize":  70,
                   "masterable":  true,
+                  "slot":  "primary",
                   "weaponClass":  "Rifle",
                   "statusChance":  0.13,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

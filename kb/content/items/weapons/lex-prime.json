@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.lex-prime",
+    "description":  "The Lex Prime is a powerful, accurate pistol that has a low Fire Rate and Magazine Capacity. Very efficient at long range.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -3633,30 +3633,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  18,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  144,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  17.999994,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  180,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             18,
                                             144,
@@ -3679,18 +3668,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  18,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  144,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  17.999994,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  180,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Pistols/PrimeLex/PrimeLex"
@@ -3703,7 +3703,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The Lex Prime is a powerful, accurate pistol that has a low Fire Rate and Magazine Capacity. Very efficient at long range.",
+    "id":  "weapon.lex-prime",
     "release":  {
                     "releaseDate":  "2014-04-09",
                     "introduced":  {
@@ -3726,9 +3726,7 @@
                                      "madurai"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  4,
-                  "magazineSize":  8,
                   "fireRate":  2.0833335,
                   "critMultiplier":  2,
                   "totalDamage":  180,
@@ -3738,10 +3736,12 @@
                   "estimatedVaultDate":  "2016-01-09",
                   "trigger":  "Semi",
                   "critChance":  0.25,
-                  "slot":  "secondary",
+                  "magazineSize":  8,
                   "masterable":  true,
+                  "slot":  "secondary",
                   "weaponClass":  "Pistol",
                   "statusChance":  0.25,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.tekko",
+    "description":  "These iron fists that rip through foes are Atlas\u0027 signature weapons. When wielded by Atlas they receive a Status Chance increase.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -136,30 +136,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  320,
                       "blockingAngle":  50,
+                      "heavySlamRadius":  9,
+                      "sentinel":  null,
+                      "stancePolarity":  "vazarin",
+                      "heavyAttackDamage":  800,
+                      "range":  1.25,
+                      "heavySlamRadialDamage":  480,
                       "followThrough":  0.89999998,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  32,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  16,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  112,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  160,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  640,
+                      "comboDuration":  5,
+                      "slideAttack":  480,
+                      "windUp":  0.60000002,
+                      "slamRadius":  8,
+                      "slamAttack":  480,
                       "damagePerShot":  [
                                             32,
                                             16,
@@ -182,18 +171,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.25,
-                      "heavyAttackDamage":  800,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  480,
-                      "stancePolarity":  "vazarin",
-                      "slideAttack":  480,
-                      "windUp":  0.60000002,
-                      "slamRadius":  8,
-                      "slamAttack":  480,
-                      "heavySlamRadius":  9,
-                      "heavySlamAttack":  640
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  32,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  16,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  112,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  160,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Gauntlet/BrawlerKnuckles/BrawlerKnuckles"
@@ -206,7 +206,7 @@
     "relationships":  [
 
                       ],
-    "description":  "These iron fists that rip through foes are Atlas\u0027 signature weapons. When wielded by Atlas they receive a Status Chance increase.",
+    "id":  "weapon.tekko",
     "release":  {
                     "releaseDate":  "2015-10-01",
                     "introduced":  {
@@ -228,9 +228,7 @@
                                      "madurai"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  0.91666669,
                   "critMultiplier":  2,
                   "totalDamage":  160,
@@ -240,10 +238,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0.30000001,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.10000002,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

@@ -1,5 +1,5 @@
 {
-    "description":  "Shade Prime’s signature weapon fires laser bursts.",
+    "id":  "weapon.burst-laser-prime",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -60,13 +60,12 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  2.5,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -76,26 +75,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  1.2499988,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  24.999998,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  true,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             2.5,
                                             21.25,
@@ -118,6 +107,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  true,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -131,7 +131,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.burst-laser-prime",
+    "description":  "Shade Prime’s signature weapon fires laser bursts.",
     "release":  {
                     "releaseDate":  "2023-03-15",
                     "introduced":  {
@@ -153,7 +153,6 @@
                                  ],
                   "tradable":  false,
                   "disposition":  5,
-                  "magazineSize":  15,
                   "fireRate":  3,
                   "critMultiplier":  2.3,
                   "totalDamage":  24.999998,
@@ -163,8 +162,9 @@
                   "estimatedVaultDate":  "2024-12-15",
                   "trigger":  "Burst",
                   "critChance":  0.2,
-                  "slot":  "companion",
+                  "magazineSize":  15,
                   "masterable":  true,
+                  "slot":  "companion",
                   "weaponClass":  "Companion Weapon",
                   "statusChance":  0.14999998,
                   "vaultDate":  null,

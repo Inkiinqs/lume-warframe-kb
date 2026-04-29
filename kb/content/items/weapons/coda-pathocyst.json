@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.coda-pathocyst",
+    "description":  "Enhanced by Technocyte mutations, the Coda Pathocyst comes with increased Damage, Critical Chance, Critical Damage and Status Chance. While in-flight or on contact with the enemy, it will occasionally spawn enhanced, enemy-seeking miasmites.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -191,30 +191,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  540,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  6,
+                      "sentinel":  null,
+                      "stancePolarity":  "naramon",
+                      "heavyAttackDamage":  270,
+                      "range":  1.3,
+                      "heavySlamRadialDamage":  810,
                       "followThrough":  0.69999999,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  58,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  55,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  92,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  65,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  270,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  1080,
+                      "comboDuration":  5,
+                      "slideAttack":  540,
+                      "windUp":  1.2,
+                      "slamRadius":  5,
+                      "slamAttack":  810,
                       "damagePerShot":  [
                                             58,
                                             55,
@@ -237,18 +226,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.3,
-                      "heavyAttackDamage":  270,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  810,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  540,
-                      "windUp":  1.2,
-                      "slamRadius":  5,
-                      "slamAttack":  810,
-                      "heavySlamRadius":  6,
-                      "heavySlamAttack":  1080
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  58,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  55,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  92,
+                                     "toxin":  0,
+                                     "puncture":  65,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  270,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Infested/InfestedLich/Melee/CodaPathocyst/CodaPathocyst"
@@ -261,7 +261,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Enhanced by Technocyte mutations, the Coda Pathocyst comes with increased Damage, Critical Chance, Critical Damage and Status Chance. While in-flight or on contact with the enemy, it will occasionally spawn enhanced, enemy-seeking miasmites.",
+    "id":  "weapon.coda-pathocyst",
     "release":  {
                     "releaseDate":  "2025-03-19",
                     "introduced":  {
@@ -283,9 +283,7 @@
                                      "vazarin"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  1,
-                  "magazineSize":  null,
                   "fireRate":  0.66666669,
                   "critMultiplier":  2.3,
                   "totalDamage":  270,
@@ -295,10 +293,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0.2,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.35000002,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

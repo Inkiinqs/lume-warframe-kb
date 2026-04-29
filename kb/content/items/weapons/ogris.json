@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.ogris",
+    "description":  "Ogris fires detonite-infused casings.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -116,30 +116,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  0,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  0,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  0,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  700,
-                                     "toxin":  0,
-                                     "blast":  700,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -162,18 +151,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  700,
+                                     "healthDrain":  0,
+                                     "blast":  700,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/ClanTech/Chemical/RocketLauncher"
@@ -186,7 +186,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Ogris fires detonite-infused casings.",
+    "id":  "weapon.ogris",
     "release":  {
                     "releaseDate":  "2013-05-23",
                     "introduced":  {
@@ -209,9 +209,7 @@
                                      null
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  4,
-                  "magazineSize":  5,
                   "fireRate":  1.5000001,
                   "critMultiplier":  2,
                   "totalDamage":  700,
@@ -221,10 +219,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Charge",
                   "critChance":  0.050000001,
-                  "slot":  "primary",
+                  "magazineSize":  5,
                   "masterable":  true,
+                  "slot":  "primary",
                   "weaponClass":  "Launcher",
                   "statusChance":  0.35000002,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

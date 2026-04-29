@@ -1,5 +1,5 @@
 {
-    "description":  "Launches a swarm of micro-missiles.",
+    "id":  "weapon.helstrum",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -116,13 +116,12 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  10.95,
+                                     "heat":  24,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -132,26 +131,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  24,
+                                     "radiation":  0,
                                      "total":  39,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  true,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             10.95,
                                             4.0499997,
@@ -174,6 +163,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  true,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -187,7 +187,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.helstrum",
+    "description":  "Launches a swarm of micro-missiles.",
     "release":  {
                     "releaseDate":  "2020-06-11",
                     "introduced":  {
@@ -211,7 +211,6 @@
                                  ],
                   "tradable":  false,
                   "disposition":  3,
-                  "magazineSize":  null,
                   "fireRate":  0.90909088,
                   "critMultiplier":  1.5,
                   "totalDamage":  39,
@@ -221,8 +220,9 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Burst",
                   "critChance":  0.050000001,
-                  "slot":  "companion",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "companion",
                   "weaponClass":  "Companion Weapon",
                   "statusChance":  0.30000001,
                   "vaultDate":  null,

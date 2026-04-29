@@ -1,5 +1,5 @@
 {
-    "description":  "An Archwing energy weapon that sends waves of deadly plasma crashing into enemies.",
+    "id":  "weapon.fluctus",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -115,13 +115,12 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  50,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -131,26 +130,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  175,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  250,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             50,
                                             25,
@@ -173,6 +162,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -186,7 +186,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.fluctus",
+    "description":  "An Archwing energy weapon that sends waves of deadly plasma crashing into enemies.",
     "release":  {
                     "releaseDate":  "2014-12-19",
                     "introduced":  {
@@ -208,7 +208,6 @@
                                  ],
                   "tradable":  false,
                   "disposition":  3,
-                  "magazineSize":  40,
                   "fireRate":  5.0000005,
                   "critMultiplier":  2,
                   "totalDamage":  250,
@@ -218,8 +217,9 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Semi",
                   "critChance":  0.22,
-                  "slot":  "archgun",
+                  "magazineSize":  40,
                   "masterable":  true,
+                  "slot":  "archgun",
                   "weaponClass":  "Arch-Gun",
                   "statusChance":  0.15999997,
                   "vaultDate":  null,

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.harmony",
+    "description":  "Harmony triumphs over hate. Heavy Attacks condense Status Effect damage into a single instance. Heavy Attack kills empower allies with increased Status Duration.\n\nExperience the true power of Jade\u0027s Ensemble when Evensong, Cantare, and Harmony sing together.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -135,30 +135,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  480,
                       "blockingAngle":  60,
+                      "heavySlamRadius":  9,
+                      "sentinel":  null,
+                      "stancePolarity":  "naramon",
+                      "heavyAttackDamage":  1440,
+                      "range":  2.5999999,
+                      "heavySlamRadialDamage":  720,
                       "followThrough":  0.60000002,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  0,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  168,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  72,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  240,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  1200,
+                      "comboDuration":  5,
+                      "slideAttack":  480,
+                      "windUp":  1,
+                      "slamRadius":  8,
+                      "slamAttack":  720,
                       "damagePerShot":  [
                                             0,
                                             168,
@@ -181,18 +170,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5999999,
-                      "heavyAttackDamage":  1440,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  720,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  480,
-                      "windUp":  1,
-                      "slamRadius":  8,
-                      "slamAttack":  720,
-                      "heavySlamRadius":  9,
-                      "heavySlamAttack":  1200
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  168,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  72,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  240,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Scythe/TnChoirScythe/TnChoirScythe"
@@ -205,7 +205,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Harmony triumphs over hate. Heavy Attacks condense Status Effect damage into a single instance. Heavy Attack kills empower allies with increased Status Duration.\n\nExperience the true power of Jade\u0027s Ensemble when Evensong, Cantare, and Harmony sing together.",
+    "id":  "weapon.harmony",
     "release":  {
                     "releaseDate":  "2024-06-18",
                     "introduced":  {
@@ -229,9 +229,7 @@
                                      "vazarin"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  1,
-                  "magazineSize":  null,
                   "fireRate":  1.0833334,
                   "critMultiplier":  2.2,
                   "totalDamage":  240,
@@ -241,10 +239,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0.2,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.36000001,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

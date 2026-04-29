@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.okina",
+    "description":  "Perforate enemies with these two needle-sharp sai.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -162,30 +162,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  280,
                       "blockingAngle":  50,
+                      "heavySlamRadius":  7,
+                      "sentinel":  null,
+                      "stancePolarity":  "vazarin",
+                      "heavyAttackDamage":  280,
+                      "range":  1.7,
+                      "heavySlamRadialDamage":  420,
                       "followThrough":  0.80000001,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  7,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  63,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  70,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  140,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  560,
+                      "comboDuration":  5,
+                      "slideAttack":  280,
+                      "windUp":  0.5,
+                      "slamRadius":  6,
+                      "slamAttack":  280,
                       "damagePerShot":  [
                                             7,
                                             63,
@@ -208,18 +197,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.7,
-                      "heavyAttackDamage":  280,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  420,
-                      "stancePolarity":  "vazarin",
-                      "slideAttack":  280,
-                      "windUp":  0.5,
-                      "slamRadius":  6,
-                      "slamAttack":  280,
-                      "heavySlamRadius":  7,
-                      "heavySlamAttack":  560
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  7,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  63,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  70,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  140,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Swords/TennoSai/TennoSais"
@@ -232,7 +232,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Perforate enemies with these two needle-sharp sai.",
+    "id":  "weapon.okina",
     "release":  {
                     "releaseDate":  "2016-07-08",
                     "introduced":  {
@@ -255,9 +255,7 @@
                                      "madurai"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  1.0833334,
                   "critMultiplier":  2,
                   "totalDamage":  140,
@@ -267,10 +265,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0.16,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.19999999,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

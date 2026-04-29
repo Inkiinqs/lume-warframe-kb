@@ -1,5 +1,5 @@
 {
-    "description":  "Hound melee attacks devastate with \u003cDT_IMPACT_COLOR\u003eImpact and \u003cDT_SLASH_COLOR\u003eSlash Damage.",
+    "id":  "weapon.lacerten",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -56,13 +56,12 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  90,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  150,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -72,26 +71,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  150,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  300,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  true,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             150,
                                             0,
@@ -114,6 +103,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  true,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -127,7 +127,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.lacerten",
+    "description":  "Hound melee attacks devastate with \u003cDT_IMPACT_COLOR\u003eImpact and \u003cDT_SLASH_COLOR\u003eSlash Damage.",
     "release":  {
                     "releaseDate":  "2021-07-06",
                     "introduced":  {
@@ -149,7 +149,6 @@
                                  ],
                   "tradable":  false,
                   "disposition":  3,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  3,
                   "totalDamage":  300,
@@ -159,8 +158,9 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0.1,
-                  "slot":  "companion",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "companion",
                   "weaponClass":  "Companion Weapon",
                   "statusChance":  0.14999998,
                   "vaultDate":  null,

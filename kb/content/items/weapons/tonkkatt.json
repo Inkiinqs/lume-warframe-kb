@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.tonkkatt",
+    "description":  "Rend enemies and up the heat with these mining tools repurposed into machine-tonfa. Building the Combo Multiplier overheats the Tonkkatts, setting enemies ablaze.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -131,7 +131,7 @@
                                        "consumeOnBuild":  true
                                    },
                       "wiki":  {
-                                   "thumbnail":  null,
+                                   "thumbnail":  "https://wiki.warframe.com/images/Tonkkatt.png?363a0",
                                    "url":  "https://wiki.warframe.com/w/Tonkkatt",
                                    "imageName":  "tonkkatt-b9790be36d.png",
                                    "available":  true
@@ -185,30 +185,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  330,
                       "blockingAngle":  60,
+                      "heavySlamRadius":  9,
+                      "sentinel":  null,
+                      "stancePolarity":  "naramon",
+                      "heavyAttackDamage":  660,
+                      "range":  2.5,
+                      "heavySlamRadialDamage":  495,
                       "followThrough":  0.60000002,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  0,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  33,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  132,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  165,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  660,
+                      "comboDuration":  5,
+                      "slideAttack":  330,
+                      "windUp":  0.69999999,
+                      "slamRadius":  8,
+                      "slamAttack":  330,
                       "damagePerShot":  [
                                             0,
                                             33,
@@ -231,18 +220,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "heavyAttackDamage":  660,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  495,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  330,
-                      "windUp":  0.69999999,
-                      "slamRadius":  8,
-                      "slamAttack":  330,
-                      "heavySlamRadius":  9,
-                      "heavySlamAttack":  660
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  33,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  132,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  165,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/Melee/Tonfa/GrnChainSawTonfa/GrnChainSawTonfaWeapon"
@@ -255,7 +255,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Rend enemies and up the heat with these mining tools repurposed into machine-tonfa. Building the Combo Multiplier overheats the Tonkkatts, setting enemies ablaze.",
+    "id":  "weapon.tonkkatt",
     "release":  {
                     "releaseDate":  "2025-04-17",
                     "introduced":  {
@@ -276,9 +276,7 @@
                                      "madurai"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  1,
-                  "magazineSize":  null,
                   "fireRate":  1.0833334,
                   "critMultiplier":  2.0999999,
                   "totalDamage":  165,
@@ -288,10 +286,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0.23,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.20999998,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

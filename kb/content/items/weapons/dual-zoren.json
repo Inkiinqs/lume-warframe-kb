@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.dual-zoren",
+    "description":  "Short axes held in each hand. High attack speed and can hit multiple targets. Delivers a high percentage of critical strikes.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -136,30 +136,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  140,
                       "blockingAngle":  60,
+                      "heavySlamRadius":  9,
+                      "sentinel":  null,
+                      "stancePolarity":  "zenurik",
+                      "heavyAttackDamage":  280,
+                      "range":  2.3,
+                      "heavySlamRadialDamage":  210,
                       "followThrough":  0.5,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  3.5,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  3.5,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  63,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  70,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  280,
+                      "comboDuration":  5,
+                      "slideAttack":  140,
+                      "windUp":  0.69999999,
+                      "slamRadius":  8,
+                      "slamAttack":  140,
                       "damagePerShot":  [
                                             3.5,
                                             3.5,
@@ -182,18 +171,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.3,
-                      "heavyAttackDamage":  280,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  210,
-                      "stancePolarity":  "zenurik",
-                      "slideAttack":  140,
-                      "windUp":  0.69999999,
-                      "slamRadius":  8,
-                      "slamAttack":  140,
-                      "heavySlamRadius":  9,
-                      "heavySlamAttack":  280
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  3.5,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  3.5,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  63,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  70,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Axe/DualAxeWeapon"
@@ -206,7 +206,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Short axes held in each hand. High attack speed and can hit multiple targets. Delivers a high percentage of critical strikes.",
+    "id":  "weapon.dual-zoren",
     "release":  {
                     "releaseDate":  "2013-01-29",
                     "introduced":  {
@@ -229,9 +229,7 @@
                                      "vazarin"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  1.1666667,
                   "critMultiplier":  3,
                   "totalDamage":  70,
@@ -241,10 +239,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0.25,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.050000012,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

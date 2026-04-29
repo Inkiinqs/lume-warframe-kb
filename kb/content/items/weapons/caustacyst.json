@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.caustacyst",
+    "description":  "Heavy attacks from this scythe unleash a wave of acid that mutilates enemies and leaves a trail of corrosive sludge.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -163,30 +163,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  520,
                       "blockingAngle":  60,
+                      "heavySlamRadius":  9,
+                      "sentinel":  null,
+                      "stancePolarity":  "zenurik",
+                      "heavyAttackDamage":  1560,
+                      "range":  2.9000001,
+                      "heavySlamRadialDamage":  780,
                       "followThrough":  0.60000002,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  17,
-                                     "gas":  0,
-                                     "corrosive":  103,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  71,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  69,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  260,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  1300,
+                      "comboDuration":  5,
+                      "slideAttack":  520,
+                      "windUp":  1,
+                      "slamRadius":  8,
+                      "slamAttack":  780,
                       "damagePerShot":  [
                                             17,
                                             71,
@@ -209,18 +198,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.9000001,
-                      "heavyAttackDamage":  1560,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  780,
-                      "stancePolarity":  "zenurik",
-                      "slideAttack":  520,
-                      "windUp":  1,
-                      "slamRadius":  8,
-                      "slamAttack":  780,
-                      "heavySlamRadius":  9,
-                      "heavySlamAttack":  1300
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  17,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  103,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  71,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  69,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  260,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Infested/Melee/InfEmbolistScythe/InfestedScythe"
@@ -233,7 +233,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Heavy attacks from this scythe unleash a wave of acid that mutilates enemies and leaves a trail of corrosive sludge.",
+    "id":  "weapon.caustacyst",
     "release":  {
                     "releaseDate":  "2016-10-20",
                     "introduced":  {
@@ -255,9 +255,7 @@
                                      "madurai"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  4,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  2,
                   "totalDamage":  260,
@@ -267,10 +265,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0.090000004,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.37,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

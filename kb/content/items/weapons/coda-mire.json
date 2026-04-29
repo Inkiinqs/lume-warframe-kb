@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.coda-mire",
+    "description":  "The Plague Year of 1999 will never be the same. With improved Critical Multipler, Critical Chance, and Status Chance, the Technocyte virus has turned the Coda Mire into a truly horrifying blade.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -92,30 +92,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  470,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  8,
+                      "sentinel":  null,
+                      "stancePolarity":  "madurai",
+                      "heavyAttackDamage":  1175,
+                      "range":  2.7,
+                      "heavySlamRadialDamage":  705,
                       "followThrough":  0.60000002,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  45,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  45,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  66,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  235,
-                                     "toxin":  79,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  940,
+                      "comboDuration":  5,
+                      "slideAttack":  235,
+                      "windUp":  0.60000002,
+                      "slamRadius":  7,
+                      "slamAttack":  705,
                       "damagePerShot":  [
                                             45,
                                             45,
@@ -138,18 +127,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.7,
-                      "heavyAttackDamage":  1175,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  705,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  235,
-                      "windUp":  0.60000002,
-                      "slamRadius":  7,
-                      "slamAttack":  705,
-                      "heavySlamRadius":  8,
-                      "heavySlamAttack":  940
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  45,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  45,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  79,
+                                     "puncture":  66,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  235,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Infested/InfestedLich/Melee/CodaMire"
@@ -162,7 +162,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The Plague Year of 1999 will never be the same. With improved Critical Multipler, Critical Chance, and Status Chance, the Technocyte virus has turned the Coda Mire into a truly horrifying blade.",
+    "id":  "weapon.coda-mire",
     "release":  {
                     "releaseDate":  "2025-03-19",
                     "introduced":  {
@@ -183,9 +183,7 @@
                                      "vazarin"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  1,
-                  "magazineSize":  null,
                   "fireRate":  1.0833334,
                   "critMultiplier":  2.4000001,
                   "totalDamage":  235,
@@ -195,10 +193,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0.18000001,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.39999998,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

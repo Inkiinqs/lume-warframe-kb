@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.shaku",
+    "description":  "With these blazing fast nunchaku, the enemy will never know what hit them.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -129,30 +129,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  360,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  7,
+                      "sentinel":  null,
+                      "stancePolarity":  "vazarin",
+                      "heavyAttackDamage":  900,
+                      "range":  2.2079918,
+                      "heavySlamRadialDamage":  540,
                       "followThrough":  0.5,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  180,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  0,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  0,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  180,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  720,
+                      "comboDuration":  5,
+                      "slideAttack":  360,
+                      "windUp":  0.5,
+                      "slamRadius":  6,
+                      "slamAttack":  360,
                       "damagePerShot":  [
                                             180,
                                             0,
@@ -175,18 +164,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.2079918,
-                      "heavyAttackDamage":  900,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  540,
-                      "stancePolarity":  "vazarin",
-                      "slideAttack":  360,
-                      "windUp":  0.5,
-                      "slamRadius":  6,
-                      "slamAttack":  360,
-                      "heavySlamRadius":  7,
-                      "heavySlamAttack":  720
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  180,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  180,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Nunchaku/TnoNunchaku/TnoNunchaku"
@@ -199,7 +199,7 @@
     "relationships":  [
 
                       ],
-    "description":  "With these blazing fast nunchaku, the enemy will never know what hit them.",
+    "id":  "weapon.shaku",
     "release":  {
                     "releaseDate":  "2015-12-16",
                     "introduced":  {
@@ -221,9 +221,7 @@
                                      null
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  1.1666667,
                   "critMultiplier":  2,
                   "totalDamage":  180,
@@ -233,10 +231,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0.18000001,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.34000003,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

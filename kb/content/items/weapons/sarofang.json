@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.sarofang",
+    "description":  "Mete out the sharp pain of justice. Heavy Slam attacks create a vortex that pulls in lifted enemies when the Sarofang’s Combo Multiplier builds to 8x. In Voruna’s hands, the Sarofang only requires a 5x Combo Multiplier to summon the vortex.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -154,30 +154,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  400,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  9,
+                      "sentinel":  null,
+                      "stancePolarity":  "madurai",
+                      "heavyAttackDamage":  1200,
+                      "range":  2.5999999,
+                      "heavySlamRadialDamage":  600,
                       "followThrough":  0.60000002,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  80,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  8,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  112,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  200,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  1000,
+                      "comboDuration":  5,
+                      "slideAttack":  400,
+                      "windUp":  1.1,
+                      "slamRadius":  8,
+                      "slamAttack":  600,
                       "damagePerShot":  [
                                             80,
                                             8,
@@ -200,18 +189,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5999999,
-                      "heavyAttackDamage":  1200,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  600,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  400,
-                      "windUp":  1.1,
-                      "slamRadius":  8,
-                      "slamAttack":  600,
-                      "heavySlamRadius":  9,
-                      "heavySlamAttack":  1000
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  80,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  8,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  112,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  200,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Axe/WolfFrameAxeWeapon"
@@ -224,7 +224,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Mete out the sharp pain of justice. Heavy Slam attacks create a vortex that pulls in lifted enemies when the Sarofang’s Combo Multiplier builds to 8x. In Voruna’s hands, the Sarofang only requires a 5x Combo Multiplier to summon the vortex.",
+    "id":  "weapon.sarofang",
     "release":  {
                     "releaseDate":  "2022-11-30",
                     "introduced":  {
@@ -245,9 +245,7 @@
                                      "madurai"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  4,
-                  "magazineSize":  null,
                   "fireRate":  1.1666667,
                   "critMultiplier":  2,
                   "totalDamage":  200,
@@ -257,10 +255,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0.2,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.19999999,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

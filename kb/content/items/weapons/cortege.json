@@ -1,5 +1,5 @@
 {
-    "description":  "An ancient weapon designed by the Entrati for use by their Necramechs. Primary fire siphons life essence from the target to fuel a devastating secondary fire. A heavy flamethrower with surprising range. Secondary fire launches three projectiles in a fan pattern that explode, leaving a damaging area of effect for a short duration.",
+    "id":  "weapon.cortege",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -117,13 +117,12 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
+                                     "heat":  90,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -133,26 +132,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  90,
+                                     "radiation":  0,
                                      "total":  90,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -175,6 +164,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -188,7 +188,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.cortege",
+    "description":  "An ancient weapon designed by the Entrati for use by their Necramechs. Primary fire siphons life essence from the target to fuel a devastating secondary fire. A heavy flamethrower with surprising range. Secondary fire launches three projectiles in a fan pattern that explode, leaving a damaging area of effect for a short duration.",
     "release":  {
                     "releaseDate":  "2020-08-25",
                     "introduced":  {
@@ -212,7 +212,6 @@
                                  ],
                   "tradable":  false,
                   "disposition":  3,
-                  "magazineSize":  100,
                   "fireRate":  12.000001,
                   "critMultiplier":  1.9,
                   "totalDamage":  90,
@@ -222,8 +221,9 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Held",
                   "critChance":  0.2,
-                  "slot":  "archgun",
+                  "magazineSize":  100,
                   "masterable":  true,
+                  "slot":  "archgun",
                   "weaponClass":  "Arch-Gun",
                   "statusChance":  0.39999998,
                   "vaultDate":  null,

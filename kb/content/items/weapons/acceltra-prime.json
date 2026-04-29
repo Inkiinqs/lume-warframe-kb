@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.acceltra-prime",
+    "description":  "Engage your enemies with deadly speed. This weapon reloads even faster when its wielder sprints, faster still with Gauss.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -896,30 +896,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  44,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  42.400002,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  10.599999,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  97,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             44,
                                             42.400002,
@@ -942,18 +931,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  44,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  42.400002,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  10.599999,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  97,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/LongGuns/PrimeAcceltra/PrimeAcceltraWeapon"
@@ -966,7 +966,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Engage your enemies with deadly speed. This weapon reloads even faster when its wielder sprints, faster still with Gauss.",
+    "id":  "weapon.acceltra-prime",
     "release":  {
                     "releaseDate":  "2024-01-17",
                     "introduced":  {
@@ -988,9 +988,7 @@
                                      "madurai"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  "2025-12-10",
                   "disposition":  1,
-                  "magazineSize":  48,
                   "fireRate":  10.000001,
                   "critMultiplier":  3,
                   "totalDamage":  97,
@@ -1000,10 +998,12 @@
                   "estimatedVaultDate":  "2025-12-10",
                   "trigger":  "Auto",
                   "critChance":  0.34,
-                  "slot":  "primary",
+                  "magazineSize":  48,
                   "masterable":  true,
+                  "slot":  "primary",
                   "weaponClass":  "Rifle",
                   "statusChance":  0.18000001,
+                  "vaultDate":  "2025-12-10",
                   "multishot":  1
               }
 }

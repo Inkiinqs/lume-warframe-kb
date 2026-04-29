@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.bo-prime",
+    "description":  "A classic Orokin weapon, Bo Prime creates elegant fury on the battlefield.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -285,30 +285,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  352,
                       "blockingAngle":  60,
+                      "heavySlamRadius":  7,
+                      "sentinel":  null,
+                      "stancePolarity":  "unairu",
+                      "heavyAttackDamage":  880,
+                      "range":  3,
+                      "heavySlamRadialDamage":  528,
                       "followThrough":  0.5,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  158.39999,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  17.6,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  0,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  176,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  704,
+                      "comboDuration":  5,
+                      "slideAttack":  176,
+                      "windUp":  0.5,
+                      "slamRadius":  6,
+                      "slamAttack":  528,
                       "damagePerShot":  [
                                             158.39999,
                                             17.6,
@@ -331,18 +320,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  3,
-                      "heavyAttackDamage":  880,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  528,
-                      "stancePolarity":  "unairu",
-                      "slideAttack":  176,
-                      "windUp":  0.5,
-                      "slamRadius":  6,
-                      "slamAttack":  528,
-                      "heavySlamRadius":  7,
-                      "heavySlamAttack":  704
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  158.39999,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  17.6,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  176,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Staff/PrimeBo/PrimeBoWeapon"
@@ -355,7 +355,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A classic Orokin weapon, Bo Prime creates elegant fury on the battlefield.",
+    "id":  "weapon.bo-prime",
     "release":  {
                     "releaseDate":  "2014-06-11",
                     "introduced":  {
@@ -378,9 +378,7 @@
                                      "madurai"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  "2016-05-17",
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  1.0833334,
                   "critMultiplier":  2.5999999,
                   "totalDamage":  176,
@@ -390,10 +388,12 @@
                   "estimatedVaultDate":  "2016-05-17",
                   "trigger":  null,
                   "critChance":  0.23999999,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.31999999,
+                  "vaultDate":  "2016-05-17",
                   "multishot":  null
               }
 }

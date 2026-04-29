@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.tenet-exec",
+    "description":  "Leverage bleeding-edge Granum tech with this massive heavy blade. Slam sends forth a cascading set of three shockwaves, while Heavy Slam unleashes a swath of shockwaves.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -90,30 +90,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  380,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  4,
+                      "sentinel":  null,
+                      "stancePolarity":  "madurai",
+                      "heavyAttackDamage":  1140,
+                      "range":  2.8,
+                      "heavySlamRadialDamage":  570,
                       "followThrough":  0.60000002,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  102.60001,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  0,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  87.399994,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  190,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  950,
+                      "comboDuration":  5,
+                      "slideAttack":  380,
+                      "windUp":  1.1,
+                      "slamRadius":  4,
+                      "slamAttack":  570,
                       "damagePerShot":  [
                                             102.60001,
                                             0,
@@ -136,18 +125,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.8,
-                      "heavyAttackDamage":  1140,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  570,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  380,
-                      "windUp":  1.1,
-                      "slamRadius":  4,
-                      "slamAttack":  570,
-                      "heavySlamRadius":  4,
-                      "heavySlamAttack":  950
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  102.60001,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  87.399994,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  190,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Swords/CrpBigSlash/CrpBigSlash"
@@ -160,7 +160,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Leverage bleeding-edge Granum tech with this massive heavy blade. Slam sends forth a cascading set of three shockwaves, while Heavy Slam unleashes a swath of shockwaves.",
+    "id":  "weapon.tenet-exec",
     "release":  {
                     "releaseDate":  "2021-07-06",
                     "introduced":  {
@@ -181,9 +181,7 @@
                                      null
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  2,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  2.4000001,
                   "totalDamage":  190,
@@ -193,10 +191,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0.38,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.22000003,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

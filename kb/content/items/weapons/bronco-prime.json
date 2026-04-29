@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.bronco-prime",
+    "description":  "Infused with rare Orokin alloys, the Bronco Prime is a highly efficient weapon, trading an increased Magazine Capacity and damage for a lower rate of fire.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -2741,30 +2741,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  40,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  5,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  4.9999981,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  50,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             40,
                                             5,
@@ -2787,18 +2776,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  40,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  5,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  4.9999981,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  50,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Pistol/BroncoPrime"
@@ -2811,7 +2811,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Infused with rare Orokin alloys, the Bronco Prime is a highly efficient weapon, trading an increased Magazine Capacity and damage for a lower rate of fire.",
+    "id":  "weapon.bronco-prime",
     "release":  {
                     "releaseDate":  "2013-07-13",
                     "introduced":  {
@@ -2834,9 +2834,7 @@
                                      null
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  5,
-                  "magazineSize":  4,
                   "fireRate":  4.166667,
                   "critMultiplier":  2,
                   "totalDamage":  50,
@@ -2846,10 +2844,12 @@
                   "estimatedVaultDate":  "2015-04-13",
                   "trigger":  "Semi",
                   "critChance":  0.059999999,
-                  "slot":  "secondary",
+                  "magazineSize":  4,
                   "masterable":  true,
+                  "slot":  "secondary",
                   "weaponClass":  "Pistol",
                   "statusChance":  0.12857145,
+                  "vaultDate":  null,
                   "multishot":  7
               }
 }

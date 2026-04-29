@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.sibear",
+    "description":  "Ice in motion can crush mountains, this frozen hammer is no different.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -127,30 +127,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  540,
                       "blockingAngle":  50,
+                      "heavySlamRadius":  10,
+                      "sentinel":  null,
+                      "stancePolarity":  "madurai",
+                      "heavyAttackDamage":  1620,
+                      "range":  2.5999999,
+                      "heavySlamRadialDamage":  810,
                       "followThrough":  0.40000001,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  70,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  20,
-                                     "magnetic":  0,
-                                     "cold":  130,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  50,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  270,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  1350,
+                      "comboDuration":  5,
+                      "slideAttack":  540,
+                      "windUp":  1.2,
+                      "slamRadius":  9,
+                      "slamAttack":  810,
                       "damagePerShot":  [
                                             70,
                                             20,
@@ -173,18 +162,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5999999,
-                      "heavyAttackDamage":  1620,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  810,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  540,
-                      "windUp":  1.2,
-                      "slamRadius":  9,
-                      "slamAttack":  810,
-                      "heavySlamRadius":  10,
-                      "heavySlamAttack":  1350
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  70,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  20,
+                                     "magnetic":  0,
+                                     "cold":  130,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  50,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  270,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Hammer/IceHammer/IceHammer"
@@ -197,7 +197,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Ice in motion can crush mountains, this frozen hammer is no different.",
+    "id":  "weapon.sibear",
     "release":  {
                     "releaseDate":  "2016-04-06",
                     "introduced":  {
@@ -219,9 +219,7 @@
                                      "vazarin"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  2,
                   "totalDamage":  270,
@@ -231,10 +229,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0.15000001,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.30000001,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

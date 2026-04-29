@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.gunsen-prime",
+    "description":  "Command the beauty and lethality of these ornate warfans.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -640,30 +640,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  450,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  6,
+                      "sentinel":  null,
+                      "stancePolarity":  "naramon",
+                      "heavyAttackDamage":  900,
+                      "range":  1.9,
+                      "heavySlamRadialDamage":  675,
                       "followThrough":  0.69999999,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  9,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  13.5,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  202.5,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  225,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  225,
+                      "comboDuration":  5,
+                      "slideAttack":  225,
+                      "windUp":  0.5,
+                      "slamRadius":  5,
+                      "slamAttack":  450,
                       "damagePerShot":  [
                                             9,
                                             13.5,
@@ -686,18 +675,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.9,
-                      "heavyAttackDamage":  900,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  675,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  225,
-                      "windUp":  0.5,
-                      "slamRadius":  5,
-                      "slamAttack":  450,
-                      "heavySlamRadius":  6,
-                      "heavySlamAttack":  225
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  9,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  13.5,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  202.5,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  225,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Warfan/PrimeGunsen/PrimeGunsenWeapon"
@@ -710,7 +710,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Command the beauty and lethality of these ornate warfans.",
+    "id":  "weapon.gunsen-prime",
     "release":  {
                     "releaseDate":  "2023-07-27",
                     "introduced":  {
@@ -732,9 +732,7 @@
                                      "madurai"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  "2025-05-21",
                   "disposition":  3,
-                  "magazineSize":  null,
                   "fireRate":  1.1666667,
                   "critMultiplier":  2,
                   "totalDamage":  225,
@@ -744,10 +742,12 @@
                   "estimatedVaultDate":  "2025-05-21",
                   "trigger":  null,
                   "critChance":  0.2,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.34000003,
+                  "vaultDate":  "2025-05-21",
                   "multishot":  null
               }
 }

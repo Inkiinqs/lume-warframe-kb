@@ -1,5 +1,5 @@
 {
-    "description":  "When fully charged, this flak cannon delivers a devastating shot. Perfect for taking down fast-moving interceptors.",
+    "id":  "weapon.corvas",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -133,13 +133,12 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  400,
+                                     "heat":  480,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -149,26 +148,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  480,
+                                     "radiation":  0,
                                      "total":  880,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             400,
                                             0,
@@ -191,6 +180,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -204,7 +204,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.corvas",
+    "description":  "When fully charged, this flak cannon delivers a devastating shot. Perfect for taking down fast-moving interceptors.",
     "release":  {
                     "releaseDate":  "2014-10-24",
                     "introduced":  {
@@ -229,7 +229,6 @@
                                  ],
                   "tradable":  false,
                   "disposition":  4,
-                  "magazineSize":  25,
                   "fireRate":  2,
                   "critMultiplier":  2.5999999,
                   "totalDamage":  880,
@@ -239,8 +238,9 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Charge",
                   "critChance":  0.40000001,
-                  "slot":  "archgun",
+                  "magazineSize":  25,
                   "masterable":  true,
+                  "slot":  "archgun",
                   "weaponClass":  "Arch-Gun",
                   "statusChance":  0.13,
                   "vaultDate":  null,

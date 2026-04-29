@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.venato-prime",
+    "description":  "Fashioned from the willingly donated bone of the Sentient Ur-Hatho and embellished by Orokin luxurator Sembik Vol, Venato Prime was to be wielded against “common enemies” of the united peoples – had any ever emerged from the darkness beyond Tau.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -342,30 +342,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  490,
                       "blockingAngle":  60,
+                      "heavySlamRadius":  9,
+                      "sentinel":  null,
+                      "stancePolarity":  "zenurik",
+                      "heavyAttackDamage":  1470,
+                      "range":  2.8,
+                      "heavySlamRadialDamage":  735,
                       "followThrough":  0.60000002,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  36.75,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  122.5,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  85.750008,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  245,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  1225,
+                      "comboDuration":  5,
+                      "slideAttack":  490,
+                      "windUp":  1,
+                      "slamRadius":  8,
+                      "slamAttack":  735,
                       "damagePerShot":  [
                                             36.75,
                                             122.5,
@@ -388,18 +377,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.8,
-                      "heavyAttackDamage":  1470,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  735,
-                      "stancePolarity":  "zenurik",
-                      "slideAttack":  490,
-                      "windUp":  1,
-                      "slamRadius":  8,
-                      "slamAttack":  735,
-                      "heavySlamRadius":  9,
-                      "heavySlamAttack":  1225
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  36.75,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  122.5,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  85.750008,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  245,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Scythe/PrimeVento/PrimeVentoScythe"
@@ -412,7 +412,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Fashioned from the willingly donated bone of the Sentient Ur-Hatho and embellished by Orokin luxurator Sembik Vol, Venato Prime was to be wielded against “common enemies” of the united peoples – had any ever emerged from the darkness beyond Tau.",
+    "id":  "weapon.venato-prime",
     "release":  {
                     "releaseDate":  "2025-08-26",
                     "introduced":  {
@@ -433,9 +433,7 @@
                                      "madurai"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  1,
-                  "magazineSize":  null,
                   "fireRate":  1.1666667,
                   "critMultiplier":  2.3,
                   "totalDamage":  245,
@@ -445,10 +443,12 @@
                   "estimatedVaultDate":  "2027-05-26",
                   "trigger":  null,
                   "critChance":  0.34,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.31999999,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

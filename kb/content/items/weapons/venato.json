@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.venato",
+    "description":  "Caliban’s signature scythe, forged from a limb wrenched off a fallen Eidolon centuries ago. 50% increased Melee Combo Counter Chance when wielded by Caliban.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -131,30 +131,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  440,
                       "blockingAngle":  90,
+                      "heavySlamRadius":  9,
+                      "sentinel":  null,
+                      "stancePolarity":  "zenurik",
+                      "heavyAttackDamage":  1320,
+                      "range":  2.7,
+                      "heavySlamRadialDamage":  660,
                       "followThrough":  0.60000002,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  33,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  110,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  77.000008,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  220,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  880,
+                      "comboDuration":  5,
+                      "slideAttack":  440,
+                      "windUp":  1,
+                      "slamRadius":  8,
+                      "slamAttack":  660,
                       "damagePerShot":  [
                                             33,
                                             110,
@@ -177,18 +166,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.7,
-                      "heavyAttackDamage":  1320,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  660,
-                      "stancePolarity":  "zenurik",
-                      "slideAttack":  440,
-                      "windUp":  1,
-                      "slamRadius":  8,
-                      "slamAttack":  660,
-                      "heavySlamRadius":  9,
-                      "heavySlamAttack":  880
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  33,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  110,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  77.000008,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  220,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Sentients/SentJointedScythe/SentJointedScytheWeapon"
@@ -201,7 +201,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Caliban’s signature scythe, forged from a limb wrenched off a fallen Eidolon centuries ago. 50% increased Melee Combo Counter Chance when wielded by Caliban.",
+    "id":  "weapon.venato",
     "release":  {
                     "releaseDate":  "2021-12-15",
                     "introduced":  {
@@ -224,9 +224,7 @@
                                      null
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  4,
-                  "magazineSize":  null,
                   "fireRate":  1.0833334,
                   "critMultiplier":  2.0999999,
                   "totalDamage":  220,
@@ -236,10 +234,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0.27000001,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Rifle",
                   "statusChance":  0.24000001,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

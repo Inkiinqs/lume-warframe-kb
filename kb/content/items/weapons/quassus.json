@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.quassus",
+    "description":  "Flick away the enemy with this heavy warfan. The Quassus scatters ethereal daggers that are even more deadly accurate when wielded by Xaku.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -184,30 +184,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  460,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  6,
+                      "sentinel":  null,
+                      "stancePolarity":  "naramon",
+                      "heavyAttackDamage":  920,
+                      "range":  1.7,
+                      "heavySlamRadialDamage":  690,
                       "followThrough":  0.69999999,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  27.599998,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  46,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  156.40001,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  230,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  230,
+                      "comboDuration":  5,
+                      "slideAttack":  230,
+                      "windUp":  0.5,
+                      "slamRadius":  5,
+                      "slamAttack":  460,
                       "damagePerShot":  [
                                             27.599998,
                                             46,
@@ -230,18 +219,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.7,
-                      "heavyAttackDamage":  920,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  690,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  230,
-                      "windUp":  0.5,
-                      "slamRadius":  5,
-                      "slamAttack":  460,
-                      "heavySlamRadius":  6,
-                      "heavySlamAttack":  230
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  27.599998,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  46,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  156.40001,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  230,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Warfan/TnBrokenFrameWarfan/TnBrokenFrameWarfanWeapon"
@@ -254,7 +254,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Flick away the enemy with this heavy warfan. The Quassus scatters ethereal daggers that are even more deadly accurate when wielded by Xaku.",
+    "id":  "weapon.quassus",
     "release":  {
                     "releaseDate":  "2020-08-25",
                     "introduced":  {
@@ -277,9 +277,7 @@
                                      null
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  4,
-                  "magazineSize":  null,
                   "fireRate":  0.83333337,
                   "critMultiplier":  2,
                   "totalDamage":  230,
@@ -289,10 +287,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0.30000001,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.12,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

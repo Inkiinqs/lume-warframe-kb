@@ -1,5 +1,5 @@
 {
-    "description":  "Blast through enemies with a double-barreled shot of energized slugs. This siphons their life essence which is then used to generate the secondary fire\u0027s massive air-burst mortar. The ancient Entrati weapon was built for Necramechs but also functions as an Archgun.",
+    "id":  "weapon.morgha",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -138,13 +138,12 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  32,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -154,26 +153,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  196,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  164,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             32,
                                             0,
@@ -196,6 +185,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -209,7 +209,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.morgha",
+    "description":  "Blast through enemies with a double-barreled shot of energized slugs. This siphons their life essence which is then used to generate the secondary fire\u0027s massive air-burst mortar. The ancient Entrati weapon was built for Necramechs but also functions as an Archgun.",
     "release":  {
                     "releaseDate":  "2020-11-19",
                     "introduced":  {
@@ -232,7 +232,6 @@
                                  ],
                   "tradable":  false,
                   "disposition":  3,
-                  "magazineSize":  100,
                   "fireRate":  6.0000005,
                   "critMultiplier":  2.2,
                   "totalDamage":  196,
@@ -242,8 +241,9 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Auto Burst",
                   "critChance":  0.30000001,
-                  "slot":  "archgun",
+                  "magazineSize":  100,
                   "masterable":  true,
+                  "slot":  "archgun",
                   "weaponClass":  "Arch-Gun",
                   "statusChance":  0.27999997,
                   "vaultDate":  null,

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.gram",
+    "description":  "The heavy two-handed sword known as Gram requires great strength to wield, but it is notorious for its splitting power. Can hit multiple targets with each strike.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -136,30 +136,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  320,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  9,
+                      "sentinel":  null,
+                      "stancePolarity":  "madurai",
+                      "heavyAttackDamage":  960,
+                      "range":  2.8,
+                      "heavySlamRadialDamage":  480,
                       "followThrough":  0.60000002,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  24,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  24,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  112,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  160,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  800,
+                      "comboDuration":  5,
+                      "slideAttack":  320,
+                      "windUp":  1.1,
+                      "slamRadius":  8,
+                      "slamAttack":  480,
                       "damagePerShot":  [
                                             24,
                                             24,
@@ -182,18 +171,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.8,
-                      "heavyAttackDamage":  960,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  480,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  320,
-                      "windUp":  1.1,
-                      "slamRadius":  8,
-                      "slamAttack":  480,
-                      "heavySlamRadius":  9,
-                      "heavySlamAttack":  800
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  24,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  24,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  112,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  160,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/GreatSword/GreatSword"
@@ -206,7 +206,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The heavy two-handed sword known as Gram requires great strength to wield, but it is notorious for its splitting power. Can hit multiple targets with each strike.",
+    "id":  "weapon.gram",
     "release":  {
                     "releaseDate":  "2013-02-08",
                     "introduced":  {
@@ -227,9 +227,7 @@
                                      null
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  0.95000005,
                   "critMultiplier":  2,
                   "totalDamage":  160,
@@ -239,10 +237,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0.15000001,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.14999998,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

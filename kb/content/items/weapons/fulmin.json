@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.fulmin",
+    "description":  "Strike with silent lightning or the pummeling drum of thunder. Alternate between stealthy short-range electrical discharge, and automatic lightning gun. Faster mode-switch when used by Wisp.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -117,30 +117,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  100,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  400,
-                                     "true":  0,
-                                     "slash":  0,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  0,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  500,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             100,
                                             0,
@@ -163,18 +152,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  100,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  400,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  500,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/LongGuns/TnWispRifle/TnWispRifle"
@@ -187,7 +187,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Strike with silent lightning or the pummeling drum of thunder. Alternate between stealthy short-range electrical discharge, and automatic lightning gun. Faster mode-switch when used by Wisp.",
+    "id":  "weapon.fulmin",
     "release":  {
                     "releaseDate":  "2019-05-22",
                     "introduced":  {
@@ -210,9 +210,7 @@
                                      null
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  3,
-                  "magazineSize":  6,
                   "fireRate":  2.1666667,
                   "critMultiplier":  2.2,
                   "totalDamage":  500,
@@ -222,10 +220,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Semi",
                   "critChance":  0.30000001,
-                  "slot":  "primary",
+                  "magazineSize":  6,
                   "masterable":  true,
+                  "slot":  "primary",
                   "weaponClass":  "Rifle",
                   "statusChance":  0.15999997,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

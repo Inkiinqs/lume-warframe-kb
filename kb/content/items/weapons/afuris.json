@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.afuris",
+    "description":  "Furis pistols equipped in each hand. Twice the Magazine Capacity and slightly faster Fire Rate, but Accuracy and Reload Speed are lowered.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -99,30 +99,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  3,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  14,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  2.9999995,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  20,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             3,
                                             14,
@@ -145,18 +134,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  3,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  14,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  2.9999995,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  20,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Akimbo/AkimboAutoPistols"
@@ -169,7 +169,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Furis pistols equipped in each hand. Twice the Magazine Capacity and slightly faster Fire Rate, but Accuracy and Reload Speed are lowered.",
+    "id":  "weapon.afuris",
     "release":  {
                     "releaseDate":  "2013-01-10",
                     "introduced":  {
@@ -190,9 +190,7 @@
                                      "naramon"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  5,
-                  "magazineSize":  70,
                   "fireRate":  12.500001,
                   "critMultiplier":  2,
                   "totalDamage":  20,
@@ -202,10 +200,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Auto",
                   "critChance":  0.050000001,
-                  "slot":  "secondary",
+                  "magazineSize":  70,
                   "masterable":  true,
+                  "slot":  "secondary",
                   "weaponClass":  "Dual Pistols",
                   "statusChance":  0.12,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

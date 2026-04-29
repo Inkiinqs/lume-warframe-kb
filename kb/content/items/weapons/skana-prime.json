@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.skana-prime",
+    "description":  "A basic blade known as a Skana. It is widely used by the Tenno. Prime model offers slightly increased damage.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -91,30 +91,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  420,
                       "blockingAngle":  50,
+                      "heavySlamRadius":  7,
+                      "sentinel":  null,
+                      "stancePolarity":  "madurai",
+                      "heavyAttackDamage":  1050,
+                      "range":  2.5,
+                      "heavySlamRadialDamage":  630,
                       "followThrough":  0.60000002,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  31.500002,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  31.500002,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  147,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  210,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  840,
+                      "comboDuration":  5,
+                      "slideAttack":  210,
+                      "windUp":  0.60000002,
+                      "slamRadius":  7,
+                      "slamAttack":  630,
                       "damagePerShot":  [
                                             31.500002,
                                             31.500002,
@@ -137,18 +126,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "heavyAttackDamage":  1050,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  630,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  210,
-                      "windUp":  0.60000002,
-                      "slamRadius":  7,
-                      "slamAttack":  630,
-                      "heavySlamRadius":  7,
-                      "heavySlamAttack":  840
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  31.500002,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  31.500002,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  147,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  210,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/LongSword/SkanaPrime"
@@ -161,7 +161,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A basic blade known as a Skana. It is widely used by the Tenno. Prime model offers slightly increased damage.",
+    "id":  "weapon.skana-prime",
     "release":  {
                     "releaseDate":  "2012-12-18",
                     "introduced":  {
@@ -185,9 +185,7 @@
                                      "naramon"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  4,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  2.5999999,
                   "totalDamage":  210,
@@ -197,10 +195,12 @@
                   "estimatedVaultDate":  "2014-09-18",
                   "trigger":  null,
                   "critChance":  0.25999999,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.25999999,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

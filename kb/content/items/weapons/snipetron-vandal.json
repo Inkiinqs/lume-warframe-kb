@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.snipetron-vandal",
+    "description":  "A customized version of the elusive Snipetron, with metallic finish and Lotus decal.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -94,30 +94,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  10,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  180,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  10.000002,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  200,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             10,
                                             180,
@@ -140,18 +129,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  10,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  180,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  10.000002,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  200,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Rifle/VandalSniperRifle"
@@ -164,7 +164,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A customized version of the elusive Snipetron, with metallic finish and Lotus decal.",
+    "id":  "weapon.snipetron-vandal",
     "release":  {
                     "releaseDate":  "2013-07-08",
                     "introduced":  {
@@ -185,9 +185,7 @@
                                      "madurai"
                                  ],
                   "tradable":  true,
-                  "vaultDate":  null,
                   "disposition":  4,
-                  "magazineSize":  6,
                   "fireRate":  2,
                   "critMultiplier":  2,
                   "totalDamage":  200,
@@ -197,10 +195,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Semi",
                   "critChance":  0.28,
-                  "slot":  "primary",
+                  "magazineSize":  6,
                   "masterable":  true,
+                  "slot":  "primary",
                   "weaponClass":  "Sniper",
                   "statusChance":  0.15999997,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

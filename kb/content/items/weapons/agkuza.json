@@ -1,5 +1,5 @@
 {
-    "description":  "Tear apart incoming enemies with this massive hooked blade.",
+    "id":  "weapon.agkuza",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -102,13 +102,12 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  872,
-                      "slamRadius":  3,
                       "blockingAngle":  90,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  0.69999999,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  65.400002,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -118,26 +117,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  65.399986,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  435.99997,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  2.5,
-                      "heavyAttackDamage":  436,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  5,
-                      "slideAttack":  934,
-                      "windUp":  null,
-                      "followThrough":  0.69999999,
-                      "slamAttack":  436,
                       "damagePerShot":  [
                                             65.400002,
                                             305.19998,
@@ -160,6 +149,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  2.5,
+                      "heavyAttackDamage":  436,
+                      "sentinel":  null,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  934,
+                      "windUp":  null,
+                      "slamRadius":  3,
+                      "slamAttack":  436,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  436
                   },
     "aliases":  [
@@ -173,7 +173,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.agkuza",
+    "description":  "Tear apart incoming enemies with this massive hooked blade.",
     "release":  {
                     "releaseDate":  "2016-07-08",
                     "introduced":  {
@@ -197,7 +197,6 @@
                                  ],
                   "tradable":  false,
                   "disposition":  1,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  1.5,
                   "totalDamage":  435.99997,
@@ -207,8 +206,9 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0.050000001,
-                  "slot":  "archmelee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "archmelee",
                   "weaponClass":  "Arch-Melee",
                   "statusChance":  0.14999998,
                   "vaultDate":  null,

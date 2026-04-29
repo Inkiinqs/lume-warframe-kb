@@ -1,5 +1,5 @@
 {
-    "description":  "The Hek is a powerful shotgun that fires its shots with a tight spread, making it efficient at medium range as long as its strong recoil is properly managed.",
+    "id":  "weapon.hek",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -104,11 +104,14 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  11.25,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -118,17 +121,30 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  15.000004,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  75,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "relevantFormulas":  [
+                                               "formula.multishot",
+                                               "formula.critical-chance",
+                                               "formula.status-chance"
+                                           ],
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             11.25,
                                             48.75,
@@ -151,22 +167,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "relevantFormulas":  [
-                                               "formula.multishot",
-                                               "formula.critical-chance",
-                                               "formula.status-chance"
-                                           ],
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -180,7 +180,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.hek",
+    "description":  "The Hek is a powerful shotgun that fires its shots with a tight spread, making it efficient at medium range as long as its strong recoil is properly managed.",
     "release":  {
                     "releaseDate":  "2013-01-04",
                     "introduced":  {
@@ -201,10 +201,8 @@
                                      null
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "archetype":  "pellet-shotgun",
                   "disposition":  4,
-                  "magazineSize":  4,
                   "fireRate":  2.1666667,
                   "critMultiplier":  2,
                   "totalDamage":  75,
@@ -214,10 +212,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Semi",
                   "critChance":  0.1,
-                  "slot":  "primary",
+                  "magazineSize":  4,
                   "masterable":  true,
+                  "slot":  "primary",
                   "weaponClass":  "Shotgun",
                   "statusChance":  0.10714287,
+                  "vaultDate":  null,
                   "multishot":  7
               }
 }

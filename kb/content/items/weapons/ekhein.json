@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.ekhein",
+    "description":  "Wield the timeless power of this mighty hammer. Heavy Attacks performed with Ekhein temporarily increase its Damage and Attack Speed.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -129,30 +129,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  680,
                       "blockingAngle":  50,
+                      "heavySlamRadius":  10,
+                      "sentinel":  null,
+                      "stancePolarity":  "madurai",
+                      "heavyAttackDamage":  2040,
+                      "range":  2.8,
+                      "heavySlamRadialDamage":  1020,
                       "followThrough":  0.40000001,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  340,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  0,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  0,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  340,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  1700,
+                      "comboDuration":  5,
+                      "slideAttack":  680,
+                      "windUp":  1.2,
+                      "slamRadius":  9,
+                      "slamAttack":  1020,
                       "damagePerShot":  [
                                             340,
                                             0,
@@ -175,18 +164,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.8,
-                      "heavyAttackDamage":  2040,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  1020,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  680,
-                      "windUp":  1.2,
-                      "slamRadius":  9,
-                      "slamAttack":  1020,
-                      "heavySlamRadius":  10,
-                      "heavySlamAttack":  1700
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  340,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  340,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Thanotech/EntSphereHammer/EntSphereHammer"
@@ -199,7 +199,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Wield the timeless power of this mighty hammer. Heavy Attacks performed with Ekhein temporarily increase its Damage and Attack Speed.",
+    "id":  "weapon.ekhein",
     "release":  {
                     "releaseDate":  "2023-12-13",
                     "introduced":  {
@@ -222,9 +222,7 @@
                                      "madurai"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  4,
-                  "magazineSize":  null,
                   "fireRate":  0.76666671,
                   "critMultiplier":  2.4000001,
                   "totalDamage":  340,
@@ -234,10 +232,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0.30000001,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Rifle",
                   "statusChance":  0.14999998,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

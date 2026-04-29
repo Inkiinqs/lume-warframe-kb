@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.epitaph-prime",
+    "description":  "Send shivers down your enemies\u0027 spines with this wrist-mounted sidearm. As the signature weapon of Sevagoth Prime, it deals additional headshot damage when wielded by him.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -624,30 +624,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  126,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  47.25,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  141.75,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  315,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             126,
                                             47.25,
@@ -670,18 +659,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  126,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  47.25,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  141.75,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  315,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Pistols/PrimeEpitaph/PrimeEpitaphSidearmWeapon"
@@ -694,7 +694,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Send shivers down your enemies\u0027 spines with this wrist-mounted sidearm. As the signature weapon of Sevagoth Prime, it deals additional headshot damage when wielded by him.",
+    "id":  "weapon.epitaph-prime",
     "release":  {
                     "releaseDate":  "2024-08-21",
                     "introduced":  {
@@ -716,9 +716,7 @@
                                      "madurai"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  1,
-                  "magazineSize":  1,
                   "fireRate":  1.7500001,
                   "critMultiplier":  1.8,
                   "totalDamage":  315,
@@ -728,10 +726,12 @@
                   "estimatedVaultDate":  "2026-05-21",
                   "trigger":  "Charge",
                   "critChance":  0.039999999,
-                  "slot":  "secondary",
+                  "magazineSize":  1,
                   "masterable":  true,
+                  "slot":  "secondary",
                   "weaponClass":  "Pistol",
                   "statusChance":  0.13999999,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

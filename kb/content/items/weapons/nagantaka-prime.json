@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.nagantaka-prime",
+    "description":  "A golden version of Garuda’s versatile crossbow, as fashioned by the Orokin’s finest weaponsmiths. Alt-fire to let loose a barrage of bolts. All bolts have a chance to cause \u003cDT_SLASH_COLOR\u003eSlash Status, and Headshot kills have a chance to increase Reload Speed. When wielded by Garuda the Nagantaka gains a slight Punch Through.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -868,30 +868,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  1.73,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  15.570001,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  155.7,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  173,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             1.73,
                                             15.570001,
@@ -914,18 +903,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  1.73,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  15.570001,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  155.7,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  173,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/LongGuns/PrimeNagantaka/PrimeNagantakaWeapon"
@@ -938,7 +938,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A golden version of Garuda’s versatile crossbow, as fashioned by the Orokin’s finest weaponsmiths. Alt-fire to let loose a barrage of bolts. All bolts have a chance to cause \u003cDT_SLASH_COLOR\u003eSlash Status, and Headshot kills have a chance to increase Reload Speed. When wielded by Garuda the Nagantaka gains a slight Punch Through.",
+    "id":  "weapon.nagantaka-prime",
     "release":  {
                     "releaseDate":  "2022-03-28",
                     "introduced":  {
@@ -959,9 +959,7 @@
                                      "madurai"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  "2024-01-17",
                   "disposition":  4,
-                  "magazineSize":  11,
                   "fireRate":  2.5000002,
                   "critMultiplier":  2.3,
                   "totalDamage":  173,
@@ -971,10 +969,12 @@
                   "estimatedVaultDate":  "2024-01-17",
                   "trigger":  "Semi",
                   "critChance":  0.25,
-                  "slot":  "primary",
+                  "magazineSize":  11,
                   "masterable":  true,
+                  "slot":  "primary",
                   "weaponClass":  "Rifle",
                   "statusChance":  0.38999999,
+                  "vaultDate":  "2024-01-17",
                   "multishot":  1
               }
 }

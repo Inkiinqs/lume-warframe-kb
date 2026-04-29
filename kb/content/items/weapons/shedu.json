@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.shedu",
+    "description":  "This arm-cannon, ripped from a Sentient, rapid-fires thermal pulses that explode in an electrical blast. Features an ammo-less quick charge capacitor, that emits a knock-back pulse and strips Sentient damage resistances when fully discharged.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -140,30 +140,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  0,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  87,
-                                     "true":  0,
-                                     "slash":  0,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  0,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  71,
-                                     "total":  158,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -186,18 +175,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  0,
+                                     "heat":  71,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  87,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  158,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Sentients/Shedu/SheduHeavyWeapon"
@@ -210,7 +210,7 @@
     "relationships":  [
 
                       ],
-    "description":  "This arm-cannon, ripped from a Sentient, rapid-fires thermal pulses that explode in an electrical blast. Features an ammo-less quick charge capacitor, that emits a knock-back pulse and strips Sentient damage resistances when fully discharged.",
+    "id":  "weapon.shedu",
     "release":  {
                     "releaseDate":  "2019-12-13",
                     "introduced":  {
@@ -234,9 +234,7 @@
                                      "madurai"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  1,
-                  "magazineSize":  7,
                   "fireRate":  2.5000002,
                   "critMultiplier":  2.0999999,
                   "totalDamage":  158,
@@ -246,10 +244,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Auto",
                   "critChance":  0.25,
-                  "slot":  "primary",
+                  "magazineSize":  7,
                   "masterable":  true,
+                  "slot":  "primary",
                   "weaponClass":  "Rifle",
                   "statusChance":  0.23000002,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

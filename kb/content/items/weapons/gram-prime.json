@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.gram-prime",
+    "description":  "Born anew, the father of swords returns.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -650,30 +650,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  600,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  9,
+                      "sentinel":  null,
+                      "stancePolarity":  "vazarin",
+                      "heavyAttackDamage":  1800,
+                      "range":  2.9000001,
+                      "heavySlamRadialDamage":  900,
                       "followThrough":  0.60000002,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  60,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  15,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  225,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  300,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  300,
+                      "comboDuration":  5,
+                      "slideAttack":  600,
+                      "windUp":  1.1,
+                      "slamRadius":  8,
+                      "slamAttack":  900,
                       "damagePerShot":  [
                                             60,
                                             15,
@@ -696,18 +685,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.9000001,
-                      "heavyAttackDamage":  1800,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  900,
-                      "stancePolarity":  "vazarin",
-                      "slideAttack":  600,
-                      "windUp":  1.1,
-                      "slamRadius":  8,
-                      "slamAttack":  900,
-                      "heavySlamRadius":  9,
-                      "heavySlamAttack":  300
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  60,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  15,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  225,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  300,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Swords/PrimeGram/PrimeGram"
@@ -720,7 +720,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Born anew, the father of swords returns.",
+    "id":  "weapon.gram-prime",
     "release":  {
                     "releaseDate":  "2018-09-25",
                     "introduced":  {
@@ -743,9 +743,7 @@
                                      "madurai"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  "2020-07-14",
                   "disposition":  1,
-                  "magazineSize":  null,
                   "fireRate":  0.80000007,
                   "critMultiplier":  2.5999999,
                   "totalDamage":  300,
@@ -755,10 +753,12 @@
                   "estimatedVaultDate":  "2020-07-14",
                   "trigger":  null,
                   "critChance":  0.31999999,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.31999999,
+                  "vaultDate":  "2020-07-14",
                   "multishot":  null
               }
 }

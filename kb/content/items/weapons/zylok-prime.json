@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.zylok-prime",
+    "description":  "A lightweight weapon that packs a punch worthy of its golden design.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -703,30 +703,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  63.000004,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  21,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  126.00001,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  210,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             63.000004,
                                             21,
@@ -749,18 +738,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  63.000004,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  21,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  126.00001,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  210,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Pistols/PrimeZylok/ZylokPrimePistol"
@@ -773,7 +773,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A lightweight weapon that packs a punch worthy of its golden design.",
+    "id":  "weapon.zylok-prime",
     "release":  {
                     "releaseDate":  "2023-10-18",
                     "introduced":  {
@@ -797,9 +797,7 @@
                                      "madurai"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  "2025-08-26",
                   "disposition":  3,
-                  "magazineSize":  12,
                   "fireRate":  1.5000001,
                   "critMultiplier":  2.4000001,
                   "totalDamage":  210,
@@ -809,10 +807,12 @@
                   "estimatedVaultDate":  "2025-08-26",
                   "trigger":  "Duplex",
                   "critChance":  0.12,
-                  "slot":  "secondary",
+                  "magazineSize":  12,
                   "masterable":  true,
+                  "slot":  "secondary",
                   "weaponClass":  "Pistol",
                   "statusChance":  0.36000001,
+                  "vaultDate":  "2025-08-26",
                   "multishot":  1
               }
 }

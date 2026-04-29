@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.onos",
+    "description":  "Albrecht\u0027s Void experiments revealed the true destructive potential of this weapon. In Incarnon form, draw in ambient power to deal steadily increased damage to enemies. At full power, release a blast of \u003cDT_FIRE_COLOR\u003eHeat.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -144,30 +144,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  0,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  220,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  0,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  220,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             220,
@@ -190,18 +179,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  220,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  220,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Thanotech/EntratiWristGun/EntratiWristGunWeapon"
@@ -214,7 +214,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Albrecht\u0027s Void experiments revealed the true destructive potential of this weapon. In Incarnon form, draw in ambient power to deal steadily increased damage to enemies. At full power, release a blast of \u003cDT_FIRE_COLOR\u003eHeat.",
+    "id":  "weapon.onos",
     "release":  {
                     "releaseDate":  "2024-03-27",
                     "introduced":  {
@@ -235,9 +235,7 @@
                                      "madurai"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  2,
-                  "magazineSize":  20,
                   "fireRate":  1.4000001,
                   "critMultiplier":  2.4000001,
                   "totalDamage":  220,
@@ -247,10 +245,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Auto",
                   "critChance":  0.25999999,
-                  "slot":  "secondary",
+                  "magazineSize":  20,
                   "masterable":  true,
+                  "slot":  "secondary",
                   "weaponClass":  "Pistol",
                   "statusChance":  0.22000003,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

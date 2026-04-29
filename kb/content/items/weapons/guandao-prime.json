@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.guandao-prime",
+    "description":  "That a god might reap a harvest of lives.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -678,30 +678,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  480,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  9,
+                      "sentinel":  null,
+                      "stancePolarity":  "zenurik",
+                      "heavyAttackDamage":  1440,
+                      "range":  3,
+                      "heavySlamRadialDamage":  720,
                       "followThrough":  0.60000002,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  60,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  12,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  168,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  240,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  1200,
+                      "comboDuration":  6,
+                      "slideAttack":  480,
+                      "windUp":  0.90000004,
+                      "slamRadius":  7,
+                      "slamAttack":  720,
                       "damagePerShot":  [
                                             60,
                                             12,
@@ -724,18 +713,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  3,
-                      "heavyAttackDamage":  1440,
-                      "sentinel":  null,
-                      "comboDuration":  6,
-                      "heavySlamRadialDamage":  720,
-                      "stancePolarity":  "zenurik",
-                      "slideAttack":  480,
-                      "windUp":  0.90000004,
-                      "slamRadius":  7,
-                      "slamAttack":  720,
-                      "heavySlamRadius":  9,
-                      "heavySlamAttack":  1200
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  60,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  12,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  168,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  240,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Polearms/PrimeGuandao/PrimeGuandaoWeapon"
@@ -748,7 +748,7 @@
     "relationships":  [
 
                       ],
-    "description":  "That a god might reap a harvest of lives.",
+    "id":  "weapon.guandao-prime",
     "release":  {
                     "releaseDate":  "2020-10-27",
                     "introduced":  {
@@ -772,9 +772,7 @@
                                      "madurai"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  "2022-10-05",
                   "disposition":  1,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  2.4000001,
                   "totalDamage":  240,
@@ -784,10 +782,12 @@
                   "estimatedVaultDate":  "2022-10-05",
                   "trigger":  null,
                   "critChance":  0.31999999,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.19999999,
+                  "vaultDate":  "2022-10-05",
                   "multishot":  null
               }
 }

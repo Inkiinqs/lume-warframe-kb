@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.galvacord",
+    "description":  "Shock and maim with this heavyweight retractable whip.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -132,30 +132,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  420,
                       "blockingAngle":  45,
+                      "heavySlamRadius":  6,
+                      "sentinel":  null,
+                      "stancePolarity":  "vazarin",
+                      "heavyAttackDamage":  945,
+                      "range":  2.6963859,
+                      "heavySlamRadialDamage":  630,
                       "followThrough":  0.5,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  12,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  96,
-                                     "true":  0,
-                                     "slash":  38,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  64,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  210,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  735,
+                      "comboDuration":  5,
+                      "slideAttack":  420,
+                      "windUp":  0.40000001,
+                      "slamRadius":  5,
+                      "slamAttack":  630,
                       "damagePerShot":  [
                                             12,
                                             38,
@@ -178,18 +167,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.6963859,
-                      "heavyAttackDamage":  945,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  630,
-                      "stancePolarity":  "vazarin",
-                      "slideAttack":  420,
-                      "windUp":  0.40000001,
-                      "slamRadius":  5,
-                      "slamAttack":  630,
-                      "heavySlamRadius":  6,
-                      "heavySlamAttack":  735
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  12,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  96,
+                                     "true":  0,
+                                     "slash":  38,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  64,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  210,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Corpus/Melee/Whips/CrpShockGrip/CrpShockGripWhipWeapon"
@@ -202,7 +202,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Shock and maim with this heavyweight retractable whip.",
+    "id":  "weapon.galvacord",
     "release":  {
                     "releaseDate":  "2018-12-18",
                     "introduced":  {
@@ -224,9 +224,7 @@
                                      null
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  0.75000006,
                   "critMultiplier":  1.8,
                   "totalDamage":  210,
@@ -236,10 +234,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0.12,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.30000001,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

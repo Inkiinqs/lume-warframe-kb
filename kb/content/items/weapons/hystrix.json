@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.hystrix",
+    "description":  "Heat, cold, electricity, or toxin: choose an element and launch a flurry of deadly quills. This versatile sidearm is Khora’s signature weapon and has a chance to instantly reload after headshots when she wields it.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -163,30 +163,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  2.1599998,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  30.960001,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  2.8799994,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  36.000004,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             2.1599998,
                                             30.960001,
@@ -209,18 +198,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  2.1599998,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  30.960001,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  2.8799994,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  36.000004,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Pistols/QuillDartgun/QuillDartGunWeapon"
@@ -233,7 +233,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Heat, cold, electricity, or toxin: choose an element and launch a flurry of deadly quills. This versatile sidearm is Khora’s signature weapon and has a chance to instantly reload after headshots when she wields it.",
+    "id":  "weapon.hystrix",
     "release":  {
                     "releaseDate":  "2018-04-20",
                     "introduced":  {
@@ -257,9 +257,7 @@
                                      "madurai"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  4,
-                  "magazineSize":  16,
                   "fireRate":  7.0000005,
                   "critMultiplier":  2.2,
                   "totalDamage":  36.000004,
@@ -269,10 +267,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Auto",
                   "critChance":  0.23999999,
-                  "slot":  "secondary",
+                  "magazineSize":  16,
                   "masterable":  true,
+                  "slot":  "secondary",
                   "weaponClass":  "Pistol",
                   "statusChance":  0.10000002,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

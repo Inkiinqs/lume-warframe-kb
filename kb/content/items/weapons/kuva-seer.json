@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.kuva-seer",
+    "description":  "This variant pistol has higher fire rate and magazine capacity. Superior zoom capabilities plus projectiles have a small Corrosive burst.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -77,30 +77,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  26.200001,
-                                     "gas":  0,
-                                     "corrosive":  69,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  68.119995,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  36.680004,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  200,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             26.200001,
                                             68.119995,
@@ -123,18 +112,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  26.200001,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  69,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  68.119995,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  36.680004,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  200,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Seer/KuvaSeer"
@@ -147,7 +147,7 @@
     "relationships":  [
 
                       ],
-    "description":  "This variant pistol has higher fire rate and magazine capacity. Superior zoom capabilities plus projectiles have a small Corrosive burst.",
+    "id":  "weapon.kuva-seer",
     "release":  {
                     "releaseDate":  "2019-10-31",
                     "introduced":  {
@@ -170,9 +170,7 @@
                                      null
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  3,
-                  "magazineSize":  9,
                   "fireRate":  2.5000002,
                   "critMultiplier":  1.9,
                   "totalDamage":  200,
@@ -182,10 +180,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Semi",
                   "critChance":  0.20999999,
-                  "slot":  "secondary",
+                  "magazineSize":  9,
                   "masterable":  true,
+                  "slot":  "secondary",
                   "weaponClass":  "Pistol",
                   "statusChance":  0.33000004,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

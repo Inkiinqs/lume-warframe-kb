@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.prisma-grakata",
+    "description":  "Encased in plates refined from pure prisma crystals, this rare element gives this assault rifle a radiant luster.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -59,30 +59,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  6,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  4.9999948,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  4.0000052,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  15,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             6,
                                             4.9999948,
@@ -105,18 +94,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  6,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  4.9999948,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  4.0000052,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  15,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/VoidTrader/PrismaGrakata"
@@ -129,7 +129,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Encased in plates refined from pure prisma crystals, this rare element gives this assault rifle a radiant luster.",
+    "id":  "weapon.prisma-grakata",
     "release":  {
                     "releaseDate":  "2015-06-12",
                     "introduced":  {
@@ -150,9 +150,7 @@
                                      null
                                  ],
                   "tradable":  true,
-                  "vaultDate":  null,
                   "disposition":  4,
-                  "magazineSize":  120,
                   "fireRate":  21.666668,
                   "critMultiplier":  2.5,
                   "totalDamage":  15,
@@ -162,10 +160,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Auto",
                   "critChance":  0.25,
-                  "slot":  "primary",
+                  "magazineSize":  120,
                   "masterable":  true,
+                  "slot":  "primary",
                   "weaponClass":  "Rifle",
                   "statusChance":  0.20999998,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

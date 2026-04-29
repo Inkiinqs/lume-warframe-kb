@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.coda-caustacyst",
+    "description":  "The Coda Caustacyst scythe is a force to be reckoned with, the Technocyte virus honing it with improved Damage, Status Chance, and Critical Damage, as well as acid pools with longer duration.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -123,30 +123,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  570,
                       "blockingAngle":  60,
+                      "heavySlamRadius":  9,
+                      "sentinel":  null,
+                      "stancePolarity":  "zenurik",
+                      "heavyAttackDamage":  1710,
+                      "range":  2.9000001,
+                      "heavySlamRadialDamage":  855,
                       "followThrough":  0.60000002,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  20,
-                                     "gas":  0,
-                                     "corrosive":  120,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  75,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  70,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  285,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  1425,
+                      "comboDuration":  5,
+                      "slideAttack":  570,
+                      "windUp":  1,
+                      "slamRadius":  8,
+                      "slamAttack":  855,
                       "damagePerShot":  [
                                             20,
                                             75,
@@ -169,18 +158,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.9000001,
-                      "heavyAttackDamage":  1710,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  855,
-                      "stancePolarity":  "zenurik",
-                      "slideAttack":  570,
-                      "windUp":  1,
-                      "slamRadius":  8,
-                      "slamAttack":  855,
-                      "heavySlamRadius":  9,
-                      "heavySlamAttack":  1425
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  20,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  120,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  75,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  70,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  285,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Infested/InfestedLich/Melee/CodaCaustacyst/CodaCaustacyst"
@@ -193,7 +193,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The Coda Caustacyst scythe is a force to be reckoned with, the Technocyte virus honing it with improved Damage, Status Chance, and Critical Damage, as well as acid pools with longer duration.",
+    "id":  "weapon.coda-caustacyst",
     "release":  {
                     "releaseDate":  "2025-03-19",
                     "introduced":  {
@@ -214,9 +214,7 @@
                                      "madurai"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  2,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  2.3,
                   "totalDamage":  285,
@@ -226,10 +224,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0.19,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.40999997,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

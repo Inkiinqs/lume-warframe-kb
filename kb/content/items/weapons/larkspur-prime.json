@@ -1,5 +1,5 @@
 {
-    "description":  "Embrace pandemonium. Chainfire and explosive potential meet in Larkspur Prime. Hildryn packs more ammo when she wields this mighty weapon.",
+    "id":  "weapon.larkspur-prime",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -882,13 +882,12 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  10,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -898,26 +897,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  80,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  80,
                                      "total":  90,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             10,
                                             0,
@@ -940,6 +929,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -953,7 +953,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.larkspur-prime",
+    "description":  "Embrace pandemonium. Chainfire and explosive potential meet in Larkspur Prime. Hildryn packs more ammo when she wields this mighty weapon.",
     "release":  {
                     "releaseDate":  "2023-03-15",
                     "introduced":  {
@@ -977,7 +977,6 @@
                                  ],
                   "tradable":  true,
                   "disposition":  2,
-                  "magazineSize":  100,
                   "fireRate":  12.000001,
                   "critMultiplier":  1.6,
                   "totalDamage":  90,
@@ -987,8 +986,9 @@
                   "estimatedVaultDate":  "2025-02-12",
                   "trigger":  "Held",
                   "critChance":  0.14,
-                  "slot":  "archgun",
+                  "magazineSize":  100,
                   "masterable":  true,
+                  "slot":  "archgun",
                   "weaponClass":  "Arch-Gun",
                   "statusChance":  0.5,
                   "vaultDate":  "2025-02-12",

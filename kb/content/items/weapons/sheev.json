@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.sheev",
+    "description":  "Built for close combat, the Sheev\u0027s plasma blade slices through flesh and armor with equal ease.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -121,30 +121,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  540,
                       "blockingAngle":  45,
+                      "heavySlamRadius":  6,
+                      "sentinel":  null,
+                      "stancePolarity":  "madurai",
+                      "heavyAttackDamage":  540,
+                      "range":  1.7,
+                      "heavySlamRadialDamage":  810,
                       "followThrough":  0.89999998,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  13.5,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  13.5,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  243,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  270,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  1080,
+                      "comboDuration":  5,
+                      "slideAttack":  540,
+                      "windUp":  0.40000001,
+                      "slamRadius":  5,
+                      "slamAttack":  540,
                       "damagePerShot":  [
                                             13.5,
                                             13.5,
@@ -167,18 +156,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.7,
-                      "heavyAttackDamage":  540,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  810,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  540,
-                      "windUp":  0.40000001,
-                      "slamRadius":  5,
-                      "slamAttack":  540,
-                      "heavySlamRadius":  6,
-                      "heavySlamAttack":  1080
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  13.5,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  13.5,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  243,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  270,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/Melee/GrineerCombatKnife/GrineerCombatKnife"
@@ -191,7 +191,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Built for close combat, the Sheev\u0027s plasma blade slices through flesh and armor with equal ease.",
+    "id":  "weapon.sheev",
     "release":  {
                     "releaseDate":  "2014-09-17",
                     "introduced":  {
@@ -213,9 +213,7 @@
                                      "naramon"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  0.66666669,
                   "critMultiplier":  2.0999999,
                   "totalDamage":  270,
@@ -225,10 +223,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0.13,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.25,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

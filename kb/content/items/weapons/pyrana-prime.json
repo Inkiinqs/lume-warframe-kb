@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.pyrana-prime",
+    "description":  "Three kills in rapid succession to summon a second ethereal Pyrana for twice the deadly punch.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -763,30 +763,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  1.92,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  1.92,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  20.16,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  24,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             1.92,
                                             1.92,
@@ -809,18 +798,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  1.92,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  1.92,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  20.16,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  24,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Pistols/PrimePyrana/PrimePyranaPistol"
@@ -833,7 +833,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Three kills in rapid succession to summon a second ethereal Pyrana for twice the deadly punch.",
+    "id":  "weapon.pyrana-prime",
     "release":  {
                     "releaseDate":  "2018-06-19",
                     "introduced":  {
@@ -855,9 +855,7 @@
                                      "madurai"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  "2020-03-18",
                   "disposition":  1,
-                  "magazineSize":  12,
                   "fireRate":  4,
                   "critMultiplier":  2.2,
                   "totalDamage":  24,
@@ -867,10 +865,12 @@
                   "estimatedVaultDate":  "2020-03-18",
                   "trigger":  "Auto",
                   "critChance":  0.23999999,
-                  "slot":  "secondary",
+                  "magazineSize":  12,
                   "masterable":  true,
+                  "slot":  "secondary",
                   "weaponClass":  "Pistol",
                   "statusChance":  0.036000013,
+                  "vaultDate":  "2020-03-18",
                   "multishot":  10
               }
 }

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.telos-akbolto",
+    "description":  "For the Arbiters of Hexis these pistols are more than simple weapons, they are symbols of truth and discipline.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -65,30 +65,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  7,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  63,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  0,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  70,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             7,
                                             63,
@@ -111,18 +100,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  7,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  63,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  70,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Syndicates/ArbitersOfHexis/Pistols/AHAkbolto"
@@ -135,7 +135,7 @@
     "relationships":  [
 
                       ],
-    "description":  "For the Arbiters of Hexis these pistols are more than simple weapons, they are symbols of truth and discipline.",
+    "id":  "weapon.telos-akbolto",
     "release":  {
                     "releaseDate":  "2014-11-27",
                     "introduced":  {
@@ -158,9 +158,7 @@
                                      "naramon"
                                  ],
                   "tradable":  true,
-                  "vaultDate":  null,
                   "disposition":  4,
-                  "magazineSize":  30,
                   "fireRate":  5.0000005,
                   "critMultiplier":  2,
                   "totalDamage":  70,
@@ -170,10 +168,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Semi",
                   "critChance":  0.13,
-                  "slot":  "secondary",
+                  "magazineSize":  30,
                   "masterable":  true,
+                  "slot":  "secondary",
                   "weaponClass":  "Pistol",
                   "statusChance":  0.28999996,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

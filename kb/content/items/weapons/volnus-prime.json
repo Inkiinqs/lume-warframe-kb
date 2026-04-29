@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.volnus-prime",
+    "description":  "The glorious original Orokin casting of Gara’s signature glass hammer. Deceptively light and swift, while remaining lethally effective.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -650,30 +650,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  500,
                       "blockingAngle":  50,
+                      "heavySlamRadius":  10,
+                      "sentinel":  null,
+                      "stancePolarity":  "madurai",
+                      "heavyAttackDamage":  1500,
+                      "range":  2.9000001,
+                      "heavySlamRadialDamage":  750,
                       "followThrough":  0.60000002,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  55,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  80,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  115.00001,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  250,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  1250,
+                      "comboDuration":  5,
+                      "slideAttack":  500,
+                      "windUp":  1.1,
+                      "slamRadius":  10,
+                      "slamAttack":  750,
                       "damagePerShot":  [
                                             55,
                                             80,
@@ -696,18 +685,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.9000001,
-                      "heavyAttackDamage":  1500,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  750,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  500,
-                      "windUp":  1.1,
-                      "slamRadius":  10,
-                      "slamAttack":  750,
-                      "heavySlamRadius":  10,
-                      "heavySlamAttack":  1250
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  55,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  80,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  115.00001,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  250,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/PrimeVolnus/VolnusPrimeWeapon"
@@ -720,7 +720,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The glorious original Orokin casting of Gara’s signature glass hammer. Deceptively light and swift, while remaining lethally effective.",
+    "id":  "weapon.volnus-prime",
     "release":  {
                     "releaseDate":  "2021-05-25",
                     "introduced":  {
@@ -743,9 +743,7 @@
                                      "madurai"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  "2023-03-15",
                   "disposition":  4,
-                  "magazineSize":  null,
                   "fireRate":  1.2,
                   "critMultiplier":  1.8,
                   "totalDamage":  250,
@@ -755,10 +753,12 @@
                   "estimatedVaultDate":  "2023-03-15",
                   "trigger":  null,
                   "critChance":  0.2,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.34000003,
+                  "vaultDate":  "2023-03-15",
                   "multishot":  null
               }
 }

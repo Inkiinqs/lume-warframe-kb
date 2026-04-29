@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.glaive",
+    "description":  "Dating back to the time of the first Tenno, the Glaive is a uniquely deadly weapon. This multi-bladed disc is not only effective for melee combat; it can also be thrown like a boomerang to cut down enemies at a distance.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -228,30 +228,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  210,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  6,
+                      "sentinel":  null,
+                      "stancePolarity":  "naramon",
+                      "heavyAttackDamage":  105,
+                      "range":  1.25,
+                      "heavySlamRadialDamage":  315,
                       "followThrough":  0.69999999,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  15.750001,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  15.750001,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  73.5,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  105,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  420,
+                      "comboDuration":  5,
+                      "slideAttack":  210,
+                      "windUp":  1.2,
+                      "slamRadius":  5,
+                      "slamAttack":  315,
                       "damagePerShot":  [
                                             15.750001,
                                             15.750001,
@@ -274,18 +263,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.25,
-                      "heavyAttackDamage":  105,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  315,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  210,
-                      "windUp":  1.2,
-                      "slamRadius":  5,
-                      "slamAttack":  315,
-                      "heavySlamRadius":  6,
-                      "heavySlamAttack":  420
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  15.750001,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  15.750001,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  73.5,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  105,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Glaives/LightGlaive/LightGlaiveWeapon"
@@ -298,7 +298,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Dating back to the time of the first Tenno, the Glaive is a uniquely deadly weapon. This multi-bladed disc is not only effective for melee combat; it can also be thrown like a boomerang to cut down enemies at a distance.",
+    "id":  "weapon.glaive",
     "release":  {
                     "releaseDate":  "2013-04-26",
                     "introduced":  {
@@ -320,9 +320,7 @@
                                      "naramon"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  4,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  2,
                   "totalDamage":  105,
@@ -332,10 +330,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0.12,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.12,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

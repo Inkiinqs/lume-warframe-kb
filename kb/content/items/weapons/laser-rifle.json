@@ -1,5 +1,5 @@
 {
-    "description":  "A laser rifle developed by reverse-engineering Corpus technology.",
+    "id":  "weapon.laser-rifle",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -60,13 +60,12 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  4.5,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -76,26 +75,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  4.4999986,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  45,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  true,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             4.5,
                                             36,
@@ -118,6 +107,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  true,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -131,7 +131,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.laser-rifle",
+    "description":  "A laser rifle developed by reverse-engineering Corpus technology.",
     "release":  {
                     "releaseDate":  "2013-03-18",
                     "introduced":  {
@@ -155,7 +155,6 @@
                                  ],
                   "tradable":  false,
                   "disposition":  4,
-                  "magazineSize":  20,
                   "fireRate":  5.0000005,
                   "critMultiplier":  1.75,
                   "totalDamage":  45,
@@ -165,8 +164,9 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Auto",
                   "critChance":  0.17,
-                  "slot":  "companion",
+                  "magazineSize":  20,
                   "masterable":  true,
+                  "slot":  "companion",
                   "weaponClass":  "Companion Weapon",
                   "statusChance":  0.074999988,
                   "vaultDate":  null,

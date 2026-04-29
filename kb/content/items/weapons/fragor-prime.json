@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.fragor-prime",
+    "description":  "A beautifully forged instrument of devastation.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -650,30 +650,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  540,
                       "blockingAngle":  50,
+                      "heavySlamRadius":  10,
+                      "sentinel":  null,
+                      "stancePolarity":  "madurai",
+                      "heavyAttackDamage":  1620,
+                      "range":  2.5999999,
+                      "heavySlamRadialDamage":  810,
                       "followThrough":  0.40000001,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  189,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  40.5,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  40.499992,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  270,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  1350,
+                      "comboDuration":  5,
+                      "slideAttack":  540,
+                      "windUp":  1.2,
+                      "slamRadius":  9,
+                      "slamAttack":  810,
                       "damagePerShot":  [
                                             189,
                                             40.5,
@@ -696,18 +685,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5999999,
-                      "heavyAttackDamage":  1620,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  810,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  540,
-                      "windUp":  1.2,
-                      "slamRadius":  9,
-                      "slamAttack":  810,
-                      "heavySlamRadius":  10,
-                      "heavySlamAttack":  1350
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  189,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  40.5,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  40.499992,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  270,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/PrimeFragor/PrimeFragor"
@@ -720,7 +720,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A beautifully forged instrument of devastation.",
+    "id":  "weapon.fragor-prime",
     "release":  {
                     "releaseDate":  "2016-05-17",
                     "introduced":  {
@@ -742,9 +742,7 @@
                                      "madurai"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  "2018-03-20",
                   "disposition":  3,
-                  "magazineSize":  null,
                   "fireRate":  0.80000007,
                   "critMultiplier":  2.5,
                   "totalDamage":  270,
@@ -754,10 +752,12 @@
                   "estimatedVaultDate":  "2018-03-20",
                   "trigger":  null,
                   "critChance":  0.40000001,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.18000001,
+                  "vaultDate":  "2018-03-20",
                   "multishot":  null
               }
 }

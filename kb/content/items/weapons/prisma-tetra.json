@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.prisma-tetra",
+    "description":  "When bathed in Void energy and prisma crystal, the simple Tetra becomes a beacon of style and intimidation.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -60,30 +60,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  7.5999999,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  30.4,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  0,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  38,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             7.5999999,
                                             30.4,
@@ -106,18 +95,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  7.5999999,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  30.4,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  38,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Corpus/LongGuns/CorpusUMP/PrismaCorpusUMP"
@@ -130,7 +130,7 @@
     "relationships":  [
 
                       ],
-    "description":  "When bathed in Void energy and prisma crystal, the simple Tetra becomes a beacon of style and intimidation.",
+    "id":  "weapon.prisma-tetra",
     "release":  {
                     "releaseDate":  "2015-08-07",
                     "introduced":  {
@@ -151,9 +151,7 @@
                                      null
                                  ],
                   "tradable":  true,
-                  "vaultDate":  null,
                   "disposition":  5,
-                  "magazineSize":  60,
                   "fireRate":  7.0833335,
                   "critMultiplier":  2,
                   "totalDamage":  38,
@@ -163,10 +161,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Auto",
                   "critChance":  0.1,
-                  "slot":  "primary",
+                  "magazineSize":  60,
                   "masterable":  true,
+                  "slot":  "primary",
                   "weaponClass":  "Rifle",
                   "statusChance":  0.24000001,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

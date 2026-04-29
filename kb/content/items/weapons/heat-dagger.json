@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.heat-dagger",
+    "description":  "This short blade weapon has limited range but comes out fast and can inflict fire damage.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -132,30 +132,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  416,
                       "blockingAngle":  45,
+                      "heavySlamRadius":  6,
+                      "sentinel":  null,
+                      "stancePolarity":  "madurai",
+                      "heavyAttackDamage":  416,
+                      "range":  1.75,
+                      "heavySlamRadialDamage":  624,
                       "followThrough":  0.89999998,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  14.000001,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  76,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  56.000004,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  62,
-                                     "total":  208,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  832,
+                      "comboDuration":  5,
+                      "slideAttack":  416,
+                      "windUp":  0.40000001,
+                      "slamRadius":  5,
+                      "slamAttack":  416,
                       "damagePerShot":  [
                                             14.000001,
                                             76,
@@ -178,18 +167,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.75,
-                      "heavyAttackDamage":  416,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  624,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  416,
-                      "windUp":  0.40000001,
-                      "slamRadius":  5,
-                      "slamAttack":  416,
-                      "heavySlamRadius":  6,
-                      "heavySlamAttack":  832
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  14.000001,
+                                     "heat":  62,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  76,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  56.000004,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  208,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Dagger/Dagger"
@@ -202,7 +202,7 @@
     "relationships":  [
 
                       ],
-    "description":  "This short blade weapon has limited range but comes out fast and can inflict fire damage.",
+    "id":  "weapon.heat-dagger",
     "release":  {
                     "releaseDate":  "2012-12-18",
                     "introduced":  {
@@ -225,9 +225,7 @@
                                      "naramon"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  0.75000006,
                   "critMultiplier":  1.6,
                   "totalDamage":  208,
@@ -237,10 +235,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0.14,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.13999999,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

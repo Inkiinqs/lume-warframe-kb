@@ -1,5 +1,5 @@
 {
-    "description":  "A long range rifle capable of firing in space, the Imperator\u0027s versatility makes it an ideal weapon for space combat.",
+    "id":  "weapon.imperator",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -110,13 +110,12 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  20,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -126,26 +125,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  12.5,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  50,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             20,
                                             17.5,
@@ -168,6 +157,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -181,7 +181,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.imperator",
+    "description":  "A long range rifle capable of firing in space, the Imperator\u0027s versatility makes it an ideal weapon for space combat.",
     "release":  {
                     "releaseDate":  "2014-10-24",
                     "introduced":  {
@@ -206,7 +206,6 @@
                                  ],
                   "tradable":  false,
                   "disposition":  3,
-                  "magazineSize":  200,
                   "fireRate":  16.666668,
                   "critMultiplier":  2,
                   "totalDamage":  50,
@@ -216,8 +215,9 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Auto",
                   "critChance":  0.23999999,
-                  "slot":  "archgun",
+                  "magazineSize":  200,
                   "masterable":  true,
+                  "slot":  "archgun",
                   "weaponClass":  "Arch-Gun",
                   "statusChance":  0.12,
                   "vaultDate":  null,

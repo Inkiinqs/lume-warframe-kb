@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.kreska",
+    "description":  "This unsophisticated Corpus survival tool does what it was designed for: hacking and splitting whatever it strikes.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -132,30 +132,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  380,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  9,
+                      "sentinel":  null,
+                      "stancePolarity":  "zenurik",
+                      "heavyAttackDamage":  1140,
+                      "range":  2.4000001,
+                      "heavySlamRadialDamage":  570,
                       "followThrough":  0.69999999,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  29.999998,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  14.999999,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  45,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  100,
-                                     "total":  190,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  760,
+                      "comboDuration":  5,
+                      "slideAttack":  380,
+                      "windUp":  0.69999999,
+                      "slamRadius":  8,
+                      "slamAttack":  570,
                       "damagePerShot":  [
                                             29.999998,
                                             14.999999,
@@ -178,18 +167,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.4000001,
-                      "heavyAttackDamage":  1140,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  570,
-                      "stancePolarity":  "zenurik",
-                      "slideAttack":  380,
-                      "windUp":  0.69999999,
-                      "slamRadius":  8,
-                      "slamAttack":  570,
-                      "heavySlamRadius":  9,
-                      "heavySlamAttack":  760
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  29.999998,
+                                     "heat":  100,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  14.999999,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  45,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  190,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Corpus/Melee/CrpVenusHatchet/CrpVenusHatchet"
@@ -202,7 +202,7 @@
     "relationships":  [
 
                       ],
-    "description":  "This unsophisticated Corpus survival tool does what it was designed for: hacking and splitting whatever it strikes.",
+    "id":  "weapon.kreska",
     "release":  {
                     "releaseDate":  "2018-11-08",
                     "introduced":  {
@@ -225,9 +225,7 @@
                                      "madurai"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  0.91666669,
                   "critMultiplier":  2,
                   "totalDamage":  190,
@@ -237,10 +235,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0.14,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.22000003,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

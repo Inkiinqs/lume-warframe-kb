@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.epitaph",
+    "description":  "Sevagoth\u0027s wrist-mounted sidearm fires a chilling slow-moving slab, guaranteed to slow enemies for easier marksmanship. Charge the shot to fire a punishing high-velocity, high critical chance slab that punches through barriers. Deals additional headshot damage in Sevagoth\u0027s hands.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -174,30 +174,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  120,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  45,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  135,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  300,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             120,
                                             45,
@@ -220,18 +209,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  120,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  45,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  135,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  300,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Pistols/TnWraitheSidearm/TnWraitheSidearmWeapon"
@@ -244,7 +244,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Sevagoth\u0027s wrist-mounted sidearm fires a chilling slow-moving slab, guaranteed to slow enemies for easier marksmanship. Charge the shot to fire a punishing high-velocity, high critical chance slab that punches through barriers. Deals additional headshot damage in Sevagoth\u0027s hands.",
+    "id":  "weapon.epitaph",
     "release":  {
                     "releaseDate":  "2021-04-13",
                     "introduced":  {
@@ -268,9 +268,7 @@
                                      "madurai"
                                  ],
                   "tradable":  true,
-                  "vaultDate":  null,
                   "disposition":  1,
-                  "magazineSize":  1,
                   "fireRate":  1.5000001,
                   "critMultiplier":  1.2,
                   "totalDamage":  300,
@@ -280,10 +278,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Charge",
                   "critChance":  0.02,
-                  "slot":  "secondary",
+                  "magazineSize":  1,
                   "masterable":  true,
+                  "slot":  "secondary",
                   "weaponClass":  "Pistol",
                   "statusChance":  0.040000021,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }

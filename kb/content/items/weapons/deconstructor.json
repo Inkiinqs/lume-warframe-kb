@@ -1,5 +1,5 @@
 {
-    "description":  "Causes the Helios Sentinel to attack enemy targets using pieces of itself.",
+    "id":  "weapon.deconstructor",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -84,13 +84,12 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  130,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -100,26 +99,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  130,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  true,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             130,
                                             0,
@@ -142,6 +131,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  true,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -155,7 +155,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.deconstructor",
+    "description":  "Causes the Helios Sentinel to attack enemy targets using pieces of itself.",
     "release":  {
                     "releaseDate":  "2014-03-19",
                     "introduced":  {
@@ -178,7 +178,6 @@
                                  ],
                   "tradable":  false,
                   "disposition":  4,
-                  "magazineSize":  null,
                   "fireRate":  1.3333334,
                   "critMultiplier":  1,
                   "totalDamage":  130,
@@ -188,8 +187,9 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0,
-                  "slot":  "companion",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "companion",
                   "weaponClass":  "Companion Weapon",
                   "statusChance":  0.25,
                   "vaultDate":  null,

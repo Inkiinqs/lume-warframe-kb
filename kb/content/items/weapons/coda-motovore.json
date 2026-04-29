@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.coda-motovore",
+    "description":  "Drive home the pain with this hammer evolved from a scooter assembly. The wheel shapeshifts and gains a unique buff to match whatever type of physical damage it has been modded for.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -95,30 +95,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  500,
                       "blockingAngle":  50,
+                      "heavySlamRadius":  10,
+                      "sentinel":  null,
+                      "stancePolarity":  "madurai",
+                      "heavyAttackDamage":  1500,
+                      "range":  2.5,
+                      "heavySlamRadialDamage":  750,
                       "followThrough":  0.40000001,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  83.324997,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  83.324997,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  83.350006,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  250,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  1250,
+                      "comboDuration":  5,
+                      "slideAttack":  500,
+                      "windUp":  1.2,
+                      "slamRadius":  9,
+                      "slamAttack":  750,
                       "damagePerShot":  [
                                             83.324997,
                                             83.324997,
@@ -141,18 +130,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "heavyAttackDamage":  1500,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  750,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  500,
-                      "windUp":  1.2,
-                      "slamRadius":  9,
-                      "slamAttack":  750,
-                      "heavySlamRadius":  10,
-                      "heavySlamAttack":  1250
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  83.324997,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  83.324997,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  83.350006,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  250,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Infested/InfestedLich/Melee/InfestedHammer/InfLichHammerWeapon"
@@ -165,7 +165,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Drive home the pain with this hammer evolved from a scooter assembly. The wheel shapeshifts and gains a unique buff to match whatever type of physical damage it has been modded for.",
+    "id":  "weapon.coda-motovore",
     "release":  {
                     "releaseDate":  "2025-03-19",
                     "introduced":  {
@@ -186,9 +186,7 @@
                                      "naramon"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  1,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  2.3,
                   "totalDamage":  250,
@@ -198,10 +196,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0.25,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.30000001,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

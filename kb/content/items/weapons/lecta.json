@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.lecta",
+    "description":  "Half taser, half whip. The Corpus Lecta delivers a deadly shock to anything it touches.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -131,30 +131,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  202,
                       "blockingAngle":  45,
+                      "heavySlamRadius":  6,
+                      "sentinel":  null,
+                      "stancePolarity":  "vazarin",
+                      "heavyAttackDamage":  455,
+                      "range":  2.4963856,
+                      "heavySlamRadialDamage":  303,
                       "followThrough":  0.5,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  0,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  56,
-                                     "true":  0,
-                                     "slash":  20,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  25,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  101,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  354,
+                      "comboDuration":  5,
+                      "slideAttack":  202,
+                      "windUp":  0.40000001,
+                      "slamRadius":  5,
+                      "slamAttack":  303,
                       "damagePerShot":  [
                                             0,
                                             20,
@@ -177,18 +166,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.4963856,
-                      "heavyAttackDamage":  455,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  303,
-                      "stancePolarity":  "vazarin",
-                      "slideAttack":  202,
-                      "windUp":  0.40000001,
-                      "slamRadius":  5,
-                      "slamAttack":  303,
-                      "heavySlamRadius":  6,
-                      "heavySlamAttack":  354
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  56,
+                                     "true":  0,
+                                     "slash":  20,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  25,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  101,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Corpus/Melee/Whip/CorpusWhipWeapon"
@@ -201,7 +201,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Half taser, half whip. The Corpus Lecta delivers a deadly shock to anything it touches.",
+    "id":  "weapon.lecta",
     "release":  {
                     "releaseDate":  "2013-11-20",
                     "introduced":  {
@@ -224,9 +224,7 @@
                                      null
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  4,
-                  "magazineSize":  null,
                   "fireRate":  1,
                   "critMultiplier":  1.5,
                   "totalDamage":  101,
@@ -236,10 +234,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0.050000001,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.25,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

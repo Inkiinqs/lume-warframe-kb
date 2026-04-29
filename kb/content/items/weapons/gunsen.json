@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.gunsen",
+    "description":  "Lacerate attackers with two razor sharp warfans.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -131,30 +131,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  320,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  6,
+                      "sentinel":  null,
+                      "stancePolarity":  "naramon",
+                      "heavyAttackDamage":  640,
+                      "range":  1.7,
+                      "heavySlamRadialDamage":  480,
                       "followThrough":  0.69999999,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  12.799999,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  19.199999,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  128,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  160,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  160,
+                      "comboDuration":  5,
+                      "slideAttack":  160,
+                      "windUp":  0.5,
+                      "slamRadius":  5,
+                      "slamAttack":  320,
                       "damagePerShot":  [
                                             12.799999,
                                             19.199999,
@@ -177,18 +166,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.7,
-                      "heavyAttackDamage":  640,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  480,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  160,
-                      "windUp":  0.5,
-                      "slamRadius":  5,
-                      "slamAttack":  320,
-                      "heavySlamRadius":  6,
-                      "heavySlamAttack":  160
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  12.799999,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  19.199999,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  128,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  160,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Warfan/WarfanWeapon"
@@ -201,7 +201,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Lacerate attackers with two razor sharp warfans.",
+    "id":  "weapon.gunsen",
     "release":  {
                     "releaseDate":  "2017-10-12",
                     "introduced":  {
@@ -226,9 +226,7 @@
                                      "madurai"
                                  ],
                   "tradable":  false,
-                  "vaultDate":  null,
                   "disposition":  5,
-                  "magazineSize":  null,
                   "fireRate":  1.1666667,
                   "critMultiplier":  2,
                   "totalDamage":  160,
@@ -238,10 +236,12 @@
                   "estimatedVaultDate":  null,
                   "trigger":  null,
                   "critChance":  0.16,
-                  "slot":  "melee",
+                  "magazineSize":  null,
                   "masterable":  true,
+                  "slot":  "melee",
                   "weaponClass":  "Melee",
                   "statusChance":  0.27999997,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }
