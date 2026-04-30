@@ -1,5 +1,5 @@
 {
-    "description":  "The addition of Prisma Crystal allows this otherwise barbaric weapon to elegantly hack through any foe.",
+    "id":  "weapon.prisma-machete",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -38,7 +38,7 @@
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/PrismaMachete.png?02d9d",
                                    "url":  "https://wiki.warframe.com/w/Prisma_Machete",
-                                   "imageName":  "prisma-machete-815878e5c8.png",
+                                   "imageName":  "PrismaMachete.png",
                                    "available":  true
                                },
                       "attacks":  [
@@ -90,20 +90,32 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  386,
-                      "blockingAngle":  55,
-                      "heavySlamRadius":  9,
-                      "sentinel":  null,
-                      "stancePolarity":  "zenurik",
-                      "heavyAttackDamage":  1158,
-                      "range":  2.5,
-                      "heavySlamRadialDamage":  579,
-                      "followThrough":  0.69999999,
-                      "heavySlamAttack":  772,
-                      "comboDuration":  5,
-                      "slideAttack":  386,
-                      "windUp":  0.69999999,
                       "slamRadius":  8,
-                      "slamAttack":  579,
+                      "blockingAngle":  55,
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  28.950001,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  28.950001,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  135.09999,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  193,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "heavyAttackDamage":  1158,
                       "damagePerShot":  [
                                             28.950001,
                                             28.950001,
@@ -126,29 +138,17 @@
                                             0,
                                             0
                                         ],
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  28.950001,
-                                     "heat":  0,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  28.950001,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "toxin":  0,
-                                     "puncture":  135.09999,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "radiation":  0,
-                                     "total":  193,
-                                     "healthDrain":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 }
+                      "range":  2.5,
+                      "heavySlamRadialDamage":  579,
+                      "sentinel":  null,
+                      "comboDuration":  5,
+                      "stancePolarity":  "zenurik",
+                      "slideAttack":  386,
+                      "windUp":  0.69999999,
+                      "followThrough":  0.69999999,
+                      "slamAttack":  579,
+                      "heavySlamRadius":  9,
+                      "heavySlamAttack":  772
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/Melee/GrineerMachetteAndCleaver/PrismaMachete"
@@ -161,7 +161,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.prisma-machete",
+    "description":  "The addition of Prisma Crystal allows this otherwise barbaric weapon to elegantly hack through any foe.",
     "release":  {
                     "releaseDate":  "2021-06-10",
                     "introduced":  {

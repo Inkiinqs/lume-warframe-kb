@@ -1,5 +1,5 @@
 {
-    "description":  "The Tenno forged Orthos is a rare double bladed polearm. Those who take the time to master it speak of its impressive striking distance and ability to hit multiple targets.",
+    "id":  "weapon.orthos",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -83,7 +83,7 @@
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Orthos.png?86c84",
                                    "url":  "https://wiki.warframe.com/w/Orthos",
-                                   "imageName":  "orthos-f05ec1cb86.png",
+                                   "imageName":  "Orthos.png",
                                    "available":  true
                                },
                       "attacks":  [
@@ -135,20 +135,32 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  370,
-                      "blockingAngle":  55,
-                      "heavySlamRadius":  8,
-                      "sentinel":  null,
-                      "stancePolarity":  "naramon",
-                      "heavyAttackDamage":  1110,
-                      "range":  3,
-                      "heavySlamRadialDamage":  555,
-                      "followThrough":  0.60000002,
-                      "heavySlamAttack":  925,
-                      "comboDuration":  5,
-                      "slideAttack":  370,
-                      "windUp":  0.90000004,
                       "slamRadius":  7,
-                      "slamAttack":  555,
+                      "blockingAngle":  55,
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  27.750002,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  27.750002,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  129.5,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  185,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "heavyAttackDamage":  1110,
                       "damagePerShot":  [
                                             27.750002,
                                             27.750002,
@@ -171,29 +183,17 @@
                                             0,
                                             0
                                         ],
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  27.750002,
-                                     "heat":  0,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  27.750002,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "toxin":  0,
-                                     "puncture":  129.5,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "radiation":  0,
-                                     "total":  185,
-                                     "healthDrain":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 }
+                      "range":  3,
+                      "heavySlamRadialDamage":  555,
+                      "sentinel":  null,
+                      "comboDuration":  5,
+                      "stancePolarity":  "naramon",
+                      "slideAttack":  370,
+                      "windUp":  0.90000004,
+                      "followThrough":  0.60000002,
+                      "slamAttack":  555,
+                      "heavySlamRadius":  8,
+                      "heavySlamAttack":  925
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Polearms/PolearmWeapon"
@@ -206,7 +206,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.orthos",
+    "description":  "The Tenno forged Orthos is a rare double bladed polearm. Those who take the time to master it speak of its impressive striking distance and ability to hit multiple targets.",
     "release":  {
                     "releaseDate":  "2013-06-07",
                     "introduced":  {

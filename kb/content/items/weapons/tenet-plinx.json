@@ -1,5 +1,5 @@
 {
-    "description":  "Alternate fire on this reengineered Plinx fires a projectile that pulls enemies close and then explodes. Its cooldown increases after the explosion to accommodate battery power demands.",
+    "id":  "weapon.tenet-plinx",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -38,7 +38,7 @@
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/TenetPlinx.png?d3d96",
                                    "url":  "https://wiki.warframe.com/w/Tenet_Plinx",
-                                   "imageName":  "tenet-plinx-6a1f29a3a6.png",
+                                   "imageName":  "TenetPlinx.png",
                                    "available":  true
                                },
                       "attacks":  [
@@ -87,20 +87,32 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "sentinel":  null,
-                      "stancePolarity":  null,
-                      "heavyAttackDamage":  null,
-                      "range":  null,
-                      "heavySlamRadialDamage":  null,
-                      "followThrough":  null,
-                      "heavySlamAttack":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
                       "slamRadius":  null,
-                      "slamAttack":  null,
+                      "blockingAngle":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  40,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "heat":  30,
+                                     "total":  70,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "heavyAttackDamage":  null,
                       "damagePerShot":  [
                                             0,
                                             40,
@@ -123,29 +135,17 @@
                                             0,
                                             0
                                         ],
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  0,
-                                     "heat":  30,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  40,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "toxin":  0,
-                                     "puncture":  0,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "radiation":  0,
-                                     "total":  70,
-                                     "healthDrain":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 }
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Corpus/BoardExec/Secondary/CrpBEPlinx/CrpBEPlinxWeapon"
@@ -158,7 +158,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.tenet-plinx",
+    "description":  "Alternate fire on this reengineered Plinx fires a projectile that pulls enemies close and then explodes. Its cooldown increases after the explosion to accommodate battery power demands.",
     "release":  {
                     "releaseDate":  "2022-11-30",
                     "introduced":  {

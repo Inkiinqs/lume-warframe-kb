@@ -1,5 +1,5 @@
 {
-    "description":  "Archon Nira’s spine-shattering whip. Has a unique Tactical Combo that whips out a wide wave of energy with each stroke.",
+    "id":  "weapon.verdilac",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -101,7 +101,7 @@
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Verdilac.png?6e3c1",
                                    "url":  "https://wiki.warframe.com/w/Verdilac",
-                                   "imageName":  "verdilac-fba86852fc.png",
+                                   "imageName":  "ArchonWhip.png",
                                    "available":  true
                                },
                       "attacks":  [
@@ -173,20 +173,32 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  426,
-                      "blockingAngle":  45,
-                      "heavySlamRadius":  9,
-                      "sentinel":  null,
-                      "stancePolarity":  "vazarin",
-                      "heavyAttackDamage":  959,
-                      "range":  2.9963856,
-                      "heavySlamRadialDamage":  639,
-                      "followThrough":  0.5,
-                      "heavySlamAttack":  746,
-                      "comboDuration":  5,
-                      "slideAttack":  426,
-                      "windUp":  0.40000001,
                       "slamRadius":  7,
-                      "slamAttack":  639,
+                      "blockingAngle":  45,
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  21.300001,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  85.200005,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  106.5,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  213,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "heavyAttackDamage":  959,
                       "damagePerShot":  [
                                             21.300001,
                                             85.200005,
@@ -209,29 +221,17 @@
                                             0,
                                             0
                                         ],
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  21.300001,
-                                     "heat":  0,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  85.200005,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "toxin":  0,
-                                     "puncture":  106.5,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "radiation":  0,
-                                     "total":  213,
-                                     "healthDrain":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 }
+                      "range":  2.9963856,
+                      "heavySlamRadialDamage":  639,
+                      "sentinel":  null,
+                      "comboDuration":  5,
+                      "stancePolarity":  "vazarin",
+                      "slideAttack":  426,
+                      "windUp":  0.40000001,
+                      "followThrough":  0.5,
+                      "slamAttack":  639,
+                      "heavySlamRadius":  9,
+                      "heavySlamAttack":  746
                   },
     "aliases":  [
                     "/Lotus/Weapons/Archon/Melee/Whip/ArchonWhipPlayerWep"
@@ -244,7 +244,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.verdilac",
+    "description":  "Archon Nira’s spine-shattering whip. Has a unique Tactical Combo that whips out a wide wave of energy with each stroke.",
     "release":  {
                     "releaseDate":  "2021-12-15",
                     "introduced":  {

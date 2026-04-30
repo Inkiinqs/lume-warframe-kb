@@ -1,5 +1,5 @@
 {
-    "description":  "The Prova is a Melee Weapon that delivers a high-intensity shock to its target.",
+    "id":  "weapon.prova",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -78,7 +78,7 @@
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Prova.png?1e046",
                                    "url":  "https://wiki.warframe.com/w/Prova",
-                                   "imageName":  "prova-ecaec2190d.png",
+                                   "imageName":  "Prova.png",
                                    "available":  true
                                },
                       "attacks":  [
@@ -129,20 +129,32 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  256,
-                      "blockingAngle":  55,
-                      "heavySlamRadius":  9,
-                      "sentinel":  null,
-                      "stancePolarity":  "zenurik",
-                      "heavyAttackDamage":  768,
-                      "range":  2.5,
-                      "heavySlamRadialDamage":  384,
-                      "followThrough":  0.69999999,
-                      "heavySlamAttack":  512,
-                      "comboDuration":  5,
-                      "slideAttack":  256,
-                      "windUp":  0.69999999,
                       "slamRadius":  8,
-                      "slamAttack":  384,
+                      "blockingAngle":  55,
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  52,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  76,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  128,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "heavyAttackDamage":  768,
                       "damagePerShot":  [
                                             52,
                                             0,
@@ -165,29 +177,17 @@
                                             0,
                                             0
                                         ],
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  52,
-                                     "heat":  0,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  76,
-                                     "true":  0,
-                                     "slash":  0,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "toxin":  0,
-                                     "puncture":  0,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "radiation":  0,
-                                     "total":  128,
-                                     "healthDrain":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 }
+                      "range":  2.5,
+                      "heavySlamRadialDamage":  384,
+                      "sentinel":  null,
+                      "comboDuration":  5,
+                      "stancePolarity":  "zenurik",
+                      "slideAttack":  256,
+                      "windUp":  0.69999999,
+                      "followThrough":  0.69999999,
+                      "slamAttack":  384,
+                      "heavySlamRadius":  9,
+                      "heavySlamAttack":  512
                   },
     "aliases":  [
                     "/Lotus/Weapons/ClanTech/Energy/ElectroProd"
@@ -200,7 +200,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.prova",
+    "description":  "The Prova is a Melee Weapon that delivers a high-intensity shock to its target.",
     "release":  {
                     "releaseDate":  "2013-05-23",
                     "introduced":  {

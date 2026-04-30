@@ -1,5 +1,5 @@
 {
-    "description":  "Each charged attack turns the enemy’s pain into a healing pulse that washes over allies. Also, creates resistance to Status Effects when held.",
+    "id":  "weapon.sancti-magistar",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -43,7 +43,7 @@
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/SanctiMagistar.png?7cde2",
                                    "url":  "https://wiki.warframe.com/w/Sancti_Magistar",
-                                   "imageName":  "sancti-magistar-2910f0ef82.png",
+                                   "imageName":  "SanctiMagistar.png",
                                    "available":  true
                                },
                       "attacks":  [
@@ -95,20 +95,32 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  480,
-                      "blockingAngle":  50,
-                      "heavySlamRadius":  10,
-                      "sentinel":  null,
-                      "stancePolarity":  "vazarin",
-                      "heavyAttackDamage":  1440,
-                      "range":  2.5999999,
-                      "heavySlamRadialDamage":  720,
-                      "followThrough":  0.40000001,
-                      "heavySlamAttack":  1200,
-                      "comboDuration":  5,
-                      "slideAttack":  480,
-                      "windUp":  1.2,
                       "slamRadius":  9,
-                      "slamAttack":  720,
+                      "blockingAngle":  50,
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  192,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  36,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  11.999989,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  239.99998,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "heavyAttackDamage":  1440,
                       "damagePerShot":  [
                                             192,
                                             36,
@@ -131,29 +143,17 @@
                                             0,
                                             0
                                         ],
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  192,
-                                     "heat":  0,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  36,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "toxin":  0,
-                                     "puncture":  11.999989,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "radiation":  0,
-                                     "total":  239.99998,
-                                     "healthDrain":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 }
+                      "range":  2.5999999,
+                      "heavySlamRadialDamage":  720,
+                      "sentinel":  null,
+                      "comboDuration":  5,
+                      "stancePolarity":  "vazarin",
+                      "slideAttack":  480,
+                      "windUp":  1.2,
+                      "followThrough":  0.40000001,
+                      "slamAttack":  720,
+                      "heavySlamRadius":  10,
+                      "heavySlamAttack":  1200
                   },
     "aliases":  [
                     "/Lotus/Weapons/Syndicates/NewLoka/Melee/NLMagistar"
@@ -166,7 +166,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.sancti-magistar",
+    "description":  "Each charged attack turns the enemy’s pain into a healing pulse that washes over allies. Also, creates resistance to Status Effects when held.",
     "release":  {
                     "releaseDate":  "2016-09-15",
                     "introduced":  {
