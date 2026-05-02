@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.quassus-prime",
+    "description":  "Wield Xaku Prime’s elegant fan, its gilded edges crafted for both precision and prestige.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -444,6 +444,7 @@
                                        "skipBuildTimePrice":  50,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.69999999,
                       "wiki":  {
                                    "thumbnail":  null,
                                    "url":  null,
@@ -455,11 +456,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  520,
-                      "slamRadius":  5,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  6,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  26,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -469,18 +472,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  182,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  260,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.7,
                       "heavyAttackDamage":  1040,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  780,
+                      "comboDuration":  5,
+                      "slideAttack":  260,
+                      "windUp":  0.5,
+                      "slamRadius":  5,
+                      "slamAttack":  520,
                       "damagePerShot":  [
                                             26,
                                             52,
@@ -503,16 +513,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.7,
-                      "heavySlamRadialDamage":  780,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  null,
-                      "slideAttack":  260,
-                      "windUp":  0.5,
-                      "followThrough":  0.69999999,
-                      "slamAttack":  520,
-                      "heavySlamRadius":  6,
                       "heavySlamAttack":  260
                   },
     "aliases":  [
@@ -526,7 +526,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Wield Xaku Prime’s elegant fan, its gilded edges crafted for both precision and prestige.",
+    "id":  "weapon.quassus-prime",
     "release":  {
                     "releaseDate":  null,
                     "introduced":  null

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.fragor-prime",
+    "description":  "A beautifully forged instrument of devastation.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -594,6 +594,7 @@
                                        "skipBuildTimePrice":  50,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.40000001,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/FragorPrime.png?e97e2",
                                    "url":  "https://wiki.warframe.com/w/Fragor_Prime",
@@ -649,11 +650,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  540,
-                      "slamRadius":  9,
                       "blockingAngle":  50,
+                      "heavySlamRadius":  10,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  189,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -663,18 +666,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  40.499992,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  270,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5999999,
                       "heavyAttackDamage":  1620,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  810,
+                      "comboDuration":  5,
+                      "slideAttack":  540,
+                      "windUp":  1.2,
+                      "slamRadius":  9,
+                      "slamAttack":  810,
                       "damagePerShot":  [
                                             189,
                                             40.5,
@@ -697,16 +707,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5999999,
-                      "heavySlamRadialDamage":  810,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  540,
-                      "windUp":  1.2,
-                      "followThrough":  0.40000001,
-                      "slamAttack":  810,
-                      "heavySlamRadius":  10,
                       "heavySlamAttack":  1350
                   },
     "aliases":  [
@@ -720,7 +720,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A beautifully forged instrument of devastation.",
+    "id":  "weapon.fragor-prime",
     "release":  {
                     "releaseDate":  "2016-05-17",
                     "introduced":  {

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.kronen-prime",
+    "description":  "Ancient blades, perfected for today’s combat.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -706,6 +706,7 @@
                                        "skipBuildTimePrice":  50,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.60000002,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/KronenPrime.png?badf1",
                                    "url":  "https://wiki.warframe.com/w/Kronen_Prime",
@@ -761,11 +762,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  424,
-                      "slamRadius":  8,
                       "blockingAngle":  60,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  21.200001,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -775,18 +778,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  169.60001,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  212,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
                       "heavyAttackDamage":  848,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  636,
+                      "comboDuration":  5,
+                      "slideAttack":  424,
+                      "windUp":  0.69999999,
+                      "slamRadius":  8,
+                      "slamAttack":  424,
                       "damagePerShot":  [
                                             21.200001,
                                             21.200001,
@@ -809,16 +819,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "heavySlamRadialDamage":  636,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  424,
-                      "windUp":  0.69999999,
-                      "followThrough":  0.60000002,
-                      "slamAttack":  424,
-                      "heavySlamRadius":  9,
                       "heavySlamAttack":  848
                   },
     "aliases":  [
@@ -832,7 +832,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Ancient blades, perfected for today’s combat.",
+    "id":  "weapon.kronen-prime",
     "release":  {
                     "releaseDate":  "2018-03-20",
                     "introduced":  {

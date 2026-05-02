@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.stropha",
+    "description":  "A short-blade melee weapon with an ace up its sleeve. Send nearby enemies flying with a powerful short-range shockwave.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -100,6 +100,7 @@
                                        "skipBuildTimePrice":  25,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.5,
                       "wiki":  {
                                    "thumbnail":  null,
                                    "url":  "https://wiki.warframe.com/w/Stropha",
@@ -174,11 +175,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  440,
-                      "slamRadius":  5,
                       "blockingAngle":  45,
+                      "heavySlamRadius":  8,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  61.599998,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -188,18 +191,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  83.599998,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  220,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2,
                       "heavyAttackDamage":  1100,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  660,
+                      "comboDuration":  5,
+                      "slideAttack":  440,
+                      "windUp":  0.40000001,
+                      "slamRadius":  5,
+                      "slamAttack":  660,
                       "damagePerShot":  [
                                             61.599998,
                                             74.800003,
@@ -222,16 +232,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2,
-                      "heavySlamRadialDamage":  660,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  440,
-                      "windUp":  0.40000001,
-                      "followThrough":  0.5,
-                      "slamAttack":  660,
-                      "heavySlamRadius":  8,
                       "heavySlamAttack":  880
                   },
     "aliases":  [
@@ -245,7 +245,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A short-blade melee weapon with an ace up its sleeve. Send nearby enemies flying with a powerful short-range shockwave.",
+    "id":  "weapon.stropha",
     "release":  {
                     "releaseDate":  "2020-06-11",
                     "introduced":  {

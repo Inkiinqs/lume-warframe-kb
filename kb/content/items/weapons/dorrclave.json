@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.dorrclave",
+    "description":  "After 10 kills or assists, Dorrclave enters a spectral state that doubles weapon Follow Through and guarantees Status Effects for the next 10 attacks. In Dagath\u0027s hands, each active Status Effect heals her slightly.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,6 +75,7 @@
                                        "skipBuildTimePrice":  25,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.5,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Dorrclave.png?30250",
                                    "url":  "https://wiki.warframe.com/w/Dorrclave",
@@ -128,11 +129,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  444,
-                      "slamRadius":  7,
                       "blockingAngle":  60,
+                      "heavySlamRadius":  8,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -142,18 +145,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  222,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  222,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
                       "heavyAttackDamage":  888,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  666,
+                      "comboDuration":  5,
+                      "slideAttack":  222,
+                      "windUp":  0.40000001,
+                      "slamRadius":  7,
+                      "slamAttack":  666,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -176,16 +186,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "heavySlamRadialDamage":  666,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  222,
-                      "windUp":  0.40000001,
-                      "followThrough":  0.5,
-                      "slamAttack":  666,
-                      "heavySlamRadius":  8,
                       "heavySlamAttack":  888
                   },
     "aliases":  [
@@ -199,7 +199,7 @@
     "relationships":  [
 
                       ],
-    "description":  "After 10 kills or assists, Dorrclave enters a spectral state that doubles weapon Follow Through and guarantees Status Effects for the next 10 attacks. In Dagath\u0027s hands, each active Status Effect heals her slightly.",
+    "id":  "weapon.dorrclave",
     "release":  {
                     "releaseDate":  "2023-10-18",
                     "introduced":  {

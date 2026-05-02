@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.masseter",
+    "description":  "Tear and chew through enemies with this unusual crankshaft-style greatsword. When wielded by Grendel he is immune to staggers and knockdowns during heavy attacks.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,6 +75,7 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.60000002,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Masseter.png?8e624",
                                    "url":  "https://wiki.warframe.com/w/Masseter",
@@ -129,11 +130,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  482,
-                      "slamRadius":  10,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  10,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  134.96001,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -143,18 +146,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  106.04,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  241,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.9000001,
                       "heavyAttackDamage":  1446,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  723,
+                      "comboDuration":  5,
+                      "slideAttack":  482,
+                      "windUp":  1.1,
+                      "slamRadius":  10,
+                      "slamAttack":  723,
                       "damagePerShot":  [
                                             134.96001,
                                             0,
@@ -177,16 +187,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.9000001,
-                      "heavySlamRadialDamage":  723,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  482,
-                      "windUp":  1.1,
-                      "followThrough":  0.60000002,
-                      "slamAttack":  723,
-                      "heavySlamRadius":  10,
                       "heavySlamAttack":  1205
                   },
     "aliases":  [
@@ -200,7 +200,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Tear and chew through enemies with this unusual crankshaft-style greatsword. When wielded by Grendel he is immune to staggers and knockdowns during heavy attacks.",
+    "id":  "weapon.masseter",
     "release":  {
                     "releaseDate":  "2019-10-31",
                     "introduced":  {

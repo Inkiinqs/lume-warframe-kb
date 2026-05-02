@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.machete-wraith",
+    "description":  "A different take on a familiar combat knife, the Machete Wraith features unique styling.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -35,6 +35,7 @@
                                        "skipBuildTimePrice":  null,
                                        "consumeOnBuild":  null
                                    },
+                      "followThrough":  0.69999999,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/MacheteWraith.png?1c3b6",
                                    "url":  "https://wiki.warframe.com/w/Machete_Wraith",
@@ -90,11 +91,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  422,
-                      "slamRadius":  8,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "zenurik",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  31.650002,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -104,18 +107,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  147.7,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  211,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
                       "heavyAttackDamage":  1266,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  633,
+                      "comboDuration":  5,
+                      "slideAttack":  422,
+                      "windUp":  0.69999999,
+                      "slamRadius":  8,
+                      "slamAttack":  633,
                       "damagePerShot":  [
                                             31.650002,
                                             31.650002,
@@ -138,16 +148,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "heavySlamRadialDamage":  633,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "zenurik",
-                      "slideAttack":  422,
-                      "windUp":  0.69999999,
-                      "followThrough":  0.69999999,
-                      "slamAttack":  633,
-                      "heavySlamRadius":  9,
                       "heavySlamAttack":  844
                   },
     "aliases":  [
@@ -161,7 +161,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A different take on a familiar combat knife, the Machete Wraith features unique styling.",
+    "id":  "weapon.machete-wraith",
     "release":  {
                     "releaseDate":  "2013-10-23",
                     "introduced":  {

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.ankyros-prime",
+    "description":  "This Orokin variation of the Ankyros is superior to its successor in every way.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -314,6 +314,7 @@
                                        "skipBuildTimePrice":  50,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.89999998,
                       "wiki":  {
                                    "thumbnail":  null,
                                    "url":  "https://wiki.warframe.com/w/Ankyros_Prime",
@@ -376,11 +377,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  256,
-                      "slamRadius":  8,
                       "blockingAngle":  50,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "unairu",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  89.599998,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -390,18 +393,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  19.199997,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  128,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.25,
                       "heavyAttackDamage":  640,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  384,
+                      "comboDuration":  5,
+                      "slideAttack":  384,
+                      "windUp":  0.60000002,
+                      "slamRadius":  8,
+                      "slamAttack":  384,
                       "damagePerShot":  [
                                             89.599998,
                                             19.200001,
@@ -424,16 +434,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.25,
-                      "heavySlamRadialDamage":  384,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "unairu",
-                      "slideAttack":  384,
-                      "windUp":  0.60000002,
-                      "followThrough":  0.89999998,
-                      "slamAttack":  384,
-                      "heavySlamRadius":  9,
                       "heavySlamAttack":  512
                   },
     "aliases":  [
@@ -447,7 +447,7 @@
     "relationships":  [
 
                       ],
-    "description":  "This Orokin variation of the Ankyros is superior to its successor in every way.",
+    "id":  "weapon.ankyros-prime",
     "release":  {
                     "releaseDate":  "2014-03-05",
                     "introduced":  {

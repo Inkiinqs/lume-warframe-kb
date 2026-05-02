@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.dual-zoren",
+    "description":  "Short axes held in each hand. High attack speed and can hit multiple targets. Delivers a high percentage of critical strikes.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -80,6 +80,7 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.5,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/DualZoren.png?ac109",
                                    "url":  "https://wiki.warframe.com/w/Dual_Zoren",
@@ -135,11 +136,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  140,
-                      "slamRadius":  8,
                       "blockingAngle":  60,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "zenurik",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  3.5,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -149,18 +152,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  63,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  70,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.3,
                       "heavyAttackDamage":  280,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  210,
+                      "comboDuration":  5,
+                      "slideAttack":  140,
+                      "windUp":  0.69999999,
+                      "slamRadius":  8,
+                      "slamAttack":  140,
                       "damagePerShot":  [
                                             3.5,
                                             3.5,
@@ -183,16 +193,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.3,
-                      "heavySlamRadialDamage":  210,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "zenurik",
-                      "slideAttack":  140,
-                      "windUp":  0.69999999,
-                      "followThrough":  0.5,
-                      "slamAttack":  140,
-                      "heavySlamRadius":  9,
                       "heavySlamAttack":  280
                   },
     "aliases":  [
@@ -206,7 +206,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Short axes held in each hand. High attack speed and can hit multiple targets. Delivers a high percentage of critical strikes.",
+    "id":  "weapon.dual-zoren",
     "release":  {
                     "releaseDate":  "2013-01-29",
                     "introduced":  {

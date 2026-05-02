@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.vastilok",
+    "description":  "Slash and blast with this heavy Gunblade of brutal Grineer design. High slash damage paired with a heavy shotgun attack.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -35,6 +35,7 @@
                                        "skipBuildTimePrice":  null,
                                        "consumeOnBuild":  null
                                    },
+                      "followThrough":  0.5,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Vastilok.png?fdf3e",
                                    "url":  "https://wiki.warframe.com/w/Vastilok",
@@ -109,11 +110,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  558,
-                      "slamRadius":  5,
                       "blockingAngle":  45,
+                      "heavySlamRadius":  7,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  19.530001,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -123,18 +126,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  234.36002,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  279,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1,
                       "heavyAttackDamage":  1395,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  837,
+                      "comboDuration":  5,
+                      "slideAttack":  558,
+                      "windUp":  0.40000001,
+                      "slamRadius":  5,
+                      "slamAttack":  837,
                       "damagePerShot":  [
                                             19.530001,
                                             25.110001,
@@ -157,16 +167,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  1,
-                      "heavySlamRadialDamage":  837,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  558,
-                      "windUp":  0.40000001,
-                      "followThrough":  0.5,
-                      "slamAttack":  837,
-                      "heavySlamRadius":  7,
                       "heavySlamAttack":  279
                   },
     "aliases":  [
@@ -180,7 +180,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Slash and blast with this heavy Gunblade of brutal Grineer design. High slash damage paired with a heavy shotgun attack.",
+    "id":  "weapon.vastilok",
     "release":  {
                     "releaseDate":  "2021-07-17",
                     "introduced":  {

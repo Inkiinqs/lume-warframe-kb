@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.furax",
+    "description":  "These power gauntlets lack the range of most Melee Weapons, but Furax is far more devastating when you strike an enemy in close combat.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,6 +75,7 @@
                                        "skipBuildTimePrice":  30,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.89999998,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Furax.png?e515a",
                                    "url":  "https://wiki.warframe.com/w/Furax",
@@ -130,11 +131,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  270,
-                      "slamRadius":  8,
                       "blockingAngle":  50,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "vazarin",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  94.5,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -144,18 +147,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  20.249996,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  135,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.25,
                       "heavyAttackDamage":  675,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  405,
+                      "comboDuration":  5,
+                      "slideAttack":  405,
+                      "windUp":  0.60000002,
+                      "slamRadius":  8,
+                      "slamAttack":  405,
                       "damagePerShot":  [
                                             94.5,
                                             20.25,
@@ -178,16 +188,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.25,
-                      "heavySlamRadialDamage":  405,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "vazarin",
-                      "slideAttack":  405,
-                      "windUp":  0.60000002,
-                      "followThrough":  0.89999998,
-                      "slamAttack":  405,
-                      "heavySlamRadius":  9,
                       "heavySlamAttack":  540
                   },
     "aliases":  [
@@ -201,7 +201,7 @@
     "relationships":  [
 
                       ],
-    "description":  "These power gauntlets lack the range of most Melee Weapons, but Furax is far more devastating when you strike an enemy in close combat.",
+    "id":  "weapon.furax",
     "release":  {
                     "releaseDate":  "2012-10-25",
                     "introduced":  {

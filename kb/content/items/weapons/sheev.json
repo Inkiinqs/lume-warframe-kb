@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.sheev",
+    "description":  "Built for close combat, the Sheev\u0027s plasma blade slices through flesh and armor with equal ease.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -65,6 +65,7 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.89999998,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Sheev.png?bd022",
                                    "url":  "https://wiki.warframe.com/w/Sheev",
@@ -120,11 +121,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  540,
-                      "slamRadius":  5,
                       "blockingAngle":  45,
+                      "heavySlamRadius":  6,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  13.5,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -134,18 +137,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  243,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  270,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.7,
                       "heavyAttackDamage":  540,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  810,
+                      "comboDuration":  5,
+                      "slideAttack":  540,
+                      "windUp":  0.40000001,
+                      "slamRadius":  5,
+                      "slamAttack":  540,
                       "damagePerShot":  [
                                             13.5,
                                             13.5,
@@ -168,16 +178,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.7,
-                      "heavySlamRadialDamage":  810,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  540,
-                      "windUp":  0.40000001,
-                      "followThrough":  0.89999998,
-                      "slamAttack":  540,
-                      "heavySlamRadius":  6,
                       "heavySlamAttack":  1080
                   },
     "aliases":  [
@@ -191,7 +191,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Built for close combat, the Sheev\u0027s plasma blade slices through flesh and armor with equal ease.",
+    "id":  "weapon.sheev",
     "release":  {
                     "releaseDate":  "2014-09-17",
                     "introduced":  {

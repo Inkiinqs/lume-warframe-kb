@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.tekko",
+    "description":  "These iron fists that rip through foes are Atlas\u0027 signature weapons. When wielded by Atlas they receive a Status Chance increase.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -80,6 +80,7 @@
                                        "skipBuildTimePrice":  30,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.89999998,
                       "wiki":  {
                                    "thumbnail":  null,
                                    "url":  "https://wiki.warframe.com/w/Tekko",
@@ -135,11 +136,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  320,
-                      "slamRadius":  8,
                       "blockingAngle":  50,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "vazarin",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  32,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -149,18 +152,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  112,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  160,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.25,
                       "heavyAttackDamage":  800,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  480,
+                      "comboDuration":  5,
+                      "slideAttack":  480,
+                      "windUp":  0.60000002,
+                      "slamRadius":  8,
+                      "slamAttack":  480,
                       "damagePerShot":  [
                                             32,
                                             16,
@@ -183,16 +193,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.25,
-                      "heavySlamRadialDamage":  480,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "vazarin",
-                      "slideAttack":  480,
-                      "windUp":  0.60000002,
-                      "followThrough":  0.89999998,
-                      "slamAttack":  480,
-                      "heavySlamRadius":  9,
                       "heavySlamAttack":  640
                   },
     "aliases":  [
@@ -206,7 +206,7 @@
     "relationships":  [
 
                       ],
-    "description":  "These iron fists that rip through foes are Atlas\u0027 signature weapons. When wielded by Atlas they receive a Status Chance increase.",
+    "id":  "weapon.tekko",
     "release":  {
                     "releaseDate":  "2015-10-01",
                     "introduced":  {

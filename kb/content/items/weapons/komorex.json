@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.komorex",
+    "description":  "Corpus ingenuity leveraging Tau-tech to create a high-capacity bi-modal sniper weapon of terrifying capability. Zoom in to reduce recoil and add punch through. Zoom again to fire a bursting viral round, but with a lower rate of fire. Komorex features built-in ammo conversion.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,6 +75,7 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  null,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Komorex.png?9dff4",
                                    "url":  "https://wiki.warframe.com/w/Komorex",
@@ -120,11 +121,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  9.6999998,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -134,18 +137,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  46.560001,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  97,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
                       "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             9.6999998,
                                             40.739998,
@@ -168,16 +178,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavySlamRadialDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -191,7 +191,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Corpus ingenuity leveraging Tau-tech to create a high-capacity bi-modal sniper weapon of terrifying capability. Zoom in to reduce recoil and add punch through. Zoom again to fire a bursting viral round, but with a lower rate of fire. Komorex features built-in ammo conversion.",
+    "id":  "weapon.komorex",
     "release":  {
                     "releaseDate":  "2019-05-22",
                     "introduced":  {

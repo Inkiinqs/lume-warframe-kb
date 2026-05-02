@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.kulstar",
+    "description":  "Rain hell on the enemy with this handheld cluster-rocket launcher.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -92,6 +92,7 @@
                                        "skipBuildTimePrice":  25,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  null,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Kulstar.png?c910a",
                                    "url":  "https://wiki.warframe.com/w/Kulstar",
@@ -160,11 +161,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  200,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -174,18 +177,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  500,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  300,
                                      "void":  0
                                  },
+                      "range":  null,
                       "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             200,
                                             0,
@@ -208,16 +218,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavySlamRadialDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -231,7 +231,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Rain hell on the enemy with this handheld cluster-rocket launcher.",
+    "id":  "weapon.kulstar",
     "release":  {
                     "releaseDate":  "2015-07-31",
                     "introduced":  {

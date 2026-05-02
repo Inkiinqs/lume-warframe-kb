@@ -1,5 +1,5 @@
 {
-    "description":  "A blood-red variant of this destructive flamethrower.",
+    "id":  "weapon.ignis-wraith",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -121,10 +121,13 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
-                      "followThrough":  null,
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
+                                     "heat":  35,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -134,17 +137,30 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  35,
+                                     "radiation":  0,
                                      "total":  35,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "relevantFormulas":  [
+                                               "formula.status-chance",
+                                               "formula.multishot",
+                                               "damage.damage-over-time"
+                                           ],
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -167,22 +183,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "relevantFormulas":  [
-                                               "formula.status-chance",
-                                               "formula.multishot",
-                                               "damage.damage-over-time"
-                                           ],
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -196,7 +196,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.ignis-wraith",
+    "description":  "A blood-red variant of this destructive flamethrower.",
     "release":  {
                     "releaseDate":  "2017-03-02",
                     "introduced":  {

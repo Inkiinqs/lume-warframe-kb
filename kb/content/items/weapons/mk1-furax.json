@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.mk1-furax",
+    "description":  "The MK1-Furax is the standard issue fist weapon for all Tenno.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -35,6 +35,7 @@
                                        "skipBuildTimePrice":  null,
                                        "consumeOnBuild":  null
                                    },
+                      "followThrough":  0.89999998,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/MK1-Furax.png?0b91a",
                                    "url":  "https://wiki.warframe.com/w/Mk1-Furax",
@@ -90,11 +91,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  180,
-                      "slamRadius":  8,
                       "blockingAngle":  50,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "vazarin",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  63,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -104,18 +107,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  13.499998,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  90,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.25,
                       "heavyAttackDamage":  450,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  270,
+                      "comboDuration":  5,
+                      "slideAttack":  270,
+                      "windUp":  0.60000002,
+                      "slamRadius":  8,
+                      "slamAttack":  270,
                       "damagePerShot":  [
                                             63,
                                             13.500001,
@@ -138,16 +148,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.25,
-                      "heavySlamRadialDamage":  270,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "vazarin",
-                      "slideAttack":  270,
-                      "windUp":  0.60000002,
-                      "followThrough":  0.89999998,
-                      "slamAttack":  270,
-                      "heavySlamRadius":  9,
                       "heavySlamAttack":  360
                   },
     "aliases":  [
@@ -161,7 +161,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The MK1-Furax is the standard issue fist weapon for all Tenno.",
+    "id":  "weapon.mk1-furax",
     "release":  {
                     "releaseDate":  "2014-07-18",
                     "introduced":  {

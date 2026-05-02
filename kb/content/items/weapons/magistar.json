@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.magistar",
+    "description":  "The Magistar mace wields justice and truth in the form of bone-crushing blows.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -80,6 +80,7 @@
                                        "skipBuildTimePrice":  25,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.40000001,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Magistar.png?0fd31",
                                    "url":  "https://wiki.warframe.com/w/Magistar",
@@ -135,11 +136,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  420,
-                      "slamRadius":  9,
                       "blockingAngle":  50,
+                      "heavySlamRadius":  10,
+                      "stancePolarity":  "vazarin",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  168,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -149,18 +152,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  10.49999,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  209.99998,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
                       "heavyAttackDamage":  1260,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  630,
+                      "comboDuration":  5,
+                      "slideAttack":  420,
+                      "windUp":  1.2,
+                      "slamRadius":  9,
+                      "slamAttack":  630,
                       "damagePerShot":  [
                                             168,
                                             31.500002,
@@ -183,16 +193,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "heavySlamRadialDamage":  630,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "vazarin",
-                      "slideAttack":  420,
-                      "windUp":  1.2,
-                      "followThrough":  0.40000001,
-                      "slamAttack":  630,
-                      "heavySlamRadius":  10,
                       "heavySlamAttack":  1050
                   },
     "aliases":  [
@@ -206,7 +206,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The Magistar mace wields justice and truth in the form of bone-crushing blows.",
+    "id":  "weapon.magistar",
     "release":  {
                     "releaseDate":  "2013-12-19",
                     "introduced":  {

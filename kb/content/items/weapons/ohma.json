@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.ohma",
+    "description":  "Bring the enemy to its knees with these twin electrified tonfas.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,6 +75,7 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.60000002,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Ohma.png?a0d9c",
                                    "url":  "https://wiki.warframe.com/w/Ohma",
@@ -130,11 +131,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  448,
-                      "slamRadius":  8,
                       "blockingAngle":  60,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "naramon",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  76,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  110,
@@ -144,18 +147,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  38,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  224,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
                       "heavyAttackDamage":  896,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  672,
+                      "comboDuration":  5,
+                      "slideAttack":  448,
+                      "windUp":  0.69999999,
+                      "slamRadius":  8,
+                      "slamAttack":  448,
                       "damagePerShot":  [
                                             76,
                                             0,
@@ -178,16 +188,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "heavySlamRadialDamage":  672,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  448,
-                      "windUp":  0.69999999,
-                      "followThrough":  0.60000002,
-                      "slamAttack":  448,
-                      "heavySlamRadius":  9,
                       "heavySlamAttack":  896
                   },
     "aliases":  [
@@ -201,7 +201,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Bring the enemy to its knees with these twin electrified tonfas.",
+    "id":  "weapon.ohma",
     "release":  {
                     "releaseDate":  "2017-01-18",
                     "introduced":  {

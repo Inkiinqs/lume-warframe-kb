@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.hespar",
+    "description":  "This Heavy Scythe echoes battles of another time. It is far more a weapon of sheer force than one of finesse.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -80,6 +80,7 @@
                                        "skipBuildTimePrice":  50,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.40000001,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Hespar.png?d6897",
                                    "url":  "https://wiki.warframe.com/w/Hespar",
@@ -135,11 +136,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  560,
-                      "slamRadius":  8,
                       "blockingAngle":  65,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  112,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -149,18 +152,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  134.40001,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  280,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.8,
                       "heavyAttackDamage":  5040,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  840,
+                      "comboDuration":  5,
+                      "slideAttack":  560,
+                      "windUp":  1,
+                      "slamRadius":  8,
+                      "slamAttack":  840,
                       "damagePerShot":  [
                                             112,
                                             33.599998,
@@ -183,16 +193,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.8,
-                      "heavySlamRadialDamage":  840,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  560,
-                      "windUp":  1,
-                      "followThrough":  0.40000001,
-                      "slamAttack":  840,
-                      "heavySlamRadius":  9,
                       "heavySlamAttack":  1400
                   },
     "aliases":  [
@@ -206,7 +206,7 @@
     "relationships":  [
 
                       ],
-    "description":  "This Heavy Scythe echoes battles of another time. It is far more a weapon of sheer force than one of finesse.",
+    "id":  "weapon.hespar",
     "release":  {
                     "releaseDate":  "2022-04-27",
                     "introduced":  {

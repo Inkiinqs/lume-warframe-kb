@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.hate",
+    "description":  "Hate is a scythe with a cruel blade, wielded by The Stalker.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -98,6 +98,7 @@
                                        "skipBuildTimePrice":  50,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.60000002,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Hate.png?bbaf9",
                                    "url":  "https://wiki.warframe.com/w/Hate",
@@ -184,11 +185,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  460,
-                      "slamRadius":  8,
                       "blockingAngle":  60,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "naramon",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  34.5,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -198,18 +201,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  161,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  230,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.8,
                       "heavyAttackDamage":  1380,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  690,
+                      "comboDuration":  5,
+                      "slideAttack":  460,
+                      "windUp":  1,
+                      "slamRadius":  8,
+                      "slamAttack":  690,
                       "damagePerShot":  [
                                             34.5,
                                             34.5,
@@ -232,16 +242,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.8,
-                      "heavySlamRadialDamage":  690,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  460,
-                      "windUp":  1,
-                      "followThrough":  0.60000002,
-                      "slamAttack":  690,
-                      "heavySlamRadius":  9,
                       "heavySlamAttack":  1150
                   },
     "aliases":  [
@@ -255,7 +255,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Hate is a scythe with a cruel blade, wielded by The Stalker.",
+    "id":  "weapon.hate",
     "release":  {
                     "releaseDate":  "2013-05-23",
                     "introduced":  {

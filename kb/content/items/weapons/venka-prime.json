@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.venka-prime",
+    "description":  "Gleaming blades of white draw blood of the deepest red.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -594,6 +594,7 @@
                                        "skipBuildTimePrice":  50,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.80000001,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/VenkaPrime.png?7ea5c",
                                    "url":  "https://wiki.warframe.com/w/Venka_Prime",
@@ -649,11 +650,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  376,
-                      "slamRadius":  6,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  7,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  9.4000006,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -663,18 +666,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  141,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  188,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.8,
                       "heavyAttackDamage":  940,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  564,
+                      "comboDuration":  5,
+                      "slideAttack":  564,
+                      "windUp":  0.60000002,
+                      "slamRadius":  6,
+                      "slamAttack":  564,
                       "damagePerShot":  [
                                             9.4000006,
                                             37.600002,
@@ -697,16 +707,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.8,
-                      "heavySlamRadialDamage":  564,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  564,
-                      "windUp":  0.60000002,
-                      "followThrough":  0.80000001,
-                      "slamAttack":  564,
-                      "heavySlamRadius":  7,
                       "heavySlamAttack":  752
                   },
     "aliases":  [
@@ -720,7 +720,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Gleaming blades of white draw blood of the deepest red.",
+    "id":  "weapon.venka-prime",
     "release":  {
                     "releaseDate":  "2016-11-22",
                     "introduced":  {

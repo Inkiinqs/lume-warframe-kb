@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.sampotes",
+    "description":  "A warrior who prefers brute force will make the most of Sampotes. Its Slams and Heavy Slams have an extended area of effect.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,6 +75,7 @@
                                        "skipBuildTimePrice":  40,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.40000001,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Sampotes.png?3d0bf",
                                    "url":  "https://wiki.warframe.com/w/Sampotes",
@@ -130,11 +131,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  496,
-                      "slamRadius":  6,
                       "blockingAngle":  50,
+                      "heavySlamRadius":  8,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  173.59999,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -144,18 +147,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  37.199993,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  247.99998,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
                       "heavyAttackDamage":  1488,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  744,
+                      "comboDuration":  5,
+                      "slideAttack":  496,
+                      "windUp":  1.4,
+                      "slamRadius":  6,
+                      "slamAttack":  744,
                       "damagePerShot":  [
                                             173.59999,
                                             37.200001,
@@ -178,16 +188,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "heavySlamRadialDamage":  744,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  496,
-                      "windUp":  1.4,
-                      "followThrough":  0.40000001,
-                      "slamAttack":  744,
-                      "heavySlamRadius":  8,
                       "heavySlamAttack":  1240
                   },
     "aliases":  [
@@ -201,7 +201,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A warrior who prefers brute force will make the most of Sampotes. Its Slams and Heavy Slams have an extended area of effect.",
+    "id":  "weapon.sampotes",
     "release":  {
                     "releaseDate":  "2023-04-26",
                     "introduced":  {

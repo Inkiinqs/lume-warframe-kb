@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.zhuge-prime",
+    "description":  "Tenno artistry. Ancient craft. A weapon of surgical precision and devastating effect. Each bolt fired by Zhuge Prime explodes shortly after embedding.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -994,6 +994,7 @@
                                        "skipBuildTimePrice":  50,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  null,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/ZhugePrime.png?56973",
                                    "url":  "https://wiki.warframe.com/w/Zhuge_Prime",
@@ -1037,11 +1038,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  10,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -1051,18 +1054,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  17.500002,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  50,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
                       "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             10,
                                             22.5,
@@ -1085,16 +1095,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavySlamRadialDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -1108,7 +1108,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Tenno artistry. Ancient craft. A weapon of surgical precision and devastating effect. Each bolt fired by Zhuge Prime explodes shortly after embedding.",
+    "id":  "weapon.zhuge-prime",
     "release":  {
                     "releaseDate":  "2019-07-06",
                     "introduced":  {

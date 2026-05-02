@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.ether-daggers",
+    "description":  "A shorter version of the Ether blade that allows for a more focused attack on a single target.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -86,6 +86,7 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.80000001,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/EtherDaggers.png?70d49",
                                    "url":  "https://wiki.warframe.com/w/Ether_Daggers",
@@ -141,11 +142,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  448,
-                      "slamRadius":  6,
                       "blockingAngle":  50,
+                      "heavySlamRadius":  7,
+                      "stancePolarity":  "zenurik",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  33.600002,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -155,18 +158,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  156.8,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  224,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.75,
                       "heavyAttackDamage":  448,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  672,
+                      "comboDuration":  5,
+                      "slideAttack":  448,
+                      "windUp":  0.5,
+                      "slamRadius":  6,
+                      "slamAttack":  448,
                       "damagePerShot":  [
                                             33.600002,
                                             33.600002,
@@ -189,16 +199,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.75,
-                      "heavySlamRadialDamage":  672,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "zenurik",
-                      "slideAttack":  448,
-                      "windUp":  0.5,
-                      "followThrough":  0.80000001,
-                      "slamAttack":  448,
-                      "heavySlamRadius":  7,
                       "heavySlamAttack":  896
                   },
     "aliases":  [
@@ -212,7 +212,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A shorter version of the Ether blade that allows for a more focused attack on a single target.",
+    "id":  "weapon.ether-daggers",
     "release":  {
                     "releaseDate":  "2013-04-12",
                     "introduced":  {

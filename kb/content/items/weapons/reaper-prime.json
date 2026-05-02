@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.reaper-prime",
+    "description":  "Reaper Prime is an ornamental scythe, with a blade forged from tempered Rubedo.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -314,6 +314,7 @@
                                        "skipBuildTimePrice":  50,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.60000002,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/ReaperPrime.png?95e53",
                                    "url":  "https://wiki.warframe.com/w/Reaper_Prime",
@@ -369,11 +370,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  400,
-                      "slamRadius":  8,
                       "blockingAngle":  60,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "naramon",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  30.000002,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -383,18 +386,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  140,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  200,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.8,
                       "heavyAttackDamage":  1200,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  600,
+                      "comboDuration":  5,
+                      "slideAttack":  400,
+                      "windUp":  1,
+                      "slamRadius":  8,
+                      "slamAttack":  600,
                       "damagePerShot":  [
                                             30.000002,
                                             30.000002,
@@ -417,16 +427,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.8,
-                      "heavySlamRadialDamage":  600,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  400,
-                      "windUp":  1,
-                      "followThrough":  0.60000002,
-                      "slamAttack":  600,
-                      "heavySlamRadius":  9,
                       "heavySlamAttack":  800
                   },
     "aliases":  [
@@ -440,7 +440,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Reaper Prime is an ornamental scythe, with a blade forged from tempered Rubedo.",
+    "id":  "weapon.reaper-prime",
     "release":  {
                     "releaseDate":  "2013-05-23",
                     "introduced":  {

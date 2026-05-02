@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.kestrel",
+    "description":  "The Kestrel boomerang is a heavy throwing weapon that can knock down enemies at a distance.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -80,6 +80,7 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.69999999,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Kestrel.png?d398c",
                                    "url":  "https://wiki.warframe.com/w/Kestrel",
@@ -232,11 +233,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  168,
-                      "slamRadius":  5,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  6,
+                      "stancePolarity":  "naramon",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  58.799999,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -246,18 +249,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  12.599998,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  84,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.2,
                       "heavyAttackDamage":  84,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  252,
+                      "comboDuration":  5,
+                      "slideAttack":  168,
+                      "windUp":  1.2,
+                      "slamRadius":  5,
+                      "slamAttack":  252,
                       "damagePerShot":  [
                                             58.799999,
                                             12.6,
@@ -280,16 +290,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.2,
-                      "heavySlamRadialDamage":  252,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  168,
-                      "windUp":  1.2,
-                      "followThrough":  0.69999999,
-                      "slamAttack":  252,
-                      "heavySlamRadius":  6,
                       "heavySlamAttack":  336
                   },
     "aliases":  [
@@ -303,7 +303,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The Kestrel boomerang is a heavy throwing weapon that can knock down enemies at a distance.",
+    "id":  "weapon.kestrel",
     "release":  {
                     "releaseDate":  "2013-06-07",
                     "introduced":  {

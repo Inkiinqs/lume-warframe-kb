@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.karyst",
+    "description":  "Once the blade weapon of choice for an exclusive order of Tenno assassins, the Karyst dagger grew to become a symbol of honor and duty for all Tenno.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,6 +75,7 @@
                                        "skipBuildTimePrice":  25,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.89999998,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Karyst.png?02c04",
                                    "url":  "https://wiki.warframe.com/w/Karyst",
@@ -131,11 +132,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  546,
-                      "slamRadius":  5,
                       "blockingAngle":  45,
+                      "heavySlamRadius":  6,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  30,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -145,18 +148,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  87,
                                      "puncture":  72.000008,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  273,
-                                     "toxin":  87,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.75,
                       "heavyAttackDamage":  546,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  819,
+                      "comboDuration":  5,
+                      "slideAttack":  546,
+                      "windUp":  0.40000001,
+                      "slamRadius":  5,
+                      "slamAttack":  546,
                       "damagePerShot":  [
                                             30,
                                             84,
@@ -179,16 +189,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.75,
-                      "heavySlamRadialDamage":  819,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  546,
-                      "windUp":  0.40000001,
-                      "followThrough":  0.89999998,
-                      "slamAttack":  546,
-                      "heavySlamRadius":  6,
                       "heavySlamAttack":  1092
                   },
     "aliases":  [
@@ -202,7 +202,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Once the blade weapon of choice for an exclusive order of Tenno assassins, the Karyst dagger grew to become a symbol of honor and duty for all Tenno.",
+    "id":  "weapon.karyst",
     "release":  {
                     "releaseDate":  "2014-08-13",
                     "introduced":  {

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.dual-cleavers",
+    "description":  "Butcher your foes with brutal blades in each hand.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,6 +75,7 @@
                                        "skipBuildTimePrice":  40,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.5,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/DualCleavers.png?547b9",
                                    "url":  "https://wiki.warframe.com/w/Dual_Cleavers",
@@ -130,11 +131,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  314,
-                      "slamRadius":  8,
                       "blockingAngle":  60,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "naramon",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  23.550001,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -144,18 +147,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  109.9,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  157,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.7,
                       "heavyAttackDamage":  628,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  471,
+                      "comboDuration":  5,
+                      "slideAttack":  314,
+                      "windUp":  0.69999999,
+                      "slamRadius":  8,
+                      "slamAttack":  314,
                       "damagePerShot":  [
                                             23.550001,
                                             23.550001,
@@ -178,16 +188,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.7,
-                      "heavySlamRadialDamage":  471,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  314,
-                      "windUp":  0.69999999,
-                      "followThrough":  0.5,
-                      "slamAttack":  314,
-                      "heavySlamRadius":  9,
                       "heavySlamAttack":  628
                   },
     "aliases":  [
@@ -201,7 +201,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Butcher your foes with brutal blades in each hand.",
+    "id":  "weapon.dual-cleavers",
     "release":  {
                     "releaseDate":  "2013-05-23",
                     "introduced":  {

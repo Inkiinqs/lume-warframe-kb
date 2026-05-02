@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.scindo",
+    "description":  "The Scindo is a heavy war axe crafted by the Tenno. Reduced speed and agility is balanced by heavy, devastating strikes capable of connecting with multiple targets at once.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -80,6 +80,7 @@
                                        "skipBuildTimePrice":  25,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.60000002,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Scindo.png?12fd7",
                                    "url":  "https://wiki.warframe.com/w/Scindo",
@@ -135,11 +136,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  400,
-                      "slamRadius":  8,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  20,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -149,18 +152,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  160,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  200,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5999999,
                       "heavyAttackDamage":  1200,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  600,
+                      "comboDuration":  5,
+                      "slideAttack":  400,
+                      "windUp":  1.1,
+                      "slamRadius":  8,
+                      "slamAttack":  600,
                       "damagePerShot":  [
                                             20,
                                             20,
@@ -183,16 +193,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5999999,
-                      "heavySlamRadialDamage":  600,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  400,
-                      "windUp":  1.1,
-                      "followThrough":  0.60000002,
-                      "slamAttack":  600,
-                      "heavySlamRadius":  9,
                       "heavySlamAttack":  1000
                   },
     "aliases":  [
@@ -206,7 +206,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The Scindo is a heavy war axe crafted by the Tenno. Reduced speed and agility is balanced by heavy, devastating strikes capable of connecting with multiple targets at once.",
+    "id":  "weapon.scindo",
     "release":  {
                     "releaseDate":  "2013-01-14",
                     "introduced":  {

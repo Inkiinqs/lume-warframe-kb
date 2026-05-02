@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.guandao-prime",
+    "description":  "That a god might reap a harvest of lives.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -622,6 +622,7 @@
                                        "skipBuildTimePrice":  50,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.60000002,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/GuandaoPrime.png?2a02e",
                                    "url":  "https://wiki.warframe.com/w/Guandao_Prime",
@@ -677,11 +678,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  480,
-                      "slamRadius":  7,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "zenurik",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  60,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -691,18 +694,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  168,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  240,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  3,
                       "heavyAttackDamage":  1440,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  720,
+                      "comboDuration":  6,
+                      "slideAttack":  480,
+                      "windUp":  0.90000004,
+                      "slamRadius":  7,
+                      "slamAttack":  720,
                       "damagePerShot":  [
                                             60,
                                             12,
@@ -725,16 +735,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  3,
-                      "heavySlamRadialDamage":  720,
-                      "sentinel":  null,
-                      "comboDuration":  6,
-                      "stancePolarity":  "zenurik",
-                      "slideAttack":  480,
-                      "windUp":  0.90000004,
-                      "followThrough":  0.60000002,
-                      "slamAttack":  720,
-                      "heavySlamRadius":  9,
                       "heavySlamAttack":  1200
                   },
     "aliases":  [
@@ -748,7 +748,7 @@
     "relationships":  [
 
                       ],
-    "description":  "That a god might reap a harvest of lives.",
+    "id":  "weapon.guandao-prime",
     "release":  {
                     "releaseDate":  "2020-10-27",
                     "introduced":  {

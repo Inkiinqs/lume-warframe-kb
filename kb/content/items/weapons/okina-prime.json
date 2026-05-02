@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.okina-prime",
+    "description":  "Enforce authority with these fine-edged sai blades.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -566,6 +566,7 @@
                                        "skipBuildTimePrice":  10,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.80000001,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/OkinaPrime.png?bf801",
                                    "url":  "https://wiki.warframe.com/w/Okina_Prime",
@@ -652,11 +653,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  368,
-                      "slamRadius":  6,
                       "blockingAngle":  50,
+                      "heavySlamRadius":  7,
+                      "stancePolarity":  "vazarin",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  9.1999998,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -666,18 +669,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  110.4,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  184,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.7,
                       "heavyAttackDamage":  368,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  552,
+                      "comboDuration":  5,
+                      "slideAttack":  368,
+                      "windUp":  0.5,
+                      "slamRadius":  6,
+                      "slamAttack":  368,
                       "damagePerShot":  [
                                             9.1999998,
                                             64.400002,
@@ -700,16 +710,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.7,
-                      "heavySlamRadialDamage":  552,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "vazarin",
-                      "slideAttack":  368,
-                      "windUp":  0.5,
-                      "followThrough":  0.80000001,
-                      "slamAttack":  368,
-                      "heavySlamRadius":  7,
                       "heavySlamAttack":  736
                   },
     "aliases":  [
@@ -723,7 +723,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Enforce authority with these fine-edged sai blades.",
+    "id":  "weapon.okina-prime",
     "release":  {
                     "releaseDate":  "2024-05-01",
                     "introduced":  {

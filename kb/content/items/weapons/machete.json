@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.machete",
+    "description":  "A ferocious Melee Weapon crafted by the Grineer and carried by their elite melee forces.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -80,6 +80,7 @@
                                        "skipBuildTimePrice":  25,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.69999999,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Machete.png?0b037",
                                    "url":  "https://wiki.warframe.com/w/Machete",
@@ -135,11 +136,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  240,
-                      "slamRadius":  8,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "zenurik",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  18,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -149,18 +152,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  84,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  120,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
                       "heavyAttackDamage":  720,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  360,
+                      "comboDuration":  5,
+                      "slideAttack":  240,
+                      "windUp":  0.69999999,
+                      "slamRadius":  8,
+                      "slamAttack":  360,
                       "damagePerShot":  [
                                             18,
                                             18,
@@ -183,16 +193,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "heavySlamRadialDamage":  360,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "zenurik",
-                      "slideAttack":  240,
-                      "windUp":  0.69999999,
-                      "followThrough":  0.69999999,
-                      "slamAttack":  360,
-                      "heavySlamRadius":  9,
                       "heavySlamAttack":  480
                   },
     "aliases":  [
@@ -206,7 +206,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A ferocious Melee Weapon crafted by the Grineer and carried by their elite melee forces.",
+    "id":  "weapon.machete",
     "release":  {
                     "releaseDate":  "2013-05-23",
                     "introduced":  {

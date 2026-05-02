@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.kuva-ghoulsaw",
+    "description":  "The addition of Kuva has forged the savage Ghoulsaw into an even more brutal weapon, allowing for faster attacks.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -35,6 +35,7 @@
                                        "skipBuildTimePrice":  0,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  1,
                       "wiki":  {
                                    "thumbnail":  null,
                                    "url":  null,
@@ -46,11 +47,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  422,
-                      "slamRadius":  7,
                       "blockingAngle":  90,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  40.09,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -60,18 +63,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  122.38,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  211,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.1530571,
                       "heavyAttackDamage":  1266,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  633,
+                      "comboDuration":  5,
+                      "slideAttack":  422,
+                      "windUp":  1,
+                      "slamRadius":  7,
+                      "slamAttack":  633,
                       "damagePerShot":  [
                                             40.09,
                                             48.530003,
@@ -94,16 +104,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.1530571,
-                      "heavySlamRadialDamage":  633,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  null,
-                      "slideAttack":  422,
-                      "windUp":  1,
-                      "followThrough":  1,
-                      "slamAttack":  633,
-                      "heavySlamRadius":  9,
                       "heavySlamAttack":  211
                   },
     "aliases":  [
@@ -117,7 +117,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The addition of Kuva has forged the savage Ghoulsaw into an even more brutal weapon, allowing for faster attacks.",
+    "id":  "weapon.kuva-ghoulsaw",
     "release":  {
                     "releaseDate":  null,
                     "introduced":  null

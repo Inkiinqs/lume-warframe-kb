@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.nepheri",
+    "description":  "The dual flaming fang-blades of the Archon Amar. Has a unique Neutral Combo that blasts out four short-range fireballs.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -98,6 +98,7 @@
                                        "skipBuildTimePrice":  25,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.80000001,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Nepheri.png?24dbb",
                                    "url":  "https://wiki.warframe.com/w/Nepheri",
@@ -166,11 +167,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  522,
-                      "slamRadius":  6,
                       "blockingAngle":  50,
+                      "heavySlamRadius":  7,
+                      "stancePolarity":  "vazarin",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  21,
+                                     "heat":  92,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -180,18 +183,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  85,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  92,
+                                     "radiation":  0,
                                      "total":  261,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.9,
                       "heavyAttackDamage":  522,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  783,
+                      "comboDuration":  5,
+                      "slideAttack":  522,
+                      "windUp":  0.5,
+                      "slamRadius":  6,
+                      "slamAttack":  522,
                       "damagePerShot":  [
                                             21,
                                             63,
@@ -214,16 +224,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.9,
-                      "heavySlamRadialDamage":  783,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "vazarin",
-                      "slideAttack":  522,
-                      "windUp":  0.5,
-                      "followThrough":  0.80000001,
-                      "slamAttack":  522,
-                      "heavySlamRadius":  7,
                       "heavySlamAttack":  1044
                   },
     "aliases":  [
@@ -237,7 +237,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The dual flaming fang-blades of the Archon Amar. Has a unique Neutral Combo that blasts out four short-range fireballs.",
+    "id":  "weapon.nepheri",
     "release":  {
                     "releaseDate":  "2021-12-15",
                     "introduced":  {

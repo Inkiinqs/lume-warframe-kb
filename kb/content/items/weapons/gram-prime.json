@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.gram-prime",
+    "description":  "Born anew, the father of swords returns.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -594,6 +594,7 @@
                                        "skipBuildTimePrice":  50,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.60000002,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/GramPrime.png?89383",
                                    "url":  "https://wiki.warframe.com/w/Gram_Prime",
@@ -649,11 +650,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  600,
-                      "slamRadius":  8,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "vazarin",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  60,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -663,18 +666,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  225,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  300,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.9000001,
                       "heavyAttackDamage":  1800,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  900,
+                      "comboDuration":  5,
+                      "slideAttack":  600,
+                      "windUp":  1.1,
+                      "slamRadius":  8,
+                      "slamAttack":  900,
                       "damagePerShot":  [
                                             60,
                                             15,
@@ -697,16 +707,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.9000001,
-                      "heavySlamRadialDamage":  900,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "vazarin",
-                      "slideAttack":  600,
-                      "windUp":  1.1,
-                      "followThrough":  0.60000002,
-                      "slamAttack":  900,
-                      "heavySlamRadius":  9,
                       "heavySlamAttack":  300
                   },
     "aliases":  [
@@ -720,7 +720,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Born anew, the father of swords returns.",
+    "id":  "weapon.gram-prime",
     "release":  {
                     "releaseDate":  "2018-09-25",
                     "introduced":  {

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.sigma-octantis",
+    "description":  "Deadly slashes from the Sigma sword are matched only by the force of the Octantis shield when thrown from the air.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -80,6 +80,7 @@
                                        "skipBuildTimePrice":  25,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.60000002,
                       "wiki":  {
                                    "thumbnail":  null,
                                    "url":  "https://wiki.warframe.com/w/Sigma_%26_Octantis",
@@ -166,11 +167,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  348,
-                      "slamRadius":  7,
                       "blockingAngle":  70,
+                      "heavySlamRadius":  8,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  38.279999,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -180,18 +183,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  107.88,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  174,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
                       "heavyAttackDamage":  870,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  522,
+                      "comboDuration":  5,
+                      "slideAttack":  174,
+                      "windUp":  0.69999999,
+                      "slamRadius":  7,
+                      "slamAttack":  522,
                       "damagePerShot":  [
                                             38.279999,
                                             27.84,
@@ -214,16 +224,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "heavySlamRadialDamage":  522,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  174,
-                      "windUp":  0.69999999,
-                      "followThrough":  0.60000002,
-                      "slamAttack":  522,
-                      "heavySlamRadius":  8,
                       "heavySlamAttack":  696
                   },
     "aliases":  [
@@ -237,7 +237,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Deadly slashes from the Sigma sword are matched only by the force of the Octantis shield when thrown from the air.",
+    "id":  "weapon.sigma-octantis",
     "release":  {
                     "releaseDate":  "2017-10-30",
                     "introduced":  {

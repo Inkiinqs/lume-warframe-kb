@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.cadus",
+    "description":  "A lone Tenno once used this staff to fight back a horde of Infested.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,6 +75,7 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.5,
                       "wiki":  {
                                    "thumbnail":  null,
                                    "url":  "https://wiki.warframe.com/w/Cadus",
@@ -129,11 +130,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  260,
-                      "slamRadius":  6,
                       "blockingAngle":  60,
+                      "heavySlamRadius":  7,
+                      "stancePolarity":  "unairu",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  70,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  60,
@@ -143,18 +146,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  130,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.8,
                       "heavyAttackDamage":  650,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  390,
+                      "comboDuration":  5,
+                      "slideAttack":  130,
+                      "windUp":  0.5,
+                      "slamRadius":  6,
+                      "slamAttack":  390,
                       "damagePerShot":  [
                                             70,
                                             0,
@@ -177,16 +187,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.8,
-                      "heavySlamRadialDamage":  390,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "unairu",
-                      "slideAttack":  130,
-                      "windUp":  0.5,
-                      "followThrough":  0.5,
-                      "slamAttack":  390,
-                      "heavySlamRadius":  7,
                       "heavySlamAttack":  520
                   },
     "aliases":  [
@@ -200,7 +200,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A lone Tenno once used this staff to fight back a horde of Infested.",
+    "id":  "weapon.cadus",
     "release":  {
                     "releaseDate":  "2021-07-06",
                     "introduced":  {

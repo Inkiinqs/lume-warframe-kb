@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.pangolin-prime",
+    "description":  "A classic Tenno blade, beautifully reimagined.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -678,6 +678,7 @@
                                        "skipBuildTimePrice":  50,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.60000002,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/PangolinPrime.png?51917",
                                    "url":  "https://wiki.warframe.com/w/Pangolin_Prime",
@@ -733,11 +734,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  496,
-                      "slamRadius":  8,
                       "blockingAngle":  50,
+                      "heavySlamRadius":  8,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  12.400001,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -747,18 +750,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  198.40001,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  248.00002,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
                       "heavyAttackDamage":  1240,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  744,
+                      "comboDuration":  5,
+                      "slideAttack":  248,
+                      "windUp":  0.60000002,
+                      "slamRadius":  8,
+                      "slamAttack":  744,
                       "damagePerShot":  [
                                             12.400001,
                                             37.200001,
@@ -781,16 +791,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "heavySlamRadialDamage":  744,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  248,
-                      "windUp":  0.60000002,
-                      "followThrough":  0.60000002,
-                      "slamAttack":  744,
-                      "heavySlamRadius":  8,
                       "heavySlamAttack":  992
                   },
     "aliases":  [
@@ -804,7 +804,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A classic Tenno blade, beautifully reimagined.",
+    "id":  "weapon.pangolin-prime",
     "release":  {
                     "releaseDate":  "2020-03-31",
                     "introduced":  {

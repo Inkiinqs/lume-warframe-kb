@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.okina",
+    "description":  "Perforate enemies with these two needle-sharp sai.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,6 +75,7 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.80000001,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Okina.png?6bf0d",
                                    "url":  "https://wiki.warframe.com/w/Okina",
@@ -161,11 +162,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  280,
-                      "slamRadius":  6,
                       "blockingAngle":  50,
+                      "heavySlamRadius":  7,
+                      "stancePolarity":  "vazarin",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  7,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -175,18 +178,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  70,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  140,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.7,
                       "heavyAttackDamage":  280,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  420,
+                      "comboDuration":  5,
+                      "slideAttack":  280,
+                      "windUp":  0.5,
+                      "slamRadius":  6,
+                      "slamAttack":  280,
                       "damagePerShot":  [
                                             7,
                                             63,
@@ -209,16 +219,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.7,
-                      "heavySlamRadialDamage":  420,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "vazarin",
-                      "slideAttack":  280,
-                      "windUp":  0.5,
-                      "followThrough":  0.80000001,
-                      "slamAttack":  280,
-                      "heavySlamRadius":  7,
                       "heavySlamAttack":  560
                   },
     "aliases":  [
@@ -232,7 +232,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Perforate enemies with these two needle-sharp sai.",
+    "id":  "weapon.okina",
     "release":  {
                     "releaseDate":  "2016-07-08",
                     "introduced":  {

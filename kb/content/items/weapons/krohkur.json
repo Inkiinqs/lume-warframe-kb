@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.krohkur",
+    "description":  "This hooked blade rewards critical hits to those skilled enough to strike with finesse.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,6 +75,7 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.60000002,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Krohkur.png?eb7cd",
                                    "url":  "https://wiki.warframe.com/w/Krohkur",
@@ -130,11 +131,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  434,
-                      "slamRadius":  7,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  8,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  26.039999,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -144,18 +147,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  151.89999,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  217,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
                       "heavyAttackDamage":  1085,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  651,
+                      "comboDuration":  5,
+                      "slideAttack":  217,
+                      "windUp":  0.60000002,
+                      "slamRadius":  7,
+                      "slamAttack":  651,
                       "damagePerShot":  [
                                             26.039999,
                                             39.060001,
@@ -178,16 +188,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "heavySlamRadialDamage":  651,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  217,
-                      "windUp":  0.60000002,
-                      "followThrough":  0.60000002,
-                      "slamAttack":  651,
-                      "heavySlamRadius":  8,
                       "heavySlamAttack":  868
                   },
     "aliases":  [
@@ -201,7 +201,7 @@
     "relationships":  [
 
                       ],
-    "description":  "This hooked blade rewards critical hits to those skilled enough to strike with finesse.",
+    "id":  "weapon.krohkur",
     "release":  {
                     "releaseDate":  "2017-10-12",
                     "introduced":  {
