@@ -1,5 +1,5 @@
 {
-    "description":  "A two-handed, reinforced staff that can send multiple enemies airborne.",
+    "id":  "weapon.bo",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,7 +75,6 @@
                                        "skipBuildTimePrice":  25,
                                        "consumeOnBuild":  true
                                    },
-                      "followThrough":  0.5,
                       "wiki":  {
                                    "thumbnail":  null,
                                    "url":  "https://wiki.warframe.com/w/Bo",
@@ -131,12 +130,10 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  280,
                       "blockingAngle":  60,
-                      "heavySlamRadius":  7,
-                      "stancePolarity":  "unairu",
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  126,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -146,25 +143,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  140,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  3,
-                      "heavyAttackDamage":  700,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  420,
-                      "comboDuration":  5,
-                      "slideAttack":  140,
-                      "windUp":  0.5,
-                      "slamRadius":  6,
-                      "slamAttack":  420,
                       "damagePerShot":  [
                                             126,
                                             14,
@@ -187,6 +176,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  3,
+                      "heavyAttackDamage":  700,
+                      "followThrough":  0.5,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  420,
+                      "stancePolarity":  "unairu",
+                      "slideAttack":  140,
+                      "windUp":  0.5,
+                      "slamRadius":  6,
+                      "slamAttack":  420,
+                      "heavySlamRadius":  7,
                       "heavySlamAttack":  560
                   },
     "aliases":  [
@@ -200,7 +200,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.bo",
+    "description":  "A two-handed, reinforced staff that can send multiple enemies airborne.",
     "release":  {
                     "releaseDate":  "2012-10-25",
                     "introduced":  {

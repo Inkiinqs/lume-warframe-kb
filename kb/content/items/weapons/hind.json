@@ -1,5 +1,5 @@
 {
-    "description":  "A powerful mid-range rifle used by Grineer shock troops, the Hind fires in five round bursts.",
+    "id":  "weapon.hind",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -80,7 +80,6 @@
                                        "skipBuildTimePrice":  25,
                                        "consumeOnBuild":  true
                                    },
-                      "followThrough":  null,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Hind.png?4ba98",
                                    "url":  "https://wiki.warframe.com/w/Hind",
@@ -117,12 +116,10 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  7.5,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -132,25 +129,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  15,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  30,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             7.5,
                                             7.5,
@@ -173,6 +162,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -186,7 +186,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.hind",
+    "description":  "A powerful mid-range rifle used by Grineer shock troops, the Hind fires in five round bursts.",
     "release":  {
                     "releaseDate":  "2013-08-16",
                     "introduced":  {

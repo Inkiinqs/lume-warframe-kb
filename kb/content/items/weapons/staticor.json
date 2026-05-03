@@ -1,5 +1,5 @@
 {
-    "description":  "Send a massive charge of potential energy hurling toward unfortunate targets.",
+    "id":  "weapon.staticor",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,7 +75,6 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
-                      "followThrough":  null,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Staticor.png?ab6ac",
                                    "url":  "https://wiki.warframe.com/w/Staticor",
@@ -147,12 +146,10 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -162,25 +159,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  150,
+                                     "healthDrain":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  150,
+                                     "heat":  0,
                                      "total":  150,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -203,6 +192,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -216,7 +216,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.staticor",
+    "description":  "Send a massive charge of potential energy hurling toward unfortunate targets.",
     "release":  {
                     "releaseDate":  "2016-02-04",
                     "introduced":  {

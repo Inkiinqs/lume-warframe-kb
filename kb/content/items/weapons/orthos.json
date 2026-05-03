@@ -1,5 +1,5 @@
 {
-    "description":  "The Tenno forged Orthos is a rare double bladed polearm. Those who take the time to master it speak of its impressive striking distance and ability to hit multiple targets.",
+    "id":  "weapon.orthos",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -80,7 +80,6 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
-                      "followThrough":  0.60000002,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Orthos.png?86c84",
                                    "url":  "https://wiki.warframe.com/w/Orthos",
@@ -137,12 +136,10 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  370,
                       "blockingAngle":  55,
-                      "heavySlamRadius":  8,
-                      "stancePolarity":  "naramon",
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  27.750002,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -152,25 +149,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  129.5,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  185,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  3,
-                      "heavyAttackDamage":  1110,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  555,
-                      "comboDuration":  5,
-                      "slideAttack":  370,
-                      "windUp":  0.90000004,
-                      "slamRadius":  7,
-                      "slamAttack":  555,
                       "damagePerShot":  [
                                             27.750002,
                                             27.750002,
@@ -193,6 +182,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  3,
+                      "heavyAttackDamage":  1110,
+                      "followThrough":  0.60000002,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  555,
+                      "stancePolarity":  "naramon",
+                      "slideAttack":  370,
+                      "windUp":  0.90000004,
+                      "slamRadius":  7,
+                      "slamAttack":  555,
+                      "heavySlamRadius":  8,
                       "heavySlamAttack":  925
                   },
     "aliases":  [
@@ -206,7 +206,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.orthos",
+    "description":  "The Tenno forged Orthos is a rare double bladed polearm. Those who take the time to master it speak of its impressive striking distance and ability to hit multiple targets.",
     "release":  {
                     "releaseDate":  "2013-06-07",
                     "introduced":  {

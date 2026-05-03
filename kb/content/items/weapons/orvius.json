@@ -1,5 +1,5 @@
 {
-    "description":  "Turn foes into puppets with Teshin’s versatile throwing disc.",
+    "id":  "weapon.orvius",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -90,7 +90,6 @@
                                        "skipBuildTimePrice":  50,
                                        "consumeOnBuild":  true
                                    },
-                      "followThrough":  0.69999999,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Orvius.png?d4116",
                                    "url":  "https://wiki.warframe.com/w/Orvius",
@@ -254,12 +253,10 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  390,
                       "blockingAngle":  55,
-                      "heavySlamRadius":  6,
-                      "stancePolarity":  "naramon",
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  39,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -269,25 +266,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  146.25,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  195,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  1.3,
-                      "heavyAttackDamage":  195,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  585,
-                      "comboDuration":  5,
-                      "slideAttack":  390,
-                      "windUp":  1.2,
-                      "slamRadius":  5,
-                      "slamAttack":  585,
                       "damagePerShot":  [
                                             39,
                                             9.75,
@@ -310,6 +299,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  1.3,
+                      "heavyAttackDamage":  195,
+                      "followThrough":  0.69999999,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  585,
+                      "stancePolarity":  "naramon",
+                      "slideAttack":  390,
+                      "windUp":  1.2,
+                      "slamRadius":  5,
+                      "slamAttack":  585,
+                      "heavySlamRadius":  6,
                       "heavySlamAttack":  780
                   },
     "aliases":  [
@@ -323,7 +323,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.orvius",
+    "description":  "Turn foes into puppets with Teshin’s versatile throwing disc.",
     "release":  {
                     "releaseDate":  "2016-11-11",
                     "introduced":  {

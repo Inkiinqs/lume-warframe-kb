@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.vulcax",
+    "description":  "Charges up a powerful blast of ultra-heated plasma.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -80,6 +80,7 @@
                                        "skipBuildTimePrice":  25,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  null,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Vulcax.png?11641",
                                    "url":  "https://wiki.warframe.com/w/Vulcax",
@@ -117,12 +118,12 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
-                                     "heat":  500,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -132,17 +133,26 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  500,
                                      "total":  500,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
                       "heavyAttackDamage":  null,
+                      "sentinel":  true,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -165,16 +175,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavySlamRadialDamage":  null,
-                      "sentinel":  true,
-                      "comboDuration":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -188,7 +188,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Charges up a powerful blast of ultra-heated plasma.",
+    "id":  "weapon.vulcax",
     "release":  {
                     "releaseDate":  "2018-11-08",
                     "introduced":  {

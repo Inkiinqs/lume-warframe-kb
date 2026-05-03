@@ -1,5 +1,5 @@
 {
-    "description":  "Striking with massive twin blades, the Redeemer fires the killing blow with its built-in shotgun.",
+    "id":  "weapon.redeemer",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -81,7 +81,6 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
-                      "followThrough":  0.5,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Redeemer.png?7a716",
                                    "url":  "https://wiki.warframe.com/w/Redeemer",
@@ -155,12 +154,10 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  360,
                       "blockingAngle":  45,
-                      "heavySlamRadius":  6,
-                      "stancePolarity":  "madurai",
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  18,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -170,25 +167,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  126,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  180,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  2,
-                      "heavyAttackDamage":  900,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  540,
-                      "comboDuration":  5,
-                      "slideAttack":  360,
-                      "windUp":  0.40000001,
-                      "slamRadius":  5,
-                      "slamAttack":  540,
                       "damagePerShot":  [
                                             18,
                                             36,
@@ -211,6 +200,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  2,
+                      "heavyAttackDamage":  900,
+                      "followThrough":  0.5,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  540,
+                      "stancePolarity":  "madurai",
+                      "slideAttack":  360,
+                      "windUp":  0.40000001,
+                      "slamRadius":  5,
+                      "slamAttack":  540,
+                      "heavySlamRadius":  6,
                       "heavySlamAttack":  540
                   },
     "aliases":  [
@@ -224,7 +224,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.redeemer",
+    "description":  "Striking with massive twin blades, the Redeemer fires the killing blow with its built-in shotgun.",
     "release":  {
                     "releaseDate":  "2014-11-27",
                     "introduced":  {

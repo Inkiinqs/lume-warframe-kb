@@ -1,5 +1,5 @@
 {
-    "description":  "The Prova is a Melee Weapon that delivers a high-intensity shock to its target.",
+    "id":  "weapon.prova",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,7 +75,6 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
-                      "followThrough":  0.69999999,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Prova.png?1e046",
                                    "url":  "https://wiki.warframe.com/w/Prova",
@@ -131,12 +130,10 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  256,
                       "blockingAngle":  55,
-                      "heavySlamRadius":  9,
-                      "stancePolarity":  "zenurik",
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  52,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  76,
@@ -146,25 +143,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  128,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  2.5,
-                      "heavyAttackDamage":  768,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  384,
-                      "comboDuration":  5,
-                      "slideAttack":  256,
-                      "windUp":  0.69999999,
-                      "slamRadius":  8,
-                      "slamAttack":  384,
                       "damagePerShot":  [
                                             52,
                                             0,
@@ -187,6 +176,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  2.5,
+                      "heavyAttackDamage":  768,
+                      "followThrough":  0.69999999,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  384,
+                      "stancePolarity":  "zenurik",
+                      "slideAttack":  256,
+                      "windUp":  0.69999999,
+                      "slamRadius":  8,
+                      "slamAttack":  384,
+                      "heavySlamRadius":  9,
                       "heavySlamAttack":  512
                   },
     "aliases":  [
@@ -200,7 +200,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.prova",
+    "description":  "The Prova is a Melee Weapon that delivers a high-intensity shock to its target.",
     "release":  {
                     "releaseDate":  "2013-05-23",
                     "introduced":  {

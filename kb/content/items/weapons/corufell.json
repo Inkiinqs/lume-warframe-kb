@@ -1,5 +1,5 @@
 {
-    "description":  "Heavy attacks briefly transform the Corufell into a Gunblade. After the Gunblade fires, the Corufell returns to its Heavy Scythe state. Its transformation is fastest in Citrine’s hands.",
+    "id":  "weapon.corufell",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -95,7 +95,6 @@
                                        "skipBuildTimePrice":  50,
                                        "consumeOnBuild":  true
                                    },
-                      "followThrough":  0.40000001,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Corufell.png?5fe41",
                                    "url":  "https://wiki.warframe.com/w/Corufell",
@@ -170,12 +169,10 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  400,
                       "blockingAngle":  65,
-                      "heavySlamRadius":  9,
-                      "stancePolarity":  "madurai",
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  96,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -185,25 +182,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  36,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  200,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  2.5999999,
-                      "heavyAttackDamage":  200,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  600,
-                      "comboDuration":  5,
-                      "slideAttack":  400,
-                      "windUp":  1.3000001,
-                      "slamRadius":  8,
-                      "slamAttack":  600,
                       "damagePerShot":  [
                                             96,
                                             68,
@@ -226,6 +215,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  2.5999999,
+                      "heavyAttackDamage":  200,
+                      "followThrough":  0.40000001,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  600,
+                      "stancePolarity":  "madurai",
+                      "slideAttack":  400,
+                      "windUp":  1.3000001,
+                      "slamRadius":  8,
+                      "slamAttack":  600,
+                      "heavySlamRadius":  9,
                       "heavySlamAttack":  1000
                   },
     "aliases":  [
@@ -239,7 +239,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.corufell",
+    "description":  "Heavy attacks briefly transform the Corufell into a Gunblade. After the Gunblade fires, the Corufell returns to its Heavy Scythe state. Its transformation is fastest in Citrine’s hands.",
     "release":  {
                     "releaseDate":  "2023-02-15",
                     "introduced":  {

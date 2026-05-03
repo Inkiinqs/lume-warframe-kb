@@ -1,5 +1,5 @@
 {
-    "description":  "With a blade forged from the same material as the Ether Sword, the Ether Reaper delivers quick death to its victims.",
+    "id":  "weapon.ether-reaper",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,7 +75,6 @@
                                        "skipBuildTimePrice":  50,
                                        "consumeOnBuild":  true
                                    },
-                      "followThrough":  0.60000002,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/EtherReaper.png?145af",
                                    "url":  "https://wiki.warframe.com/w/Ether_Reaper",
@@ -132,12 +131,10 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  360,
                       "blockingAngle":  60,
-                      "heavySlamRadius":  9,
-                      "stancePolarity":  "zenurik",
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  27.000002,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -147,25 +144,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  126,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  180,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  2.7,
-                      "heavyAttackDamage":  1080,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  540,
-                      "comboDuration":  5,
-                      "slideAttack":  360,
-                      "windUp":  1,
-                      "slamRadius":  8,
-                      "slamAttack":  540,
                       "damagePerShot":  [
                                             27.000002,
                                             27.000002,
@@ -188,6 +177,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  2.7,
+                      "heavyAttackDamage":  1080,
+                      "followThrough":  0.60000002,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  540,
+                      "stancePolarity":  "zenurik",
+                      "slideAttack":  360,
+                      "windUp":  1,
+                      "slamRadius":  8,
+                      "slamAttack":  540,
+                      "heavySlamRadius":  9,
                       "heavySlamAttack":  900
                   },
     "aliases":  [
@@ -201,7 +201,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.ether-reaper",
+    "description":  "With a blade forged from the same material as the Ether Sword, the Ether Reaper delivers quick death to its victims.",
     "release":  {
                     "releaseDate":  "2013-09-13",
                     "introduced":  {

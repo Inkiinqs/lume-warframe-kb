@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.cryotra",
+    "description":  "Fires volleys of icy grenades that inflict a lingering chill on the blast zone.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -80,6 +80,7 @@
                                        "skipBuildTimePrice":  25,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  null,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Cryotra.png?2403f",
                                    "url":  "https://wiki.warframe.com/w/Cryotra",
@@ -119,12 +120,12 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  10,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -134,17 +135,26 @@
                                      "cold":  20,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  30,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
                       "heavyAttackDamage":  null,
+                      "sentinel":  true,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             10,
                                             0,
@@ -167,16 +177,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavySlamRadialDamage":  null,
-                      "sentinel":  true,
-                      "comboDuration":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -190,7 +190,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Fires volleys of icy grenades that inflict a lingering chill on the blast zone.",
+    "id":  "weapon.cryotra",
     "release":  {
                     "releaseDate":  "2018-11-08",
                     "introduced":  {

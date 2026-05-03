@@ -1,5 +1,5 @@
 {
-    "description":  "A classic Orokin weapon, Bo Prime creates elegant fury on the battlefield.",
+    "id":  "weapon.bo-prime",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -230,7 +230,6 @@
                                        "skipBuildTimePrice":  50,
                                        "consumeOnBuild":  true
                                    },
-                      "followThrough":  0.5,
                       "wiki":  {
                                    "thumbnail":  null,
                                    "url":  "https://wiki.warframe.com/w/Bo_Prime",
@@ -286,12 +285,10 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  352,
                       "blockingAngle":  60,
-                      "heavySlamRadius":  7,
-                      "stancePolarity":  "unairu",
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  158.39999,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -301,25 +298,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  176,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  3,
-                      "heavyAttackDamage":  880,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  528,
-                      "comboDuration":  5,
-                      "slideAttack":  176,
-                      "windUp":  0.5,
-                      "slamRadius":  6,
-                      "slamAttack":  528,
                       "damagePerShot":  [
                                             158.39999,
                                             17.6,
@@ -342,6 +331,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  3,
+                      "heavyAttackDamage":  880,
+                      "followThrough":  0.5,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  528,
+                      "stancePolarity":  "unairu",
+                      "slideAttack":  176,
+                      "windUp":  0.5,
+                      "slamRadius":  6,
+                      "slamAttack":  528,
+                      "heavySlamRadius":  7,
                       "heavySlamAttack":  704
                   },
     "aliases":  [
@@ -355,7 +355,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.bo-prime",
+    "description":  "A classic Orokin weapon, Bo Prime creates elegant fury on the battlefield.",
     "release":  {
                     "releaseDate":  "2014-06-11",
                     "introduced":  {
