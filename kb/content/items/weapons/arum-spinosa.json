@@ -1,5 +1,5 @@
 {
-    "description":  "Slash through enemies with two leaves of the exceedingly rare Arum Spinosa plant. Heavy Attack to whip a flurry of toxic spines at ranged attackers.",
+    "id":  "weapon.arum-spinosa",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -28,6 +28,12 @@
                                                               "type":  null,
                                                               "tradable":  false,
                                                               "drops":  [
+                                                                            {
+                                                                                "location":  "NecraLoid (Loid), Clearance Modus",
+                                                                                "type":  "Arum Spinosa Blueprint",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            },
                                                                             {
                                                                                 "location":  "Deimos/Cambion Drift (Level 40 - 50 Arcana Isolation Vault), Rotation A",
                                                                                 "type":  "Arum Spinosa Blueprint",
@@ -120,6 +126,12 @@
                                                               "tradable":  false,
                                                               "drops":  [
                                                                             {
+                                                                                "location":  "NecraLoid (Loid), Clearance Modus",
+                                                                                "type":  "Arum Spinosa Guard",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            },
+                                                                            {
                                                                                 "location":  "Deimos/Cambion Drift (Level 40 - 50 Arcana Isolation Vault), Rotation A",
                                                                                 "type":  "Arum Spinosa Guard",
                                                                                 "chance":  3.75,
@@ -200,6 +212,12 @@
                                                               "type":  null,
                                                               "tradable":  false,
                                                               "drops":  [
+                                                                            {
+                                                                                "location":  "NecraLoid (Loid), Clearance Modus",
+                                                                                "type":  "Arum Spinosa Rivet",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            },
                                                                             {
                                                                                 "location":  "Deimos/Cambion Drift (Level 40 - 50 Arcana Isolation Vault), Rotation A",
                                                                                 "type":  "Arum Spinosa Rivet",
@@ -359,20 +377,31 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  594,
-                      "slamRadius":  5,
                       "blockingAngle":  55,
-                      "heavySlamRadius":  6,
-                      "stancePolarity":  "naramon",
-                      "heavyAttackDamage":  1188,
-                      "range":  1.7,
-                      "heavySlamRadialDamage":  891,
-                      "sentinel":  null,
-                      "heavySlamAttack":  297,
-                      "comboDuration":  5,
-                      "slideAttack":  297,
-                      "windUp":  0.5,
-                      "followThrough":  0.69999999,
-                      "slamAttack":  594,
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  35.639999,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  59.400002,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  201.96001,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  297,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "slamRadius":  5,
                       "damagePerShot":  [
                                             35.639999,
                                             59.400002,
@@ -395,29 +424,18 @@
                                             0,
                                             0
                                         ],
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  35.639999,
-                                     "heat":  0,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  59.400002,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "toxin":  0,
-                                     "puncture":  201.96001,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "radiation":  0,
-                                     "total":  297,
-                                     "healthDrain":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 }
+                      "range":  1.7,
+                      "heavyAttackDamage":  1188,
+                      "sentinel":  null,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  891,
+                      "stancePolarity":  "naramon",
+                      "slideAttack":  297,
+                      "windUp":  0.5,
+                      "followThrough":  0.69999999,
+                      "slamAttack":  594,
+                      "heavySlamRadius":  6,
+                      "heavySlamAttack":  297
                   },
     "aliases":  [
                     "/Lotus/Weapons/Infested/Melee/InfWarfan/InfWarfanWeapon"
@@ -430,7 +448,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.arum-spinosa",
+    "description":  "Slash through enemies with two leaves of the exceedingly rare Arum Spinosa plant. Heavy Attack to whip a flurry of toxic spines at ranged attackers.",
     "release":  {
                     "releaseDate":  "2020-11-19",
                     "introduced":  {

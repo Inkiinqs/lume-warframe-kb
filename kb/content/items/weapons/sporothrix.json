@@ -1,5 +1,5 @@
 {
-    "description":  "This long-distance rifle fires a razor-sharp, virus-soaked barb that continues to attack its host before violently erupting in a spore-laden mist. Scoped headshots increase lethality.",
+    "id":  "weapon.sporothrix",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -28,6 +28,12 @@
                                                               "type":  null,
                                                               "tradable":  false,
                                                               "drops":  [
+                                                                            {
+                                                                                "location":  "NecraLoid (Loid), Clearance Odima",
+                                                                                "type":  "Sporothrix Barrel",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            },
                                                                             {
                                                                                 "location":  "Deimos/Cambion Drift (Level 50 - 60 Arcana Isolation Vault), Rotation A",
                                                                                 "type":  "Sporothrix Barrel",
@@ -61,6 +67,12 @@
                                                               "type":  null,
                                                               "tradable":  false,
                                                               "drops":  [
+                                                                            {
+                                                                                "location":  "NecraLoid (Loid), Clearance Odima",
+                                                                                "type":  "Sporothrix Blueprint",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            },
                                                                             {
                                                                                 "location":  "Deimos/Cambion Drift (Level 50 - 60 Arcana Isolation Vault), Rotation A",
                                                                                 "type":  "Sporothrix Blueprint",
@@ -153,6 +165,12 @@
                                                               "tradable":  false,
                                                               "drops":  [
                                                                             {
+                                                                                "location":  "NecraLoid (Loid), Clearance Odima",
+                                                                                "type":  "Sporothrix Receiver",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            },
+                                                                            {
                                                                                 "location":  "Deimos/Cambion Drift (Level 50 - 60 Arcana Isolation Vault), Rotation B",
                                                                                 "type":  "Sporothrix Receiver",
                                                                                 "chance":  3.75,
@@ -185,6 +203,12 @@
                                                               "type":  null,
                                                               "tradable":  false,
                                                               "drops":  [
+                                                                            {
+                                                                                "location":  "NecraLoid (Loid), Clearance Odima",
+                                                                                "type":  "Sporothrix Stock",
+                                                                                "chance":  100,
+                                                                                "rarity":  "Common"
+                                                                            },
                                                                             {
                                                                                 "location":  "Deimos/Cambion Drift (Level 50 - 60 Arcana Isolation Vault), Rotation C",
                                                                                 "type":  "Sporothrix Stock",
@@ -262,20 +286,31 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
-                      "heavyAttackDamage":  null,
-                      "range":  null,
-                      "heavySlamRadialDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamAttack":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  100.17001,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  115.01,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  155.81998,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  371,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "slamRadius":  null,
                       "damagePerShot":  [
                                             100.17001,
                                             115.01,
@@ -298,29 +333,18 @@
                                             0,
                                             0
                                         ],
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  100.17001,
-                                     "heat":  0,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  115.01,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "toxin":  0,
-                                     "puncture":  155.81998,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "radiation":  0,
-                                     "total":  371,
-                                     "healthDrain":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 }
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Infested/LongGuns/InfSniperRifle/InfSniperRifle"
@@ -333,7 +357,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.sporothrix",
+    "description":  "This long-distance rifle fires a razor-sharp, virus-soaked barb that continues to attack its host before violently erupting in a spore-laden mist. Scoped headshots increase lethality.",
     "release":  {
                     "releaseDate":  "2020-11-19",
                     "introduced":  {
