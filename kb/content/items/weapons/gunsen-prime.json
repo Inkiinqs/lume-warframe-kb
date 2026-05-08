@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.gunsen-prime",
+    "description":  "Command the beauty and lethality of these ornate warfans.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -584,6 +584,7 @@
                                        "skipBuildTimePrice":  50,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.69999999,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/GunsenPrime.png?3d9f9",
                                    "url":  "https://wiki.warframe.com/w/Gunsen_Prime",
@@ -640,30 +641,18 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  450,
                       "blockingAngle":  55,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  9,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  13.5,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  202.5,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  225,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamRadius":  6,
+                      "stancePolarity":  "naramon",
+                      "heavyAttackDamage":  900,
+                      "range":  1.9,
+                      "heavySlamRadialDamage":  675,
+                      "sentinel":  null,
+                      "heavySlamAttack":  225,
+                      "comboDuration":  5,
+                      "slideAttack":  225,
+                      "windUp":  0.5,
                       "slamRadius":  5,
+                      "slamAttack":  450,
                       "damagePerShot":  [
                                             9,
                                             13.5,
@@ -686,18 +675,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.9,
-                      "heavyAttackDamage":  900,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  675,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  225,
-                      "windUp":  0.5,
-                      "followThrough":  0.69999999,
-                      "slamAttack":  450,
-                      "heavySlamRadius":  6,
-                      "heavySlamAttack":  225
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  9,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  13.5,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  202.5,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  225,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Warfan/PrimeGunsen/PrimeGunsenWeapon"
@@ -710,7 +710,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Command the beauty and lethality of these ornate warfans.",
+    "id":  "weapon.gunsen-prime",
     "release":  {
                     "releaseDate":  "2023-07-27",
                     "introduced":  {
