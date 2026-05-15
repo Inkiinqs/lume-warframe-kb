@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.arca-titron",
+    "description":  "Each successive kill from this massive electron hammer builds an electron charge that is unleashed on slam attacks.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,6 +75,7 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.40000001,
                       "wiki":  {
                                    "thumbnail":  null,
                                    "url":  "https://wiki.warframe.com/w/Arca_Titron",
@@ -129,11 +130,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  720,
-                      "slamRadius":  9,
                       "blockingAngle":  50,
+                      "heavySlamRadius":  10,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  233.99998,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -143,18 +146,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  126.00001,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  360,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5999999,
                       "heavyAttackDamage":  2160,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  1080,
+                      "comboDuration":  5,
+                      "slideAttack":  720,
+                      "windUp":  1.2,
+                      "slamRadius":  9,
+                      "slamAttack":  1080,
                       "damagePerShot":  [
                                             233.99998,
                                             0,
@@ -177,16 +187,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5999999,
-                      "heavySlamRadialDamage":  1080,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  720,
-                      "windUp":  1.2,
-                      "followThrough":  0.40000001,
-                      "slamAttack":  1080,
-                      "heavySlamRadius":  10,
                       "heavySlamAttack":  1800
                   },
     "aliases":  [
@@ -200,7 +200,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Each successive kill from this massive electron hammer builds an electron charge that is unleashed on slam attacks.",
+    "id":  "weapon.arca-titron",
     "release":  {
                     "releaseDate":  "2017-09-09",
                     "introduced":  {

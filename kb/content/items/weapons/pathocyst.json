@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.pathocyst",
+    "description":  "Each strike of this infested glaive infects its target with viral pathogens. Occasionally, it discharges the spores of rabid, enemy-seeking maggots, either in-flight or on contact with the enemy.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -80,6 +80,7 @@
                                        "skipBuildTimePrice":  25,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.69999999,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Pathocyst.png?a51a6",
                                    "url":  "https://wiki.warframe.com/w/Pathocyst",
@@ -235,11 +236,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  524,
-                      "slamRadius":  5,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  6,
+                      "stancePolarity":  "naramon",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  57,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -249,18 +252,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  89,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  61,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  262,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.3,
                       "heavyAttackDamage":  262,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  786,
+                      "comboDuration":  5,
+                      "slideAttack":  524,
+                      "windUp":  1.2,
+                      "slamRadius":  5,
+                      "slamAttack":  786,
                       "damagePerShot":  [
                                             57,
                                             55,
@@ -283,16 +293,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.3,
-                      "heavySlamRadialDamage":  786,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  524,
-                      "windUp":  1.2,
-                      "followThrough":  0.69999999,
-                      "slamAttack":  786,
-                      "heavySlamRadius":  6,
                       "heavySlamAttack":  1048
                   },
     "aliases":  [
@@ -306,7 +306,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Each strike of this infested glaive infects its target with viral pathogens. Occasionally, it discharges the spores of rabid, enemy-seeking maggots, either in-flight or on contact with the enemy.",
+    "id":  "weapon.pathocyst",
     "release":  {
                     "releaseDate":  "2019-09-26",
                     "introduced":  {

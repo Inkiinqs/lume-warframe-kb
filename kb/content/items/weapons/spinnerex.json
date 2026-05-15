@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.spinnerex",
+    "description":  "Each lash of Oraxia\u0027s whip injects its victim with a dose of deadly toxin. Upon death, afflicted enemies have a chance to burst, damaging nearby enemies and spreading the poison.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -109,6 +109,7 @@
                                        "skipBuildTimePrice":  45,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.5,
                       "wiki":  {
                                    "thumbnail":  null,
                                    "url":  "https://wiki.warframe.com/w/Spinnerex",
@@ -152,11 +153,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  336,
-                      "slamRadius":  5,
                       "blockingAngle":  45,
+                      "heavySlamRadius":  6,
+                      "stancePolarity":  "zenurik",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -166,18 +169,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  168,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  168,
-                                     "toxin":  168,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.9963856,
                       "heavyAttackDamage":  756,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  504,
+                      "comboDuration":  5,
+                      "slideAttack":  336,
+                      "windUp":  0.40000001,
+                      "slamRadius":  5,
+                      "slamAttack":  504,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -200,16 +210,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.9963856,
-                      "heavySlamRadialDamage":  504,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "zenurik",
-                      "slideAttack":  336,
-                      "windUp":  0.40000001,
-                      "followThrough":  0.5,
-                      "slamAttack":  504,
-                      "heavySlamRadius":  6,
                       "heavySlamAttack":  588
                   },
     "aliases":  [
@@ -223,7 +223,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Each lash of Oraxia\u0027s whip injects its victim with a dose of deadly toxin. Upon death, afflicted enemies have a chance to burst, damaging nearby enemies and spreading the poison.",
+    "id":  "weapon.spinnerex",
     "release":  {
                     "releaseDate":  "2025-06-25",
                     "introduced":  {

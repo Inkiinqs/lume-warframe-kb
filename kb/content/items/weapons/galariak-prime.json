@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.galariak-prime",
+    "description":  "Orokin-era Grineer plated their scythes with gold as a symbol of dedication to their Golden Lords. Gains a percentage of Critical Chance with each Status Type affecting the target.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -134,6 +134,7 @@
                                        "skipBuildTimePrice":  25,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.60000002,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/GalariakPrime.png?af707",
                                    "url":  "https://wiki.warframe.com/w/Galariak_Prime",
@@ -189,11 +190,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  468,
-                      "slamRadius":  8,
                       "blockingAngle":  60,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "zenurik",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  30.305735,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -203,18 +206,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  13.215286,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  234,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.8,
                       "heavyAttackDamage":  1404,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  702,
+                      "comboDuration":  5,
+                      "slideAttack":  468,
+                      "windUp":  1,
+                      "slamRadius":  8,
+                      "slamAttack":  702,
                       "damagePerShot":  [
                                             30.305735,
                                             190.47897,
@@ -237,16 +247,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.8,
-                      "heavySlamRadialDamage":  702,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "zenurik",
-                      "slideAttack":  468,
-                      "windUp":  1,
-                      "followThrough":  0.60000002,
-                      "slamAttack":  702,
-                      "heavySlamRadius":  9,
                       "heavySlamAttack":  1170
                   },
     "aliases":  [
@@ -260,7 +260,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Orokin-era Grineer plated their scythes with gold as a symbol of dedication to their Golden Lords. Gains a percentage of Critical Chance with each Status Type affecting the target.",
+    "id":  "weapon.galariak-prime",
     "release":  {
                     "releaseDate":  "2025-12-10",
                     "introduced":  {

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.amphis",
+    "description":  "Fashioned with Grineer materials and balanced for marine infantry use, the Amphis is a traditional staff weapon that has received a monstrous makeover that enables shock damage on jump attacks. Connects with multiple enemies with each strike.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,6 +75,7 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.5,
                       "wiki":  {
                                    "thumbnail":  null,
                                    "url":  "https://wiki.warframe.com/w/Amphis",
@@ -130,11 +131,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  260,
-                      "slamRadius":  6,
                       "blockingAngle":  60,
+                      "heavySlamRadius":  7,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  91,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -144,18 +147,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  19.499996,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  130,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  3,
                       "heavyAttackDamage":  650,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  390,
+                      "comboDuration":  5,
+                      "slideAttack":  130,
+                      "windUp":  0.5,
+                      "slamRadius":  6,
+                      "slamAttack":  390,
                       "damagePerShot":  [
                                             91,
                                             19.5,
@@ -178,16 +188,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  3,
-                      "heavySlamRadialDamage":  390,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  130,
-                      "windUp":  0.5,
-                      "followThrough":  0.5,
-                      "slamAttack":  390,
-                      "heavySlamRadius":  7,
                       "heavySlamAttack":  520
                   },
     "aliases":  [
@@ -201,7 +201,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Fashioned with Grineer materials and balanced for marine infantry use, the Amphis is a traditional staff weapon that has received a monstrous makeover that enables shock damage on jump attacks. Connects with multiple enemies with each strike.",
+    "id":  "weapon.amphis",
     "release":  {
                     "releaseDate":  "2013-02-22",
                     "introduced":  {

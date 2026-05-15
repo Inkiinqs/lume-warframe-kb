@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.plasma-sword",
+    "description":  "An advanced blade that delivers high-damage attacks. Delivers a high percentage of critical strikes.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,6 +75,7 @@
                                        "skipBuildTimePrice":  25,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.60000002,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/PlasmaSword.png?a7944",
                                    "url":  "https://wiki.warframe.com/w/Plasma_Sword",
@@ -131,11 +132,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  400,
-                      "slamRadius":  7,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  8,
+                      "stancePolarity":  "unairu",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  34,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  66,
@@ -145,18 +148,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  88,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  200,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
                       "heavyAttackDamage":  1000,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  600,
+                      "comboDuration":  5,
+                      "slideAttack":  200,
+                      "windUp":  0.60000002,
+                      "slamRadius":  7,
+                      "slamAttack":  600,
                       "damagePerShot":  [
                                             34,
                                             12,
@@ -179,16 +189,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "heavySlamRadialDamage":  600,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "unairu",
-                      "slideAttack":  200,
-                      "windUp":  0.60000002,
-                      "followThrough":  0.60000002,
-                      "slamAttack":  600,
-                      "heavySlamRadius":  8,
                       "heavySlamAttack":  800
                   },
     "aliases":  [
@@ -202,7 +202,7 @@
     "relationships":  [
 
                       ],
-    "description":  "An advanced blade that delivers high-damage attacks. Delivers a high percentage of critical strikes.",
+    "id":  "weapon.plasma-sword",
     "release":  {
                     "releaseDate":  "2012-12-18",
                     "introduced":  {

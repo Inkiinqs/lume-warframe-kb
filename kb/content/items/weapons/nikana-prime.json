@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.nikana-prime",
+    "description":  "An ancient blade predating the fall of the Orokin Empire. Forged using techniques lost over the centuries, the edge remains sharper than that of any modern Nikana.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -594,6 +594,7 @@
                                        "skipBuildTimePrice":  50,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.69999999,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/NikanaPrime.png?5dadf",
                                    "url":  "https://wiki.warframe.com/w/Nikana_Prime",
@@ -649,11 +650,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  396,
-                      "slamRadius":  6,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  7,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  9.9000006,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -663,18 +666,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  178.2,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  198,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
                       "heavyAttackDamage":  990,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  594,
+                      "comboDuration":  5,
+                      "slideAttack":  396,
+                      "windUp":  0.5,
+                      "slamRadius":  6,
+                      "slamAttack":  594,
                       "damagePerShot":  [
                                             9.9000006,
                                             9.9000006,
@@ -697,16 +707,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "heavySlamRadialDamage":  594,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  396,
-                      "windUp":  0.5,
-                      "followThrough":  0.69999999,
-                      "slamAttack":  594,
-                      "heavySlamRadius":  7,
                       "heavySlamAttack":  792
                   },
     "aliases":  [
@@ -720,7 +720,7 @@
     "relationships":  [
 
                       ],
-    "description":  "An ancient blade predating the fall of the Orokin Empire. Forged using techniques lost over the centuries, the edge remains sharper than that of any modern Nikana.",
+    "id":  "weapon.nikana-prime",
     "release":  {
                     "releaseDate":  "2016-02-16",
                     "introduced":  {

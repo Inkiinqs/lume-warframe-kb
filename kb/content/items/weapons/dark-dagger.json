@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.dark-dagger",
+    "description":  "This short blade weapon forged using dark metals has limited range but comes out fast.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,6 +75,7 @@
                                        "skipBuildTimePrice":  25,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.89999998,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/DarkDagger.png?7fd23",
                                    "url":  "https://wiki.warframe.com/w/Dark_Dagger",
@@ -137,11 +138,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  308,
-                      "slamRadius":  5,
                       "blockingAngle":  45,
+                      "heavySlamRadius":  6,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -151,18 +154,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  60,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  36,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  60,
                                      "total":  154,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.75,
                       "heavyAttackDamage":  308,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  462,
+                      "comboDuration":  5,
+                      "slideAttack":  308,
+                      "windUp":  0.40000001,
+                      "slamRadius":  5,
+                      "slamAttack":  308,
                       "damagePerShot":  [
                                             0,
                                             57.999996,
@@ -185,16 +195,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.75,
-                      "heavySlamRadialDamage":  462,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  308,
-                      "windUp":  0.40000001,
-                      "followThrough":  0.89999998,
-                      "slamAttack":  308,
-                      "heavySlamRadius":  6,
                       "heavySlamAttack":  616
                   },
     "aliases":  [
@@ -208,7 +208,7 @@
     "relationships":  [
 
                       ],
-    "description":  "This short blade weapon forged using dark metals has limited range but comes out fast.",
+    "id":  "weapon.dark-dagger",
     "release":  {
                     "releaseDate":  "2012-12-18",
                     "introduced":  {

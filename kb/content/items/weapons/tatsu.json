@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.tatsu",
+    "description":  "Fearsome and noble, the elegant two-handed Nikana is the pride of any Arsenal. Kills build charges and seeking projectiles are unleashed with a Slide Attack to find and stun unwitting enemies. When Revenant wields this blade, Tatsu\u0027s charge cap is increased.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,6 +75,7 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.69999999,
                       "wiki":  {
                                    "thumbnail":  null,
                                    "url":  "https://wiki.warframe.com/w/Tatsu",
@@ -142,11 +143,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  428,
-                      "slamRadius":  7,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  8,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  20,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -156,18 +159,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  72,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  68,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  72,
                                      "total":  214,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  3,
                       "heavyAttackDamage":  1284,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  642,
+                      "comboDuration":  5,
+                      "slideAttack":  428,
+                      "windUp":  0.69999999,
+                      "slamRadius":  7,
+                      "slamAttack":  642,
                       "damagePerShot":  [
                                             20,
                                             54,
@@ -190,16 +200,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  3,
-                      "heavySlamRadialDamage":  642,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  428,
-                      "windUp":  0.69999999,
-                      "followThrough":  0.69999999,
-                      "slamAttack":  642,
-                      "heavySlamRadius":  8,
                       "heavySlamAttack":  1070
                   },
     "aliases":  [
@@ -213,7 +213,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Fearsome and noble, the elegant two-handed Nikana is the pride of any Arsenal. Kills build charges and seeking projectiles are unleashed with a Slide Attack to find and stun unwitting enemies. When Revenant wields this blade, Tatsu\u0027s charge cap is increased.",
+    "id":  "weapon.tatsu",
     "release":  {
                     "releaseDate":  "2019-03-08",
                     "introduced":  {
