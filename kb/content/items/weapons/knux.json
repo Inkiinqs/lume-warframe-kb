@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.knux",
+    "description":  "Gallium-alloy gauntlets for close-range Archwing combat. Designed by the infamous Tyl Regor.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -80,6 +80,7 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.69999999,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Knux.png?2d0e0",
                                    "url":  "https://wiki.warframe.com/w/Knux",
@@ -102,12 +103,12 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  890,
-                      "slamRadius":  3,
                       "blockingAngle":  90,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  400.5,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -117,17 +118,26 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  22.250006,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  445,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
                       "heavyAttackDamage":  445,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  5,
+                      "slideAttack":  954,
+                      "windUp":  null,
+                      "slamRadius":  3,
+                      "slamAttack":  445,
                       "damagePerShot":  [
                                             400.5,
                                             22.25,
@@ -150,16 +160,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "heavySlamRadialDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  null,
-                      "slideAttack":  954,
-                      "windUp":  null,
-                      "followThrough":  0.69999999,
-                      "slamAttack":  445,
-                      "heavySlamRadius":  null,
                       "heavySlamAttack":  445
                   },
     "aliases":  [
@@ -173,7 +173,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Gallium-alloy gauntlets for close-range Archwing combat. Designed by the infamous Tyl Regor.",
+    "id":  "weapon.knux",
     "release":  {
                     "releaseDate":  "2015-08-19",
                     "introduced":  {
