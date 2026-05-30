@@ -1,5 +1,5 @@
 {
-    "description":  "The Drakgoon flak cannon sends volleys of intensely hot shrapnel ricocheting around the room. Can be fired in wide or concentrated bursts.",
+    "id":  "weapon.drakgoon",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,7 +75,6 @@
                                        "skipBuildTimePrice":  40,
                                        "consumeOnBuild":  true
                                    },
-                      "followThrough":  null,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Drakgoon.png?805b5",
                                    "url":  "https://wiki.warframe.com/w/Drakgoon",
@@ -118,18 +117,30 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
-                      "heavyAttackDamage":  null,
-                      "range":  null,
-                      "heavySlamRadialDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamAttack":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  7,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  7,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  56,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  70,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "followThrough":  null,
                       "damagePerShot":  [
                                             7,
                                             7,
@@ -152,29 +163,18 @@
                                             0,
                                             0
                                         ],
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  7,
-                                     "heat":  0,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  7,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "toxin":  0,
-                                     "puncture":  56,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "radiation":  0,
-                                     "total":  70,
-                                     "healthDrain":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 }
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/LongGuns/GrineerFlakCannon/FlakCannon"
@@ -187,7 +187,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.drakgoon",
+    "description":  "The Drakgoon flak cannon sends volleys of intensely hot shrapnel ricocheting around the room. Can be fired in wide or concentrated bursts.",
     "release":  {
                     "releaseDate":  "2014-01-08",
                     "introduced":  {
