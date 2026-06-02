@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.orthos-prime",
+    "description":  "Orthos Prime is an ancient Orokin martial weapon, forged from the purest Rubedo making it extremely light-weight.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -1966,6 +1966,7 @@
                                        "skipBuildTimePrice":  50,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.60000002,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/OrthosPrime.png?c2a65",
                                    "url":  "https://wiki.warframe.com/w/Orthos_Prime",
@@ -2021,11 +2022,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  468,
-                      "slamRadius":  7,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  8,
+                      "stancePolarity":  "zenurik",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  35.100002,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -2035,18 +2038,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  163.8,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  234,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  3,
                       "heavyAttackDamage":  1404,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  702,
+                      "comboDuration":  5,
+                      "slideAttack":  468,
+                      "windUp":  0.90000004,
+                      "slamRadius":  7,
+                      "slamAttack":  702,
                       "damagePerShot":  [
                                             35.100002,
                                             35.100002,
@@ -2069,16 +2079,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  3,
-                      "heavySlamRadialDamage":  702,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "zenurik",
-                      "slideAttack":  468,
-                      "windUp":  0.90000004,
-                      "followThrough":  0.60000002,
-                      "slamAttack":  702,
-                      "heavySlamRadius":  8,
                       "heavySlamAttack":  1170
                   },
     "aliases":  [
@@ -2092,7 +2092,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Orthos Prime is an ancient Orokin martial weapon, forged from the purest Rubedo making it extremely light-weight.",
+    "id":  "weapon.orthos-prime",
     "release":  {
                     "releaseDate":  "2013-07-13",
                     "introduced":  {

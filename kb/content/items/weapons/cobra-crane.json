@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.cobra-crane",
+    "description":  "Baruuk\u0027s signature weapons: a sword for retribution, a shield for restraint. In Baruuk\u0027s hands, and his hands only, Cobra\u0027s first strike in a combo renders his foe unconscious.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,6 +75,7 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.60000002,
                       "wiki":  {
                                    "thumbnail":  null,
                                    "url":  "https://wiki.warframe.com/w/Cobra_%26_Crane",
@@ -129,11 +130,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  592,
-                      "slamRadius":  7,
                       "blockingAngle":  70,
+                      "heavySlamRadius":  8,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  207.2,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -143,18 +146,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  296,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5999999,
                       "heavyAttackDamage":  1480,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  888,
+                      "comboDuration":  5,
+                      "slideAttack":  296,
+                      "windUp":  0.69999999,
+                      "slamRadius":  7,
+                      "slamAttack":  888,
                       "damagePerShot":  [
                                             207.2,
                                             88.800003,
@@ -177,16 +187,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5999999,
-                      "heavySlamRadialDamage":  888,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  296,
-                      "windUp":  0.69999999,
-                      "followThrough":  0.60000002,
-                      "slamAttack":  888,
-                      "heavySlamRadius":  8,
                       "heavySlamAttack":  1184
                   },
     "aliases":  [
@@ -200,7 +200,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Baruuk\u0027s signature weapons: a sword for retribution, a shield for restraint. In Baruuk\u0027s hands, and his hands only, Cobra\u0027s first strike in a combo renders his foe unconscious.",
+    "id":  "weapon.cobra-crane",
     "release":  {
                     "releaseDate":  "2018-12-18",
                     "introduced":  {

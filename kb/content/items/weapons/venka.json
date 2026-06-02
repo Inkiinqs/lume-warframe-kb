@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.venka",
+    "description":  "Utilizing a new fighting stance, this Tenno weapon turns fists into claws and enemies into messy piles of meat and scrap metal.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,6 +75,7 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.80000001,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Venka.png?03dd1",
                                    "url":  "https://wiki.warframe.com/w/Venka",
@@ -130,11 +131,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  280,
-                      "slamRadius":  6,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  7,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  7,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -144,18 +147,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  98,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  140,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.75,
                       "heavyAttackDamage":  700,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  420,
+                      "comboDuration":  5,
+                      "slideAttack":  420,
+                      "windUp":  0.60000002,
+                      "slamRadius":  6,
+                      "slamAttack":  420,
                       "damagePerShot":  [
                                             7,
                                             35,
@@ -178,16 +188,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.75,
-                      "heavySlamRadialDamage":  420,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  420,
-                      "windUp":  0.60000002,
-                      "followThrough":  0.80000001,
-                      "slamAttack":  420,
-                      "heavySlamRadius":  7,
                       "heavySlamAttack":  560
                   },
     "aliases":  [
@@ -201,7 +201,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Utilizing a new fighting stance, this Tenno weapon turns fists into claws and enemies into messy piles of meat and scrap metal.",
+    "id":  "weapon.venka",
     "release":  {
                     "releaseDate":  "2014-06-25",
                     "introduced":  {

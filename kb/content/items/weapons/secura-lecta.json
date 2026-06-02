@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.secura-lecta",
+    "description":  "Whip the enemy out of their ill-gotten gains; double credit drops on kills.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -40,6 +40,7 @@
                                        "skipBuildTimePrice":  null,
                                        "consumeOnBuild":  null
                                    },
+                      "followThrough":  0.5,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/SecuraLecta.png?d2e7c",
                                    "url":  "https://wiki.warframe.com/w/Secura_Lecta",
@@ -95,11 +96,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  352,
-                      "slamRadius":  5,
                       "blockingAngle":  45,
+                      "heavySlamRadius":  6,
+                      "stancePolarity":  "vazarin",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  80,
@@ -109,18 +112,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  66,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  176,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.4963856,
                       "heavyAttackDamage":  792,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  528,
+                      "comboDuration":  5,
+                      "slideAttack":  352,
+                      "windUp":  0.40000001,
+                      "slamRadius":  5,
+                      "slamAttack":  528,
                       "damagePerShot":  [
                                             0,
                                             30,
@@ -143,16 +153,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.4963856,
-                      "heavySlamRadialDamage":  528,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "vazarin",
-                      "slideAttack":  352,
-                      "windUp":  0.40000001,
-                      "followThrough":  0.5,
-                      "slamAttack":  528,
-                      "heavySlamRadius":  6,
                       "heavySlamAttack":  616
                   },
     "aliases":  [
@@ -166,7 +166,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Whip the enemy out of their ill-gotten gains; double credit drops on kills.",
+    "id":  "weapon.secura-lecta",
     "release":  {
                     "releaseDate":  "2016-09-15",
                     "introduced":  {
