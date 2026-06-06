@@ -1,5 +1,5 @@
 {
-    "description":  "Rend enemies and up the heat with these mining tools repurposed into machine-tonfa. Building the Combo Multiplier overheats the Tonkkatts, setting enemies ablaze.",
+    "id":  "weapon.tonkkatt",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -130,7 +130,6 @@
                                        "skipBuildTimePrice":  50,
                                        "consumeOnBuild":  true
                                    },
-                      "followThrough":  0.60000002,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Tonkkatt.png?363a0",
                                    "url":  "https://wiki.warframe.com/w/Tonkkatt",
@@ -186,12 +185,10 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  330,
                       "blockingAngle":  60,
-                      "heavySlamRadius":  9,
-                      "stancePolarity":  "naramon",
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -201,25 +198,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  132,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  165,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  2.5,
-                      "heavyAttackDamage":  660,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  495,
-                      "comboDuration":  5,
-                      "slideAttack":  330,
-                      "windUp":  0.69999999,
-                      "slamRadius":  8,
-                      "slamAttack":  330,
                       "damagePerShot":  [
                                             0,
                                             33,
@@ -242,6 +231,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  2.5,
+                      "heavyAttackDamage":  660,
+                      "followThrough":  0.60000002,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  495,
+                      "stancePolarity":  "naramon",
+                      "slideAttack":  330,
+                      "windUp":  0.69999999,
+                      "slamRadius":  8,
+                      "slamAttack":  330,
+                      "heavySlamRadius":  9,
                       "heavySlamAttack":  660
                   },
     "aliases":  [
@@ -255,7 +255,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.tonkkatt",
+    "description":  "Rend enemies and up the heat with these mining tools repurposed into machine-tonfa. Building the Combo Multiplier overheats the Tonkkatts, setting enemies ablaze.",
     "release":  {
                     "releaseDate":  "2025-04-17",
                     "introduced":  {

@@ -1,5 +1,5 @@
 {
-    "description":  "Makes sweeping cuts punctuated by bursts of heavy gunfire.",
+    "id":  "weapon.sarpa",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -80,7 +80,6 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
-                      "followThrough":  0.5,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Sarpa.png?5a43c",
                                    "url":  "https://wiki.warframe.com/w/Sarpa",
@@ -156,12 +155,10 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  320,
                       "blockingAngle":  45,
-                      "heavySlamRadius":  6,
-                      "stancePolarity":  "madurai",
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  16,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -171,25 +168,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  112,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  160,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  2,
-                      "heavyAttackDamage":  600,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  480,
-                      "comboDuration":  5,
-                      "slideAttack":  320,
-                      "windUp":  0.30000001,
-                      "slamRadius":  5,
-                      "slamAttack":  480,
                       "damagePerShot":  [
                                             16,
                                             32,
@@ -212,6 +201,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  2,
+                      "heavyAttackDamage":  600,
+                      "followThrough":  0.5,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  480,
+                      "stancePolarity":  "madurai",
+                      "slideAttack":  320,
+                      "windUp":  0.30000001,
+                      "slamRadius":  5,
+                      "slamAttack":  480,
+                      "heavySlamRadius":  6,
                       "heavySlamAttack":  480
                   },
     "aliases":  [
@@ -225,7 +225,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.sarpa",
+    "description":  "Makes sweeping cuts punctuated by bursts of heavy gunfire.",
     "release":  {
                     "releaseDate":  "2016-08-19",
                     "introduced":  {
