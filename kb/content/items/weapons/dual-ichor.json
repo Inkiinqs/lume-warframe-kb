@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.dual-ichor",
+    "description":  "The fast and brutal Dual Ichor axes will quickly tear through enemies with a high probability of inflicting Critical Damage.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,6 +75,7 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.5,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/DualIchor.png?caea1",
                                    "url":  "https://wiki.warframe.com/w/Dual_Ichor",
@@ -131,11 +132,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  244,
-                      "slamRadius":  8,
                       "blockingAngle":  60,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "zenurik",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  19,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -145,18 +148,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  47,
                                      "puncture":  45,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  122,
-                                     "toxin":  47,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.3,
                       "heavyAttackDamage":  488,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  366,
+                      "comboDuration":  5,
+                      "slideAttack":  244,
+                      "windUp":  0.69999999,
+                      "slamRadius":  8,
+                      "slamAttack":  244,
                       "damagePerShot":  [
                                             19,
                                             11,
@@ -179,16 +189,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.3,
-                      "heavySlamRadialDamage":  366,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "zenurik",
-                      "slideAttack":  244,
-                      "windUp":  0.69999999,
-                      "followThrough":  0.5,
-                      "slamAttack":  244,
-                      "heavySlamRadius":  9,
                       "heavySlamAttack":  488
                   },
     "aliases":  [
@@ -202,7 +202,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The fast and brutal Dual Ichor axes will quickly tear through enemies with a high probability of inflicting Critical Damage.",
+    "id":  "weapon.dual-ichor",
     "release":  {
                     "releaseDate":  "2013-09-13",
                     "introduced":  {

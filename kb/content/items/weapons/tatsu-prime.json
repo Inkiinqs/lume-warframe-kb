@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.tatsu-prime",
+    "description":  "Tatsu Prime glows with spectral splendor. It grows more powerful with each enemy’s demise, especially when wielded by Revenant.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -622,6 +622,7 @@
                                        "skipBuildTimePrice":  50,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.69999999,
                       "wiki":  {
                                    "thumbnail":  null,
                                    "url":  "https://wiki.warframe.com/w/Tatsu_Prime",
@@ -689,11 +690,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  460,
-                      "slamRadius":  7,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  8,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  20,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -703,18 +706,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  80,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  76,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  80,
                                      "total":  230,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  3,
                       "heavyAttackDamage":  1380,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  690,
+                      "comboDuration":  5,
+                      "slideAttack":  460,
+                      "windUp":  0.69999999,
+                      "slamRadius":  7,
+                      "slamAttack":  690,
                       "damagePerShot":  [
                                             20,
                                             54,
@@ -737,16 +747,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  3,
-                      "heavySlamRadialDamage":  690,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  460,
-                      "windUp":  0.69999999,
-                      "followThrough":  0.69999999,
-                      "slamAttack":  690,
-                      "heavySlamRadius":  8,
                       "heavySlamAttack":  1150
                   },
     "aliases":  [
@@ -760,7 +760,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Tatsu Prime glows with spectral splendor. It grows more powerful with each enemy’s demise, especially when wielded by Revenant.",
+    "id":  "weapon.tatsu-prime",
     "release":  {
                     "releaseDate":  "2022-10-05",
                     "introduced":  {
