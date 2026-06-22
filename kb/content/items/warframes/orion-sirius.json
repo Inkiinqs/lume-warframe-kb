@@ -1,0 +1,119 @@
+{
+    "id":  "warframe.orion-sirius",
+    "name":  "Orion \u0026 Sirius",
+    "category":  "warframe",
+    "subCategory":  "standard",
+    "aliases":  [
+                    "/Lotus/Powersuits/SiriusOrion/OrionSuit"
+                ],
+    "summary":  "Wield the power of the stars in a constant battle for supremacy. The dueling sons, Sirius \u0026 Orion, occupy the space of a single Warframe, jockeying for position to rain cosmic destruction upon foes.",
+    "description":  "Wield the power of the stars in a constant battle for supremacy. The dueling sons, Sirius \u0026 Orion, occupy the space of a single Warframe, jockeying for position to rain cosmic destruction upon foes.",
+    "stats":  {
+                  "health":  350,
+                  "shield":  270,
+                  "armor":  300,
+                  "power":  200,
+                  "stamina":  3,
+                  "masteryReq":  0,
+                  "sprintSpeed":  1.15,
+                  "polarities":  [
+                                     "vazarin",
+                                     "madurai",
+                                     "aura"
+                                 ],
+                  "aura":  "naramon",
+                  "tradable":  false,
+                  "masterable":  true,
+                  "vaulted":  null,
+                  "vaultDate":  null,
+                  "estimatedVaultDate":  null
+              },
+    "mechanics":  {
+                      "passiveDescription":  "Swapping between them grants |EFFICIENCY|% Ability Efficiency for the next |COUNT| casts.\n\nWhen below 50 energy, Sirius \u0026 Orion will steal energy from each other.",
+                      "abilities":  [
+                                        {
+                                            "name":  "Gravitic Slash",
+                                            "description":  "Repel enemies with Orion\u0027s sinister scythe, dealing \u003cDT_SLASH_COLOR\u003eSlash Damage and Status Effect while reducing shields and armor.\n\n(HOLD) Swap to Sirius and use Coronal Ejection.",
+                                            "uniqueName":  "/Lotus/Powersuits/SiriusOrion/Abilities/OrionScytheAbility",
+                                            "imageName":  "OrionGraviticSlash.png"
+                                        },
+                                        {
+                                            "name":  "Astral Shell",
+                                            "description":  "Envelop Orion in an Astral Shell. Upon taking damage the shell becomes a decoy that draws fire until it\u0027s destroyed.\n\n(HOLD) Swap to Sirius and use Jade Stars.",
+                                            "uniqueName":  "/Lotus/Powersuits/SiriusOrion/Abilities/OrionBuffAbility",
+                                            "imageName":  "OrionDarkestNight.png"
+                                        },
+                                        {
+                                            "name":  "Event Horizon",
+                                            "description":  "Orion forms a drifting black hole, trapping enemies within its gravity. Hitting the black hole with Gravitic Slash or Coronal Ejection will extend its duration and change its trajectory: Gravitic Slash will direct it away from Orion, and Coronal Ejection will pull it towards Sirius.\n\n(HOLD) Swap to Sirius and use Light\u0027s Sanctuary.",
+                                            "uniqueName":  "/Lotus/Powersuits/SiriusOrion/Abilities/OrionVortexAbility",
+                                            "imageName":  "OrionVortex.png"
+                                        },
+                                        {
+                                            "name":  "Celestial Clash",
+                                            "description":  "Sirius \u0026 Orion take to the skies in a cosmic duel. Each attack consumes a Constellation Star to inflict colossal collateral \u003cDT_EXPLOSION_COLOR\u003eBlast damage. Match the star\u0027s color to the Warframes color to gain increased Critical Chance.\n\n|LEFT_ATTACK| Sirius attacks\n|RIGHT_ATTACK| Orion attacks\n\nGenerate Constellation Stars by using abilities. No more than two stars of the same color can be added in a row.",
+                                            "uniqueName":  "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusOrionUltimateAbility",
+                                            "imageName":  "SiriusOrionUltimate.png"
+                                        }
+                                    ],
+                      "exalted":  [
+                                      null
+                                  ],
+                      "crafting":  {
+                                       "buildPrice":  null,
+                                       "buildTime":  null,
+                                       "skipBuildTimePrice":  null,
+                                       "buildQuantity":  null,
+                                       "consumeOnBuild":  null,
+                                       "components":  [
+                                                          {
+                                                              "name":  null,
+                                                              "uniqueName":  null,
+                                                              "itemCount":  null,
+                                                              "type":  null,
+                                                              "tradable":  null,
+                                                              "drops":  [
+                                                                            null
+                                                                        ]
+                                                          }
+                                                      ]
+                                   },
+                      "wiki":  {
+                                   "available":  true,
+                                   "url":  "https://wiki.warframe.com/w/Orion",
+                                   "thumbnail":  null,
+                                   "imageName":  "OrionSirius.png"
+                               }
+                  },
+    "relationships":  [
+
+                      ],
+    "release":  {
+                    "releaseDate":  "2026-06-17",
+                    "introduced":  {
+                                       "name":  "Update 43.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_43%3A_Jade_Shadows%3A_Constellations",
+                                       "aliases":  [
+                                                       "43",
+                                                       "43.0",
+                                                       "Jade Shadows: Constellations"
+                                                   ],
+                                       "parent":  "43.0",
+                                       "date":  "2026-06-17"
+                                   }
+                },
+    "tags":  [
+                 "warframe",
+                 "base"
+             ],
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD Warframes.json."
+              ],
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-warframes.json"
+                    }
+                ]
+}

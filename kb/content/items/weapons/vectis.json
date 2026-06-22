@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.vectis",
+    "description":  "A classic Tenno sniper rifle, the Vectis is ideal for ranged takedowns.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -104,35 +104,69 @@
                                                          "slash":  56.25,
                                                          "puncture":  78.75
                                                      }
+                                      },
+                                      {
+                                          "name":  "Incarnon Form",
+                                          "speed":  1.333,
+                                          "crit_chance":  30,
+                                          "crit_mult":  2.5,
+                                          "status_chance":  30,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  200,
+                                          "flight":  200,
+                                          "damage":  {
+                                                         "cold":  5
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Incarnon Form Headshot AoE",
+                                          "speed":  1.33,
+                                          "crit_chance":  30,
+                                          "crit_mult":  2.5,
+                                          "status_chance":  30,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  6.7,
+                                                          "reduction":  0
+                                                      },
+                                          "damage":  {
+                                                         "cold":  5
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Incarnon Form Embed AoE",
+                                          "speed":  1.33,
+                                          "crit_chance":  30,
+                                          "crit_mult":  2.5,
+                                          "status_chance":  30,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  0.15,
+                                                          "reduction":  0
+                                                      },
+                                          "damage":  {
+                                                         "cold":  5
+                                                     }
                                       }
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "sentinel":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  90,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  78.75,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  56.25,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  225,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             90,
                                             78.75,
@@ -155,18 +189,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  90,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  78.75,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  56.25,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  225,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Rifle/TennoSniperRifle"
@@ -179,7 +224,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A classic Tenno sniper rifle, the Vectis is ideal for ranged takedowns.",
+    "id":  "weapon.vectis",
     "release":  {
                     "releaseDate":  "2013-10-30",
                     "introduced":  {
