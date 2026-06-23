@@ -1,20 +1,23 @@
 {
-    "id":  "arcane.melee-assimilation",
-    "name":  "Melee Assimilation",
-    "category":  "arcane",
-    "subCategory":  "melee-arcane",
-    "aliases":  [
-                    "/Lotus/Upgrades/CosmeticEnhancers/Offensive/HeavyAttackDamageAndShieldOnShieldBreak"
-                ],
-    "summary":  "On Shield Break:\\n+150% Melee Damage on Heavy Attack and Heavy Attack kills restore +30% of max Shields for 20s.",
     "description":  "On Shield Break:\\n+150% Melee Damage on Heavy Attack and Heavy Attack kills restore +30% of max Shields for 20s.",
-    "stats":  {
-                  "rarity":  "Rare",
-                  "tradable":  true,
-                  "masterable":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-arcanes.json"
+                    }
+                ],
+    "name":  "Melee Assimilation",
+    "subCategory":  "melee-arcane",
     "mechanics":  {
-                      "type":  "Melee Arcane",
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "MeleeArcaneShieldBreakMeleeUp.png",
+                                   "available":  null
+                               },
+                      "topRankStats":  [
+                                           "On Shield Break:\\n+150% Melee Damage on Heavy Attack and Heavy Attack kills restore +30% of max Shields for 20s."
+                                       ],
                       "levelStats":  [
                                          "On Shield Break:\\n+25% Melee Damage on Heavy Attack and Heavy Attack kills restore +5% of max Shields for 20s.",
                                          "On Shield Break:\\n+50% Melee Damage on Heavy Attack and Heavy Attack kills restore +10% of max Shields for 20s.",
@@ -23,9 +26,7 @@
                                          "On Shield Break:\\n+125% Melee Damage on Heavy Attack and Heavy Attack kills restore +25% of max Shields for 20s.",
                                          "On Shield Break:\\n+150% Melee Damage on Heavy Attack and Heavy Attack kills restore +30% of max Shields for 20s."
                                      ],
-                      "topRankStats":  [
-                                           "On Shield Break:\\n+150% Melee Damage on Heavy Attack and Heavy Attack kills restore +30% of max Shields for 20s."
-                                       ],
+                      "type":  "Melee Arcane",
                       "drops":  [
                                     {
                                         "location":  "Uranus/Scoria\u0027s Angel (Skirmish)",
@@ -39,32 +40,31 @@
                                         "chance":  25,
                                         "rarity":  "Uncommon"
                                     }
-                                ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "MeleeArcaneShieldBreakMeleeUp.png"
-                               }
+                                ]
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-
-                },
-    "tags":  [
-                 "arcane",
-                 "melee-arcane"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Arcanes.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-arcanes.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Upgrades/CosmeticEnhancers/Offensive/HeavyAttackDamageAndShieldOnShieldBreak"
+                ],
+    "tags":  [
+                 "arcane",
+                 "melee-arcane"
+             ],
+    "category":  "arcane",
+    "relationships":  [
+
+                      ],
+    "id":  "arcane.melee-assimilation",
+    "release":  {
+
+                },
+    "summary":  "On Shield Break:\\n+150% Melee Damage on Heavy Attack and Heavy Attack kills restore +30% of max Shields for 20s.",
+    "stats":  {
+                  "tradable":  true,
+                  "rarity":  "Rare",
+                  "masterable":  false
+              }
 }

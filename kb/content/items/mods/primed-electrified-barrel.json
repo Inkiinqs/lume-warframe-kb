@@ -1,26 +1,22 @@
 {
-    "id":  "mod.primed-electrified-barrel",
-    "name":  "Primed Electrified Barrel",
-    "category":  "mod",
-    "subCategory":  "archgun",
-    "aliases":  [
-                    "/Lotus/Upgrades/Mods/Archwing/Rifle/Expert/ArchwingWeaponElectricityDamageModExpert"
-                ],
-    "summary":  "+187% \u003cDT_ELECTRICITY_COLOR\u003eElectricity",
     "description":  "+187% \u003cDT_ELECTRICITY_COLOR\u003eElectricity",
-    "stats":  {
-                  "polarity":  "naramon",
-                  "rarity":  "Legendary",
-                  "baseDrain":  4,
-                  "fusionLimit":  10,
-                  "compatName":  "Archgun",
-                  "tradable":  true,
-                  "transmutable":  null,
-                  "masterable":  false,
-                  "isPrime":  true
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-mods.json"
+                    }
+                ],
+    "name":  "Primed Electrified Barrel",
+    "subCategory":  "archgun",
     "mechanics":  {
+                      "topRankStats":  [
+                                           "+187% \u003cDT_ELECTRICITY_COLOR\u003eElectricity"
+                                       ],
                       "type":  "Arch-Gun Mod",
+                      "drops":  [
+                                    null
+                                ],
+                      "isAugment":  null,
                       "levelStats":  [
                                          "+17% \u003cDT_ELECTRICITY_COLOR\u003eElectricity",
                                          "+34% \u003cDT_ELECTRICITY_COLOR\u003eElectricity",
@@ -34,38 +30,42 @@
                                          "+170% \u003cDT_ELECTRICITY_COLOR\u003eElectricity",
                                          "+187% \u003cDT_ELECTRICITY_COLOR\u003eElectricity"
                                      ],
-                      "topRankStats":  [
-                                           "+187% \u003cDT_ELECTRICITY_COLOR\u003eElectricity"
-                                       ],
-                      "isAugment":  null,
-                      "drops":  [
-                                    null
-                                ],
                       "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
                                    "thumbnail":  null,
-                                   "imageName":  "ArchwingWeaponElectricityDamageModRifle.jpg"
+                                   "url":  null,
+                                   "imageName":  "ArchwingWeaponElectricityDamageModRifle.jpg",
+                                   "available":  null
                                }
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-                    "releaseDate":  null,
-                    "introduced":  null
-                },
-    "tags":  [
-                 "mod"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Mods.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-mods.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Upgrades/Mods/Archwing/Rifle/Expert/ArchwingWeaponElectricityDamageModExpert"
+                ],
+    "tags":  [
+                 "mod"
+             ],
+    "category":  "mod",
+    "relationships":  [
+
+                      ],
+    "id":  "mod.primed-electrified-barrel",
+    "release":  {
+                    "releaseDate":  null,
+                    "introduced":  null
+                },
+    "summary":  "+187% \u003cDT_ELECTRICITY_COLOR\u003eElectricity",
+    "stats":  {
+                  "baseDrain":  4,
+                  "tradable":  true,
+                  "compatName":  "Archgun",
+                  "masterable":  false,
+                  "polarity":  "naramon",
+                  "fusionLimit":  10,
+                  "isPrime":  true,
+                  "rarity":  "Legendary",
+                  "transmutable":  null
+              }
 }

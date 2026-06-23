@@ -1,25 +1,27 @@
 {
-    "id":  "resource.hunhow-s-trinket",
-    "name":  "Hunhow\u0027s Trinket",
-    "category":  "resource",
-    "subCategory":  "resource",
-    "aliases":  [
-                    "/Lotus/Types/JadeShadowsPart2Mission/Gameplay/Resources/HunhowTrinketMiscItem"
-                ],
-    "summary":  "The Blueprint for an unidentified item. Perhaps some ancient piece of Old War decor.",
     "description":  "The Blueprint for an unidentified item. Perhaps some ancient piece of Old War decor.",
-    "stats":  {
-                  "type":  "Resource",
-                  "tradable":  false,
-                  "masterable":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-resources.json"
+                    }
+                ],
+    "name":  "Hunhow\u0027s Trinket",
+    "subCategory":  "resource",
     "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "HunhowTrinket.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
-                                       "buildPrice":  15000,
                                        "buildTime":  43200,
-                                       "skipBuildTimePrice":  50,
+                                       "buildPrice":  15000,
                                        "buildQuantity":  1,
-                                       "consumeOnBuild":  true,
                                        "components":  [
                                                           {
                                                               "name":  "Argon Crystal",
@@ -61,35 +63,33 @@
 
                                                                         ]
                                                           }
-                                                      ]
-                                   },
-                      "drops":  [
-                                    null
-                                ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "HunhowTrinket.png"
-                               }
+                                                      ],
+                                       "skipBuildTimePrice":  50,
+                                       "consumeOnBuild":  true
+                                   }
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-
-                },
-    "tags":  [
-                 "resource"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Resources.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-resources.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Types/JadeShadowsPart2Mission/Gameplay/Resources/HunhowTrinketMiscItem"
+                ],
+    "tags":  [
+                 "resource"
+             ],
+    "category":  "resource",
+    "relationships":  [
+
+                      ],
+    "id":  "resource.hunhow-s-trinket",
+    "release":  {
+
+                },
+    "summary":  "The Blueprint for an unidentified item. Perhaps some ancient piece of Old War decor.",
+    "stats":  {
+                  "tradable":  false,
+                  "type":  "Resource",
+                  "masterable":  false
+              }
 }

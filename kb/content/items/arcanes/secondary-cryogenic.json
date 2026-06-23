@@ -1,20 +1,23 @@
 {
-    "id":  "arcane.secondary-cryogenic",
-    "name":  "Secondary Cryogenic",
-    "category":  "arcane",
-    "subCategory":  "secondary-arcane",
-    "aliases":  [
-                    "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryColdOnPuncture"
-                ],
-    "summary":  "On \u003cDT_PUNCTURE_COLOR\u003e Puncture: Apply 3 \u003cDT_FREEZE_COLOR\u003e Cold stacks on targets within 15m.",
     "description":  "On \u003cDT_PUNCTURE_COLOR\u003e Puncture: Apply 3 \u003cDT_FREEZE_COLOR\u003e Cold stacks on targets within 15m.",
-    "stats":  {
-                  "rarity":  "Rare",
-                  "tradable":  true,
-                  "masterable":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-arcanes.json"
+                    }
+                ],
+    "name":  "Secondary Cryogenic",
+    "subCategory":  "secondary-arcane",
     "mechanics":  {
-                      "type":  "Secondary Arcane",
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "SecondaryCritStrikeColdPunct.png",
+                                   "available":  null
+                               },
+                      "topRankStats":  [
+                                           "On \u003cDT_PUNCTURE_COLOR\u003e Puncture: Apply 3 \u003cDT_FREEZE_COLOR\u003e Cold stacks on targets within 15m."
+                                       ],
                       "levelStats":  [
                                          "On \u003cDT_PUNCTURE_COLOR\u003e Puncture: Apply 1 \u003cDT_FREEZE_COLOR\u003e Cold stacks on targets within 10m.",
                                          "On \u003cDT_PUNCTURE_COLOR\u003e Puncture: Apply 1 \u003cDT_FREEZE_COLOR\u003e Cold stacks on targets within 11m.",
@@ -23,9 +26,7 @@
                                          "On \u003cDT_PUNCTURE_COLOR\u003e Puncture: Apply 3 \u003cDT_FREEZE_COLOR\u003e Cold stacks on targets within 14m.",
                                          "On \u003cDT_PUNCTURE_COLOR\u003e Puncture: Apply 3 \u003cDT_FREEZE_COLOR\u003e Cold stacks on targets within 15m."
                                      ],
-                      "topRankStats":  [
-                                           "On \u003cDT_PUNCTURE_COLOR\u003e Puncture: Apply 3 \u003cDT_FREEZE_COLOR\u003e Cold stacks on targets within 15m."
-                                       ],
+                      "type":  "Secondary Arcane",
                       "drops":  [
                                     {
                                         "location":  "Uranus/Scoria\u0027s Angel (Skirmish)",
@@ -39,32 +40,31 @@
                                         "chance":  25,
                                         "rarity":  "Uncommon"
                                     }
-                                ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "SecondaryCritStrikeColdPunct.png"
-                               }
+                                ]
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-
-                },
-    "tags":  [
-                 "arcane",
-                 "secondary-arcane"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Arcanes.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-arcanes.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryColdOnPuncture"
+                ],
+    "tags":  [
+                 "arcane",
+                 "secondary-arcane"
+             ],
+    "category":  "arcane",
+    "relationships":  [
+
+                      ],
+    "id":  "arcane.secondary-cryogenic",
+    "release":  {
+
+                },
+    "summary":  "On \u003cDT_PUNCTURE_COLOR\u003e Puncture: Apply 3 \u003cDT_FREEZE_COLOR\u003e Cold stacks on targets within 15m.",
+    "stats":  {
+                  "tradable":  true,
+                  "rarity":  "Rare",
+                  "masterable":  false
+              }
 }

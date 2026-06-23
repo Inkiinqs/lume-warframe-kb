@@ -1,85 +1,41 @@
 {
-    "id":  "weapon.war-prime",
-    "name":  "War Prime",
-    "category":  "weapon",
-    "subCategory":  "melee-melee",
-    "aliases":  [
-                    "/Lotus/Weapons/Tenno/Melee/Swords/PrimeWar/PrimeWarWeapon"
-                ],
-    "summary":  "The blade of the world-destroyer reaches its apotheosis, severing conflict itself. In forging this weapon, you have brought unrealized dreams to their ultimate conclusion.",
     "description":  "The blade of the world-destroyer reaches its apotheosis, severing conflict itself. In forging this weapon, you have brought unrealized dreams to their ultimate conclusion.",
-    "stats":  {
-                  "slot":  "melee",
-                  "weaponClass":  "Melee",
-                  "masteryReq":  15,
-                  "trigger":  null,
-                  "fireRate":  0.91666669,
-                  "accuracy":  null,
-                  "noise":  null,
-                  "critChance":  0.25999999,
-                  "critMultiplier":  3.2,
-                  "statusChance":  0.31999999,
-                  "multishot":  null,
-                  "magazineSize":  null,
-                  "reloadTime":  null,
-                  "totalDamage":  270,
-                  "disposition":  1,
-                  "polarities":  [
-                                     "naramon"
-                                 ],
-                  "tradable":  false,
-                  "masterable":  true,
-                  "vaulted":  false,
-                  "vaultDate":  null,
-                  "estimatedVaultDate":  "2028-03-17"
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "War Prime",
+    "subCategory":  "melee-melee",
     "mechanics":  {
-                      "damageTypes":  null,
-                      "damage":  {
-                                     "total":  270,
-                                     "impact":  194.40001,
-                                     "puncture":  43.199989,
-                                     "slash":  32.399998,
-                                     "heat":  0,
-                                     "cold":  0,
-                                     "electricity":  0,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "radiation":  0,
-                                     "gas":  0,
-                                     "magnetic":  0,
-                                     "viral":  0,
-                                     "corrosive":  0,
-                                     "void":  0,
-                                     "tau":  0,
-                                     "cinematic":  0,
-                                     "shieldDrain":  0,
-                                     "healthDrain":  0,
-                                     "energyDrain":  0,
-                                     "true":  0
-                                 },
-                      "damagePerShot":  [
-                                            194.40001,
-                                            32.399998,
-                                            43.199989,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0
-                                        ],
+                      "heavySlamAttack":  1350,
+                      "crafting":  {
+                                       "buildTime":  null,
+                                       "buildPrice":  null,
+                                       "buildQuantity":  null,
+                                       "components":  [
+                                                          {
+                                                              "name":  null,
+                                                              "uniqueName":  null,
+                                                              "itemCount":  null,
+                                                              "type":  null,
+                                                              "tradable":  null,
+                                                              "drops":  [
+                                                                            null
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  null,
+                                       "consumeOnBuild":  null
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/WarPrime.png?e3f3a",
+                                   "url":  "https://wiki.warframe.com/w/War_Prime",
+                                   "imageName":  "WarPrime.png",
+                                   "available":  true
+                               },
+                      "followThrough":  0.60000002,
                       "attacks":  [
                                       {
                                           "name":  "Normal Attack",
@@ -133,79 +89,123 @@
                                                      }
                                       }
                                   ],
-                      "stancePolarity":  "vazarin",
-                      "blockingAngle":  55,
-                      "comboDuration":  5,
-                      "followThrough":  0.60000002,
-                      "range":  3.2,
-                      "slamAttack":  810,
+                      "damageTypes":  null,
                       "slamRadialDamage":  540,
-                      "slamRadius":  8,
-                      "slideAttack":  540,
-                      "heavyAttackDamage":  1620,
-                      "heavySlamAttack":  1350,
-                      "heavySlamRadialDamage":  810,
+                      "blockingAngle":  55,
                       "heavySlamRadius":  9,
-                      "windUp":  1.1,
-                      "sentinel":  null,
-                      "crafting":  {
-                                       "buildPrice":  null,
-                                       "buildTime":  null,
-                                       "skipBuildTimePrice":  null,
-                                       "buildQuantity":  null,
-                                       "consumeOnBuild":  null,
-                                       "components":  [
-                                                          {
-                                                              "name":  null,
-                                                              "uniqueName":  null,
-                                                              "itemCount":  null,
-                                                              "type":  null,
-                                                              "tradable":  null,
-                                                              "drops":  [
-                                                                            null
-                                                                        ]
-                                                          }
-                                                      ]
-                                   },
+                      "stancePolarity":  "vazarin",
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  194.40001,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  32.399998,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  43.199989,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  270,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "range":  3.2,
                       "drops":  [
                                     null
                                 ],
-                      "wiki":  {
-                                   "available":  true,
-                                   "url":  "https://wiki.warframe.com/w/War_Prime",
-                                   "thumbnail":  "https://wiki.warframe.com/images/WarPrime.png?e3f3a",
-                                   "imageName":  "WarPrime.png"
-                               }
+                      "heavyAttackDamage":  1620,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  810,
+                      "comboDuration":  5,
+                      "slideAttack":  540,
+                      "windUp":  1.1,
+                      "slamRadius":  8,
+                      "slamAttack":  810,
+                      "damagePerShot":  [
+                                            194.40001,
+                                            32.399998,
+                                            43.199989,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ]
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-                    "releaseDate":  "2026-06-17",
-                    "introduced":  {
-                                       "name":  "Update 43.0",
-                                       "url":  "https://wiki.warframe.com/w/Update_43%3A_Jade_Shadows%3A_Constellations",
-                                       "aliases":  [
-                                                       "43",
-                                                       "43.0",
-                                                       "Jade Shadows: Constellations"
-                                                   ],
-                                       "parent":  "43.0",
-                                       "date":  "2026-06-17"
-                                   }
-                },
-    "tags":  [
-                 "weapon",
-                 "melee"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD melee static data."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Melee/Swords/PrimeWar/PrimeWarWeapon"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "id":  "weapon.war-prime",
+    "release":  {
+                    "releaseDate":  "2026-06-17",
+                    "introduced":  {
+                                       "date":  "2026-06-17",
+                                       "parent":  "43.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_43%3A_Jade_Shadows%3A_Constellations",
+                                       "name":  "Update 43.0",
+                                       "aliases":  [
+                                                       "43",
+                                                       "43.0",
+                                                       "Jade Shadows: Constellations"
+                                                   ]
+                                   }
+                },
+    "summary":  "The blade of the world-destroyer reaches its apotheosis, severing conflict itself. In forging this weapon, you have brought unrealized dreams to their ultimate conclusion.",
+    "stats":  {
+                  "accuracy":  null,
+                  "noise":  null,
+                  "polarities":  [
+                                     "naramon"
+                                 ],
+                  "tradable":  false,
+                  "vaulted":  false,
+                  "totalDamage":  270,
+                  "disposition":  1,
+                  "magazineSize":  null,
+                  "fireRate":  0.91666669,
+                  "critMultiplier":  3.2,
+                  "reloadTime":  null,
+                  "masteryReq":  15,
+                  "statusChance":  0.31999999,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  "2028-03-17",
+                  "trigger":  null,
+                  "critChance":  0.25999999,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
 }

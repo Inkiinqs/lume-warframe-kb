@@ -1,35 +1,42 @@
 {
-    "id":  "warframe.orion-sirius",
-    "name":  "Orion \u0026 Sirius",
-    "category":  "warframe",
-    "subCategory":  "standard",
-    "aliases":  [
-                    "/Lotus/Powersuits/SiriusOrion/OrionSuit"
-                ],
-    "summary":  "Wield the power of the stars in a constant battle for supremacy. The dueling sons, Sirius \u0026 Orion, occupy the space of a single Warframe, jockeying for position to rain cosmic destruction upon foes.",
     "description":  "Wield the power of the stars in a constant battle for supremacy. The dueling sons, Sirius \u0026 Orion, occupy the space of a single Warframe, jockeying for position to rain cosmic destruction upon foes.",
-    "stats":  {
-                  "health":  350,
-                  "shield":  270,
-                  "armor":  300,
-                  "power":  200,
-                  "stamina":  3,
-                  "masteryReq":  0,
-                  "sprintSpeed":  1.15,
-                  "polarities":  [
-                                     "vazarin",
-                                     "madurai",
-                                     "aura"
-                                 ],
-                  "aura":  "naramon",
-                  "tradable":  false,
-                  "masterable":  true,
-                  "vaulted":  null,
-                  "vaultDate":  null,
-                  "estimatedVaultDate":  null
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-warframes.json"
+                    }
+                ],
+    "name":  "Orion \u0026 Sirius",
+    "subCategory":  "standard",
     "mechanics":  {
-                      "passiveDescription":  "Swapping between them grants |EFFICIENCY|% Ability Efficiency for the next |COUNT| casts.\n\nWhen below 50 energy, Sirius \u0026 Orion will steal energy from each other.",
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  "https://wiki.warframe.com/w/Orion",
+                                   "imageName":  "OrionSirius.png",
+                                   "available":  true
+                               },
+                      "crafting":  {
+                                       "buildTime":  null,
+                                       "buildPrice":  null,
+                                       "buildQuantity":  null,
+                                       "components":  [
+                                                          {
+                                                              "name":  null,
+                                                              "uniqueName":  null,
+                                                              "itemCount":  null,
+                                                              "type":  null,
+                                                              "tradable":  null,
+                                                              "drops":  [
+                                                                            null
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  null,
+                                       "consumeOnBuild":  null
+                                   },
+                      "exalted":  [
+                                      null
+                                  ],
                       "abilities":  [
                                         {
                                             "name":  "Gravitic Slash",
@@ -56,64 +63,57 @@
                                             "imageName":  "SiriusOrionUltimate.png"
                                         }
                                     ],
-                      "exalted":  [
-                                      null
-                                  ],
-                      "crafting":  {
-                                       "buildPrice":  null,
-                                       "buildTime":  null,
-                                       "skipBuildTimePrice":  null,
-                                       "buildQuantity":  null,
-                                       "consumeOnBuild":  null,
-                                       "components":  [
-                                                          {
-                                                              "name":  null,
-                                                              "uniqueName":  null,
-                                                              "itemCount":  null,
-                                                              "type":  null,
-                                                              "tradable":  null,
-                                                              "drops":  [
-                                                                            null
-                                                                        ]
-                                                          }
-                                                      ]
-                                   },
-                      "wiki":  {
-                                   "available":  true,
-                                   "url":  "https://wiki.warframe.com/w/Orion",
-                                   "thumbnail":  null,
-                                   "imageName":  "OrionSirius.png"
-                               }
+                      "passiveDescription":  "Swapping between them grants |EFFICIENCY|% Ability Efficiency for the next |COUNT| casts.\n\nWhen below 50 energy, Sirius \u0026 Orion will steal energy from each other."
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-                    "releaseDate":  "2026-06-17",
-                    "introduced":  {
-                                       "name":  "Update 43.0",
-                                       "url":  "https://wiki.warframe.com/w/Update_43%3A_Jade_Shadows%3A_Constellations",
-                                       "aliases":  [
-                                                       "43",
-                                                       "43.0",
-                                                       "Jade Shadows: Constellations"
-                                                   ],
-                                       "parent":  "43.0",
-                                       "date":  "2026-06-17"
-                                   }
-                },
-    "tags":  [
-                 "warframe",
-                 "base"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Warframes.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-warframes.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Powersuits/SiriusOrion/OrionSuit"
+                ],
+    "tags":  [
+                 "warframe",
+                 "base"
+             ],
+    "category":  "warframe",
+    "relationships":  [
+
+                      ],
+    "id":  "warframe.orion-sirius",
+    "release":  {
+                    "releaseDate":  "2026-06-17",
+                    "introduced":  {
+                                       "date":  "2026-06-17",
+                                       "parent":  "43.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_43%3A_Jade_Shadows%3A_Constellations",
+                                       "name":  "Update 43.0",
+                                       "aliases":  [
+                                                       "43",
+                                                       "43.0",
+                                                       "Jade Shadows: Constellations"
+                                                   ]
+                                   }
+                },
+    "summary":  "Wield the power of the stars in a constant battle for supremacy. The dueling sons, Sirius \u0026 Orion, occupy the space of a single Warframe, jockeying for position to rain cosmic destruction upon foes.",
+    "stats":  {
+                  "shield":  270,
+                  "aura":  "naramon",
+                  "tradable":  false,
+                  "polarities":  [
+                                     "vazarin",
+                                     "madurai",
+                                     "aura"
+                                 ],
+                  "sprintSpeed":  1.15,
+                  "health":  350,
+                  "power":  200,
+                  "vaulted":  null,
+                  "masteryReq":  0,
+                  "estimatedVaultDate":  null,
+                  "stamina":  3,
+                  "masterable":  true,
+                  "vaultDate":  null,
+                  "armor":  300
+              }
 }

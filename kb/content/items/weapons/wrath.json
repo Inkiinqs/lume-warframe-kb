@@ -1,152 +1,19 @@
 {
-    "id":  "weapon.wrath",
-    "name":  "Wrath",
-    "category":  "weapon",
-    "subCategory":  "melee-melee",
-    "aliases":  [
-                    "/Lotus/Weapons/Tenno/Melee/HeavyScythe/TnOrionSiriusScythe/TnOrionScytheWeapon"
-                ],
-    "summary":  "The wrath of one who knows revenge is all about timing. Orion\u0027s signature Heavy Scythe.",
     "description":  "The wrath of one who knows revenge is all about timing. Orion\u0027s signature Heavy Scythe.",
-    "stats":  {
-                  "slot":  "melee",
-                  "weaponClass":  "Melee",
-                  "masteryReq":  14,
-                  "trigger":  null,
-                  "fireRate":  1.2,
-                  "accuracy":  null,
-                  "noise":  null,
-                  "critChance":  0.30000001,
-                  "critMultiplier":  2,
-                  "statusChance":  0.14999998,
-                  "multishot":  null,
-                  "magazineSize":  null,
-                  "reloadTime":  null,
-                  "totalDamage":  220,
-                  "disposition":  1,
-                  "polarities":  [
-                                     "madurai"
-                                 ],
-                  "tradable":  false,
-                  "masterable":  true,
-                  "vaulted":  null,
-                  "vaultDate":  null,
-                  "estimatedVaultDate":  null
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Wrath",
+    "subCategory":  "melee-melee",
     "mechanics":  {
-                      "damageTypes":  null,
-                      "damage":  {
-                                     "total":  220,
-                                     "impact":  0,
-                                     "puncture":  176,
-                                     "slash":  44,
-                                     "heat":  0,
-                                     "cold":  0,
-                                     "electricity":  0,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "radiation":  0,
-                                     "gas":  0,
-                                     "magnetic":  0,
-                                     "viral":  0,
-                                     "corrosive":  0,
-                                     "void":  0,
-                                     "tau":  0,
-                                     "cinematic":  0,
-                                     "shieldDrain":  0,
-                                     "healthDrain":  0,
-                                     "energyDrain":  0,
-                                     "true":  0
-                                 },
-                      "damagePerShot":  [
-                                            0,
-                                            44,
-                                            176,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0
-                                        ],
-                      "attacks":  [
-                                      {
-                                          "name":  "Normal Attack",
-                                          "speed":  1.2,
-                                          "crit_chance":  30,
-                                          "crit_mult":  2,
-                                          "status_chance":  15,
-                                          "damage":  {
-                                                         "slash":  176,
-                                                         "puncture":  44
-                                                     },
-                                          "slide":  "500"
-                                      },
-                                      {
-                                          "name":  "Slam Attack",
-                                          "speed":  1,
-                                          "crit_chance":  30,
-                                          "crit_mult":  2,
-                                          "status_chance":  10,
-                                          "shot_type":  "AoE",
-                                          "falloff":  {
-                                                          "start":  0,
-                                                          "end":  8,
-                                                          "reduction":  0.5
-                                                      },
-                                          "damage":  {
-                                                         "impact":  440
-                                                     }
-                                      },
-                                      {
-                                          "name":  "Heavy Slam Attack",
-                                          "speed":  1,
-                                          "crit_chance":  30,
-                                          "crit_mult":  2,
-                                          "status_chance":  10,
-                                          "shot_type":  "AoE",
-                                          "falloff":  {
-                                                          "start":  0,
-                                                          "end":  9,
-                                                          "reduction":  0.3
-                                                      },
-                                          "damage":  {
-                                                         "blast":  660
-                                                     }
-                                      }
-                                  ],
-                      "stancePolarity":  "madurai",
-                      "blockingAngle":  65,
-                      "comboDuration":  5,
-                      "followThrough":  0.40000001,
-                      "range":  2.8,
-                      "slamAttack":  660,
-                      "slamRadialDamage":  440,
-                      "slamRadius":  8,
-                      "slideAttack":  440,
-                      "heavyAttackDamage":  3960,
                       "heavySlamAttack":  1100,
-                      "heavySlamRadialDamage":  660,
-                      "heavySlamRadius":  9,
-                      "windUp":  1,
-                      "sentinel":  null,
                       "crafting":  {
-                                       "buildPrice":  20000,
                                        "buildTime":  43200,
-                                       "skipBuildTimePrice":  50,
+                                       "buildPrice":  20000,
                                        "buildQuantity":  1,
-                                       "consumeOnBuild":  true,
                                        "components":  [
                                                           {
                                                               "name":  "Blade",
@@ -203,47 +70,180 @@
 
                                                                         ]
                                                           }
-                                                      ]
+                                                      ],
+                                       "skipBuildTimePrice":  50,
+                                       "consumeOnBuild":  true
                                    },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Wrath.png?ff3cf",
+                                   "url":  "https://wiki.warframe.com/w/Wrath",
+                                   "imageName":  "TnOrionScytheWeapon.png",
+                                   "available":  true
+                               },
+                      "followThrough":  0.40000001,
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  1.2,
+                                          "crit_chance":  30,
+                                          "crit_mult":  2,
+                                          "status_chance":  15,
+                                          "damage":  {
+                                                         "slash":  176,
+                                                         "puncture":  44
+                                                     },
+                                          "slide":  "500"
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  1,
+                                          "crit_chance":  30,
+                                          "crit_mult":  2,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  8,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "impact":  440
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  1,
+                                          "crit_chance":  30,
+                                          "crit_mult":  2,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  9,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "blast":  660
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  440,
+                      "blockingAngle":  65,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "madurai",
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  44,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  176,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  220,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "range":  2.8,
                       "drops":  [
                                     null
                                 ],
-                      "wiki":  {
-                                   "available":  true,
-                                   "url":  "https://wiki.warframe.com/w/Wrath",
-                                   "thumbnail":  "https://wiki.warframe.com/images/Wrath.png?ff3cf",
-                                   "imageName":  "TnOrionScytheWeapon.png"
-                               }
+                      "heavyAttackDamage":  3960,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  660,
+                      "comboDuration":  5,
+                      "slideAttack":  440,
+                      "windUp":  1,
+                      "slamRadius":  8,
+                      "slamAttack":  660,
+                      "damagePerShot":  [
+                                            0,
+                                            44,
+                                            176,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ]
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-                    "releaseDate":  "2026-06-17",
-                    "introduced":  {
-                                       "name":  "Update 43.0",
-                                       "url":  "https://wiki.warframe.com/w/Update_43%3A_Jade_Shadows%3A_Constellations",
-                                       "aliases":  [
-                                                       "43",
-                                                       "43.0",
-                                                       "Jade Shadows: Constellations"
-                                                   ],
-                                       "parent":  "43.0",
-                                       "date":  "2026-06-17"
-                                   }
-                },
-    "tags":  [
-                 "weapon",
-                 "melee"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD melee static data."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Melee/HeavyScythe/TnOrionSiriusScythe/TnOrionScytheWeapon"
+                ],
+    "tags":  [
+                 "weapon",
+                 "melee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "id":  "weapon.wrath",
+    "release":  {
+                    "releaseDate":  "2026-06-17",
+                    "introduced":  {
+                                       "date":  "2026-06-17",
+                                       "parent":  "43.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_43%3A_Jade_Shadows%3A_Constellations",
+                                       "name":  "Update 43.0",
+                                       "aliases":  [
+                                                       "43",
+                                                       "43.0",
+                                                       "Jade Shadows: Constellations"
+                                                   ]
+                                   }
+                },
+    "summary":  "The wrath of one who knows revenge is all about timing. Orion\u0027s signature Heavy Scythe.",
+    "stats":  {
+                  "accuracy":  null,
+                  "noise":  null,
+                  "polarities":  [
+                                     "madurai"
+                                 ],
+                  "tradable":  false,
+                  "vaulted":  null,
+                  "totalDamage":  220,
+                  "disposition":  1,
+                  "magazineSize":  null,
+                  "fireRate":  1.2,
+                  "critMultiplier":  2,
+                  "reloadTime":  null,
+                  "masteryReq":  14,
+                  "statusChance":  0.14999998,
+                  "slot":  "melee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.30000001,
+                  "weaponClass":  "Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
 }

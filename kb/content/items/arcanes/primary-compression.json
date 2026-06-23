@@ -1,20 +1,23 @@
 {
-    "id":  "arcane.primary-compression",
-    "name":  "Primary Compression",
-    "category":  "arcane",
-    "subCategory":  "primary-arcane",
-    "aliases":  [
-                    "/Lotus/Upgrades/CosmeticEnhancers/Utility/ConvergeRadialAttackOnAim"
-                ],
-    "summary":  "On aim: x0.2 explosion radius, +100% damage and +5.5% ammo efficiency for every 1m radius lost.",
     "description":  "On aim: x0.2 explosion radius, +100% damage and +5.5% ammo efficiency for every 1m radius lost.",
-    "stats":  {
-                  "rarity":  "Rare",
-                  "tradable":  true,
-                  "masterable":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-arcanes.json"
+                    }
+                ],
+    "name":  "Primary Compression",
+    "subCategory":  "primary-arcane",
     "mechanics":  {
-                      "type":  "Primary Arcane",
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "PrimaryRadialAttack.png",
+                                   "available":  null
+                               },
+                      "topRankStats":  [
+                                           "On aim: x0.2 explosion radius, +100% damage and +5.5% ammo efficiency for every 1m radius lost."
+                                       ],
                       "levelStats":  [
                                          "On aim: x0.2 explosion radius, +50% damage and +3.0% ammo efficiency for every 1m radius lost.",
                                          "On aim: x0.2 explosion radius, +60% damage and +3.5% ammo efficiency for every 1m radius lost.",
@@ -23,9 +26,7 @@
                                          "On aim: x0.2 explosion radius, +90% damage and +5.0% ammo efficiency for every 1m radius lost.",
                                          "On aim: x0.2 explosion radius, +100% damage and +5.5% ammo efficiency for every 1m radius lost."
                                      ],
-                      "topRankStats":  [
-                                           "On aim: x0.2 explosion radius, +100% damage and +5.5% ammo efficiency for every 1m radius lost."
-                                       ],
+                      "type":  "Primary Arcane",
                       "drops":  [
                                     {
                                         "location":  "Uranus/Scoria\u0027s Angel (Skirmish)",
@@ -39,32 +40,31 @@
                                         "chance":  25,
                                         "rarity":  "Uncommon"
                                     }
-                                ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "PrimaryRadialAttack.png"
-                               }
+                                ]
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-
-                },
-    "tags":  [
-                 "arcane",
-                 "primary-arcane"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Arcanes.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-arcanes.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Upgrades/CosmeticEnhancers/Utility/ConvergeRadialAttackOnAim"
+                ],
+    "tags":  [
+                 "arcane",
+                 "primary-arcane"
+             ],
+    "category":  "arcane",
+    "relationships":  [
+
+                      ],
+    "id":  "arcane.primary-compression",
+    "release":  {
+
+                },
+    "summary":  "On aim: x0.2 explosion radius, +100% damage and +5.5% ammo efficiency for every 1m radius lost.",
+    "stats":  {
+                  "tradable":  true,
+                  "rarity":  "Rare",
+                  "masterable":  false
+              }
 }

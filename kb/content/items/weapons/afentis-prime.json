@@ -1,87 +1,189 @@
 {
-    "id":  "weapon.afentis-prime",
-    "name":  "Afentis Prime",
-    "category":  "weapon",
-    "subCategory":  "primary-rifle",
-    "aliases":  [
-                    "/Lotus/Weapons/Tenno/LongGuns/PrimeAfentis/PrimeAfentisWeapon"
-                ],
-    "summary":  "The gilded speargun of Styanax Prime shines like a beacon across the battlefield, invigorating allies and stunning enemies.",
     "description":  "The gilded speargun of Styanax Prime shines like a beacon across the battlefield, invigorating allies and stunning enemies.",
-    "stats":  {
-                  "slot":  "primary",
-                  "weaponClass":  "Rifle",
-                  "masteryReq":  13,
-                  "trigger":  "Semi",
-                  "fireRate":  0.83333337,
-                  "accuracy":  100,
-                  "noise":  "Alarming",
-                  "critChance":  0.25999999,
-                  "critMultiplier":  2.5999999,
-                  "statusChance":  0.30000001,
-                  "multishot":  1,
-                  "magazineSize":  4,
-                  "reloadTime":  1.8,
-                  "totalDamage":  200,
-                  "disposition":  1,
-                  "polarities":  [
-                                     "naramon",
-                                     "madurai",
-                                     "madurai"
-                                 ],
-                  "tradable":  false,
-                  "masterable":  true,
-                  "vaulted":  false,
-                  "vaultDate":  null,
-                  "estimatedVaultDate":  "2028-03-17"
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Afentis Prime",
+    "subCategory":  "primary-rifle",
     "mechanics":  {
-                      "damageTypes":  null,
-                      "damage":  {
-                                     "total":  200,
-                                     "impact":  40,
-                                     "puncture":  39.999996,
-                                     "slash":  120.00001,
-                                     "heat":  0,
-                                     "cold":  0,
-                                     "electricity":  0,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "radiation":  0,
-                                     "gas":  0,
-                                     "magnetic":  0,
-                                     "viral":  0,
-                                     "corrosive":  0,
-                                     "void":  0,
-                                     "tau":  0,
-                                     "cinematic":  0,
-                                     "shieldDrain":  0,
-                                     "healthDrain":  0,
-                                     "energyDrain":  0,
-                                     "true":  0
-                                 },
-                      "damagePerShot":  [
-                                            40,
-                                            120.00001,
-                                            39.999996,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0
-                                        ],
+                      "heavySlamAttack":  null,
+                      "crafting":  {
+                                       "buildTime":  43200,
+                                       "buildPrice":  15000,
+                                       "buildQuantity":  1,
+                                       "components":  [
+                                                          {
+                                                              "name":  "Barrel",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/AfentisPrimeBarrel",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  true,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Neo C8 Relic",
+                                                                                "type":  "Afentis Prime Barrel",
+                                                                                "chance":  11,
+                                                                                "rarity":  "Uncommon",
+                                                                                "uniqueName":  "/Lotus/Types/Game/Projections/T3VoidProjectionStyanaxPrimeABronze"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Neo C8 Relic (Exceptional)",
+                                                                                "type":  "Afentis Prime Barrel",
+                                                                                "chance":  13,
+                                                                                "rarity":  "Uncommon",
+                                                                                "uniqueName":  "/Lotus/Types/Game/Projections/T3VoidProjectionStyanaxPrimeABronze"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Neo C8 Relic (Flawless)",
+                                                                                "type":  "Afentis Prime Barrel",
+                                                                                "chance":  17,
+                                                                                "rarity":  "Uncommon",
+                                                                                "uniqueName":  "/Lotus/Types/Game/Projections/T3VoidProjectionStyanaxPrimeABronze"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Neo C8 Relic (Radiant)",
+                                                                                "type":  "Afentis Prime Barrel",
+                                                                                "chance":  20,
+                                                                                "rarity":  "Uncommon",
+                                                                                "uniqueName":  "/Lotus/Types/Game/Projections/T3VoidProjectionStyanaxPrimeABronze"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blade",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/AfentisPrimeBlade",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  true,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Meso A12 Relic (Radiant)",
+                                                                                "type":  "Afentis Prime Blade",
+                                                                                "chance":  10,
+                                                                                "rarity":  "Uncommon",
+                                                                                "uniqueName":  "/Lotus/Types/Game/Projections/T2VoidProjectionStyanaxPrimeDBronze"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Meso A12 Relic",
+                                                                                "type":  "Afentis Prime Blade",
+                                                                                "chance":  2,
+                                                                                "rarity":  "Rare",
+                                                                                "uniqueName":  "/Lotus/Types/Game/Projections/T2VoidProjectionStyanaxPrimeDBronze"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Meso A12 Relic (Exceptional)",
+                                                                                "type":  "Afentis Prime Blade",
+                                                                                "chance":  4,
+                                                                                "rarity":  "Rare",
+                                                                                "uniqueName":  "/Lotus/Types/Game/Projections/T2VoidProjectionStyanaxPrimeDBronze"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Meso A12 Relic (Flawless)",
+                                                                                "type":  "Afentis Prime Blade",
+                                                                                "chance":  6,
+                                                                                "rarity":  "Rare",
+                                                                                "uniqueName":  "/Lotus/Types/Game/Projections/T2VoidProjectionStyanaxPrimeDBronze"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Blueprint",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/AfentisPrimeBlueprint",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  true,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Axi A22 Relic (Radiant)",
+                                                                                "type":  "Afentis Prime Blueprint",
+                                                                                "chance":  10,
+                                                                                "rarity":  "Uncommon",
+                                                                                "uniqueName":  "/Lotus/Types/Game/Projections/T4VoidProjectionStyanaxPrimeCBronze"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Axi A22 Relic",
+                                                                                "type":  "Afentis Prime Blueprint",
+                                                                                "chance":  2,
+                                                                                "rarity":  "Rare",
+                                                                                "uniqueName":  "/Lotus/Types/Game/Projections/T4VoidProjectionStyanaxPrimeCBronze"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Axi A22 Relic (Exceptional)",
+                                                                                "type":  "Afentis Prime Blueprint",
+                                                                                "chance":  4,
+                                                                                "rarity":  "Rare",
+                                                                                "uniqueName":  "/Lotus/Types/Game/Projections/T4VoidProjectionStyanaxPrimeCBronze"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Axi A22 Relic (Flawless)",
+                                                                                "type":  "Afentis Prime Blueprint",
+                                                                                "chance":  6,
+                                                                                "rarity":  "Rare",
+                                                                                "uniqueName":  "/Lotus/Types/Game/Projections/T4VoidProjectionStyanaxPrimeCBronze"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Handle",
+                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/AfentisPrimeHandle",
+                                                              "itemCount":  1,
+                                                              "type":  null,
+                                                              "tradable":  true,
+                                                              "drops":  [
+                                                                            {
+                                                                                "location":  "Lith Q3 Relic (Radiant)",
+                                                                                "type":  "Afentis Prime Handle",
+                                                                                "chance":  16.67,
+                                                                                "rarity":  "Uncommon",
+                                                                                "uniqueName":  "/Lotus/Types/Game/Projections/T1VoidProjectionStyanaxPrimeABronze"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Lith Q3 Relic (Flawless)",
+                                                                                "type":  "Afentis Prime Handle",
+                                                                                "chance":  20,
+                                                                                "rarity":  "Uncommon",
+                                                                                "uniqueName":  "/Lotus/Types/Game/Projections/T1VoidProjectionStyanaxPrimeABronze"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Lith Q3 Relic (Exceptional)",
+                                                                                "type":  "Afentis Prime Handle",
+                                                                                "chance":  23.33,
+                                                                                "rarity":  "Uncommon",
+                                                                                "uniqueName":  "/Lotus/Types/Game/Projections/T1VoidProjectionStyanaxPrimeABronze"
+                                                                            },
+                                                                            {
+                                                                                "location":  "Lith Q3 Relic",
+                                                                                "type":  "Afentis Prime Handle",
+                                                                                "chance":  25.33,
+                                                                                "rarity":  "Uncommon",
+                                                                                "uniqueName":  "/Lotus/Types/Game/Projections/T1VoidProjectionStyanaxPrimeABronze"
+                                                                            }
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "name":  "Orokin Cell",
+                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/OrokinCell",
+                                                              "itemCount":  10,
+                                                              "type":  "Resource",
+                                                              "tradable":  false,
+                                                              "drops":  [
+
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  50,
+                                       "consumeOnBuild":  true
+                                   },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/AfentisPrime.png?7c419",
+                                   "url":  "https://wiki.warframe.com/w/Afentis_Prime",
+                                   "imageName":  "AfentisPrime.png",
+                                   "available":  true
+                               },
+                      "followThrough":  null,
                       "attacks":  [
                                       {
                                           "name":  "Semi",
@@ -131,227 +233,125 @@
                                                      }
                                       }
                                   ],
-                      "stancePolarity":  null,
-                      "blockingAngle":  null,
-                      "comboDuration":  null,
-                      "followThrough":  null,
-                      "range":  null,
-                      "slamAttack":  null,
+                      "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
-                      "slideAttack":  null,
-                      "heavyAttackDamage":  null,
-                      "heavySlamAttack":  null,
-                      "heavySlamRadialDamage":  null,
+                      "blockingAngle":  null,
                       "heavySlamRadius":  null,
-                      "windUp":  null,
-                      "sentinel":  null,
-                      "crafting":  {
-                                       "buildPrice":  15000,
-                                       "buildTime":  43200,
-                                       "skipBuildTimePrice":  50,
-                                       "buildQuantity":  1,
-                                       "consumeOnBuild":  true,
-                                       "components":  [
-                                                          {
-                                                              "name":  "Barrel",
-                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/AfentisPrimeBarrel",
-                                                              "itemCount":  1,
-                                                              "type":  null,
-                                                              "tradable":  true,
-                                                              "drops":  [
-                                                                            {
-                                                                                "location":  "Neo C8 Relic",
-                                                                                "type":  "Afentis Prime Barrel",
-                                                                                "chance":  11,
-                                                                                "rarity":  "Uncommon",
-                                                                                "uniqueName":  ""
-                                                                            },
-                                                                            {
-                                                                                "location":  "Neo C8 Relic (Exceptional)",
-                                                                                "type":  "Afentis Prime Barrel",
-                                                                                "chance":  13,
-                                                                                "rarity":  "Uncommon",
-                                                                                "uniqueName":  ""
-                                                                            },
-                                                                            {
-                                                                                "location":  "Neo C8 Relic (Flawless)",
-                                                                                "type":  "Afentis Prime Barrel",
-                                                                                "chance":  17,
-                                                                                "rarity":  "Uncommon",
-                                                                                "uniqueName":  ""
-                                                                            },
-                                                                            {
-                                                                                "location":  "Neo C8 Relic (Radiant)",
-                                                                                "type":  "Afentis Prime Barrel",
-                                                                                "chance":  20,
-                                                                                "rarity":  "Uncommon",
-                                                                                "uniqueName":  ""
-                                                                            }
-                                                                        ]
-                                                          },
-                                                          {
-                                                              "name":  "Blade",
-                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/AfentisPrimeBlade",
-                                                              "itemCount":  1,
-                                                              "type":  null,
-                                                              "tradable":  true,
-                                                              "drops":  [
-                                                                            {
-                                                                                "location":  "Meso A12 Relic (Radiant)",
-                                                                                "type":  "Afentis Prime Blade",
-                                                                                "chance":  10,
-                                                                                "rarity":  "Uncommon",
-                                                                                "uniqueName":  ""
-                                                                            },
-                                                                            {
-                                                                                "location":  "Meso A12 Relic",
-                                                                                "type":  "Afentis Prime Blade",
-                                                                                "chance":  2,
-                                                                                "rarity":  "Rare",
-                                                                                "uniqueName":  ""
-                                                                            },
-                                                                            {
-                                                                                "location":  "Meso A12 Relic (Exceptional)",
-                                                                                "type":  "Afentis Prime Blade",
-                                                                                "chance":  4,
-                                                                                "rarity":  "Rare",
-                                                                                "uniqueName":  ""
-                                                                            },
-                                                                            {
-                                                                                "location":  "Meso A12 Relic (Flawless)",
-                                                                                "type":  "Afentis Prime Blade",
-                                                                                "chance":  6,
-                                                                                "rarity":  "Rare",
-                                                                                "uniqueName":  ""
-                                                                            }
-                                                                        ]
-                                                          },
-                                                          {
-                                                              "name":  "Blueprint",
-                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/AfentisPrimeBlueprint",
-                                                              "itemCount":  1,
-                                                              "type":  null,
-                                                              "tradable":  true,
-                                                              "drops":  [
-                                                                            {
-                                                                                "location":  "Axi A22 Relic (Radiant)",
-                                                                                "type":  "Afentis Prime Blueprint",
-                                                                                "chance":  10,
-                                                                                "rarity":  "Uncommon",
-                                                                                "uniqueName":  ""
-                                                                            },
-                                                                            {
-                                                                                "location":  "Axi A22 Relic",
-                                                                                "type":  "Afentis Prime Blueprint",
-                                                                                "chance":  2,
-                                                                                "rarity":  "Rare",
-                                                                                "uniqueName":  ""
-                                                                            },
-                                                                            {
-                                                                                "location":  "Axi A22 Relic (Exceptional)",
-                                                                                "type":  "Afentis Prime Blueprint",
-                                                                                "chance":  4,
-                                                                                "rarity":  "Rare",
-                                                                                "uniqueName":  ""
-                                                                            },
-                                                                            {
-                                                                                "location":  "Axi A22 Relic (Flawless)",
-                                                                                "type":  "Afentis Prime Blueprint",
-                                                                                "chance":  6,
-                                                                                "rarity":  "Rare",
-                                                                                "uniqueName":  ""
-                                                                            }
-                                                                        ]
-                                                          },
-                                                          {
-                                                              "name":  "Handle",
-                                                              "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/AfentisPrimeHandle",
-                                                              "itemCount":  1,
-                                                              "type":  null,
-                                                              "tradable":  true,
-                                                              "drops":  [
-                                                                            {
-                                                                                "location":  "Lith Q3 Relic (Radiant)",
-                                                                                "type":  "Afentis Prime Handle",
-                                                                                "chance":  16.67,
-                                                                                "rarity":  "Uncommon",
-                                                                                "uniqueName":  ""
-                                                                            },
-                                                                            {
-                                                                                "location":  "Lith Q3 Relic (Flawless)",
-                                                                                "type":  "Afentis Prime Handle",
-                                                                                "chance":  20,
-                                                                                "rarity":  "Uncommon",
-                                                                                "uniqueName":  ""
-                                                                            },
-                                                                            {
-                                                                                "location":  "Lith Q3 Relic (Exceptional)",
-                                                                                "type":  "Afentis Prime Handle",
-                                                                                "chance":  23.33,
-                                                                                "rarity":  "Uncommon",
-                                                                                "uniqueName":  ""
-                                                                            },
-                                                                            {
-                                                                                "location":  "Lith Q3 Relic",
-                                                                                "type":  "Afentis Prime Handle",
-                                                                                "chance":  25.33,
-                                                                                "rarity":  "Uncommon",
-                                                                                "uniqueName":  ""
-                                                                            }
-                                                                        ]
-                                                          },
-                                                          {
-                                                              "name":  "Orokin Cell",
-                                                              "uniqueName":  "/Lotus/Types/Items/MiscItems/OrokinCell",
-                                                              "itemCount":  10,
-                                                              "type":  "Resource",
-                                                              "tradable":  false,
-                                                              "drops":  [
-
-                                                                        ]
-                                                          }
-                                                      ]
-                                   },
+                      "stancePolarity":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  40,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  120.00001,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  39.999996,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  200,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "range":  null,
                       "drops":  [
                                     null
                                 ],
-                      "wiki":  {
-                                   "available":  true,
-                                   "url":  "https://wiki.warframe.com/w/Afentis_Prime",
-                                   "thumbnail":  "https://wiki.warframe.com/images/AfentisPrime.png?7c419",
-                                   "imageName":  "AfentisPrime.png"
-                               }
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "damagePerShot":  [
+                                            40,
+                                            120.00001,
+                                            39.999996,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ]
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-                    "releaseDate":  "2026-06-17",
-                    "introduced":  {
-                                       "name":  "Update 43.0",
-                                       "url":  "https://wiki.warframe.com/w/Update_43%3A_Jade_Shadows%3A_Constellations",
-                                       "aliases":  [
-                                                       "43",
-                                                       "43.0",
-                                                       "Jade Shadows: Constellations"
-                                                   ],
-                                       "parent":  "43.0",
-                                       "date":  "2026-06-17"
-                                   }
-                },
-    "tags":  [
-                 "weapon",
-                 "primary"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD primary static data."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/LongGuns/PrimeAfentis/PrimeAfentisWeapon"
+                ],
+    "tags":  [
+                 "weapon",
+                 "primary"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "id":  "weapon.afentis-prime",
+    "release":  {
+                    "releaseDate":  "2026-06-17",
+                    "introduced":  {
+                                       "date":  "2026-06-17",
+                                       "parent":  "43.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_43%3A_Jade_Shadows%3A_Constellations",
+                                       "name":  "Update 43.0",
+                                       "aliases":  [
+                                                       "43",
+                                                       "43.0",
+                                                       "Jade Shadows: Constellations"
+                                                   ]
+                                   }
+                },
+    "summary":  "The gilded speargun of Styanax Prime shines like a beacon across the battlefield, invigorating allies and stunning enemies.",
+    "stats":  {
+                  "accuracy":  100,
+                  "noise":  "Alarming",
+                  "polarities":  [
+                                     "naramon",
+                                     "madurai",
+                                     "madurai"
+                                 ],
+                  "tradable":  false,
+                  "vaulted":  false,
+                  "totalDamage":  200,
+                  "disposition":  1,
+                  "magazineSize":  4,
+                  "fireRate":  0.83333337,
+                  "critMultiplier":  2.5999999,
+                  "reloadTime":  1.8,
+                  "masteryReq":  13,
+                  "statusChance":  0.30000001,
+                  "slot":  "primary",
+                  "estimatedVaultDate":  "2028-03-17",
+                  "trigger":  "Semi",
+                  "critChance":  0.25999999,
+                  "weaponClass":  "Rifle",
+                  "masterable":  true,
+                  "multishot":  1,
+                  "vaultDate":  null
+              }
 }

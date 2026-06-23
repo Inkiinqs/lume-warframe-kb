@@ -1,52 +1,20 @@
 {
-    "id":  "relic.neo-y1-radiant",
-    "name":  "Neo Y1 Radiant",
-    "category":  "relic",
-    "subCategory":  "neo",
-    "aliases":  [
-                    "/Lotus/Types/Game/Projections/T3VoidProjectionStyanaxPrimeDPlatinum"
-                ],
-    "summary":  "An artifact containing Orokin secrets. It can only be opened through the power of the Void.",
     "description":  "An artifact containing Orokin secrets. It can only be opened through the power of the Void.",
-    "stats":  {
-                  "vaulted":  true,
-                  "tradable":  true,
-                  "masterable":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-relics.json"
+                    }
+                ],
+    "name":  "Neo Y1 Radiant",
+    "subCategory":  "neo",
     "mechanics":  {
-                      "era":  "Neo",
-                      "rewards":  [
-                                      {
-                                          "itemName":  null,
-                                          "rarity":  "Rare",
-                                          "chance":  10
-                                      },
-                                      {
-                                          "itemName":  null,
-                                          "rarity":  "Uncommon",
-                                          "chance":  20
-                                      },
-                                      {
-                                          "itemName":  null,
-                                          "rarity":  "Uncommon",
-                                          "chance":  20
-                                      },
-                                      {
-                                          "itemName":  null,
-                                          "rarity":  "Uncommon",
-                                          "chance":  16.67
-                                      },
-                                      {
-                                          "itemName":  null,
-                                          "rarity":  "Uncommon",
-                                          "chance":  16.67
-                                      },
-                                      {
-                                          "itemName":  null,
-                                          "rarity":  "Uncommon",
-                                          "chance":  16.67
-                                      }
-                                  ],
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "RelicNeoC.png",
+                                   "available":  null
+                               },
                       "drops":  [
                                     {
                                         "location":  "Earth/Cetus (Level 15 - 25 Plague Star), Rotation A",
@@ -1003,32 +971,64 @@
                                         "rarity":  "Rare"
                                     }
                                 ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "RelicNeoC.png"
-                               }
+                      "era":  "Neo",
+                      "rewards":  [
+                                      {
+                                          "itemName":  null,
+                                          "rarity":  "Rare",
+                                          "chance":  10
+                                      },
+                                      {
+                                          "itemName":  null,
+                                          "rarity":  "Uncommon",
+                                          "chance":  20
+                                      },
+                                      {
+                                          "itemName":  null,
+                                          "rarity":  "Uncommon",
+                                          "chance":  20
+                                      },
+                                      {
+                                          "itemName":  null,
+                                          "rarity":  "Uncommon",
+                                          "chance":  16.67
+                                      },
+                                      {
+                                          "itemName":  null,
+                                          "rarity":  "Uncommon",
+                                          "chance":  16.67
+                                      },
+                                      {
+                                          "itemName":  null,
+                                          "rarity":  "Uncommon",
+                                          "chance":  16.67
+                                      }
+                                  ]
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-                    "releaseDate":  null,
-                    "introduced":  null
-                },
-    "tags":  [
-                 "relic",
-                 "neo"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Relics.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-relics.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Types/Game/Projections/T3VoidProjectionStyanaxPrimeDPlatinum"
+                ],
+    "tags":  [
+                 "relic",
+                 "neo"
+             ],
+    "category":  "relic",
+    "relationships":  [
+
+                      ],
+    "id":  "relic.neo-y1-radiant",
+    "release":  {
+                    "releaseDate":  null,
+                    "introduced":  null
+                },
+    "summary":  "An artifact containing Orokin secrets. It can only be opened through the power of the Void.",
+    "stats":  {
+                  "tradable":  true,
+                  "vaulted":  false,
+                  "masterable":  false
+              }
 }

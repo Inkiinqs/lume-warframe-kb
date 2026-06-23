@@ -1,74 +1,74 @@
 {
-    "id":  "mod.kumihimo-loading",
-    "name":  "Kumihimo Loading",
-    "category":  "mod",
-    "subCategory":  "koumei",
-    "aliases":  [
-                    "/Lotus/Powersuits/Koumei/KoumeiStringsAugmentCard"
-                ],
-    "summary":  "Kumihimo Augment: \u003cLOWER_IS_BETTER\u003e6 kills with weapons affected by Koumei\u0027s Passive give a loaded die that always rolls 6. Hold to cast empowered Kumihimo and consume all dice.",
     "description":  "Kumihimo Augment: \u003cLOWER_IS_BETTER\u003e6 kills with weapons affected by Koumei\u0027s Passive give a loaded die that always rolls 6. Hold to cast empowered Kumihimo and consume all dice.",
-    "stats":  {
-                  "polarity":  "zenurik",
-                  "rarity":  "Rare",
-                  "baseDrain":  6,
-                  "fusionLimit":  3,
-                  "compatName":  "Koumei",
-                  "tradable":  true,
-                  "transmutable":  false,
-                  "masterable":  false,
-                  "isPrime":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-mods.json"
+                    }
+                ],
+    "name":  "Kumihimo Loading",
+    "subCategory":  "koumei",
     "mechanics":  {
+                      "topRankStats":  [
+                                           "Kumihimo Augment: \u003cLOWER_IS_BETTER\u003e6 kills with weapons affected by Koumei\u0027s Passive give a loaded die that always rolls 6. Hold to cast empowered Kumihimo and consume all dice."
+                                       ],
                       "type":  "Warframe Mod",
+                      "drops":  [
+                                    null
+                                ],
+                      "isAugment":  true,
                       "levelStats":  [
                                          "Kumihimo Augment: \u003cLOWER_IS_BETTER\u003e12 kills with weapons affected by Koumei\u0027s Passive give a loaded die that always rolls 6. Hold to cast empowered Kumihimo and consume all dice.",
                                          "Kumihimo Augment: \u003cLOWER_IS_BETTER\u003e10 kills with weapons affected by Koumei\u0027s Passive give a loaded die that always rolls 6. Hold to cast empowered Kumihimo and consume all dice.",
                                          "Kumihimo Augment: \u003cLOWER_IS_BETTER\u003e8 kills with weapons affected by Koumei\u0027s Passive give a loaded die that always rolls 6. Hold to cast empowered Kumihimo and consume all dice.",
                                          "Kumihimo Augment: \u003cLOWER_IS_BETTER\u003e6 kills with weapons affected by Koumei\u0027s Passive give a loaded die that always rolls 6. Hold to cast empowered Kumihimo and consume all dice."
                                      ],
-                      "topRankStats":  [
-                                           "Kumihimo Augment: \u003cLOWER_IS_BETTER\u003e6 kills with weapons affected by Koumei\u0027s Passive give a loaded die that always rolls 6. Hold to cast empowered Kumihimo and consume all dice."
-                                       ],
-                      "isAugment":  true,
-                      "drops":  [
-                                    null
-                                ],
                       "wiki":  {
-                                   "available":  true,
-                                   "url":  "https://wiki.warframe.com/w/Kumihimo_Loading",
                                    "thumbnail":  "https://wiki.warframe.com/images/KumihimoLoadingMod.png?84272",
-                                   "imageName":  "KoumeiStringsAugmentCard.jpg"
+                                   "url":  "https://wiki.warframe.com/w/Kumihimo_Loading",
+                                   "imageName":  "KoumeiStringsAugmentCard.jpg",
+                                   "available":  true
                                }
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-                    "releaseDate":  "2026-06-17",
-                    "introduced":  {
-                                       "name":  "Update 43.0",
-                                       "url":  "https://wiki.warframe.com/w/Update_43%3A_Jade_Shadows%3A_Constellations",
-                                       "aliases":  [
-                                                       "43",
-                                                       "43.0",
-                                                       "Jade Shadows: Constellations"
-                                                   ],
-                                       "parent":  "43.0",
-                                       "date":  "2026-06-17"
-                                   }
-                },
-    "tags":  [
-                 "mod"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Mods.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-mods.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Powersuits/Koumei/KoumeiStringsAugmentCard"
+                ],
+    "tags":  [
+                 "mod"
+             ],
+    "category":  "mod",
+    "relationships":  [
+
+                      ],
+    "id":  "mod.kumihimo-loading",
+    "release":  {
+                    "releaseDate":  "2026-06-17",
+                    "introduced":  {
+                                       "date":  "2026-06-17",
+                                       "parent":  "43.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_43%3A_Jade_Shadows%3A_Constellations",
+                                       "name":  "Update 43.0",
+                                       "aliases":  [
+                                                       "43",
+                                                       "43.0",
+                                                       "Jade Shadows: Constellations"
+                                                   ]
+                                   }
+                },
+    "summary":  "Kumihimo Augment: \u003cLOWER_IS_BETTER\u003e6 kills with weapons affected by Koumei\u0027s Passive give a loaded die that always rolls 6. Hold to cast empowered Kumihimo and consume all dice.",
+    "stats":  {
+                  "baseDrain":  6,
+                  "tradable":  true,
+                  "compatName":  "Koumei",
+                  "masterable":  false,
+                  "polarity":  "zenurik",
+                  "fusionLimit":  3,
+                  "isPrime":  false,
+                  "rarity":  "Rare",
+                  "transmutable":  false
+              }
 }
