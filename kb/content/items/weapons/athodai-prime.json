@@ -1,5 +1,5 @@
 {
-    "description":  "Unleash the song of the righteous warrior with this gilded pistol that goes into Overdrive on headshot kills, maximizing fire rate and ammo efficiency for a short time.",
+    "id":  "weapon.athodai-prime",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -8,6 +8,10 @@
                 ],
     "name":  "Athodai Prime",
     "subCategory":  "secondary-pistol",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD secondary static data."
+              ],
     "mechanics":  {
                       "heavySlamAttack":  null,
                       "crafting":  {
@@ -146,7 +150,6 @@
                                    "imageName":  "AthodaiPrime.png",
                                    "available":  true
                                },
-                      "followThrough":  null,
                       "attacks":  [
                                       {
                                           "name":  "Normal Attack",
@@ -175,12 +178,13 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  0,
+                                     "heat":  56,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  24,
@@ -188,30 +192,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  56,
+                                     "radiation":  0,
                                      "total":  80,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             24,
@@ -233,12 +223,22 @@
                                             0,
                                             0,
                                             0
-                                        ]
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
                   },
-    "notes":  [
-                  "Normalized from static import source.",
-                  "Converted from WFCD secondary static data."
-              ],
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Pistols/PrimeAthodai/PrimeAthodaiPistolWeapon"
                 ],
@@ -250,7 +250,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.athodai-prime",
+    "description":  "Unleash the song of the righteous warrior with this gilded pistol that goes into Overdrive on headshot kills, maximizing fire rate and ammo efficiency for a short time.",
     "release":  {
                     "releaseDate":  "2026-06-17",
                     "introduced":  {
@@ -274,23 +274,23 @@
                                      "madurai",
                                      "madurai"
                                  ],
+                  "masterable":  true,
                   "tradable":  false,
-                  "vaulted":  false,
-                  "totalDamage":  80,
+                  "trigger":  "Auto",
                   "disposition":  1,
-                  "magazineSize":  24,
                   "fireRate":  5.0000005,
                   "critMultiplier":  2,
-                  "reloadTime":  2,
+                  "totalDamage":  80,
+                  "vaulted":  false,
                   "masteryReq":  14,
-                  "statusChance":  0.10000002,
-                  "slot":  "secondary",
+                  "reloadTime":  2,
                   "estimatedVaultDate":  "2028-03-17",
-                  "trigger":  "Auto",
+                  "slot":  "secondary",
                   "critChance":  0.40000001,
+                  "magazineSize":  24,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "vaultDate":  null,
+                  "statusChance":  0.10000002,
+                  "multishot":  1
               }
 }

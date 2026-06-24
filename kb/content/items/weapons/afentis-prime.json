@@ -1,5 +1,5 @@
 {
-    "description":  "The gilded speargun of Styanax Prime shines like a beacon across the battlefield, invigorating allies and stunning enemies.",
+    "id":  "weapon.afentis-prime",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -8,6 +8,10 @@
                 ],
     "name":  "Afentis Prime",
     "subCategory":  "primary-rifle",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD primary static data."
+              ],
     "mechanics":  {
                       "heavySlamAttack":  null,
                       "crafting":  {
@@ -183,7 +187,6 @@
                                    "imageName":  "AfentisPrime.png",
                                    "available":  true
                                },
-                      "followThrough":  null,
                       "attacks":  [
                                       {
                                           "name":  "Semi",
@@ -236,12 +239,13 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  40,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  120.00001,
@@ -249,30 +253,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  39.999996,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  200,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             40,
                                             120.00001,
@@ -294,12 +284,22 @@
                                             0,
                                             0,
                                             0
-                                        ]
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
                   },
-    "notes":  [
-                  "Normalized from static import source.",
-                  "Converted from WFCD primary static data."
-              ],
     "aliases":  [
                     "/Lotus/Weapons/Tenno/LongGuns/PrimeAfentis/PrimeAfentisWeapon"
                 ],
@@ -311,7 +311,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.afentis-prime",
+    "description":  "The gilded speargun of Styanax Prime shines like a beacon across the battlefield, invigorating allies and stunning enemies.",
     "release":  {
                     "releaseDate":  "2026-06-17",
                     "introduced":  {
@@ -335,23 +335,23 @@
                                      "madurai",
                                      "madurai"
                                  ],
+                  "masterable":  true,
                   "tradable":  false,
-                  "vaulted":  false,
-                  "totalDamage":  200,
+                  "trigger":  "Semi",
                   "disposition":  1,
-                  "magazineSize":  4,
                   "fireRate":  0.83333337,
                   "critMultiplier":  2.5999999,
-                  "reloadTime":  1.8,
+                  "totalDamage":  200,
+                  "vaulted":  false,
                   "masteryReq":  13,
-                  "statusChance":  0.30000001,
-                  "slot":  "primary",
+                  "reloadTime":  1.8,
                   "estimatedVaultDate":  "2028-03-17",
-                  "trigger":  "Semi",
+                  "slot":  "primary",
                   "critChance":  0.25999999,
+                  "magazineSize":  4,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "vaultDate":  null,
+                  "statusChance":  0.30000001,
+                  "multishot":  1
               }
 }

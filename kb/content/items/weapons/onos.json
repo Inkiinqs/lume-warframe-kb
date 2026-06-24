@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.onos",
+    "description":  "Albrecht\u0027s Void experiments revealed the true destructive potential of this weapon. In Incarnon form, draw in ambient power to deal steadily increased damage to enemies. At full power, release a blast of \u003cDT_FIRE_COLOR\u003eHeat.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -80,6 +80,7 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  null,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Onos.png?2a4ee",
                                    "url":  "https://wiki.warframe.com/w/Onos",
@@ -101,7 +102,7 @@
                                                      }
                                       },
                                       {
-                                          "name":  "Incarnon Mode Held Damage",
+                                          "name":  "Incarnon Form Held Damage",
                                           "speed":  2,
                                           "crit_chance":  14,
                                           "crit_mult":  1.6,
@@ -114,7 +115,7 @@
                                                      }
                                       },
                                       {
-                                          "name":  "Incarnon Mode Charge Attack",
+                                          "name":  "Incarnon Form Charge Attack",
                                           "speed":  0.25,
                                           "crit_chance":  38,
                                           "crit_mult":  3.2,
@@ -125,7 +126,7 @@
                                                      }
                                       },
                                       {
-                                          "name":  "Incarnon Mode Charge Radial Attack",
+                                          "name":  "Incarnon Form Charge Radial Attack",
                                           "speed":  0.25,
                                           "crit_chance":  38,
                                           "crit_mult":  3.2,
@@ -144,30 +145,18 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  0,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  220,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  0,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  220,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
                       "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             220,
@@ -190,18 +179,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  220,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  220,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Thanotech/EntratiWristGun/EntratiWristGunWeapon"
@@ -214,7 +214,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Albrecht\u0027s Void experiments revealed the true destructive potential of this weapon. In Incarnon form, draw in ambient power to deal steadily increased damage to enemies. At full power, release a blast of \u003cDT_FIRE_COLOR\u003eHeat.",
+    "id":  "weapon.onos",
     "release":  {
                     "releaseDate":  "2024-03-27",
                     "introduced":  {

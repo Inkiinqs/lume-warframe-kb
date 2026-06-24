@@ -1,5 +1,5 @@
 {
-    "description":  "The pride of one that knows their worth. Sirius\u0027 signature Heavy Scythe.",
+    "id":  "weapon.pride",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -8,6 +8,10 @@
                 ],
     "name":  "Pride",
     "subCategory":  "melee-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD melee static data."
+              ],
     "mechanics":  {
                       "heavySlamAttack":  1250,
                       "crafting":  {
@@ -80,7 +84,6 @@
                                    "imageName":  "TnSiriusScytheWeapon.png",
                                    "available":  true
                                },
-                      "followThrough":  0.40000001,
                       "attacks":  [
                                       {
                                           "name":  "Normal Attack",
@@ -130,12 +133,13 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  500,
                       "blockingAngle":  65,
-                      "heavySlamRadius":  9,
-                      "stancePolarity":  "madurai",
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  125,
@@ -143,30 +147,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  125,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  250,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  2.8,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  4500,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  750,
-                      "comboDuration":  5,
-                      "slideAttack":  500,
-                      "windUp":  1,
-                      "slamRadius":  8,
-                      "slamAttack":  750,
                       "damagePerShot":  [
                                             0,
                                             125,
@@ -188,12 +178,22 @@
                                             0,
                                             0,
                                             0
-                                        ]
+                                        ],
+                      "range":  2.8,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  4500,
+                      "followThrough":  0.40000001,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  750,
+                      "stancePolarity":  "madurai",
+                      "slideAttack":  500,
+                      "windUp":  1,
+                      "slamRadius":  8,
+                      "slamAttack":  750,
+                      "heavySlamRadius":  9
                   },
-    "notes":  [
-                  "Normalized from static import source.",
-                  "Converted from WFCD melee static data."
-              ],
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/HeavyScythe/TnOrionSiriusScythe/TnSiriusScytheWeapon"
                 ],
@@ -205,7 +205,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.pride",
+    "description":  "The pride of one that knows their worth. Sirius\u0027 signature Heavy Scythe.",
     "release":  {
                     "releaseDate":  "2026-06-17",
                     "introduced":  {
@@ -227,23 +227,23 @@
                   "polarities":  [
                                      "madurai"
                                  ],
+                  "masterable":  true,
                   "tradable":  false,
-                  "vaulted":  null,
-                  "totalDamage":  250,
+                  "trigger":  null,
                   "disposition":  1,
-                  "magazineSize":  null,
                   "fireRate":  1.2,
                   "critMultiplier":  2,
-                  "reloadTime":  null,
+                  "totalDamage":  250,
+                  "vaulted":  null,
                   "masteryReq":  14,
-                  "statusChance":  0.35000002,
-                  "slot":  "melee",
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "melee",
                   "critChance":  0.15000001,
+                  "magazineSize":  null,
                   "weaponClass":  "Melee",
-                  "masterable":  true,
-                  "multishot":  null,
-                  "vaultDate":  null
+                  "vaultDate":  null,
+                  "statusChance":  0.35000002,
+                  "multishot":  null
               }
 }
