@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.pride",
+    "description":  "The pride of one that knows their worth. Sirius\u0027 signature Heavy Scythe.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD melee static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  1250,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  20000,
@@ -132,12 +134,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  500,
+                      "slamRadius":  8,
                       "blockingAngle":  65,
-                      "sentinel":  null,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -147,16 +150,26 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  125,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  250,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.8,
+                      "heavyAttackDamage":  4500,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  750,
+                      "comboDuration":  5,
+                      "slideAttack":  500,
+                      "windUp":  1,
+                      "followThrough":  0.40000001,
+                      "slamAttack":  750,
                       "damagePerShot":  [
                                             0,
                                             125,
@@ -179,20 +192,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.8,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  4500,
-                      "followThrough":  0.40000001,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  750,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  500,
-                      "windUp":  1,
-                      "slamRadius":  8,
-                      "slamAttack":  750,
-                      "heavySlamRadius":  9
+                      "heavySlamAttack":  1250
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/HeavyScythe/TnOrionSiriusScythe/TnSiriusScytheWeapon"
@@ -205,7 +205,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The pride of one that knows their worth. Sirius\u0027 signature Heavy Scythe.",
+    "id":  "weapon.pride",
     "release":  {
                     "releaseDate":  "2026-06-17",
                     "introduced":  {
@@ -227,10 +227,9 @@
                   "polarities":  [
                                      "madurai"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  null,
                   "disposition":  1,
+                  "magazineSize":  null,
                   "fireRate":  1.2,
                   "critMultiplier":  2,
                   "totalDamage":  250,
@@ -238,12 +237,13 @@
                   "masteryReq":  14,
                   "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "slot":  "melee",
+                  "trigger":  null,
                   "critChance":  0.15000001,
-                  "magazineSize":  null,
+                  "slot":  "melee",
+                  "masterable":  true,
                   "weaponClass":  "Melee",
-                  "vaultDate":  null,
                   "statusChance":  0.35000002,
+                  "vaultDate":  null,
                   "multishot":  null
               }
 }

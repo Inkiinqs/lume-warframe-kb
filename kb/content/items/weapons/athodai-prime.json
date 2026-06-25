@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.athodai-prime",
+    "description":  "Unleash the song of the righteous warrior with this gilded pistol that goes into Overdrive on headshot kills, maximizing fire rate and ammo efficiency for a short time.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD secondary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -177,12 +179,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
-                                     "heat":  56,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -192,16 +195,26 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  56,
                                      "total":  80,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             24,
@@ -224,20 +237,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Pistols/PrimeAthodai/PrimeAthodaiPistolWeapon"
@@ -250,7 +250,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Unleash the song of the righteous warrior with this gilded pistol that goes into Overdrive on headshot kills, maximizing fire rate and ammo efficiency for a short time.",
+    "id":  "weapon.athodai-prime",
     "release":  {
                     "releaseDate":  "2026-06-17",
                     "introduced":  {
@@ -274,10 +274,9 @@
                                      "madurai",
                                      "madurai"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Auto",
                   "disposition":  1,
+                  "magazineSize":  24,
                   "fireRate":  5.0000005,
                   "critMultiplier":  2,
                   "totalDamage":  80,
@@ -285,12 +284,13 @@
                   "masteryReq":  14,
                   "reloadTime":  2,
                   "estimatedVaultDate":  "2028-03-17",
-                  "slot":  "secondary",
+                  "trigger":  "Auto",
                   "critChance":  0.40000001,
-                  "magazineSize":  24,
+                  "slot":  "secondary",
+                  "masterable":  true,
                   "weaponClass":  "Pistol",
-                  "vaultDate":  null,
                   "statusChance":  0.10000002,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }
