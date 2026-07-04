@@ -1,5 +1,5 @@
 {
-    "description":  "Wield Xaku Prime’s elegant fan, its gilded edges crafted for both precision and prestige.",
+    "id":  "weapon.quassus-prime",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -557,30 +557,116 @@
                                        "consumeOnBuild":  true
                                    },
                       "wiki":  {
-                                   "thumbnail":  null,
-                                   "url":  null,
+                                   "thumbnail":  "https://wiki.warframe.com/images/QuassusPrime.png?a9584",
+                                   "url":  "https://wiki.warframe.com/w/Quassus_Prime",
                                    "imageName":  "QuassusPrime.png",
-                                   "available":  null
+                                   "available":  true
                                },
                       "attacks":  [
-                                      null
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  0.833,
+                                          "crit_chance":  35,
+                                          "crit_mult":  2.5,
+                                          "status_chance":  18,
+                                          "damage":  {
+                                                         "impact":  26,
+                                                         "slash":  182,
+                                                         "puncture":  52
+                                                     },
+                                          "slide":  "260"
+                                      },
+                                      {
+                                          "name":  "First Heavy Attack - Ethereal Daggers",
+                                          "speed":  2,
+                                          "crit_chance":  35,
+                                          "crit_mult":  2.5,
+                                          "status_chance":  1,
+                                          "charge_time":  0.5,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  46,
+                                          "flight":  46,
+                                          "damage":  {
+                                                         "slash":  114,
+                                                         "puncture":  76
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Second Heavy Attack - Ethereal Daggers",
+                                          "speed":  2,
+                                          "crit_chance":  35,
+                                          "crit_mult":  2.5,
+                                          "status_chance":  2,
+                                          "charge_time":  0.5,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  46,
+                                          "flight":  46,
+                                          "damage":  {
+                                                         "slash":  228,
+                                                         "puncture":  152
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Slam Attack",
+                                          "speed":  0.833,
+                                          "crit_chance":  35,
+                                          "crit_mult":  2.5,
+                                          "status_chance":  10,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  5,
+                                                          "reduction":  0.5
+                                                      },
+                                          "damage":  {
+                                                         "impact":  520
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Heavy Slam Attack",
+                                          "speed":  0.833,
+                                          "crit_chance":  35,
+                                          "crit_mult":  2.5,
+                                          "status_chance":  34,
+                                          "shot_type":  "AoE",
+                                          "falloff":  {
+                                                          "start":  0,
+                                                          "end":  6,
+                                                          "reduction":  0.3
+                                                      },
+                                          "damage":  {
+                                                         "blast":  780
+                                                     }
+                                      }
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  520,
-                      "blockingAngle":  55,
-                      "heavySlamRadius":  6,
-                      "sentinel":  null,
-                      "stancePolarity":  null,
-                      "heavyAttackDamage":  1040,
-                      "range":  1.7,
-                      "heavySlamRadialDamage":  780,
-                      "followThrough":  0.69999999,
-                      "heavySlamAttack":  260,
-                      "comboDuration":  5,
-                      "slideAttack":  260,
-                      "windUp":  0.5,
                       "slamRadius":  5,
-                      "slamAttack":  520,
+                      "blockingAngle":  55,
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  26,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  52,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  182,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  260,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "heavyAttackDamage":  1040,
                       "damagePerShot":  [
                                             26,
                                             52,
@@ -603,29 +689,17 @@
                                             0,
                                             0
                                         ],
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  26,
-                                     "heat":  0,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  52,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "toxin":  0,
-                                     "puncture":  182,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "radiation":  0,
-                                     "total":  260,
-                                     "healthDrain":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 }
+                      "range":  1.7,
+                      "heavySlamRadialDamage":  780,
+                      "sentinel":  null,
+                      "comboDuration":  5,
+                      "stancePolarity":  "naramon",
+                      "slideAttack":  260,
+                      "windUp":  0.5,
+                      "followThrough":  0.69999999,
+                      "slamAttack":  520,
+                      "heavySlamRadius":  6,
+                      "heavySlamAttack":  260
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Warfan/PrimeQuassus/PrimeQuassusWeapon"
@@ -638,27 +712,37 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.quassus-prime",
+    "description":  "Wield Xaku Prime’s elegant fan, its gilded edges crafted for both precision and prestige.",
     "release":  {
-                    "releaseDate":  null,
-                    "introduced":  null
+                    "releaseDate":  "2024-11-13",
+                    "introduced":  {
+                                       "name":  "Hotfix 37.0.9",
+                                       "url":  "https://wiki.warframe.com/w/Update_37%23Hotfix_37.0.9",
+                                       "aliases":  [
+                                                       "37.0.9"
+                                                   ],
+                                       "parent":  "37.0",
+                                       "date":  "2024-11-13"
+                                   }
                 },
     "summary":  "Wield Xaku Prime’s elegant fan, its gilded edges crafted for both precision and prestige.",
     "stats":  {
                   "accuracy":  null,
                   "noise":  null,
                   "polarities":  [
-                                     null
+                                     "madurai",
+                                     "madurai",
+                                     "naramon"
                                  ],
                   "tradable":  false,
-                  "disposition":  null,
+                  "disposition":  3,
                   "fireRate":  0.83333337,
                   "critMultiplier":  2.5,
                   "totalDamage":  260,
                   "vaulted":  false,
                   "masteryReq":  13,
                   "reloadTime":  null,
-                  "estimatedVaultDate":  null,
+                  "estimatedVaultDate":  "2026-08-13",
                   "trigger":  null,
                   "critChance":  0.34999999,
                   "magazineSize":  null,

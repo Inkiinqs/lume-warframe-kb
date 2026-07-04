@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.mandonel",
+    "description":  "Mandonel fires \u003cDT_RADIATION_COLOR\u003eRadiation Damage projectiles. Partially charged shots release a spread and fully charged shots release a beam that dissolves into a radiation field. Projectiles that pass through the field are empowered.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -156,41 +156,59 @@
                                        "consumeOnBuild":  true
                                    },
                       "wiki":  {
-                                   "thumbnail":  null,
-                                   "url":  null,
+                                   "thumbnail":  "https://wiki.warframe.com/images/Mandonel.png?e64d1",
+                                   "url":  "https://wiki.warframe.com/w/Mandonel",
                                    "imageName":  "TnConcreteArchgun.png",
-                                   "available":  null
+                                   "available":  true
                                },
                       "attacks":  [
-                                      null
+                                      {
+                                          "name":  "Horizontal Spread",
+                                          "speed":  3,
+                                          "crit_chance":  25,
+                                          "crit_mult":  2,
+                                          "status_chance":  15,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  125,
+                                          "flight":  125,
+                                          "damage":  {
+                                                         "impact":  25,
+                                                         "slash":  10,
+                                                         "puncture":  15,
+                                                         "radiation":  40
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Charge",
+                                          "speed":  3,
+                                          "crit_chance":  30,
+                                          "crit_mult":  2.5,
+                                          "status_chance":  20,
+                                          "charge_time":  1.5,
+                                          "shot_type":  "Hit-Scan",
+                                          "damage":  {
+                                                         "puncture":  200,
+                                                         "heat":  300,
+                                                         "radiation":  400
+                                                     }
+                                      }
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  25.000002,
-                                     "heat":  0,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  15,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "toxin":  0,
-                                     "puncture":  10,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "radiation":  40,
-                                     "total":  90,
-                                     "healthDrain":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             25.000002,
                                             15,
@@ -213,18 +231,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  25.000002,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  15,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "radiation":  40,
+                                     "healthDrain":  0,
+                                     "puncture":  10,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  90,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Archwing/Primary/TnConcreteArchgun/TnConcreteArchgunWeapon"
@@ -237,20 +266,30 @@
     "relationships":  [
 
                       ],
-    "description":  "Mandonel fires \u003cDT_RADIATION_COLOR\u003eRadiation Damage projectiles. Partially charged shots release a spread and fully charged shots release a beam that dissolves into a radiation field. Projectiles that pass through the field are empowered.",
+    "id":  "weapon.mandonel",
     "release":  {
-                    "releaseDate":  null,
-                    "introduced":  null
+                    "releaseDate":  "2023-12-13",
+                    "introduced":  {
+                                       "name":  "Update 35.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_35%23Update_35.0",
+                                       "aliases":  [
+                                                       "35",
+                                                       "35.0",
+                                                       "Whispers in the Wall"
+                                                   ],
+                                       "parent":  "35.0",
+                                       "date":  "2023-12-13"
+                                   }
                 },
     "summary":  "Mandonel fires \u003cDT_RADIATION_COLOR\u003eRadiation Damage projectiles. Partially charged shots release a spread and fully charged shots release a beam that dissolves into a radiation field. Projectiles that pass through the field are empowered.",
     "stats":  {
                   "accuracy":  1.4285715,
                   "noise":  "Alarming",
                   "polarities":  [
-                                     null
+                                     "madurai"
                                  ],
                   "tradable":  false,
-                  "disposition":  null,
+                  "disposition":  3,
                   "fireRate":  3.0000002,
                   "critMultiplier":  2,
                   "totalDamage":  90,
