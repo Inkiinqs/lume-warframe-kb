@@ -1,5 +1,5 @@
 {
-    "description":  "Deliver a ruthless barrage of Sentient artillery from this instrument of death. Alt-fire splits the weapon apart into 8 separate rifles, expanding its devastation by tracking up to 4 targets at once, while consuming more ammo per shot.",
+    "id":  "weapon.haalvu",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -8,6 +8,10 @@
                 ],
     "name":  "Haalvu",
     "subCategory":  "primary-rifle",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD primary static data."
+              ],
     "mechanics":  {
                       "heavySlamAttack":  null,
                       "crafting":  {
@@ -35,7 +39,6 @@
                                    "imageName":  "TnoOctaMiniGun.png",
                                    "available":  true
                                },
-                      "followThrough":  null,
                       "attacks":  [
                                       {
                                           "name":  "Normal Attack",
@@ -65,12 +68,13 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  23.4,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  23.4,
@@ -78,30 +82,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  43.200001,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  90,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             23.4,
                                             23.4,
@@ -123,12 +113,22 @@
                                             0,
                                             0,
                                             0
-                                        ]
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
                   },
-    "notes":  [
-                  "Normalized from static import source.",
-                  "Converted from WFCD primary static data."
-              ],
     "aliases":  [
                     "/Lotus/Weapons/Sentients/SentOctaMiniGun/SentOctaMiniGun"
                 ],
@@ -140,7 +140,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.haalvu",
+    "description":  "Deliver a ruthless barrage of Sentient artillery from this instrument of death. Alt-fire splits the weapon apart into 8 separate rifles, expanding its devastation by tracking up to 4 targets at once, while consuming more ammo per shot.",
     "release":  {
                     "releaseDate":  "0000-00-00",
                     "introduced":  {
@@ -163,23 +163,23 @@
                   "polarities":  [
                                      null
                                  ],
+                  "masterable":  true,
                   "tradable":  false,
-                  "vaulted":  null,
-                  "totalDamage":  90,
+                  "trigger":  "Auto",
                   "disposition":  1,
-                  "magazineSize":  200,
                   "fireRate":  15.000001,
                   "critMultiplier":  2.2,
-                  "reloadTime":  13.833333,
+                  "totalDamage":  90,
+                  "vaulted":  null,
                   "masteryReq":  8,
-                  "statusChance":  0.22000003,
-                  "slot":  "primary",
+                  "reloadTime":  13.833333,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Auto",
+                  "slot":  "primary",
                   "critChance":  0.22,
+                  "magazineSize":  200,
                   "weaponClass":  "Rifle",
-                  "masterable":  true,
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "vaultDate":  null,
+                  "statusChance":  0.22000003,
+                  "multishot":  1
               }
 }

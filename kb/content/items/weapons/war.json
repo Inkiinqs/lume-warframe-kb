@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.war",
+    "description":  "The Stalker\u0027s sword as bestowed on him by the Sentient Hunhow.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -109,6 +109,7 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.60000002,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/War.png?42c4e",
                                    "url":  "https://wiki.warframe.com/w/War",
@@ -170,11 +171,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  500,
-                      "slamRadius":  8,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "vazarin",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  120,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -184,18 +187,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  70.000008,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  250,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  3.2,
                       "heavyAttackDamage":  1500,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  750,
+                      "comboDuration":  5,
+                      "slideAttack":  500,
+                      "windUp":  1.1,
+                      "slamRadius":  8,
+                      "slamAttack":  750,
                       "damagePerShot":  [
                                             120,
                                             60,
@@ -218,16 +228,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  3.2,
-                      "heavySlamRadialDamage":  750,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "vazarin",
-                      "slideAttack":  500,
-                      "windUp":  1.1,
-                      "followThrough":  0.60000002,
-                      "slamAttack":  750,
-                      "heavySlamRadius":  9,
                       "heavySlamAttack":  1250
                   },
     "aliases":  [
@@ -241,7 +241,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The Stalker\u0027s sword as bestowed on him by the Sentient Hunhow.",
+    "id":  "weapon.war",
     "release":  {
                     "releaseDate":  "2015-12-03",
                     "introduced":  {

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.masseter-prime",
+    "description":  "A greatsword for those with an insatiable hunger for victory. Grendel is immune to crowd-control when he performs Heavy Attacks with this weapon.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -678,6 +678,7 @@
                                        "skipBuildTimePrice":  50,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.60000002,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/MasseterPrime.png?434ac",
                                    "url":  "https://wiki.warframe.com/w/Masseter_Prime",
@@ -732,11 +733,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  520,
-                      "slamRadius":  10,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  10,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  145.60001,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -746,18 +749,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  114.4,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  260,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.9000001,
                       "heavyAttackDamage":  1560,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  780,
+                      "comboDuration":  5,
+                      "slideAttack":  520,
+                      "windUp":  1.1,
+                      "slamRadius":  10,
+                      "slamAttack":  780,
                       "damagePerShot":  [
                                             145.60001,
                                             0,
@@ -780,16 +790,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.9000001,
-                      "heavySlamRadialDamage":  780,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  520,
-                      "windUp":  1.1,
-                      "followThrough":  0.60000002,
-                      "slamAttack":  780,
-                      "heavySlamRadius":  10,
                       "heavySlamAttack":  1300
                   },
     "aliases":  [
@@ -803,7 +803,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A greatsword for those with an insatiable hunger for victory. Grendel is immune to crowd-control when he performs Heavy Attacks with this weapon.",
+    "id":  "weapon.masseter-prime",
     "release":  {
                     "releaseDate":  "2023-10-18",
                     "introduced":  {

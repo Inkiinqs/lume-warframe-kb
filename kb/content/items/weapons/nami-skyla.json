@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.nami-skyla",
+    "description":  "Like the surge and crash of storm waves, a master of the Nami cutlass and Skyla dagger turns these two separate weapons into one fluid attack.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,6 +75,7 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.5,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/NamiSkyla.png?63a97",
                                    "url":  "https://wiki.warframe.com/w/Nami_Skyla",
@@ -130,11 +131,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  250,
-                      "slamRadius":  8,
                       "blockingAngle":  60,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "naramon",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  18.75,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -144,18 +147,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  87.5,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  125,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
                       "heavyAttackDamage":  500,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  375,
+                      "comboDuration":  5,
+                      "slideAttack":  250,
+                      "windUp":  0.69999999,
+                      "slamRadius":  8,
+                      "slamAttack":  250,
                       "damagePerShot":  [
                                             18.75,
                                             18.75,
@@ -178,16 +188,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "heavySlamRadialDamage":  375,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  250,
-                      "windUp":  0.69999999,
-                      "followThrough":  0.5,
-                      "slamAttack":  250,
-                      "heavySlamRadius":  9,
                       "heavySlamAttack":  500
                   },
     "aliases":  [
@@ -201,7 +201,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Like the surge and crash of storm waves, a master of the Nami cutlass and Skyla dagger turns these two separate weapons into one fluid attack.",
+    "id":  "weapon.nami-skyla",
     "release":  {
                     "releaseDate":  "2014-04-09",
                     "introduced":  {

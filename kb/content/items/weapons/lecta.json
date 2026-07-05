@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.lecta",
+    "description":  "Half taser, half whip. The Corpus Lecta delivers a deadly shock to anything it touches.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,6 +75,7 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.5,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Lecta.png?90873",
                                    "url":  "https://wiki.warframe.com/w/Lecta",
@@ -130,11 +131,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  202,
-                      "slamRadius":  5,
                       "blockingAngle":  45,
+                      "heavySlamRadius":  6,
+                      "stancePolarity":  "vazarin",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  56,
@@ -144,18 +147,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  25,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  101,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.4963856,
                       "heavyAttackDamage":  455,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  303,
+                      "comboDuration":  5,
+                      "slideAttack":  202,
+                      "windUp":  0.40000001,
+                      "slamRadius":  5,
+                      "slamAttack":  303,
                       "damagePerShot":  [
                                             0,
                                             20,
@@ -178,16 +188,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.4963856,
-                      "heavySlamRadialDamage":  303,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "vazarin",
-                      "slideAttack":  202,
-                      "windUp":  0.40000001,
-                      "followThrough":  0.5,
-                      "slamAttack":  303,
-                      "heavySlamRadius":  6,
                       "heavySlamAttack":  354
                   },
     "aliases":  [
@@ -201,7 +201,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Half taser, half whip. The Corpus Lecta delivers a deadly shock to anything it touches.",
+    "id":  "weapon.lecta",
     "release":  {
                     "releaseDate":  "2013-11-20",
                     "introduced":  {

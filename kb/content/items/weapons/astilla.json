@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.astilla",
+    "description":  "Blast enemies with glass slugs that devastate on impact. In Gara\u0027s hands, this signature weapon has a larger Ammo Pool.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,6 +75,7 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  null,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Astilla.png?f85fd",
                                    "url":  "https://wiki.warframe.com/w/Astilla",
@@ -120,11 +121,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  70,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -134,18 +137,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  78,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  190,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
                       "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             70,
                                             42,
@@ -168,16 +178,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavySlamRadialDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -191,7 +191,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Blast enemies with glass slugs that devastate on impact. In Gara\u0027s hands, this signature weapon has a larger Ammo Pool.",
+    "id":  "weapon.astilla",
     "release":  {
                     "releaseDate":  "2017-10-12",
                     "introduced":  {

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.braton-vandal",
+    "description":  "A special version of the standard Braton rifle with a slower Fire Rate but offering higher accuracy and damage values. The Braton Vandal has been customized by the Tenno with a blue-green metallic finish and Lotus branding on the grips.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -133,6 +133,7 @@
                                        "skipBuildTimePrice":  50,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  null,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/BratonVandal.png?b43a3",
                                    "url":  "https://wiki.warframe.com/w/Braton_Vandal",
@@ -185,11 +186,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  12.25,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -199,18 +202,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  21,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  35,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
                       "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             12.25,
                                             1.75,
@@ -233,16 +243,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavySlamRadialDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -256,7 +256,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A special version of the standard Braton rifle with a slower Fire Rate but offering higher accuracy and damage values. The Braton Vandal has been customized by the Tenno with a blue-green metallic finish and Lotus branding on the grips.",
+    "id":  "weapon.braton-vandal",
     "release":  {
                     "releaseDate":  "2013-02-15",
                     "introduced":  {

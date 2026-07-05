@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.kreska",
+    "description":  "This unsophisticated Corpus survival tool does what it was designed for: hacking and splitting whatever it strikes.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,6 +75,7 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.69999999,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Kreska.png?fb4c9",
                                    "url":  "https://wiki.warframe.com/w/Kreska",
@@ -131,11 +132,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  380,
-                      "slamRadius":  8,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "zenurik",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  29.999998,
+                                     "heat":  100,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -145,18 +148,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  45,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  100,
+                                     "radiation":  0,
                                      "total":  190,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.4000001,
                       "heavyAttackDamage":  1140,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  570,
+                      "comboDuration":  5,
+                      "slideAttack":  380,
+                      "windUp":  0.69999999,
+                      "slamRadius":  8,
+                      "slamAttack":  570,
                       "damagePerShot":  [
                                             29.999998,
                                             14.999999,
@@ -179,16 +189,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.4000001,
-                      "heavySlamRadialDamage":  570,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "zenurik",
-                      "slideAttack":  380,
-                      "windUp":  0.69999999,
-                      "followThrough":  0.69999999,
-                      "slamAttack":  570,
-                      "heavySlamRadius":  9,
                       "heavySlamAttack":  760
                   },
     "aliases":  [
@@ -202,7 +202,7 @@
     "relationships":  [
 
                       ],
-    "description":  "This unsophisticated Corpus survival tool does what it was designed for: hacking and splitting whatever it strikes.",
+    "id":  "weapon.kreska",
     "release":  {
                     "releaseDate":  "2018-11-08",
                     "introduced":  {

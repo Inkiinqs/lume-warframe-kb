@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.halikar",
+    "description":  "This jet powered Grineer throwing mace always comes back to its master and is even capable of disarming targets.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,6 +75,7 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.69999999,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Halikar.png?99ebd",
                                    "url":  "https://wiki.warframe.com/w/Halikar",
@@ -227,11 +228,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  298,
-                      "slamRadius":  5,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  6,
+                      "stancePolarity":  "naramon",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  14.900001,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -241,18 +244,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  14.899995,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  149,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.2,
                       "heavyAttackDamage":  149,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  447,
+                      "comboDuration":  5,
+                      "slideAttack":  298,
+                      "windUp":  1.2,
+                      "slamRadius":  5,
+                      "slamAttack":  447,
                       "damagePerShot":  [
                                             14.900001,
                                             119.2,
@@ -275,16 +285,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.2,
-                      "heavySlamRadialDamage":  447,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  298,
-                      "windUp":  1.2,
-                      "followThrough":  0.69999999,
-                      "slamAttack":  447,
-                      "heavySlamRadius":  6,
                       "heavySlamAttack":  596
                   },
     "aliases":  [
@@ -298,7 +298,7 @@
     "relationships":  [
 
                       ],
-    "description":  "This jet powered Grineer throwing mace always comes back to its master and is even capable of disarming targets.",
+    "id":  "weapon.halikar",
     "release":  {
                     "releaseDate":  "2014-10-24",
                     "introduced":  {
