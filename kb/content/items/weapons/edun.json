@@ -1,5 +1,5 @@
 {
-    "description":  "Edun befits a dextrous warrior. Heavy Attack to throw Edun. Edun explodes after it is embedded in an enemy.",
+    "id":  "weapon.edun",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,7 +75,6 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
-                      "followThrough":  0.60000002,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Edun.png?09a1a",
                                    "url":  "https://wiki.warframe.com/w/Edun",
@@ -168,12 +167,10 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  440,
                       "blockingAngle":  55,
-                      "heavySlamRadius":  9,
-                      "stancePolarity":  "zenurik",
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  44,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -183,25 +180,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  110,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  220,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  3,
-                      "heavyAttackDamage":  880,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  660,
-                      "comboDuration":  5,
-                      "slideAttack":  440,
-                      "windUp":  1,
-                      "slamRadius":  7,
-                      "slamAttack":  660,
                       "damagePerShot":  [
                                             44,
                                             66,
@@ -224,6 +213,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  3,
+                      "heavyAttackDamage":  880,
+                      "followThrough":  0.60000002,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  660,
+                      "stancePolarity":  "zenurik",
+                      "slideAttack":  440,
+                      "windUp":  1,
+                      "slamRadius":  7,
+                      "slamAttack":  660,
+                      "heavySlamRadius":  9,
                       "heavySlamAttack":  1100
                   },
     "aliases":  [
@@ -237,7 +237,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.edun",
+    "description":  "Edun befits a dextrous warrior. Heavy Attack to throw Edun. Edun explodes after it is embedded in an enemy.",
     "release":  {
                     "releaseDate":  "2023-04-26",
                     "introduced":  {

@@ -1,5 +1,5 @@
 {
-    "description":  "The MK1-Bo is the standard issue staff weapon for all Tenno.",
+    "id":  "weapon.mk1-bo",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -35,7 +35,6 @@
                                        "skipBuildTimePrice":  null,
                                        "consumeOnBuild":  null
                                    },
-                      "followThrough":  0.5,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/MK1-Bo.png?19de3",
                                    "url":  "https://wiki.warframe.com/w/Mk1-Bo",
@@ -91,12 +90,10 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  180,
                       "blockingAngle":  60,
-                      "heavySlamRadius":  7,
-                      "stancePolarity":  "unairu",
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  81,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -106,25 +103,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  90,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  3,
-                      "heavyAttackDamage":  450,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  270,
-                      "comboDuration":  5,
-                      "slideAttack":  90,
-                      "windUp":  0.5,
-                      "slamRadius":  6,
-                      "slamAttack":  270,
                       "damagePerShot":  [
                                             81,
                                             9,
@@ -147,6 +136,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  3,
+                      "heavyAttackDamage":  450,
+                      "followThrough":  0.5,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  270,
+                      "stancePolarity":  "unairu",
+                      "slideAttack":  90,
+                      "windUp":  0.5,
+                      "slamRadius":  6,
+                      "slamAttack":  270,
+                      "heavySlamRadius":  7,
                       "heavySlamAttack":  360
                   },
     "aliases":  [
@@ -160,7 +160,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.mk1-bo",
+    "description":  "The MK1-Bo is the standard issue staff weapon for all Tenno.",
     "release":  {
                     "releaseDate":  "2014-07-18",
                     "introduced":  {
