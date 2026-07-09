@@ -1,5 +1,5 @@
 {
-    "description":  "Deliver a ruthless barrage of Sentient artillery from this instrument of death. Alt-fire splits the weapon apart into 8 separate rifles, expanding its devastation by tracking up to 4 targets at once, while consuming more ammo per shot.",
+    "id":  "weapon.haalvu",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -69,13 +69,12 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  23.4,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -85,26 +84,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  43.200001,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  90,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             23.4,
                                             23.4,
@@ -127,6 +116,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -140,7 +140,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.haalvu",
+    "description":  "Deliver a ruthless barrage of Sentient artillery from this instrument of death. Alt-fire splits the weapon apart into 8 separate rifles, expanding its devastation by tracking up to 4 targets at once, while consuming more ammo per shot.",
     "release":  {
                     "releaseDate":  "0000-00-00",
                     "introduced":  {
@@ -165,7 +165,6 @@
                                  ],
                   "tradable":  false,
                   "disposition":  1,
-                  "magazineSize":  200,
                   "fireRate":  15.000001,
                   "critMultiplier":  2.2,
                   "totalDamage":  90,
@@ -175,8 +174,9 @@
                   "estimatedVaultDate":  null,
                   "trigger":  "Auto",
                   "critChance":  0.22,
-                  "slot":  "primary",
+                  "magazineSize":  200,
                   "masterable":  true,
+                  "slot":  "primary",
                   "weaponClass":  "Rifle",
                   "statusChance":  0.22000003,
                   "vaultDate":  null,
