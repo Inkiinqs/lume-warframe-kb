@@ -1,5 +1,5 @@
 {
-    "description":  "Turn the enemy\u0027s worst nightmare into reality with Follie\u0027s signature rifle. The Enkaus will instantly kill and dissolve inked enemies that are damaged at low health. Shooting inked enemies siphons ink back into the Enkaus, allowing for a constant flow of creative destruction.",
+    "id":  "weapon.enkaus",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -123,36 +123,32 @@
                                           "crit_mult":  1.8,
                                           "status_chance":  32,
                                           "shot_type":  "Hit-Scan",
-                                          "shot_speed":  1,
-                                          "flight":  1,
                                           "damage":  {
                                                          "puncture":  8,
                                                          "corrosive":  20
                                                      }
                                       },
                                       {
-                                          "name":  "Alternate",
+                                          "name":  "Alt-Fire",
                                           "speed":  2,
                                           "crit_chance":  16,
                                           "crit_mult":  1.8,
                                           "status_chance":  32,
                                           "shot_type":  "Projectile",
-                                          "shot_speed":  1,
-                                          "flight":  1,
+                                          "shot_speed":  40,
+                                          "flight":  40,
                                           "damage":  {
                                                          "puncture":  4,
                                                          "corrosive":  12
                                                      }
                                       },
                                       {
-                                          "name":  "Radial",
+                                          "name":  "Alt-Fire Radial Attack",
                                           "speed":  1,
                                           "crit_chance":  16,
                                           "crit_mult":  1.8,
                                           "status_chance":  32,
                                           "shot_type":  "AoE",
-                                          "shot_speed":  1,
-                                          "flight":  1,
                                           "falloff":  {
                                                           "start":  0,
                                                           "end":  8,
@@ -166,20 +162,31 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
-                      "heavyAttackDamage":  null,
-                      "range":  null,
-                      "heavySlamRadialDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamAttack":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  0,
+                                     "gas":  0,
+                                     "corrosive":  20,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  8,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  28,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "slamRadius":  null,
                       "damagePerShot":  [
                                             0,
                                             8,
@@ -202,29 +209,18 @@
                                             0,
                                             0
                                         ],
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  0,
-                                     "heat":  0,
-                                     "gas":  0,
-                                     "corrosive":  20,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  8,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "toxin":  0,
-                                     "puncture":  0,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "radiation":  0,
-                                     "total":  28,
-                                     "healthDrain":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 }
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/LongGuns/TnInkRifle/TnInkRifleWeapon"
@@ -237,7 +233,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.enkaus",
+    "description":  "Turn the enemy\u0027s worst nightmare into reality with Follie\u0027s signature rifle. The Enkaus will instantly kill and dissolve inked enemies that are damaged at low health. Shooting inked enemies siphons ink back into the Enkaus, allowing for a constant flow of creative destruction.",
     "release":  {
                     "releaseDate":  "2026-03-25",
                     "introduced":  {

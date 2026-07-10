@@ -1,5 +1,5 @@
 {
-    "description":  "Counter the dread of battle with a song of praise. Enemies cannot hurt your allies while wounded by Evensong\u0027s arrows. Kills with Evensong empower ally weapons with Multishot.\n\nExperience the true power of Jade\u0027s Ensemble when Evensong, Cantare, and Harmony sing together.",
+    "id":  "weapon.evensong",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -123,7 +123,7 @@
                                           "crit_mult":  2.2,
                                           "status_chance":  38,
                                           "charge_time":  1.2,
-                                          "shot_type":  "Projectile",
+                                          "shot_type":  "AoE",
                                           "falloff":  {
                                                           "start":  0.9,
                                                           "end":  4,
@@ -137,20 +137,31 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
-                      "heavyAttackDamage":  null,
-                      "range":  null,
-                      "heavySlamRadialDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamAttack":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  195,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  455,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  650,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "slamRadius":  null,
                       "damagePerShot":  [
                                             0,
                                             195,
@@ -173,29 +184,18 @@
                                             0,
                                             0
                                         ],
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  0,
-                                     "heat":  0,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  195,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "toxin":  0,
-                                     "puncture":  455,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "radiation":  0,
-                                     "total":  650,
-                                     "healthDrain":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 }
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Bows/TnChoirBow/TnChoirBow"
@@ -208,7 +208,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.evensong",
+    "description":  "Counter the dread of battle with a song of praise. Enemies cannot hurt your allies while wounded by Evensong\u0027s arrows. Kills with Evensong empower ally weapons with Multishot.\n\nExperience the true power of Jade\u0027s Ensemble when Evensong, Cantare, and Harmony sing together.",
     "release":  {
                     "releaseDate":  "2024-06-18",
                     "introduced":  {
