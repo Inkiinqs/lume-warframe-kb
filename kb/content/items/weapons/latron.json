@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.latron",
+    "description":  "The Latron is a highly efficient rifle that performs well at medium and at long range, its accuracy making it a deadly weapon in the hands of skilled marksmen.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -80,6 +80,7 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  null,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Latron.png?ed575",
                                    "url":  "https://wiki.warframe.com/w/Latron",
@@ -107,6 +108,8 @@
                                           "crit_mult":  3,
                                           "status_chance":  24,
                                           "shot_type":  "Projectile",
+                                          "shot_speed":  120,
+                                          "flight":  120,
                                           "damage":  {
                                                          "impact":  50
                                                      }
@@ -132,30 +135,18 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  8.25,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  38.5,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  8.249999,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  55,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
                       "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             8.25,
                                             38.5,
@@ -178,18 +169,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  8.25,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  38.5,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  8.249999,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  55,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Rifle/SemiAutoRifle"
@@ -202,7 +204,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The Latron is a highly efficient rifle that performs well at medium and at long range, its accuracy making it a deadly weapon in the hands of skilled marksmen.",
+    "id":  "weapon.latron",
     "release":  {
                     "releaseDate":  "2012-10-25",
                     "introduced":  {

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.pupacyst",
+    "description":  "A two-pronged attack; the bone-grafted cocoon at the tip of this polearm rends flesh, while the viral mass living within spreads itself into the wounds of each new victim.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,6 +75,7 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.60000002,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Pupacyst.png?dea83",
                                    "url":  "https://wiki.warframe.com/w/Pupacyst",
@@ -132,30 +133,18 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  568,
                       "blockingAngle":  55,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  139,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  0,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  145,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  0,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  284,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamRadius":  8,
+                      "stancePolarity":  "zenurik",
+                      "heavyAttackDamage":  1704,
+                      "range":  2.7,
+                      "heavySlamRadialDamage":  852,
+                      "sentinel":  null,
+                      "heavySlamAttack":  1420,
+                      "comboDuration":  5,
+                      "slideAttack":  568,
+                      "windUp":  0.90000004,
                       "slamRadius":  7,
+                      "slamAttack":  852,
                       "damagePerShot":  [
                                             139,
                                             0,
@@ -178,18 +167,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.7,
-                      "heavyAttackDamage":  1704,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  852,
-                      "stancePolarity":  "zenurik",
-                      "slideAttack":  568,
-                      "windUp":  0.90000004,
-                      "followThrough":  0.60000002,
-                      "slamAttack":  852,
-                      "heavySlamRadius":  8,
-                      "heavySlamAttack":  1420
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  139,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  145,
+                                     "toxin":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  284,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Infested/Melee/Staff/InfStaff/InfStaff"
@@ -202,7 +202,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A two-pronged attack; the bone-grafted cocoon at the tip of this polearm rends flesh, while the viral mass living within spreads itself into the wounds of each new victim.",
+    "id":  "weapon.pupacyst",
     "release":  {
                     "releaseDate":  "2018-10-12",
                     "introduced":  {

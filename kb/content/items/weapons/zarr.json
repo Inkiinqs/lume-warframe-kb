@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.zarr",
+    "description":  "Unload a barrage of explosives or a huge shot of flak from this cannon’s enormous barrel.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,6 +75,7 @@
                                        "skipBuildTimePrice":  40,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  null,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Zarr.png?0bf8f",
                                    "url":  "https://wiki.warframe.com/w/Zarr",
@@ -130,7 +131,7 @@
                                           "crit_chance":  15,
                                           "crit_mult":  2,
                                           "status_chance":  10,
-                                          "shot_type":  "Projectile",
+                                          "shot_type":  "AoE",
                                           "falloff":  {
                                                           "start":  0,
                                                           "end":  3,
@@ -159,30 +160,18 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  25,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  0,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  0,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  200,
-                                     "toxin":  0,
-                                     "blast":  175,
-                                     "void":  0
-                                 },
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
                       "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             25,
                                             0,
@@ -205,18 +194,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  25,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  200,
+                                     "healthDrain":  0,
+                                     "blast":  175,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/LongGuns/GrnCannon/GrnCannonWeapon"
@@ -229,7 +229,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Unload a barrage of explosives or a huge shot of flak from this cannon’s enormous barrel.",
+    "id":  "weapon.zarr",
     "release":  {
                     "releaseDate":  "2016-11-11",
                     "introduced":  {
