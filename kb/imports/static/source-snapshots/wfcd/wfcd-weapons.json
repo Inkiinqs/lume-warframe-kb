@@ -31242,8 +31242,8 @@
         "id":  "weapon.haalvu",
         "slug":  "haalvu",
         "name":  "Haalvu",
-        "summary":  "Deliver a ruthless barrage of Sentient artillery from this instrument of death. Alt-fire splits the weapon apart into 8 separate rifles, expanding its devastation by tracking up to 4 targets at once, while consuming more ammo per shot.",
-        "description":  "Deliver a ruthless barrage of Sentient artillery from this instrument of death. Alt-fire splits the weapon apart into 8 separate rifles, expanding its devastation by tracking up to 4 targets at once, while consuming more ammo per shot.",
+        "summary":  "Deliver a ruthless barrage of Sentient artillery from this instrument of death. Alt-fire splits the weapon apart into separate rifles, expanding its devastation by tracking up to 4 targets at once, while consuming more ammo per shot.",
+        "description":  "Deliver a ruthless barrage of Sentient artillery from this instrument of death. Alt-fire splits the weapon apart into separate rifles, expanding its devastation by tracking up to 4 targets at once, while consuming more ammo per shot.",
         "subCategory":  "primary-rifle",
         "aliases":  [
                         "/Lotus/Weapons/Sentients/SentOctaMiniGun/SentOctaMiniGun"
@@ -31251,18 +31251,18 @@
         "stats":  {
                       "slot":  "primary",
                       "weaponClass":  "Rifle",
-                      "masteryReq":  8,
+                      "masteryReq":  14,
                       "trigger":  "Auto",
-                      "fireRate":  15.000001,
+                      "fireRate":  13.000001,
                       "accuracy":  100,
                       "noise":  "Alarming",
-                      "critChance":  0.22,
-                      "critMultiplier":  2.2,
-                      "statusChance":  0.22000003,
+                      "critChance":  0.25,
+                      "critMultiplier":  2.5,
+                      "statusChance":  0.19,
                       "multishot":  1,
-                      "magazineSize":  200,
-                      "reloadTime":  13.833333,
-                      "totalDamage":  90,
+                      "magazineSize":  150,
+                      "reloadTime":  1,
+                      "totalDamage":  33,
                       "disposition":  1,
                       "polarities":  [
                                          null
@@ -31276,10 +31276,10 @@
         "mechanics":  {
                           "damageTypes":  null,
                           "damage":  {
-                                         "total":  90,
-                                         "impact":  23.4,
-                                         "puncture":  43.200001,
-                                         "slash":  23.4,
+                                         "total":  33,
+                                         "impact":  0,
+                                         "puncture":  0,
+                                         "slash":  0,
                                          "heat":  0,
                                          "cold":  0,
                                          "electricity":  0,
@@ -31291,7 +31291,7 @@
                                          "viral":  0,
                                          "corrosive":  0,
                                          "void":  0,
-                                         "tau":  0,
+                                         "tau":  33,
                                          "cinematic":  0,
                                          "shieldDrain":  0,
                                          "healthDrain":  0,
@@ -31299,9 +31299,6 @@
                                          "true":  0
                                      },
                           "damagePerShot":  [
-                                                23.4,
-                                                23.4,
-                                                43.200001,
                                                 0,
                                                 0,
                                                 0,
@@ -31314,6 +31311,9 @@
                                                 0,
                                                 0,
                                                 0,
+                                                0,
+                                                0,
+                                                33,
                                                 0,
                                                 0,
                                                 0,
@@ -31323,23 +31323,21 @@
                           "attacks":  [
                                           {
                                               "name":  "Normal Attack",
-                                              "speed":  15,
-                                              "crit_chance":  22,
-                                              "crit_mult":  2.2,
-                                              "status_chance":  22,
+                                              "speed":  13,
+                                              "crit_chance":  25,
+                                              "crit_mult":  2.5,
+                                              "status_chance":  19,
                                               "shot_type":  "Hit-Scan",
                                               "damage":  {
-                                                             "impact":  23.4,
-                                                             "slash":  43.2,
-                                                             "puncture":  23.4
+
                                                          }
                                           },
                                           {
                                               "name":  "Alt-Fire",
-                                              "speed":  15,
-                                              "crit_chance":  0,
-                                              "crit_mult":  2,
-                                              "status_chance":  20,
+                                              "speed":  12,
+                                              "crit_chance":  20,
+                                              "crit_mult":  1.8,
+                                              "status_chance":  26,
                                               "shot_type":  "Hit-Scan",
                                               "damage":  {
 
@@ -31394,18 +31392,15 @@
 
                           ],
         "release":  {
-                        "releaseDate":  "0000-00-00",
+                        "releaseDate":  "2026-07-11",
                         "introduced":  {
-                                           "name":  "TBA",
-                                           "url":  "https://wiki.warframe.com/w/Upcoming_Features",
+                                           "name":  "Hotfix 43.0.7",
+                                           "url":  "https://wiki.warframe.com/w/Update_43%23Hotfix_43.0.7",
                                            "aliases":  [
-                                                           "TBA",
-                                                           "999",
-                                                           "999.0",
-                                                           "999.0.0"
+                                                           "43.0.7"
                                                        ],
-                                           "parent":  "0.0",
-                                           "date":  "0000-00-00"
+                                           "parent":  "43.0",
+                                           "date":  "2026-07-11"
                                        }
                     },
         "tags":  [
@@ -146799,7 +146794,24 @@
                                                                   "type":  null,
                                                                   "tradable":  false,
                                                                   "drops":  [
-                                                                                null
+                                                                                {
+                                                                                    "location":  "Ostron (Old Man Suumbaat), Neutral",
+                                                                                    "type":  "Pyrotic Alloy x20 Blueprint",
+                                                                                    "chance":  100,
+                                                                                    "rarity":  "Common"
+                                                                                },
+                                                                                {
+                                                                                    "location":  "Saturn/Variant Team Annihilation (Conclave), Rotation A",
+                                                                                    "type":  "10X Pyrotic Alloy",
+                                                                                    "chance":  3.16,
+                                                                                    "rarity":  "Rare"
+                                                                                },
+                                                                                {
+                                                                                    "location":  "Saturn/Variant Team Annihilation (Conclave), Rotation B",
+                                                                                    "type":  "10X Pyrotic Alloy",
+                                                                                    "chance":  3.16,
+                                                                                    "rarity":  "Rare"
+                                                                                }
                                                                             ]
                                                               },
                                                               {
@@ -146809,7 +146821,24 @@
                                                                   "type":  null,
                                                                   "tradable":  false,
                                                                   "drops":  [
-                                                                                null
+                                                                                {
+                                                                                    "location":  "Ostron (Old Man Suumbaat), Neutral",
+                                                                                    "type":  "Tear Azurite x10 Blueprint",
+                                                                                    "chance":  100,
+                                                                                    "rarity":  "Common"
+                                                                                },
+                                                                                {
+                                                                                    "location":  "Saturn/Variant Team Annihilation (Conclave), Rotation A",
+                                                                                    "type":  "10X Tear Azurite",
+                                                                                    "chance":  3.16,
+                                                                                    "rarity":  "Rare"
+                                                                                },
+                                                                                {
+                                                                                    "location":  "Saturn/Variant Team Annihilation (Conclave), Rotation B",
+                                                                                    "type":  "10X Tear Azurite",
+                                                                                    "chance":  3.16,
+                                                                                    "rarity":  "Rare"
+                                                                                }
                                                                             ]
                                                               }
                                                           ]
@@ -153117,7 +153146,24 @@
                                                                   "type":  null,
                                                                   "tradable":  false,
                                                                   "drops":  [
-                                                                                null
+                                                                                {
+                                                                                    "location":  "Ostron (Old Man Suumbaat), Visitor",
+                                                                                    "type":  "Fersteel Alloy x20 Blueprint",
+                                                                                    "chance":  100,
+                                                                                    "rarity":  "Common"
+                                                                                },
+                                                                                {
+                                                                                    "location":  "Saturn/Variant Team Annihilation (Conclave), Rotation A",
+                                                                                    "type":  "6X Fersteel Alloy",
+                                                                                    "chance":  5.53,
+                                                                                    "rarity":  "Rare"
+                                                                                },
+                                                                                {
+                                                                                    "location":  "Saturn/Variant Team Annihilation (Conclave), Rotation B",
+                                                                                    "type":  "6X Fersteel Alloy",
+                                                                                    "chance":  5.53,
+                                                                                    "rarity":  "Rare"
+                                                                                }
                                                                             ]
                                                               },
                                                               {
@@ -153148,7 +153194,24 @@
                                                                   "type":  null,
                                                                   "tradable":  false,
                                                                   "drops":  [
-                                                                                null
+                                                                                {
+                                                                                    "location":  "Ostron (Old Man Suumbaat), Visitor",
+                                                                                    "type":  "Marquise Veridos x10 Blueprint",
+                                                                                    "chance":  100,
+                                                                                    "rarity":  "Common"
+                                                                                },
+                                                                                {
+                                                                                    "location":  "Saturn/Variant Team Annihilation (Conclave), Rotation A",
+                                                                                    "type":  "6X Marquise Veridos",
+                                                                                    "chance":  5.53,
+                                                                                    "rarity":  "Rare"
+                                                                                },
+                                                                                {
+                                                                                    "location":  "Saturn/Variant Team Annihilation (Conclave), Rotation B",
+                                                                                    "type":  "6X Marquise Veridos",
+                                                                                    "chance":  5.53,
+                                                                                    "rarity":  "Rare"
+                                                                                }
                                                                             ]
                                                               }
                                                           ]
@@ -154734,7 +154797,24 @@
                                                                   "type":  null,
                                                                   "tradable":  false,
                                                                   "drops":  [
-                                                                                null
+                                                                                {
+                                                                                    "location":  "Ostron (Old Man Suumbaat), Visitor",
+                                                                                    "type":  "Fersteel Alloy x20 Blueprint",
+                                                                                    "chance":  100,
+                                                                                    "rarity":  "Common"
+                                                                                },
+                                                                                {
+                                                                                    "location":  "Saturn/Variant Team Annihilation (Conclave), Rotation A",
+                                                                                    "type":  "6X Fersteel Alloy",
+                                                                                    "chance":  5.53,
+                                                                                    "rarity":  "Rare"
+                                                                                },
+                                                                                {
+                                                                                    "location":  "Saturn/Variant Team Annihilation (Conclave), Rotation B",
+                                                                                    "type":  "6X Fersteel Alloy",
+                                                                                    "chance":  5.53,
+                                                                                    "rarity":  "Rare"
+                                                                                }
                                                                             ]
                                                               },
                                                               {
@@ -154846,7 +154926,24 @@
                                                                   "type":  null,
                                                                   "tradable":  false,
                                                                   "drops":  [
-                                                                                null
+                                                                                {
+                                                                                    "location":  "Ostron (Old Man Suumbaat), Visitor",
+                                                                                    "type":  "Marquise Veridos x10 Blueprint",
+                                                                                    "chance":  100,
+                                                                                    "rarity":  "Common"
+                                                                                },
+                                                                                {
+                                                                                    "location":  "Saturn/Variant Team Annihilation (Conclave), Rotation A",
+                                                                                    "type":  "6X Marquise Veridos",
+                                                                                    "chance":  5.53,
+                                                                                    "rarity":  "Rare"
+                                                                                },
+                                                                                {
+                                                                                    "location":  "Saturn/Variant Team Annihilation (Conclave), Rotation B",
+                                                                                    "type":  "6X Marquise Veridos",
+                                                                                    "chance":  5.53,
+                                                                                    "rarity":  "Rare"
+                                                                                }
                                                                             ]
                                                               }
                                                           ]
@@ -186107,7 +186204,60 @@
                                                                   "type":  null,
                                                                   "tradable":  false,
                                                                   "drops":  [
-                                                                                null
+                                                                                {
+                                                                                    "location":  "Ostron (Old Man Suumbaat), Offworlder",
+                                                                                    "type":  "Coprite Alloy x20 Blueprint",
+                                                                                    "chance":  100,
+                                                                                    "rarity":  "Common"
+                                                                                },
+                                                                                {
+                                                                                    "location":  "Narmer Thumper",
+                                                                                    "type":  "Coprite Alloy",
+                                                                                    "chance":  16.68,
+                                                                                    "rarity":  "Rare"
+                                                                                },
+                                                                                {
+                                                                                    "location":  "Tusk Thumper",
+                                                                                    "type":  "Coprite Alloy",
+                                                                                    "chance":  16.68,
+                                                                                    "rarity":  "Rare"
+                                                                                },
+                                                                                {
+                                                                                    "location":  "Narmer Thumper Bull",
+                                                                                    "type":  "Coprite Alloy",
+                                                                                    "chance":  25.02,
+                                                                                    "rarity":  "Rare"
+                                                                                },
+                                                                                {
+                                                                                    "location":  "Tusk Thumper Bull",
+                                                                                    "type":  "Coprite Alloy",
+                                                                                    "chance":  25.02,
+                                                                                    "rarity":  "Rare"
+                                                                                },
+                                                                                {
+                                                                                    "location":  "Saturn/Variant Team Annihilation (Conclave), Rotation A",
+                                                                                    "type":  "10X Coprite Alloy",
+                                                                                    "chance":  3.16,
+                                                                                    "rarity":  "Rare"
+                                                                                },
+                                                                                {
+                                                                                    "location":  "Saturn/Variant Team Annihilation (Conclave), Rotation B",
+                                                                                    "type":  "10X Coprite Alloy",
+                                                                                    "chance":  3.16,
+                                                                                    "rarity":  "Rare"
+                                                                                },
+                                                                                {
+                                                                                    "location":  "Narmer Thumper Doma",
+                                                                                    "type":  "Coprite Alloy",
+                                                                                    "chance":  33.36,
+                                                                                    "rarity":  "Rare"
+                                                                                },
+                                                                                {
+                                                                                    "location":  "Tusk Thumper Doma",
+                                                                                    "type":  "Coprite Alloy",
+                                                                                    "chance":  33.36,
+                                                                                    "rarity":  "Rare"
+                                                                                }
                                                                             ]
                                                               },
                                                               {
@@ -186117,7 +186267,24 @@
                                                                   "type":  null,
                                                                   "tradable":  false,
                                                                   "drops":  [
-                                                                                null
+                                                                                {
+                                                                                    "location":  "Ostron (Old Man Suumbaat), Offworlder",
+                                                                                    "type":  "Esher Devar x10 Blueprint",
+                                                                                    "chance":  100,
+                                                                                    "rarity":  "Common"
+                                                                                },
+                                                                                {
+                                                                                    "location":  "Saturn/Variant Team Annihilation (Conclave), Rotation A",
+                                                                                    "type":  "10X Esher Devar",
+                                                                                    "chance":  3.16,
+                                                                                    "rarity":  "Rare"
+                                                                                },
+                                                                                {
+                                                                                    "location":  "Saturn/Variant Team Annihilation (Conclave), Rotation B",
+                                                                                    "type":  "10X Esher Devar",
+                                                                                    "chance":  3.16,
+                                                                                    "rarity":  "Rare"
+                                                                                }
                                                                             ]
                                                               },
                                                               {
@@ -190206,7 +190373,24 @@
                                                                   "type":  null,
                                                                   "tradable":  false,
                                                                   "drops":  [
-                                                                                null
+                                                                                {
+                                                                                    "location":  "Ostron (Old Man Suumbaat), Visitor",
+                                                                                    "type":  "Fersteel Alloy x20 Blueprint",
+                                                                                    "chance":  100,
+                                                                                    "rarity":  "Common"
+                                                                                },
+                                                                                {
+                                                                                    "location":  "Saturn/Variant Team Annihilation (Conclave), Rotation A",
+                                                                                    "type":  "6X Fersteel Alloy",
+                                                                                    "chance":  5.53,
+                                                                                    "rarity":  "Rare"
+                                                                                },
+                                                                                {
+                                                                                    "location":  "Saturn/Variant Team Annihilation (Conclave), Rotation B",
+                                                                                    "type":  "6X Fersteel Alloy",
+                                                                                    "chance":  5.53,
+                                                                                    "rarity":  "Rare"
+                                                                                }
                                                                             ]
                                                               },
                                                               {
@@ -190237,7 +190421,24 @@
                                                                   "type":  null,
                                                                   "tradable":  false,
                                                                   "drops":  [
-                                                                                null
+                                                                                {
+                                                                                    "location":  "Ostron (Old Man Suumbaat), Visitor",
+                                                                                    "type":  "Marquise Veridos x10 Blueprint",
+                                                                                    "chance":  100,
+                                                                                    "rarity":  "Common"
+                                                                                },
+                                                                                {
+                                                                                    "location":  "Saturn/Variant Team Annihilation (Conclave), Rotation A",
+                                                                                    "type":  "6X Marquise Veridos",
+                                                                                    "chance":  5.53,
+                                                                                    "rarity":  "Rare"
+                                                                                },
+                                                                                {
+                                                                                    "location":  "Saturn/Variant Team Annihilation (Conclave), Rotation B",
+                                                                                    "type":  "6X Marquise Veridos",
+                                                                                    "chance":  5.53,
+                                                                                    "rarity":  "Rare"
+                                                                                }
                                                                             ]
                                                               }
                                                           ]
@@ -196501,7 +196702,24 @@
                                                                   "type":  null,
                                                                   "tradable":  false,
                                                                   "drops":  [
-                                                                                null
+                                                                                {
+                                                                                    "location":  "Ostron (Old Man Suumbaat), Neutral",
+                                                                                    "type":  "Pyrotic Alloy x20 Blueprint",
+                                                                                    "chance":  100,
+                                                                                    "rarity":  "Common"
+                                                                                },
+                                                                                {
+                                                                                    "location":  "Saturn/Variant Team Annihilation (Conclave), Rotation A",
+                                                                                    "type":  "10X Pyrotic Alloy",
+                                                                                    "chance":  3.16,
+                                                                                    "rarity":  "Rare"
+                                                                                },
+                                                                                {
+                                                                                    "location":  "Saturn/Variant Team Annihilation (Conclave), Rotation B",
+                                                                                    "type":  "10X Pyrotic Alloy",
+                                                                                    "chance":  3.16,
+                                                                                    "rarity":  "Rare"
+                                                                                }
                                                                             ]
                                                               },
                                                               {
@@ -196511,7 +196729,24 @@
                                                                   "type":  null,
                                                                   "tradable":  false,
                                                                   "drops":  [
-                                                                                null
+                                                                                {
+                                                                                    "location":  "Ostron (Old Man Suumbaat), Neutral",
+                                                                                    "type":  "Tear Azurite x10 Blueprint",
+                                                                                    "chance":  100,
+                                                                                    "rarity":  "Common"
+                                                                                },
+                                                                                {
+                                                                                    "location":  "Saturn/Variant Team Annihilation (Conclave), Rotation A",
+                                                                                    "type":  "10X Tear Azurite",
+                                                                                    "chance":  3.16,
+                                                                                    "rarity":  "Rare"
+                                                                                },
+                                                                                {
+                                                                                    "location":  "Saturn/Variant Team Annihilation (Conclave), Rotation B",
+                                                                                    "type":  "10X Tear Azurite",
+                                                                                    "chance":  3.16,
+                                                                                    "rarity":  "Rare"
+                                                                                }
                                                                             ]
                                                               }
                                                           ]
@@ -232114,195 +232349,6 @@
                                                        ],
                                            "parent":  "15.0",
                                            "date":  "2014-10-24"
-                                       }
-                    },
-        "tags":  [
-                     "weapon",
-                     "archgun"
-                 ],
-        "notes":  [
-                      "Converted from WFCD archgun static data."
-                  ]
-    },
-    {
-        "id":  "weapon.imperator-vandal",
-        "slug":  "imperator-vandal",
-        "name":  "Imperator Vandal",
-        "summary":  "The Imperator Vandal has been customized by the Tenno with a blue-green metallic finish and Lotus branding on the barrel.",
-        "description":  "The Imperator Vandal has been customized by the Tenno with a blue-green metallic finish and Lotus branding on the barrel.",
-        "subCategory":  "archgun-arch-gun",
-        "aliases":  [
-                        "/Lotus/Types/JadeShadowsPart2Mission/Enemies/Ground/Elites/JS2MCorruptedBossMinigun"
-                    ],
-        "stats":  {
-                      "slot":  "archgun",
-                      "weaponClass":  "Arch-Gun",
-                      "masteryReq":  5,
-                      "trigger":  "Auto",
-                      "fireRate":  25.000002,
-                      "accuracy":  50,
-                      "noise":  "Alarming",
-                      "critChance":  0.28,
-                      "critMultiplier":  2.4000001,
-                      "statusChance":  0.12,
-                      "multishot":  1,
-                      "magazineSize":  300,
-                      "reloadTime":  4.1500001,
-                      "totalDamage":  50,
-                      "disposition":  3,
-                      "polarities":  [
-                                         "madurai"
-                                     ],
-                      "tradable":  true,
-                      "masterable":  true,
-                      "vaulted":  null,
-                      "vaultDate":  null,
-                      "estimatedVaultDate":  null
-                  },
-        "mechanics":  {
-                          "damageTypes":  null,
-                          "damage":  {
-                                         "total":  50,
-                                         "impact":  20,
-                                         "puncture":  12.5,
-                                         "slash":  17.5,
-                                         "heat":  0,
-                                         "cold":  0,
-                                         "electricity":  0,
-                                         "toxin":  0,
-                                         "blast":  0,
-                                         "radiation":  0,
-                                         "gas":  0,
-                                         "magnetic":  0,
-                                         "viral":  0,
-                                         "corrosive":  0,
-                                         "void":  0,
-                                         "tau":  0,
-                                         "cinematic":  0,
-                                         "shieldDrain":  0,
-                                         "healthDrain":  0,
-                                         "energyDrain":  0,
-                                         "true":  0
-                                     },
-                          "damagePerShot":  [
-                                                20,
-                                                17.5,
-                                                12.5,
-                                                0,
-                                                0,
-                                                0,
-                                                0,
-                                                0,
-                                                0,
-                                                0,
-                                                0,
-                                                0,
-                                                0,
-                                                0,
-                                                0,
-                                                0,
-                                                0,
-                                                0,
-                                                0,
-                                                0
-                                            ],
-                          "attacks":  [
-                                          {
-                                              "name":  "Normal Attack",
-                                              "speed":  25,
-                                              "crit_chance":  28,
-                                              "crit_mult":  2.4,
-                                              "status_chance":  12,
-                                              "shot_type":  "Projectile",
-                                              "shot_speed":  220,
-                                              "flight":  220,
-                                              "falloff":  {
-                                                              "start":  1500,
-                                                              "end":  3000,
-                                                              "reduction":  0.5
-                                                          },
-                                              "damage":  {
-                                                             "impact":  20,
-                                                             "slash":  12.5,
-                                                             "puncture":  17.5
-                                                         }
-                                          }
-                                      ],
-                          "stancePolarity":  null,
-                          "blockingAngle":  null,
-                          "comboDuration":  null,
-                          "followThrough":  null,
-                          "range":  null,
-                          "slamAttack":  null,
-                          "slamRadialDamage":  null,
-                          "slamRadius":  null,
-                          "slideAttack":  null,
-                          "heavyAttackDamage":  null,
-                          "heavySlamAttack":  null,
-                          "heavySlamRadialDamage":  null,
-                          "heavySlamRadius":  null,
-                          "windUp":  null,
-                          "sentinel":  null,
-                          "crafting":  {
-                                           "buildPrice":  null,
-                                           "buildTime":  null,
-                                           "skipBuildTimePrice":  null,
-                                           "buildQuantity":  null,
-                                           "consumeOnBuild":  null,
-                                           "components":  [
-                                                              {
-                                                                  "name":  null,
-                                                                  "uniqueName":  null,
-                                                                  "itemCount":  null,
-                                                                  "type":  null,
-                                                                  "tradable":  null,
-                                                                  "drops":  [
-                                                                                null
-                                                                            ]
-                                                              }
-                                                          ]
-                                       },
-                          "drops":  [
-                                        {
-                                            "location":  "Fomorian Sabotage",
-                                            "type":  "Imperator Vandal Barrel",
-                                            "chance":  10,
-                                            "rarity":  "Uncommon"
-                                        },
-                                        {
-                                            "location":  "Fomorian Sabotage",
-                                            "type":  "Imperator Vandal Receiver",
-                                            "chance":  10,
-                                            "rarity":  "Uncommon"
-                                        },
-                                        {
-                                            "location":  "Fomorian Sabotage",
-                                            "type":  "Imperator Vandal Blueprint",
-                                            "chance":  10,
-                                            "rarity":  "Uncommon"
-                                        }
-                                    ],
-                          "wiki":  {
-                                       "available":  true,
-                                       "url":  "https://wiki.warframe.com/w/Imperator_Vandal",
-                                       "thumbnail":  "https://wiki.warframe.com/images/ImperatorVandal.png?a8014",
-                                       "imageName":  "ImperatorVandal.png"
-                                   }
-                      },
-        "relationships":  [
-
-                          ],
-        "release":  {
-                        "releaseDate":  "2014-12-19",
-                        "introduced":  {
-                                           "name":  "Update 15.8",
-                                           "url":  "https://wiki.warframe.com/w/Update_15%23Update_15.8",
-                                           "aliases":  [
-                                                           "15.8.0",
-                                                           "15.8"
-                                                       ],
-                                           "parent":  "15.8",
-                                           "date":  "2014-12-19"
                                        }
                     },
         "tags":  [

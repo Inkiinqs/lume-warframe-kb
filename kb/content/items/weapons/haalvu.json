@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.haalvu",
+    "description":  "Deliver a ruthless barrage of Sentient artillery from this instrument of death. Alt-fire splits the weapon apart into separate rifles, expanding its devastation by tracking up to 4 targets at once, while consuming more ammo per shot.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -35,6 +35,7 @@
                                        "skipBuildTimePrice":  null,
                                        "consumeOnBuild":  null
                                    },
+                      "followThrough":  null,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Haalvu.png?c2ddd",
                                    "url":  "https://wiki.warframe.com/w/Haalvu",
@@ -44,23 +45,21 @@
                       "attacks":  [
                                       {
                                           "name":  "Normal Attack",
-                                          "speed":  15,
-                                          "crit_chance":  22,
-                                          "crit_mult":  2.2,
-                                          "status_chance":  22,
+                                          "speed":  13,
+                                          "crit_chance":  25,
+                                          "crit_mult":  2.5,
+                                          "status_chance":  19,
                                           "shot_type":  "Hit-Scan",
                                           "damage":  {
-                                                         "impact":  23.4,
-                                                         "slash":  43.2,
-                                                         "puncture":  23.4
+
                                                      }
                                       },
                                       {
                                           "name":  "Alt-Fire",
-                                          "speed":  15,
-                                          "crit_chance":  0,
-                                          "crit_mult":  2,
-                                          "status_chance":  20,
+                                          "speed":  12,
+                                          "crit_chance":  20,
+                                          "crit_mult":  1.8,
+                                          "status_chance":  26,
                                           "shot_type":  "Hit-Scan",
                                           "damage":  {
 
@@ -69,36 +68,42 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
-                                     "tau":  0,
-                                     "impact":  23.4,
-                                     "heat":  0,
+                                     "tau":  33,
+                                     "impact":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
-                                     "slash":  23.4,
+                                     "slash":  0,
                                      "magnetic":  0,
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
-                                     "puncture":  43.200001,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
-                                     "total":  90,
-                                     "healthDrain":  0,
+                                     "heat":  0,
+                                     "total":  33,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
                       "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
-                                            23.4,
-                                            23.4,
-                                            43.200001,
                                             0,
                                             0,
                                             0,
@@ -111,22 +116,15 @@
                                             0,
                                             0,
                                             0,
+                                            0,
+                                            0,
+                                            33,
                                             0,
                                             0,
                                             0,
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavySlamRadialDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -140,23 +138,20 @@
     "relationships":  [
 
                       ],
-    "description":  "Deliver a ruthless barrage of Sentient artillery from this instrument of death. Alt-fire splits the weapon apart into 8 separate rifles, expanding its devastation by tracking up to 4 targets at once, while consuming more ammo per shot.",
+    "id":  "weapon.haalvu",
     "release":  {
-                    "releaseDate":  "0000-00-00",
+                    "releaseDate":  "2026-07-11",
                     "introduced":  {
-                                       "date":  "0000-00-00",
-                                       "parent":  "0.0",
-                                       "url":  "https://wiki.warframe.com/w/Upcoming_Features",
-                                       "name":  "TBA",
+                                       "date":  "2026-07-11",
+                                       "parent":  "43.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_43%23Hotfix_43.0.7",
+                                       "name":  "Hotfix 43.0.7",
                                        "aliases":  [
-                                                       "TBA",
-                                                       "999",
-                                                       "999.0",
-                                                       "999.0.0"
+                                                       "43.0.7"
                                                    ]
                                    }
                 },
-    "summary":  "Deliver a ruthless barrage of Sentient artillery from this instrument of death. Alt-fire splits the weapon apart into 8 separate rifles, expanding its devastation by tracking up to 4 targets at once, while consuming more ammo per shot.",
+    "summary":  "Deliver a ruthless barrage of Sentient artillery from this instrument of death. Alt-fire splits the weapon apart into separate rifles, expanding its devastation by tracking up to 4 targets at once, while consuming more ammo per shot.",
     "stats":  {
                   "accuracy":  100,
                   "noise":  "Alarming",
@@ -165,20 +160,20 @@
                                  ],
                   "tradable":  false,
                   "disposition":  1,
-                  "fireRate":  15.000001,
-                  "critMultiplier":  2.2,
-                  "totalDamage":  90,
+                  "fireRate":  13.000001,
+                  "critMultiplier":  2.5,
+                  "totalDamage":  33,
                   "vaulted":  null,
-                  "masteryReq":  8,
-                  "reloadTime":  13.833333,
+                  "masteryReq":  14,
+                  "reloadTime":  1,
                   "estimatedVaultDate":  null,
                   "trigger":  "Auto",
-                  "critChance":  0.22,
-                  "magazineSize":  200,
+                  "critChance":  0.25,
+                  "magazineSize":  150,
                   "masterable":  true,
                   "slot":  "primary",
                   "weaponClass":  "Rifle",
-                  "statusChance":  0.22000003,
+                  "statusChance":  0.19,
                   "vaultDate":  null,
                   "multishot":  1
               }
