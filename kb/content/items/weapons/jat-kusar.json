@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.jat-kusar",
+    "description":  "Overwhelm hostiles with this jet-powered sickle and razor-chain weapon. Charged strikes ignite an explosive blast at range.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,6 +75,7 @@
                                        "skipBuildTimePrice":  30,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.5,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/JatKusar.png?69aa5",
                                    "url":  "https://wiki.warframe.com/w/Jat_Kusar",
@@ -131,11 +132,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  436,
-                      "slamRadius":  7,
                       "blockingAngle":  60,
+                      "heavySlamRadius":  8,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  79,
+                                     "heat":  81,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -145,18 +148,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  45,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  81,
+                                     "radiation":  0,
                                      "total":  218,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.4000001,
                       "heavyAttackDamage":  872,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  654,
+                      "comboDuration":  5,
+                      "slideAttack":  218,
+                      "windUp":  0.40000001,
+                      "slamRadius":  7,
+                      "slamAttack":  654,
                       "damagePerShot":  [
                                             79,
                                             13,
@@ -179,16 +189,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.4000001,
-                      "heavySlamRadialDamage":  654,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  218,
-                      "windUp":  0.40000001,
-                      "followThrough":  0.5,
-                      "slamAttack":  654,
-                      "heavySlamRadius":  8,
                       "heavySlamAttack":  872
                   },
     "aliases":  [
@@ -202,7 +202,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Overwhelm hostiles with this jet-powered sickle and razor-chain weapon. Charged strikes ignite an explosive blast at range.",
+    "id":  "weapon.jat-kusar",
     "release":  {
                     "releaseDate":  "2017-07-26",
                     "introduced":  {

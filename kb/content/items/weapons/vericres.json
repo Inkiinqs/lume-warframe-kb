@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.vericres",
+    "description":  "Unfurl this warfan like a rapidly waxing moon.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -35,6 +35,7 @@
                                        "skipBuildTimePrice":  null,
                                        "consumeOnBuild":  null
                                    },
+                      "followThrough":  0.69999999,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Vericres.png?bcc94",
                                    "url":  "https://wiki.warframe.com/w/Vericres",
@@ -90,11 +91,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  360,
-                      "slamRadius":  6,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  8,
+                      "stancePolarity":  "naramon",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  21.6,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -104,18 +107,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  129.60001,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  180,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.8,
                       "heavyAttackDamage":  720,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  540,
+                      "comboDuration":  5,
+                      "slideAttack":  180,
+                      "windUp":  0.5,
+                      "slamRadius":  6,
+                      "slamAttack":  360,
                       "damagePerShot":  [
                                             21.6,
                                             28.799999,
@@ -138,16 +148,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.8,
-                      "heavySlamRadialDamage":  540,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  180,
-                      "windUp":  0.5,
-                      "followThrough":  0.69999999,
-                      "slamAttack":  360,
-                      "heavySlamRadius":  8,
                       "heavySlamAttack":  180
                   },
     "aliases":  [
@@ -161,7 +161,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Unfurl this warfan like a rapidly waxing moon.",
+    "id":  "weapon.vericres",
     "release":  {
                     "releaseDate":  "2022-07-14",
                     "introduced":  {

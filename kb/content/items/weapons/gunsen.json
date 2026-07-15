@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.gunsen",
+    "description":  "Lacerate attackers with two razor sharp warfans.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,6 +75,7 @@
                                        "skipBuildTimePrice":  25,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.69999999,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Gunsen.png?31e8a",
                                    "url":  "https://wiki.warframe.com/w/Gunsen",
@@ -130,11 +131,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  320,
-                      "slamRadius":  5,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  6,
+                      "stancePolarity":  "naramon",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  12.799999,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -144,18 +147,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  128,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  160,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.7,
                       "heavyAttackDamage":  640,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  480,
+                      "comboDuration":  5,
+                      "slideAttack":  160,
+                      "windUp":  0.5,
+                      "slamRadius":  5,
+                      "slamAttack":  320,
                       "damagePerShot":  [
                                             12.799999,
                                             19.199999,
@@ -178,16 +188,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.7,
-                      "heavySlamRadialDamage":  480,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  160,
-                      "windUp":  0.5,
-                      "followThrough":  0.69999999,
-                      "slamAttack":  320,
-                      "heavySlamRadius":  6,
                       "heavySlamAttack":  160
                   },
     "aliases":  [
@@ -201,7 +201,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Lacerate attackers with two razor sharp warfans.",
+    "id":  "weapon.gunsen",
     "release":  {
                     "releaseDate":  "2017-10-12",
                     "introduced":  {

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.tak-lug",
+    "description":  "Take active defense to new heights with this deadly flying shield and brutal blade. Throw the shield with a unique Heavy Attack, inflicting Blast Status Effects and dealing damage in a wide area.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -169,6 +169,7 @@
                                        "skipBuildTimePrice":  50,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.60000002,
                       "wiki":  {
                                    "thumbnail":  null,
                                    "url":  "https://wiki.warframe.com/w/Tak_%26_Lug",
@@ -223,11 +224,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  394,
-                      "slamRadius":  7,
                       "blockingAngle":  70,
+                      "heavySlamRadius":  8,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  39.400002,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -237,18 +240,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  157.60001,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  197,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
                       "heavyAttackDamage":  2364,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  591,
+                      "comboDuration":  5,
+                      "slideAttack":  197,
+                      "windUp":  0.69999999,
+                      "slamRadius":  7,
+                      "slamAttack":  591,
                       "damagePerShot":  [
                                             39.400002,
                                             0,
@@ -271,16 +281,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "heavySlamRadialDamage":  591,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  197,
-                      "windUp":  0.69999999,
-                      "followThrough":  0.60000002,
-                      "slamAttack":  591,
-                      "heavySlamRadius":  8,
                       "heavySlamAttack":  788
                   },
     "aliases":  [
@@ -294,7 +294,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Take active defense to new heights with this deadly flying shield and brutal blade. Throw the shield with a unique Heavy Attack, inflicting Blast Status Effects and dealing damage in a wide area.",
+    "id":  "weapon.tak-lug",
     "release":  {
                     "releaseDate":  "2025-04-17",
                     "introduced":  {

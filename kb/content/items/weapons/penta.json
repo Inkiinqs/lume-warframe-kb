@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.penta",
+    "description":  "The Penta Launcher fires up to five grenades that can be remotely triggered at just the right moment.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -146,6 +146,7 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  null,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Penta.png?648ff",
                                    "url":  "https://wiki.warframe.com/w/Penta",
@@ -185,11 +186,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  75,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -199,18 +202,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  425,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  350,
                                      "void":  0
                                  },
+                      "range":  null,
                       "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             75,
                                             0,
@@ -233,16 +243,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavySlamRadialDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -256,7 +256,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The Penta Launcher fires up to five grenades that can be remotely triggered at just the right moment.",
+    "id":  "weapon.penta",
     "release":  {
                     "releaseDate":  "2013-12-12",
                     "introduced":  {

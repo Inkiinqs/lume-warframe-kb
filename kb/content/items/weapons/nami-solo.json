@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.nami-solo",
+    "description":  "Evoking the oceans of earth, this exquisite cutlass is a deadly work of art.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,6 +75,7 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.69999999,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/NamiSolo.png?9b269",
                                    "url":  "https://wiki.warframe.com/w/Nami_Solo",
@@ -130,11 +131,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  344,
-                      "slamRadius":  8,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "zenurik",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  25.800001,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -144,18 +147,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  120.4,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  172,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
                       "heavyAttackDamage":  1032,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  516,
+                      "comboDuration":  5,
+                      "slideAttack":  344,
+                      "windUp":  0.69999999,
+                      "slamRadius":  8,
+                      "slamAttack":  516,
                       "damagePerShot":  [
                                             25.800001,
                                             25.800001,
@@ -178,16 +188,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "heavySlamRadialDamage":  516,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "zenurik",
-                      "slideAttack":  344,
-                      "windUp":  0.69999999,
-                      "followThrough":  0.69999999,
-                      "slamAttack":  516,
-                      "heavySlamRadius":  9,
                       "heavySlamAttack":  688
                   },
     "aliases":  [
@@ -201,7 +201,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Evoking the oceans of earth, this exquisite cutlass is a deadly work of art.",
+    "id":  "weapon.nami-solo",
     "release":  {
                     "releaseDate":  "2014-05-28",
                     "introduced":  {
