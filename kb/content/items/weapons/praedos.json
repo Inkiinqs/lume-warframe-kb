@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.praedos",
+    "description":  "Orokin elites admired farmers in conquered regions, because they had learned to fight with modified farming tools despite being forbidden to own weapons. For their voyage, the Zariman were presented with Praedos in recognition of Zariman tenacity. The Void reinforces the strength of the spirited individual by fortifying the Praedos.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -80,6 +80,7 @@
                                        "skipBuildTimePrice":  25,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.60000002,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Praedos.png?217dc",
                                    "url":  "https://wiki.warframe.com/w/Praedos",
@@ -135,11 +136,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  400,
-                      "slamRadius":  8,
                       "blockingAngle":  60,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  20,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -149,18 +152,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  160,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  200,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
                       "heavyAttackDamage":  800,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  600,
+                      "comboDuration":  5,
+                      "slideAttack":  400,
+                      "windUp":  0.69999999,
+                      "slamRadius":  8,
+                      "slamAttack":  400,
                       "damagePerShot":  [
                                             20,
                                             20,
@@ -183,16 +193,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "heavySlamRadialDamage":  600,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  400,
-                      "windUp":  0.69999999,
-                      "followThrough":  0.60000002,
-                      "slamAttack":  400,
-                      "heavySlamRadius":  9,
                       "heavySlamAttack":  800
                   },
     "aliases":  [
@@ -206,7 +206,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Orokin elites admired farmers in conquered regions, because they had learned to fight with modified farming tools despite being forbidden to own weapons. For their voyage, the Zariman were presented with Praedos in recognition of Zariman tenacity. The Void reinforces the strength of the spirited individual by fortifying the Praedos.",
+    "id":  "weapon.praedos",
     "release":  {
                     "releaseDate":  "2022-04-27",
                     "introduced":  {

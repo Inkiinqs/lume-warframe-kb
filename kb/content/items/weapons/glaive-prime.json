@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.glaive-prime",
+    "description":  "The Glaive Prime is a deadly and beautiful weapon from the Orokin era. The blades are as effective in close quarters as they are when thrown at distant enemies.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -314,6 +314,7 @@
                                        "skipBuildTimePrice":  50,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.69999999,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/GlaivePrime.png?fd8a2",
                                    "url":  "https://wiki.warframe.com/w/Glaive_Prime",
@@ -466,11 +467,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  328,
-                      "slamRadius":  5,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  6,
+                      "stancePolarity":  "naramon",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  24.6,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -480,18 +483,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  114.8,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  164,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.25,
                       "heavyAttackDamage":  164,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  492,
+                      "comboDuration":  5,
+                      "slideAttack":  328,
+                      "windUp":  1.2,
+                      "slamRadius":  5,
+                      "slamAttack":  492,
                       "damagePerShot":  [
                                             24.6,
                                             24.6,
@@ -514,16 +524,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.25,
-                      "heavySlamRadialDamage":  492,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  328,
-                      "windUp":  1.2,
-                      "followThrough":  0.69999999,
-                      "slamAttack":  492,
-                      "heavySlamRadius":  6,
                       "heavySlamAttack":  656
                   },
     "aliases":  [
@@ -537,7 +537,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The Glaive Prime is a deadly and beautiful weapon from the Orokin era. The blades are as effective in close quarters as they are when thrown at distant enemies.",
+    "id":  "weapon.glaive-prime",
     "release":  {
                     "releaseDate":  "2013-11-20",
                     "introduced":  {
