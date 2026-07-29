@@ -1,5 +1,5 @@
 {
-    "description":  "This short blade weapon has limited range but comes out fast and can inflict fire damage.",
+    "id":  "weapon.heat-dagger",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,7 +75,6 @@
                                        "skipBuildTimePrice":  25,
                                        "consumeOnBuild":  true
                                    },
-                      "followThrough":  0.89999998,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/HeatDagger.png?179da",
                                    "url":  "https://wiki.warframe.com/w/Heat_Dagger",
@@ -133,12 +132,10 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  416,
                       "blockingAngle":  45,
-                      "heavySlamRadius":  6,
-                      "stancePolarity":  "madurai",
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  14.000001,
-                                     "heat":  62,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -148,25 +145,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  56.000004,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  62,
                                      "total":  208,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  1.75,
-                      "heavyAttackDamage":  416,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  624,
-                      "comboDuration":  5,
-                      "slideAttack":  416,
-                      "windUp":  0.40000001,
-                      "slamRadius":  5,
-                      "slamAttack":  416,
                       "damagePerShot":  [
                                             14.000001,
                                             76,
@@ -189,6 +178,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  1.75,
+                      "heavyAttackDamage":  416,
+                      "followThrough":  0.89999998,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  624,
+                      "stancePolarity":  "madurai",
+                      "slideAttack":  416,
+                      "windUp":  0.40000001,
+                      "slamRadius":  5,
+                      "slamAttack":  416,
+                      "heavySlamRadius":  6,
                       "heavySlamAttack":  832
                   },
     "aliases":  [
@@ -202,7 +202,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.heat-dagger",
+    "description":  "This short blade weapon has limited range but comes out fast and can inflict fire damage.",
     "release":  {
                     "releaseDate":  "2012-12-18",
                     "introduced":  {
