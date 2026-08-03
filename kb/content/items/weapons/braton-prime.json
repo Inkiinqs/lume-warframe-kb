@@ -1,5 +1,5 @@
 {
-    "description":  "A classic Orokin weapon, Braton Prime features modified damage levels and a larger magazine over the standard model.",
+    "id":  "weapon.braton-prime",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -4607,7 +4607,6 @@
                                        "skipBuildTimePrice":  50,
                                        "consumeOnBuild":  true
                                    },
-                      "followThrough":  null,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/BratonPrime.png?c49e4",
                                    "url":  "https://wiki.warframe.com/w/Braton_Prime",
@@ -4661,18 +4660,30 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
-                      "heavyAttackDamage":  null,
-                      "range":  null,
-                      "heavySlamRadialDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamAttack":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  1.75,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  12.25,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  21,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  35,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "followThrough":  null,
                       "damagePerShot":  [
                                             1.75,
                                             12.25,
@@ -4695,29 +4706,18 @@
                                             0,
                                             0
                                         ],
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  1.75,
-                                     "heat":  0,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  12.25,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "toxin":  0,
-                                     "puncture":  21,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "radiation":  0,
-                                     "total":  35,
-                                     "healthDrain":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 }
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Rifle/BratonPrime"
@@ -4730,7 +4730,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.braton-prime",
+    "description":  "A classic Orokin weapon, Braton Prime features modified damage levels and a larger magazine over the standard model.",
     "release":  {
                     "releaseDate":  "2013-07-13",
                     "introduced":  {

@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.wrath",
+    "description":  "The wrath of one who knows revenge is all about timing. Orion\u0027s signature Heavy Scythe.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -80,6 +80,7 @@
                                        "skipBuildTimePrice":  50,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.40000001,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Wrath.png?ff3cf",
                                    "url":  "https://wiki.warframe.com/w/Wrath",
@@ -135,30 +136,18 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  440,
                       "blockingAngle":  65,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  0,
-                                     "heat":  0,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  44,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "toxin":  0,
-                                     "puncture":  176,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "radiation":  0,
-                                     "total":  220,
-                                     "healthDrain":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "madurai",
+                      "heavyAttackDamage":  3960,
+                      "range":  2.8,
+                      "heavySlamRadialDamage":  660,
+                      "sentinel":  null,
+                      "heavySlamAttack":  1100,
+                      "comboDuration":  5,
+                      "slideAttack":  440,
+                      "windUp":  1,
                       "slamRadius":  8,
+                      "slamAttack":  660,
                       "damagePerShot":  [
                                             0,
                                             44,
@@ -181,18 +170,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.8,
-                      "heavyAttackDamage":  3960,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  660,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  440,
-                      "windUp":  1,
-                      "followThrough":  0.40000001,
-                      "slamAttack":  660,
-                      "heavySlamRadius":  9,
-                      "heavySlamAttack":  1100
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  44,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  176,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  220,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/HeavyScythe/TnOrionSiriusScythe/TnOrionScytheWeapon"
@@ -205,7 +205,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The wrath of one who knows revenge is all about timing. Orion\u0027s signature Heavy Scythe.",
+    "id":  "weapon.wrath",
     "release":  {
                     "releaseDate":  "2026-06-17",
                     "introduced":  {
