@@ -1,5 +1,5 @@
 {
-    "description":  "The sword the fabled Orokin executioner Nihil used to glass the condemned. Swing while Aim Gliding to glass enemies. A Ground Slam will smash nearby glassed foes, while sending forward a narrow shockwave to shatter distant ones. A Heavy Slam sends forth a wider shockwave with greater force.",
+    "id":  "weapon.vitrica",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -80,7 +80,6 @@
                                        "skipBuildTimePrice":  25,
                                        "consumeOnBuild":  true
                                    },
-                      "followThrough":  0.60000002,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Vitrica.png?54002",
                                    "url":  "https://wiki.warframe.com/w/Vitrica",
@@ -155,12 +154,10 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  666,
                       "blockingAngle":  60,
-                      "heavySlamRadius":  4,
-                      "stancePolarity":  "vazarin",
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  99.900002,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -170,25 +167,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  133.2,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  333,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  2.9000001,
-                      "heavyAttackDamage":  1998,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  999,
-                      "comboDuration":  10,
-                      "slideAttack":  666,
-                      "windUp":  1.1,
-                      "slamRadius":  4,
-                      "slamAttack":  999,
                       "damagePerShot":  [
                                             99.900002,
                                             99.900002,
@@ -211,6 +200,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  2.9000001,
+                      "heavyAttackDamage":  1998,
+                      "followThrough":  0.60000002,
+                      "comboDuration":  10,
+                      "heavySlamRadialDamage":  999,
+                      "stancePolarity":  "vazarin",
+                      "slideAttack":  666,
+                      "windUp":  1.1,
+                      "slamRadius":  4,
+                      "slamAttack":  999,
+                      "heavySlamRadius":  4,
                       "heavySlamAttack":  1665
                   },
     "aliases":  [
@@ -224,7 +224,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.vitrica",
+    "description":  "The sword the fabled Orokin executioner Nihil used to glass the condemned. Swing while Aim Gliding to glass enemies. A Ground Slam will smash nearby glassed foes, while sending forward a narrow shockwave to shatter distant ones. A Heavy Slam sends forth a wider shockwave with greater force.",
     "release":  {
                     "releaseDate":  "2020-10-27",
                     "introduced":  {
