@@ -1,26 +1,22 @@
 {
-    "id":  "mod.primed-polar-magazine",
-    "name":  "Primed Polar Magazine",
-    "category":  "mod",
-    "subCategory":  "archgun",
-    "aliases":  [
-                    "/Lotus/Upgrades/Mods/Archwing/Rifle/Expert/ArchwingWeaponFreezeDamageModExpert"
-                ],
-    "summary":  "+187% \u003cDT_FREEZE_COLOR\u003eCold",
     "description":  "+187% \u003cDT_FREEZE_COLOR\u003eCold",
-    "stats":  {
-                  "polarity":  "vazarin",
-                  "rarity":  "Legendary",
-                  "baseDrain":  4,
-                  "fusionLimit":  10,
-                  "compatName":  "Archgun",
-                  "tradable":  true,
-                  "transmutable":  null,
-                  "masterable":  false,
-                  "isPrime":  true
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-mods.json"
+                    }
+                ],
+    "name":  "Primed Polar Magazine",
+    "subCategory":  "archgun",
     "mechanics":  {
+                      "topRankStats":  [
+                                           "+187% \u003cDT_FREEZE_COLOR\u003eCold"
+                                       ],
                       "type":  "Arch-Gun Mod",
+                      "drops":  [
+                                    null
+                                ],
+                      "isAugment":  null,
                       "levelStats":  [
                                          "+17% \u003cDT_FREEZE_COLOR\u003eCold",
                                          "+34% \u003cDT_FREEZE_COLOR\u003eCold",
@@ -34,38 +30,42 @@
                                          "+170% \u003cDT_FREEZE_COLOR\u003eCold",
                                          "+187% \u003cDT_FREEZE_COLOR\u003eCold"
                                      ],
-                      "topRankStats":  [
-                                           "+187% \u003cDT_FREEZE_COLOR\u003eCold"
-                                       ],
-                      "isAugment":  null,
-                      "drops":  [
-                                    null
-                                ],
                       "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
                                    "thumbnail":  null,
-                                   "imageName":  "ArchwingWeaponFreezeDamageModRifle.jpg"
+                                   "url":  null,
+                                   "imageName":  "ArchwingWeaponFreezeDamageModRifle.jpg",
+                                   "available":  null
                                }
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-                    "releaseDate":  null,
-                    "introduced":  null
-                },
-    "tags":  [
-                 "mod"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Mods.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-mods.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Upgrades/Mods/Archwing/Rifle/Expert/ArchwingWeaponFreezeDamageModExpert"
+                ],
+    "tags":  [
+                 "mod"
+             ],
+    "category":  "mod",
+    "relationships":  [
+
+                      ],
+    "id":  "mod.primed-polar-magazine",
+    "release":  {
+                    "releaseDate":  null,
+                    "introduced":  null
+                },
+    "summary":  "+187% \u003cDT_FREEZE_COLOR\u003eCold",
+    "stats":  {
+                  "baseDrain":  4,
+                  "tradable":  true,
+                  "compatName":  "Archgun",
+                  "masterable":  false,
+                  "polarity":  "vazarin",
+                  "fusionLimit":  10,
+                  "isPrime":  true,
+                  "rarity":  "Legendary",
+                  "transmutable":  null
+              }
 }
