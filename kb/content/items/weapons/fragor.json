@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.fragor",
+    "description":  "A large two-handed hammer, the Fragor requires great strength to wield, but impacts with enough force to send groups of enemies tumbling.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -80,6 +80,7 @@
                                        "skipBuildTimePrice":  25,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.40000001,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Fragor.png?36f9b",
                                    "url":  "https://wiki.warframe.com/w/Fragor",
@@ -135,11 +136,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  400,
-                      "slamRadius":  9,
                       "blockingAngle":  50,
+                      "heavySlamRadius":  10,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  140,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -149,18 +152,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  29.999996,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  200,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
                       "heavyAttackDamage":  1200,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  600,
+                      "comboDuration":  5,
+                      "slideAttack":  400,
+                      "windUp":  1.2,
+                      "slamRadius":  9,
+                      "slamAttack":  600,
                       "damagePerShot":  [
                                             140,
                                             30.000002,
@@ -183,16 +193,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "heavySlamRadialDamage":  600,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  400,
-                      "windUp":  1.2,
-                      "followThrough":  0.40000001,
-                      "slamAttack":  600,
-                      "heavySlamRadius":  10,
                       "heavySlamAttack":  1000
                   },
     "aliases":  [
@@ -206,7 +206,7 @@
     "relationships":  [
 
                       ],
-    "description":  "A large two-handed hammer, the Fragor requires great strength to wield, but impacts with enough force to send groups of enemies tumbling.",
+    "id":  "weapon.fragor",
     "release":  {
                     "releaseDate":  "2013-01-14",
                     "introduced":  {

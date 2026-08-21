@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.innodem",
+    "description":  "In the early Orokin Empire, elites wore Innodem as a symbolic reminder to defend the defenseless. The tradition fell out of style, but nostalgic elites acknowledged the sentiment in the form of a gift. The Void amplifies that ideal. Void energy strengthens Innodem gliding aerial attacks and the wielder is increasingly resilient as they perform finisher attacks in Incarnon Form.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -80,6 +80,7 @@
                                        "skipBuildTimePrice":  25,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.89999998,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Innodem.png?24109",
                                    "url":  "https://wiki.warframe.com/w/Innodem",
@@ -153,11 +154,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  720,
-                      "slamRadius":  5,
                       "blockingAngle":  50,
+                      "heavySlamRadius":  7,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  36,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -167,18 +170,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  180,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  360,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.8,
                       "heavyAttackDamage":  720,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  1080,
+                      "comboDuration":  5,
+                      "slideAttack":  720,
+                      "windUp":  0.40000001,
+                      "slamRadius":  5,
+                      "slamAttack":  720,
                       "damagePerShot":  [
                                             36,
                                             144,
@@ -201,16 +211,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.8,
-                      "heavySlamRadialDamage":  1080,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  720,
-                      "windUp":  0.40000001,
-                      "followThrough":  0.89999998,
-                      "slamAttack":  720,
-                      "heavySlamRadius":  7,
                       "heavySlamAttack":  1440
                   },
     "aliases":  [
@@ -224,7 +224,7 @@
     "relationships":  [
 
                       ],
-    "description":  "In the early Orokin Empire, elites wore Innodem as a symbolic reminder to defend the defenseless. The tradition fell out of style, but nostalgic elites acknowledged the sentiment in the form of a gift. The Void amplifies that ideal. Void energy strengthens Innodem gliding aerial attacks and the wielder is increasingly resilient as they perform finisher attacks in Incarnon Form.",
+    "id":  "weapon.innodem",
     "release":  {
                     "releaseDate":  "2022-06-09",
                     "introduced":  {

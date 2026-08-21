@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.dual-raza",
+    "description":  "Razor sharp battle-hatchets, designed to compliment the Soma.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,6 +75,7 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.5,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/DualRaza.png?3d9af",
                                    "url":  "https://wiki.warframe.com/w/Dual_Raza",
@@ -130,11 +131,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  220,
-                      "slamRadius":  8,
                       "blockingAngle":  60,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "naramon",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  11,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -144,18 +147,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  66,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  110,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.4000001,
                       "heavyAttackDamage":  440,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  330,
+                      "comboDuration":  5,
+                      "slideAttack":  220,
+                      "windUp":  0.69999999,
+                      "slamRadius":  8,
+                      "slamAttack":  220,
                       "damagePerShot":  [
                                             11,
                                             33,
@@ -178,16 +188,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.4000001,
-                      "heavySlamRadialDamage":  330,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  220,
-                      "windUp":  0.69999999,
-                      "followThrough":  0.5,
-                      "slamAttack":  220,
-                      "heavySlamRadius":  9,
                       "heavySlamAttack":  440
                   },
     "aliases":  [
@@ -201,7 +201,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Razor sharp battle-hatchets, designed to compliment the Soma.",
+    "id":  "weapon.dual-raza",
     "release":  {
                     "releaseDate":  "2015-04-09",
                     "introduced":  {

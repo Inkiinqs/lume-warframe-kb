@@ -1,5 +1,5 @@
 {
-    "description":  "Fires volleys of icy grenades that inflict a lingering chill on the blast zone.",
+    "id":  "weapon.cryotra",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -119,20 +119,32 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "sentinel":  true,
-                      "stancePolarity":  null,
-                      "heavyAttackDamage":  null,
-                      "range":  null,
-                      "heavySlamRadialDamage":  null,
-                      "followThrough":  null,
-                      "heavySlamAttack":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
                       "slamRadius":  null,
-                      "slamAttack":  null,
+                      "blockingAngle":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  10,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  0,
+                                     "cold":  20,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  30,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "heavyAttackDamage":  null,
                       "damagePerShot":  [
                                             10,
                                             0,
@@ -155,29 +167,17 @@
                                             0,
                                             0
                                         ],
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  10,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  0,
-                                     "magnetic":  0,
-                                     "cold":  20,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  0,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  30,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 }
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
+                      "sentinel":  true,
+                      "comboDuration":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/CryoxionWeapon"
@@ -190,7 +190,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.cryotra",
+    "description":  "Fires volleys of icy grenades that inflict a lingering chill on the blast zone.",
     "release":  {
                     "releaseDate":  "2018-11-08",
                     "introduced":  {

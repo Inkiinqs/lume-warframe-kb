@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.lacera",
+    "description":  "In the practiced hands of a master, this blade and whip becomes exceedingly devastating.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,6 +75,7 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.5,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Lacera.png?2d024",
                                    "url":  "https://wiki.warframe.com/w/Lacera",
@@ -131,11 +132,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  432,
-                      "slamRadius":  7,
                       "blockingAngle":  60,
+                      "heavySlamRadius":  8,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  12,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  100,
@@ -145,18 +148,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  66,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  216,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.5,
                       "heavyAttackDamage":  864,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  648,
+                      "comboDuration":  5,
+                      "slideAttack":  216,
+                      "windUp":  0.40000001,
+                      "slamRadius":  7,
+                      "slamAttack":  648,
                       "damagePerShot":  [
                                             12,
                                             38,
@@ -179,16 +189,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "heavySlamRadialDamage":  648,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  216,
-                      "windUp":  0.40000001,
-                      "followThrough":  0.5,
-                      "slamAttack":  648,
-                      "heavySlamRadius":  8,
                       "heavySlamAttack":  864
                   },
     "aliases":  [
@@ -202,7 +202,7 @@
     "relationships":  [
 
                       ],
-    "description":  "In the practiced hands of a master, this blade and whip becomes exceedingly devastating.",
+    "id":  "weapon.lacera",
     "release":  {
                     "releaseDate":  "2015-12-03",
                     "introduced":  {

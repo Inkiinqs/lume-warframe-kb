@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.paracesis",
+    "description":  "The Sentient slayer. An offering from Ballas.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,6 +75,7 @@
                                        "skipBuildTimePrice":  30,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.60000002,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Paracesis.png?f1231",
                                    "url":  "https://wiki.warframe.com/w/Paracesis",
@@ -130,11 +131,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  444,
-                      "slamRadius":  8,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "vazarin",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  48.84,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -144,18 +147,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  155.39999,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  222,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.9000001,
                       "heavyAttackDamage":  1332,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  666,
+                      "comboDuration":  5,
+                      "slideAttack":  444,
+                      "windUp":  1.1,
+                      "slamRadius":  8,
+                      "slamAttack":  666,
                       "damagePerShot":  [
                                             48.84,
                                             17.76,
@@ -178,16 +188,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.9000001,
-                      "heavySlamRadialDamage":  666,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "vazarin",
-                      "slideAttack":  444,
-                      "windUp":  1.1,
-                      "followThrough":  0.60000002,
-                      "slamAttack":  666,
-                      "heavySlamRadius":  9,
                       "heavySlamAttack":  222
                   },
     "aliases":  [
@@ -201,7 +201,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The Sentient slayer. An offering from Ballas.",
+    "id":  "weapon.paracesis",
     "release":  {
                     "releaseDate":  "2018-10-12",
                     "introduced":  {

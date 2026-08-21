@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.quassus",
+    "description":  "Flick away the enemy with this heavy warfan. The Quassus scatters ethereal daggers that are even more deadly accurate when wielded by Xaku.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -98,6 +98,7 @@
                                        "skipBuildTimePrice":  25,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.69999999,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Quassus.png?c5024",
                                    "url":  "https://wiki.warframe.com/w/Quassus",
@@ -183,11 +184,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  460,
-                      "slamRadius":  5,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  6,
+                      "stancePolarity":  "naramon",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  27.599998,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -197,18 +200,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  156.40001,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  230,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  1.7,
                       "heavyAttackDamage":  920,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  690,
+                      "comboDuration":  5,
+                      "slideAttack":  230,
+                      "windUp":  0.5,
+                      "slamRadius":  5,
+                      "slamAttack":  460,
                       "damagePerShot":  [
                                             27.599998,
                                             46,
@@ -231,16 +241,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.7,
-                      "heavySlamRadialDamage":  690,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  230,
-                      "windUp":  0.5,
-                      "followThrough":  0.69999999,
-                      "slamAttack":  460,
-                      "heavySlamRadius":  6,
                       "heavySlamAttack":  230
                   },
     "aliases":  [
@@ -254,7 +254,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Flick away the enemy with this heavy warfan. The Quassus scatters ethereal daggers that are even more deadly accurate when wielded by Xaku.",
+    "id":  "weapon.quassus",
     "release":  {
                     "releaseDate":  "2020-08-25",
                     "introduced":  {

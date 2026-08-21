@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.pennant",
+    "description":  "The steel flag of Old War Railjack crews, the Pennant was invaluable in repelling boarders. With each heavy attack kill the Pennant\u0027s speed of attack increases.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -104,6 +104,7 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.69999999,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Pennant.png?e55f5",
                                    "url":  "https://wiki.warframe.com/w/Pennant",
@@ -159,11 +160,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  400,
-                      "slamRadius":  7,
                       "blockingAngle":  55,
+                      "heavySlamRadius":  8,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  20,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -173,18 +176,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  39.999996,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  200,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  3,
                       "heavyAttackDamage":  1200,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  600,
+                      "comboDuration":  5,
+                      "slideAttack":  400,
+                      "windUp":  0.69999999,
+                      "slamRadius":  7,
+                      "slamAttack":  600,
                       "damagePerShot":  [
                                             20,
                                             140,
@@ -207,16 +217,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  3,
-                      "heavySlamRadialDamage":  600,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  400,
-                      "windUp":  0.69999999,
-                      "followThrough":  0.69999999,
-                      "slamAttack":  600,
-                      "heavySlamRadius":  8,
                       "heavySlamAttack":  1000
                   },
     "aliases":  [
@@ -230,7 +230,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The steel flag of Old War Railjack crews, the Pennant was invaluable in repelling boarders. With each heavy attack kill the Pennant\u0027s speed of attack increases.",
+    "id":  "weapon.pennant",
     "release":  {
                     "releaseDate":  "2019-12-13",
                     "introduced":  {
