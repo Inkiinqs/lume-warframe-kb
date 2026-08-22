@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.rathbone",
+    "description":  "Using Archwing\u0027s jets for thrust, this massive hammer crushes anything in its path.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -85,6 +85,7 @@
                                        "skipBuildTimePrice":  50,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.69999999,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Rathbone.png?255ff",
                                    "url":  "https://wiki.warframe.com/w/Rathbone",
@@ -107,12 +108,12 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  900,
-                      "slamRadius":  3,
                       "blockingAngle":  90,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  360,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -122,17 +123,26 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  22.499979,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  449.99997,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2,
                       "heavyAttackDamage":  450,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  5,
+                      "slideAttack":  964,
+                      "windUp":  null,
+                      "slamRadius":  3,
+                      "slamAttack":  450,
                       "damagePerShot":  [
                                             360,
                                             67.5,
@@ -155,16 +165,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2,
-                      "heavySlamRadialDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  null,
-                      "slideAttack":  964,
-                      "windUp":  null,
-                      "followThrough":  0.69999999,
-                      "slamAttack":  450,
-                      "heavySlamRadius":  null,
                       "heavySlamAttack":  450
                   },
     "aliases":  [
@@ -178,7 +178,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Using Archwing\u0027s jets for thrust, this massive hammer crushes anything in its path.",
+    "id":  "weapon.rathbone",
     "release":  {
                     "releaseDate":  "2014-11-13",
                     "introduced":  {

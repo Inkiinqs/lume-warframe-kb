@@ -1,5 +1,5 @@
 {
-    "description":  "Mete out the sharp pain of justice. Heavy Slam attacks create a vortex that pulls in lifted enemies when the Sarofang’s Combo Multiplier builds to 8x. In Voruna’s hands, the Sarofang only requires a 5x Combo Multiplier to summon the vortex.",
+    "id":  "weapon.sarofang",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -98,7 +98,6 @@
                                        "skipBuildTimePrice":  50,
                                        "consumeOnBuild":  true
                                    },
-                      "followThrough":  0.60000002,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Sarofang.png?ddb75",
                                    "url":  "https://wiki.warframe.com/w/Sarofang",
@@ -155,12 +154,10 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  400,
                       "blockingAngle":  55,
-                      "heavySlamRadius":  9,
-                      "stancePolarity":  "madurai",
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  80,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -170,25 +167,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  112,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  200,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  2.5999999,
-                      "heavyAttackDamage":  1200,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  600,
-                      "comboDuration":  5,
-                      "slideAttack":  400,
-                      "windUp":  1.1,
-                      "slamRadius":  8,
-                      "slamAttack":  600,
                       "damagePerShot":  [
                                             80,
                                             8,
@@ -211,6 +200,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  2.5999999,
+                      "heavyAttackDamage":  1200,
+                      "followThrough":  0.60000002,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  600,
+                      "stancePolarity":  "madurai",
+                      "slideAttack":  400,
+                      "windUp":  1.1,
+                      "slamRadius":  8,
+                      "slamAttack":  600,
+                      "heavySlamRadius":  9,
                       "heavySlamAttack":  1000
                   },
     "aliases":  [
@@ -224,7 +224,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.sarofang",
+    "description":  "Mete out the sharp pain of justice. Heavy Slam attacks create a vortex that pulls in lifted enemies when the Sarofang’s Combo Multiplier builds to 8x. In Voruna’s hands, the Sarofang only requires a 5x Combo Multiplier to summon the vortex.",
     "release":  {
                     "releaseDate":  "2022-11-30",
                     "introduced":  {
