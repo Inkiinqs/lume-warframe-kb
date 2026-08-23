@@ -1,5 +1,5 @@
 {
-    "description":  "Mandonel fires \u003cDT_RADIATION_COLOR\u003eRadiation Damage projectiles. Partially charged shots release a spread and fully charged shots release a beam that dissolves into a radiation field. Projectiles that pass through the field are empowered.",
+    "id":  "weapon.mandonel",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -155,7 +155,6 @@
                                        "skipBuildTimePrice":  50,
                                        "consumeOnBuild":  true
                                    },
-                      "followThrough":  null,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Mandonel.png?e64d1",
                                    "url":  "https://wiki.warframe.com/w/Mandonel",
@@ -197,11 +196,11 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  25.000002,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -211,26 +210,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  40,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  10,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  40,
                                      "total":  90,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             25.000002,
                                             15,
@@ -253,6 +242,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -266,7 +266,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.mandonel",
+    "description":  "Mandonel fires \u003cDT_RADIATION_COLOR\u003eRadiation Damage projectiles. Partially charged shots release a spread and fully charged shots release a beam that dissolves into a radiation field. Projectiles that pass through the field are empowered.",
     "release":  {
                     "releaseDate":  "2023-12-13",
                     "introduced":  {
