@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.kestrel-prime",
+    "description":  "With heightened agility and power the Kestrel Prime\u0027s heavy attacks easily knock down foes, ensuring none shall stand before it.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -286,6 +286,7 @@
                                        "skipBuildTimePrice":  50,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.69999999,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/KestrelPrime.png?707c8",
                                    "url":  "https://wiki.warframe.com/w/Kestrel_Prime",
@@ -439,30 +440,18 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  420,
                       "blockingAngle":  55,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  157.5,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  21,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  31.499994,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  210,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamRadius":  6,
+                      "stancePolarity":  "naramon",
+                      "heavyAttackDamage":  210,
+                      "range":  1.2,
+                      "heavySlamRadialDamage":  630,
+                      "sentinel":  null,
+                      "heavySlamAttack":  840,
+                      "comboDuration":  5,
+                      "slideAttack":  420,
+                      "windUp":  1.2,
                       "slamRadius":  5,
+                      "slamAttack":  630,
                       "damagePerShot":  [
                                             157.5,
                                             21,
@@ -485,18 +474,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  1.2,
-                      "heavyAttackDamage":  210,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  630,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  420,
-                      "windUp":  1.2,
-                      "followThrough":  0.69999999,
-                      "slamAttack":  630,
-                      "heavySlamRadius":  6,
-                      "heavySlamAttack":  840
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  157.5,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  21,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  31.499994,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  210,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Glaives/PrimeKestrel/PrimeKestrel"
@@ -509,7 +509,7 @@
     "relationships":  [
 
                       ],
-    "description":  "With heightened agility and power the Kestrel Prime\u0027s heavy attacks easily knock down foes, ensuring none shall stand before it.",
+    "id":  "weapon.kestrel-prime",
     "release":  {
                     "releaseDate":  "2025-12-10",
                     "introduced":  {
