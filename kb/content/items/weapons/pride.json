@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.pride",
+    "description":  "The pride of one that knows their worth. Sirius\u0027 signature Heavy Scythe.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -80,6 +80,7 @@
                                        "skipBuildTimePrice":  50,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.40000001,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Pride.png?917b2",
                                    "url":  "https://wiki.warframe.com/w/Pride",
@@ -135,30 +136,18 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  500,
                       "blockingAngle":  65,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  0,
-                                     "heat":  0,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  125,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "toxin":  0,
-                                     "puncture":  125,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "radiation":  0,
-                                     "total":  250,
-                                     "healthDrain":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "madurai",
+                      "heavyAttackDamage":  4500,
+                      "range":  2.8,
+                      "heavySlamRadialDamage":  750,
+                      "sentinel":  null,
+                      "heavySlamAttack":  1250,
+                      "comboDuration":  5,
+                      "slideAttack":  500,
+                      "windUp":  1,
                       "slamRadius":  8,
+                      "slamAttack":  750,
                       "damagePerShot":  [
                                             0,
                                             125,
@@ -181,18 +170,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.8,
-                      "heavyAttackDamage":  4500,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  750,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  500,
-                      "windUp":  1,
-                      "followThrough":  0.40000001,
-                      "slamAttack":  750,
-                      "heavySlamRadius":  9,
-                      "heavySlamAttack":  1250
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  125,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  125,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  250,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/HeavyScythe/TnOrionSiriusScythe/TnSiriusScytheWeapon"
@@ -205,7 +205,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The pride of one that knows their worth. Sirius\u0027 signature Heavy Scythe.",
+    "id":  "weapon.pride",
     "release":  {
                     "releaseDate":  "2026-06-17",
                     "introduced":  {
