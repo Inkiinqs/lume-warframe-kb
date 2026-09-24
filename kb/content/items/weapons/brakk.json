@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.brakk",
+    "description":  "Simple but powerful. The semi-automatic Brakk hand cannon delivers a lot of punch in a small package.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -22,58 +22,43 @@
                                        "buildQuantity":  1,
                                        "components":  [
                                                           {
-                                                              "name":  "Barrel",
+                                                              "name":  null,
                                                               "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/BrakkBarrel",
                                                               "itemCount":  1,
                                                               "type":  null,
-                                                              "tradable":  false,
+                                                              "tradable":  null,
                                                               "drops":  [
-                                                                            {
-                                                                                "location":  "Shik Tal",
-                                                                                "type":  "Brakk Barrel",
-                                                                                "chance":  25,
-                                                                                "rarity":  "Common"
-                                                                            }
+                                                                            null
                                                                         ]
                                                           },
                                                           {
-                                                              "name":  "Blueprint",
+                                                              "name":  null,
                                                               "uniqueName":  "/Lotus/Types/Recipes/Weapons/BrakkBlueprint",
                                                               "itemCount":  1,
                                                               "type":  null,
-                                                              "tradable":  false,
+                                                              "tradable":  null,
                                                               "drops":  [
-                                                                            {
-                                                                                "location":  "Vem Tabook",
-                                                                                "type":  "Brakk Blueprint",
-                                                                                "chance":  12.5,
-                                                                                "rarity":  "Common"
-                                                                            }
+                                                                            null
                                                                         ]
                                                           },
                                                           {
-                                                              "name":  "Orokin Cell",
+                                                              "name":  null,
                                                               "uniqueName":  "/Lotus/Types/Items/MiscItems/OrokinCell",
                                                               "itemCount":  10,
-                                                              "type":  "Resource",
-                                                              "tradable":  false,
+                                                              "type":  null,
+                                                              "tradable":  null,
                                                               "drops":  [
-
+                                                                            null
                                                                         ]
                                                           },
                                                           {
-                                                              "name":  "Receiver",
+                                                              "name":  null,
                                                               "uniqueName":  "/Lotus/Types/Recipes/Weapons/WeaponParts/BrakkReceiver",
                                                               "itemCount":  1,
                                                               "type":  null,
-                                                              "tradable":  false,
+                                                              "tradable":  null,
                                                               "drops":  [
-                                                                            {
-                                                                                "location":  "Leekter",
-                                                                                "type":  "Brakk Receiver",
-                                                                                "chance":  25,
-                                                                                "rarity":  "Common"
-                                                                            }
+                                                                            null
                                                                         ]
                                                           }
                                                       ],
@@ -109,30 +94,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  9,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  5,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  6,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  20,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamRadius":  null,
+                      "sentinel":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "followThrough":  null,
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             9,
                                             5,
@@ -155,18 +129,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  9,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  6,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  5,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  20,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Grineer/Pistols/GrineerHandShotgun/GrineerHandCannon"
@@ -179,7 +164,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Simple but powerful. The semi-automatic Brakk hand cannon delivers a lot of punch in a small package.",
+    "id":  "weapon.brakk",
     "release":  {
                     "releaseDate":  "2013-10-30",
                     "introduced":  {

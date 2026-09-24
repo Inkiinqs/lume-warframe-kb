@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.magistar",
+    "description":  "The Magistar mace wields justice and truth in the form of bone-crushing blows.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -22,58 +22,53 @@
                                        "buildQuantity":  1,
                                        "components":  [
                                                           {
-                                                              "name":  "Alloy Plate",
+                                                              "name":  null,
                                                               "uniqueName":  "/Lotus/Types/Items/MiscItems/AlloyPlate",
                                                               "itemCount":  80,
-                                                              "type":  "Resource",
-                                                              "tradable":  false,
+                                                              "type":  null,
+                                                              "tradable":  null,
                                                               "drops":  [
-
+                                                                            null
                                                                         ]
                                                           },
                                                           {
-                                                              "name":  "Blueprint",
+                                                              "name":  null,
                                                               "uniqueName":  "/Lotus/Types/Recipes/Weapons/PaladinMaceBlueprint",
                                                               "itemCount":  1,
                                                               "type":  null,
-                                                              "tradable":  false,
+                                                              "tradable":  null,
                                                               "drops":  [
-                                                                            {
-                                                                                "location":  "Duviri/Endless: Tier 6 (Normal)",
-                                                                                "type":  "Magistar Blueprint",
-                                                                                "chance":  1.03,
-                                                                                "rarity":  "Rare"
-                                                                            }
+                                                                            null
                                                                         ]
                                                           },
                                                           {
-                                                              "name":  "Ferrite",
+                                                              "name":  null,
                                                               "uniqueName":  "/Lotus/Types/Items/MiscItems/Ferrite",
                                                               "itemCount":  750,
                                                               "type":  null,
-                                                              "tradable":  false,
+                                                              "tradable":  null,
                                                               "drops":  [
-
+                                                                            null
                                                                         ]
                                                           },
                                                           {
-                                                              "name":  "Gallium",
+                                                              "name":  null,
                                                               "uniqueName":  "/Lotus/Types/Items/MiscItems/Gallium",
                                                               "itemCount":  3,
-                                                              "type":  "Resource",
-                                                              "tradable":  false,
+                                                              "type":  null,
+                                                              "tradable":  null,
                                                               "drops":  [
-
+                                                                            null
                                                                         ]
                                                           },
                                                           {
-                                                              "name":  "Rubedo",
+                                                              "name":  null,
                                                               "uniqueName":  "/Lotus/Types/Items/MiscItems/Rubedo",
                                                               "itemCount":  300,
-                                                              "type":  "Resource",
-                                                              "tradable":  false,
+                                                              "type":  null,
+                                                              "tradable":  null,
                                                               "drops":  [
-
+                                                                            null
                                                                         ]
                                                           }
                                                       ],
@@ -136,30 +131,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  420,
                       "blockingAngle":  50,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  168,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  31.500002,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  10.49999,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  209.99998,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamRadius":  10,
+                      "sentinel":  null,
+                      "stancePolarity":  "vazarin",
+                      "heavyAttackDamage":  1260,
+                      "range":  2.5,
+                      "heavySlamRadialDamage":  630,
                       "followThrough":  0.40000001,
+                      "heavySlamAttack":  1050,
+                      "comboDuration":  5,
+                      "slideAttack":  420,
+                      "windUp":  1.2,
+                      "slamRadius":  9,
+                      "slamAttack":  630,
                       "damagePerShot":  [
                                             168,
                                             31.500002,
@@ -182,18 +166,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.5,
-                      "heavyAttackDamage":  1260,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  630,
-                      "stancePolarity":  "vazarin",
-                      "slideAttack":  420,
-                      "windUp":  1.2,
-                      "slamRadius":  9,
-                      "slamAttack":  630,
-                      "heavySlamRadius":  10,
-                      "heavySlamAttack":  1050
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  168,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  10.49999,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  31.500002,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  209.99998,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Maces/PaladinMace/PaladinMaceWeapon"
@@ -206,7 +201,7 @@
     "relationships":  [
 
                       ],
-    "description":  "The Magistar mace wields justice and truth in the form of bone-crushing blows.",
+    "id":  "weapon.magistar",
     "release":  {
                     "releaseDate":  "2013-12-19",
                     "introduced":  {

@@ -1,5 +1,5 @@
 {
-    "description":  "A blood-red variant of this destructive flamethrower.",
+    "id":  "weapon.ignis-wraith",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -22,76 +22,53 @@
                                        "buildQuantity":  1,
                                        "components":  [
                                                           {
-                                                              "name":  "Argon Crystal",
+                                                              "name":  null,
                                                               "uniqueName":  "/Lotus/Types/Items/MiscItems/ArgonCrystal",
                                                               "itemCount":  3,
-                                                              "type":  "Resource",
-                                                              "tradable":  false,
+                                                              "type":  null,
+                                                              "tradable":  null,
                                                               "drops":  [
-
+                                                                            null
                                                                         ]
                                                           },
                                                           {
-                                                              "name":  "Blueprint",
+                                                              "name":  null,
                                                               "uniqueName":  "/Lotus/Weapons/ClanTech/Chemical/FlamethrowerWraithBlueprint",
                                                               "itemCount":  1,
                                                               "type":  null,
-                                                              "tradable":  true,
+                                                              "tradable":  null,
                                                               "drops":  [
-                                                                            {
-                                                                                "location":  "Veil Proxima/Flexa (Caches), Rotation B",
-                                                                                "type":  "Ignis Wraith Blueprint",
-                                                                                "chance":  8.7,
-                                                                                "rarity":  "Rare"
-                                                                            },
-                                                                            {
-                                                                                "location":  "Veil Proxima/H-2 Cloud (Caches), Rotation B",
-                                                                                "type":  "Ignis Wraith Blueprint",
-                                                                                "chance":  8.7,
-                                                                                "rarity":  "Rare"
-                                                                            },
-                                                                            {
-                                                                                "location":  "Veil Proxima/Nsu Grid (Caches), Rotation B",
-                                                                                "type":  "Ignis Wraith Blueprint",
-                                                                                "chance":  8.7,
-                                                                                "rarity":  "Rare"
-                                                                            },
-                                                                            {
-                                                                                "location":  "Veil Proxima/R-9 Cloud (Caches), Rotation B",
-                                                                                "type":  "Ignis Wraith Blueprint",
-                                                                                "chance":  8.7,
-                                                                                "rarity":  "Rare"
-                                                                            }
+                                                                            null
                                                                         ]
                                                           },
                                                           {
-                                                              "name":  "Detonite Injector",
+                                                              "name":  null,
                                                               "uniqueName":  "/Lotus/Types/Items/Research/ChemComponent",
                                                               "itemCount":  5,
                                                               "type":  null,
-                                                              "tradable":  false,
+                                                              "tradable":  null,
                                                               "drops":  [
-
+                                                                            null
                                                                         ]
                                                           },
                                                           {
-                                                              "name":  "Ferrite",
+                                                              "name":  null,
                                                               "uniqueName":  "/Lotus/Types/Items/MiscItems/Ferrite",
                                                               "itemCount":  10000,
                                                               "type":  null,
-                                                              "tradable":  false,
+                                                              "tradable":  null,
                                                               "drops":  [
-
+                                                                            null
                                                                         ]
                                                           },
                                                           {
-                                                              "name":  "Rubedo",
+                                                              "name":  null,
                                                               "uniqueName":  "/Lotus/Types/Items/MiscItems/Rubedo",
                                                               "itemCount":  5000,
-                                                              "type":  "Resource",
-                                                              "tradable":  false,
+                                                              "type":  null,
+                                                              "tradable":  null,
                                                               "drops":  [
-
+                                                                            null
                                                                         ]
                                                           }
                                                       ],
@@ -120,11 +97,14 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
+                                     "heat":  35,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -134,17 +114,30 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  35,
+                                     "radiation":  0,
                                      "total":  35,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "relevantFormulas":  [
+                                               "formula.status-chance",
+                                               "formula.multishot",
+                                               "damage.damage-over-time"
+                                           ],
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -167,22 +160,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "relevantFormulas":  [
-                                               "formula.status-chance",
-                                               "formula.multishot",
-                                               "damage.damage-over-time"
-                                           ],
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -196,7 +173,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.ignis-wraith",
+    "description":  "A blood-red variant of this destructive flamethrower.",
     "release":  {
                     "releaseDate":  "2017-03-02",
                     "introduced":  {

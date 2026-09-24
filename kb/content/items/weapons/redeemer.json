@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.redeemer",
+    "description":  "Striking with massive twin blades, the Redeemer fires the killing blow with its built-in shotgun.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -22,59 +22,43 @@
                                        "buildQuantity":  1,
                                        "components":  [
                                                           {
-                                                              "name":  "Argon Crystal",
+                                                              "name":  null,
                                                               "uniqueName":  "/Lotus/Types/Items/MiscItems/ArgonCrystal",
                                                               "itemCount":  2,
-                                                              "type":  "Resource",
-                                                              "tradable":  false,
+                                                              "type":  null,
+                                                              "tradable":  null,
                                                               "drops":  [
-
+                                                                            null
                                                                         ]
                                                           },
                                                           {
-                                                              "name":  "Blueprint",
+                                                              "name":  null,
                                                               "uniqueName":  "/Lotus/Types/Recipes/Weapons/TennoGunbladeBlueprint",
                                                               "itemCount":  1,
                                                               "type":  null,
-                                                              "tradable":  false,
+                                                              "tradable":  null,
                                                               "drops":  [
-
+                                                                            null
                                                                         ]
                                                           },
                                                           {
-                                                              "name":  "Dual Skana",
+                                                              "name":  null,
                                                               "uniqueName":  "/Lotus/Weapons/Tenno/Melee/DualShortSword/DualShortSword",
                                                               "itemCount":  1,
                                                               "type":  null,
-                                                              "tradable":  false,
+                                                              "tradable":  null,
                                                               "drops":  [
-                                                                            {
-                                                                                "location":  "Duviri/Endless: Tier 6 (Normal)",
-                                                                                "type":  "Dual Skana Blueprint",
-                                                                                "chance":  1.03,
-                                                                                "rarity":  "Rare"
-                                                                            },
-                                                                            {
-                                                                                "location":  "Conclave, Typhoon",
-                                                                                "type":  "Dual Skana Conclave Skin",
-                                                                                "chance":  100,
-                                                                                "rarity":  "Common"
-                                                                            }
+                                                                            null
                                                                         ]
                                                           },
                                                           {
-                                                              "name":  "Vasto",
+                                                              "name":  null,
                                                               "uniqueName":  "/Lotus/Weapons/Tenno/Pistol/RevolverPistol",
                                                               "itemCount":  1,
                                                               "type":  null,
-                                                              "tradable":  false,
+                                                              "tradable":  null,
                                                               "drops":  [
-                                                                            {
-                                                                                "location":  "Conclave, Typhoon",
-                                                                                "type":  "Vasto Conclave Skin",
-                                                                                "chance":  100,
-                                                                                "rarity":  "Common"
-                                                                            }
+                                                                            null
                                                                         ]
                                                           }
                                                       ],
@@ -154,30 +138,19 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  360,
                       "blockingAngle":  45,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  18,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  36,
-                                     "magnetic":  0,
-                                     "cold":  0,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
-                                     "puncture":  126,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "heat":  0,
-                                     "total":  180,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamRadius":  6,
+                      "sentinel":  null,
+                      "stancePolarity":  "madurai",
+                      "heavyAttackDamage":  900,
+                      "range":  2,
+                      "heavySlamRadialDamage":  540,
                       "followThrough":  0.5,
+                      "heavySlamAttack":  540,
+                      "comboDuration":  5,
+                      "slideAttack":  360,
+                      "windUp":  0.40000001,
+                      "slamRadius":  5,
+                      "slamAttack":  540,
                       "damagePerShot":  [
                                             18,
                                             36,
@@ -200,18 +173,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  2,
-                      "heavyAttackDamage":  900,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "heavySlamRadialDamage":  540,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  360,
-                      "windUp":  0.40000001,
-                      "slamRadius":  5,
-                      "slamAttack":  540,
-                      "heavySlamRadius":  6,
-                      "heavySlamAttack":  540
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  18,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  126,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "toxin":  0,
+                                     "puncture":  36,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "radiation":  0,
+                                     "total":  180,
+                                     "healthDrain":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Melee/Gunblade/TnoGunblade"
@@ -224,7 +208,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Striking with massive twin blades, the Redeemer fires the killing blow with its built-in shotgun.",
+    "id":  "weapon.redeemer",
     "release":  {
                     "releaseDate":  "2014-11-27",
                     "introduced":  {
