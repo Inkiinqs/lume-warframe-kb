@@ -1,109 +1,19 @@
 {
-    "id":  "weapon.steflos-prime",
-    "name":  "Steflos Prime",
-    "category":  "weapon",
-    "subCategory":  "primary-shotgun",
-    "aliases":  [
-                    "/Lotus/Weapons/Tenno/LongGuns/PrimeSteflos/PrimeSteflosShotgun"
-                ],
-    "summary":  "This rose has gilded thorns. Deal death from even further afar with Citrine Prime\u0027s signature shotgun.",
     "description":  "This rose has gilded thorns. Deal death from even further afar with Citrine Prime\u0027s signature shotgun.",
-    "stats":  {
-                  "slot":  "primary",
-                  "weaponClass":  "Shotgun",
-                  "masteryReq":  15,
-                  "trigger":  "Semi",
-                  "fireRate":  3.0000002,
-                  "accuracy":  100,
-                  "noise":  "Alarming",
-                  "critChance":  0.18000001,
-                  "critMultiplier":  2.2,
-                  "statusChance":  0.27999997,
-                  "multishot":  1,
-                  "magazineSize":  12,
-                  "reloadTime":  2.4000001,
-                  "totalDamage":  480,
-                  "disposition":  null,
-                  "polarities":  [
-                                     null
-                                 ],
-                  "tradable":  false,
-                  "masterable":  true,
-                  "vaulted":  null,
-                  "vaultDate":  null,
-                  "estimatedVaultDate":  null
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Steflos Prime",
+    "subCategory":  "primary-shotgun",
     "mechanics":  {
-                      "damageTypes":  null,
-                      "damage":  {
-                                     "total":  480,
-                                     "impact":  195,
-                                     "puncture":  0,
-                                     "slash":  0,
-                                     "heat":  285,
-                                     "cold":  0,
-                                     "electricity":  0,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "radiation":  0,
-                                     "gas":  0,
-                                     "magnetic":  0,
-                                     "viral":  0,
-                                     "corrosive":  0,
-                                     "void":  0,
-                                     "tau":  0,
-                                     "cinematic":  0,
-                                     "shieldDrain":  0,
-                                     "healthDrain":  0,
-                                     "energyDrain":  0,
-                                     "true":  0
-                                 },
-                      "damagePerShot":  [
-                                            195,
-                                            0,
-                                            0,
-                                            285,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0
-                                        ],
-                      "attacks":  [
-                                      null
-                                  ],
-                      "stancePolarity":  null,
-                      "blockingAngle":  null,
-                      "comboDuration":  null,
-                      "followThrough":  null,
-                      "range":  null,
-                      "slamAttack":  null,
-                      "slamRadialDamage":  null,
-                      "slamRadius":  null,
-                      "slideAttack":  null,
-                      "heavyAttackDamage":  null,
                       "heavySlamAttack":  null,
-                      "heavySlamRadialDamage":  null,
-                      "heavySlamRadius":  null,
-                      "windUp":  null,
-                      "sentinel":  null,
                       "crafting":  {
-                                       "buildPrice":  15000,
                                        "buildTime":  43200,
-                                       "skipBuildTimePrice":  50,
+                                       "buildPrice":  15000,
                                        "buildQuantity":  1,
-                                       "consumeOnBuild":  true,
                                        "components":  [
                                                           {
                                                               "name":  null,
@@ -155,37 +65,127 @@
                                                                             null
                                                                         ]
                                                           }
-                                                      ]
+                                                      ],
+                                       "skipBuildTimePrice":  50,
+                                       "consumeOnBuild":  true
                                    },
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "SteflosPrime.png",
+                                   "available":  null
+                               },
+                      "followThrough":  null,
+                      "attacks":  [
+                                      null
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  null,
+                      "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  195,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  0,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  285,
+                                     "total":  480,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "range":  null,
                       "drops":  [
                                     null
                                 ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "SteflosPrime.png"
-                               }
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "damagePerShot":  [
+                                            195,
+                                            0,
+                                            0,
+                                            285,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ]
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-                    "releaseDate":  null,
-                    "introduced":  null
-                },
-    "tags":  [
-                 "weapon",
-                 "primary"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD primary static data."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/LongGuns/PrimeSteflos/PrimeSteflosShotgun"
+                ],
+    "tags":  [
+                 "weapon",
+                 "primary"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "id":  "weapon.steflos-prime",
+    "release":  {
+                    "releaseDate":  null,
+                    "introduced":  null
+                },
+    "summary":  "This rose has gilded thorns. Deal death from even further afar with Citrine Prime\u0027s signature shotgun.",
+    "stats":  {
+                  "accuracy":  100,
+                  "noise":  "Alarming",
+                  "polarities":  [
+                                     null
+                                 ],
+                  "tradable":  false,
+                  "vaulted":  null,
+                  "totalDamage":  480,
+                  "disposition":  null,
+                  "magazineSize":  12,
+                  "fireRate":  3.0000002,
+                  "critMultiplier":  2.2,
+                  "reloadTime":  2.4000001,
+                  "masteryReq":  15,
+                  "statusChance":  0.27999997,
+                  "slot":  "primary",
+                  "estimatedVaultDate":  null,
+                  "trigger":  "Semi",
+                  "critChance":  0.18000001,
+                  "weaponClass":  "Shotgun",
+                  "masterable":  true,
+                  "multishot":  1,
+                  "vaultDate":  null
+              }
 }

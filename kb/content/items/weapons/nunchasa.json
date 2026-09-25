@@ -1,138 +1,19 @@
 {
-    "id":  "weapon.nunchasa",
-    "name":  "Nunchasa",
-    "category":  "weapon",
-    "subCategory":  "primary-bow",
-    "aliases":  [
-                    "/Lotus/Weapons/Tenno/Bows/DuelistBow/DuelistBow"
-                ],
-    "summary":  "Narin\u0027s signature bow is the north wind\u0027s icy messenger. Alt Fire unleashes a charged blizzard arrow that freezes enemies it touches and leaves behind a chilling path.",
     "description":  "Narin\u0027s signature bow is the north wind\u0027s icy messenger. Alt Fire unleashes a charged blizzard arrow that freezes enemies it touches and leaves behind a chilling path.",
-    "stats":  {
-                  "slot":  "primary",
-                  "weaponClass":  "Bow",
-                  "masteryReq":  14,
-                  "trigger":  "Charge",
-                  "fireRate":  1,
-                  "accuracy":  16.666666,
-                  "noise":  "Silent",
-                  "critChance":  0.31999999,
-                  "critMultiplier":  2.4000001,
-                  "statusChance":  0.31999999,
-                  "multishot":  1,
-                  "magazineSize":  1,
-                  "reloadTime":  0.60000002,
-                  "totalDamage":  400,
-                  "disposition":  1,
-                  "polarities":  [
-                                     "naramon"
-                                 ],
-                  "tradable":  false,
-                  "masterable":  true,
-                  "vaulted":  null,
-                  "vaultDate":  null,
-                  "estimatedVaultDate":  null
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Nunchasa",
+    "subCategory":  "primary-bow",
     "mechanics":  {
-                      "damageTypes":  null,
-                      "damage":  {
-                                     "total":  400,
-                                     "impact":  0,
-                                     "puncture":  200,
-                                     "slash":  0,
-                                     "heat":  0,
-                                     "cold":  200,
-                                     "electricity":  0,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "radiation":  0,
-                                     "gas":  0,
-                                     "magnetic":  0,
-                                     "viral":  0,
-                                     "corrosive":  0,
-                                     "void":  0,
-                                     "tau":  0,
-                                     "cinematic":  0,
-                                     "shieldDrain":  0,
-                                     "healthDrain":  0,
-                                     "energyDrain":  0,
-                                     "true":  0
-                                 },
-                      "damagePerShot":  [
-                                            0,
-                                            200,
-                                            0,
-                                            0,
-                                            200,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0
-                                        ],
-                      "attacks":  [
-                                      {
-                                          "name":  "Charged Shot",
-                                          "speed":  1,
-                                          "crit_chance":  32,
-                                          "crit_mult":  2.4,
-                                          "status_chance":  32,
-                                          "shot_type":  "Projectile",
-                                          "shot_speed":  70,
-                                          "flight":  70,
-                                          "damage":  {
-                                                         "puncture":  200,
-                                                         "cold":  200
-                                                     }
-                                      },
-                                      {
-                                          "name":  "Alt-Fire",
-                                          "speed":  1,
-                                          "crit_chance":  36,
-                                          "crit_mult":  3,
-                                          "status_chance":  36,
-                                          "charge_time":  1.5,
-                                          "shot_type":  "Projectile",
-                                          "shot_speed":  85,
-                                          "flight":  85,
-                                          "damage":  {
-                                                         "slash":  250,
-                                                         "puncture":  250,
-                                                         "cold":  500
-                                                     }
-                                      }
-                                  ],
-                      "stancePolarity":  null,
-                      "blockingAngle":  null,
-                      "comboDuration":  null,
-                      "followThrough":  null,
-                      "range":  null,
-                      "slamAttack":  null,
-                      "slamRadialDamage":  null,
-                      "slamRadius":  null,
-                      "slideAttack":  null,
-                      "heavyAttackDamage":  null,
                       "heavySlamAttack":  null,
-                      "heavySlamRadialDamage":  null,
-                      "heavySlamRadius":  null,
-                      "windUp":  null,
-                      "sentinel":  null,
                       "crafting":  {
-                                       "buildPrice":  20000,
                                        "buildTime":  86400,
-                                       "skipBuildTimePrice":  25,
+                                       "buildPrice":  20000,
                                        "buildQuantity":  1,
-                                       "consumeOnBuild":  true,
                                        "components":  [
                                                           {
                                                               "name":  null,
@@ -184,47 +65,166 @@
                                                                             null
                                                                         ]
                                                           }
-                                                      ]
+                                                      ],
+                                       "skipBuildTimePrice":  25,
+                                       "consumeOnBuild":  true
                                    },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Nunchasa.png?376f4",
+                                   "url":  "https://wiki.warframe.com/w/Nunchasa",
+                                   "imageName":  "DuelistBow.png",
+                                   "available":  true
+                               },
+                      "followThrough":  null,
+                      "attacks":  [
+                                      {
+                                          "name":  "Charged Shot",
+                                          "speed":  1,
+                                          "crit_chance":  32,
+                                          "crit_mult":  2.4,
+                                          "status_chance":  32,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  70,
+                                          "flight":  70,
+                                          "damage":  {
+                                                         "puncture":  200,
+                                                         "cold":  200
+                                                     }
+                                      },
+                                      {
+                                          "name":  "Alt-Fire",
+                                          "speed":  1,
+                                          "crit_chance":  36,
+                                          "crit_mult":  3,
+                                          "status_chance":  36,
+                                          "charge_time":  1.5,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  85,
+                                          "flight":  85,
+                                          "damage":  {
+                                                         "slash":  250,
+                                                         "puncture":  250,
+                                                         "cold":  500
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  null,
+                      "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  0,
+                                     "cold":  200,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  200,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  400,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "range":  null,
                       "drops":  [
                                     null
                                 ],
-                      "wiki":  {
-                                   "available":  true,
-                                   "url":  "https://wiki.warframe.com/w/Nunchasa",
-                                   "thumbnail":  "https://wiki.warframe.com/images/Nunchasa.png?376f4",
-                                   "imageName":  "DuelistBow.png"
-                               }
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "damagePerShot":  [
+                                            0,
+                                            200,
+                                            0,
+                                            0,
+                                            200,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ]
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-                    "releaseDate":  "2026-09-23",
-                    "introduced":  {
-                                       "name":  "Update 44.0",
-                                       "url":  "https://wiki.warframe.com/w/Update_44%3A_Iceblade_of_Narin",
-                                       "aliases":  [
-                                                       "44",
-                                                       "44.0",
-                                                       "Iceblade of Narin"
-                                                   ],
-                                       "parent":  "44.0",
-                                       "date":  "2026-09-23"
-                                   }
-                },
-    "tags":  [
-                 "weapon",
-                 "primary"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD primary static data."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Bows/DuelistBow/DuelistBow"
+                ],
+    "tags":  [
+                 "weapon",
+                 "primary"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "id":  "weapon.nunchasa",
+    "release":  {
+                    "releaseDate":  "2026-09-23",
+                    "introduced":  {
+                                       "date":  "2026-09-23",
+                                       "parent":  "44.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_44%3A_Iceblade_of_Narin",
+                                       "name":  "Update 44.0",
+                                       "aliases":  [
+                                                       "44",
+                                                       "44.0",
+                                                       "Iceblade of Narin"
+                                                   ]
+                                   }
+                },
+    "summary":  "Narin\u0027s signature bow is the north wind\u0027s icy messenger. Alt Fire unleashes a charged blizzard arrow that freezes enemies it touches and leaves behind a chilling path.",
+    "stats":  {
+                  "accuracy":  16.666666,
+                  "noise":  "Silent",
+                  "polarities":  [
+                                     "naramon"
+                                 ],
+                  "tradable":  false,
+                  "vaulted":  null,
+                  "totalDamage":  400,
+                  "disposition":  1,
+                  "magazineSize":  1,
+                  "fireRate":  1,
+                  "critMultiplier":  2.4000001,
+                  "reloadTime":  0.60000002,
+                  "masteryReq":  14,
+                  "statusChance":  0.31999999,
+                  "slot":  "primary",
+                  "estimatedVaultDate":  null,
+                  "trigger":  "Charge",
+                  "critChance":  0.31999999,
+                  "weaponClass":  "Bow",
+                  "masterable":  true,
+                  "multishot":  1,
+                  "vaultDate":  null
+              }
 }

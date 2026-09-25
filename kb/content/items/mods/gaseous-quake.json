@@ -1,73 +1,74 @@
 {
-    "id":  "mod.gaseous-quake",
-    "name":  "Gaseous Quake",
-    "category":  "mod",
-    "subCategory":  "banshee",
-    "aliases":  [
-                    "/Lotus/Powersuits/Banshee/EarthQuakeAugmentCard"
-                ],
-    "summary":  "Sound Quake Augment: Channel \u003cDT_GAS_COLOR\u003eGas Damage and Status Effect leaks with a 2.75x Damage Multiplier that increases every second on enemies in your sight.",
     "description":  "Sound Quake Augment: Channel \u003cDT_GAS_COLOR\u003eGas Damage and Status Effect leaks with a 2.75x Damage Multiplier that increases every second on enemies in your sight.",
-    "stats":  {
-                  "polarity":  "zenurik",
-                  "rarity":  "Rare",
-                  "baseDrain":  6,
-                  "fusionLimit":  3,
-                  "compatName":  "Banshee",
-                  "tradable":  true,
-                  "transmutable":  false,
-                  "masterable":  false,
-                  "isPrime":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-mods.json"
+                    }
+                ],
+    "name":  "Gaseous Quake",
+    "subCategory":  "banshee",
     "mechanics":  {
+                      "topRankStats":  [
+                                           "Sound Quake Augment: Channel \u003cDT_GAS_COLOR\u003eGas Damage and Status Effect leaks with a 2.75x Damage Multiplier that increases every second on enemies in your sight."
+                                       ],
                       "type":  "Warframe Mod",
+                      "drops":  [
+                                    null
+                                ],
+                      "isAugment":  true,
                       "levelStats":  [
                                          "Sound Quake Augment: Channel \u003cDT_GAS_COLOR\u003eGas Damage and Status Effect leaks with a 2x Damage Multiplier that increases every second on enemies in your sight.",
                                          "Sound Quake Augment: Channel \u003cDT_GAS_COLOR\u003eGas Damage and Status Effect leaks with a 2.25x Damage Multiplier that increases every second on enemies in your sight.",
                                          "Sound Quake Augment: Channel \u003cDT_GAS_COLOR\u003eGas Damage and Status Effect leaks with a 2.5x Damage Multiplier that increases every second on enemies in your sight.",
                                          "Sound Quake Augment: Channel \u003cDT_GAS_COLOR\u003eGas Damage and Status Effect leaks with a 2.75x Damage Multiplier that increases every second on enemies in your sight."
                                      ],
-                      "topRankStats":  [
-                                           "Sound Quake Augment: Channel \u003cDT_GAS_COLOR\u003eGas Damage and Status Effect leaks with a 2.75x Damage Multiplier that increases every second on enemies in your sight."
-                                       ],
-                      "isAugment":  true,
-                      "drops":  [
-                                    null
-                                ],
                       "wiki":  {
-                                   "available":  true,
-                                   "url":  "https://wiki.warframe.com/w/Resonating_Quake",
                                    "thumbnail":  "https://wiki.warframe.com/images/ResonatingQuakeMod.png?c33b0",
-                                   "imageName":  "BansheeEarthquakeAugment1.jpg"
+                                   "url":  "https://wiki.warframe.com/w/Gaseous_Quake",
+                                   "imageName":  "BansheeEarthquakeAugment1.jpg",
+                                   "available":  true
                                }
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-                    "releaseDate":  "2016-05-11",
-                    "introduced":  {
-                                       "name":  "Update 18.11",
-                                       "url":  "https://wiki.warframe.com/w/Update_18%23Update_18.11",
-                                       "aliases":  [
-                                                       "18.11.0",
-                                                       "18.11"
-                                                   ],
-                                       "parent":  "18.11",
-                                       "date":  "2016-05-11"
-                                   }
-                },
-    "tags":  [
-                 "mod"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Mods.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-mods.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Powersuits/Banshee/EarthQuakeAugmentCard"
+                ],
+    "tags":  [
+                 "mod"
+             ],
+    "category":  "mod",
+    "relationships":  [
+
+                      ],
+    "id":  "mod.gaseous-quake",
+    "release":  {
+                    "releaseDate":  "2026-09-23",
+                    "introduced":  {
+                                       "date":  "2026-09-23",
+                                       "parent":  "44.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_44%3A_Iceblade_of_Narin",
+                                       "name":  "Update 44.0",
+                                       "aliases":  [
+                                                       "44",
+                                                       "44.0",
+                                                       "Iceblade of Narin"
+                                                   ]
+                                   }
+                },
+    "summary":  "Sound Quake Augment: Channel \u003cDT_GAS_COLOR\u003eGas Damage and Status Effect leaks with a 2.75x Damage Multiplier that increases every second on enemies in your sight.",
+    "stats":  {
+                  "baseDrain":  6,
+                  "tradable":  true,
+                  "compatName":  "Banshee",
+                  "masterable":  false,
+                  "polarity":  "zenurik",
+                  "fusionLimit":  3,
+                  "isPrime":  false,
+                  "rarity":  "Rare",
+                  "transmutable":  false
+              }
 }

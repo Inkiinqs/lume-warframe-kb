@@ -1,38 +1,20 @@
 {
-    "id":  "activity.quest-lua",
-    "name":  "Lua",
-    "category":  "activity",
-    "subCategory":  "quest",
-    "aliases":  [
-                    "/Lotus/Types/Keys/TauPrologue/TauPrologueKeyChainA"
-                ],
-    "summary":  "Find the Lotus in the Dark Refractory and seek her out within her memories.",
     "description":  "Find the Lotus in the Dark Refractory and seek her out within her memories.",
-    "stats":  {
-                  "tradable":  false,
-                  "masterable":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-activities.json"
+                    }
+                ],
+    "name":  "Lua",
+    "subCategory":  "quest",
     "mechanics":  {
-                      "type":  "Key",
-                      "crafting":  {
-                                       "buildPrice":  null,
-                                       "buildTime":  null,
-                                       "skipBuildTimePrice":  null,
-                                       "buildQuantity":  null,
-                                       "consumeOnBuild":  null,
-                                       "components":  [
-                                                          {
-                                                              "name":  null,
-                                                              "uniqueName":  null,
-                                                              "itemCount":  null,
-                                                              "type":  null,
-                                                              "tradable":  null,
-                                                              "drops":  [
-                                                                            null
-                                                                        ]
-                                                          }
-                                                      ]
-                                   },
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "TauboundKeyChain.png",
+                                   "available":  null
+                               },
                       "drops":  [
                                     {
                                         "location":  "Arbiters of Hexis, Maxim",
@@ -59,31 +41,49 @@
                                         "rarity":  "Rare"
                                     }
                                 ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "TauboundKeyChain.png"
-                               }
+                      "crafting":  {
+                                       "buildTime":  null,
+                                       "buildPrice":  null,
+                                       "buildQuantity":  null,
+                                       "components":  [
+                                                          {
+                                                              "name":  null,
+                                                              "uniqueName":  null,
+                                                              "itemCount":  null,
+                                                              "type":  null,
+                                                              "tradable":  null,
+                                                              "drops":  [
+                                                                            null
+                                                                        ]
+                                                          }
+                                                      ],
+                                       "skipBuildTimePrice":  null,
+                                       "consumeOnBuild":  null
+                                   },
+                      "type":  "Key"
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-
-                },
-    "tags":  [
-                 "activity",
-                 "quest"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Quests.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-activities.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Types/Keys/TauPrologue/TauPrologueKeyChainA"
+                ],
+    "tags":  [
+                 "activity",
+                 "quest"
+             ],
+    "category":  "activity",
+    "relationships":  [
+
+                      ],
+    "id":  "activity.quest-lua",
+    "release":  {
+
+                },
+    "summary":  "Find the Lotus in the Dark Refractory and seek her out within her memories.",
+    "stats":  {
+                  "tradable":  false,
+                  "masterable":  false
+              }
 }

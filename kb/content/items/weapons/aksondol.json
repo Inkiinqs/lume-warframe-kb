@@ -1,120 +1,19 @@
 {
-    "id":  "weapon.aksondol",
-    "name":  "Aksondol",
-    "category":  "weapon",
-    "subCategory":  "secondary-pistol",
-    "aliases":  [
-                    "/Lotus/Weapons/Tenno/Pistols/DuelistPistols/DuelistPistols"
-                ],
-    "summary":  "Narin\u0027s signature pistols strike with winter\u0027s bite. Reloading sends out a chilling pulse that inflicts Cold Status Effect, the pulse\u0027s range increases with each round reloaded.",
     "description":  "Narin\u0027s signature pistols strike with winter\u0027s bite. Reloading sends out a chilling pulse that inflicts Cold Status Effect, the pulse\u0027s range increases with each round reloaded.",
-    "stats":  {
-                  "slot":  "secondary",
-                  "weaponClass":  "Pistol",
-                  "masteryReq":  14,
-                  "trigger":  "Semi",
-                  "fireRate":  4,
-                  "accuracy":  26.666666,
-                  "noise":  "Alarming",
-                  "critChance":  0.23999999,
-                  "critMultiplier":  2.5999999,
-                  "statusChance":  0.22000003,
-                  "multishot":  1,
-                  "magazineSize":  8,
-                  "reloadTime":  2.5999999,
-                  "totalDamage":  140,
-                  "disposition":  1,
-                  "polarities":  [
-                                     "naramon"
-                                 ],
-                  "tradable":  false,
-                  "masterable":  true,
-                  "vaulted":  null,
-                  "vaultDate":  null,
-                  "estimatedVaultDate":  null
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Aksondol",
+    "subCategory":  "secondary-pistol",
     "mechanics":  {
-                      "damageTypes":  null,
-                      "damage":  {
-                                     "total":  140,
-                                     "impact":  0,
-                                     "puncture":  70,
-                                     "slash":  0,
-                                     "heat":  0,
-                                     "cold":  70,
-                                     "electricity":  0,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "radiation":  0,
-                                     "gas":  0,
-                                     "magnetic":  0,
-                                     "viral":  0,
-                                     "corrosive":  0,
-                                     "void":  0,
-                                     "tau":  0,
-                                     "cinematic":  0,
-                                     "shieldDrain":  0,
-                                     "healthDrain":  0,
-                                     "energyDrain":  0,
-                                     "true":  0
-                                 },
-                      "damagePerShot":  [
-                                            0,
-                                            70,
-                                            0,
-                                            0,
-                                            70,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0
-                                        ],
-                      "attacks":  [
-                                      {
-                                          "name":  "Normal Attack",
-                                          "speed":  10,
-                                          "crit_chance":  24,
-                                          "crit_mult":  2.6,
-                                          "status_chance":  22,
-                                          "shot_type":  "Hit-Scan",
-                                          "damage":  {
-                                                         "puncture":  70,
-                                                         "cold":  70
-                                                     }
-                                      }
-                                  ],
-                      "stancePolarity":  null,
-                      "blockingAngle":  null,
-                      "comboDuration":  null,
-                      "followThrough":  null,
-                      "range":  null,
-                      "slamAttack":  null,
-                      "slamRadialDamage":  null,
-                      "slamRadius":  null,
-                      "slideAttack":  null,
-                      "heavyAttackDamage":  null,
                       "heavySlamAttack":  null,
-                      "heavySlamRadialDamage":  null,
-                      "heavySlamRadius":  null,
-                      "windUp":  null,
-                      "sentinel":  null,
                       "crafting":  {
-                                       "buildPrice":  15000,
                                        "buildTime":  43200,
-                                       "skipBuildTimePrice":  25,
+                                       "buildPrice":  15000,
                                        "buildQuantity":  1,
-                                       "consumeOnBuild":  true,
                                        "components":  [
                                                           {
                                                               "name":  null,
@@ -156,47 +55,148 @@
                                                                             null
                                                                         ]
                                                           }
-                                                      ]
+                                                      ],
+                                       "skipBuildTimePrice":  25,
+                                       "consumeOnBuild":  true
                                    },
+                      "wiki":  {
+                                   "thumbnail":  "https://wiki.warframe.com/images/Aksondol.png?5236e",
+                                   "url":  "https://wiki.warframe.com/w/Aksondol",
+                                   "imageName":  "DuelistPistols.png",
+                                   "available":  true
+                               },
+                      "followThrough":  null,
+                      "attacks":  [
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  10,
+                                          "crit_chance":  24,
+                                          "crit_mult":  2.6,
+                                          "status_chance":  22,
+                                          "shot_type":  "Hit-Scan",
+                                          "damage":  {
+                                                         "puncture":  70,
+                                                         "cold":  70
+                                                     }
+                                      }
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  null,
+                      "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  0,
+                                     "cold":  70,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  70,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  140,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "range":  null,
                       "drops":  [
                                     null
                                 ],
-                      "wiki":  {
-                                   "available":  true,
-                                   "url":  "https://wiki.warframe.com/w/Aksondol",
-                                   "thumbnail":  "https://wiki.warframe.com/images/Aksondol.png?5236e",
-                                   "imageName":  "DuelistPistols.png"
-                               }
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "damagePerShot":  [
+                                            0,
+                                            70,
+                                            0,
+                                            0,
+                                            70,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ]
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-                    "releaseDate":  "2026-09-23",
-                    "introduced":  {
-                                       "name":  "Update 44.0",
-                                       "url":  "https://wiki.warframe.com/w/Update_44%3A_Iceblade_of_Narin",
-                                       "aliases":  [
-                                                       "44",
-                                                       "44.0",
-                                                       "Iceblade of Narin"
-                                                   ],
-                                       "parent":  "44.0",
-                                       "date":  "2026-09-23"
-                                   }
-                },
-    "tags":  [
-                 "weapon",
-                 "secondary"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD secondary static data."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Pistols/DuelistPistols/DuelistPistols"
+                ],
+    "tags":  [
+                 "weapon",
+                 "secondary"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "id":  "weapon.aksondol",
+    "release":  {
+                    "releaseDate":  "2026-09-23",
+                    "introduced":  {
+                                       "date":  "2026-09-23",
+                                       "parent":  "44.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_44%3A_Iceblade_of_Narin",
+                                       "name":  "Update 44.0",
+                                       "aliases":  [
+                                                       "44",
+                                                       "44.0",
+                                                       "Iceblade of Narin"
+                                                   ]
+                                   }
+                },
+    "summary":  "Narin\u0027s signature pistols strike with winter\u0027s bite. Reloading sends out a chilling pulse that inflicts Cold Status Effect, the pulse\u0027s range increases with each round reloaded.",
+    "stats":  {
+                  "accuracy":  26.666666,
+                  "noise":  "Alarming",
+                  "polarities":  [
+                                     "naramon"
+                                 ],
+                  "tradable":  false,
+                  "vaulted":  null,
+                  "totalDamage":  140,
+                  "disposition":  1,
+                  "magazineSize":  8,
+                  "fireRate":  4,
+                  "critMultiplier":  2.5999999,
+                  "reloadTime":  2.5999999,
+                  "masteryReq":  14,
+                  "statusChance":  0.22000003,
+                  "slot":  "secondary",
+                  "estimatedVaultDate":  null,
+                  "trigger":  "Semi",
+                  "critChance":  0.23999999,
+                  "weaponClass":  "Pistol",
+                  "masterable":  true,
+                  "multishot":  1,
+                  "vaultDate":  null
+              }
 }

@@ -1,64 +1,74 @@
 {
-    "id":  "mod.gastroparesis",
-    "name":  "Gastroparesis",
-    "category":  "mod",
-    "subCategory":  "grendel",
-    "aliases":  [
-                    "/Lotus/Powersuits/Devourer/DevourerPassiveAugmentCard"
-                ],
-    "summary":  "Passive Augment: Each enemy consumed adds 15% \u003cDT_GAS_COLOR\u003e Extra Gas Damage to Primary and Secondary Weapons.",
     "description":  "Passive Augment: Each enemy consumed adds 15% \u003cDT_GAS_COLOR\u003e Extra Gas Damage to Primary and Secondary Weapons.",
-    "stats":  {
-                  "polarity":  "zenurik",
-                  "rarity":  "Rare",
-                  "baseDrain":  6,
-                  "fusionLimit":  3,
-                  "compatName":  "Grendel",
-                  "tradable":  true,
-                  "transmutable":  null,
-                  "masterable":  false,
-                  "isPrime":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-mods.json"
+                    }
+                ],
+    "name":  "Gastroparesis",
+    "subCategory":  "grendel",
     "mechanics":  {
+                      "topRankStats":  [
+                                           "Passive Augment: Each enemy consumed adds 15% \u003cDT_GAS_COLOR\u003e Extra Gas Damage to Primary and Secondary Weapons."
+                                       ],
                       "type":  "Warframe Mod",
+                      "drops":  [
+                                    null
+                                ],
+                      "isAugment":  true,
                       "levelStats":  [
                                          "Passive Augment: Each enemy consumed adds 6% \u003cDT_GAS_COLOR\u003e Extra Gas Damage to Primary and Secondary Weapons.",
                                          "Passive Augment: Each enemy consumed adds 9% \u003cDT_GAS_COLOR\u003e Extra Gas Damage to Primary and Secondary Weapons.",
                                          "Passive Augment: Each enemy consumed adds 12% \u003cDT_GAS_COLOR\u003e Extra Gas Damage to Primary and Secondary Weapons.",
                                          "Passive Augment: Each enemy consumed adds 15% \u003cDT_GAS_COLOR\u003e Extra Gas Damage to Primary and Secondary Weapons."
                                      ],
-                      "topRankStats":  [
-                                           "Passive Augment: Each enemy consumed adds 15% \u003cDT_GAS_COLOR\u003e Extra Gas Damage to Primary and Secondary Weapons."
-                                       ],
-                      "isAugment":  true,
-                      "drops":  [
-                                    null
-                                ],
                       "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
                                    "thumbnail":  null,
-                                   "imageName":  "GrendelPassiveAugment.jpg"
+                                   "url":  "https://wiki.warframe.com/w/Gastroparesis",
+                                   "imageName":  "GrendelPassiveAugment.jpg",
+                                   "available":  true
                                }
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-                    "releaseDate":  null,
-                    "introduced":  null
-                },
-    "tags":  [
-                 "mod"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Mods.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-mods.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Powersuits/Devourer/DevourerPassiveAugmentCard"
+                ],
+    "tags":  [
+                 "mod"
+             ],
+    "category":  "mod",
+    "relationships":  [
+
+                      ],
+    "id":  "mod.gastroparesis",
+    "release":  {
+                    "releaseDate":  "2026-09-23",
+                    "introduced":  {
+                                       "name":  "Update 44.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_44%3A_Iceblade_of_Narin",
+                                       "aliases":  [
+                                                       "44",
+                                                       "44.0",
+                                                       "Iceblade of Narin"
+                                                   ],
+                                       "parent":  "44.0",
+                                       "date":  "2026-09-23"
+                                   }
+                },
+    "summary":  "Passive Augment: Each enemy consumed adds 15% \u003cDT_GAS_COLOR\u003e Extra Gas Damage to Primary and Secondary Weapons.",
+    "stats":  {
+                  "baseDrain":  6,
+                  "tradable":  true,
+                  "compatName":  "Grendel",
+                  "masterable":  false,
+                  "polarity":  "zenurik",
+                  "fusionLimit":  3,
+                  "isPrime":  false,
+                  "rarity":  "Rare",
+                  "transmutable":  false
+              }
 }

@@ -1,109 +1,19 @@
 {
-    "id":  "weapon.corufell-prime",
-    "name":  "Corufell Prime",
-    "category":  "weapon",
-    "subCategory":  "archmelee-arch-melee",
-    "aliases":  [
-                    "/Lotus/Weapons/Tenno/Archwing/Melee/PrimeCorufell/PrimeCorufellScytheWeapon"
-                ],
-    "summary":  "Corufell Prime\u0027s golden vines streamline its transformation for even faster Heavy Attacks.",
     "description":  "Corufell Prime\u0027s golden vines streamline its transformation for even faster Heavy Attacks.",
-    "stats":  {
-                  "slot":  "archmelee",
-                  "weaponClass":  "Arch-Melee",
-                  "masteryReq":  16,
-                  "trigger":  null,
-                  "fireRate":  1.0833334,
-                  "accuracy":  null,
-                  "noise":  null,
-                  "critChance":  0.30000001,
-                  "critMultiplier":  2.5,
-                  "statusChance":  0.19999999,
-                  "multishot":  null,
-                  "magazineSize":  null,
-                  "reloadTime":  null,
-                  "totalDamage":  225,
-                  "disposition":  null,
-                  "polarities":  [
-                                     null
-                                 ],
-                  "tradable":  false,
-                  "masterable":  true,
-                  "vaulted":  null,
-                  "vaultDate":  null,
-                  "estimatedVaultDate":  null
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
+                    }
+                ],
+    "name":  "Corufell Prime",
+    "subCategory":  "archmelee-arch-melee",
     "mechanics":  {
-                      "damageTypes":  null,
-                      "damage":  {
-                                     "total":  225,
-                                     "impact":  108,
-                                     "puncture":  76.5,
-                                     "slash":  40.5,
-                                     "heat":  0,
-                                     "cold":  0,
-                                     "electricity":  0,
-                                     "toxin":  0,
-                                     "blast":  0,
-                                     "radiation":  0,
-                                     "gas":  0,
-                                     "magnetic":  0,
-                                     "viral":  0,
-                                     "corrosive":  0,
-                                     "void":  0,
-                                     "tau":  0,
-                                     "cinematic":  0,
-                                     "shieldDrain":  0,
-                                     "healthDrain":  0,
-                                     "energyDrain":  0,
-                                     "true":  0
-                                 },
-                      "damagePerShot":  [
-                                            108,
-                                            76.5,
-                                            40.5,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0
-                                        ],
-                      "attacks":  [
-                                      null
-                                  ],
-                      "stancePolarity":  null,
-                      "blockingAngle":  65,
-                      "comboDuration":  5,
-                      "followThrough":  0.40000001,
-                      "range":  2.5999999,
-                      "slamAttack":  675,
-                      "slamRadialDamage":  450,
-                      "slamRadius":  8,
-                      "slideAttack":  450,
-                      "heavyAttackDamage":  225,
                       "heavySlamAttack":  1125,
-                      "heavySlamRadialDamage":  675,
-                      "heavySlamRadius":  9,
-                      "windUp":  1.3000001,
-                      "sentinel":  null,
                       "crafting":  {
-                                       "buildPrice":  15000,
                                        "buildTime":  43200,
-                                       "skipBuildTimePrice":  50,
+                                       "buildPrice":  15000,
                                        "buildQuantity":  1,
-                                       "consumeOnBuild":  true,
                                        "components":  [
                                                           {
                                                               "name":  null,
@@ -155,37 +65,127 @@
                                                                             null
                                                                         ]
                                                           }
-                                                      ]
+                                                      ],
+                                       "skipBuildTimePrice":  50,
+                                       "consumeOnBuild":  true
                                    },
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "CorufellPrime.png",
+                                   "available":  null
+                               },
+                      "followThrough":  0.40000001,
+                      "attacks":  [
+                                      null
+                                  ],
+                      "damageTypes":  null,
+                      "slamRadialDamage":  450,
+                      "blockingAngle":  65,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  null,
+                      "damage":  {
+                                     "tau":  0,
+                                     "radiation":  0,
+                                     "impact":  108,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  40.5,
+                                     "magnetic":  0,
+                                     "cold":  0,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "corrosive":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  76.5,
+                                     "shieldDrain":  0,
+                                     "gas":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  225,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 },
+                      "range":  2.5999999,
                       "drops":  [
                                     null
                                 ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "CorufellPrime.png"
-                               }
+                      "heavyAttackDamage":  225,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  675,
+                      "comboDuration":  5,
+                      "slideAttack":  450,
+                      "windUp":  1.3000001,
+                      "slamRadius":  8,
+                      "slamAttack":  675,
+                      "damagePerShot":  [
+                                            108,
+                                            76.5,
+                                            40.5,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ]
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-                    "releaseDate":  null,
-                    "introduced":  null
-                },
-    "tags":  [
-                 "weapon",
-                 "archmelee"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD archmelee static data."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-weapons.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Weapons/Tenno/Archwing/Melee/PrimeCorufell/PrimeCorufellScytheWeapon"
+                ],
+    "tags":  [
+                 "weapon",
+                 "archmelee"
+             ],
+    "category":  "weapon",
+    "relationships":  [
+
+                      ],
+    "id":  "weapon.corufell-prime",
+    "release":  {
+                    "releaseDate":  null,
+                    "introduced":  null
+                },
+    "summary":  "Corufell Prime\u0027s golden vines streamline its transformation for even faster Heavy Attacks.",
+    "stats":  {
+                  "accuracy":  null,
+                  "noise":  null,
+                  "polarities":  [
+                                     null
+                                 ],
+                  "tradable":  false,
+                  "vaulted":  null,
+                  "totalDamage":  225,
+                  "disposition":  null,
+                  "magazineSize":  null,
+                  "fireRate":  1.0833334,
+                  "critMultiplier":  2.5,
+                  "reloadTime":  null,
+                  "masteryReq":  16,
+                  "statusChance":  0.19999999,
+                  "slot":  "archmelee",
+                  "estimatedVaultDate":  null,
+                  "trigger":  null,
+                  "critChance":  0.30000001,
+                  "weaponClass":  "Arch-Melee",
+                  "masterable":  true,
+                  "multishot":  null,
+                  "vaultDate":  null
+              }
 }

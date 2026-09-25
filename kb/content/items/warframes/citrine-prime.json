@@ -1,70 +1,24 @@
 {
-    "id":  "warframe.citrine-prime",
-    "name":  "Citrine Prime",
-    "category":  "warframe",
-    "subCategory":  "prime",
-    "aliases":  [
-                    "/Lotus/Powersuits/Geode/CitrinePrime"
-                ],
-    "summary":  "The crystalline citadel ascends. Citrine Prime captivates with refined radiance, her brilliant gems set within the finest gold filigree.",
     "description":  "The crystalline citadel ascends. Citrine Prime captivates with refined radiance, her brilliant gems set within the finest gold filigree.",
-    "stats":  {
-                  "health":  400,
-                  "shield":  270,
-                  "armor":  325,
-                  "power":  150,
-                  "stamina":  3,
-                  "masteryReq":  0,
-                  "sprintSpeed":  1,
-                  "polarities":  [
-                                     "vazarin",
-                                     "madurai",
-                                     "naramon"
-                                 ],
-                  "aura":  "naramon",
-                  "tradable":  false,
-                  "masterable":  true,
-                  "vaulted":  false,
-                  "vaultDate":  null,
-                  "estimatedVaultDate":  "2028-06-23"
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-warframes.json"
+                    }
+                ],
+    "name":  "Citrine Prime",
+    "subCategory":  "prime",
     "mechanics":  {
-                      "passiveDescription":  "Citrine grants nearby allies |BASE| health regeneration per second. Pick up a Health Orb to increase regeneration by |HPS|, up to a maximum of |MAX|.",
-                      "abilities":  [
-                                        {
-                                            "name":  "Fractured Blast",
-                                            "description":  "Slash and stagger enemies with a crystal blast that inflicts \u003cDT_SLASH_COLOR\u003eSlash Status. Enemies afflicted with this Status Effect have an increased chance of dropping Health and Energy Orbs.",
-                                            "uniqueName":  "/Lotus/Powersuits/Geode/Abilities/GeodeShardsAbility",
-                                            "imageName":  "CitrineBleedingShards.png"
-                                        },
-                                        {
-                                            "name":  "Preserving Shell",
-                                            "description":  "Citrine guards herself and nearby allies with a crystalline shell that gradually decays. Kills and assists increase the defensive power of the shell.",
-                                            "uniqueName":  "/Lotus/Powersuits/Geode/Abilities/GeodeShellAbility",
-                                            "imageName":  "CitrineProtectiveShell.png"
-                                        },
-                                        {
-                                            "name":  "Prismatic Gem",
-                                            "description":  "Deploy a gem that shoots prismatic beams. The gem targets enemies that are taking weapon damage from Citrine and her allies. Its beams inflict Heat, Cold, Toxin, and Electricity Status Effects. Status Chance and Status Duration increase for nearby allies.",
-                                            "uniqueName":  "/Lotus/Powersuits/Geode/Abilities/GeodeCrystalAbility",
-                                            "imageName":  "CitrineChromaticGeode.png"
-                                        },
-                                        {
-                                            "name":  "Crystallize",
-                                            "description":  "Citrine summons crystal fractals. The fractals rush forward, seeking enemies. Enemies touched by the fractals are paralyzed by crystalline growths. Hit the growths to deal Critical Damage.",
-                                            "uniqueName":  "/Lotus/Powersuits/Geode/Abilities/GeodeGrowthsAbility",
-                                            "imageName":  "CitrineCrystalGrowths.png"
-                                        }
-                                    ],
-                      "exalted":  [
-                                      null
-                                  ],
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  "https://wiki.warframe.com/w/Citrine%2FPrime",
+                                   "imageName":  "CitrinePrime.png",
+                                   "available":  true
+                               },
                       "crafting":  {
-                                       "buildPrice":  25000,
                                        "buildTime":  259200,
-                                       "skipBuildTimePrice":  50,
+                                       "buildPrice":  25000,
                                        "buildQuantity":  1,
-                                       "consumeOnBuild":  true,
                                        "components":  [
                                                           {
                                                               "name":  null,
@@ -116,44 +70,90 @@
                                                                             null
                                                                         ]
                                                           }
-                                                      ]
+                                                      ],
+                                       "skipBuildTimePrice":  50,
+                                       "consumeOnBuild":  true
                                    },
-                      "wiki":  {
-                                   "available":  true,
-                                   "url":  "https://wiki.warframe.com/w/Citrine%2FPrime",
-                                   "thumbnail":  null,
-                                   "imageName":  "CitrinePrime.png"
-                               }
+                      "exalted":  [
+                                      null
+                                  ],
+                      "abilities":  [
+                                        {
+                                            "name":  "Fractured Blast",
+                                            "description":  "Slash and stagger enemies with a crystal blast that inflicts \u003cDT_SLASH_COLOR\u003eSlash Status. Enemies afflicted with this Status Effect have an increased chance of dropping Health and Energy Orbs.",
+                                            "uniqueName":  "/Lotus/Powersuits/Geode/Abilities/GeodeShardsAbility",
+                                            "imageName":  "CitrineBleedingShards.png"
+                                        },
+                                        {
+                                            "name":  "Preserving Shell",
+                                            "description":  "Citrine guards herself and nearby allies with a crystalline shell that gradually decays. Kills and assists increase the defensive power of the shell.",
+                                            "uniqueName":  "/Lotus/Powersuits/Geode/Abilities/GeodeShellAbility",
+                                            "imageName":  "CitrineProtectiveShell.png"
+                                        },
+                                        {
+                                            "name":  "Prismatic Gem",
+                                            "description":  "Deploy a gem that shoots prismatic beams. The gem targets enemies that are taking weapon damage from Citrine and her allies. Its beams inflict Heat, Cold, Toxin, and Electricity Status Effects. Status Chance and Status Duration increase for nearby allies.",
+                                            "uniqueName":  "/Lotus/Powersuits/Geode/Abilities/GeodeCrystalAbility",
+                                            "imageName":  "CitrineChromaticGeode.png"
+                                        },
+                                        {
+                                            "name":  "Crystallize",
+                                            "description":  "Citrine summons crystal fractals. The fractals rush forward, seeking enemies. Enemies touched by the fractals are paralyzed by crystalline growths. Hit the growths to deal Critical Damage.",
+                                            "uniqueName":  "/Lotus/Powersuits/Geode/Abilities/GeodeGrowthsAbility",
+                                            "imageName":  "CitrineCrystalGrowths.png"
+                                        }
+                                    ],
+                      "passiveDescription":  "Citrine grants nearby allies |BASE| health regeneration per second. Pick up a Health Orb to increase regeneration by |HPS|, up to a maximum of |MAX|."
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-                    "releaseDate":  "2026-09-23",
-                    "introduced":  {
-                                       "name":  "Update 44.0",
-                                       "url":  "https://wiki.warframe.com/w/Update_44%3A_Iceblade_of_Narin",
-                                       "aliases":  [
-                                                       "44",
-                                                       "44.0",
-                                                       "Iceblade of Narin"
-                                                   ],
-                                       "parent":  "44.0",
-                                       "date":  "2026-09-23"
-                                   }
-                },
-    "tags":  [
-                 "warframe",
-                 "prime"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Warframes.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-warframes.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Powersuits/Geode/CitrinePrime"
+                ],
+    "tags":  [
+                 "warframe",
+                 "prime"
+             ],
+    "category":  "warframe",
+    "relationships":  [
+
+                      ],
+    "id":  "warframe.citrine-prime",
+    "release":  {
+                    "releaseDate":  "2026-09-23",
+                    "introduced":  {
+                                       "date":  "2026-09-23",
+                                       "parent":  "44.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_44%3A_Iceblade_of_Narin",
+                                       "name":  "Update 44.0",
+                                       "aliases":  [
+                                                       "44",
+                                                       "44.0",
+                                                       "Iceblade of Narin"
+                                                   ]
+                                   }
+                },
+    "summary":  "The crystalline citadel ascends. Citrine Prime captivates with refined radiance, her brilliant gems set within the finest gold filigree.",
+    "stats":  {
+                  "shield":  270,
+                  "aura":  "naramon",
+                  "tradable":  false,
+                  "polarities":  [
+                                     "vazarin",
+                                     "madurai",
+                                     "naramon"
+                                 ],
+                  "sprintSpeed":  1,
+                  "health":  400,
+                  "power":  150,
+                  "vaulted":  false,
+                  "masteryReq":  0,
+                  "estimatedVaultDate":  "2028-06-23",
+                  "stamina":  3,
+                  "masterable":  true,
+                  "vaultDate":  null,
+                  "armor":  325
+              }
 }

@@ -1,25 +1,27 @@
 {
-    "id":  "activity.quest-eris-mortem",
-    "name":  "Eris Mortem",
-    "category":  "activity",
-    "subCategory":  "quest",
-    "aliases":  [
-                    "/Lotus/Types/Keys/TauPrologue/TauPrologueKeyChainC"
-                ],
-    "summary":  "Praghasa feasts.",
     "description":  "Praghasa feasts.",
-    "stats":  {
-                  "tradable":  false,
-                  "masterable":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-activities.json"
+                    }
+                ],
+    "name":  "Eris Mortem",
+    "subCategory":  "quest",
     "mechanics":  {
-                      "type":  "Key",
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "TauboundKeyChain.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
-                                       "buildPrice":  null,
                                        "buildTime":  null,
-                                       "skipBuildTimePrice":  null,
+                                       "buildPrice":  null,
                                        "buildQuantity":  null,
-                                       "consumeOnBuild":  null,
                                        "components":  [
                                                           {
                                                               "name":  null,
@@ -31,36 +33,34 @@
                                                                             null
                                                                         ]
                                                           }
-                                                      ]
+                                                      ],
+                                       "skipBuildTimePrice":  null,
+                                       "consumeOnBuild":  null
                                    },
-                      "drops":  [
-                                    null
-                                ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "TauboundKeyChain.png"
-                               }
+                      "type":  "Key"
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-
-                },
-    "tags":  [
-                 "activity",
-                 "quest"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Quests.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-activities.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Types/Keys/TauPrologue/TauPrologueKeyChainC"
+                ],
+    "tags":  [
+                 "activity",
+                 "quest"
+             ],
+    "category":  "activity",
+    "relationships":  [
+
+                      ],
+    "id":  "activity.quest-eris-mortem",
+    "release":  {
+
+                },
+    "summary":  "Praghasa feasts.",
+    "stats":  {
+                  "tradable":  false,
+                  "masterable":  false
+              }
 }

@@ -1,64 +1,74 @@
 {
-    "id":  "mod.brood-s-oversurge",
-    "name":  "Brood\u0027s Oversurge",
-    "category":  "mod",
-    "subCategory":  "oraxia",
-    "aliases":  [
-                    "/Lotus/Powersuits/Oraxia/BroodAugmentCard"
-                ],
-    "summary":  "Widow\u0027s Brood Augment: Scuttlers are galvanized with Electricity. Hold to direct all active Scuttlers at the aimed target, inflicting 2000 \u003cDT_ELECTRICITY_COLOR\u003e Electricity Damage and Status Effect in a radius.",
     "description":  "Widow\u0027s Brood Augment: Scuttlers are galvanized with Electricity. Hold to direct all active Scuttlers at the aimed target, inflicting 2000 \u003cDT_ELECTRICITY_COLOR\u003e Electricity Damage and Status Effect in a radius.",
-    "stats":  {
-                  "polarity":  "zenurik",
-                  "rarity":  "Rare",
-                  "baseDrain":  6,
-                  "fusionLimit":  3,
-                  "compatName":  "Oraxia",
-                  "tradable":  true,
-                  "transmutable":  null,
-                  "masterable":  false,
-                  "isPrime":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-mods.json"
+                    }
+                ],
+    "name":  "Brood\u0027s Oversurge",
+    "subCategory":  "oraxia",
     "mechanics":  {
+                      "topRankStats":  [
+                                           "Widow\u0027s Brood Augment: Scuttlers are galvanized with Electricity. Hold to direct all active Scuttlers at the aimed target, inflicting 2000 \u003cDT_ELECTRICITY_COLOR\u003e Electricity Damage and Status Effect in a radius."
+                                       ],
                       "type":  "Warframe Mod",
+                      "drops":  [
+                                    null
+                                ],
+                      "isAugment":  true,
                       "levelStats":  [
                                          "Widow\u0027s Brood Augment: Scuttlers are galvanized with Electricity. Hold to direct all active Scuttlers at the aimed target, inflicting 1250 \u003cDT_ELECTRICITY_COLOR\u003e Electricity Damage and Status Effect in a radius.",
                                          "Widow\u0027s Brood Augment: Scuttlers are galvanized with Electricity. Hold to direct all active Scuttlers at the aimed target, inflicting 1500 \u003cDT_ELECTRICITY_COLOR\u003e Electricity Damage and Status Effect in a radius.",
                                          "Widow\u0027s Brood Augment: Scuttlers are galvanized with Electricity. Hold to direct all active Scuttlers at the aimed target, inflicting 1750 \u003cDT_ELECTRICITY_COLOR\u003e Electricity Damage and Status Effect in a radius.",
                                          "Widow\u0027s Brood Augment: Scuttlers are galvanized with Electricity. Hold to direct all active Scuttlers at the aimed target, inflicting 2000 \u003cDT_ELECTRICITY_COLOR\u003e Electricity Damage and Status Effect in a radius."
                                      ],
-                      "topRankStats":  [
-                                           "Widow\u0027s Brood Augment: Scuttlers are galvanized with Electricity. Hold to direct all active Scuttlers at the aimed target, inflicting 2000 \u003cDT_ELECTRICITY_COLOR\u003e Electricity Damage and Status Effect in a radius."
-                                       ],
-                      "isAugment":  true,
-                      "drops":  [
-                                    null
-                                ],
                       "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
                                    "thumbnail":  null,
-                                   "imageName":  "OraxiaBroodAugment.jpg"
+                                   "url":  "https://wiki.warframe.com/w/Brood\u0027s_Oversurge",
+                                   "imageName":  "OraxiaBroodAugment.jpg",
+                                   "available":  true
                                }
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-                    "releaseDate":  null,
-                    "introduced":  null
-                },
-    "tags":  [
-                 "mod"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Mods.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-mods.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Powersuits/Oraxia/BroodAugmentCard"
+                ],
+    "tags":  [
+                 "mod"
+             ],
+    "category":  "mod",
+    "relationships":  [
+
+                      ],
+    "id":  "mod.brood-s-oversurge",
+    "release":  {
+                    "releaseDate":  "2026-09-23",
+                    "introduced":  {
+                                       "name":  "Update 44.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_44%3A_Iceblade_of_Narin",
+                                       "aliases":  [
+                                                       "44",
+                                                       "44.0",
+                                                       "Iceblade of Narin"
+                                                   ],
+                                       "parent":  "44.0",
+                                       "date":  "2026-09-23"
+                                   }
+                },
+    "summary":  "Widow\u0027s Brood Augment: Scuttlers are galvanized with Electricity. Hold to direct all active Scuttlers at the aimed target, inflicting 2000 \u003cDT_ELECTRICITY_COLOR\u003e Electricity Damage and Status Effect in a radius.",
+    "stats":  {
+                  "baseDrain":  6,
+                  "tradable":  true,
+                  "compatName":  "Oraxia",
+                  "masterable":  false,
+                  "polarity":  "zenurik",
+                  "fusionLimit":  3,
+                  "isPrime":  false,
+                  "rarity":  "Rare",
+                  "transmutable":  false
+              }
 }

@@ -1,25 +1,27 @@
 {
-    "id":  "resource.entropic-kuva",
-    "name":  "Entropic Kuva",
-    "category":  "resource",
-    "subCategory":  "resource",
-    "aliases":  [
-                    "/Lotus/Types/Gameplay/Zariman/Resources/EntropicKuvaItem"
-                ],
-    "summary":  "A dangerous and erratic type of Kuva.\n\nObtained from Zariman missions.",
     "description":  "A dangerous and erratic type of Kuva.\n\nObtained from Zariman missions.",
-    "stats":  {
-                  "type":  "Resource",
-                  "tradable":  false,
-                  "masterable":  false
-              },
+    "sources":  [
+                    {
+                        "type":  "static-import",
+                        "value":  "imports/static/source-snapshots/wfcd/wfcd-resources.json"
+                    }
+                ],
+    "name":  "Entropic Kuva",
+    "subCategory":  "resource",
     "mechanics":  {
+                      "wiki":  {
+                                   "thumbnail":  null,
+                                   "url":  null,
+                                   "imageName":  "EntropicKuva.png",
+                                   "available":  null
+                               },
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
-                                       "buildPrice":  null,
                                        "buildTime":  null,
-                                       "skipBuildTimePrice":  null,
+                                       "buildPrice":  null,
                                        "buildQuantity":  null,
-                                       "consumeOnBuild":  null,
                                        "components":  [
                                                           {
                                                               "name":  null,
@@ -31,35 +33,33 @@
                                                                             null
                                                                         ]
                                                           }
-                                                      ]
-                                   },
-                      "drops":  [
-                                    null
-                                ],
-                      "wiki":  {
-                                   "available":  null,
-                                   "url":  null,
-                                   "thumbnail":  null,
-                                   "imageName":  "EntropicKuva.png"
-                               }
+                                                      ],
+                                       "skipBuildTimePrice":  null,
+                                       "consumeOnBuild":  null
+                                   }
                   },
-    "relationships":  [
-
-                      ],
-    "release":  {
-
-                },
-    "tags":  [
-                 "resource"
-             ],
     "notes":  [
                   "Normalized from static import source.",
                   "Converted from WFCD Resources.json."
               ],
-    "sources":  [
-                    {
-                        "type":  "static-import",
-                        "value":  "imports/static/source-snapshots/wfcd/wfcd-resources.json"
-                    }
-                ]
+    "aliases":  [
+                    "/Lotus/Types/Gameplay/Zariman/Resources/EntropicKuvaItem"
+                ],
+    "tags":  [
+                 "resource"
+             ],
+    "category":  "resource",
+    "relationships":  [
+
+                      ],
+    "id":  "resource.entropic-kuva",
+    "release":  {
+
+                },
+    "summary":  "A dangerous and erratic type of Kuva.\n\nObtained from Zariman missions.",
+    "stats":  {
+                  "tradable":  false,
+                  "type":  "Resource",
+                  "masterable":  false
+              }
 }
