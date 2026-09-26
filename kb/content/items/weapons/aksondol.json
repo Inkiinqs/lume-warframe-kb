@@ -1,5 +1,5 @@
 {
-    "description":  "Narin\u0027s signature pistols strike with winter\u0027s bite. Reloading sends out a chilling pulse that inflicts Cold Status Effect, the pulse\u0027s range increases with each round reloaded.",
+    "id":  "weapon.aksondol",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -8,6 +8,10 @@
                 ],
     "name":  "Aksondol",
     "subCategory":  "secondary-pistol",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD secondary static data."
+              ],
     "mechanics":  {
                       "heavySlamAttack":  null,
                       "crafting":  {
@@ -65,7 +69,6 @@
                                    "imageName":  "DuelistPistols.png",
                                    "available":  true
                                },
-                      "followThrough":  null,
                       "attacks":  [
                                       {
                                           "name":  "Normal Attack",
@@ -83,12 +86,13 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  0,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  0,
@@ -96,30 +100,16 @@
                                      "cold":  70,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  70,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  140,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             70,
@@ -141,12 +131,22 @@
                                             0,
                                             0,
                                             0
-                                        ]
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
                   },
-    "notes":  [
-                  "Normalized from static import source.",
-                  "Converted from WFCD secondary static data."
-              ],
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Pistols/DuelistPistols/DuelistPistols"
                 ],
@@ -158,7 +158,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.aksondol",
+    "description":  "Narin\u0027s signature pistols strike with winter\u0027s bite. Reloading sends out a chilling pulse that inflicts Cold Status Effect, the pulse\u0027s range increases with each round reloaded.",
     "release":  {
                     "releaseDate":  "2026-09-23",
                     "introduced":  {
@@ -180,23 +180,23 @@
                   "polarities":  [
                                      "naramon"
                                  ],
+                  "masterable":  true,
                   "tradable":  false,
-                  "vaulted":  null,
-                  "totalDamage":  140,
+                  "trigger":  "Semi",
                   "disposition":  1,
-                  "magazineSize":  8,
                   "fireRate":  4,
                   "critMultiplier":  2.5999999,
-                  "reloadTime":  2.5999999,
+                  "totalDamage":  140,
+                  "vaulted":  null,
                   "masteryReq":  14,
-                  "statusChance":  0.22000003,
-                  "slot":  "secondary",
+                  "reloadTime":  2.5999999,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "secondary",
                   "critChance":  0.23999999,
+                  "magazineSize":  8,
                   "weaponClass":  "Pistol",
-                  "masterable":  true,
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "vaultDate":  null,
+                  "statusChance":  0.22000003,
+                  "multishot":  1
               }
 }

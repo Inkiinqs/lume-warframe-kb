@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.ekhein",
+    "description":  "Wield the timeless power of this mighty hammer. Heavy Attacks performed with Ekhein temporarily increase its Damage and Attack Speed.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,6 +75,7 @@
                                        "skipBuildTimePrice":  50,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.40000001,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Ekhein.png?4ac5d",
                                    "url":  "https://wiki.warframe.com/w/Ekhein",
@@ -128,11 +129,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  680,
-                      "slamRadius":  9,
                       "blockingAngle":  50,
+                      "heavySlamRadius":  10,
+                      "stancePolarity":  "madurai",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  340,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -142,18 +145,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  340,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.8,
                       "heavyAttackDamage":  2040,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  1020,
+                      "comboDuration":  5,
+                      "slideAttack":  680,
+                      "windUp":  1.2,
+                      "slamRadius":  9,
+                      "slamAttack":  1020,
                       "damagePerShot":  [
                                             340,
                                             0,
@@ -176,16 +186,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.8,
-                      "heavySlamRadialDamage":  1020,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "madurai",
-                      "slideAttack":  680,
-                      "windUp":  1.2,
-                      "followThrough":  0.40000001,
-                      "slamAttack":  1020,
-                      "heavySlamRadius":  10,
                       "heavySlamAttack":  1700
                   },
     "aliases":  [
@@ -199,7 +199,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Wield the timeless power of this mighty hammer. Heavy Attacks performed with Ekhein temporarily increase its Damage and Attack Speed.",
+    "id":  "weapon.ekhein",
     "release":  {
                     "releaseDate":  "2023-12-13",
                     "introduced":  {

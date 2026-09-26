@@ -1,5 +1,5 @@
 {
-    "description":  "Corufell Prime\u0027s golden vines streamline its transformation for even faster Heavy Attacks.",
+    "id":  "weapon.corufell-prime",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -8,6 +8,10 @@
                 ],
     "name":  "Corufell Prime",
     "subCategory":  "archmelee-arch-melee",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD archmelee static data."
+              ],
     "mechanics":  {
                       "heavySlamAttack":  1125,
                       "crafting":  {
@@ -75,19 +79,19 @@
                                    "imageName":  "CorufellPrime.png",
                                    "available":  null
                                },
-                      "followThrough":  0.40000001,
                       "attacks":  [
                                       null
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  450,
                       "blockingAngle":  65,
-                      "heavySlamRadius":  9,
-                      "stancePolarity":  null,
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  108,
+                                     "heat":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  40.5,
@@ -95,30 +99,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  76.5,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  225,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  2.5999999,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  225,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  675,
-                      "comboDuration":  5,
-                      "slideAttack":  450,
-                      "windUp":  1.3000001,
-                      "slamRadius":  8,
-                      "slamAttack":  675,
                       "damagePerShot":  [
                                             108,
                                             76.5,
@@ -140,12 +130,22 @@
                                             0,
                                             0,
                                             0
-                                        ]
+                                        ],
+                      "range":  2.5999999,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  225,
+                      "followThrough":  0.40000001,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  675,
+                      "stancePolarity":  null,
+                      "slideAttack":  450,
+                      "windUp":  1.3000001,
+                      "slamRadius":  8,
+                      "slamAttack":  675,
+                      "heavySlamRadius":  9
                   },
-    "notes":  [
-                  "Normalized from static import source.",
-                  "Converted from WFCD archmelee static data."
-              ],
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Archwing/Melee/PrimeCorufell/PrimeCorufellScytheWeapon"
                 ],
@@ -157,7 +157,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.corufell-prime",
+    "description":  "Corufell Prime\u0027s golden vines streamline its transformation for even faster Heavy Attacks.",
     "release":  {
                     "releaseDate":  null,
                     "introduced":  null
@@ -169,23 +169,23 @@
                   "polarities":  [
                                      null
                                  ],
+                  "masterable":  true,
                   "tradable":  false,
-                  "vaulted":  null,
-                  "totalDamage":  225,
+                  "trigger":  null,
                   "disposition":  null,
-                  "magazineSize":  null,
                   "fireRate":  1.0833334,
                   "critMultiplier":  2.5,
-                  "reloadTime":  null,
+                  "totalDamage":  225,
+                  "vaulted":  null,
                   "masteryReq":  16,
-                  "statusChance":  0.19999999,
-                  "slot":  "archmelee",
+                  "reloadTime":  null,
                   "estimatedVaultDate":  null,
-                  "trigger":  null,
+                  "slot":  "archmelee",
                   "critChance":  0.30000001,
+                  "magazineSize":  null,
                   "weaponClass":  "Arch-Melee",
-                  "masterable":  true,
-                  "multishot":  null,
-                  "vaultDate":  null
+                  "vaultDate":  null,
+                  "statusChance":  0.19999999,
+                  "multishot":  null
               }
 }

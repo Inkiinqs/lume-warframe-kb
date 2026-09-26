@@ -1,5 +1,5 @@
 {
-    "description":  "This rose has gilded thorns. Deal death from even further afar with Citrine Prime\u0027s signature shotgun.",
+    "id":  "weapon.steflos-prime",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -8,6 +8,10 @@
                 ],
     "name":  "Steflos Prime",
     "subCategory":  "primary-shotgun",
+    "notes":  [
+                  "Normalized from static import source.",
+                  "Converted from WFCD primary static data."
+              ],
     "mechanics":  {
                       "heavySlamAttack":  null,
                       "crafting":  {
@@ -75,19 +79,19 @@
                                    "imageName":  "SteflosPrime.png",
                                    "available":  null
                                },
-                      "followThrough":  null,
                       "attacks":  [
                                       null
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
-                                     "radiation":  0,
                                      "impact":  195,
+                                     "heat":  285,
+                                     "gas":  0,
+                                     "corrosive":  0,
                                      "electricity":  0,
                                      "true":  0,
                                      "slash":  0,
@@ -95,30 +99,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "corrosive":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
-                                     "gas":  0,
                                      "energyDrain":  0,
-                                     "heat":  285,
+                                     "radiation":  0,
                                      "total":  480,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             195,
                                             0,
@@ -140,12 +130,22 @@
                                             0,
                                             0,
                                             0
-                                        ]
+                                        ],
+                      "range":  null,
+                      "drops":  [
+                                    null
+                                ],
+                      "heavyAttackDamage":  null,
+                      "followThrough":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null
                   },
-    "notes":  [
-                  "Normalized from static import source.",
-                  "Converted from WFCD primary static data."
-              ],
     "aliases":  [
                     "/Lotus/Weapons/Tenno/LongGuns/PrimeSteflos/PrimeSteflosShotgun"
                 ],
@@ -157,7 +157,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.steflos-prime",
+    "description":  "This rose has gilded thorns. Deal death from even further afar with Citrine Prime\u0027s signature shotgun.",
     "release":  {
                     "releaseDate":  null,
                     "introduced":  null
@@ -169,23 +169,23 @@
                   "polarities":  [
                                      null
                                  ],
+                  "masterable":  true,
                   "tradable":  false,
-                  "vaulted":  null,
-                  "totalDamage":  480,
+                  "trigger":  "Semi",
                   "disposition":  null,
-                  "magazineSize":  12,
                   "fireRate":  3.0000002,
                   "critMultiplier":  2.2,
-                  "reloadTime":  2.4000001,
+                  "totalDamage":  480,
+                  "vaulted":  null,
                   "masteryReq":  15,
-                  "statusChance":  0.27999997,
-                  "slot":  "primary",
+                  "reloadTime":  2.4000001,
                   "estimatedVaultDate":  null,
-                  "trigger":  "Semi",
+                  "slot":  "primary",
                   "critChance":  0.18000001,
+                  "magazineSize":  12,
                   "weaponClass":  "Shotgun",
-                  "masterable":  true,
-                  "multishot":  1,
-                  "vaultDate":  null
+                  "vaultDate":  null,
+                  "statusChance":  0.27999997,
+                  "multishot":  1
               }
 }
