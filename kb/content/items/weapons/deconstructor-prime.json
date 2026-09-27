@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.deconstructor-prime",
+    "description":  "Allows the Helios Prime to violently disassemble and turn itself into a deadly projectile.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -35,6 +35,7 @@
                                        "skipBuildTimePrice":  null,
                                        "consumeOnBuild":  null
                                    },
+                      "followThrough":  null,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/DeconstructorPrime.png?54c42",
                                    "url":  "https://wiki.warframe.com/w/Deconstructor_Prime",
@@ -84,12 +85,12 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  160,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -99,17 +100,26 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  160,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
                       "heavyAttackDamage":  null,
+                      "sentinel":  true,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             160,
                                             0,
@@ -132,16 +142,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavySlamRadialDamage":  null,
-                      "sentinel":  true,
-                      "comboDuration":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -155,7 +155,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Allows the Helios Prime to violently disassemble and turn itself into a deadly projectile.",
+    "id":  "weapon.deconstructor-prime",
     "release":  {
                     "releaseDate":  "2017-02-28",
                     "introduced":  {

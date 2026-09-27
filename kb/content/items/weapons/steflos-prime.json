@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.steflos-prime",
+    "description":  "This rose has gilded thorns. Deal death from even further afar with Citrine Prime\u0027s signature shotgun.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -13,7 +13,9 @@
                   "Converted from WFCD primary static data."
               ],
     "mechanics":  {
-                      "heavySlamAttack":  null,
+                      "drops":  [
+                                    null
+                                ],
                       "crafting":  {
                                        "buildTime":  43200,
                                        "buildPrice":  15000,
@@ -74,22 +76,41 @@
                                        "consumeOnBuild":  true
                                    },
                       "wiki":  {
-                                   "thumbnail":  null,
-                                   "url":  null,
+                                   "thumbnail":  "https://wiki.warframe.com/images/SteflosPrime.png?02487",
+                                   "url":  "https://wiki.warframe.com/w/Steflos_Prime",
                                    "imageName":  "SteflosPrime.png",
-                                   "available":  null
+                                   "available":  true
                                },
                       "attacks":  [
-                                      null
+                                      {
+                                          "name":  "Normal Attack",
+                                          "speed":  3,
+                                          "crit_chance":  18,
+                                          "crit_mult":  2.2,
+                                          "status_chance":  28,
+                                          "shot_type":  "Projectile",
+                                          "shot_speed":  20,
+                                          "flight":  20,
+                                          "falloff":  {
+                                                          "start":  8,
+                                                          "end":  24,
+                                                          "reduction":  0.96875
+                                                      },
+                                          "damage":  {
+                                                         "impact":  195,
+                                                         "heat":  285
+                                                     }
+                                      }
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "sentinel":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  195,
-                                     "heat":  285,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -99,16 +120,26 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  285,
                                      "total":  480,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             195,
                                             0,
@@ -131,20 +162,7 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "drops":  [
-                                    null
-                                ],
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null
+                      "heavySlamAttack":  null
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/LongGuns/PrimeSteflos/PrimeSteflosShotgun"
@@ -157,35 +175,46 @@
     "relationships":  [
 
                       ],
-    "description":  "This rose has gilded thorns. Deal death from even further afar with Citrine Prime\u0027s signature shotgun.",
+    "id":  "weapon.steflos-prime",
     "release":  {
-                    "releaseDate":  null,
-                    "introduced":  null
+                    "releaseDate":  "2026-09-23",
+                    "introduced":  {
+                                       "name":  "Update 44.0",
+                                       "url":  "https://wiki.warframe.com/w/Update_44%3A_Iceblade_of_Narin",
+                                       "aliases":  [
+                                                       "44",
+                                                       "44.0",
+                                                       "Iceblade of Narin"
+                                                   ],
+                                       "parent":  "44.0",
+                                       "date":  "2026-09-23"
+                                   }
                 },
     "summary":  "This rose has gilded thorns. Deal death from even further afar with Citrine Prime\u0027s signature shotgun.",
     "stats":  {
                   "accuracy":  100,
                   "noise":  "Alarming",
                   "polarities":  [
-                                     null
+                                     "madurai",
+                                     "madurai"
                                  ],
-                  "masterable":  true,
                   "tradable":  false,
-                  "trigger":  "Semi",
-                  "disposition":  null,
+                  "disposition":  1,
+                  "magazineSize":  12,
                   "fireRate":  3.0000002,
                   "critMultiplier":  2.2,
                   "totalDamage":  480,
-                  "vaulted":  null,
+                  "vaulted":  false,
                   "masteryReq":  15,
                   "reloadTime":  2.4000001,
-                  "estimatedVaultDate":  null,
-                  "slot":  "primary",
+                  "estimatedVaultDate":  "2028-06-23",
+                  "trigger":  "Semi",
                   "critChance":  0.18000001,
-                  "magazineSize":  12,
+                  "slot":  "primary",
+                  "masterable":  true,
                   "weaponClass":  "Shotgun",
-                  "vaultDate":  null,
                   "statusChance":  0.27999997,
+                  "vaultDate":  null,
                   "multishot":  1
               }
 }
