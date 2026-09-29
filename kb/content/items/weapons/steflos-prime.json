@@ -1,5 +1,5 @@
 {
-    "description":  "This rose has gilded thorns. Deal death from even further afar with Citrine Prime\u0027s signature shotgun.",
+    "id":  "weapon.steflos-prime",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -94,7 +94,7 @@
                                           "falloff":  {
                                                           "start":  8,
                                                           "end":  24,
-                                                          "reduction":  0.96875
+                                                          "reduction":  0.625
                                                       },
                                           "damage":  {
                                                          "impact":  195,
@@ -104,13 +104,12 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
-                      "heavySlamRadius":  null,
-                      "stancePolarity":  null,
+                      "followThrough":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  195,
+                                     "heat":  285,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -120,26 +119,16 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  285,
+                                     "radiation":  0,
                                      "total":  480,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  null,
-                      "comboDuration":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
                       "damagePerShot":  [
                                             195,
                                             0,
@@ -162,6 +151,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  null,
+                      "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "comboDuration":  null,
+                      "heavySlamRadialDamage":  null,
+                      "stancePolarity":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
+                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -175,19 +175,19 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.steflos-prime",
+    "description":  "This rose has gilded thorns. Deal death from even further afar with Citrine Prime\u0027s signature shotgun.",
     "release":  {
                     "releaseDate":  "2026-09-23",
                     "introduced":  {
-                                       "name":  "Update 44.0",
+                                       "date":  "2026-09-23",
+                                       "parent":  "44.0",
                                        "url":  "https://wiki.warframe.com/w/Update_44%3A_Iceblade_of_Narin",
+                                       "name":  "Update 44.0",
                                        "aliases":  [
                                                        "44",
                                                        "44.0",
                                                        "Iceblade of Narin"
-                                                   ],
-                                       "parent":  "44.0",
-                                       "date":  "2026-09-23"
+                                                   ]
                                    }
                 },
     "summary":  "This rose has gilded thorns. Deal death from even further afar with Citrine Prime\u0027s signature shotgun.",
@@ -200,7 +200,6 @@
                                  ],
                   "tradable":  false,
                   "disposition":  1,
-                  "magazineSize":  12,
                   "fireRate":  3.0000002,
                   "critMultiplier":  2.2,
                   "totalDamage":  480,
@@ -210,8 +209,9 @@
                   "estimatedVaultDate":  "2028-06-23",
                   "trigger":  "Semi",
                   "critChance":  0.18000001,
-                  "slot":  "primary",
+                  "magazineSize":  12,
                   "masterable":  true,
+                  "slot":  "primary",
                   "weaponClass":  "Shotgun",
                   "statusChance":  0.27999997,
                   "vaultDate":  null,
