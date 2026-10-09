@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.nunchasa",
+    "description":  "Narin\u0027s signature bow is the north wind\u0027s icy messenger. Alt Fire unleashes a charged blizzard arrow that freezes enemies it touches and leaves behind a chilling path.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -88,6 +88,7 @@
                                           "crit_chance":  32,
                                           "crit_mult":  2.4,
                                           "status_chance":  32,
+                                          "charge_time":  0.6,
                                           "shot_type":  "Projectile",
                                           "shot_speed":  70,
                                           "flight":  70,
@@ -115,31 +116,20 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
+                      "slamRadius":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
+                      "heavyAttackDamage":  null,
+                      "range":  null,
+                      "heavySlamRadialDamage":  null,
                       "sentinel":  null,
-                      "damage":  {
-                                     "tau":  0,
-                                     "impact":  0,
-                                     "heat":  0,
-                                     "gas":  0,
-                                     "corrosive":  0,
-                                     "electricity":  0,
-                                     "true":  0,
-                                     "slash":  0,
-                                     "magnetic":  0,
-                                     "cold":  200,
-                                     "cinematic":  0,
-                                     "viral":  0,
-                                     "toxin":  0,
-                                     "puncture":  200,
-                                     "shieldDrain":  0,
-                                     "energyDrain":  0,
-                                     "radiation":  0,
-                                     "total":  400,
-                                     "healthDrain":  0,
-                                     "blast":  0,
-                                     "void":  0
-                                 },
+                      "heavySlamAttack":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "followThrough":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             200,
@@ -162,18 +152,29 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavyAttackDamage":  null,
-                      "followThrough":  null,
-                      "comboDuration":  null,
-                      "heavySlamRadialDamage":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "slamRadius":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
-                      "heavySlamAttack":  null
+                      "damage":  {
+                                     "tau":  0,
+                                     "impact":  0,
+                                     "gas":  0,
+                                     "corrosive":  0,
+                                     "electricity":  0,
+                                     "true":  0,
+                                     "slash":  0,
+                                     "magnetic":  0,
+                                     "cold":  200,
+                                     "cinematic":  0,
+                                     "viral":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
+                                     "puncture":  200,
+                                     "shieldDrain":  0,
+                                     "energyDrain":  0,
+                                     "heat":  0,
+                                     "total":  400,
+                                     "toxin":  0,
+                                     "blast":  0,
+                                     "void":  0
+                                 }
                   },
     "aliases":  [
                     "/Lotus/Weapons/Tenno/Bows/DuelistBow/DuelistBow"
@@ -186,7 +187,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Narin\u0027s signature bow is the north wind\u0027s icy messenger. Alt Fire unleashes a charged blizzard arrow that freezes enemies it touches and leaves behind a chilling path.",
+    "id":  "weapon.nunchasa",
     "release":  {
                     "releaseDate":  "2026-09-23",
                     "introduced":  {
