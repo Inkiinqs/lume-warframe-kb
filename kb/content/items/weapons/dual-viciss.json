@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.dual-viciss",
+    "description":  "Reap what the Techrot have sown with this vicious pair of Scaldra hand-scythes.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -55,6 +55,7 @@
                                        "skipBuildTimePrice":  45,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  0.5,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/DualViciss.png?be8ed",
                                    "url":  "https://wiki.warframe.com/w/Dual_Viciss",
@@ -110,11 +111,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  510,
-                      "slamRadius":  8,
                       "blockingAngle":  60,
+                      "heavySlamRadius":  9,
+                      "stancePolarity":  "naramon",
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
+                                     "heat":  0,
                                      "gas":  153,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -124,18 +127,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  51,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  0,
                                      "total":  255,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  2.4000001,
                       "heavyAttackDamage":  1020,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  765,
+                      "comboDuration":  5,
+                      "slideAttack":  510,
+                      "windUp":  0.69999999,
+                      "slamRadius":  8,
+                      "slamAttack":  510,
                       "damagePerShot":  [
                                             0,
                                             51,
@@ -158,16 +168,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  2.4000001,
-                      "heavySlamRadialDamage":  765,
-                      "sentinel":  null,
-                      "comboDuration":  5,
-                      "stancePolarity":  "naramon",
-                      "slideAttack":  510,
-                      "windUp":  0.69999999,
-                      "followThrough":  0.5,
-                      "slamAttack":  510,
-                      "heavySlamRadius":  9,
                       "heavySlamAttack":  1020
                   },
     "aliases":  [
@@ -181,7 +181,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Reap what the Techrot have sown with this vicious pair of Scaldra hand-scythes.",
+    "id":  "weapon.dual-viciss",
     "release":  {
                     "releaseDate":  "2025-03-19",
                     "introduced":  {
