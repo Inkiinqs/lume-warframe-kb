@@ -1,5 +1,5 @@
 {
-    "id":  "enemy.battalyst",
+    "description":  "Representative Sentient unit used to anchor high-threat adaptive enemy knowledge.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -71,8 +71,12 @@
                                         "chance":  null
                                     }
                                 ],
-                      "faction":  "faction.sentient",
                       "combatRole":  "advanced-combatant",
+                      "recommendedDamage":  [
+                                                "status.heat",
+                                                "status.slash",
+                                                "status.toxin"
+                                            ],
                       "recommendedStatusPlan":  [
                                                     "Avoid over-specializing around one static damage profile.",
                                                     "Use high burst and flexible follow-up damage to stay ahead of adaptation."
@@ -151,11 +155,7 @@
                                                             ]
                                           }
                                       ],
-                      "recommendedDamage":  [
-                                                "status.heat",
-                                                "status.slash",
-                                                "status.toxin"
-                                            ]
+                      "faction":  "faction.sentient"
                   },
     "aliases":  [
                     "/Lotus/Types/Enemies/Sentients/Troopers/SentientTrooperAvatar"
@@ -168,7 +168,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Representative Sentient unit used to anchor high-threat adaptive enemy knowledge.",
+    "id":  "enemy.battalyst",
     "release":  {
 
                 },
