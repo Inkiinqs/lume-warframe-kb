@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.atomos",
+    "description":  "This particle cannon generates a condensed beam of super-heated plasma designed to melt rock to ore, and enemies to molten slag.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,6 +75,7 @@
                                        "skipBuildTimePrice":  45,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  null,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Atomos.png?91d61",
                                    "url":  "https://wiki.warframe.com/w/Atomos",
@@ -125,11 +126,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
+                                     "heat":  29,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -139,18 +142,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  0,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  29,
+                                     "radiation":  0,
                                      "total":  29,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
                       "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -173,16 +183,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavySlamRadialDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -196,7 +196,7 @@
     "relationships":  [
 
                       ],
-    "description":  "This particle cannon generates a condensed beam of super-heated plasma designed to melt rock to ore, and enemies to molten slag.",
+    "id":  "weapon.atomos",
     "release":  {
                     "releaseDate":  "2015-05-12",
                     "introduced":  {

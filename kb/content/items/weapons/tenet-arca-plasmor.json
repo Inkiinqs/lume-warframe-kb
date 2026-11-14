@@ -1,5 +1,5 @@
 {
-    "id":  "weapon.tenet-arca-plasmor",
+    "description":  "Custom variant of a Corpus classic. Staggering blasts now ricochet and have greater range at the cost of a slower fire and reload speed. Surviving enemies are consumed with radiation.",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -35,6 +35,7 @@
                                        "skipBuildTimePrice":  0,
                                        "consumeOnBuild":  true
                                    },
+                      "followThrough":  null,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/TenetArcaPlasmor.png?a6d9a",
                                    "url":  "https://wiki.warframe.com/w/Tenet_Arca_Plasmor",
@@ -63,11 +64,13 @@
                                   ],
                       "damageTypes":  null,
                       "slamRadialDamage":  null,
-                      "slamRadius":  null,
                       "blockingAngle":  null,
+                      "heavySlamRadius":  null,
+                      "stancePolarity":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  0,
+                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -77,18 +80,25 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "radiation":  760,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "heat":  0,
+                                     "radiation":  760,
                                      "total":  760,
-                                     "toxin":  0,
+                                     "healthDrain":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
+                      "range":  null,
                       "heavyAttackDamage":  null,
+                      "sentinel":  null,
+                      "heavySlamRadialDamage":  null,
+                      "comboDuration":  null,
+                      "slideAttack":  null,
+                      "windUp":  null,
+                      "slamRadius":  null,
+                      "slamAttack":  null,
                       "damagePerShot":  [
                                             0,
                                             0,
@@ -111,16 +121,6 @@
                                             0,
                                             0
                                         ],
-                      "range":  null,
-                      "heavySlamRadialDamage":  null,
-                      "sentinel":  null,
-                      "comboDuration":  null,
-                      "stancePolarity":  null,
-                      "slideAttack":  null,
-                      "windUp":  null,
-                      "followThrough":  null,
-                      "slamAttack":  null,
-                      "heavySlamRadius":  null,
                       "heavySlamAttack":  null
                   },
     "aliases":  [
@@ -134,7 +134,7 @@
     "relationships":  [
 
                       ],
-    "description":  "Custom variant of a Corpus classic. Staggering blasts now ricochet and have greater range at the cost of a slower fire and reload speed. Surviving enemies are consumed with radiation.",
+    "id":  "weapon.tenet-arca-plasmor",
     "release":  {
                     "releaseDate":  "2021-07-06",
                     "introduced":  {
