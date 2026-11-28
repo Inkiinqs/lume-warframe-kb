@@ -1,5 +1,5 @@
 {
-    "description":  "With these blazing fast nunchaku, the enemy will never know what hit them.",
+    "id":  "weapon.shaku",
     "sources":  [
                     {
                         "type":  "static-import",
@@ -75,7 +75,6 @@
                                        "skipBuildTimePrice":  35,
                                        "consumeOnBuild":  true
                                    },
-                      "followThrough":  0.5,
                       "wiki":  {
                                    "thumbnail":  "https://wiki.warframe.com/images/Shaku.png?8bb96",
                                    "url":  "https://wiki.warframe.com/w/Shaku",
@@ -130,12 +129,10 @@
                       "damageTypes":  null,
                       "slamRadialDamage":  360,
                       "blockingAngle":  55,
-                      "heavySlamRadius":  7,
-                      "stancePolarity":  "vazarin",
+                      "sentinel":  null,
                       "damage":  {
                                      "tau":  0,
                                      "impact":  180,
-                                     "heat":  0,
                                      "gas":  0,
                                      "corrosive":  0,
                                      "electricity":  0,
@@ -145,25 +142,17 @@
                                      "cold":  0,
                                      "cinematic":  0,
                                      "viral":  0,
-                                     "toxin":  0,
+                                     "radiation":  0,
+                                     "healthDrain":  0,
                                      "puncture":  0,
                                      "shieldDrain":  0,
                                      "energyDrain":  0,
-                                     "radiation":  0,
+                                     "heat":  0,
                                      "total":  180,
-                                     "healthDrain":  0,
+                                     "toxin":  0,
                                      "blast":  0,
                                      "void":  0
                                  },
-                      "range":  2.2079918,
-                      "heavyAttackDamage":  900,
-                      "sentinel":  null,
-                      "heavySlamRadialDamage":  540,
-                      "comboDuration":  5,
-                      "slideAttack":  360,
-                      "windUp":  0.5,
-                      "slamRadius":  6,
-                      "slamAttack":  360,
                       "damagePerShot":  [
                                             180,
                                             0,
@@ -186,6 +175,17 @@
                                             0,
                                             0
                                         ],
+                      "range":  2.2079918,
+                      "heavyAttackDamage":  900,
+                      "followThrough":  0.5,
+                      "comboDuration":  5,
+                      "heavySlamRadialDamage":  540,
+                      "stancePolarity":  "vazarin",
+                      "slideAttack":  360,
+                      "windUp":  0.5,
+                      "slamRadius":  6,
+                      "slamAttack":  360,
+                      "heavySlamRadius":  7,
                       "heavySlamAttack":  720
                   },
     "aliases":  [
@@ -199,7 +199,7 @@
     "relationships":  [
 
                       ],
-    "id":  "weapon.shaku",
+    "description":  "With these blazing fast nunchaku, the enemy will never know what hit them.",
     "release":  {
                     "releaseDate":  "2015-12-16",
                     "introduced":  {
